@@ -238,6 +238,7 @@
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
       "observacoes": "COBRAR EXERCÍCIOS 2022 E 2023 QUANDO RECEBER 2024",
+      "temPer": false,
       "exercicios": {
         "2020": "R$ 170,82 - 31/07/2020",
         "2021": "R$ 170,82 - 30/06/2021",
@@ -246,7 +247,7 @@
         "2024": "1.262,37  EM 28/06/2024",
         "2025": "1.396,48 EM 30/09/2025"
       },
-      "temPer": false
+      "historico": []
     },
     {
       "id": "04471326872",
