@@ -108,6 +108,7 @@
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
       "observacoes": "",
+      "temPer": false,
       "exercicios": {
         "2021": "PROCESSADA",
         "2022": "R$ 2.457,74 31/08/2022",
@@ -115,7 +116,7 @@
         "2024": "4.439,67 EM 31/07/2024",
         "2025": "4.707,12 EM 30/09/2025"
       },
-      "temPer": false
+      "historico": []
     },
     {
       "id": "12814865668",
