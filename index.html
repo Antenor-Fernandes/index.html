@@ -6,24 +6,24 @@
 <title>CadastroIR – Gestão de Clientes</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0f1117;--surface:#181c27;--surface2:#1f2435;--border:#2a3048;--accent:#4f8aff;--accent2:#7c5cfc;--green:#22c55e;--yellow:#f59e0b;--red:#ef4444;--orange:#f97316;--cyan:#06b6d4;--text:#e8eaf0;--text2:#8892b0;--text3:#4a5578;--radius:10px;--shadow:0 4px 24px rgba(0,0,0,.4)}
+:root{--bg:#f0f4f9;--surface:#ffffff;--surface2:#eef2f7;--border:#d4dce9;--accent:#2d6be4;--accent2:#6c48d6;--green:#16a34a;--yellow:#d97706;--red:#dc2626;--orange:#ea580c;--cyan:#0891b2;--text:#1a2540;--text2:#4a5980;--text3:#8a97b4;--radius:10px;--shadow:0 2px 16px rgba(45,107,228,.10)}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
 .app{display:flex;height:100vh;overflow:hidden}
 /* SIDEBAR */
-.sidebar{width:220px;background:var(--surface);border-right:1px solid var(--border);display:flex;flex-direction:column;flex-shrink:0}
+.sidebar{width:220px;background:linear-gradient(180deg,#1e3a6e 0%,#1a3260 100%);border-right:none;display:flex;flex-direction:column;flex-shrink:0}
 .logo{padding:22px 18px 14px}
-.logo-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;letter-spacing:-.3px}
-.logo-sub{font-family:'DM Mono',monospace;font-size:10px;color:var(--accent);margin-top:2px;letter-spacing:1px;text-transform:uppercase}
+.logo-title{font-family:'Syne',sans-serif;font-size:17px;font-weight:800;letter-spacing:-.3px;color:#fff}
+.logo-sub{font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.5);margin-top:2px;letter-spacing:1px;text-transform:uppercase}
 .nav{flex:1;padding:8px 10px;display:flex;flex-direction:column;gap:2px}
-.nav-item{display:flex;align-items:center;gap:9px;padding:9px 11px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;color:var(--text2);transition:all .15s;border:none;background:none;width:100%;text-align:left}
-.nav-item:hover{background:var(--surface2);color:var(--text)}
-.nav-item.active{background:rgba(79,138,255,.12);color:var(--accent)}
+.nav-item{display:flex;align-items:center;gap:9px;padding:9px 11px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;color:rgba(255,255,255,.65);transition:all .15s;border:none;background:none;width:100%;text-align:left}
+.nav-item:hover{background:rgba(255,255,255,.1);color:#fff}
+.nav-item.active{background:rgba(255,255,255,.18);color:#fff}
 .nav-icon{font-size:15px;width:18px;text-align:center}
-.sidebar-footer{padding:14px 10px;border-top:1px solid var(--border)}
+.sidebar-footer{padding:14px 10px;border-top:1px solid rgba(255,255,255,.12)}
 .stat-row{display:flex;justify-content:space-between;align-items:center;font-size:12px;padding:2px 4px}
-.stat-label{color:var(--text3)}
-.stat-val{font-family:'DM Mono',monospace;font-weight:500;color:var(--text2);font-size:11px}
+.stat-label{color:rgba(255,255,255,.45)}
+.stat-val{font-family:'DM Mono',monospace;font-weight:500;color:rgba(255,255,255,.72);font-size:11px}
 /* MAIN */
 .main{flex:1;display:flex;flex-direction:column;overflow:hidden}
 .topbar{padding:13px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;background:var(--surface);flex-shrink:0;flex-wrap:wrap}
@@ -33,7 +33,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .search-icon{position:absolute;right:10px;top:50%;transform:translateY(-50%);color:var(--text3);font-size:14px;pointer-events:none}
 .topbar-right{display:flex;gap:7px;margin-left:auto}
 .btn{display:inline-flex;align-items:center;gap:5px;padding:7px 14px;border-radius:8px;font-size:12.5px;font-weight:600;cursor:pointer;transition:all .15s;border:none;font-family:'DM Sans',sans-serif}
-.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:#3a78f0}
+.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:#1a55c8}
 .btn-ghost{background:transparent;color:var(--text2);border:1px solid var(--border)}.btn-ghost:hover{background:var(--surface2);color:var(--text)}
 .btn-sm{padding:4px 10px;font-size:11.5px}
 .btn-danger{background:rgba(239,68,68,.12);color:var(--red);border:1px solid rgba(239,68,68,.25)}.btn-danger:hover{background:rgba(239,68,68,.22)}
@@ -233,7 +233,7 @@ body.readonly .edit-only{display:none!important}
     <div class="topbar-right">
       <span id="gh-status-badge" class="gh-status" style="display:none"></span>
       <span id="readonly-badge" class="readonly-badge" style="display:none">🔒 Modo Consulta</span>
-      <button class="btn btn-ghost edit-only" onclick="openGHConfig()" id="gh-config-btn" title="Configurar GitHub">⚙️</button>
+      <button class="btn btn-ghost" onclick="openGHConfig()" id="gh-config-btn" title="Configurar GitHub">⚙️</button>
       <button class="btn btn-primary edit-only" onclick="openNewClientModal()">＋ Novo Cliente</button>
     </div>
   </div>
@@ -576,9 +576,8 @@ function loadGHCfg(){
 function applyReadOnlyUI(){
   document.body.classList.toggle('readonly',isReadOnly);
   const rb=document.getElementById('readonly-badge');
-  const eb=document.getElementById('gh-config-btn');
   if(rb)rb.style.display=isReadOnly?'flex':'none';
-  if(eb)eb.style.display=isReadOnly?'none':'flex';
+  // ⚙️ sempre visível — necessário para configurar o token
   renderGHStatusBadge();
 }
 function renderGHStatusBadge(){
@@ -678,7 +677,7 @@ async function seedIfEmpty(){
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let allClients=[], allLotes=[], filteredClients=[], currentFilter='TODOS';
-let editingId=null, detailId=null, exEditId=null, exEditYear=null;
+let editingId=null, detailId=null, exEditId=null, exEditYear=null, currentView='lista';
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 async function init(){
@@ -716,6 +715,7 @@ async function init(){
 
 // ── VIEWS ─────────────────────────────────────────────────────────────────────
 function showView(v){
+  currentView=v;
   document.querySelectorAll('[id^=view-]').forEach(el=>el.style.display='none');
   document.querySelectorAll('.nav-item').forEach(el=>el.classList.remove('active'));
   document.getElementById('view-'+v).style.display='block';
@@ -808,6 +808,20 @@ function renderFilterChips(){
   ).join('');
 }
 function setFilter(k){currentFilter=k;renderFilterChips();filterClients()}
+// Atualiza a view ativa após qualquer alteração de dados
+function refreshCurrentView(){
+  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
+  filteredClients=[...allClients];
+  filterClients();
+  renderSidebarStats();
+  renderFilterChips();
+  if(currentView==='detalhe'&&detailId){openDetail(detailId);return;}
+  if(currentView==='malha'){renderMalha();return;}
+  if(currentView==='per'){renderPer();return;}
+  if(currentView==='fila'){renderFila();return;}
+  if(currentView==='impugnacao'){renderImpugnacao();return;}
+  if(currentView==='lotes'){renderLotes();}
+}
 function filterClients(){
   const q=document.getElementById('search-input').value.toLowerCase().trim();
   filteredClients=allClients.filter(c=>{
@@ -1298,7 +1312,7 @@ function openExModal(clientId,year){
   document.getElementById('ex-detalhe').value=st;
   document.getElementById('modal-ex').style.display='flex';
 }
-async function saveExModal(){
+function saveExModal(){
   const c=allClients.find(x=>x.id===exEditId);if(!c)return;
   const yr=exEditYear||document.getElementById('ex-year-disp').value;
   const det=document.getElementById('ex-detalhe').value.trim();
@@ -1307,30 +1321,27 @@ async function saveExModal(){
   const anterior=c.exercicios[yr]||'';
   const novo=det||cat;
   c.exercicios[yr]=novo;
-  // Registra histórico
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:yr,de:anterior,para:novo});
-  await dbPut('clientes',c);
-  allClients=await dbAll('clientes');
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
   document.getElementById('modal-ex').style.display='none';
+  detailId=exEditId;
+  refreshCurrentView();
   showToast('✅ Exercício atualizado','success');
-  openDetail(exEditId);filterClients();renderSidebarStats();
+  dbPut('clientes',c);
   ghSave();
 }
-async function deleteExModal(){
+function deleteExModal(){
   if(!exEditYear)return;
   const c=allClients.find(x=>x.id===exEditId);
   if(!c||!c.exercicios)return;
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:exEditYear,de:c.exercicios[exEditYear],para:'(removido)'});
   delete c.exercicios[exEditYear];
-  await dbPut('clientes',c);
-  allClients=await dbAll('clientes');
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
   document.getElementById('modal-ex').style.display='none';
+  detailId=exEditId;
+  refreshCurrentView();
   showToast('🗑 Exercício removido','success');
-  openDetail(exEditId);filterClients();
+  dbPut('clientes',c);
   ghSave();
 }
 
@@ -1385,7 +1396,7 @@ function addExRow(){
     <input type="text" class="ex-txt" data-year="${yr}" placeholder="Detalhes…">`;
   document.getElementById('ex-grid').prepend(div);
 }
-async function saveClient(){
+function saveClient(){
   const tipo=document.getElementById('f-tipo').value;
   const doc=document.getElementById('f-doc').value.trim();
   const nome=document.getElementById('f-nome').value.trim();
@@ -1398,28 +1409,33 @@ async function saveClient(){
     const txt=row.querySelector('.ex-txt')?.value.trim()||row.querySelector('.ex-cat-sel')?.value||'';
     if(txt)exObj[yr]=txt;
   });
+  // preserva histórico se editando
+  const existing=allClients.find(x=>x.id===id);
   const obj={id,cpfCnpj:doc,tipo,nome,
     acessoEcac:document.getElementById('f-acesso').value,
     senhaGov:document.getElementById('f-senha').value.trim(),
     observacoes:document.getElementById('f-obs').value.trim(),
     temPer:document.getElementById('f-per').value==='true',
-    exercicios:exObj};
-  await dbPut('clientes',obj);
-  allClients=await dbAll('clientes');
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
-  filteredClients=[...allClients];
-  filterClients();renderSidebarStats();closeModal();
+    exercicios:exObj,
+    historico:existing?.historico||[]};
+  // atualiza allClients em memória imediatamente
+  const idx=allClients.findIndex(x=>x.id===id);
+  if(idx>=0)allClients[idx]=obj;else allClients.push(obj);
+  closeModal();
+  if(editingId)detailId=id;
+  refreshCurrentView();
   showToast(editingId?'✅ Cliente atualizado':'✅ Cliente cadastrado','success');
-  if(detailId===id)openDetail(id);
+  dbPut('clientes',obj);
   ghSave();
 }
 async function confirmDelete(id){
   if(!confirm('Excluir este cliente permanentemente?'))return;
-  await dbDelete('clientes',id);
-  allClients=await dbAll('clientes');
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
-  filterClients();renderSidebarStats();showView('lista');
+  allClients=allClients.filter(x=>x.id!==id);
+  detailId=null;
+  showView('lista');
+  refreshCurrentView();
   showToast('🗑 Cliente excluído','success');
+  dbDelete('clientes',id);
   ghSave();
 }
 function closeModal(){document.getElementById('modal-cliente').style.display='none'}
@@ -1528,7 +1544,7 @@ function openQE(clientId, year, evt){
   };
 }
 function closeQE(){document.getElementById('qe-pop').style.display='none';qeClientId=null;qeYear=null;}
-async function saveQE(){
+function saveQE(){
   if(!qeClientId||!qeYear)return;
   const c=allClients.find(x=>x.id===qeClientId);if(!c)return;
   const cat=document.getElementById('qe-cat').value;
@@ -1540,12 +1556,12 @@ async function saveQE(){
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:qeYear,de:anterior,para:novo});
   closeQE();
-  await dbPut('clientes',c);
-  allClients=await dbAll('clientes');
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
-  filterClients();renderSidebarStats();
-  if(detailId===c.id)openDetail(c.id);
+  // c é referência a allClients — dados já atualizados em memória; renderiza imediatamente
+  detailId=c.id;
+  refreshCurrentView();
   showToast('✅ Status atualizado','success');
+  // persiste em background sem bloquear a UI
+  dbPut('clientes',c);
   ghSave();
 }
 // Fecha QE ao clicar fora
