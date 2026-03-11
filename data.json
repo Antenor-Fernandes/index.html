@@ -1085,7 +1085,8 @@
       "nome": "ÂNGELA MARIA BICALHO COELHO MENDES",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
-      "observacoes": "FALTA LAUDO",
+      "observacoes": "",
+      "temPer": false,
       "exercicios": {
         "2021": "MALHA DG - DDA FEITO EM 10/03/2026",
         "2022": "MALHA DG - DDA FEITO EM 10/03/2026",
@@ -1093,7 +1094,6 @@
         "2024": "MALHA DG - DDA FEITO EM 10/03/2026",
         "2025": "DDA ABERTO — DDA FEITO EM 11/03/2026"
       },
-      "temPer": false,
       "historico": [
         {
           "ts": "2026-03-11T17:40:01.417Z",
