@@ -33,7 +33,7 @@
       "senhaGov": "",
       "observacoes": "ENVIAR DARF TODO MÊS - DEZEMBRO OK",
       "exercicios": {
-        "2019": "CÓDIGO DO PARCELAMENTO 274.019.933.273",
+        "2019": "PROCESSADA — CÓDIGO DO PARCELAMENTO 274.019.933.273",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
@@ -41,7 +41,15 @@
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-11T16:41:58.593Z",
+          "exercicio": "2019",
+          "de": "CÓDIGO DO PARCELAMENTO 274.019.933.273",
+          "para": "PROCESSADA — CÓDIGO DO PARCELAMENTO 274.019.933.273"
+        }
+      ]
     },
     {
       "id": "31906273634",
