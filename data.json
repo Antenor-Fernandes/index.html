@@ -6661,9 +6661,16 @@
       "nome": "JUARES GOMES MARTINS",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
-      "observacoes": "",
-      "exercicios": {},
-      "temPer": false
+      "observacoes": "DOENÇA GRAVE. RETIFICAMOS 2022 A 2025, DDA FEITOS EM 11/03/2026",
+      "temPer": false,
+      "exercicios": {
+        "2022": "DDA FEITO EM 11/03/2026",
+        "2023": "DDA FEITO EM 11/03/2026",
+        "2024": "DDA FEITO EM 11/03/2026",
+        "2025": "DDA FEITO EM 11/03/2026",
+        "2026": "NÃO DECLARADA"
+      },
+      "historico": []
     },
     {
       "id": "01157060625",
