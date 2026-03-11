@@ -6667,10 +6667,16 @@
         "2022": "DDA FEITO EM 11/03/2026",
         "2023": "DDA FEITO EM 11/03/2026",
         "2024": "DDA FEITO EM 11/03/2026",
-        "2025": "DDA FEITO EM 11/03/2026",
-        "2026": "NÃO DECLARADA"
+        "2025": "DDA FEITO EM 11/03/2026"
       },
-      "historico": []
+      "historico": [
+        {
+          "ts": "2026-03-11T17:33:41.539Z",
+          "exercicio": "2026",
+          "de": "NÃO DECLARADA",
+          "para": "(removido)"
+        }
+      ]
     },
     {
       "id": "01157060625",
