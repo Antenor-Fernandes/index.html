@@ -217,6 +217,9 @@
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "An998104247#",
       "observacoes": "SENHA GOV.BR An998104247# - FEITO PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 09/01/2025 - 11.854,90 - JÁ É ISENTO NA FORLUZ - NÃO PRECISA MAIS PEDIR RESTITUIÇÃO VIA PROCESSO",
+      "temPer": false,
+      "doencaGrave": true,
+      "temRRA": false,
       "exercicios": {
         "2017": "IMPUGNAR - FALTAM DOCUMENTOS",
         "2018": "PROCESSADA - NÃO TINHA O QUE SER FEITO",
@@ -228,7 +231,7 @@
         "2024": "MALHA DG - DDA FEITO EM 09/01/2025 - 12.095,91",
         "2025": "MALHA DG - DDA FEITO EM 20/01/2026"
       },
-      "temPer": false
+      "historico": []
     },
     {
       "id": "15411125634",
