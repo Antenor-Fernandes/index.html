@@ -191,6 +191,7 @@
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "Adeli@51",
       "observacoes": "PER 2020 A 2023 EM 12/06/2024 - SENHA GOV Adeli@51 - RECEBEU 1 EM 20/09/2024 - FALTAM 3 - RECEBIDOS EM 20/05/2025",
+      "temPer": false,
       "exercicios": {
         "2020": "605,94 EM 28/06/2024",
         "2021": "4.921,13 EM 28/02/2025",
@@ -199,7 +200,7 @@
         "2024": "8.939,16 EM 28/02/2025",
         "2025": "712,23 EM 30/05/2025"
       },
-      "temPer": false
+      "historico": []
     },
     {
       "id": "54579970659",
