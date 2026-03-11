@@ -6687,7 +6687,7 @@
       "senhaGov": "",
       "observacoes": "PER 2018 A 2021 FEITO EM 30/06/2022 RECEBIDOS EM 21/11/2022 - PER 2022 FEITO VIA PROGRAMA EM 09/01/2023 - RECEBIDO EM 15/05/2024",
       "exercicios": {
-        "2018": "R$ 40.234,95 31/08/2022 - RECEBEU PER EM 21/11/2022",
+        "2018": "PROCESSADA — R$ 40.234,95 31/08/2022 - RECEBEU PER EM 21/11/2022",
         "2019": "PROCESSADA — R$ 39.513,74 31/08/2022 - RECEBEU PER EM 21/11/2022",
         "2020": "PROCESSADA — R$ 39.677,87 31/08/2022 - RECEBEU PER EM 21/11/2022",
         "2021": "PROCESSADA — R$ 41.973,17 31/08/2022 - RECEBEU PER EM 21/11/2022",
@@ -6698,6 +6698,12 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-11T17:34:55.822Z",
+          "exercicio": "2018",
+          "de": "R$ 40.234,95 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "para": "PROCESSADA — R$ 40.234,95 31/08/2022 - RECEBEU PER EM 21/11/2022"
+        },
         {
           "ts": "2026-03-11T17:34:52.075Z",
           "exercicio": "2019",
