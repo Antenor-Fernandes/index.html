@@ -1308,8 +1308,11 @@ function openExModal(clientId,year){
   document.getElementById('ex-year-disp').disabled=true;
   document.getElementById('ex-year-disp').value=year;
   const cats=['PROCESSADA','EM MALHA','DDA ABERTO','TRANSMITIDA','EM FILA DE RESTITUIÇÃO','PERDCOMP','IMPUGNAÇÃO','AGUARDANDO','NÃO DECLARADA','OUTRO'];
-  document.getElementById('ex-cat').value=cats.find(c2=>st.toUpperCase().startsWith(c2))||'OUTRO';
-  document.getElementById('ex-detalhe').value=st;
+  const catMatch=cats.find(c2=>st.toUpperCase().startsWith(c2))||'OUTRO';
+  document.getElementById('ex-cat').value=catMatch;
+  // mostra só o detalhe (sem repetir a categoria)
+  const detPart=catMatch!=='OUTRO'?st.slice(catMatch.length).replace(/^\s*[\-—]\s*/,'').trim():st;
+  document.getElementById('ex-detalhe').value=detPart;
   document.getElementById('modal-ex').style.display='flex';
 }
 function saveExModal(){
@@ -1319,7 +1322,7 @@ function saveExModal(){
   const cat=document.getElementById('ex-cat').value;
   if(!c.exercicios)c.exercicios={};
   const anterior=c.exercicios[yr]||'';
-  const novo=det||cat;
+  const novo=det?`${cat} — ${det}`:cat;
   c.exercicios[yr]=novo;
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:yr,de:anterior,para:novo});
@@ -1527,8 +1530,11 @@ function openQE(clientId, year, evt){
   const dot=document.getElementById('qe-dot');
   dot.className=`status-dot dot-${cat.cls}`;
   const cats=['PROCESSADA','EM MALHA','DDA ABERTO','TRANSMITIDA','EM FILA DE RESTITUIÇÃO','PERDCOMP','IMPUGNAÇÃO','AGUARDANDO','NÃO DECLARADA','OUTRO'];
-  document.getElementById('qe-cat').value=cats.find(c2=>st.toUpperCase().startsWith(c2))||'OUTRO';
-  document.getElementById('qe-detalhe').value=st;
+  const qeCatMatch=cats.find(c2=>st.toUpperCase().startsWith(c2))||'OUTRO';
+  document.getElementById('qe-cat').value=qeCatMatch;
+  // mostra só o detalhe (sem repetir a categoria)
+  const qeDetPart=qeCatMatch!=='OUTRO'?st.slice(qeCatMatch.length).replace(/^\s*[\-—]\s*/,'').trim():st;
+  document.getElementById('qe-detalhe').value=qeDetPart;
   // Posiciona próximo ao clique
   const pop=document.getElementById('qe-pop');
   pop.style.display='block';
@@ -1551,7 +1557,7 @@ function saveQE(){
   const det=document.getElementById('qe-detalhe').value.trim();
   if(!c.exercicios)c.exercicios={};
   const anterior=c.exercicios[qeYear]||'';
-  const novo=det||cat;
+  const novo=det?`${cat} — ${det}`:cat;
   c.exercicios[qeYear]=novo;
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:qeYear,de:anterior,para:novo});
