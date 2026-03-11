@@ -1091,10 +1091,16 @@
         "2022": "MALHA DG - DDA FEITO EM 10/03/2026",
         "2023": "MALHA DG - DDA FEITO EM 10/03/2026",
         "2024": "MALHA DG - DDA FEITO EM 10/03/2026",
-        "2025": "OUTRO — DDA FEITO EM 11/03/2026"
+        "2025": "DDA ABERTO — DDA FEITO EM 11/03/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-11T17:40:01.417Z",
+          "exercicio": "2025",
+          "de": "OUTRO — DDA FEITO EM 11/03/2026",
+          "para": "DDA ABERTO — DDA FEITO EM 11/03/2026"
+        },
         {
           "ts": "2026-03-11T17:39:40.421Z",
           "exercicio": "2025",
