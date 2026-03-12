@@ -2911,11 +2911,23 @@
       "doencaGrave": false,
       "temRRA": true,
       "exercicios": {
-        "2025": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2026"
+        "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2026"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:00:49.365Z",
+          "exercicio": "2025",
+          "de": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2026",
+          "para": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2026"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "22/01/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
