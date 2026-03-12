@@ -3781,13 +3781,24 @@
       "cpfCnpj": "445.968.986-34",
       "tipo": "PF",
       "nome": "DIVINO LUIZ DE MENEZES FILHO",
+      "telefone": "(31) 99618-1409",
+      "email": "DIVINO_FILHO@HOTMAIL.COM",
+      "endereco": "ALAMEDA MONTE ROSA, 240, VILA ALPINA, NOVA LIMA/MG, CEP 34.007-280",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "OBS INCLUIR A ESPOSA COMO DEPENDENTE EM 2024 - FAZER 2026 - TEM RRA",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2020": "26.367,69 29/10/2021"
+        "2020": "EM PROCESSAMENTO — 26.367,69 29/10/2021"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "06807784627",
