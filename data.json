@@ -14389,8 +14389,17 @@
       "temPer": false,
       "doencaGrave": false,
       "temRRA": true,
-      "exercicios": {},
-      "historico": [],
+      "exercicios": {
+        "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-12T19:24:29.670Z",
+          "exercicio": "2025",
+          "de": "",
+          "para": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO"
+        }
+      ],
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
