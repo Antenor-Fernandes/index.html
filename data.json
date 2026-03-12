@@ -14833,17 +14833,7 @@
     {
       "data": "31/03/2026",
       "descricao": "",
-      "pagamentos": [
-        {
-          "clienteId": "10458794600",
-          "cpfCnpj": "104.587.946-00",
-          "nome": "ACIR BENEDITO ANTÃO",
-          "porExercicio": {
-            "2024": 0.01
-          },
-          "total": 0.01
-        }
-      ]
+      "pagamentos": []
     },
     {
       "data": "27/02/2026",
