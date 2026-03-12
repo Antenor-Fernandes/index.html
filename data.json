@@ -1603,8 +1603,20 @@
       "exercicios": {
         "2022": "PROCESSADA — 16.359,50 EM 30/09/2024"
       },
-      "historico": [],
-      "recebimentos": {},
+      "historico": [
+        {
+          "ts": "2026-03-12T18:53:42.419Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 16.359,50 EM 30/09/2024",
+          "para": "PROCESSADA — 16.359,50 EM 30/09/2024"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "30/09/2024",
+          "valor": 16359.5
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "perdcomps": []
