@@ -7451,9 +7451,25 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2025": "3.944,35 EM 30/05/2025"
+        "2025": "PROCESSADA — 3.944,35 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T19:11:21.561Z",
+          "exercicio": "2025",
+          "de": "3.944,35 EM 30/05/2025",
+          "para": "PROCESSADA — 3.944,35 EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 3944.35
+        }
+      },
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "46255516687",
