@@ -4668,13 +4668,24 @@
       "cpfCnpj": "248.170.316-20",
       "tipo": "PF",
       "nome": "EULINA SOARES SOUZA DE OLIVEIRA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2025": "MALHA RRA - DDA FEITO EM 27/02/2026"
+        "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 27/02/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "67183026604",
