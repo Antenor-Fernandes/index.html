@@ -14557,7 +14557,7 @@
       "exercicios": {
         "2020": "10.074,61 EM 30/04/2020",
         "2021": "3.210,20 - 31/05/2021",
-        "2022": "7.441,51 EM 31/05/2024",
+        "2022": "PROCESSADA — 7.441,51 EM 31/05/2024",
         "2023": "MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 17/02/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
@@ -14565,6 +14565,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:34:05.059Z",
+          "exercicio": "2022",
+          "de": "7.441,51 EM 31/05/2024",
+          "para": "PROCESSADA — 7.441,51 EM 31/05/2024"
+        },
         {
           "ts": "2026-03-12T17:33:39.499Z",
           "exercicio": "2024",
@@ -14578,7 +14584,12 @@
           "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/05/2024",
+          "valor": 7441.51
+        }
+      },
       "dda": {}
     },
     {
