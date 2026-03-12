@@ -17,6 +17,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-12T11:20:56.931Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE"
+        },
+        {
           "ts": "2026-03-12T11:20:21.640Z",
           "exercicio": "2024",
           "de": "EM MALHA — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE",
@@ -29,7 +35,12 @@
           "para": "EM MALHA — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE"
         }
       ],
-      "recebimentos": {}
+      "recebimentos": {
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 0.01
+        }
+      }
     },
     {
       "id": "27647005634",
@@ -14821,7 +14832,17 @@
     {
       "data": "31/03/2026",
       "descricao": "",
-      "pagamentos": []
+      "pagamentos": [
+        {
+          "clienteId": "10458794600",
+          "cpfCnpj": "104.587.946-00",
+          "nome": "ACIR BENEDITO ANTÃO",
+          "porExercicio": {
+            "2024": 0.01
+          },
+          "total": 0.01
+        }
+      ]
     },
     {
       "data": "27/02/2026",
