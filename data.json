@@ -15248,7 +15248,7 @@
         "2018": "R$ 1.385,87 - 30/09/2020 (teve compensação)",
         "2019": "R$ 3.687,19 - 30/09/2020",
         "2020": "4.004,94 EM 30/04/2021",
-        "2021": "EM PROCESSAMENTO — 5.316,35 EM 28/02/2023",
+        "2021": "PROCESSADA — 5.316,35 EM 28/02/2023",
         "2022": "PROCESSADA — 6.005,99 EM 28/02/2023",
         "2023": "PROCESSADA — 7.753,52 EM 30/04/2024",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 05/02/2025",
@@ -15257,6 +15257,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:39:07.839Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — 5.316,35 EM 28/02/2023",
+          "para": "PROCESSADA — 5.316,35 EM 28/02/2023"
+        },
         {
           "ts": "2026-03-12T17:39:03.023Z",
           "exercicio": "2022",
