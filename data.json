@@ -7304,12 +7304,18 @@
         "2021": "5.326,02 EM 30/04/2024",
         "2022": "5.666,24 EM 30/04/2024",
         "2023": "6.537,20 EM 30/04/2024",
-        "2024": "7.989,07 EM 28/06/2024",
+        "2024": "PROCESSADA — 7.989,07 EM 28/06/2024",
         "2025": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS PARA INFORMAR ISENÇÃO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:14:27.981Z",
+          "exercicio": "2024",
+          "de": "7.989,07 EM 28/06/2024",
+          "para": "PROCESSADA — 7.989,07 EM 28/06/2024"
+        },
         {
           "ts": "2026-03-12T17:14:08.318Z",
           "exercicio": "2025",
@@ -7317,7 +7323,12 @@
           "para": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS PARA INFORMAR ISENÇÃO"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/06/2024",
+          "valor": 7989.07
+        }
+      },
       "dda": {}
     },
     {
