@@ -252,7 +252,7 @@
         "2017": "OUTRO — IMPUGNAR - FALTAM DOCUMENTOS",
         "2018": "PROCESSADA — NÃO TINHA O QUE SER FEITO",
         "2019": "OUTRO — 50.922,43 VIA PROCESSO EM 12/12/2022",
-        "2020": "OUTRO — 17.307,17 VIA PROCESSO EM 12/12/2022",
+        "2020": "PROCESSADA — 17.307,17 VIA PROCESSO EM 12/12/2022",
         "2021": "PROCESSADA — 18.114,75 VIA PROCESSO EM 12/12/2022",
         "2022": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 30/09/2022 - RECEBEU E ACERTOU OS HONORÁRIOS",
         "2023": "DDA ABERTO — MALHA DG - DDA FEITO EM 09/01/2024",
@@ -260,6 +260,12 @@
         "2025": "DDA ABERTO — MALHA DG - DDA FEITO EM 20/01/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T15:40:52.328Z",
+          "exercicio": "2020",
+          "de": "OUTRO — 17.307,17 VIA PROCESSO EM 12/12/2022",
+          "para": "PROCESSADA — 17.307,17 VIA PROCESSO EM 12/12/2022"
+        },
         {
           "ts": "2026-03-12T15:40:20.640Z",
           "exercicio": "2021",
