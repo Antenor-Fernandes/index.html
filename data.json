@@ -10071,11 +10071,17 @@
       "observacoes": "",
       "exercicios": {
         "2020": "ATENDEMOS INTIMAÇÃO DA MALHA",
-        "2021": "ATENDEMOS INTIMAÇÃO DA MALHA",
+        "2021": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA",
         "2022": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-12T19:37:42.169Z",
+          "exercicio": "2021",
+          "de": "ATENDEMOS INTIMAÇÃO DA MALHA",
+          "para": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA"
+        },
         {
           "ts": "2026-03-12T19:37:38.141Z",
           "exercicio": "2022",
