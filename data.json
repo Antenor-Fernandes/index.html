@@ -3155,7 +3155,7 @@
       "observacoes": "PER 2020 A 2024 FEITOS EM 24/02/2025 RECEBIDOS EM 21/11/2025 - PER 2025 FEITO EM 27/01/2026 - aguardando ordem bancária processo final 2025-41, pedido de prioridade no chat feito em 19/11. ultimo andamento em 16/11 foi para a equipe de execução de direito creditório",
       "exercicios": {
         "2019": "MALHA DG - DDA FEITO EM 24/02/2025 - TEVE NL REDUZINDO DE 14 PARA 9MIL",
-        "2020": "1.542,12 EM 31/03/2025",
+        "2020": "PROCESSADA — 1.542,12 EM 31/03/2025",
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 24/02/2025 - 790,09 EM 30/04/2025",
         "2022": "PROCESSADA — 561,07 EM 31/03/2025",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 21/02/2025 - 1.120,09 EM 30/04/2025",
@@ -3165,6 +3165,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:06:41.278Z",
+          "exercicio": "2020",
+          "de": "1.542,12 EM 31/03/2025",
+          "para": "PROCESSADA — 1.542,12 EM 31/03/2025"
+        },
         {
           "ts": "2026-03-12T17:06:23.296Z",
           "exercicio": "2021",
@@ -3197,6 +3203,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/03/2025",
+          "valor": 1542.12
+        },
         "2021": {
           "data": "30/04/2025",
           "valor": 790.09
