@@ -1380,9 +1380,15 @@
         "2022": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
         "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
-        "2025": "DDA ABERTO — DDA FEITO EM 11/03/2026"
+        "2025": "EM FILA DE RESTITUIÇÃO — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T16:50:54.526Z",
+          "exercicio": "2025",
+          "de": "DDA ABERTO — DDA FEITO EM 11/03/2026",
+          "para": "EM FILA DE RESTITUIÇÃO — DDA FEITO EM 11/03/2026"
+        },
         {
           "ts": "2026-03-12T16:50:45.767Z",
           "exercicio": "2024",
