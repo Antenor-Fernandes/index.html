@@ -10195,13 +10195,24 @@
       "cpfCnpj": "069.491.448-73",
       "tipo": "PF",
       "nome": "MARIA ANGÉLICA PICOLI ERVILHA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "PER 2020 FEITO EM 20/01/2025",
+      "temPer": true,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
         "2020": "PROCESSADA"
       },
-      "temPer": true
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "57888116604",
