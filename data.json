@@ -289,9 +289,17 @@
         "2022": "MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL",
         "2023": "MALHA DG - DDA FEITO EM 23/10/2025",
         "2024": "MALHA DG - DDA FEITO EM 23/10/2025",
-        "2025": "19.652,64 EM 31/10/2025"
+        "2025": "EM MALHA — 19.652,64 EM 31/10/2025"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-12T10:35:54.914Z",
+          "exercicio": "2025",
+          "de": "19.652,64 EM 31/10/2025",
+          "para": "EM MALHA — 19.652,64 EM 31/10/2025"
+        }
+      ]
     },
     {
       "id": "82924481600",
