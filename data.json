@@ -13061,7 +13061,7 @@
       "observacoes": "PER EXERCÍCIO 2020 FEITO EM 03/12/2024 - PER 2021 FEITO EM 07/08/2025 E RECEBIDO EM 20/01/2026- PERDCOMP 2022 FEITO EM 10/09/2025 - PER 2025 FEITO EM 10/09/2025",
       "exercicios": {
         "2020": "MALHA RRA - DDA FEITO EM 21/10/2022",
-        "2021": "29.947,40 EM 30/09/2025",
+        "2021": "PROCESSADA — 29.947,40 EM 30/09/2025",
         "2022": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023",
         "2023": "CLIENTE QUE FEZ",
         "2024": "PROCESSADA",
@@ -13069,6 +13069,12 @@
       },
       "temPer": true,
       "historico": [
+        {
+          "ts": "2026-03-12T19:19:01.022Z",
+          "exercicio": "2021",
+          "de": "29.947,40 EM 30/09/2025",
+          "para": "PROCESSADA — 29.947,40 EM 30/09/2025"
+        },
         {
           "ts": "2026-03-12T19:18:40.622Z",
           "exercicio": "2022",
@@ -13083,6 +13089,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/09/2025",
+          "valor": 29947.4
+        },
         "2025": {
           "data": "30/09/2025",
           "valor": 2360.34
