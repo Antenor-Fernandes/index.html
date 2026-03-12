@@ -417,7 +417,7 @@
       "observacoes": "PER 2022, 2023 2024 E 2025 FEITOS EM 23/10/2025 - PROCESSO 13031.498082/2025-61 PEDINDO PRIORIDADE NA ALÁLISE DOS PER - RECEBEU 1 EM 20/02/2026",
       "exercicios": {
         "2021": "29.631,89 EM 28/11/2025",
-        "2022": "MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL",
+        "2022": "EM MALHA — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL",
         "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
         "2025": "PROCESSADA"
@@ -443,6 +443,12 @@
         }
       ],
       "historico": [
+        {
+          "ts": "2026-03-12T16:16:48.009Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL"
+        },
         {
           "ts": "2026-03-12T16:16:15.462Z",
           "exercicio": "2023",
