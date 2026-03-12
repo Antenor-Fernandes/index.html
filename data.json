@@ -14603,13 +14603,19 @@
         "2020": "PROCESSADA — 10.074,61 EM 30/04/2020",
         "2021": "PROCESSADA — 3.210,20 - 31/05/2021",
         "2022": "PROCESSADA — 7.441,51 EM 31/05/2024",
-        "2023": "MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025",
+        "2023": "EM MALHA — MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 17/02/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:46:02.645Z",
+          "exercicio": "2023",
+          "de": "MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025",
+          "para": "EM MALHA — MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025"
+        },
         {
           "ts": "2026-03-12T17:34:44.943Z",
           "exercicio": "2020",
@@ -14655,7 +14661,12 @@
           "valor": 7441.51
         }
       },
-      "dda": {}
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "01/02/2024"
+        }
+      }
     },
     {
       "id": "02701020603",
