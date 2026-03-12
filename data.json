@@ -16512,11 +16512,23 @@
       "doencaGrave": false,
       "temRRA": true,
       "exercicios": {
-        "2024": "EM PROCESSAMENTO — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025"
+        "2024": "EM MALHA — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:26:19.430Z",
+          "exercicio": "2024",
+          "de": "EM PROCESSAMENTO — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025",
+          "para": "EM MALHA — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "04/09/2025"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
