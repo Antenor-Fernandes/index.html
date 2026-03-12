@@ -4681,9 +4681,21 @@
       "exercicios": {
         "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 27/02/2026"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:08:27.671Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA RRA - DDA FEITO EM 27/02/2026",
+          "para": "EM MALHA — MALHA RRA - DDA FEITO EM 27/02/2026"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "27/02/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
