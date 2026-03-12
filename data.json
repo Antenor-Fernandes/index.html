@@ -10106,13 +10106,24 @@
       "cpfCnpj": "730.601.436-68",
       "tipo": "PF",
       "nome": "MARGARIDA BARRETO DE ALMEIDA",
-      "acessoEcac": "cois@ch@t@",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2024": "MALHA  RRA - DDA FEITO EM 03/02/2025"
+        "2024": "EM PROCESSAMENTO — MALHA  RRA - DDA FEITO EM 03/02/2025"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "37470434615",
