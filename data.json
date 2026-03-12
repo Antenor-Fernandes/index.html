@@ -312,10 +312,16 @@
         "2021": "PROCESSADA — 18.114,75 VIA PROCESSO EM 12/12/2022",
         "2022": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 30/09/2022 - RECEBEU E ACERTOU OS HONORÁRIOS",
         "2023": "EM MALHA — MALHA DG",
-        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 09/01/2025 - 12.095,91",
+        "2024": "EM MALHA — MALHA DG",
         "2025": "EM MALHA — MALHA DG"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T18:02:38.548Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 09/01/2025 - 12.095,91",
+          "para": "EM MALHA — MALHA DG"
+        },
         {
           "ts": "2026-03-12T18:02:24.405Z",
           "exercicio": "2023",
