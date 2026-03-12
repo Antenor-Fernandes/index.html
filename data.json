@@ -7695,9 +7695,24 @@
         "2022": "TIRAMOS DA LISTA BLOQUEIO - EM FILA - 249,12 EM 28/11/2025",
         "2023": "TIRAMOS DA LISTA BLOQUEIO - EM FILA - 452,39 EM 28/11/2025",
         "2024": "TIRAMOS DA LISTA BLOQUEIO - EM FILA - 612,43 EM 28/11/2025",
-        "2025": "TIRAMOS DA LISTA BLOQUEIO - EM FILA - 802,18 EM 28/11/2025"
+        "2025": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 802,18 EM 28/11/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T17:42:18.258Z",
+          "exercicio": "2025",
+          "de": "TIRAMOS DA LISTA BLOQUEIO - EM FILA - 802,18 EM 28/11/2025",
+          "para": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 802,18 EM 28/11/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "28/11/2025",
+          "valor": 802.18
+        }
+      },
+      "dda": {}
     },
     {
       "id": "55147607668",
