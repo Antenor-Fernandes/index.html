@@ -1600,10 +1600,14 @@
       "temPer": false,
       "doencaGrave": false,
       "temRRA": true,
-      "exercicios": {
-        "2022": "PROCESSADA — 16.359,50 EM 30/09/2024"
-      },
+      "exercicios": {},
       "historico": [
+        {
+          "ts": "2026-03-12T18:54:48.605Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 16.359,50 EM 30/09/2024",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-12T18:53:42.419Z",
           "exercicio": "2022",
