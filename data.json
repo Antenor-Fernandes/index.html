@@ -14789,7 +14789,7 @@
         "2018": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
         "2019": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
         "2021": "MALHA DG - DDA FEITO EM 10/06/2025 - em processamento",
-        "2022": "3.247,44 EM 31/10/2025",
+        "2022": "PROCESSADA — 3.247,44 EM 31/10/2025",
         "2023": "PROCESSADA — 1.742,11 EM 31/10/2025",
         "2024": "PROCESSADA — 3.286,06 EM 31/10/2025",
         "2025": "PROCESSADA — 4.195,35 EM 31/10/2025"
@@ -14797,6 +14797,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:36:45.901Z",
+          "exercicio": "2022",
+          "de": "3.247,44 EM 31/10/2025",
+          "para": "PROCESSADA — 3.247,44 EM 31/10/2025"
+        },
         {
           "ts": "2026-03-12T17:36:22.929Z",
           "exercicio": "2023",
@@ -14817,6 +14823,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2025",
+          "valor": 3247.44
+        },
         "2023": {
           "data": "31/10/2025",
           "valor": 1742.11
