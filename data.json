@@ -17,6 +17,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-12T15:46:32.543Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE",
+          "para": "EM MALHA — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE"
+        },
+        {
           "ts": "2026-03-12T11:22:24.900Z",
           "exercicio": "2024",
           "de": "EM FILA DE RESTITUIÇÃO — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE",
@@ -41,7 +47,13 @@
           "para": "EM MALHA — MALHA PENSÃO E OMISSÃO SEPLAG - DDA ABERTO PELO CLIENTE - JUNTAMOS PEÇAS PROCESSUAIS EM 28/08/2025 - INTIMAÇÃO COMPLEMENTAR - EDITAL LIDO EM 09/03/2025 E REPASSADO AO CLIENTE"
         }
       ],
-      "recebimentos": {}
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": ""
+        }
+      }
     },
     {
       "id": "27647005634",
