@@ -8815,16 +8815,27 @@
       "cpfCnpj": "098.242.876-63",
       "tipo": "PF",
       "nome": "LÍVIA XAVIER CASCIMIRO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "RRA 2025 30% DO PROVEITO ECONÔMICO",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2022": "R$ 6.109,52 31/08/2022",
+        "2022": "EM PROCESSAMENTO — R$ 6.109,52 31/08/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "DDA FEITO EM 22/01/2026"
+        "2025": "EM PROCESSAMENTO — DDA FEITO EM 22/01/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "20313284687",
