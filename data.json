@@ -14375,6 +14375,28 @@
       "temPer": false
     },
     {
+      "id": "14416280610",
+      "cpfCnpj": "144.162.806-10",
+      "tipo": "PF",
+      "nome": "ROGÉRIO DA CUNHA MAURÍCIO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
+      "acessoEcac": "",
+      "senhaGov": "",
+      "situacao": "",
+      "observacoes": "FAZER 2026 - TEM RRA RECEBIDO EM 2025",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
+      "exercicios": {},
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
+    },
+    {
       "id": "14004720672",
       "cpfCnpj": "140.047.206-72",
       "tipo": "PF",
