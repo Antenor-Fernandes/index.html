@@ -6171,9 +6171,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2025": "RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE"
+        "2025": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T17:13:35.081Z",
+          "exercicio": "2025",
+          "de": "RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE",
+          "para": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {}
     },
     {
       "id": "12247243649",
