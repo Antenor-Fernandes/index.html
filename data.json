@@ -14101,7 +14101,7 @@
       "observacoes": "tem um processo em andamento na DRJ da notificação de lançamento de 2020, esse fizemos a solicitação de juntada do Laudo - processo protocolado em 16/01 - 13074.722372/2025-35 - PEDIDO DE REVISÃO DE DÉBITO EXERCÍCIO 2019 FEITO EM 06/08/2025 DEFERIDO - PER 2021 A 2024 FEITOS EM 03/02/2026 - NÃO PAGOU ORIGINAL DE 2025",
       "exercicios": {
         "2019": "PEDIDO DE REVISÃO DEFERIDO - DÉBITO CANCELADO",
-        "2020": "juntada de novo laudo feita no processo final 2025-35 referente a impugnação de lançamento em relação a 2020 - DEFERIDO PARCIALMENTE",
+        "2020": "EM FILA DE RESTITUIÇÃO — juntada de novo laudo feita no processo final 2025-35 referente a impugnação de lançamento em relação a 2020 - DEFERIDO PARCIALMENTE",
         "2021": "IMPUGNAÇÃO — EM 03/06/2025 - FAZER PER SE DEFERIDA - PEDIDO DE RECONSIDERAÇÃO FEITO EM 26/08/2025 - JUNTADO NOVO LAUDO EM 29/09/2025 - DEFERIDO - 23.414,39 EM 20/01/2026",
         "2022": "PROCESSADA — EM 03/06/2025 - FAZER PER SE DEFERIDA - PEDIDO DE RECONSIDERAÇÃO FEITO EM 26/08/2025 - JUNTADO NOVO LAUDO EM 29/09/2025 - DEFERIDO - 18.941,39 EM 20/01/2026",
         "2023": "PROCESSADA — EM 03/06/2025 - FAZER PER SE DEFERIDA - PEDIDO DE RECONSIDERAÇÃO FEITO EM 26/08/2025 - JUNTADO NOVO LAUDO EM 29/09/2025 - DEFERIDO - 11.937,32 EM 20/01/2026",
@@ -14111,6 +14111,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:32:53.583Z",
+          "exercicio": "2020",
+          "de": "juntada de novo laudo feita no processo final 2025-35 referente a impugnação de lançamento em relação a 2020 - DEFERIDO PARCIALMENTE",
+          "para": "EM FILA DE RESTITUIÇÃO — juntada de novo laudo feita no processo final 2025-35 referente a impugnação de lançamento em relação a 2020 - DEFERIDO PARCIALMENTE"
+        },
         {
           "ts": "2026-03-12T17:32:37.461Z",
           "exercicio": "2021",
