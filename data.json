@@ -13605,14 +13605,25 @@
       "cpfCnpj": "220.770.906-00",
       "tipo": "PF",
       "nome": "RAFAEL GERALDO DA SILVA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2024": "cliente  fez. Vamos fazer 2025 (rra)",
-        "2025": "MALHA RRA - DDA FEITO EM 22/01/2025"
+        "2024": "EM PROCESSAMENTO — cliente  fez. Vamos fazer 2025 (rra)",
+        "2025": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2025"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "00695327615",
