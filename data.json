@@ -323,7 +323,17 @@
         "observacoes": "",
         "dataRecebimento": "",
         "valorRecebido": 0
-      }
+      },
+      "perdcomps": [
+        {
+          "numero": "",
+          "valorPedido": 0,
+          "dataTransmissao": "",
+          "observacoes": "",
+          "dataRecebimento": "",
+          "valorRecebido": 0
+        }
+      ]
     },
     {
       "id": "82924481600",
