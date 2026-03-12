@@ -444,6 +444,12 @@
       ],
       "historico": [
         {
+          "ts": "2026-03-12T16:32:13.309Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025"
+        },
+        {
           "ts": "2026-03-12T16:29:20.269Z",
           "exercicio": "2021",
           "de": "EM PROCESSAMENTO — 29.631,89 EM 28/11/2025",
