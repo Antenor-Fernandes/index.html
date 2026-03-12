@@ -9097,9 +9097,19 @@
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
         "2024": "PROCESSADA",
-        "2025": "TRANSMITIDA"
+        "2025": "EM FILA DE RESTITUIÇÃO"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T17:17:22.908Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "EM FILA DE RESTITUIÇÃO"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {}
     },
     {
       "id": "26502585604",
