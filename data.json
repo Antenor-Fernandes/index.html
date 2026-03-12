@@ -3970,10 +3970,25 @@
         "2022": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2023": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2024": "MALHA DG - DDA FEITO EM 16/01/2025",
-        "2025": "21,62 EM 30/05/2025"
+        "2025": "PROCESSADA — 21,62 EM 30/05/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-12T17:08:14.214Z",
+          "exercicio": "2025",
+          "de": "21,62 EM 30/05/2025",
+          "para": "PROCESSADA — 21,62 EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 21.62
+        }
+      },
+      "dda": {}
     },
     {
       "id": "49092278653",
