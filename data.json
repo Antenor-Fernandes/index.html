@@ -1429,11 +1429,22 @@
       "cpfCnpj": "005.835.916-80",
       "tipo": "PF",
       "nome": "ANDERSON GOMES DA ASSUNÇÃO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "NÃO FEZ CONTRATO",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {},
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "66677270653",
