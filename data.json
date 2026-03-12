@@ -695,7 +695,7 @@
         "2018": "IMPUGNAMOS - DDA FEITO EM 25/01/2022 - RECUSAMOS COMPENSAÇÃO DE OFÍCIO EM 20/09/2022 VIA JUNTADA NO PROCESSO",
         "2019": "IMPUGNAMOS - DDA FEITO EM 25/01/2022",
         "2020": "IMPUGNAMOS - DDA FEITO EM 25/01/2022",
-        "2021": "3.495,01 EM 31/05/2023",
+        "2021": "PROCESSADA — 3.495,01 EM 31/05/2023",
         "2022": "PROCESSADA — 4.471,36 EM 31/05/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 04/03/2024",
         "2024": "CLIENTE RETIFICOU A ORIGINAL QUE NÓS FIZEMOS"
@@ -703,6 +703,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T18:05:51.956Z",
+          "exercicio": "2021",
+          "de": "3.495,01 EM 31/05/2023",
+          "para": "PROCESSADA — 3.495,01 EM 31/05/2023"
+        },
         {
           "ts": "2026-03-12T18:05:36.311Z",
           "exercicio": "2022",
@@ -717,6 +723,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/05/2023",
+          "valor": 3495.01
+        },
         "2022": {
           "data": "31/05/2023",
           "valor": 4471.36
