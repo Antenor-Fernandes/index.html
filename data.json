@@ -11438,9 +11438,21 @@
       "exercicios": {
         "2025": "EM MALHA — MALHA RRA E DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:15:28.243Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA RRA E DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026",
+          "para": "EM MALHA — MALHA RRA E DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "26/01/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
