@@ -691,7 +691,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2017": "IMPUGNAÇÃO PROCEDENTE - RECUSAMOS COMPENSAÇÃO DE OFÍCIO EM 20/09/2022 VIA JUNTADA NO PROCESSO",
+        "2017": "PROCESSADA — PROCEDENTE - RECUSAMOS COMPENSAÇÃO DE OFÍCIO EM 20/09/2022 VIA JUNTADA NO PROCESSO",
         "2018": "PROCESSADA — IMPUGNAMOS - DDA FEITO EM 25/01/2022 - RECUSAMOS COMPENSAÇÃO DE OFÍCIO EM 20/09/2022 VIA JUNTADA NO PROCESSO",
         "2019": "PROCESSADA — IMPUGNAMOS - DDA FEITO EM 25/01/2022",
         "2020": "PROCESSADA — IMPUGNAMOS - DDA FEITO EM 25/01/2022",
@@ -703,6 +703,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T18:06:42.265Z",
+          "exercicio": "2017",
+          "de": "IMPUGNAÇÃO PROCEDENTE - RECUSAMOS COMPENSAÇÃO DE OFÍCIO EM 20/09/2022 VIA JUNTADA NO PROCESSO",
+          "para": "PROCESSADA — PROCEDENTE - RECUSAMOS COMPENSAÇÃO DE OFÍCIO EM 20/09/2022 VIA JUNTADA NO PROCESSO"
+        },
         {
           "ts": "2026-03-12T18:06:35.814Z",
           "exercicio": "2018",
