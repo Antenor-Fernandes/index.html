@@ -2534,19 +2534,6 @@
       "temPer": false
     },
     {
-      "id": "57572461620",
-      "cpfCnpj": "575.724.616-20",
-      "tipo": "PF",
-      "nome": "BRUNO CASTRO MACIEL",
-      "acessoEcac": "bcmL0107##",
-      "senhaGov": "bcmL0107##",
-      "observacoes": "SENHA GOV.BR bcmL0107##",
-      "exercicios": {
-        "2022": "2.369,56 EM 31/10/2024"
-      },
-      "temPer": false
-    },
-    {
       "id": "10522528694",
       "cpfCnpj": "105.225.286-94",
       "tipo": "PF",
