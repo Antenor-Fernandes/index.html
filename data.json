@@ -1586,46 +1586,6 @@
       "dda": {}
     },
     {
-      "id": "22159649600",
-      "cpfCnpj": "221.596.496-00",
-      "tipo": "PF",
-      "nome": "ÂNGELA MARIA CARNEIRO DE ABREU ROCHA",
-      "telefone": "",
-      "email": "",
-      "endereco": "",
-      "acessoEcac": "CERT DIG TGC",
-      "senhaGov": "",
-      "situacao": "",
-      "observacoes": "",
-      "temPer": false,
-      "doencaGrave": false,
-      "temRRA": true,
-      "exercicios": {},
-      "historico": [
-        {
-          "ts": "2026-03-12T18:54:48.605Z",
-          "exercicio": "2022",
-          "de": "PROCESSADA — 16.359,50 EM 30/09/2024",
-          "para": "(removido)"
-        },
-        {
-          "ts": "2026-03-12T18:53:42.419Z",
-          "exercicio": "2022",
-          "de": "PROCESSADA — 16.359,50 EM 30/09/2024",
-          "para": "PROCESSADA — 16.359,50 EM 30/09/2024"
-        }
-      ],
-      "recebimentos": {
-        "2022": {
-          "data": "30/09/2024",
-          "valor": 16359.5
-        }
-      },
-      "dda": {},
-      "impugnacoes": {},
-      "perdcomps": []
-    },
-    {
       "id": "44121580630",
       "cpfCnpj": "441.215.806-30",
       "tipo": "PF",
