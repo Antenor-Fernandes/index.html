@@ -5428,18 +5428,29 @@
       "cpfCnpj": "121.337.366-20",
       "tipo": "PF",
       "nome": "GERALDO FERREIRA PALHARES",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": true,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2020": "APRESENTAMOS DOCUMENTAÇÃO INTIMAÇÃO COMPLEMENTAR - NÃO FOMOS NÓS QUE FIZEMOS O DDA",
-        "2021": "PROCESSADA - REDUÇÃO DO IMPOSTO A PAGAR - PERWEB FEITO EM 05/04/2022 - CRÉDITO RECONHECIDO - COMPENSAÇÃO DE OFÍCIO - ACOMPANHAR PAGAMENTO DO PER",
-        "2022": "MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
+        "2020": "EM PROCESSAMENTO — APRESENTAMOS DOCUMENTAÇÃO INTIMAÇÃO COMPLEMENTAR - NÃO FOMOS NÓS QUE FIZEMOS O DDA",
+        "2021": "PROCESSADA — REDUÇÃO DO IMPOSTO A PAGAR - PERWEB FEITO EM 05/04/2022 - CRÉDITO RECONHECIDO - COMPENSAÇÃO DE OFÍCIO - ACOMPANHAR PAGAMENTO DO PER",
+        "2022": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": true
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "45072485668",
