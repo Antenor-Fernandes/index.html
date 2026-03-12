@@ -419,7 +419,7 @@
         "2021": "29.631,89 EM 28/11/2025",
         "2022": "MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL",
         "2023": "MALHA DG - DDA FEITO EM 23/10/2025",
-        "2024": "MALHA DG - DDA FEITO EM 23/10/2025",
+        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
         "2025": "PROCESSADA"
       },
       "temPer": true,
@@ -443,6 +443,12 @@
         }
       ],
       "historico": [
+        {
+          "ts": "2026-03-12T16:11:40.537Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 23/10/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025"
+        },
         {
           "ts": "2026-03-12T16:11:26.066Z",
           "exercicio": "2025",
