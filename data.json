@@ -13616,10 +13616,15 @@
       "doencaGrave": false,
       "temRRA": true,
       "exercicios": {
-        "2024": "EM PROCESSAMENTO — cliente  fez. Vamos fazer 2025 (rra)",
         "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T19:21:16.954Z",
+          "exercicio": "2024",
+          "de": "EM PROCESSAMENTO — cliente  fez. Vamos fazer 2025 (rra)",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-12T19:20:50.127Z",
           "exercicio": "2025",
