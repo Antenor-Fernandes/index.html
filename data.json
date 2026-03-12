@@ -10109,7 +10109,7 @@
       "observacoes": "SENHA GOV.BR Mvrm1937*",
       "exercicios": {
         "2019": "PERDCOMP 15/04/2020 - 7.930,91",
-        "2020": "R$ 269,18 EM 30/12/2020",
+        "2020": "PROCESSADA — R$ 269,18 EM 30/12/2020",
         "2021": "PROCESSADA — 420,30 - 30/12/2021",
         "2022": "PROCESSADA — 69,95 EM 31/05/2024",
         "2023": "PROCESSADA — 2.241,32 EM 31/05/2024",
@@ -10118,6 +10118,12 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-12T19:40:03.619Z",
+          "exercicio": "2020",
+          "de": "R$ 269,18 EM 30/12/2020",
+          "para": "PROCESSADA — R$ 269,18 EM 30/12/2020"
+        },
         {
           "ts": "2026-03-12T19:39:42.257Z",
           "exercicio": "2021",
@@ -10150,6 +10156,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/12/2020",
+          "valor": 269.18
+        },
         "2021": {
           "data": "30/12/2021",
           "valor": 420.3
@@ -31579,6 +31589,21 @@
             "2020": 38257.87
           },
           "total": 129968.4
+        }
+      ]
+    },
+    {
+      "data": "30/12/2020",
+      "descricao": "Lote 30/12/2020",
+      "pagamentos": [
+        {
+          "clienteId": "00871389649",
+          "cpfCnpj": "008.713.896-49",
+          "nome": "MARCUS VINÍCIUS RIOS MEYER",
+          "porExercicio": {
+            "2020": 269.18
+          },
+          "total": 269.18
         }
       ]
     },
