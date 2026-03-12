@@ -915,7 +915,7 @@
       "observacoes": "",
       "temPer": true,
       "doencaGrave": false,
-      "temRRA": false,
+      "temRRA": true,
       "exercicios": {
         "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2026"
       },
