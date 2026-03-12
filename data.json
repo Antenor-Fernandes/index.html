@@ -7694,11 +7694,17 @@
       "exercicios": {
         "2022": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 249,12 EM 28/11/2025",
         "2023": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 452,39 EM 28/11/2025",
-        "2024": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 612,43 EM 28/11/2025",
+        "2024": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO",
         "2025": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-12T17:58:16.549Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 612,43 EM 28/11/2025",
+          "para": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO"
+        },
         {
           "ts": "2026-03-12T17:58:11.315Z",
           "exercicio": "2025",
