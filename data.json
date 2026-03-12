@@ -4620,14 +4620,25 @@
       "cpfCnpj": "093.599.586-20",
       "tipo": "PF",
       "nome": "EULER DE FIGUEIREDO SANTOS",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "dirpf 2025 JÁ PAGOU 400 em 10/04/2025",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2024": "MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
-        "2025": "5.467,46  EM 30/05/2025"
+        "2024": "EM MALHA — MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
+        "2025": "PROCESSADA — 5.467,46  EM 30/05/2025"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "24817031620",
