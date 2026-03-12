@@ -68,6 +68,7 @@ td{padding:10px 14px;font-size:13px}
 .badge-dda{background:rgba(249,115,22,.12);color:var(--orange)}
 .badge-fila{background:rgba(34,197,94,.14);color:var(--green)}
 .badge-impugnacao{background:rgba(236,72,153,.12);color:#ec4899}
+.badge-impugnar{background:rgba(234,88,12,.12);color:var(--orange)}
 .badge-outro{background:rgba(100,116,139,.12);color:#64748b}
 .badge-processamento{background:rgba(99,102,241,.12);color:#6366f1}
 .badge-tmanual{background:rgba(168,85,247,.12);color:#a855f7}
@@ -81,6 +82,7 @@ td{padding:10px 14px;font-size:13px}
 .dot-transmitida{background:var(--cyan)}
 .dot-fila{background:var(--green)}
 .dot-impugnacao{background:#ec4899}
+.dot-impugnar{background:var(--orange)}
 .dot-dda{background:var(--orange)}
 .dot-outro{background:#64748b}
 .status-dots{display:inline-flex;align-items:center;gap:2px;margin-right:6px;vertical-align:middle}
@@ -414,13 +416,15 @@ body.readonly .edit-only{display:none!important}
     <div class="form-row">
       <div class="form-group"><label>Exercício</label><input type="text" id="ex-year-disp"></div>
       <div class="form-group"><label>Categoria</label>
-        <select id="ex-cat" onchange="toggleExDdaBox()">
+        <select id="ex-cat" onchange="toggleExCatBoxes()">
           <option value="EM PROCESSAMENTO">🔄 Em Processamento</option>
           <option value="TRANSMITIDA">🔵 Transmitida</option>
           <option value="EM MALHA">🔴 Em Malha</option>
           <option value="EM FILA DE RESTITUIÇÃO">🟢 Em Fila de Restituição</option>
           <option value="PROCESSADA">✅ Processada</option>
           <option value="TRABALHO MANUAL RFB">⚙️ Trabalho Manual pela RFB</option>
+          <option value="IMPUGNAÇÃO">⚖️ Impugnação</option>
+          <option value="IMPUGNAR">🟠 Impugnar</option>
         </select></div>
     </div>
     <div class="form-group"><label>Detalhes</label>
@@ -448,6 +452,11 @@ body.readonly .edit-only{display:none!important}
         <input type="text" id="ex-dda-data" placeholder="dd/mm/aaaa" maxlength="10" oninput="maskDate(this)"
           style="display:block;width:100%;margin-top:4px;background:var(--surface);border:1px solid rgba(234,88,12,.35);border-radius:7px;padding:7px 10px;font-size:12.5px;color:var(--text);font-family:'DM Sans',sans-serif;outline:none;box-sizing:border-box">
       </div>
+    </div>
+    <div id="ex-impug-box" style="display:none;margin-top:10px;background:rgba(236,72,153,.06);border:1px solid rgba(236,72,153,.3);border-radius:9px;padding:12px">
+      <label style="color:#ec4899;font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.5px">⚖️ Data da Impugnação</label>
+      <input type="text" id="ex-impug-data" placeholder="dd/mm/aaaa" maxlength="10" oninput="maskDate(this)"
+        style="display:block;width:100%;margin-top:6px;background:var(--surface);border:1px solid rgba(236,72,153,.35);border-radius:7px;padding:7px 10px;font-size:12.5px;color:var(--text);font-family:'DM Sans',sans-serif;outline:none;box-sizing:border-box">
     </div>
   </div>
   <div class="modal-foot">
@@ -787,6 +796,7 @@ function classifyStatus(s){
   if(u.startsWith('PERDCOMP')||u.startsWith('PARCELA'))return{cls:'per',label:'PERDCOMP'};
   if(u.startsWith('TRANSMIT'))return{cls:'transmitida',label:'Transmitida'};
   if(u.startsWith('EM FILA'))return{cls:'fila',label:'Em Fila'};
+  if(u.startsWith('IMPUGNAR'))return{cls:'impugnar',label:'Impugnar'};
   if(u.startsWith('IMPUGN'))return{cls:'impugnacao',label:'Impugnação'};
   if(u.startsWith('DDA'))return{cls:'dda',label:'DDA'};
   if(u.startsWith('AGUARD'))return{cls:'outro',label:'Aguardando'};
@@ -805,7 +815,7 @@ function fmtBRL(v){
   return'R$ '+Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
 }
 function initials(nome){return nome.split(' ').slice(0,2).map(w=>w[0]).join('')}
-const STATUS_LABELS={processada:'Processada',processamento:'Em Processamento',tmanual:'Trab. Manual RFB',malha:'Em Malha',per:'PERDCOMP',transmitida:'Transmitida',fila:'Em Fila de Restituição',impugnacao:'Impugnação',dda:'DDA Aberto',outro:'Outro'};
+const STATUS_LABELS={processada:'Processada',processamento:'Em Processamento',tmanual:'Trab. Manual RFB',malha:'Em Malha',per:'PERDCOMP',transmitida:'Transmitida',fila:'Em Fila de Restituição',impugnacao:'Impugnação',impugnar:'Impugnar',dda:'DDA Aberto',outro:'Outro'};
 function statusDots(c){
   // Ponto vermelho apenas se houver exercício em malha SEM c.dda[yr].feito=true
   if(!c.exercicios)return'';
@@ -854,6 +864,8 @@ function renderFilterChips(){
     {key:'PROCESSADA',label:'Processadas',cls:'',dot:'processada'},
     {key:'TMANUAL',label:'Trab. Manual RFB',cls:'',dot:'tmanual'},
     {key:'PER',label:'PERDCOMP',cls:'per-chip',dot:'per'},
+    {key:'IMPUGNACAO',label:'Impugnação',cls:'',dot:'impugnacao'},
+    {key:'IMPUGNAR',label:'Impugnar',cls:'',dot:'impugnar'},
     {key:'DOENCA',label:'🩺 Doença Grave',cls:'dg-chip',dot:''},
     {key:'RRA',label:'📄 RRA',cls:'rra-chip',dot:''},
   ];
@@ -884,16 +896,16 @@ function filterClients(){
     if(currentFilter==='TODOS')return true;
     if(currentFilter==='PF'||currentFilter==='PJ')return c.tipo===currentFilter;
     if(currentFilter==='PER')return c.temPer;
-    const le=getLastEx(c);
-    if(!le)return false;
-    const cat=classifyStatus(le.status);
-    if(currentFilter==='PROCESSAMENTO')return cat.cls==='processamento';
-    if(currentFilter==='TRANSMITIDA')return cat.cls==='transmitida';
-    if(currentFilter==='MALHA')return cat.cls==='malha';
-    if(currentFilter==='FILA')return cat.cls==='fila';
-    if(currentFilter==='PROCESSADA')return cat.cls==='processada';
-    if(currentFilter==='TMANUAL')return cat.cls==='tmanual';
-    if(currentFilter==='IMPUGNACAO')return cat.cls==='impugnacao';
+    const allCls=Object.values(c.exercicios||{}).map(st=>classifyStatus(st).cls);
+    const hasAny=cls=>allCls.includes(cls);
+    if(currentFilter==='PROCESSAMENTO')return hasAny('processamento');
+    if(currentFilter==='TRANSMITIDA')return hasAny('transmitida');
+    if(currentFilter==='MALHA')return hasAny('malha');
+    if(currentFilter==='FILA')return hasAny('fila');
+    if(currentFilter==='PROCESSADA')return hasAny('processada');
+    if(currentFilter==='TMANUAL')return hasAny('tmanual');
+    if(currentFilter==='IMPUGNACAO')return hasAny('impugnacao');
+    if(currentFilter==='IMPUGNAR')return hasAny('impugnar');
     if(currentFilter==='DOENCA')return c.doencaGrave;
     if(currentFilter==='RRA')return c.temRRA;
     return true;
@@ -1122,7 +1134,7 @@ function renderImpugnacao(){
   const impugClients=allClients.filter(c=>{
     if(q&&!c.nome.toLowerCase().includes(q)&&!c.cpfCnpj.includes(q))return false;
     if(!c.exercicios)return false;
-    return Object.values(c.exercicios).some(v=>v.toUpperCase().includes('IMPUGN'));
+    return Object.values(c.exercicios).some(v=>classifyStatus(v).cls==='impugnacao');
   });
   document.getElementById('impugnacao-count').textContent=impugClients.length+' clientes';
   if(!impugClients.length){
@@ -1130,7 +1142,7 @@ function renderImpugnacao(){
     return;
   }
   document.getElementById('impugnacao-list').innerHTML=impugClients.map(c=>{
-    const impugExs=Object.entries(c.exercicios||{}).filter(([yr,st])=>st.toUpperCase().includes('IMPUGN')).sort((a,b)=>b[0]-a[0]);
+    const impugExs=Object.entries(c.exercicios||{}).filter(([yr,st])=>classifyStatus(st).cls==='impugnacao').sort((a,b)=>b[0]-a[0]);
     return`<div class="impug-panel">
       <div class="impug-panel-hd" onclick="openDetail('${c.id}')">
         <span class="badge badge-impugnacao">Impugnação</span>
@@ -1138,7 +1150,7 @@ function renderImpugnacao(){
           <span style="font-weight:600;font-size:13.5px">${c.nome}</span>
           <span class="malha-doc" style="margin-left:10px">${c.cpfCnpj}</span>
         </div>
-        <span style="margin-left:auto;font-size:12px;color:var(--text3)">${impugExs.map(([yr,st])=>`${yr}: ${st.length>50?st.slice(0,50)+'…':st}`).join(' | ')}</span>
+        <span style="margin-left:auto;font-size:12px;color:var(--text3)">${impugExs.map(([yr,st])=>{const d=c.impugnacoes?.[yr]?.data;return`${yr}${d?': '+d:''}`}).join(' | ')}</span>
       </div>
     </div>`;
   }).join('');
@@ -1514,12 +1526,13 @@ function openDetail(id){
           const editBtn=!isReadOnly?`<button class="btn btn-ghost btn-sm edit-only" onclick="openExModal('${c.id}','${yr}')">✏️</button>`:'';
           const qeBtn=!isReadOnly?`<button class="btn btn-primary btn-sm edit-only" onclick="openQE('${c.id}','${yr}',{clientX:200,clientY:200})" title="Edição rápida">⚡</button>`:'';
           const rec=c.recebimentos?.[yr];
-          const recInfo=rec&&rec.data?`<div style="display:inline-flex;align-items:center;gap:6px;margin-top:5px;font-size:11.5px;color:var(--green);font-family:'DM Mono',monospace;font-weight:600"><span>📅 ${rec.data}</span>${rec.valor?`<span>💰 ${rec.valor.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`:''}  </div>`:'';
+          const impugDate=c.impugnacoes?.[yr]?.data;
+          const recInfo=rec&&rec.data?`<div style="display:inline-flex;align-items:center;gap:6px;margin-top:5px;font-size:11.5px;color:var(--green);font-family:'DM Mono',monospace;font-weight:600"><span>📅 ${rec.data}</span>${rec.valor?`<span>💰 ${rec.valor.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`:''}  </div>`:'';const impugInfo=impugDate?`<div style="margin-top:4px;font-size:11.5px;color:#ec4899;font-weight:600">⚖️ Impugn. em ${impugDate}</div>`:'';;
           return`<div class="ex-item">
             <div class="ex-item-year">${yr}</div>
             <div><span class="badge badge-${cat.cls}" style="margin-bottom:4px">${cat.label}</span>
-              <div class="ex-item-status">${(()=>{const cats2=['EM PROCESSAMENTO','PROCESSADA','EM MALHA','TRABALHO MANUAL RFB','DDA ABERTO','TRANSMITIDA','EM FILA DE RESTITUIÇÃO','PERDCOMP','IMPUGNAÇÃO','AGUARDANDO','NÃO DECLARADA','OUTRO'];const cm=cats2.find(o=>st.toUpperCase().startsWith(o));return cm?st.slice(cm.length).replace(/^\s*[\-\u2014]\s*/,'').trim():st;})()}</div>
-              ${recInfo}</div>
+              <div class="ex-item-status">${(()=>{const cats2=['EM PROCESSAMENTO','PROCESSADA','EM MALHA','TRABALHO MANUAL RFB','TRANSMITIDA','EM FILA DE RESTITUIÇÃO','PERDCOMP','IMPUGNAÇÃO','IMPUGNAR','AGUARDANDO','NÃO DECLARADA','OUTRO'];const cm=cats2.find(o=>st.toUpperCase().startsWith(o));return cm?st.slice(cm.length).replace(/^\s*[\-\u2014]\s*/,'').trim():st;})()}</div>
+              ${recInfo}${impugInfo}</div>
             <div style="display:flex;gap:5px">${qeBtn}${editBtn}</div>
           </div>`;
         }).join('')}
@@ -1554,6 +1567,9 @@ function clearExRecFields(){
   document.getElementById('ex-dda-data').value='';
   document.getElementById('ex-dda-data-row').style.display='none';
   document.getElementById('ex-dda-box').style.display='none';
+  document.getElementById('ex-impug-box').style.display='none';
+  const impugData=document.getElementById('ex-impug-data');
+  if(impugData)impugData.value='';
 }
 function openAddEx(clientId){
   exEditId=clientId;exEditYear=null;
@@ -1572,7 +1588,7 @@ function openExModal(clientId,year){
   document.getElementById('ex-modal-title').textContent=`Exercício ${year}`;
   document.getElementById('ex-year-disp').disabled=true;
   document.getElementById('ex-year-disp').value=year;
-  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','DDA ABERTO','PERDCOMP','IMPUGNAÇÃO','AGUARDANDO','NÃO DECLARADA','OUTRO'];
+  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','PERDCOMP','AGUARDANDO','NÃO DECLARADA','OUTRO'];
   const catMatch=cats.find(c2=>st.toUpperCase().startsWith(c2))||'EM PROCESSAMENTO';
   const sel=document.getElementById('ex-cat');
   if(!Array.from(sel.options).find(o=>o.value===catMatch)){
@@ -1594,16 +1610,27 @@ function openExModal(clientId,year){
   document.getElementById('ex-dda-feito').checked=!!(dda.feito);
   document.getElementById('ex-dda-data-row').style.display=dda.feito?'block':'none';
   document.getElementById('ex-dda-data').value=dda.data||'';
+  // Carregar impugnação (apenas para IMPUGNAÇÃO)
+  const isImpug=catMatch==='IMPUGNAÇÃO';
+  const impug=c?.impugnacoes?.[year]||{};
+  document.getElementById('ex-impug-box').style.display=isImpug?'block':'none';
+  document.getElementById('ex-impug-data').value=impug.data||'';
   document.getElementById('modal-ex').style.display='flex';
 }
-function toggleExDdaBox(){
+function toggleExDdaBox(){toggleExCatBoxes();}
+function toggleExCatBoxes(){
   const cat=document.getElementById('ex-cat').value;
-  const box=document.getElementById('ex-dda-box');
-  box.style.display=cat==='EM MALHA'?'block':'none';
+  const ddaBox=document.getElementById('ex-dda-box');
+  const impugBox=document.getElementById('ex-impug-box');
+  ddaBox.style.display=cat==='EM MALHA'?'block':'none';
+  impugBox.style.display=cat==='IMPUGNAÇÃO'?'block':'none';
   if(cat!=='EM MALHA'){
     document.getElementById('ex-dda-feito').checked=false;
     document.getElementById('ex-dda-data').value='';
     document.getElementById('ex-dda-data-row').style.display='none';
+  }
+  if(cat!=='IMPUGNAÇÃO'){
+    document.getElementById('ex-impug-data').value='';
   }
 }
 function toggleExDdaData(){
@@ -1643,6 +1670,15 @@ async function saveExModal(){
     }
   }else{
     delete c.dda[yr];
+  }
+  // Salva Impugnação
+  if(!c.impugnacoes)c.impugnacoes={};
+  if(cat==='IMPUGNAÇÃO'){
+    const impugData=document.getElementById('ex-impug-data').value.trim();
+    if(impugData){c.impugnacoes[yr]={data:impugData};}
+    else{delete c.impugnacoes[yr];}
+  }else{
+    delete c.impugnacoes[yr];
   }
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
@@ -1687,6 +1723,7 @@ async function deleteExModal(){
   c.historico.unshift({ts:new Date().toISOString(),exercicio:exEditYear,de:c.exercicios[exEditYear],para:'(removido)'});
   delete c.exercicios[exEditYear];
   if(c.dda)delete c.dda[exEditYear]; // remove DDA associado
+  if(c.impugnacoes)delete c.impugnacoes[exEditYear]; // remove impugnação associada
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
   refreshCurrentView();
@@ -1738,8 +1775,8 @@ function openEdit(id){
   document.getElementById('modal-cliente').style.display='flex';
 }
 function renderExGrid(exObj){
-  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB'];
-  const catsLegacy=['DDA ABERTO','PERDCOMP','IMPUGNAÇÃO','AGUARDANDO','NÃO DECLARADA','OUTRO'];
+  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR'];
+  const catsLegacy=['DDA ABERTO','PERDCOMP','AGUARDANDO','NÃO DECLARADA','OUTRO'];
   const allCats=[...cats,...catsLegacy];
   document.getElementById('ex-grid').innerHTML=Object.entries(exObj).sort((a,b)=>b[0]-a[0]).map(([yr,st])=>{
     const catMatch=allCats.find(o=>st.toUpperCase().startsWith(o))||'EM PROCESSAMENTO';
@@ -1757,7 +1794,7 @@ function renderExGrid(exObj){
 function addExRow(){
   const yr=document.getElementById('ex-new-year').value;
   if(document.querySelector(`.ex-row[data-year="${yr}"]`)){showToast('Exercício já adicionado','error');return}
-  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB'];
+  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR'];
   const div=document.createElement('div');div.className='ex-row';div.dataset.year=yr;
   div.innerHTML=`<div class="ex-year-lbl">${yr}</div>
     <select class="ex-cat-sel" data-year="${yr}">${cats.map(o=>`<option value="${o}">${o}</option>`).join('')}</select>
@@ -1796,6 +1833,7 @@ async function saveClient(){
     historico:existing?.historico||[],
     recebimentos:existing?.recebimentos||{},  // preserva recebimentos
     dda:existing?.dda||{},                    // preserva dados DDA por exercício
+    impugnacoes:existing?.impugnacoes||{},     // preserva datas de impugnação
     perdcomps:existing?.perdcomps||[]};        // preserva PERDCOMPs
   // Remove campo legado perdcomp se existir
   if(existing?.perdcomp&&!(existing?.perdcomps?.length))obj.perdcomps=getPerdcomps(existing);
@@ -1955,7 +1993,7 @@ function openQE(clientId, year, evt){
   document.getElementById('qe-title').textContent=`${c.nome} · ${year}`;
   const dot=document.getElementById('qe-dot');
   dot.className=`status-dot dot-${cat.cls}`;
-  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','DDA ABERTO','PERDCOMP','IMPUGNAÇÃO','AGUARDANDO','NÃO DECLARADA','OUTRO'];
+  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','PERDCOMP','AGUARDANDO','NÃO DECLARADA','OUTRO'];
   const qeCatMatch=cats.find(c2=>st.toUpperCase().startsWith(c2))||'EM PROCESSAMENTO';
   // garante que a opção existe no select (compatibilidade com valores legados)
   const qeSel=document.getElementById('qe-cat');
