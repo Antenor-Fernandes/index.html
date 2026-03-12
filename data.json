@@ -4636,6 +4636,12 @@
       },
       "historico": [
         {
+          "ts": "2026-03-12T19:07:12.298Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
+          "para": "EM MALHA — MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025"
+        },
+        {
           "ts": "2026-03-12T19:06:58.914Z",
           "exercicio": "2025",
           "de": "PROCESSADA — 5.467,46  EM 30/05/2025",
@@ -4648,7 +4654,12 @@
           "valor": 5467.46
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "28/01/2025"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
