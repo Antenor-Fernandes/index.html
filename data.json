@@ -9696,12 +9696,18 @@
         "2021": "MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 5.185,78",
         "2022": "MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 6.095,84",
         "2023": "MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 7.766,39",
-        "2024": "MALHA DG - DDA FEITO EM 24/01/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 24/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:25:47.548Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 24/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 24/01/2025"
+        },
         {
           "ts": "2026-03-12T17:25:35.971Z",
           "exercicio": "2025",
@@ -9711,6 +9717,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": ""
+        },
         "2025": {
           "feito": true,
           "data": ""
