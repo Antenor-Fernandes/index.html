@@ -5775,7 +5775,7 @@
       "exercicios": {
         "2020": "PEDIDO PROCEDENTE - CANCELAMENTO DO DÉBITO E IMPOSTO A RESTITUIR - EM TRATAMENTO MANUAL",
         "2021": "8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
-        "2022": "9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
+        "2022": "EM MALHA — 9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2023": "EM MALHA — 6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2024": "EM MALHA — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO"
@@ -5783,6 +5783,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:12:46.340Z",
+          "exercicio": "2022",
+          "de": "9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "para": "EM MALHA — 9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026"
+        },
         {
           "ts": "2026-03-12T17:12:38.975Z",
           "exercicio": "2023",
@@ -5804,6 +5810,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2022": {
+          "feito": true,
+          "data": ""
+        },
         "2023": {
           "feito": true,
           "data": ""
