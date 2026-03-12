@@ -416,7 +416,7 @@
       "senhaGov": "",
       "observacoes": "PER 2022, 2023 2024 E 2025 FEITOS EM 23/10/2025 - PROCESSO 13031.498082/2025-61 PEDINDO PRIORIDADE NA ALÁLISE DOS PER - RECEBEU 1 EM 20/02/2026",
       "exercicios": {
-        "2021": "29.631,89 EM 28/11/2025",
+        "2021": "EM PROCESSAMENTO — 29.631,89 EM 28/11/2025",
         "2022": "EM MALHA — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL",
         "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
@@ -443,6 +443,12 @@
         }
       ],
       "historico": [
+        {
+          "ts": "2026-03-12T16:29:10.508Z",
+          "exercicio": "2021",
+          "de": "29.631,89 EM 28/11/2025",
+          "para": "EM PROCESSAMENTO — 29.631,89 EM 28/11/2025"
+        },
         {
           "ts": "2026-03-12T16:17:53.372Z",
           "exercicio": "2024",
@@ -481,6 +487,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "28/11/2025",
+          "valor": 29631.89
+        },
         "2025": {
           "data": "31/10/2025",
           "valor": 19652.64
