@@ -8826,12 +8826,18 @@
       "doencaGrave": false,
       "temRRA": true,
       "exercicios": {
-        "2022": "EM PROCESSAMENTO — R$ 6.109,52 31/08/2022",
+        "2022": "PROCESSADA — R$ 6.109,52 31/08/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "EM MALHA — DDA FEITO EM 22/01/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T19:12:32.241Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — R$ 6.109,52 31/08/2022",
+          "para": "PROCESSADA — R$ 6.109,52 31/08/2022"
+        },
         {
           "ts": "2026-03-12T19:12:08.703Z",
           "exercicio": "2025",
@@ -8839,7 +8845,12 @@
           "para": "EM MALHA — DDA FEITO EM 22/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/08/2022",
+          "valor": 6109.52
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
