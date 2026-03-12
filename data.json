@@ -5777,12 +5777,18 @@
         "2021": "8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2022": "9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2023": "6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
-        "2024": "MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+        "2024": "EM MALHA — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:12:30.828Z",
+          "exercicio": "2024",
+          "de": "MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "para": "EM MALHA — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026"
+        },
         {
           "ts": "2026-03-12T17:12:16.662Z",
           "exercicio": "2025",
@@ -5791,7 +5797,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {}
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": ""
+        }
+      }
     },
     {
       "id": "97346896734",
