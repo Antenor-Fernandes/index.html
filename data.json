@@ -3968,13 +3968,19 @@
         "2020": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024 - IMPUGNAMOS EM 16/01/2025",
         "2021": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2022": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
-        "2023": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+        "2023": "PROCESSADA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "PROCESSADA — 21,62 EM 30/05/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:10:27.490Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+          "para": "PROCESSADA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025"
+        },
         {
           "ts": "2026-03-12T17:08:20.115Z",
           "exercicio": "2024",
@@ -3989,6 +3995,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "20/05/2025",
+          "valor": 65029.27
+        },
         "2025": {
           "data": "30/05/2025",
           "valor": 21.62
@@ -18620,6 +18630,21 @@
           "porExercicio": {
             "2025": 13139.05
           }
+        }
+      ]
+    },
+    {
+      "data": "20/05/2025",
+      "descricao": "Lote 20/05/2025",
+      "pagamentos": [
+        {
+          "clienteId": "11280697172",
+          "cpfCnpj": "112.806.971-72",
+          "nome": "ELIANE MARIA DE CASTRO ROCHA",
+          "porExercicio": {
+            "2023": 65029.27
+          },
+          "total": 65029.27
         }
       ]
     },
