@@ -1713,10 +1713,25 @@
         "2021": "PROCESSADA",
         "2022": "R$ 1.597,95 29/07/2022",
         "2023": "1.712,95 EM 31/01/2024",
-        "2024": "MALHA DESP. MÉD. TIT. E DEP. - DDA FEITO EM 14/01/2025",
+        "2024": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP. - DDA FEITO EM 14/01/2025 - ATENDIMENTO À INTIMAÇÃO EM 12/03/2026",
         "2025": "MALHA DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T18:25:26.922Z",
+          "exercicio": "2024",
+          "de": "MALHA DESP. MÉD. TIT. E DEP. - DDA FEITO EM 14/01/2025",
+          "para": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP. - DDA FEITO EM 14/01/2025 - ATENDIMENTO À INTIMAÇÃO EM 12/03/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "14/01/2025"
+        }
+      }
     },
     {
       "id": "35926929687",
