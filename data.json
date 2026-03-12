@@ -8829,11 +8829,23 @@
         "2022": "EM PROCESSAMENTO — R$ 6.109,52 31/08/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "EM PROCESSAMENTO — DDA FEITO EM 22/01/2026"
+        "2025": "EM MALHA — DDA FEITO EM 22/01/2026"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:12:08.703Z",
+          "exercicio": "2025",
+          "de": "EM PROCESSAMENTO — DDA FEITO EM 22/01/2026",
+          "para": "EM MALHA — DDA FEITO EM 22/01/2026"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "22/01/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
