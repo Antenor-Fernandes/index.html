@@ -7692,13 +7692,19 @@
       "senhaGov": "",
       "observacoes": "RECUPERAÇÃO DE CRÉDITO IRPF - ACOMPANHAR PROCESSO QUE ELA ABRIU - FIZEMOS OS PER DAS GUIAS DO PARCELAMENTO QUE FOI REVISTO PELA RF",
       "exercicios": {
-        "2022": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 249,12 EM 28/11/2025",
+        "2022": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO",
         "2023": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO",
         "2024": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO",
         "2025": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-12T17:58:37.051Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 249,12 EM 28/11/2025",
+          "para": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO"
+        },
         {
           "ts": "2026-03-12T17:58:29.822Z",
           "exercicio": "2023",
