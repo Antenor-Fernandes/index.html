@@ -2655,7 +2655,7 @@
       "temRRA": false,
       "exercicios": {
         "2018": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
-        "2019": "EM PROCESSAMENTO — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
+        "2019": "PROCESSADA — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
         "2020": "PROCESSADA — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
         "2021": "PROCESSADA — 36.096,64 EM 31/01/2023",
         "2022": "PROCESSADA — 8.903,43 EM 28/03/2024",
@@ -2664,6 +2664,12 @@
         "2025": "PROCESSADA"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T18:57:50.942Z",
+          "exercicio": "2019",
+          "de": "EM PROCESSAMENTO — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
+          "para": "PROCESSADA — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER"
+        },
         {
           "ts": "2026-03-12T18:57:25.020Z",
           "exercicio": "2020",
@@ -2690,6 +2696,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "29/01/2021",
+          "valor": 49999.54
+        },
         "2020": {
           "data": "29/01/2021",
           "valor": 38257.87
@@ -30868,9 +30878,10 @@
           "cpfCnpj": "199.931.886-20",
           "nome": "CARLOS ALBERTO SCOLARI MIRANDA",
           "porExercicio": {
+            "2019": 49999.54,
             "2020": 38257.87
           },
-          "total": 38257.87
+          "total": 88257.41
         }
       ]
     },
