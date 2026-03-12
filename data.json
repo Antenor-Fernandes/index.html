@@ -1377,12 +1377,18 @@
       "temPer": false,
       "exercicios": {
         "2021": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
-        "2022": "MALHA DG - DDA FEITO EM 10/03/2026",
+        "2022": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
         "2023": "MALHA DG - DDA FEITO EM 10/03/2026",
         "2024": "MALHA DG - DDA FEITO EM 10/03/2026",
         "2025": "DDA ABERTO — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T16:50:35.966Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 10/03/2026",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026"
+        },
         {
           "ts": "2026-03-12T16:50:31.605Z",
           "exercicio": "2021",
