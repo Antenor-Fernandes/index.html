@@ -321,8 +321,8 @@
         "valorPedido": 0,
         "dataTransmissao": "",
         "observacoes": "",
-        "dataRecebimento": "31/03/2026",
-        "valorRecebido": 0.01
+        "dataRecebimento": "",
+        "valorRecebido": 0
       }
     },
     {
