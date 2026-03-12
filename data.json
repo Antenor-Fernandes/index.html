@@ -10072,9 +10072,20 @@
       "exercicios": {
         "2020": "ATENDEMOS INTIMAÇÃO DA MALHA",
         "2021": "ATENDEMOS INTIMAÇÃO DA MALHA",
-        "2022": "ATENDEMOS INTIMAÇÃO DA MALHA"
+        "2022": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T19:37:38.141Z",
+          "exercicio": "2022",
+          "de": "ATENDEMOS INTIMAÇÃO DA MALHA",
+          "para": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "00871389649",
