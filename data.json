@@ -2658,12 +2658,18 @@
         "2019": "EM PROCESSAMENTO — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
         "2020": "EM PROCESSAMENTO — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
         "2021": "EM PROCESSAMENTO — 36.096,64 EM 31/01/2023",
-        "2022": "EM PROCESSAMENTO — 8.903,43 EM 28/03/2024",
+        "2022": "PROCESSADA — 8.903,43 EM 28/03/2024",
         "2023": "EM MALHA — MALHA DG - RRA - DDA FEITO EM 25/01/2024",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T18:56:47.034Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — 8.903,43 EM 28/03/2024",
+          "para": "PROCESSADA — 8.903,43 EM 28/03/2024"
+        },
         {
           "ts": "2026-03-12T18:56:28.762Z",
           "exercicio": "2023",
@@ -2671,7 +2677,12 @@
           "para": "EM MALHA — MALHA DG - RRA - DDA FEITO EM 25/01/2024"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "28/03/2024",
+          "valor": 8903.43
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
