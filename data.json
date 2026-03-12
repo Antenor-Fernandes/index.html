@@ -14833,13 +14833,19 @@
       "senhaGov": "S@ndrian2468",
       "observacoes": "SENHA GOV S@ndrian2468",
       "exercicios": {
-        "2019": "IMPUGNAÇÃO NL - DDA FEITO EM 30/01/2025 - ARQUIVADA PARCELAMENTO",
+        "2019": "PROCESSADA — NL - DDA FEITO EM 30/01/2025 - ARQUIVADA PARCELAMENTO",
         "2021": "PROCESSADA — NL - DDA FEITO EM 30/01/2025 - ARQUIVADA - PARCELAMENTO",
         "2024": "PROCESSADA — RETIFICAMOS EM 30/01/2025 PARA INFORMAR OS RENDIMENTOS OMITIDOS PELO CLIENTE",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-12T19:25:33.462Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAÇÃO NL - DDA FEITO EM 30/01/2025 - ARQUIVADA PARCELAMENTO",
+          "para": "PROCESSADA — NL - DDA FEITO EM 30/01/2025 - ARQUIVADA PARCELAMENTO"
+        },
         {
           "ts": "2026-03-12T19:25:27.943Z",
           "exercicio": "2021",
