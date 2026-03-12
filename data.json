@@ -5200,13 +5200,24 @@
       "cpfCnpj": "419.898.646-00",
       "tipo": "PF",
       "nome": "FLÁVIO LÚCIO DA ROCHA COUTO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "honorários fixo 2,5 s.m.",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2025": "MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
+        "2025": "EM PROCESSAMENTO — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "38888262687",
