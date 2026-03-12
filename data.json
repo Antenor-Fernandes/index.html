@@ -10046,9 +10046,20 @@
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-12T19:36:52.791Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "42819172687",
