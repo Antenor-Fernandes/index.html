@@ -5446,9 +5446,21 @@
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:10:06.085Z",
+          "exercicio": "2022",
+          "de": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
+          "para": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2022": {
+          "feito": true,
+          "data": "10/01/2023"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
