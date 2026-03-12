@@ -2656,7 +2656,7 @@
       "exercicios": {
         "2018": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
         "2019": "EM PROCESSAMENTO — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
-        "2020": "EM PROCESSAMENTO — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
+        "2020": "PROCESSADA — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
         "2021": "PROCESSADA — 36.096,64 EM 31/01/2023",
         "2022": "PROCESSADA — 8.903,43 EM 28/03/2024",
         "2023": "EM MALHA — MALHA DG - RRA - DDA FEITO EM 25/01/2024",
@@ -2664,6 +2664,12 @@
         "2025": "PROCESSADA"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T18:57:25.020Z",
+          "exercicio": "2020",
+          "de": "EM PROCESSAMENTO — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
+          "para": "PROCESSADA — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER"
+        },
         {
           "ts": "2026-03-12T18:57:06.168Z",
           "exercicio": "2021",
@@ -2684,6 +2690,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "29/01/2021",
+          "valor": 38257.87
+        },
         "2021": {
           "data": "31/01/2023",
           "valor": 36096.64
@@ -30846,6 +30856,21 @@
           "porExercicio": {
             "2020": 12256.65
           }
+        }
+      ]
+    },
+    {
+      "data": "29/01/2021",
+      "descricao": "Lote 29/01/2021",
+      "pagamentos": [
+        {
+          "clienteId": "19993188620",
+          "cpfCnpj": "199.931.886-20",
+          "nome": "CARLOS ALBERTO SCOLARI MIRANDA",
+          "porExercicio": {
+            "2020": 38257.87
+          },
+          "total": 38257.87
         }
       ]
     },
