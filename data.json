@@ -6548,6 +6548,24 @@
       "doencaGrave": true
     },
     {
+      "id": "29563550668",
+      "cpfCnpj": "295.635.506-68",
+      "tipo": "PF",
+      "nome": "JOSÉ EUSTÁQUIO",
+      "telefone": "(37) 99135-2654",
+      "email": "",
+      "endereco": "RUA COPÉIA, 685, SÃO GERALDO, BELO HORIZONTE, CEP 31.050-570",
+      "acessoEcac": "CERT DIG TGC",
+      "senhaGov": "",
+      "situacao": "",
+      "observacoes": "CONTRATO DE 12/03/2026 - 30%",
+      "temPer": false,
+      "doencaGrave": true,
+      "temRRA": false,
+      "exercicios": {},
+      "historico": []
+    },
+    {
       "id": "04558006691",
       "cpfCnpj": "045.580.066-91",
       "tipo": "PF",
