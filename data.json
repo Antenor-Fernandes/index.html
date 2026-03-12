@@ -5211,11 +5211,23 @@
       "doencaGrave": false,
       "temRRA": true,
       "exercicios": {
-        "2025": "EM PROCESSAMENTO — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
+        "2025": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:09:19.183Z",
+          "exercicio": "2025",
+          "de": "EM PROCESSAMENTO — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026",
+          "para": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "26/01/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
