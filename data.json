@@ -305,7 +305,7 @@
       "doencaGrave": true,
       "temRRA": true,
       "exercicios": {
-        "2017": "PROCESSADA — IMPUGNAR - FALTAM DOCUMENTOS",
+        "2017": "PROCESSADA",
         "2018": "PROCESSADA — NÃO TINHA O QUE SER FEITO",
         "2019": "PROCESSADA — 50.922,43 VIA PROCESSO EM 12/12/2022",
         "2020": "PROCESSADA — 17.307,17 VIA PROCESSO EM 12/12/2022",
@@ -316,6 +316,12 @@
         "2025": "EM MALHA — MALHA DG"
       },
       "historico": [
+        {
+          "ts": "2026-03-12T18:04:10.682Z",
+          "exercicio": "2017",
+          "de": "PROCESSADA — IMPUGNAR - FALTAM DOCUMENTOS",
+          "para": "PROCESSADA"
+        },
         {
           "ts": "2026-03-12T18:02:53.512Z",
           "exercicio": "2017",
