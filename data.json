@@ -10686,13 +10686,19 @@
         "2020": "R$ 2.134,48 - 31/08/2020",
         "2021": "2.712,06 EM 31/03/2023",
         "2022": "2.452,75 EM 31/03/2023",
-        "2023": "MALHA DG - DDA FEITO EM 30/04/2024",
+        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2024",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 06/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:30:30.857Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 30/04/2024",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2024"
+        },
         {
           "ts": "2026-03-12T17:30:27.231Z",
           "exercicio": "2024",
