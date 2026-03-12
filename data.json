@@ -92,6 +92,12 @@
       },
       "historico": [
         {
+          "ts": "2026-03-12T15:45:54.063Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 09/01/2025 - 13.565,24",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 09/01/2025 - 13.565,24"
+        },
+        {
           "ts": "2026-03-12T15:18:46.058Z",
           "exercicio": "2024",
           "de": "MALHA DG - DDA FEITO EM 09/01/2025 - 13.565,24",
@@ -183,7 +189,13 @@
         }
       ],
       "doencaGrave": true,
-      "recebimentos": {}
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "09/01/2025"
+        }
+      }
     },
     {
       "id": "02431206645",
