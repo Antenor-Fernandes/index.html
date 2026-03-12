@@ -16501,13 +16501,24 @@
       "cpfCnpj": "291.161.556-53",
       "tipo": "PF",
       "nome": "WEUDSON GARCIA PEREIRA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "FAZER PER 2024 QUANDO FOR PARA A FILA - 31 99880-8801",
+      "temPer": true,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2024": "MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025"
+        "2024": "EM PROCESSAMENTO — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025"
       },
-      "temPer": true
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "02445896665",
