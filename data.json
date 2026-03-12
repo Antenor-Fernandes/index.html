@@ -3731,13 +3731,24 @@
       "cpfCnpj": "055.407.986-00",
       "tipo": "PF",
       "nome": "DIRCE SANTA FÉ DE SOUZA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2025": "MALHA PRECATÓRIO - DDA FEITO EM 22/01/2026"
+        "2025": "EM PROCESSAMENTO — MALHA PRECATÓRIO - DDA FEITO EM 22/01/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "00204374634",
