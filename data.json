@@ -1480,7 +1480,7 @@
       "exercicios": {
         "2018": "29.798,21 EM 31/10/2022",
         "2019": "EM FILA DE RESTITUIÇÃO — 28.877,01 EM 31/10/2022",
-        "2020": "EM FILA DE RESTITUIÇÃO — 29.717,46 EM 31/10/2022",
+        "2020": "PROCESSADA — 29.717,46 EM 31/10/2022",
         "2021": "EM PROCESSAMENTO — 31.441,90 EM 31/10/2022",
         "2022": "PROCESSADA — 31.941,75 EM 31/10/2022",
         "2023": "PROCESSADA — 40.257,41 EM 31/10/2024",
@@ -1490,6 +1490,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:03:05.754Z",
+          "exercicio": "2020",
+          "de": "EM FILA DE RESTITUIÇÃO — 29.717,46 EM 31/10/2022",
+          "para": "PROCESSADA — 29.717,46 EM 31/10/2022"
+        },
         {
           "ts": "2026-03-12T17:02:49.310Z",
           "exercicio": "2019",
