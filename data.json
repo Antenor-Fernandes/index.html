@@ -2900,13 +2900,24 @@
       "cpfCnpj": "723.701.496-04",
       "tipo": "PF",
       "nome": "CÁSSIA ESTANISLAU DE SOUZA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2025": "MALHA RRA - DDA FEITO EM 22/01/2026"
+        "2025": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "48486515653",
