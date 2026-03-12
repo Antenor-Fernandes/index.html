@@ -906,13 +906,24 @@
       "cpfCnpj": "512.479.416-04",
       "tipo": "PF",
       "nome": "ALAÍDE SALGADO CARVALHO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": true,
+      "doencaGrave": false,
+      "temRRA": false,
       "exercicios": {
-        "2025": "MALHA RRA - DDA FEITO EM 22/01/2026"
+        "2025": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "16619551777",
