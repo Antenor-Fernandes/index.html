@@ -14560,10 +14560,20 @@
         "2022": "7.441,51 EM 31/05/2024",
         "2023": "MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025",
         "2024": "MALHA DG - DDA FEITO EM 17/02/2025",
-        "2025": "MALHA DG - DDA FEITO EM 11/02/2026"
+        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-12T17:33:34.505Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 11/02/2026",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {}
     },
     {
       "id": "02701020603",
