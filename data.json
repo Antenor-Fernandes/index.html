@@ -13515,14 +13515,25 @@
       "cpfCnpj": "156.612.706-82",
       "tipo": "PF",
       "nome": "PEDRO SALATIEL CAETANO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2024": "MALHA RRA - DDA FEITO EM 03/02/2025",
+        "2024": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 03/02/2025",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "07962649615",
