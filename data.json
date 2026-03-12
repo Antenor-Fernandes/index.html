@@ -9693,7 +9693,7 @@
       "observacoes": "PER 2020 A 2024 FEITOS EM 24/01/2025 - RECEBEU 4 EM 20/05/2025 - FALTA 1",
       "exercicios": {
         "2020": "MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 4.432,66",
-        "2021": "MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 5.185,78",
+        "2021": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 5.185,78",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 6.095,84 - impugnar",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 7.766,39 - impugnar",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 24/01/2025",
@@ -9702,6 +9702,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-12T17:27:29.811Z",
+          "exercicio": "2021",
+          "de": "MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 5.185,78",
+          "para": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/01/2025 - IMPUGNAÇÃO FEITA EM 13/02/2025 - TEVE DESPACHO DECISÕRIO - deferido valor originário a restituir R$ 5.185,78"
+        },
         {
           "ts": "2026-03-12T17:27:04.001Z",
           "exercicio": "2022",
