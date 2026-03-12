@@ -11425,13 +11425,24 @@
       "cpfCnpj": "483.377.906-44",
       "tipo": "PF",
       "nome": "MARIA JOSÉ DA CUNHA",
-      "acessoEcac": "CERT. DIG TGC",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "RECURSO AO CARF - RRA - PROTOCOLO EM 19/02/2024 - 2025 HONORÁRIOS DE 1 SALÁRIO MÍNIMO QUANDO DA RESTITUIÇÃO",
+      "temPer": true,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2025": "MALHA RRA E DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026"
+        "2025": "EM MALHA — MALHA RRA E DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026"
       },
-      "temPer": true
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "24111228615",
