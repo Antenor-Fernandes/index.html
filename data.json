@@ -9060,15 +9060,26 @@
       "cpfCnpj": "013.158.542-87",
       "tipo": "PF",
       "nome": "LUÍS GONZAGA DE OLIVEIRA COSTA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2023": "RETIFICADA EM 07/05/2024 - PROCESSADA",
+        "2023": "PROCESSADA — RETIFICADA EM 07/05/2024 - PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "19870817653",
