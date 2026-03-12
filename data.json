@@ -16667,13 +16667,24 @@
       "cpfCnpj": "634.900.306-30",
       "tipo": "PF",
       "nome": "ZELMA LEAL DA PAIXÃO SILVA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": true,
       "exercicios": {
-        "2025": "MALHA RRA - DDA FEITO EM 22/01/2026"
+        "2025": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2026"
       },
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "14069610600",
