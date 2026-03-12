@@ -7700,6 +7700,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-12T17:58:22.985Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 452,39 EM 28/11/2025",
+          "para": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 452,39 EM 28/11/2025"
+        },
+        {
           "ts": "2026-03-12T17:58:16.549Z",
           "exercicio": "2024",
           "de": "PROCESSADA — TIRAMOS DA LISTA BLOQUEIO - EM FILA - 612,43 EM 28/11/2025",
