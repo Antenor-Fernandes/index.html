@@ -13617,11 +13617,23 @@
       "temRRA": true,
       "exercicios": {
         "2024": "EM PROCESSAMENTO — cliente  fez. Vamos fazer 2025 (rra)",
-        "2025": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2025"
+        "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2025"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-12T19:20:50.127Z",
+          "exercicio": "2025",
+          "de": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 22/01/2025",
+          "para": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2025"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "22/01/2025"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": []
     },
