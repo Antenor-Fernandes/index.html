@@ -4951,7 +4951,7 @@
       "observacoes": "TEVE COMPENSAÇÃO DE OFÍCIO NO EXERCÍCIO 2023",
       "exercicios": {
         "2020": "R$ 4.830,68 - 30/05/2021",
-        "2021": "11.196,20 EM 31/03/2023",
+        "2021": "PROCESSADA — 11.196,20 EM 31/03/2023",
         "2022": "PROCESSADA — 14.315,91 EM 31/03/2023",
         "2023": "PROCESSADA — 4.996,60 EM 30/12/2025",
         "2024": "PROCESSADA — 22.514,87 EM 30/12/2025",
@@ -4960,6 +4960,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:17:55.716Z",
+          "exercicio": "2021",
+          "de": "11.196,20 EM 31/03/2023",
+          "para": "PROCESSADA — 11.196,20 EM 31/03/2023"
+        },
         {
           "ts": "2026-03-13T13:17:42.124Z",
           "exercicio": "2022",
@@ -4980,6 +4986,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/03/2023",
+          "valor": 11196.2
+        },
         "2022": {
           "data": "31/03/2023",
           "valor": 14315.91
