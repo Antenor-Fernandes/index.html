@@ -5137,12 +5137,18 @@
         "2021": "13.578,91 EM 28/04/2023",
         "2022": "15.043,08 EM 28/04/2023",
         "2023": "20.470,49 EM 31/10/2024",
-        "2024": "18.707,59 EM 31/10/2024",
+        "2024": "PROCESSADA — 18.707,59 EM 31/10/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:19:38.132Z",
+          "exercicio": "2024",
+          "de": "18.707,59 EM 31/10/2024",
+          "para": "PROCESSADA — 18.707,59 EM 31/10/2024"
+        },
         {
           "ts": "2026-03-13T13:19:19.169Z",
           "exercicio": "2025",
@@ -5150,7 +5156,12 @@
           "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/10/2024",
+          "valor": 18707.59
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
