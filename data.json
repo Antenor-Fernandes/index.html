@@ -3102,10 +3102,17 @@
       "id": "17707587634",
       "cpfCnpj": "177.075.876-34",
       "tipo": "PF",
-      "nome": "ANTÔNIA MARIA DAS GRAÇAS OLIVEIRA ASSUMÇÃO (RECEBEU 4 PER EM JUNHO 2021",
+      "nome": "ANTÔNIA MARIA DAS GRAÇAS OLIVEIRA ASSUMÇÃO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "Aa123456*",
-      "observacoes": "1 PER EM 21/10/2024) - SENHA GOV.BR Aa123456*",
+      "situacao": "",
+      "observacoes": "1 PER EM 21/10/2024) - SENHA GOV.BR Aa123456*  (RECEBEU 4 PER EM JUNHO 2021",
+      "temPer": false,
+      "doencaGrave": true,
+      "temRRA": false,
       "exercicios": {
         "2016": "PROCESSADA — 189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
         "2017": "PROCESSADA — 858,89 EM 31/03/21 - TEM PERDCOMP",
@@ -3118,8 +3125,6 @@
         "2024": "PROCESSADA — 6.114,13 EM 30/12/2025",
         "2025": "PROCESSADA — 6.140,33 EM 30/12/2025"
       },
-      "temPer": false,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-13T12:34:50.254Z",
@@ -3227,7 +3232,8 @@
         }
       },
       "dda": {},
-      "impugnacoes": {}
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "01317016653",
