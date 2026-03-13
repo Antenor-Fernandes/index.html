@@ -5341,6 +5341,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-13T13:29:45.248Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA"
+        },
+        {
           "ts": "2026-03-13T13:29:40.445Z",
           "exercicio": "2022",
           "de": "MALHA DG - 9.054,97 - DDA EM 08/02/2023 - CRÉDITO DE 10.770,89 COMPENSADO EM 08/11/2023",
