@@ -7389,6 +7389,28 @@
       "temPer": false
     },
     {
+      "id": "10536349606",
+      "cpfCnpj": "105.363.496-06",
+      "tipo": "PF",
+      "nome": "DAVI ANTINOSSI CORDEIRO QUEIROZ",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
+      "acessoEcac": "",
+      "senhaGov": "",
+      "situacao": "",
+      "observacoes": "",
+      "temPer": false,
+      "doencaGrave": false,
+      "temRRA": false,
+      "exercicios": {},
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
+    },
+    {
       "id": "19414020624",
       "cpfCnpj": "194.140.206-24",
       "tipo": "PF",
