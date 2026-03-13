@@ -5481,13 +5481,19 @@
       "senhaGov": "",
       "observacoes": "PER 2023 E 2024 FEITOS EM 09/06/2025 - PER 2025 FEITO EM 26/01/2026",
       "exercicios": {
-        "2023": "MALHA DG -DDA FEITO EM 09/06/2025",
+        "2023": "EM MALHA — MALHA DG -DDA FEITO EM 09/06/2025",
         "2024": "EM MALHA — MALHA DG -DDA FEITO EM 09/06/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:33:12.747Z",
+          "exercicio": "2023",
+          "de": "MALHA DG -DDA FEITO EM 09/06/2025",
+          "para": "EM MALHA — MALHA DG -DDA FEITO EM 09/06/2025"
+        },
         {
           "ts": "2026-03-13T13:32:57.276Z",
           "exercicio": "2024",
@@ -5503,6 +5509,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "09/06/2025"
+        },
         "2024": {
           "feito": true,
           "data": "09/06/2025"
