@@ -2109,11 +2109,22 @@
       "cpfCnpj": "156.355.706-15",
       "tipo": "PF",
       "nome": "AMAURY CÉSAR DE BRITO",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "",
       "observacoes": "",
+      "temPer": false,
+      "doencaGrave": true,
+      "temRRA": false,
       "exercicios": {},
-      "temPer": false
+      "historico": [],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "00090034600",
