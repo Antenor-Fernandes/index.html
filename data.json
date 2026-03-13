@@ -1175,10 +1175,26 @@
         "2022": "PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
         "2023": "2.903,44 EM 30/12/2025",
         "2024": "3.169,23 EM 30/12/2025",
-        "2025": "6.140,85 EM 30/12/2025"
+        "2025": "PROCESSADA — 6.140,85 EM 30/12/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-13T11:45:17.171Z",
+          "exercicio": "2025",
+          "de": "6.140,85 EM 30/12/2025",
+          "para": "PROCESSADA — 6.140,85 EM 30/12/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/12/2025",
+          "valor": 6140.85
+        }
+      },
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "10421564687",
@@ -17573,6 +17589,21 @@
             "2023": 11937.32
           },
           "total": 54293.1
+        }
+      ]
+    },
+    {
+      "data": "31/12/2025",
+      "descricao": "Lote 31/12/2025",
+      "pagamentos": [
+        {
+          "clienteId": "37393030691",
+          "cpfCnpj": "373.930.306-91",
+          "nome": "AILTON SANTOS OLIVEIRA",
+          "porExercicio": {
+            "2025": 6140.85
+          },
+          "total": 6140.85
         }
       ]
     },
