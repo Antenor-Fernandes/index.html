@@ -2427,13 +2427,19 @@
         "2020": "MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )",
         "2021": "5.548,52 EM 31/10/2025",
         "2022": "4.328,45 EM 31/10/2025",
-        "2023": "5.336,54 EM 31/10/2025",
+        "2023": "PROCESSADA — 5.336,54 EM 31/10/2025",
         "2024": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:21:31.642Z",
+          "exercicio": "2023",
+          "de": "5.336,54 EM 31/10/2025",
+          "para": "PROCESSADA — 5.336,54 EM 31/10/2025"
+        },
         {
           "ts": "2026-03-13T12:21:12.673Z",
           "exercicio": "2024",
@@ -2448,6 +2454,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "31/10/2025",
+          "valor": 5336.54
+        },
         "2024": {
           "data": "28/11/2025",
           "valor": 11411.04
@@ -18884,7 +18894,7 @@
           "id": "69855196600",
           "cpfCnpj": "698.551.966-00",
           "nome": "ANA CRISTINA NOVATO SOUZA BARROS",
-          "total": 15213.51,
+          "total": 15213.510000000002,
           "porExercicio": {
             "2021": 5548.52,
             "2022": 4328.45,
