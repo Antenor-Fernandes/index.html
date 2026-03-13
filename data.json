@@ -5243,11 +5243,17 @@
         "2021": "PROCESSADA — 17.407,74 EM 31/03/2025",
         "2022": "PROCESSADA — 9.815,14 EM 31/03/2025",
         "2023": "PROCESSADA — 4.665,92 EM 31/03/2025",
-        "2024": "EM PROCESSAMENTO — 10.767,07 EM 31/03/2025"
+        "2024": "PROCESSADA — 10.767,07 EM 31/03/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:28:17.182Z",
+          "exercicio": "2024",
+          "de": "EM PROCESSAMENTO — 10.767,07 EM 31/03/2025",
+          "para": "PROCESSADA — 10.767,07 EM 31/03/2025"
+        },
         {
           "ts": "2026-03-13T13:27:37.447Z",
           "exercicio": "2020",
