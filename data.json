@@ -2709,20 +2709,25 @@
       "cpfCnpj": "274.332.006-06",
       "tipo": "PF",
       "nome": "ÂNGELA MARIA BAIA BHERING",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
+      "situacao": "ISENTA NA FONTE",
       "observacoes": "PER 2019 A 2022 FEITOS EM 04/10/2023 - PER 2023 FEITO EM 11/10/2023 - TODOS RECEBIDOS EM 22/04/2024",
-      "exercicios": {
-        "2019": "52.293,99 EM 31/10/2023",
-        "2020": "49.316,80 EM 31/10/2023",
-        "2021": "41.885,94 EM 31/10/2023",
-        "2022": "43.026,04 EM 31/10/2023",
-        "2023": "44.857,33 EM 31/10/2023",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025",
-        "2025": "ISENTO NA FONTE"
-      },
       "temPer": false,
       "doencaGrave": true,
+      "temRRA": false,
+      "exercicios": {
+        "2019": "EM PROCESSAMENTO — 52.293,99 EM 31/10/2023",
+        "2020": "EM PROCESSAMENTO — 49.316,80 EM 31/10/2023",
+        "2021": "EM PROCESSAMENTO — 41.885,94 EM 31/10/2023",
+        "2022": "EM PROCESSAMENTO — 43.026,04 EM 31/10/2023",
+        "2023": "EM PROCESSAMENTO — 44.857,33 EM 31/10/2023",
+        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025",
+        "2025": "EM PROCESSAMENTO — ISENTO NA FONTE"
+      },
       "historico": [
         {
           "ts": "2026-03-12T16:50:00.619Z",
@@ -2732,7 +2737,9 @@
         }
       ],
       "recebimentos": {},
-      "dda": {}
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "11109866615",
