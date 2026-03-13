@@ -2871,10 +2871,26 @@
       "observacoes": "",
       "exercicios": {
         "2024": "MALHA DG - DDA FEITO EM 13/01/2025",
-        "2025": "3.241,47 EM 30/06/2025"
+        "2025": "PROCESSADA — 3.241,47 EM 30/06/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-13T12:29:26.802Z",
+          "exercicio": "2025",
+          "de": "3.241,47 EM 30/06/2025",
+          "para": "PROCESSADA — 3.241,47 EM 30/06/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/06/2025",
+          "valor": 3241.47
+        }
+      },
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "25561154672",
