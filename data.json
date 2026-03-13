@@ -3872,7 +3872,7 @@
       "observacoes": "PER 2020 E 2021 FEITO EM 11/10/2022E RECEBIDOS EM 20/04/2023 - PER 2022 FEITO EM 23/01/2023 E RECEBIDO EM 20/02/2024",
       "exercicios": {
         "2019": "2.908,90 EM 28/02/2023",
-        "2020": "1.688,37 EM 28/02/2023",
+        "2020": "PROCESSADA — 1.688,37 EM 28/02/2023",
         "2021": "PROCESSADA — 2.163,65 EM 28/02/2023",
         "2022": "PROCESSADA — 2.621,47 EM 28/02/2023",
         "2023": "PROCESSADA — 5.091,05 EM 27/02/2026",
@@ -3882,6 +3882,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:53:51.922Z",
+          "exercicio": "2020",
+          "de": "1.688,37 EM 28/02/2023",
+          "para": "PROCESSADA — 1.688,37 EM 28/02/2023"
+        },
         {
           "ts": "2026-03-13T12:53:39.331Z",
           "exercicio": "2021",
@@ -3914,6 +3920,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "28/02/2023",
+          "valor": 1688.37
+        },
         "2021": {
           "data": "28/02/2023",
           "valor": 2163.65
