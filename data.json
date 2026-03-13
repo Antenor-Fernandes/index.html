@@ -2346,13 +2346,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "8.764,39 29/10/2021",
+        "2020": "PROCESSADA — 8.764,39 29/10/2021",
         "2021": "PROCESSADA — 9.743,58 29/10/2021",
         "2024": "EM MALHA — TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025",
         "2025": "PROCESSADA — 4.631,72 EM 30/06/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-13T12:20:05.897Z",
+          "exercicio": "2020",
+          "de": "8.764,39 29/10/2021",
+          "para": "PROCESSADA — 8.764,39 29/10/2021"
+        },
         {
           "ts": "2026-03-13T12:19:49.306Z",
           "exercicio": "2021",
@@ -2373,6 +2379,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "29/10/2021",
+          "valor": 8764.39
+        },
         "2021": {
           "data": "29/10/2021",
           "valor": 9743.58
