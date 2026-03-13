@@ -2722,12 +2722,18 @@
       "exercicios": {
         "2019": "EM PROCESSAMENTO — 52.293,99 EM 31/10/2023",
         "2020": "EM PROCESSAMENTO — 49.316,80 EM 31/10/2023",
-        "2021": "EM PROCESSAMENTO — 41.885,94 EM 31/10/2023",
+        "2021": "PROCESSADA — 41.885,94 EM 31/10/2023",
         "2022": "PROCESSADA — 43.026,04 EM 31/10/2023",
         "2023": "PROCESSADA — 44.857,33 EM 31/10/2023",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-13T12:28:08.178Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — 41.885,94 EM 31/10/2023",
+          "para": "PROCESSADA — 41.885,94 EM 31/10/2023"
+        },
         {
           "ts": "2026-03-13T12:27:50.570Z",
           "exercicio": "2022",
@@ -2754,6 +2760,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/10/2023",
+          "valor": 41885.94
+        },
         "2022": {
           "data": "31/10/2023",
           "valor": 43026.04
