@@ -2349,9 +2349,25 @@
         "2020": "8.764,39 29/10/2021",
         "2021": "9.743,58 29/10/2021",
         "2024": "TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025",
-        "2025": "4.631,72 EM 30/06/2025"
+        "2025": "PROCESSADA — 4.631,72 EM 30/06/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-13T12:19:20.474Z",
+          "exercicio": "2025",
+          "de": "4.631,72 EM 30/06/2025",
+          "para": "PROCESSADA — 4.631,72 EM 30/06/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/06/2025",
+          "valor": 4631.72
+        }
+      },
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "65809912168",
