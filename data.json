@@ -2424,7 +2424,7 @@
       "senhaGov": "Belve0910",
       "observacoes": "SENHA GOV.BR Belve0910 - PER 2020 A 2024 FEITOS EM 29/07/2025-RECEBEU 4 EM 20/01/2026 - FALTA DDA 2025 - RETIFICAR 2024 VGBL",
       "exercicios": {
-        "2020": "MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )",
+        "2020": "TRABALHO MANUAL RFB — MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )",
         "2021": "PROCESSADA — 5.548,52 EM 31/10/2025",
         "2022": "PROCESSADA — 4.328,45 EM 31/10/2025",
         "2023": "PROCESSADA — 5.336,54 EM 31/10/2025",
@@ -2434,6 +2434,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:23:42.447Z",
+          "exercicio": "2020",
+          "de": "MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )",
+          "para": "TRABALHO MANUAL RFB — MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )"
+        },
         {
           "ts": "2026-03-13T12:22:09.890Z",
           "exercicio": "2021",
