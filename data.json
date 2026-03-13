@@ -2317,9 +2317,25 @@
       "senhaGov": "",
       "observacoes": "SOLICITAR COMPENSAÇÃO MAED",
       "exercicios": {
-        "2025": "MALHA  - COMPROVAR IRRF - DDA FEITO EM 27/01/2026 PELA TT"
+        "2025": "EM MALHA — MALHA  - COMPROVAR IRRF - DDA FEITO EM 27/01/2026 PELA TT"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-13T12:18:49.825Z",
+          "exercicio": "2025",
+          "de": "MALHA  - COMPROVAR IRRF - DDA FEITO EM 27/01/2026 PELA TT",
+          "para": "EM MALHA — MALHA  - COMPROVAR IRRF - DDA FEITO EM 27/01/2026 PELA TT"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "27/01/2026"
+        }
+      },
+      "impugnacoes": {}
     },
     {
       "id": "78423937615",
