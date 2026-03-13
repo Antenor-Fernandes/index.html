@@ -1748,9 +1748,25 @@
       "senhaGov": "Governo82*",
       "observacoes": "SENHA GOV Governo82* - CARNÊ LEÃO",
       "exercicios": {
-        "2025": "MALHA INSS E PLANO DE SAÚDE - DDA FEITO EM 22/01/2026"
+        "2025": "EM MALHA — MALHA INSS E PLANO DE SAÚDE - DDA FEITO EM 22/01/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-13T12:02:02.865Z",
+          "exercicio": "2025",
+          "de": "MALHA INSS E PLANO DE SAÚDE - DDA FEITO EM 22/01/2026",
+          "para": "EM MALHA — MALHA INSS E PLANO DE SAÚDE - DDA FEITO EM 22/01/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "22/01/2026"
+        }
+      },
+      "impugnacoes": {}
     },
     {
       "id": "08351130605",
