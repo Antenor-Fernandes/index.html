@@ -1905,9 +1905,16 @@
       "cpfCnpj": "045.184.387-87",
       "tipo": "PF",
       "nome": "ALTAMIRANDO RIBEIRO SILVA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "Arlider13@",
-      "observacoes": "SENHA GOV Arlider13@ - PER 2022 FEITO EM 15/06/2023 - RECEBIDO EM 22/07/2024 - PEDIDOS DE REVISÃO DE DÉBITO DA DÍVIDA ATIVA FEITOS EM 04/11/2025 - (RECEBEU 16.734,13 EM 22/12/2025 PROCESSO 18183-739.373/2025-03); (16.997,79 EM 20/02/2026 PROCESSO 18183-739.373/2025-03)",
+      "situacao": "",
+      "observacoes": "FALECIDO. SENHA GOV Arlider13@ - PER 2022 FEITO EM 15/06/2023 - RECEBIDO EM 22/07/2024 - PEDIDOS DE REVISÃO DE DÉBITO DA DÍVIDA ATIVA FEITOS EM 04/11/2025 - (RECEBEU 16.734,13 EM 22/12/2025 PROCESSO 18183-739.373/2025-03); (16.997,79 EM 20/02/2026 PROCESSO 18183-739.373/2025-03)",
+      "temPer": true,
+      "doencaGrave": true,
+      "temRRA": false,
       "exercicios": {
         "2020": "TRABALHO MANUAL RFB — MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
         "2021": "TRABALHO MANUAL RFB — MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
@@ -1916,8 +1923,6 @@
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-13T12:06:02.943Z",
@@ -1967,7 +1972,8 @@
           "data": "21/01/2026"
         }
       },
-      "impugnacoes": {}
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "25741853668",
