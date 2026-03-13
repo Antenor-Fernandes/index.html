@@ -5624,7 +5624,7 @@
       "senhaGov": "",
       "observacoes": "PER 2022 A 2025 FEITOS EM 05/02/2026",
       "exercicios": {
-        "2022": "MALHA DG - DDA FEITO EM 05/02/2026",
+        "2022": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
@@ -5632,6 +5632,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:34:08.299Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 05/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
+        },
         {
           "ts": "2026-03-13T13:33:55.909Z",
           "exercicio": "2023",
@@ -5653,6 +5659,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2022": {
+          "feito": true,
+          "data": "05/02/2026"
+        },
         "2023": {
           "feito": true,
           "data": "05/02/2026"
