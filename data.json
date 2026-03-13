@@ -4194,10 +4194,17 @@
       "id": "15620697649",
       "cpfCnpj": "156.206.976-49",
       "tipo": "PF",
-      "nome": "ANTÔNIO PIRES DA LUZ -PER 2018 A 2020 FEITOS EM 09/08/2022",
-      "acessoEcac": "CERT DIG TGC - EXPIROU EM 10/2025",
+      "nome": "ANTÔNIO PIRES DA LUZ",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "RECEBEU TODOS",
+      "situacao": "",
+      "observacoes": "-PER 2018 A 2020 FEITOS EM 09/08/2022 - RECEBEU TODOS",
+      "temPer": false,
+      "doencaGrave": true,
+      "temRRA": false,
       "exercicios": {
         "2018": "PROCESSADA — 41.940,10 EM 31/10/2022",
         "2019": "PROCESSADA — 35.834,10 EM 31/01/2023",
@@ -4208,8 +4215,6 @@
         "2024": "PROCESSADA — 34.150,53 EM 28/06/2024",
         "2025": "PROCESSADA — 37.103,74 EM 29/08/2025"
       },
-      "temPer": false,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-13T13:01:35.310Z",
@@ -4295,7 +4300,8 @@
         }
       },
       "dda": {},
-      "impugnacoes": {}
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "00216605814",
