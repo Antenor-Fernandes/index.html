@@ -6954,7 +6954,7 @@
       "observacoes": "Cv173212@ - DESCONTAR R$1.242,44 DA RESTITUIÇÃO DE 2025 (É O QUE ELE RECEBERIA SEM ISENÇÃO) - PER 2021 A 2023 FEITOS EM 28/07/2025) E RECEBIDOS EM 20/01/2026",
       "exercicios": {
         "2021": "66.794,97 EM 31/10/2025",
-        "2022": "49.443,13 EM 31/10/2025",
+        "2022": "PROCESSADA — 49.443,13 EM 31/10/2025",
         "2023": "PROCESSADA — 50.681,44 EM 31/10/2025",
         "2024": "PROCESSADA — 47.572,20 EM 31/10/2025",
         "2025": "PROCESSADA — 49.205,45 EM 27/02/2026"
@@ -6962,6 +6962,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:57:48.461Z",
+          "exercicio": "2022",
+          "de": "49.443,13 EM 31/10/2025",
+          "para": "PROCESSADA — 49.443,13 EM 31/10/2025"
+        },
         {
           "ts": "2026-03-13T13:57:36.092Z",
           "exercicio": "2023",
@@ -6982,6 +6988,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2025",
+          "valor": 49443.13
+        },
         "2023": {
           "data": "31/10/2025",
           "valor": 50681.44
