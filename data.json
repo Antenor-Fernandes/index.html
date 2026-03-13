@@ -1647,9 +1647,16 @@
       "cpfCnpj": "318.890.776-15",
       "tipo": "PF",
       "nome": "ALEXANDRE GALLO NEVES DA ROCHA",
+      "telefone": "",
+      "email": "",
+      "endereco": "",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
-      "observacoes": "PER 19, 21 E 22 FEITOS EM 30/06/2023 E RECEBIDOS EM 22/04/2024 - HABILITAÇÃO DE CRÉDITO NO INVENTÁRIO AJUIZADA",
+      "situacao": "",
+      "observacoes": "PER 19, 21 E 22 FEITOS EM 30/06/2023 E RECEBIDOS EM 22/04/2024 -FALECIDO - HABILITAÇÃO DE CRÉDITO NO INVENTÁRIO AJUIZADA",
+      "temPer": false,
+      "doencaGrave": true,
+      "temRRA": false,
       "exercicios": {
         "2019": "PROCESSADA — 20.778,95 EM 31/07/2023",
         "2020": "PROCESSADA — 25.085,91 EM 31/07/2023",
@@ -1659,8 +1666,6 @@
         "2024": "PROCESSADA — 31.225,83 EM 30/06/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025"
       },
-      "temPer": false,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-13T12:01:32.194Z",
@@ -1737,7 +1742,8 @@
           "data": "21/01/2025"
         }
       },
-      "impugnacoes": {}
+      "impugnacoes": {},
+      "perdcomps": []
     },
     {
       "id": "04144819680",
