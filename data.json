@@ -4076,7 +4076,7 @@
       "observacoes": "",
       "exercicios": {
         "2018": "12.774,42 EM 18/11/2019 - JÁ PAGOU HONORÁRIOS",
-        "2019": "9.286,20 EM 18/11/2019 - JÁ PAGOU HONORÁRIOS",
+        "2019": "PROCESSADA — 9.286,20 EM 18/11/2019 - JÁ PAGOU HONORÁRIOS",
         "2020": "PROCESSADA — 11.339,76 EM 31/05/2024",
         "2021": "EM PROCESSAMENTO — 13.241,12 EM 31/05/2024",
         "2022": "EM PROCESSAMENTO — 14.733,99 EM 31/05/2024",
@@ -4087,6 +4087,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:58:42.506Z",
+          "exercicio": "2019",
+          "de": "9.286,20 EM 18/11/2019 - JÁ PAGOU HONORÁRIOS",
+          "para": "PROCESSADA — 9.286,20 EM 18/11/2019 - JÁ PAGOU HONORÁRIOS"
+        },
         {
           "ts": "2026-03-13T12:58:26.434Z",
           "exercicio": "2020",
@@ -4131,6 +4137,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "18/11/2019",
+          "valor": 9286.2
+        },
         "2020": {
           "data": "31/05/2024",
           "valor": 11339.76
@@ -34052,6 +34062,21 @@
             "2019": 7930.91
           },
           "total": 7930.91
+        }
+      ]
+    },
+    {
+      "data": "18/11/2019",
+      "descricao": "Lote 18/11/2019",
+      "pagamentos": [
+        {
+          "clienteId": "17565790672",
+          "cpfCnpj": "175.657.906-72",
+          "nome": "ANTÔNIO MOREIRA FILHO",
+          "porExercicio": {
+            "2019": 9286.2
+          },
+          "total": 9286.2
         }
       ]
     }
