@@ -2613,7 +2613,7 @@
       "observacoes": "PER 2021 A 2025 FEITOS EM 19/02/2026",
       "exercicios": {
         "2021": "MALHA DG - DDA FEITO EM 19/02/2026",
-        "2022": "MALHA DG - DDA FEITO EM 19/02/2026",
+        "2022": "EM MALHA — MALHA DG - DDA FEITO EM 19/02/2026",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 19/02/2026",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 19/02/2026",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 19/02/2026"
@@ -2621,6 +2621,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:25:23.846Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 19/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 19/02/2026"
+        },
         {
           "ts": "2026-03-13T12:24:54.890Z",
           "exercicio": "2023",
@@ -2642,6 +2648,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2022": {
+          "feito": true,
+          "data": "19/02/2026"
+        },
         "2023": {
           "feito": true,
           "data": "19/02/2026"
