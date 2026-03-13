@@ -6678,7 +6678,7 @@
       "observacoes": "TEVE COMPENSAÇÃO DE OFÍCIO - PEDIMOS DESFAZIMENTO 20/09/2023 - EXERCÍCIO 2020 - AGUARDAR DECISÃO DO EXERCÍCIO 2020",
       "exercicios": {
         "2018": "PEDIDO PGFN EM 05/07/2023",
-        "2019": "PEDIDO PGFN EM 05/07/2023",
+        "2019": "PROCESSADA — PEDIDO PGFN EM 05/07/2023",
         "2020": "IMPUGNAÇÃO — IMPUGNAMOS EM 09/08/2022 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 18/09/2025",
         "2021": "PROCESSADA — 30.179,44 EM 30/11/2023",
         "2022": "PROCESSADA — 16.342,05 EM 30/09/2023 E 15.117,92 EM 30/11/2023",
@@ -6688,6 +6688,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:53:45.824Z",
+          "exercicio": "2019",
+          "de": "PEDIDO PGFN EM 05/07/2023",
+          "para": "PROCESSADA — PEDIDO PGFN EM 05/07/2023"
+        },
         {
           "ts": "2026-03-13T13:53:24.356Z",
           "exercicio": "2020",
