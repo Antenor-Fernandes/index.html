@@ -4345,12 +4345,18 @@
         "2021": "56.087,95 EM 28/12/2023",
         "2022": "60.650,01 EM 28/12/2023",
         "2023": "62.238,43 EM 29/02/2024",
-        "2024": "49.055,91 EM 28/02/2025",
+        "2024": "PROCESSADA — 49.055,91 EM 28/02/2025",
         "2025": "PROCESSADA — MALHA DÉBITO - 52.597,06 COMPENSAÇÃO DE OFÍCIO - DÉBITO PGFN"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:05:20.723Z",
+          "exercicio": "2024",
+          "de": "49.055,91 EM 28/02/2025",
+          "para": "PROCESSADA — 49.055,91 EM 28/02/2025"
+        },
         {
           "ts": "2026-03-13T13:04:09.177Z",
           "exercicio": "2025",
@@ -4364,7 +4370,12 @@
           "para": "PROCESSADA — MALHA DÉBITO - 52.597,06 COPMENSAÇÃO DE OFÍCIO - DÉBITO PGFN"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/02/2025",
+          "valor": 49055.91
+        }
+      },
       "dda": {},
       "impugnacoes": {}
     },
