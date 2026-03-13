@@ -4312,9 +4312,25 @@
       "senhaGov": "",
       "observacoes": "DOCUMENTOS PARA MALHA 2025 NA MÁQUINA DA TT",
       "exercicios": {
-        "2025": "MALHA OMISSÃO DE 50% DOS ALUGUÉIS - DDA FEITO EM 23/01/2026"
+        "2025": "EM MALHA — MALHA OMISSÃO DE 50% DOS ALUGUÉIS - DDA FEITO EM 23/01/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-13T13:02:35.832Z",
+          "exercicio": "2025",
+          "de": "MALHA OMISSÃO DE 50% DOS ALUGUÉIS - DDA FEITO EM 23/01/2026",
+          "para": "EM MALHA — MALHA OMISSÃO DE 50% DOS ALUGUÉIS - DDA FEITO EM 23/01/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "23/01/2026"
+        }
+      },
+      "impugnacoes": {}
     },
     {
       "id": "12699861120",
