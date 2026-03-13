@@ -3111,7 +3111,7 @@
         "2017": "858,89 EM 31/03/21 - TEM PERDCOMP",
         "2018": "1799,94 EM 31/03/21 - TEM PERDCOMP",
         "2019": "2356,91 EM 31/03/21 - TEM PERDCOMP",
-        "2020": "2356,91 EM 31/03/21 - TEM PERDCOMP",
+        "2020": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP",
         "2021": "PROCESSADA — 2.447,02 30/09/2022",
         "2022": "PROCESSADA — 1.823,79 30/09/2022",
         "2023": "PROCESSADA — 4.354,52 EM 30/12/2025",
@@ -3121,6 +3121,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:33:42.618Z",
+          "exercicio": "2020",
+          "de": "2356,91 EM 31/03/21 - TEM PERDCOMP",
+          "para": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP"
+        },
         {
           "ts": "2026-03-13T12:33:28.660Z",
           "exercicio": "2021",
@@ -3159,6 +3165,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/03/2021",
+          "valor": 2356.91
+        },
         "2021": {
           "data": "30/09/2022",
           "valor": 2447.02
