@@ -1026,9 +1026,25 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "CLIENTE FEZ A DECLARAÇÃO - ATENDEMOS A INTIMAÇÃO - DDA FEITO EM 11/02/2025"
+        "2023": "EM MALHA — CLIENTE FEZ A DECLARAÇÃO - ATENDEMOS A INTIMAÇÃO - DDA FEITO EM 11/02/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-13T11:41:50.863Z",
+          "exercicio": "2023",
+          "de": "CLIENTE FEZ A DECLARAÇÃO - ATENDEMOS A INTIMAÇÃO - DDA FEITO EM 11/02/2025",
+          "para": "EM MALHA — CLIENTE FEZ A DECLARAÇÃO - ATENDEMOS A INTIMAÇÃO - DDA FEITO EM 11/02/2025"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "11/02/2025"
+        }
+      },
+      "impugnacoes": {}
     },
     {
       "id": "52793036668",
