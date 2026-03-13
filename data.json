@@ -3431,7 +3431,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2018": "116.403,47 EM 31-05-2021 - RECEBEU PER 21/06/2021",
+        "2018": "PROCESSADA — 116.403,47 EM 31-05-2021 - RECEBEU PER 21/06/2021",
         "2020": "PROCESSADA — 726,40 - 30/06/2020",
         "2021": "PROCESSADA — 57.249,31 EM 31/01/2023",
         "2022": "PROCESSADA — 62.095,67 EM 31/01/2023",
@@ -3442,6 +3442,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T12:43:02.555Z",
+          "exercicio": "2018",
+          "de": "116.403,47 EM 31-05-2021 - RECEBEU PER 21/06/2021",
+          "para": "PROCESSADA — 116.403,47 EM 31-05-2021 - RECEBEU PER 21/06/2021"
+        },
         {
           "ts": "2026-03-13T12:42:41.285Z",
           "exercicio": "2020",
@@ -3480,6 +3486,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "31/05/2021",
+          "valor": 116403.47
+        },
         "2020": {
           "data": "30/06/2020",
           "valor": 726.4
@@ -32973,6 +32983,15 @@
             "2021": 3210.2
           },
           "total": 3210.2
+        },
+        {
+          "clienteId": "20108281604",
+          "cpfCnpj": "201.082.816-04",
+          "nome": "ANTÔNIO AUGUSTO DE CARVALHO FILHO",
+          "porExercicio": {
+            "2018": 116403.47
+          },
+          "total": 116403.47
         }
       ]
     },
