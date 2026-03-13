@@ -2725,10 +2725,15 @@
         "2021": "EM PROCESSAMENTO — 41.885,94 EM 31/10/2023",
         "2022": "EM PROCESSAMENTO — 43.026,04 EM 31/10/2023",
         "2023": "EM PROCESSAMENTO — 44.857,33 EM 31/10/2023",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025",
-        "2025": "EM PROCESSAMENTO — ISENTO NA FONTE"
+        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-13T12:27:02.421Z",
+          "exercicio": "2025",
+          "de": "EM PROCESSAMENTO — ISENTO NA FONTE",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-12T16:50:00.619Z",
           "exercicio": "2024",
