@@ -4088,6 +4088,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-13T12:57:54.874Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — 14.733,99 EM 31/05/2024",
+          "para": "EM PROCESSAMENTO — 14.733,99 EM 31/05/2024"
+        },
+        {
           "ts": "2026-03-13T12:57:41.163Z",
           "exercicio": "2022",
           "de": "14.733,99 EM 31/05/2024",
@@ -4114,7 +4120,7 @@
       ],
       "recebimentos": {
         "2022": {
-          "data": "30/05/2024",
+          "data": "31/05/2024",
           "valor": 14733.99
         },
         "2023": {
