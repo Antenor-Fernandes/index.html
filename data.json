@@ -648,9 +648,25 @@
       "exercicios": {
         "2020": "8.274,86 - 30/06/2020",
         "2021": "PROCESSADA",
-        "2025": "9.254,86 EM 30/05/2025"
+        "2025": "PROCESSADA — 9.254,86 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-13T11:32:12.057Z",
+          "exercicio": "2025",
+          "de": "9.254,86 EM 30/05/2025",
+          "para": "PROCESSADA — 9.254,86 EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 9254.86
+        }
+      },
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "26947560691",
