@@ -6480,7 +6480,7 @@
       "observacoes": "",
       "exercicios": {
         "2019": "IMPUGNAMOS DDA 14/07/2022 - RECEBEU EM DEZEMBRO - JÁ PAGOU HONORÁRIOS",
-        "2020": "119.244,12 EM 31/07/2023",
+        "2020": "PROCESSADA — 119.244,12 EM 31/07/2023",
         "2021": "PROCESSADA — 125.162,08 EM 31/07/2023",
         "2022": "PROCESSADA — 119.556,67 EM 31/07/2023",
         "2023": "PROCESSADA — 185.045,54 EM 28/02/2025",
@@ -6490,6 +6490,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:49:01.536Z",
+          "exercicio": "2020",
+          "de": "119.244,12 EM 31/07/2023",
+          "para": "PROCESSADA — 119.244,12 EM 31/07/2023"
+        },
         {
           "ts": "2026-03-13T13:48:44.091Z",
           "exercicio": "2021",
@@ -6522,6 +6528,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/07/2023",
+          "valor": 119244.12
+        },
         "2021": {
           "data": "31/07/2023",
           "valor": 125162.08
