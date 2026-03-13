@@ -4877,7 +4877,7 @@
       "observacoes": "",
       "exercicios": {
         "2021": "MALHA DG - DDA FEITO EM 04/07/2025",
-        "2022": "MALHA DG - DDA FEITO EM 04/07/2025",
+        "2022": "EM MALHA — MALHA DG - DDA FEITO EM 04/07/2025",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 04/07/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 04/07/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
@@ -4885,6 +4885,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T13:16:06.987Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 04/07/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 04/07/2025"
+        },
         {
           "ts": "2026-03-13T13:15:49.314Z",
           "exercicio": "2023",
@@ -4906,6 +4912,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2022": {
+          "feito": true,
+          "data": "04/07/2025"
+        },
         "2023": {
           "feito": true,
           "data": "04/07/2025"
