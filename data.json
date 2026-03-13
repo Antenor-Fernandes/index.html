@@ -3626,6 +3626,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-13T12:47:09.685Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 6.998,85 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 6.998,85 EM 31/01/2025"
+        },
+        {
           "ts": "2026-03-13T12:46:50.842Z",
           "exercicio": "2019",
           "de": "MALHA DG - DDA FEITO EM 19/12/2024 - 2.841,81 EM 31/01/2025",
@@ -3678,7 +3684,7 @@
           "valor": 5880.49
         },
         "2021": {
-          "data": "19/12/2024",
+          "data": "31/01/2025",
           "valor": 6998.85
         },
         "2022": {
