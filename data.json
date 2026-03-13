@@ -1173,13 +1173,19 @@
       "exercicios": {
         "2021": "2.203,33 EM 30/12/2025",
         "2022": "PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
-        "2023": "2.903,44 EM 30/12/2025",
+        "2023": "PROCESSADA — 2.903,44 EM 30/12/2025",
         "2024": "PROCESSADA — 3.169,23 EM 30/12/2025",
         "2025": "PROCESSADA — 6.140,85 EM 30/12/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-13T11:45:52.267Z",
+          "exercicio": "2023",
+          "de": "2.903,44 EM 30/12/2025",
+          "para": "PROCESSADA — 2.903,44 EM 30/12/2025"
+        },
         {
           "ts": "2026-03-13T11:45:36.487Z",
           "exercicio": "2024",
@@ -1194,6 +1200,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "31/12/2025",
+          "valor": 2903.44
+        },
         "2024": {
           "data": "30/12/2025",
           "valor": 3169.23
@@ -17611,9 +17621,10 @@
           "cpfCnpj": "373.930.306-91",
           "nome": "AILTON SANTOS OLIVEIRA",
           "porExercicio": {
+            "2023": 2903.44,
             "2025": 6140.85
           },
-          "total": 6140.85
+          "total": 9044.29
         }
       ]
     },
