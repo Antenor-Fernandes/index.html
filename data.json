@@ -1418,14 +1418,30 @@
       "observacoes": "",
       "exercicios": {
         "2020": "PROCESSADA",
-        "2021": "2.671,72 30/07/2021",
+        "2021": "PROCESSADA — 2.671,72 30/07/2021",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-13T11:54:41.385Z",
+          "exercicio": "2021",
+          "de": "2.671,72 30/07/2021",
+          "para": "PROCESSADA — 2.671,72 30/07/2021"
+        }
+      ],
+      "recebimentos": {
+        "2021": {
+          "data": "30/07/2021",
+          "valor": 2671.72
+        }
+      },
+      "dda": {},
+      "impugnacoes": {}
     },
     {
       "id": "14413957687",
