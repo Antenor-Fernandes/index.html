@@ -3718,11 +3718,27 @@
       "exercicios": {
         "2022": "56.354,79 EM 31/07/2024",
         "2023": "NÃO TEM O Q RECUPERAR",
-        "2024": "MALHA DG - DDA FEITO EM 10/01/2025 - 37.471,58",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 10/01/2025 - 37.471,58",
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-13T12:47:51.658Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 10/01/2025 - 37.471,58",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 10/01/2025 - 37.471,58"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "10/01/2025"
+        }
+      },
+      "impugnacoes": {}
     },
     {
       "id": "22018620606",
