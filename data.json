@@ -3049,6 +3049,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-13T12:31:53.442Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP. - DDA FEITO EM 14/01/2025 - ATENDIMENTO À INTIMAÇÃO EM 12/03/2026",
+          "para": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP. - DDA FEITO EM 14/01/2025 - ATENDIMENTO À INTIMAÇÃO EM 12/03/2026"
+        },
+        {
           "ts": "2026-03-13T12:31:47.580Z",
           "exercicio": "2025",
           "de": "MALHA DESPESAS MÉDICAS - DDA FEITO EM 26/01/2026",
