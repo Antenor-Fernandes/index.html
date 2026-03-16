@@ -1889,7 +1889,7 @@
       "exercicios": {
         "2020": "MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
         "2021": "MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
-        "2022": "MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
+        "2022": "IMPUGNAÇÃO — MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
         "2023": "IMPUGNAÇÃO — MALHA DG - DDA FEITO ENTRE 09 E 12/01/2024 - IMPUGNAÇÃO FEITA EM 12/04/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026"
@@ -1897,6 +1897,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:13:56.545Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024",
+          "para": "IMPUGNAÇÃO — MALHA DG - DDA EM 15/06/2023 - IMPUGNAÇÃO FEITA EM 12/04/2024"
+        },
         {
           "ts": "2026-03-16T17:13:31.932Z",
           "exercicio": "2023",
@@ -1928,6 +1934,9 @@
         }
       },
       "impugnacoes": {
+        "2022": {
+          "data": "12/04/2024"
+        },
         "2023": {
           "data": "12/04/2024"
         }
