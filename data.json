@@ -1173,7 +1173,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2021": "2.203,33 EM 30/12/2025",
+        "2021": "PROCESSADA — 2.203,33 EM 30/12/2025",
         "2022": "IMPUGNAÇÃO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
         "2023": "PROCESSADA — 2.903,44 EM 30/12/2025",
         "2024": "PROCESSADA — 3.169,23 EM 30/12/2025",
@@ -1182,6 +1182,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:04:29.068Z",
+          "exercicio": "2021",
+          "de": "2.203,33 EM 30/12/2025",
+          "para": "PROCESSADA — 2.203,33 EM 30/12/2025"
+        },
         {
           "ts": "2026-03-16T17:04:17.569Z",
           "exercicio": "2022",
@@ -1208,6 +1214,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/12/2025",
+          "valor": 2203.33
+        },
         "2023": {
           "data": "30/12/2025",
           "valor": 2903.44
