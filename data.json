@@ -6036,11 +6036,17 @@
       "observacoes": "FAZER DDA 2025",
       "exercicios": {
         "2023": "MALHA PENSÃO - CLIENTE QUE FEZ - NÓS REVISAMOS",
-        "2024": "PROCESSADA — MALHA PENSÃO - DDA FEITO EM 09/06/2025",
+        "2024": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 09/06/2025",
         "2025": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 27/01/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T18:19:27.745Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — MALHA PENSÃO - DDA FEITO EM 09/06/2025",
+          "para": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 09/06/2025"
+        },
         {
           "ts": "2026-03-16T18:18:26.972Z",
           "exercicio": "2024",
@@ -6054,13 +6060,12 @@
           "para": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 27/01/2026"
         }
       ],
-      "recebimentos": {
-        "2024": {
-          "data": "09/06/2025",
-          "valor": 0
-        }
-      },
+      "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "09/06/2025"
+        },
         "2025": {
           "feito": true,
           "data": "27/01/2026"
