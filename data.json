@@ -6858,7 +6858,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2016": "R$ 7.450,14 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
+        "2016": "PROCESSADA — R$ 7.450,14 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
         "2017": "PROCESSADA — 8847,06 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
         "2018": "PROCESSADA — 10098,85 EM 30/12/2020 DG JÁ RECEBEI PERDCOMP",
         "2019": "PROCESSADA — 10111,77 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
@@ -6872,6 +6872,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:35:47.778Z",
+          "exercicio": "2016",
+          "de": "R$ 7.450,14 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
+          "para": "PROCESSADA — R$ 7.450,14 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP"
+        },
         {
           "ts": "2026-03-16T18:35:35.186Z",
           "exercicio": "2017",
@@ -6928,6 +6934,10 @@
         }
       ],
       "recebimentos": {
+        "2016": {
+          "data": "30/12/2020",
+          "valor": 7450.14
+        },
         "2017": {
           "data": "30/12/2020",
           "valor": 8847.06
@@ -35091,12 +35101,13 @@
           "cpfCnpj": "050.860.356-00",
           "nome": "EDIR MARLENE DE SOUZA",
           "porExercicio": {
+            "2016": 7450.14,
             "2017": 8847.06,
             "2018": 10098.85,
             "2019": 10111.77,
             "2020": 10398.12
           },
-          "total": 39455.8
+          "total": 46905.94000000001
         }
       ]
     },
