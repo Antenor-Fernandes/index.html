@@ -8959,10 +8959,29 @@
         "2022": "944,51 31/05/2022",
         "2023": "MALHA DG - DDA FEITO EM 24/01/2024",
         "2024": "MALHA DG - DDA FEITO EM 16/01/2025",
-        "2025": "1.473,13 EM 30/05/2025"
+        "2025": "PROCESSADA — 1.473,13 EM 30/05/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T19:06:47.090Z",
+          "exercicio": "2025",
+          "de": "1.473,13 EM 30/05/2025",
+          "para": "PROCESSADA — 1.473,13 EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 1743.13
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "33871434604",
@@ -23984,9 +24003,9 @@
           "id": "20439318653",
           "cpfCnpj": "204.393.186-53",
           "nome": "FÁTIMA ABRAHAO CARAM LUIZ",
-          "total": 1473.13,
+          "total": 1743.13,
           "porExercicio": {
-            "2025": 1473.13
+            "2025": 1743.13
           }
         },
         {
