@@ -2895,6 +2895,12 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-16T15:11:44.292Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA"
+        },
+        {
           "ts": "2026-03-16T14:54:29.336Z",
           "exercicio": "2023",
           "de": "MALHA DG - RRA - DDA FEITO EM 25/01/2024",
@@ -2915,7 +2921,12 @@
           "obs": ""
         }
       },
-      "exGCAP": {},
+      "exGCAP": {
+        "2025": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
       "exPerdcomps": {}
     },
     {
