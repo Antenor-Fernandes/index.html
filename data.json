@@ -7509,10 +7509,29 @@
         "2020": "IMPUGNAMOS EM 06/10/2025 - ACOMPANHAR OB - 10680.613036/2022-13 ( exercício 2020 Rest. R$ 4.633,09)",
         "2021": "IMPUGNAMOS EM 06/10/2025 - ACOMPANHAR OB 10680.617256/2025-69 ( Exercício 2021 Rest. R$ 4.679,19)",
         "2022": "IMPUGNAMOS EM 06/10/2025 - ACOMPANHAR OB 10680.617256/2025-69 ( Exercício 2022 Rest. R$ 4.794,92 )",
-        "2023": "R$ 3.103,33 EM 31/10/2025"
+        "2023": "PROCESSADA — R$ 3.103,33 EM 31/10/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T18:43:51.757Z",
+          "exercicio": "2023",
+          "de": "R$ 3.103,33 EM 31/10/2025",
+          "para": "PROCESSADA — R$ 3.103,33 EM 31/10/2025"
+        }
+      ],
+      "recebimentos": {
+        "2023": {
+          "data": "31/10/2025",
+          "valor": 3103.33
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "33416028600",
