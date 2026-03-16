@@ -3286,13 +3286,18 @@
       "observacoes": "",
       "exercicios": {
         "2022": "56.354,79 EM 31/07/2024",
-        "2023": "NÃO TEM O Q RECUPERAR",
         "2024": "MALHA DG - DDA FEITO EM 10/01/2025 - 37.471,58",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:48:00.008Z",
+          "exercicio": "2023",
+          "de": "NÃO TEM O Q RECUPERAR",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-16T17:46:42.845Z",
           "exercicio": "2025",
