@@ -9045,7 +9045,7 @@
       "exercicios": {
         "2016": "obs. 2013 e 2014 - pedido de ver de déb indeferido por pagamento",
         "2017": "pedido de transmissão da DIRPF via processo RFB - 05 inscrições na PGFN ( pedidos de revisão todos feitos em 16/02)",
-        "2018": "pedido de revisão de debito PGFN - DÉBITO DE 10.678,14 CANCELADO - RESTITUIÇÃO DE 252,66 - HONORÁRIOS DE 30% SOBRE O BENEFÍCIO ECONÔMICO",
+        "2018": "PROCESSADA — pedido de revisão de debito PGFN - DÉBITO DE 10.678,14 CANCELADO - RESTITUIÇÃO DE 252,66 - HONORÁRIOS DE 30% SOBRE O BENEFÍCIO ECONÔMICO",
         "2019": "PROCESSADA — MALHA DG - DDA FEITO EM 29/09/2023 - DEFERIDA - ACOMPANHAR RESTITUIÇÃO E SOLICITAR PER DAS GUIAS DO PARCELAMENTO - PROCESSO 12151.729653/2022-13 - RECEBEU 8.652,86 EM NOVEMBRO 2023",
         "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 16/02/2022 - COMPENSAÇÃO DE OFÍCIO EM 09/08/2023 - JÁ ACERTOU OS HONORÁRIOS",
         "2021": "PROCESSADA — 5.580,04 EM 31/10/2023",
@@ -9057,6 +9057,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:09:39.490Z",
+          "exercicio": "2018",
+          "de": "pedido de revisão de debito PGFN - DÉBITO DE 10.678,14 CANCELADO - RESTITUIÇÃO DE 252,66 - HONORÁRIOS DE 30% SOBRE O BENEFÍCIO ECONÔMICO",
+          "para": "PROCESSADA — pedido de revisão de debito PGFN - DÉBITO DE 10.678,14 CANCELADO - RESTITUIÇÃO DE 252,66 - HONORÁRIOS DE 30% SOBRE O BENEFÍCIO ECONÔMICO"
+        },
         {
           "ts": "2026-03-16T19:09:29.566Z",
           "exercicio": "2019",
