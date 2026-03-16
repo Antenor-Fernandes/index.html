@@ -2486,12 +2486,18 @@
         "2020": "49.316,80 EM 31/10/2023",
         "2021": "41.885,94 EM 31/10/2023",
         "2022": "43.026,04 EM 31/10/2023",
-        "2023": "44.857,33 EM 31/10/2023",
+        "2023": "PROCESSADA — 44.857,33 EM 31/10/2023",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:28:34.322Z",
+          "exercicio": "2023",
+          "de": "44.857,33 EM 31/10/2023",
+          "para": "PROCESSADA — 44.857,33 EM 31/10/2023"
+        },
         {
           "ts": "2026-03-16T17:28:15.387Z",
           "exercicio": "2025",
@@ -2505,8 +2511,17 @@
           "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025"
         }
       ],
-      "recebimentos": {},
-      "dda": {}
+      "recebimentos": {
+        "2023": {
+          "data": "31/10/2023",
+          "valor": 44857.33
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "11109866615",
@@ -25731,7 +25746,7 @@
           "id": "27433200606",
           "cpfCnpj": "274.332.006-06",
           "nome": "ÂNGELA MARIA BAIA BHERING",
-          "total": 231380.1,
+          "total": 231380.10000000003,
           "porExercicio": {
             "2019": 52293.99,
             "2020": 49316.8,
