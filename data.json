@@ -1175,13 +1175,19 @@
       "exercicios": {
         "2021": "2.203,33 EM 30/12/2025",
         "2022": "PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
-        "2023": "2.903,44 EM 30/12/2025",
+        "2023": "PROCESSADA — 2.903,44 EM 30/12/2025",
         "2024": "PROCESSADA — 3.169,23 EM 30/12/2025",
         "2025": "PROCESSADA — 6.140,85 EM 30/12/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:03:59.594Z",
+          "exercicio": "2023",
+          "de": "2.903,44 EM 30/12/2025",
+          "para": "PROCESSADA — 2.903,44 EM 30/12/2025"
+        },
         {
           "ts": "2026-03-16T17:03:48.189Z",
           "exercicio": "2024",
@@ -1196,6 +1202,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "30/12/2025",
+          "valor": 2903.44
+        },
         "2024": {
           "data": "30/12/2025",
           "valor": 3169.23
