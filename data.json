@@ -8106,6 +8106,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-16T18:54:11.639Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025"
+        },
+        {
           "ts": "2026-03-16T18:54:06.884Z",
           "exercicio": "2023",
           "de": "MALHA DG - DDA FEITO EM 30/04/2025",
