@@ -2673,12 +2673,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA DG - DDA FEITO EM 13/01/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 13/01/2025",
         "2025": "PROCESSADA — 3.241,47 EM 30/06/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:31:15.877Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 13/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 13/01/2025"
+        },
         {
           "ts": "2026-03-16T17:31:02.704Z",
           "exercicio": "2025",
@@ -2692,7 +2698,12 @@
           "valor": 3241.47
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "13/10/2025"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
