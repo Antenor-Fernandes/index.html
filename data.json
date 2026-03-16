@@ -3690,7 +3690,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "32.888,51 EM 31/10/2024",
+        "2022": "PROCESSADA — 32.888,51 EM 31/10/2024",
         "2023": "PROCESSADA — 38.487,57 EM 31/10/2024",
         "2024": "PROCESSADA — 90.117,71 EM 31/10/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
@@ -3698,6 +3698,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:54:20.057Z",
+          "exercicio": "2022",
+          "de": "32.888,51 EM 31/10/2024",
+          "para": "PROCESSADA — 32.888,51 EM 31/10/2024"
+        },
         {
           "ts": "2026-03-16T17:54:07.249Z",
           "exercicio": "2023",
@@ -3718,6 +3724,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2024",
+          "valor": 32888.51
+        },
         "2023": {
           "data": "31/10/2024",
           "valor": 38487.57
