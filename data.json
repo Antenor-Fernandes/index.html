@@ -454,13 +454,32 @@
       "observacoes": "PER 2023 FEITO EM 06/11/2025 - RECEBIDO EM 20/02/2026",
       "exercicios": {
         "2021": "59.156,68 EM 28/11/2025",
-        "2022": "49.019,17 EM 28/11/2025",
+        "2022": "PROCESSADA — 49.019,17 EM 28/11/2025",
         "2023": "45.914,54 EM 28/11/2025",
         "2024": "40.533,24 EM 28/11/2025",
         "2025": "36.183,70 EM 28/11/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T16:21:19.805Z",
+          "exercicio": "2022",
+          "de": "49.019,17 EM 28/11/2025",
+          "para": "PROCESSADA — 49.019,17 EM 28/11/2025"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "28/11/2025",
+          "valor": 49019.17
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "30515106704",
@@ -17970,7 +17989,7 @@
           "id": "04471326872",
           "cpfCnpj": "044.713.268-72",
           "nome": "ADILSON CREPALDI",
-          "total": 230807.33,
+          "total": 230807.33000000002,
           "porExercicio": {
             "2021": 59156.68,
             "2022": 49019.17,
