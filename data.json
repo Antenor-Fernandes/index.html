@@ -5743,7 +5743,7 @@
       "observacoes": "PER 2020 A 2024 FEITOS EM 08/01/2024 - RECEBIDOS EM 21/07/2025",
       "exercicios": {
         "2020": "MALHA DG - DDA FEITO EM 08/01/2025",
-        "2021": "29.649,90 EM 30/04/2025",
+        "2021": "PROCESSADA — 29.649,90 EM 30/04/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 23.047,40 EM 30/04/2025",
         "2023": "PROCESSADA — 22.775,14 EM 30/04/2025",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 24.008,33 EM 30/04/2025",
@@ -5752,6 +5752,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:13:53.383Z",
+          "exercicio": "2021",
+          "de": "29.649,90 EM 30/04/2025",
+          "para": "PROCESSADA — 29.649,90 EM 30/04/2025"
+        },
         {
           "ts": "2026-03-16T18:13:42.467Z",
           "exercicio": "2022",
@@ -5778,6 +5784,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/04/2025",
+          "valor": 29649.9
+        },
         "2022": {
           "data": "08/01/2025",
           "valor": 23047.4
