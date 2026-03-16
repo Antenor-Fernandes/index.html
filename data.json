@@ -9043,7 +9043,7 @@
       "senhaGov": "Fe130859!",
       "observacoes": "SENHA GOV.BR Fe130859! - TEM 43 PER DO PARCELAMENTO 2019 - RECEBEU 41 EM 15/05/2024 - E 2 EM 20/08/2024",
       "exercicios": {
-        "2016": "obs. 2013 e 2014 - pedido de ver de déb indeferido por pagamento",
+        "2016": "PROCESSADA — obs. 2013 e 2014 - pedido de ver de déb indeferido por pagamento",
         "2017": "PROCESSADA — pedido de transmissão da DIRPF via processo RFB - 05 inscrições na PGFN ( pedidos de revisão todos feitos em 16/02)",
         "2018": "PROCESSADA — pedido de revisão de debito PGFN - DÉBITO DE 10.678,14 CANCELADO - RESTITUIÇÃO DE 252,66 - HONORÁRIOS DE 30% SOBRE O BENEFÍCIO ECONÔMICO",
         "2019": "PROCESSADA — MALHA DG - DDA FEITO EM 29/09/2023 - DEFERIDA - ACOMPANHAR RESTITUIÇÃO E SOLICITAR PER DAS GUIAS DO PARCELAMENTO - PROCESSO 12151.729653/2022-13 - RECEBEU 8.652,86 EM NOVEMBRO 2023",
@@ -9057,6 +9057,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:09:46.820Z",
+          "exercicio": "2016",
+          "de": "obs. 2013 e 2014 - pedido de ver de déb indeferido por pagamento",
+          "para": "PROCESSADA — obs. 2013 e 2014 - pedido de ver de déb indeferido por pagamento"
+        },
         {
           "ts": "2026-03-16T19:09:43.470Z",
           "exercicio": "2017",
