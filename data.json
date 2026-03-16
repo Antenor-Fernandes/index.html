@@ -3384,13 +3384,35 @@
       "cpfCnpj": "203.946.188-40",
       "tipo": "PF",
       "nome": "CLÁUDIO HEINRIQUE FROES DA SILVA",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "FZER 2026 - TEM DE APURAR GCAP",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": false,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "FAZER 2026 - TEM DE APURAR GCAP",
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 03/03/2026"
       },
-      "temPer": false,
       "historico": [
         {
           "ts": "2026-03-16T15:35:32.863Z",
@@ -3413,6 +3435,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {
         "2025": {
           "ativo": true,
