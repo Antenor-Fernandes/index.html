@@ -5529,11 +5529,30 @@
         "2020": "PROCESSADA",
         "2021": "R$ 13,27 - 30/06/2021",
         "2022": "R$ 50,25 30/06/2022",
-        "2023": "202,15 EM 30/06/2023",
+        "2023": "PROCESSADA — 202,15 EM 30/06/2023",
         "2024": "EM PROCESSAMENTO",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T18:11:03.317Z",
+          "exercicio": "2023",
+          "de": "202,15 EM 30/06/2023",
+          "para": "PROCESSADA — 202,15 EM 30/06/2023"
+        }
+      ],
+      "recebimentos": {
+        "2023": {
+          "data": "30/06/2023",
+          "valor": 202.15
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "97182257653",
