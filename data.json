@@ -1459,10 +1459,29 @@
         "2022": "36.690,17 EM 31/03/2023",
         "2023": "14.452,52 EM 30/04/2024 - IMPUGNAMOS GLOSA DO VGBL EM 21/10/2025",
         "2024": "MALHA DG - DDA FEITO EM 09/01/2025 - 35.802,58",
-        "2025": "MALHA DG - DDA FEITO EM 20/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 20/01/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T17:06:06.710Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 20/01/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 20/01/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "20/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "31889077615",
