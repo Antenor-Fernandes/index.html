@@ -2504,10 +2504,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
+        "2023": "IMPUGNAÇÃO",
         "2024": "IMPUGNAÇÃO",
         "2025": "EM MALHA — MALHA DÉBITO"
       },
       "historico": [
+        {
+          "ts": "2026-03-16T14:39:10.708Z",
+          "exercicio": "2023",
+          "de": "",
+          "para": "IMPUGNAÇÃO"
+        },
         {
           "ts": "2026-03-16T14:38:54.029Z",
           "exercicio": "2024",
@@ -2536,6 +2543,9 @@
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {
+        "2023": {
+          "data": "16/03/2026"
+        },
         "2024": {
           "data": "16/03/2026"
         }
