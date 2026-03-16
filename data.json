@@ -7210,7 +7210,7 @@
       "observacoes": "FEITO PER 2019, 2020, 2021 30/06/2022 - PER 2022 10/02/2023 - RECEBEU 3 EM 20/07/2023 - FALTA RECEBER UM - RECEBIDO EM 20/05/2025 - MANDAR DARF GCAP TODO MÊS - MARÇO OK",
       "exercicios": {
         "2019": "2.539,27 EM 31/01/2023",
-        "2020": "3.050,25 EM 31/01/2023",
+        "2020": "PROCESSADA — 3.050,25 EM 31/01/2023",
         "2021": "PROCESSADA — 3.713,59 EM 31/01/2023",
         "2022": "PROCESSADA — 6.102,10 EM 31/07/2024",
         "2023": "PROCESSADA — 13.735,01 EM 31/07/2024",
@@ -7220,6 +7220,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:42:05.869Z",
+          "exercicio": "2020",
+          "de": "3.050,25 EM 31/01/2023",
+          "para": "PROCESSADA — 3.050,25 EM 31/01/2023"
+        },
         {
           "ts": "2026-03-16T18:41:54.691Z",
           "exercicio": "2021",
@@ -7252,6 +7258,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/01/2023",
+          "valor": 3050.25
+        },
         "2021": {
           "data": "31/01/2023",
           "valor": 3713.59
