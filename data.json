@@ -1147,12 +1147,18 @@
         "2021": "5.825,50 EM 27/02/2026",
         "2022": "EM PROCESSAMENTO — 5.620,61 EM 27/02/2026",
         "2023": "PROCESSADA — 5.412,78 EM 27/02/2026",
-        "2024": "EM PROCESSAMENTO — 5.511,57 EM 27/02/2026",
+        "2024": "PROCESSADA — 5.511,57 EM 27/02/2026",
         "2025": "PROCESSADA — 3.919,93 EM 27/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T12:59:00.358Z",
+          "exercicio": "2024",
+          "de": "EM PROCESSAMENTO — 5.511,57 EM 27/02/2026",
+          "para": "PROCESSADA — 5.511,57 EM 27/02/2026"
+        },
         {
           "ts": "2026-03-16T12:58:50.418Z",
           "exercicio": "2022",
