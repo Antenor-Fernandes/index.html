@@ -17391,17 +17391,7 @@
     {
       "data": "28/11/2026",
       "descricao": "Lote 28/11/2026",
-      "pagamentos": [
-        {
-          "clienteId": "04471326872",
-          "cpfCnpj": "044.713.268-72",
-          "nome": "ADILSON CREPALDI",
-          "porExercicio": {
-            "2022": 49019.17
-          },
-          "total": 49019.17
-        }
-      ]
+      "pagamentos": []
     },
     {
       "data": "31/03/2026",
