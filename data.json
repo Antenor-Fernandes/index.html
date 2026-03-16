@@ -8826,7 +8826,7 @@
       "observacoes": "",
       "exercicios": {
         "2020": "NÃO TEM O Q RECUPERAR",
-        "2021": "3.453,44 EM 28/02/2025",
+        "2021": "PROCESSADA — 3.453,44 EM 28/02/2025",
         "2022": "NÃO TEM O Q RECUPERAR",
         "2023": "NÃO TEM O Q RECUPERAR",
         "2024": "PROCESSADA — 46.308,58 EM 28/02/2025",
@@ -8835,6 +8835,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:06:05.486Z",
+          "exercicio": "2021",
+          "de": "3.453,44 EM 28/02/2025",
+          "para": "PROCESSADA — 3.453,44 EM 28/02/2025"
+        },
         {
           "ts": "2026-03-16T19:05:40.565Z",
           "exercicio": "2024",
@@ -8849,6 +8855,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "28/02/2025",
+          "valor": 3453.44
+        },
         "2024": {
           "data": "28/02/2025",
           "valor": 46308.58
