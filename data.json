@@ -8830,10 +8830,29 @@
         "2022": "NÃO TEM O Q RECUPERAR",
         "2023": "NÃO TEM O Q RECUPERAR",
         "2024": "46.308,58 EM 28/02/2025",
-        "2025": "MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T19:05:24.076Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026",
+          "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "27/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "07183461653",
