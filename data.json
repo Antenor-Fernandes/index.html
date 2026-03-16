@@ -10507,7 +10507,37 @@
       "exercicios": {
         "2020": "PROCESSADA"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:58:34.368Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {
+        "2020": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "21175.64455.200125.2.2.04-8201",
+            "valorPedido": 46223.42,
+            "dataTransmissao": "20/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "57888116604",
