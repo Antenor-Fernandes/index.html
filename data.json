@@ -6639,12 +6639,18 @@
       "observacoes": "JÁ TEM LAUDO - PER 2024 FEITO EM 09/12/2025 - PER 2025 FEITO EM 23/01/2026. PEDIR RESTITUIÇÃO DAS GUIAS DO PARCELAMENTO",
       "exercicios": {
         "2023": "MALHA DG - DDA FEITO EM 09/12/2025",
-        "2024": "MALHA DG - DDA FEITO EM 09/12/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 09/12/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:23:42.473Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 09/12/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 09/12/2025"
+        },
         {
           "ts": "2026-03-16T18:23:30.653Z",
           "exercicio": "2025",
@@ -6654,6 +6660,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "09/12/2025"
+        },
         "2025": {
           "feito": true,
           "data": "23/01/2026"
