@@ -13541,11 +13541,17 @@
       "exercicios": {
         "2020": "MALHA RRA - DDA FEITO EM 21/10/2022",
         "2021": "29.947,40 EM 30/09/2025",
-        "2022": "MALHA RRA  - DDA FEITO EM 10/01/2023",
+        "2022": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 2.360,34 EM 30/09/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-16T16:10:49.843Z",
+          "exercicio": "2022",
+          "de": "MALHA RRA  - DDA FEITO EM 10/01/2023",
+          "para": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023"
+        },
         {
           "ts": "2026-03-16T16:10:25.588Z",
           "exercicio": "2023",
@@ -13565,10 +13571,20 @@
           "valor": 2360.34
         }
       },
-      "dda": {},
+      "dda": {
+        "2022": {
+          "feito": true,
+          "data": "10/01/2023"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
-      "exRRA": {},
+      "exRRA": {
+        "2022": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
       "exGCAP": {},
       "exPerdcomps": {}
     },
