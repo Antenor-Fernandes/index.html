@@ -2895,6 +2895,12 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-16T15:27:46.216Z",
+          "exercicio": "2023",
+          "de": "EM MALHA — MALHA DG - RRA - DDA FEITO EM 25/01/2024",
+          "para": "EM MALHA — MALHA DG - RRA - DDA FEITO EM 25/01/2024"
+        },
+        {
           "ts": "2026-03-16T15:25:59.470Z",
           "exercicio": "2023",
           "de": "EM MALHA — MALHA DG - RRA - DDA FEITO EM 25/01/2024",
@@ -2939,6 +2945,14 @@
             "numero": "16723.43088.210623.2.2.04-6446",
             "valorPedido": 146.48,
             "dataTransmissao": "21/06/2023",
+            "obs": "GCAP PAGO INDEVIDAMENTE - ISENTO 180 DIAS",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "13171.69224.210623.2.2.04-5752",
+            "valorPedido": 178.87,
+            "dataTransmissao": "21/03/2026",
             "obs": "GCAP PAGO INDEVIDAMENTE - ISENTO 180 DIAS",
             "dataRec": "",
             "valorRec": 0
