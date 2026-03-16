@@ -3356,12 +3356,18 @@
         "2021": "OB RECEBIDA - HONORÁRIOS PAGOS",
         "2022": "26.421,73 EM 31/03/2023",
         "2023": "28.801,10 EM 31/03/2025",
-        "2024": "26.086,93 EM 31/03/2025",
+        "2024": "PROCESSADA — 26.086,93 EM 31/03/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 22/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:49:18.267Z",
+          "exercicio": "2024",
+          "de": "26.086,93 EM 31/03/2025",
+          "para": "PROCESSADA — 26.086,93 EM 31/03/2025"
+        },
         {
           "ts": "2026-03-16T17:49:03.240Z",
           "exercicio": "2025",
@@ -3369,7 +3375,12 @@
           "para": "EM MALHA — MALHA DG - DDA FEITO EM 22/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/03/2025",
+          "valor": 26086.93
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
