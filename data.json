@@ -1465,6 +1465,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-16T17:09:14.722Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — 45.260,04 EM 31/03/2023",
+          "para": "PROCESSADA — 45.260,04 EM 31/03/2023"
+        },
+        {
           "ts": "2026-03-16T17:08:05.153Z",
           "exercicio": "2018",
           "de": "13.660,13 EM 31/03/2023",
@@ -1552,7 +1558,18 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "07/02/2023",
+            "obs": "",
+            "dataRec": "20/02/2024",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "31889077615",
