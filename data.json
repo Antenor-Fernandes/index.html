@@ -7504,7 +7504,7 @@
       "senhaGov": "",
       "observacoes": "FALECIDA - ACESSO GOV INVENTARIANTE 982.798.748-87 - DUAS ETAPAS - 3 PEDIDOS DE REVISÃO DE DÉBITO NA PGFN FEITOS EM 25/09/2025 - FOI PARA A EQUIPE DE REST EM 03/11/2025 - FICAR DE OLHO",
       "exercicios": {
-        "2018": "ACOMPANHAR OB - 12154.738015/2022-93 ( exercício 2018 Rest. R$ 15.986,53 )",
+        "2018": "EM FILA DE RESTITUIÇÃO — ACOMPANHAR OB - 12154.738015/2022-93 ( exercício 2018 Rest. R$ 15.986,53 )",
         "2019": "IMPUGNAMOS EM 06/10/2025",
         "2020": "IMPUGNAMOS EM 06/10/2025 - ACOMPANHAR OB - 10680.613036/2022-13 ( exercício 2020 Rest. R$ 4.633,09)",
         "2021": "IMPUGNAMOS EM 06/10/2025 - ACOMPANHAR OB 10680.617256/2025-69 ( Exercício 2021 Rest. R$ 4.679,19)",
@@ -7514,6 +7514,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:44:05.022Z",
+          "exercicio": "2018",
+          "de": "ACOMPANHAR OB - 12154.738015/2022-93 ( exercício 2018 Rest. R$ 15.986,53 )",
+          "para": "EM FILA DE RESTITUIÇÃO — ACOMPANHAR OB - 12154.738015/2022-93 ( exercício 2018 Rest. R$ 15.986,53 )"
+        },
         {
           "ts": "2026-03-16T18:43:51.757Z",
           "exercicio": "2023",
