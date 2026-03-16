@@ -15897,6 +15897,12 @@
       },
       "historico": [
         {
+          "ts": "2026-03-16T18:30:09.680Z",
+          "exercicio": "2023",
+          "de": "EM MALHA",
+          "para": "EM MALHA"
+        },
+        {
           "ts": "2026-03-16T18:29:57.808Z",
           "exercicio": "2023",
           "de": "",
@@ -15935,6 +15941,16 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "16/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
         "2024": [
           {
             "numero": "",
