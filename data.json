@@ -10375,12 +10375,29 @@
       "temPer": false,
       "doencaGrave": false,
       "temRRA": false,
-      "exercicios": {},
-      "historico": [],
+      "exercicios": {
+        "2025": "EM MALHA"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-16T19:35:35.765Z",
+          "exercicio": "2025",
+          "de": "",
+          "para": "EM MALHA"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "16/03/2026"
+        }
+      },
       "impugnacoes": {},
-      "perdcomps": []
+      "perdcomps": [],
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "04497183602",
