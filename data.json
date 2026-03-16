@@ -3291,7 +3291,21 @@
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T17:46:42.845Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "22018620606",
