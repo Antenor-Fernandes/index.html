@@ -3915,6 +3915,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-16T17:57:14.866Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 56.582,46 EM 28/11/2025",
+          "para": "PROCESSADA — 56.582,46 EM 28/11/2025"
+        },
+        {
           "ts": "2026-03-16T17:57:07.246Z",
           "exercicio": "2023",
           "de": "56.582,46 EM 28/11/2025",
