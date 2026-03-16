@@ -1455,11 +1455,20 @@ async function savePerPanel(id,idx){
   const observacoes=document.getElementById(`per-obs-${id}-${idx}`)?.value.trim()||'';
   const dataRecebimento=document.getElementById(`per-drec-${id}-${idx}`)?.value.trim()||'';
   const valorRecebido=parseBRLField(document.getElementById(`per-vrec-${id}-${idx}`)?.value);
+  // Captura dados anteriores para sincronizar lote
+  const oldPer=c.perdcomps[idx]?{...c.perdcomps[idx]}:null;
   if(!c.perdcomps[idx])c.perdcomps[idx]={};
   c.perdcomps[idx]={numero,valorPedido,dataTransmissao,observacoes,dataRecebimento,valorRecebido};
   delete c.perdcomp; // remove legacy single-object field
-  if(dataRecebimento&&dataRecebimento.length===10&&valorRecebido>0){
-    await autoUpdateLote(c,`PERDCOMP-${idx}`,dataRecebimento,valorRecebido);
+  // Sincroniza lote: remove data anterior se mudou ou valor zerado
+  const perKey=`PERDCOMP-${idx}`;
+  const oldPerData=oldPer?.dataRecebimento||null;
+  const newPerData=dataRecebimento&&dataRecebimento.length===10?dataRecebimento:null;
+  if(oldPerData&&(oldPerData!==newPerData||!(newPerData&&valorRecebido>0))){
+    await removerEntradaLote(c,perKey,oldPerData);
+  }
+  if(newPerData&&valorRecebido>0){
+    await autoUpdateLote(c,perKey,newPerData,valorRecebido);
   }
   await dbPut('clientes',c);
   ghSave();
@@ -1539,8 +1548,9 @@ function renderLotes(){
         ${l.descricao?`<span style="font-size:12.5px;color:var(--text2)">${l.descricao}</span>`:''}
         <span class="lote-count">${l.pagamentos.length} cliente${l.pagamentos.length!==1?'s':''}</span>
         <span class="lote-total-badge">${fmtBRL(totalGeral)}</span>
-        <button class="btn btn-ghost btn-sm" style="margin-left:4px" onclick="event.stopPropagation();abrirEdicaoLote(${idx})">✏️ Editar</button>
+        <button class="btn btn-ghost btn-sm edit-only" style="margin-left:4px" onclick="event.stopPropagation();abrirEdicaoLote(${idx})">✏️ Editar</button>
         <button class="btn btn-ghost btn-sm no-print" style="margin-left:2px" onclick="event.stopPropagation();imprimirLoteUnico(${idx})" title="Imprimir este lote">🖨️</button>
+        ${l.pagamentos.length===0?`<button class="btn btn-danger btn-sm no-print edit-only" style="margin-left:2px" onclick="event.stopPropagation();excluirLote(${idx})" title="Excluir lote vazio">🗑️</button>`:''}
         <span class="lote-chevron" id="lote-chev-${idx}">▶</span>
       </div>
       <div class="lote-body" id="lote-body-${idx}">
@@ -2128,9 +2138,11 @@ async function saveExModal(){
   c.exercicios[yr]=novo;
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:yr,de:anterior,para:novo});
+  // Captura recebimento anterior (antes de sobrescrever) para sincronizar lote
+  const oldRec=c.recebimentos?.[yr]?{...c.recebimentos[yr]}:null;
   // Salva recebimento
   if(!c.recebimentos)c.recebimentos={};
-  if(dataRec||valorRec>0){
+  if(dataRec&&(dataRec.length===10||valorRec>0)){
     c.recebimentos[yr]={data:dataRec,valor:valorRec};
   }else{
     delete c.recebimentos[yr];
@@ -2176,8 +2188,14 @@ async function saveExModal(){
   else{delete c.exPerdcomps[yr];}
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
-  if(dataRec&&dataRec.length===10&&valorRec>0){
-    await autoUpdateLote(c,yr,dataRec,valorRec);
+  // Sincroniza lote: remove da data anterior se mudou ou se valor foi zerado
+  const newData=dataRec&&dataRec.length===10?dataRec:null;
+  const oldData=oldRec?.data||null;
+  if(oldData&&(oldData!==newData||!(newData&&valorRec>0))){
+    await removerEntradaLote(c,yr,oldData);
+  }
+  if(newData&&valorRec>0){
+    await autoUpdateLote(c,yr,newData,valorRec);
   }
   refreshCurrentView();
   showToast('✅ Exercício atualizado','success');
@@ -2209,13 +2227,54 @@ async function autoUpdateLote(c,yr,data,valor){
   pag.total=Object.values(pag.porExercicio).reduce((a,b)=>a+b,0);
   await dbPut('lotes',lote);
 }
+// ── HELPERS DE SINCRONIZAÇÃO DE LOTES ─────────────────────────────────────────
+// Remove a entrada de um exercício (ou PERDCOMP) de um lote específico.
+// Também remove o cliente do lote se não tiver mais entradas.
+// Não deleta o lote em si — use excluirLote() para isso.
+async function removerEntradaLote(c, yr, data){
+  if(!data||!c)return;
+  const loteIdx=allLotes.findIndex(l=>l.data===data);
+  if(loteIdx===-1)return;
+  const lote=allLotes[loteIdx];
+  if(!lote.pagamentos)return;
+  const pagIdx=lote.pagamentos.findIndex(p=>p.clienteId===c.id||p.cpfCnpj===c.cpfCnpj);
+  if(pagIdx===-1)return;
+  const pag=lote.pagamentos[pagIdx];
+  if(pag.porExercicio)delete pag.porExercicio[yr];
+  pag.total=Object.values(pag.porExercicio||{}).reduce((a,b)=>a+b,0);
+  // Remove cliente do lote se não tiver mais nenhum exercício
+  if(!Object.keys(pag.porExercicio||{}).length){
+    lote.pagamentos.splice(pagIdx,1);
+  }
+  await dbPut('lotes',lote);
+}
+async function excluirLote(idx){
+  const l=allLotes[idx];
+  if(!l)return;
+  if(l.pagamentos&&l.pagamentos.length>0){
+    showToast('Remova todos os clientes antes de excluir o lote','error');
+    return;
+  }
+  if(!confirm(`Excluir lote de ${l.data}?`))return;
+  allLotes.splice(idx,1);
+  await dbDelete('lotes',l.data);
+  renderLotes();
+  showToast('🗑 Lote excluído','success');
+  ghSave();
+}
 async function deleteExModal(){
   if(!exEditYear)return;
   const c=allClients.find(x=>x.id===exEditId);
   if(!c||!c.exercicios)return;
   if(!c.historico)c.historico=[];
   c.historico.unshift({ts:new Date().toISOString(),exercicio:exEditYear,de:c.exercicios[exEditYear],para:'(removido)'});
+  // Remove do lote de restituição se havia recebimento
+  const oldRec=c.recebimentos?.[exEditYear];
+  if(oldRec?.data){
+    await removerEntradaLote(c,exEditYear,oldRec.data);
+  }
   delete c.exercicios[exEditYear];
+  if(c.recebimentos)delete c.recebimentos[exEditYear];
   if(c.dda)delete c.dda[exEditYear];
   if(c.impugnacoes)delete c.impugnacoes[exEditYear];
   if(c.exRRA)delete c.exRRA[exEditYear];
