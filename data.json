@@ -13547,6 +13547,12 @@
       },
       "historico": [
         {
+          "ts": "2026-03-16T16:13:34.870Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA — 2.360,34 EM 30/09/2025",
+          "para": "PROCESSADA — 2.360,34 EM 30/09/2025"
+        },
+        {
           "ts": "2026-03-16T16:13:17.368Z",
           "exercicio": "2022",
           "de": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023",
@@ -13654,6 +13660,16 @@
           }
         ],
         "2022": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "10/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
+        "2025": [
           {
             "numero": "",
             "valorPedido": 0,
