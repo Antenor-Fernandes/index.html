@@ -3388,9 +3388,38 @@
       "senhaGov": "",
       "observacoes": "FZER 2026 - TEM DE APURAR GCAP",
       "exercicios": {
-        "2025": "MALHA RRA - DDA FEITO EM 03/03/226"
+        "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 03/03/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:35:21.948Z",
+          "exercicio": "2025",
+          "de": "MALHA RRA - DDA FEITO EM 03/03/226",
+          "para": "EM MALHA — MALHA RRA - DDA FEITO EM 03/03/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "03/03/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {
+        "2025": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exGCAP": {
+        "2025": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exPerdcomps": {}
     },
     {
       "id": "25805878615",
