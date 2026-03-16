@@ -2487,12 +2487,17 @@
         "2021": "41.885,94 EM 31/10/2023",
         "2022": "43.026,04 EM 31/10/2023",
         "2023": "44.857,33 EM 31/10/2023",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025",
-        "2025": "ISENTO NA FONTE"
+        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:28:15.387Z",
+          "exercicio": "2025",
+          "de": "ISENTO NA FONTE",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-12T16:50:00.619Z",
           "exercicio": "2024",
