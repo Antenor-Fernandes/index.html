@@ -7744,9 +7744,33 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2025": "3.944,35 EM 30/05/2025"
+        "2025": "PROCESSADA — 3.944,35 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:44:02.899Z",
+          "exercicio": "2025",
+          "de": "3.944,35 EM 30/05/2025",
+          "para": "PROCESSADA — 3.944,35 EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 3944.35
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {
+        "2025": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "46255516687",
