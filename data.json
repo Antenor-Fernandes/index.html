@@ -6431,13 +6431,19 @@
         "2020": "MALHA DG - DDA FEITO EM 07/02/2024 - TEVE COMPENSAÇÃO DE OFÍCIO",
         "2021": "20.563,02 EM 31/07/2024",
         "2022": "MALHA DG - DDA FEITO EM 07/02/2024 - TEVE COMPENSAÇÃO DE OFÍCIO",
-        "2023": "9.102,22 EM 31/05/2024",
+        "2023": "PROCESSADA — 9.102,22 EM 31/05/2024",
         "2024": "PROCESSADA — 16.737,46 EM 28/06/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:22:14.355Z",
+          "exercicio": "2023",
+          "de": "9.102,22 EM 31/05/2024",
+          "para": "PROCESSADA — 9.102,22 EM 31/05/2024"
+        },
         {
           "ts": "2026-03-16T18:22:03.887Z",
           "exercicio": "2024",
@@ -6452,6 +6458,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "31/05/2024",
+          "valor": 9102.22
+        },
         "2024": {
           "data": "28/06/2024",
           "valor": 16737.46
