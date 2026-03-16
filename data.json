@@ -7215,10 +7215,34 @@
         "2022": "6.102,10 EM 31/07/2024",
         "2023": "13.735,01 EM 31/07/2024",
         "2024": "3.149,00 EM 31/10/2025",
-        "2025": "MALHA DG E ALUGUEL - DDA FEITO EM 27/01/2025"
+        "2025": "EM MALHA — MALHA DG E ALUGUEL - DDA FEITO EM 27/01/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T18:40:53.608Z",
+          "exercicio": "2025",
+          "de": "MALHA DG E ALUGUEL - DDA FEITO EM 27/01/2025",
+          "para": "EM MALHA — MALHA DG E ALUGUEL - DDA FEITO EM 27/01/2025"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "27/01/2025"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {
+        "2025": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exPerdcomps": {}
     },
     {
       "id": "09210334604",
