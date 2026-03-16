@@ -4898,9 +4898,28 @@
       "observacoes": "dirpf 2025 JÁ PAGOU 400 em 10/04/2025",
       "exercicios": {
         "2024": "MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
-        "2025": "5.467,46  EM 30/05/2025"
+        "2025": "PROCESSADA — 5.467,46  EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:39:18.489Z",
+          "exercicio": "2025",
+          "de": "5.467,46  EM 30/05/2025",
+          "para": "PROCESSADA — 5.467,46  EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 5467.46
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "24817031620",
