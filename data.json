@@ -5710,12 +5710,36 @@
       "exercicios": {
         "2020": "APRESENTAMOS DOCUMENTAÇÃO INTIMAÇÃO COMPLEMENTAR - NÃO FOMOS NÓS QUE FIZEMOS O DDA",
         "2021": "PROCESSADA - REDUÇÃO DO IMPOSTO A PAGAR - PERWEB FEITO EM 05/04/2022 - CRÉDITO RECONHECIDO - COMPENSAÇÃO DE OFÍCIO - ACOMPANHAR PAGAMENTO DO PER",
-        "2022": "MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
+        "2022": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:42:45.020Z",
+          "exercicio": "2022",
+          "de": "MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
+          "para": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2022": {
+          "feito": true,
+          "data": "10/01/2023"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {
+        "2022": {
+          "ativo": true,
+          "obs": "ENTRAMOS COM MANDADO DE SEGURANÇA, SEM SUCESSO. O PROCESSO TRABALHISTA AINDA NÃO TERMINOU"
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "45072485668",
