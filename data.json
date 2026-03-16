@@ -6993,7 +6993,7 @@
       "exercicios": {
         "2017": "FIZEMOS PER WEB RECEBEU EM 20/04/2022",
         "2018": "OBS: feito processo para pedir restituição do IR retido nas previdência complementar - OPTANTE PELA TRIB EXCLUSIVA - protocolamos via envelope dia 30/07/2020",
-        "2019": "1.192,16 - 16/03/2020",
+        "2019": "PROCESSADA — 1.192,16 - 16/03/2020",
         "2020": "PROCESSADA — RECONHECIDO O DIREITO CREDITÓRIO - DESCONSIDERAR NL",
         "2021": "PROCESSADA — 2.215,99 EM 31/03/2023",
         "2022": "PROCESSADA — 2.706,61 EM 28/04/2023 - REST PREV PRIVADA VIA PROCESSO FEITO EM 27/10/2022 - JÁ TEM DESPACHO DECISÓRIO - DDA EM 02/02/2023",
@@ -7004,6 +7004,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:38:07.106Z",
+          "exercicio": "2019",
+          "de": "1.192,16 - 16/03/2020",
+          "para": "PROCESSADA — 1.192,16 - 16/03/2020"
+        },
         {
           "ts": "2026-03-16T18:37:56.174Z",
           "exercicio": "2020",
@@ -7042,6 +7048,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "16/03/2020",
+          "valor": 1192.16
+        },
         "2021": {
           "data": "31/03/2023",
           "valor": 2215.99
@@ -35453,6 +35463,21 @@
             "2019": 7930.91
           },
           "total": 7930.91
+        }
+      ]
+    },
+    {
+      "data": "16/03/2020",
+      "descricao": "Lote 16/03/2020",
+      "pagamentos": [
+        {
+          "clienteId": "13288245604",
+          "cpfCnpj": "132.882.456-04",
+          "nome": "EDISON HERCULANO LUIZ",
+          "porExercicio": {
+            "2019": 1192.16
+          },
+          "total": 1192.16
         }
       ]
     },
