@@ -2092,11 +2092,17 @@
       "exercicios": {
         "2020": "8.764,39 29/10/2021",
         "2021": "9.743,58 29/10/2021",
-        "2024": "TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025",
+        "2024": "EM MALHA — TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025",
         "2025": "PROCESSADA — 4.631,72 EM 30/06/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T17:20:56.922Z",
+          "exercicio": "2024",
+          "de": "TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025",
+          "para": "EM MALHA — TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025"
+        },
         {
           "ts": "2026-03-16T17:20:35.651Z",
           "exercicio": "2025",
@@ -2110,7 +2116,12 @@
           "valor": 4631.72
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "21/01/2025"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
