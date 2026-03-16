@@ -12451,7 +12451,7 @@
       "senhaGov": "",
       "observacoes": "CONFERIR CONTRATO - PROVEITO ECONÔMICO EXERCÍCIO 2021",
       "exercicios": {
-        "2021": "RETIFICAMOS - RRA - FIZEMOS DDA EM 25/08/2021",
+        "2021": "PROCESSADA — RETIFICAMOS - RRA - FIZEMOS DDA EM 25/08/2021",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA — 324,63 EM 31/05/2024",
@@ -12459,6 +12459,12 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T16:05:51.116Z",
+          "exercicio": "2021",
+          "de": "RETIFICAMOS - RRA - FIZEMOS DDA EM 25/08/2021",
+          "para": "PROCESSADA — RETIFICAMOS - RRA - FIZEMOS DDA EM 25/08/2021"
+        },
         {
           "ts": "2026-03-16T16:05:34.237Z",
           "exercicio": "2024",
@@ -12474,7 +12480,12 @@
       },
       "dda": {},
       "impugnacoes": {},
-      "exRRA": {},
+      "exRRA": {
+        "2021": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
       "exGCAP": {},
       "exPerdcomps": {}
     },
