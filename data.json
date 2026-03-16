@@ -5744,7 +5744,7 @@
       "exercicios": {
         "2020": "MALHA DG - DDA FEITO EM 08/01/2025",
         "2021": "29.649,90 EM 30/04/2025",
-        "2022": "MALHA DG - DDA FEITO EM 08/01/2025 - 23.047,40 EM 30/04/2025",
+        "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 23.047,40 EM 30/04/2025",
         "2023": "PROCESSADA — 22.775,14 EM 30/04/2025",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 24.008,33 EM 30/04/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
@@ -5752,6 +5752,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:13:42.467Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 08/01/2025 - 23.047,40 EM 30/04/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 23.047,40 EM 30/04/2025"
+        },
         {
           "ts": "2026-03-16T18:13:19.705Z",
           "exercicio": "2023",
@@ -5772,6 +5778,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "08/01/2025",
+          "valor": 23047.4
+        },
         "2023": {
           "data": "30/04/2025",
           "valor": 22775.14
@@ -23394,9 +23404,10 @@
           "cpfCnpj": "256.844.856-34",
           "nome": "CLÉRCIO GONÇALVES GOSLING",
           "porExercicio": {
+            "2022": 23047.4,
             "2024": 24008.33
           },
-          "total": 24008.33
+          "total": 47055.73
         }
       ]
     },
