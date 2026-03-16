@@ -453,7 +453,7 @@
       "senhaGov": "",
       "observacoes": "PER 2023 FEITO EM 06/11/2025 - RECEBIDO EM 20/02/2026",
       "exercicios": {
-        "2021": "59.156,68 EM 28/11/2025",
+        "2021": "PROCESSADA — 59.156,68 EM 28/11/2025",
         "2022": "PROCESSADA — 49.019,17 EM 28/11/2025",
         "2023": "PROCESSADA — 45.914,54 EM 28/11/2025",
         "2024": "PROCESSADA — 40.533,24 EM 28/11/2025",
@@ -462,6 +462,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T16:22:50.137Z",
+          "exercicio": "2021",
+          "de": "59.156,68 EM 28/11/2025",
+          "para": "PROCESSADA — 59.156,68 EM 28/11/2025"
+        },
         {
           "ts": "2026-03-16T16:22:31.562Z",
           "exercicio": "2023",
@@ -488,6 +494,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "28/11/2025",
+          "valor": 59156.68
+        },
         "2022": {
           "data": "28/11/2025",
           "valor": 49019.17
