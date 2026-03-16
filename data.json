@@ -1127,9 +1127,23 @@
       "senhaGov": "@Jc362718",
       "observacoes": "SENHA GOV @Jc362718",
       "exercicios": {
-        "2024": "MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE VAI TRAZER DOCUMENTOS"
+        "2024": "EM MALHA — MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE VAI TRAZER DOCUMENTOS"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T17:03:07.421Z",
+          "exercicio": "2024",
+          "de": "MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE VAI TRAZER DOCUMENTOS",
+          "para": "EM MALHA — MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE VAI TRAZER DOCUMENTOS"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "48684066634",
