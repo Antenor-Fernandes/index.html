@@ -3393,6 +3393,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-16T15:35:32.863Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA RRA - DDA FEITO EM 03/03/2026",
+          "para": "EM MALHA — MALHA RRA - DDA FEITO EM 03/03/2026"
+        },
+        {
           "ts": "2026-03-16T15:35:21.948Z",
           "exercicio": "2025",
           "de": "MALHA RRA - DDA FEITO EM 03/03/226",
@@ -3413,12 +3419,7 @@
           "obs": ""
         }
       },
-      "exGCAP": {
-        "2025": {
-          "ativo": true,
-          "obs": ""
-        }
-      },
+      "exGCAP": {},
       "exPerdcomps": {}
     },
     {
