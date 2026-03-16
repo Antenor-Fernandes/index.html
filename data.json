@@ -8476,9 +8476,28 @@
       "senhaGov": "",
       "observacoes": "DUAS ETAPAS",
       "exercicios": {
-        "2023": "CLIENTE Q FEZ A DECLARAÇÃO - DDA FEITO EM 16/01/2024"
+        "2023": "EM MALHA — CLIENTE Q FEZ A DECLARAÇÃO - DDA FEITO EM 16/01/2024"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T19:00:58.723Z",
+          "exercicio": "2023",
+          "de": "CLIENTE Q FEZ A DECLARAÇÃO - DDA FEITO EM 16/01/2024",
+          "para": "EM MALHA — CLIENTE Q FEZ A DECLARAÇÃO - DDA FEITO EM 16/01/2024"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "16/01/2024"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "09359958620",
