@@ -7757,7 +7757,7 @@
       "observacoes": "PER 2020 A 2023 RETIFICADOS EM 19/11/2024 - PER 2024 FEITO EM 16/01/2025 - RECEBEU 4 EM 17/03/2025",
       "exercicios": {
         "2020": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024 - IMPUGNAMOS EM 16/01/2025",
-        "2021": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+        "2021": "IMPUGNAÇÃO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2022": "EM PROCESSAMENTO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2023": "PROCESSADA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
@@ -7766,6 +7766,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:49:11.365Z",
+          "exercicio": "2021",
+          "de": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+          "para": "IMPUGNAÇÃO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025"
+        },
         {
           "ts": "2026-03-12T17:11:45.824Z",
           "exercicio": "2020",
@@ -7821,12 +7827,16 @@
         "2020": {
           "feito": true,
           "data": ""
-        },
-        "2021": {
-          "feito": true,
-          "data": ""
         }
-      }
+      },
+      "impugnacoes": {
+        "2021": {
+          "data": "16/01/2025"
+        }
+      },
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "49092278653",
