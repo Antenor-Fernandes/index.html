@@ -2181,12 +2181,18 @@
         "2021": "5.548,52 EM 31/10/2025",
         "2022": "4.328,45 EM 31/10/2025",
         "2023": "5.336,54 EM 31/10/2025",
-        "2024": "11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+        "2024": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:23:51.528Z",
+          "exercicio": "2024",
+          "de": "11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+          "para": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026"
+        },
         {
           "ts": "2026-03-16T17:23:15.946Z",
           "exercicio": "2025",
@@ -2201,7 +2207,11 @@
           "data": "21/01/2026"
         }
       },
-      "impugnacoes": {},
+      "impugnacoes": {
+        "2024": {
+          "data": "02/03/2026"
+        }
+      },
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {}
