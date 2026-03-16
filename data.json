@@ -2091,12 +2091,18 @@
       "observacoes": "",
       "exercicios": {
         "2020": "8.764,39 29/10/2021",
-        "2021": "9.743,58 29/10/2021",
+        "2021": "PROCESSADA — 9.743,58 29/10/2021",
         "2024": "EM MALHA — TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 21/01/2025",
         "2025": "PROCESSADA — 4.631,72 EM 30/06/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T17:21:10.172Z",
+          "exercicio": "2021",
+          "de": "9.743,58 29/10/2021",
+          "para": "PROCESSADA — 9.743,58 29/10/2021"
+        },
         {
           "ts": "2026-03-16T17:20:56.922Z",
           "exercicio": "2024",
@@ -2111,6 +2117,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "29/10/2021",
+          "valor": 9743.58
+        },
         "2025": {
           "data": "30/06/2025",
           "valor": 4631.72
