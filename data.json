@@ -6118,6 +6118,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-16T18:20:08.938Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
+        },
+        {
           "ts": "2026-03-12T17:07:16.879Z",
           "exercicio": "2019",
           "de": "MALHA DG - DDA FEITO EM 24/02/2025 - TEVE NL REDUZINDO DE 14 PARA 9MIL",
@@ -6187,7 +6193,11 @@
           "feito": true,
           "data": "27/01/2026"
         }
-      }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "08930833640",
