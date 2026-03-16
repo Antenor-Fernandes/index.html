@@ -9177,11 +9177,30 @@
         "2020": "PROCESSADA",
         "2021": "R$ 2.359,68 31/08/2021",
         "2022": "PROCESSADA",
-        "2023": "MALHA DESP MED - DDA FEITO EM 05/02/2024 - CERTIDÃO DE NASCIMENTO DA DEPENDENTE JUNTADA EM 11/06/2024",
+        "2023": "EM MALHA — MALHA DESP MED - DDA FEITO EM 05/02/2024 - CERTIDÃO DE NASCIMENTO DA DEPENDENTE JUNTADA EM 11/06/2024",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T19:10:12.894Z",
+          "exercicio": "2023",
+          "de": "MALHA DESP MED - DDA FEITO EM 05/02/2024 - CERTIDÃO DE NASCIMENTO DA DEPENDENTE JUNTADA EM 11/06/2024",
+          "para": "EM MALHA — MALHA DESP MED - DDA FEITO EM 05/02/2024 - CERTIDÃO DE NASCIMENTO DA DEPENDENTE JUNTADA EM 11/06/2024"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "05/02/2024"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "04307548680",
