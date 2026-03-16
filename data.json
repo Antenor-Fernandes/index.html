@@ -8608,7 +8608,7 @@
       "senhaGov": "",
       "observacoes": "faleceu",
       "exercicios": {
-        "2017": "R$ 969,06 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
+        "2017": "PROCESSADA — R$ 969,06 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
         "2018": "PROCESSADA — R$ 906,44 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
         "2019": "PROCESSADA — R$ 857,18 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
         "2020": "PROCESSADA — R$ 813,11 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
@@ -8619,6 +8619,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:03:05.573Z",
+          "exercicio": "2017",
+          "de": "R$ 969,06 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
+          "para": "PROCESSADA — R$ 969,06 - 30/11/2020 - JÁ RECEBEU PERDCOMP"
+        },
         {
           "ts": "2026-03-16T19:02:49.894Z",
           "exercicio": "2018",
@@ -8657,6 +8663,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "30/11/2020",
+          "valor": 969.06
+        },
         "2018": {
           "data": "30/11/2020",
           "valor": 906.44
@@ -36042,11 +36052,12 @@
           "cpfCnpj": "295.564.736-53",
           "nome": "EUNICE MENDES CAMPOS MAGNANI",
           "porExercicio": {
+            "2017": 969.06,
             "2018": 906.44,
             "2019": 857.18,
             "2020": 813.11
           },
-          "total": 2576.73
+          "total": 3545.79
         }
       ]
     },
