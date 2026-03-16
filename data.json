@@ -14172,11 +14172,16 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "cliente  fez. Vamos fazer 2025 (rra)",
         "2025": "EM MALHA — MALHA RRA - DDA FEITO EM 22/01/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T16:14:58.724Z",
+          "exercicio": "2024",
+          "de": "cliente  fez. Vamos fazer 2025 (rra)",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-16T16:14:55.501Z",
           "exercicio": "2025",
