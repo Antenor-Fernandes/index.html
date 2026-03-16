@@ -4956,9 +4956,32 @@
       "cpfCnpj": "199.931.886-20",
       "tipo": "PF",
       "nome": "CARLOS ALBERTO SCOLARI MIRANDA",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "PROCURAÇÃO ECAC",
       "senhaGov": "",
+      "procurador": "TGC",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "5 PER FEITOS EM 21/06/2023 (GCAP 180 DIAS) - RECEBEU 2 EM 22/04/2024 - FALTAM  3 - TEM GCAP 2025",
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2018": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
         "2019": "PROCESSADA — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
@@ -4969,7 +4992,6 @@
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": true,
       "historico": [
         {
           "ts": "2026-03-16T16:34:03.802Z",
@@ -5061,6 +5083,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {
         "2023": {
           "ativo": true,
