@@ -4447,13 +4447,19 @@
       "exercicios": {
         "2020": "PROCESSO ABERTO PARA RETIFICAÇÃO DA DIRPF PROTOCOLADO EM 21/08/2024",
         "2021": "17.407,74 EM 31/03/2025",
-        "2022": "9.815,14 EM 31/03/2025",
+        "2022": "PROCESSADA — 9.815,14 EM 31/03/2025",
         "2023": "PROCESSADA — 4.665,92 EM 31/03/2025",
         "2024": "PROCESSADA — 10.767,07 EM 31/03/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:04:56.281Z",
+          "exercicio": "2022",
+          "de": "9.815,14 EM 31/03/2025",
+          "para": "PROCESSADA — 9.815,14 EM 31/03/2025"
+        },
         {
           "ts": "2026-03-16T18:04:43.408Z",
           "exercicio": "2023",
@@ -4468,6 +4474,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/03/2025",
+          "valor": 9815.14
+        },
         "2023": {
           "data": "31/03/2025",
           "valor": 4665.92
@@ -22818,6 +22828,21 @@
             "2023": 3293.11,
             "2024": 2708.43
           }
+        }
+      ]
+    },
+    {
+      "data": "30/03/2025",
+      "descricao": "Lote 30/03/2025",
+      "pagamentos": [
+        {
+          "clienteId": "83858822604",
+          "cpfCnpj": "838.588.226-04",
+          "nome": "BERALDINO BOLINA BATISTA",
+          "porExercicio": {
+            "2022": 9815.14
+          },
+          "total": 9815.14
         }
       ]
     },
