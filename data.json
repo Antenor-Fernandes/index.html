@@ -9049,7 +9049,7 @@
         "2019": "MALHA DG - DDA FEITO EM 29/09/2023 - DEFERIDA - ACOMPANHAR RESTITUIÇÃO E SOLICITAR PER DAS GUIAS DO PARCELAMENTO - PROCESSO 12151.729653/2022-13 - RECEBEU 8.652,86 EM NOVEMBRO 2023",
         "2020": "MALHA DG - DDA FEITO EM 16/02/2022 - COMPENSAÇÃO DE OFÍCIO EM 09/08/2023 - JÁ ACERTOU OS HONORÁRIOS",
         "2021": "5.580,04 EM 31/10/2023",
-        "2022": "2.940,45 EM 31/10/2023",
+        "2022": "PROCESSADA — 2.940,45 EM 31/10/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 06/01/2025",
         "2025": "PROCESSADA — 3.256,14 EM 30/06/2025"
@@ -9057,6 +9057,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:08:56.489Z",
+          "exercicio": "2022",
+          "de": "2.940,45 EM 31/10/2023",
+          "para": "PROCESSADA — 2.940,45 EM 31/10/2023"
+        },
         {
           "ts": "2026-03-16T19:08:41.769Z",
           "exercicio": "2023",
@@ -9077,6 +9083,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2023",
+          "valor": 2940.45
+        },
         "2025": {
           "data": "30/06/2025",
           "valor": 3256.14
