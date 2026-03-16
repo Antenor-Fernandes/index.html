@@ -4897,11 +4897,17 @@
       "senhaGov": "",
       "observacoes": "dirpf 2025 JÁ PAGOU 400 em 10/04/2025",
       "exercicios": {
-        "2024": "MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
+        "2024": "EM MALHA — MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
         "2025": "PROCESSADA — 5.467,46  EM 30/05/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T15:39:33.650Z",
+          "exercicio": "2024",
+          "de": "MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025",
+          "para": "EM MALHA — MALHA RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO EM 28/01/2025"
+        },
         {
           "ts": "2026-03-16T15:39:18.489Z",
           "exercicio": "2025",
@@ -4915,9 +4921,19 @@
           "valor": 5467.46
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "28/01/2025"
+        }
+      },
       "impugnacoes": {},
-      "exRRA": {},
+      "exRRA": {
+        "2024": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
       "exGCAP": {},
       "exPerdcomps": {}
     },
