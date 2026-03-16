@@ -9361,11 +9361,30 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "RETIFICADA EM 07/05/2024 - PROCESSADA",
+        "2023": "PROCESSADA — RETIFICADA EM 07/05/2024 - PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:45:47.040Z",
+          "exercicio": "2023",
+          "de": "RETIFICADA EM 07/05/2024 - PROCESSADA",
+          "para": "PROCESSADA — RETIFICADA EM 07/05/2024 - PROCESSADA"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {
+        "2023": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "19870817653",
