@@ -7128,11 +7128,17 @@
         "2019": "R$ 10.968,45 - 26/02/2021",
         "2020": "PROCESSADA - IMPOSTO A PAGAR",
         "2021": "140,24 EM 31/03/2023",
-        "2022": "2.214,68 EM 31/03/2023",
+        "2022": "PROCESSADA — 2.214,68 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 22/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-16T18:39:46.175Z",
+          "exercicio": "2022",
+          "de": "2.214,68 EM 31/03/2023",
+          "para": "PROCESSADA — 2.214,68 EM 31/03/2023"
+        },
         {
           "ts": "2026-03-16T18:39:30.373Z",
           "exercicio": "2023",
@@ -7152,7 +7158,12 @@
           "para": "(removido)"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2023",
+          "valor": 2214.68
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
