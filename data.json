@@ -9344,12 +9344,18 @@
         "2021": "11.399,18 EM 28/06/2024",
         "2022": "11.615,69 EM 28/06/2024",
         "2023": "11.904,34 EM 28/06/2024",
-        "2024": "12.824,03 EM 28/06/2024",
+        "2024": "PROCESSADA — 12.824,03 EM 28/06/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:13:22.362Z",
+          "exercicio": "2024",
+          "de": "12.824,03 EM 28/06/2024",
+          "para": "PROCESSADA — 12.824,03 EM 28/06/2024"
+        },
         {
           "ts": "2026-03-16T19:13:05.655Z",
           "exercicio": "2025",
@@ -9357,7 +9363,12 @@
           "para": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/06/2024",
+          "valor": 12824.03
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -26625,7 +26636,7 @@
           "id": "00845280104",
           "cpfCnpj": "008.452.801-04",
           "nome": "FERNANDO ANTÔNIO SOBRINHO",
-          "total": 58939.68,
+          "total": 58939.68000000001,
           "porExercicio": {
             "2020": 11196.44,
             "2021": 11399.18,
