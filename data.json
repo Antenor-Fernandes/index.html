@@ -13340,9 +13340,33 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "6.283,57 EM 31/10/2022"
+        "2022": "PROCESSADA — 6.283,57 EM 31/10/2022"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T16:08:20.598Z",
+          "exercicio": "2022",
+          "de": "6.283,57 EM 31/10/2022",
+          "para": "PROCESSADA — 6.283,57 EM 31/10/2022"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "31/10/2022",
+          "valor": 6283.57
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {
+        "2022": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "18045154691",
