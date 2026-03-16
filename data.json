@@ -2503,10 +2503,14 @@
       "observacoes": "PEDIDO DE REVISÃO DE DÉBITO PROCESSO FINAL 2026-18 FEITO EM 16/03/2026",
       "temPer": false,
       "temRRA": false,
-      "exercicios": {
-        "2026": "EM MALHA — MALHA DÉBITO"
-      },
+      "exercicios": {},
       "historico": [
+        {
+          "ts": "2026-03-16T14:31:41.516Z",
+          "exercicio": "2026",
+          "de": "EM MALHA — MALHA DÉBITO",
+          "para": "(removido)"
+        },
         {
           "ts": "2026-03-16T14:31:32.234Z",
           "exercicio": "2026",
