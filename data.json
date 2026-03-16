@@ -9050,13 +9050,19 @@
         "2020": "MALHA DG - DDA FEITO EM 16/02/2022 - COMPENSAÇÃO DE OFÍCIO EM 09/08/2023 - JÁ ACERTOU OS HONORÁRIOS",
         "2021": "5.580,04 EM 31/10/2023",
         "2022": "2.940,45 EM 31/10/2023",
-        "2023": "MALHA DG - DDA FEITO EM 23/01/2024",
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 06/01/2025",
         "2025": "PROCESSADA — 3.256,14 EM 30/06/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:08:41.769Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 23/01/2024",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2024"
+        },
         {
           "ts": "2026-03-16T19:08:28.547Z",
           "exercicio": "2024",
@@ -9077,6 +9083,10 @@
         }
       },
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "23/01/2024"
+        },
         "2024": {
           "feito": true,
           "data": "06/01/2025"
