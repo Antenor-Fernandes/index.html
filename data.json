@@ -1452,7 +1452,7 @@
       "senhaGov": "",
       "observacoes": "TEM PER 2021 E 2022 FEITOS EM 07/02/2023 E RECEBIDOS EM 20/02/2024 - 2023 GLOSA VGBL",
       "exercicios": {
-        "2018": "13.660,13 EM 31/03/2023",
+        "2018": "PROCESSADA — 13.660,13 EM 31/03/2023",
         "2019": "PROCESSADA — 33.753,27 EM 31/03/2023",
         "2020": "PROCESSADA — 56.929,25 EM 28/03/2024",
         "2021": "PROCESSADA — 45.260,04 EM 31/03/2023",
@@ -1464,6 +1464,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:08:05.153Z",
+          "exercicio": "2018",
+          "de": "13.660,13 EM 31/03/2023",
+          "para": "PROCESSADA — 13.660,13 EM 31/03/2023"
+        },
         {
           "ts": "2026-03-16T17:07:51.070Z",
           "exercicio": "2019",
@@ -1508,6 +1514,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "31/03/2023",
+          "valor": 13660.13
+        },
         "2019": {
           "data": "31/03/2023",
           "valor": 33753.27
