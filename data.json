@@ -8401,12 +8401,18 @@
         "2021": "101.474,25 EM 30/09/2025",
         "2022": "92.120,37 EM 31/10/2025",
         "2023": "98.190,34 EM 31/10/2025",
-        "2024": "111.040,00 EM 31/10/2025",
+        "2024": "PROCESSADA — 111.040,00 EM 31/10/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:59:55.373Z",
+          "exercicio": "2024",
+          "de": "111.040,00 EM 31/10/2025",
+          "para": "PROCESSADA — 111.040,00 EM 31/10/2025"
+        },
         {
           "ts": "2026-03-16T18:59:43.543Z",
           "exercicio": "2025",
@@ -8414,7 +8420,12 @@
           "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/10/2025",
+          "valor": 111040
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -21996,7 +22007,7 @@
           "id": "19709994891",
           "cpfCnpj": "197.099.948-91",
           "nome": "ETELVINO JOSÉ HENRIQUES BECHARA",
-          "total": 301350.71,
+          "total": 301350.70999999996,
           "porExercicio": {
             "2022": 92120.37,
             "2023": 98190.34,
