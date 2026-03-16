@@ -674,10 +674,16 @@
       "exercicios": {
         "2020": "PROCESSADA — 8.274,86 - 30/06/2020",
         "2021": "PROCESSADA",
-        "2025": "EM PROCESSAMENTO — 9.254,86 EM 30/05/2025"
+        "2025": "PROCESSADA — 9.254,86 EM 30/05/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T16:53:58.039Z",
+          "exercicio": "2025",
+          "de": "EM PROCESSAMENTO — 9.254,86 EM 30/05/2025",
+          "para": "PROCESSADA — 9.254,86 EM 30/05/2025"
+        },
         {
           "ts": "2026-03-16T16:53:45.359Z",
           "exercicio": "2020",
