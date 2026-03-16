@@ -1145,7 +1145,7 @@
       "observacoes": "PER 2021 A 2025 FEITOS EM 03/02/2026",
       "exercicios": {
         "2021": "5.825,50 EM 27/02/2026",
-        "2022": "EM PROCESSAMENTO — 5.620,61 EM 27/02/2026",
+        "2022": "PROCESSADA — 5.620,61 EM 27/02/2026",
         "2023": "PROCESSADA — 5.412,78 EM 27/02/2026",
         "2024": "PROCESSADA — 5.511,57 EM 27/02/2026",
         "2025": "PROCESSADA — 3.919,93 EM 27/02/2026"
@@ -1153,6 +1153,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T12:59:18.241Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — 5.620,61 EM 27/02/2026",
+          "para": "PROCESSADA — 5.620,61 EM 27/02/2026"
+        },
         {
           "ts": "2026-03-16T12:59:06.264Z",
           "exercicio": "2024",
