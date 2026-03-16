@@ -943,13 +943,32 @@
       "exercicios": {
         "2020": "R$ 10.968,45 - 26/02/2021",
         "2021": "13.108,81 EM 28/02/2023",
-        "2022": "13.420,10 EM 28/02/2023",
+        "2022": "EM PROCESSAMENTO — 13.420,10 EM 28/02/2023",
         "2023": "MALHA DG - DDA FEITO ENTRE 09 E 12/01/2024",
         "2024": "TRANSMITIDA",
         "2025": "TRANSMITIDA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T16:57:12.232Z",
+          "exercicio": "2022",
+          "de": "13.420,10 EM 28/02/2023",
+          "para": "EM PROCESSAMENTO — 13.420,10 EM 28/02/2023"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "28/02/2023",
+          "valor": 13420.1
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "06924274650",
