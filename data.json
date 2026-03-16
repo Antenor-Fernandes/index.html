@@ -6864,7 +6864,7 @@
         "2019": "10111,77 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
         "2020": "10398,12 EM 30/12/2020 DG JÁ RECEBEU PERDCOMP",
         "2021": "11.608,44 EM 28/02/2023",
-        "2022": "10.454,28 EM 28/02/2023",
+        "2022": "PROCESSADA — 10.454,28 EM 28/02/2023",
         "2023": "PROCESSADA — 15.673,23 EM 31/10/2024",
         "2024": "PROCESSADA — 17.722,05 EM 31/10/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 23/01/2026"
@@ -6872,6 +6872,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:34:28.432Z",
+          "exercicio": "2022",
+          "de": "10.454,28 EM 28/02/2023",
+          "para": "PROCESSADA — 10.454,28 EM 28/02/2023"
+        },
         {
           "ts": "2026-03-16T18:34:17.500Z",
           "exercicio": "2023",
@@ -6892,6 +6898,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "28/02/2023",
+          "valor": 10454.28
+        },
         "2023": {
           "data": "31/10/2024",
           "valor": 15673.23
