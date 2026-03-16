@@ -2504,11 +2504,18 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
+        "2022": "EM MALHA — MALHA DG",
         "2023": "IMPUGNAÇÃO",
         "2024": "IMPUGNAÇÃO",
         "2025": "EM MALHA — MALHA DÉBITO"
       },
       "historico": [
+        {
+          "ts": "2026-03-16T14:40:09.083Z",
+          "exercicio": "2022",
+          "de": "",
+          "para": "EM MALHA — MALHA DG"
+        },
         {
           "ts": "2026-03-16T14:39:10.708Z",
           "exercicio": "2023",
@@ -2541,7 +2548,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2022": {
+          "feito": true,
+          "data": "16/03/2026"
+        }
+      },
       "impugnacoes": {
         "2023": {
           "data": "16/03/2026"
@@ -2553,7 +2565,18 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "16/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "16317033668",
