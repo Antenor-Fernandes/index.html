@@ -754,7 +754,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "2.726,30 EM 28/06/2024",
+        "2020": "PROCESSADA — 2.726,30 EM 28/06/2024",
         "2021": "PROCESSADA — 3.091,70 EM 28/06/2024",
         "2022": "PROCESSADA — 2.869,52 EM 28/06/2024",
         "2023": "EM PROCESSAMENTO — 724,61 EM 28/06/2024",
@@ -764,6 +764,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T16:55:47.047Z",
+          "exercicio": "2020",
+          "de": "2.726,30 EM 28/06/2024",
+          "para": "PROCESSADA — 2.726,30 EM 28/06/2024"
+        },
         {
           "ts": "2026-03-16T16:55:28.901Z",
           "exercicio": "2021",
@@ -796,6 +802,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "28/06/2024",
+          "valor": 2726.3
+        },
         "2021": {
           "data": "28/06/2024",
           "valor": 3091.7
