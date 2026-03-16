@@ -15399,10 +15399,24 @@
       "exercicios": {
         "2019": "IMPUGNAÇÃO NL - DDA FEITO EM 30/01/2025 - ARQUIVADA PARCELAMENTO",
         "2021": "IMPUGNAÇÃO NL - DDA FEITO EM 30/01/2025 - ARQUIVADA - PARCELAMENTO",
-        "2024": "TRANSMITIDA - RETIFICAMOS EM 30/01/2025 PARA INFORMAR OS RENDIMENTOS OMITIDOS PELO CLIENTE",
+        "2024": "PROCESSADA — RETIFICAMOS EM 30/01/2025 PARA INFORMAR OS RENDIMENTOS OMITIDOS PELO CLIENTE",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T16:16:02.193Z",
+          "exercicio": "2024",
+          "de": "TRANSMITIDA - RETIFICAMOS EM 30/01/2025 PARA INFORMAR OS RENDIMENTOS OMITIDOS PELO CLIENTE",
+          "para": "PROCESSADA — RETIFICAMOS EM 30/01/2025 PARA INFORMAR OS RENDIMENTOS OMITIDOS PELO CLIENTE"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "05578566634",
