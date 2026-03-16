@@ -8371,9 +8371,23 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - 300 QDO SAIR DA MALHA - DDA EM 31/01/2023 - SAIU DA MALHA EM JULHO 2024 - VER SE PAGOU OS HONORÁRIOS"
+        "2022": "PROCESSADA — TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - 300 QDO SAIR DA MALHA - DDA EM 31/01/2023 - SAIU DA MALHA EM JULHO 2024 - VER SE PAGOU OS HONORÁRIOS"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T18:59:19.986Z",
+          "exercicio": "2022",
+          "de": "TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - 300 QDO SAIR DA MALHA - DDA EM 31/01/2023 - SAIU DA MALHA EM JULHO 2024 - VER SE PAGOU OS HONORÁRIOS",
+          "para": "PROCESSADA — TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - 300 QDO SAIR DA MALHA - DDA EM 31/01/2023 - SAIU DA MALHA EM JULHO 2024 - VER SE PAGOU OS HONORÁRIOS"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "19709994891",
