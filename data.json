@@ -2484,9 +2484,28 @@
         "2022": "4.607,44 31/05/2022",
         "2023": "PROCESSADA",
         "2024": "1.285,18 EM 28/06/2024",
-        "2025": "898,72 EM 30/05/2025"
+        "2025": "PROCESSADA — 898,72 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T16:51:27.005Z",
+          "exercicio": "2025",
+          "de": "898,72 EM 30/05/2025",
+          "para": "PROCESSADA — 898,72 EM 30/05/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/02/2025",
+          "valor": 898.72
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "29730163634",
@@ -20899,6 +20918,21 @@
             "2023": 3293.11,
             "2024": 2708.43
           }
+        }
+      ]
+    },
+    {
+      "data": "30/02/2025",
+      "descricao": "Lote 30/02/2025",
+      "pagamentos": [
+        {
+          "clienteId": "25157957653",
+          "cpfCnpj": "251.579.576-53",
+          "nome": "AUGUSTO GUILLERMO MARTINEZ",
+          "porExercicio": {
+            "2025": 898.72
+          },
+          "total": 898.72
         }
       ]
     },
