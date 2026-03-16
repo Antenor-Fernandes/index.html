@@ -9909,12 +9909,18 @@
       "observacoes": "",
       "exercicios": {
         "2019": "MALHA - ATENDEMOS INTIMAÇÃO EM 10/11/2021 - PROCESSADA - DARF JÁ ENVIADO AO CLIENTE",
-        "2023": "MALHA PENSÃO - DDA FEITO EM 23/01/2024 - ATEND. INT. COMP. EM 20/06/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
+        "2023": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 23/01/2024 - ATEND. INT. COMP. EM 20/06/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
         "2024": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 16/01/2025 - JUNTADA DE MAIS DOCUMENTOS EM 06/06/2025",
         "2025": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 27/01/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T19:21:13.322Z",
+          "exercicio": "2023",
+          "de": "MALHA PENSÃO - DDA FEITO EM 23/01/2024 - ATEND. INT. COMP. EM 20/06/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
+          "para": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 23/01/2024 - ATEND. INT. COMP. EM 20/06/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025"
+        },
         {
           "ts": "2026-03-16T19:20:55.655Z",
           "exercicio": "2024",
@@ -9930,6 +9936,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "23/01/2024"
+        },
         "2024": {
           "feito": true,
           "data": "16/01/2025"
