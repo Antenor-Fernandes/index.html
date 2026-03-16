@@ -5479,9 +5479,33 @@
       "senhaGov": "",
       "observacoes": "honorários fixo 2,5 s.m.",
       "exercicios": {
-        "2025": "MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
+        "2025": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T15:40:55.703Z",
+          "exercicio": "2025",
+          "de": "MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026",
+          "para": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 26/01/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "26/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {
+        "2025": {
+          "ativo": true,
+          "obs": "PRECATÓRIO"
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "38888262687",
