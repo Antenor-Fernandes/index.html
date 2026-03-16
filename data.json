@@ -1465,6 +1465,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-16T17:09:35.588Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 36.690,17 EM 31/03/2023",
+          "para": "PROCESSADA — 36.690,17 EM 31/03/2023"
+        },
+        {
           "ts": "2026-03-16T17:09:14.722Z",
           "exercicio": "2021",
           "de": "PROCESSADA — 45.260,04 EM 31/03/2023",
@@ -1566,6 +1572,16 @@
             "dataTransmissao": "07/02/2023",
             "obs": "",
             "dataRec": "20/02/2024",
+            "valorRec": 0
+          }
+        ],
+        "2022": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "07/02/2023",
+            "obs": "",
+            "dataRec": "",
             "valorRec": 0
           }
         ]
