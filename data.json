@@ -10376,9 +10376,16 @@
       "doencaGrave": false,
       "temRRA": false,
       "exercicios": {
+        "2024": "EM MALHA",
         "2025": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-16T19:35:58.078Z",
+          "exercicio": "2024",
+          "de": "",
+          "para": "EM MALHA"
+        },
         {
           "ts": "2026-03-16T19:35:35.765Z",
           "exercicio": "2025",
