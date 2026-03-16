@@ -6998,12 +6998,18 @@
         "2021": "2.215,99 EM 31/03/2023",
         "2022": "2.706,61 EM 28/04/2023 - REST PREV PRIVADA VIA PROCESSO FEITO EM 27/10/2022 - JÁ TEM DESPACHO DECISÓRIO - DDA EM 02/02/2023",
         "2023": "MALHA DG - DDA FEITO EM 24/01/2024 - PROCESSO DE REST. FEITO EM 24/01/2024 - PEDIDO DE PRIORIDADE FEITO EM 05/02/2025 - 22/08/25 no valor de R$  37234,80 referente a declaração de 2023 - processo 10600.720593/2024-02",
-        "2024": "MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 23/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:36:52.781Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58"
+        },
         {
           "ts": "2026-03-16T18:36:24.678Z",
           "exercicio": "2025",
@@ -7013,6 +7019,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "05/02/2025"
+        },
         "2025": {
           "feito": true,
           "data": "23/01/2026"
