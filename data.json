@@ -15883,7 +15883,7 @@
       "dataContrato": "05/03/2026",
       "honorarios": "30%",
       "objeto": "TIRAR DE MALHA EXERCÍCIOS 2023 A 2025",
-      "doencaGrave": false,
+      "doencaGrave": true,
       "laudo": false,
       "dataAposentadoria": "",
       "diagnostico": "",
