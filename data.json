@@ -8175,7 +8175,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 A 2023 FEITOS EM 01/10/2024 - FALTA DDA E PER 2024 - RECEBEU 4 EM 20/05/2025 -  1 FOI INDEFERIDO - PER 2025 FEITO EM 03/02/2026",
       "exercicios": {
-        "2020": "IMPUGNAÇÃO M 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
+        "2020": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
         "2021": "PROCESSADA — 5.992,60 EM 31/03/2025",
         "2022": "PROCESSADA — 32.662,21 EM 31/03/2025",
         "2023": "PROCESSADA — 41.441,75 EM 31/03/2025",
@@ -8185,6 +8185,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:56:08.663Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAÇÃO M 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
+          "para": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO"
+        },
         {
           "ts": "2026-03-16T18:55:35.388Z",
           "exercicio": "2021",
