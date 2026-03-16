@@ -7315,12 +7315,18 @@
       "observacoes": "PER 2023 E 2024 FEITOS EM 10/07/2025 - PER 2025 FEITO EM 27/01/2026 (1 QUOTA) - COBRAR PROVEITO ECONÔMICO DA REST DE 2025. ORIGINAL IR A PAGAR R$15.172,68 - FALECIDO - ALTERADOS OS DADOS BANCÁRIOS PARA ITAÚ, AG 3037, CC 35301-2 (CONTA CONJUNTA) EM 24/11/2025",
       "exercicios": {
         "2023": "MALHA DG - DDA FEITO EM 10/07/2025",
-        "2024": "MALHA DG - DDA FEITO EM 10/07/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 10/07/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:43:04.308Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 10/07/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 10/07/2025"
+        },
         {
           "ts": "2026-03-16T18:42:52.144Z",
           "exercicio": "2025",
@@ -7330,6 +7336,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "10/07/2025"
+        },
         "2025": {
           "feito": true,
           "data": "27/01/2026"
