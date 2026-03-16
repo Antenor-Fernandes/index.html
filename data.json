@@ -9239,7 +9239,7 @@
       "senhaGov": "Ab3790Ba$$",
       "observacoes": "TEM PER 2020, 2021 E 2022 - RECEBEU 2 EM 20/09/23 - FALTA 1 - RECEBIDO EM 20/05/2025 SENHA GOV Ab3790Ba$$",
       "exercicios": {
-        "2020": "6.746,74 EM 31/05/2023",
+        "2020": "PROCESSADA — 6.746,74 EM 31/05/2023",
         "2021": "PROCESSADA — 7.639,87 EM 31/05/2023",
         "2022": "PROCESSADA — 8.547,06 EM 31/05/2023",
         "2023": "EM MALHA — RETIFICAMOS - DDA FEITO EM 28/06/2024",
@@ -9249,6 +9249,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:12:34.954Z",
+          "exercicio": "2020",
+          "de": "6.746,74 EM 31/05/2023",
+          "para": "PROCESSADA — 6.746,74 EM 31/05/2023"
+        },
         {
           "ts": "2026-03-16T19:12:20.855Z",
           "exercicio": "2021",
@@ -9281,6 +9287,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/05/2023",
+          "valor": 6746.74
+        },
         "2021": {
           "data": "31/05/2023",
           "valor": 7639.87
