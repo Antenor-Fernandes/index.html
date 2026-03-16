@@ -9242,13 +9242,19 @@
         "2020": "6.746,74 EM 31/05/2023",
         "2021": "7.639,87 EM 31/05/2023",
         "2022": "8.547,06 EM 31/05/2023",
-        "2023": "RETIFICAMOS - DDA FEITO EM 28/06/2024",
+        "2023": "EM MALHA — RETIFICAMOS - DDA FEITO EM 28/06/2024",
         "2024": "PROCESSADA — 10.577,39 EM 28/06/2024",
         "2025": "PROCESSADA — 6.593,46 EM 30/06/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:11:50.454Z",
+          "exercicio": "2023",
+          "de": "RETIFICAMOS - DDA FEITO EM 28/06/2024",
+          "para": "EM MALHA — RETIFICAMOS - DDA FEITO EM 28/06/2024"
+        },
         {
           "ts": "2026-03-16T19:11:24.796Z",
           "exercicio": "2024",
@@ -9272,7 +9278,12 @@
           "valor": 6593.46
         }
       },
-      "dda": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "28/06/2024"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
