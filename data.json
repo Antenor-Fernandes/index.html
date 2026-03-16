@@ -2500,8 +2500,8 @@
       "laudo": false,
       "dataAposentadoria": "",
       "diagnostico": "",
-      "observacoes": "PEDIDO DE REVISÃO DE DÉBITO PROCESSO FINAL 2026-18 FEITO EM 16/03/2026",
-      "temPer": false,
+      "observacoes": "PEDIDO DE REVISÃO DE DÉBITO PROCESSO FINAL 2026-18 FEITO EM 16/03/2026. FAZER PER DAS GUIAS DO PARCELAMENTO APÓS SEU DEFERIMENTO",
+      "temPer": true,
       "temRRA": false,
       "exercicios": {
         "2022": "EM MALHA — MALHA DG",
