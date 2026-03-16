@@ -3285,13 +3285,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "56.354,79 EM 31/07/2024",
+        "2022": "EM FILA DE RESTITUIÇÃO — 56.354,79 EM 31/07/2024",
         "2024": "MALHA DG - DDA FEITO EM 10/01/2025 - 37.471,58",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:48:24.681Z",
+          "exercicio": "2022",
+          "de": "56.354,79 EM 31/07/2024",
+          "para": "EM FILA DE RESTITUIÇÃO — 56.354,79 EM 31/07/2024"
+        },
         {
           "ts": "2026-03-16T17:48:00.008Z",
           "exercicio": "2023",
@@ -3305,7 +3311,12 @@
           "para": "PROCESSADA"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/07/2024",
+          "valor": 56354.79
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "exRRA": {},
