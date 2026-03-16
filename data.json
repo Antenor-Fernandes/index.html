@@ -13540,12 +13540,18 @@
       "temRRA": false,
       "exercicios": {
         "2020": "MALHA RRA - DDA FEITO EM 21/10/2022",
-        "2021": "29.947,40 EM 30/09/2025",
+        "2021": "PROCESSADA — 29.947,40 EM 30/09/2025",
         "2022": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 2.360,34 EM 30/09/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-16T16:11:10.748Z",
+          "exercicio": "2021",
+          "de": "29.947,40 EM 30/09/2025",
+          "para": "PROCESSADA — 29.947,40 EM 30/09/2025"
+        },
         {
           "ts": "2026-03-16T16:10:49.843Z",
           "exercicio": "2022",
@@ -13566,6 +13572,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/09/2025",
+          "valor": 29947.4
+        },
         "2025": {
           "data": "30/09/2025",
           "valor": 2360.34
