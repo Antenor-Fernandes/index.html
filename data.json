@@ -5746,12 +5746,18 @@
         "2021": "29.649,90 EM 30/04/2025",
         "2022": "MALHA DG - DDA FEITO EM 08/01/2025 - 23.047,40 EM 30/04/2025",
         "2023": "22.775,14 EM 30/04/2025",
-        "2024": "MALHA DG - DDA FEITO EM 08/01/2025 - 24.008,33 EM 30/04/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 24.008,33 EM 30/04/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:13:09.130Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 08/01/2025 - 24.008,33 EM 30/04/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 08/01/2025 - 24.008,33 EM 30/04/2025"
+        },
         {
           "ts": "2026-03-16T18:12:49.568Z",
           "exercicio": "2025",
@@ -5759,7 +5765,12 @@
           "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "08/01/2025",
+          "valor": 24008.33
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -23361,6 +23372,21 @@
           "porExercicio": {
             "2020": 657.09
           }
+        }
+      ]
+    },
+    {
+      "data": "08/01/2025",
+      "descricao": "Lote 08/01/2025",
+      "pagamentos": [
+        {
+          "clienteId": "25684485634",
+          "cpfCnpj": "256.844.856-34",
+          "nome": "CLÉRCIO GONÇALVES GOSLING",
+          "porExercicio": {
+            "2024": 24008.33
+          },
+          "total": 24008.33
         }
       ]
     },
