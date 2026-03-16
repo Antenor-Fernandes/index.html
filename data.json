@@ -9619,7 +9619,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 A 2023 FEITOS EM 18/12/2024 - PER 2024 FEITO EM 13/01/2025 - RECEBEU 4 EM 20/03/2025 E 1 EM 20/06/2025",
       "exercicios": {
-        "2020": "MALHA DG - DDA FEITO EM 18/12/2024 - 68.978,01 EM 31/01/2025",
+        "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 18/12/2024 - 68.978,01 EM 31/01/2025",
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 18/12/2024 - 68.377,09 EM 31/01/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 18/12/2024 - 62.062,24 EM 31/01/2025",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 18/12/2024 - 62.364,80 EM 31/01/2025",
@@ -9629,6 +9629,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:18:03.762Z",
+          "exercicio": "2020",
+          "de": "MALHA DG - DDA FEITO EM 18/12/2024 - 68.978,01 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 18/12/2024 - 68.978,01 EM 31/01/2025"
+        },
         {
           "ts": "2026-03-16T19:17:48.483Z",
           "exercicio": "2021",
@@ -9661,6 +9667,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "18/12/2024",
+          "valor": 68978.01
+        },
         "2021": {
           "data": "31/01/2025",
           "valor": 68377.09
@@ -25559,6 +25569,21 @@
             "2021": 6998.85
           },
           "total": 6998.85
+        }
+      ]
+    },
+    {
+      "data": "18/12/2024",
+      "descricao": "Lote 18/12/2024",
+      "pagamentos": [
+        {
+          "clienteId": "31793967687",
+          "cpfCnpj": "317.939.676-87",
+          "nome": "FLÁVIO ALENCAR MACHADO",
+          "porExercicio": {
+            "2020": 68978.01
+          },
+          "total": 68978.01
         }
       ]
     },
