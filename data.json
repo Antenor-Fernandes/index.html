@@ -9911,9 +9911,28 @@
         "2019": "MALHA - ATENDEMOS INTIMAÇÃO EM 10/11/2021 - PROCESSADA - DARF JÁ ENVIADO AO CLIENTE",
         "2023": "MALHA PENSÃO - DDA FEITO EM 23/01/2024 - ATEND. INT. COMP. EM 20/06/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
         "2024": "MALHA PENSÃO - DDA FEITO EM 16/01/2025 - JUNTADA DE MAIS DOCUMENTOS EM 06/06/2025",
-        "2025": "MALHA PENSÃO - DDA FEITO EM 27/01/2026"
+        "2025": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 27/01/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T19:20:45.582Z",
+          "exercicio": "2025",
+          "de": "MALHA PENSÃO - DDA FEITO EM 27/01/2026",
+          "para": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 27/01/2026"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "27/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "03714314849",
