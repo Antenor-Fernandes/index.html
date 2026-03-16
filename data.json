@@ -2179,7 +2179,7 @@
       "exercicios": {
         "2020": "MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )",
         "2021": "5.548,52 EM 31/10/2025",
-        "2022": "4.328,45 EM 31/10/2025",
+        "2022": "PROCESSADA — 4.328,45 EM 31/10/2025",
         "2023": "PROCESSADA — 5.336,54 EM 31/10/2025",
         "2024": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026"
@@ -2187,6 +2187,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:24:42.198Z",
+          "exercicio": "2022",
+          "de": "4.328,45 EM 31/10/2025",
+          "para": "PROCESSADA — 4.328,45 EM 31/10/2025"
+        },
         {
           "ts": "2026-03-16T17:24:25.232Z",
           "exercicio": "2023",
@@ -2207,6 +2213,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2025",
+          "valor": 4328.45
+        },
         "2023": {
           "data": "31/10/2025",
           "valor": 5336.54
