@@ -6992,7 +6992,7 @@
       "observacoes": "PROCESSO 10600.720414/2026-91 - PARA RESTITUIÇÃO DO IR EXCLUSIVO REGRESSIVO 2025 E PEDIDO DE PRIORIDADE FEITOS EM 23/01/2026",
       "exercicios": {
         "2017": "FIZEMOS PER WEB RECEBEU EM 20/04/2022",
-        "2018": "OBS: feito processo para pedir restituição do IR retido nas previdência complementar - OPTANTE PELA TRIB EXCLUSIVA - protocolamos via envelope dia 30/07/2020",
+        "2018": "PROCESSADA — OBS: feito processo para pedir restituição do IR retido nas previdência complementar - OPTANTE PELA TRIB EXCLUSIVA - protocolamos via envelope dia 30/07/2020",
         "2019": "PROCESSADA — 1.192,16 - 16/03/2020",
         "2020": "PROCESSADA — RECONHECIDO O DIREITO CREDITÓRIO - DESCONSIDERAR NL",
         "2021": "PROCESSADA — 2.215,99 EM 31/03/2023",
@@ -7004,6 +7004,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:38:12.225Z",
+          "exercicio": "2018",
+          "de": "OBS: feito processo para pedir restituição do IR retido nas previdência complementar - OPTANTE PELA TRIB EXCLUSIVA - protocolamos via envelope dia 30/07/2020",
+          "para": "PROCESSADA — OBS: feito processo para pedir restituição do IR retido nas previdência complementar - OPTANTE PELA TRIB EXCLUSIVA - protocolamos via envelope dia 30/07/2020"
+        },
         {
           "ts": "2026-03-16T18:38:07.106Z",
           "exercicio": "2019",
