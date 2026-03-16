@@ -2741,9 +2741,33 @@
       "senhaGov": "bcmL0107##",
       "observacoes": "SENHA GOV.BR bcmL0107##",
       "exercicios": {
-        "2022": "2.369,56 EM 31/10/2024"
+        "2022": "PROCESSADA — 2.369,56 EM 31/10/2024"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T14:52:00.915Z",
+          "exercicio": "2022",
+          "de": "2.369,56 EM 31/10/2024",
+          "para": "PROCESSADA — 2.369,56 EM 31/10/2024"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "31/10/2024",
+          "valor": 2369.56
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {
+        "2022": {
+          "ativo": true,
+          "obs": ""
+        }
+      },
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "10522528694",
