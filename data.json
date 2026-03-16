@@ -8829,12 +8829,18 @@
         "2021": "3.453,44 EM 28/02/2025",
         "2022": "NÃO TEM O Q RECUPERAR",
         "2023": "NÃO TEM O Q RECUPERAR",
-        "2024": "46.308,58 EM 28/02/2025",
+        "2024": "PROCESSADA — 46.308,58 EM 28/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:05:40.565Z",
+          "exercicio": "2024",
+          "de": "46.308,58 EM 28/02/2025",
+          "para": "PROCESSADA — 46.308,58 EM 28/02/2025"
+        },
         {
           "ts": "2026-03-16T19:05:24.076Z",
           "exercicio": "2025",
@@ -8842,7 +8848,12 @@
           "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/02/2025",
+          "valor": 46308.58
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -24725,7 +24736,7 @@
           "id": "03090744600",
           "cpfCnpj": "030.907.446-00",
           "nome": "FABIANO CÂNDIDO DA SILVA",
-          "total": 49762.02,
+          "total": 49762.020000000004,
           "porExercicio": {
             "2021": 3453.44,
             "2024": 46308.58
