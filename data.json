@@ -9184,6 +9184,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-16T19:10:30.942Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — R$ 2.359,68 31/08/2021",
+          "para": "PROCESSADA — R$ 2.359,68 31/08/2021"
+        },
+        {
           "ts": "2026-03-16T19:10:18.984Z",
           "exercicio": "2021",
           "de": "R$ 2.359,68 31/08/2021",
@@ -9196,7 +9202,12 @@
           "para": "EM MALHA — MALHA DESP MED - DDA FEITO EM 05/02/2024 - CERTIDÃO DE NASCIMENTO DA DEPENDENTE JUNTADA EM 11/06/2024"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2021": {
+          "data": "31/08/2021",
+          "valor": 2359.68
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
