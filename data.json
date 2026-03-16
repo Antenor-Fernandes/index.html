@@ -6035,12 +6035,18 @@
       "senhaGov": "",
       "observacoes": "FAZER DDA 2025",
       "exercicios": {
-        "2023": "MALHA PENSÃO - CLIENTE QUE FEZ - NÓS REVISAMOS",
+        "2023": "EM MALHA — MALHA PENSÃO - CLIENTE QUE FEZ - NÓS REVISAMOS",
         "2024": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 09/06/2025",
         "2025": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 27/01/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-16T18:19:53.116Z",
+          "exercicio": "2023",
+          "de": "MALHA PENSÃO - CLIENTE QUE FEZ - NÓS REVISAMOS",
+          "para": "EM MALHA — MALHA PENSÃO - CLIENTE QUE FEZ - NÓS REVISAMOS"
+        },
         {
           "ts": "2026-03-16T18:19:27.745Z",
           "exercicio": "2024",
@@ -6062,6 +6068,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": ""
+        },
         "2024": {
           "feito": true,
           "data": "09/06/2025"
