@@ -12454,10 +12454,29 @@
         "2021": "RETIFICAMOS - RRA - FIZEMOS DDA EM 25/08/2021",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
-        "2024": "324,63 EM 31/05/2024",
+        "2024": "PROCESSADA — 324,63 EM 31/05/2024",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-16T16:05:34.237Z",
+          "exercicio": "2024",
+          "de": "324,63 EM 31/05/2024",
+          "para": "PROCESSADA — 324,63 EM 31/05/2024"
+        }
+      ],
+      "recebimentos": {
+        "2024": {
+          "data": "31/05/2024",
+          "valor": 324.63
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "22723870634",
