@@ -6995,7 +6995,7 @@
         "2018": "OBS: feito processo para pedir restituição do IR retido nas previdência complementar - OPTANTE PELA TRIB EXCLUSIVA - protocolamos via envelope dia 30/07/2020",
         "2019": "1.192,16 - 16/03/2020",
         "2020": "RECONHECIDO O DIREITO CREDITÓRIO - DESCONSIDERAR NL",
-        "2021": "2.215,99 EM 31/03/2023",
+        "2021": "PROCESSADA — 2.215,99 EM 31/03/2023",
         "2022": "PROCESSADA — 2.706,61 EM 28/04/2023 - REST PREV PRIVADA VIA PROCESSO FEITO EM 27/10/2022 - JÁ TEM DESPACHO DECISÓRIO - DDA EM 02/02/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 24/01/2024 - PROCESSO DE REST. FEITO EM 24/01/2024 - PEDIDO DE PRIORIDADE FEITO EM 05/02/2025 - 22/08/25 no valor de R$  37234,80 referente a declaração de 2023 - processo 10600.720593/2024-02",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58",
@@ -7004,6 +7004,12 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T18:37:50.076Z",
+          "exercicio": "2021",
+          "de": "2.215,99 EM 31/03/2023",
+          "para": "PROCESSADA — 2.215,99 EM 31/03/2023"
+        },
         {
           "ts": "2026-03-16T18:37:34.270Z",
           "exercicio": "2022",
@@ -7030,6 +7036,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/03/2023",
+          "valor": 2215.99
+        },
         "2022": {
           "data": "28/04/2023",
           "valor": 2706.61
