@@ -9128,6 +9128,12 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-16T15:45:12.340Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — DDA FEITO EM 22/01/2026",
+          "para": "EM MALHA — DDA FEITO EM 22/01/2026"
+        },
+        {
           "ts": "2026-03-16T15:45:04.338Z",
           "exercicio": "2025",
           "de": "DDA FEITO EM 22/01/2026",
