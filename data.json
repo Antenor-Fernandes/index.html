@@ -3363,6 +3363,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-16T17:50:25.028Z",
+          "exercicio": "2018",
+          "de": "PROCESSADA — OB RECEBIDA - HONORÁRIOS PAGOS",
+          "para": "PROCESSADA — OB RECEBIDA - HONORÁRIOS PAGOS"
+        },
+        {
           "ts": "2026-03-16T17:50:20.533Z",
           "exercicio": "2018",
           "de": "OB RECEBIDA - HONORÁRIOS PAGOS",
