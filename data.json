@@ -15890,15 +15890,40 @@
       "observacoes": "",
       "temPer": false,
       "temRRA": false,
-      "exercicios": {},
-      "historico": [],
+      "exercicios": {
+        "2025": "EM MALHA"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-16T18:29:07.154Z",
+          "exercicio": "2025",
+          "de": "",
+          "para": "EM MALHA"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "16/03/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2025": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "16/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "03983658814",
