@@ -3351,7 +3351,7 @@
       "exercicios": {
         "2017": "47.960,10 30/11/2022",
         "2018": "OB RECEBIDA - HONORÁRIOS PAGOS",
-        "2019": "306.907,41 EM 30/06/2023",
+        "2019": "PROCESSADA — 306.907,41 EM 30/06/2023",
         "2020": "PROCESSADA — 19.394,60 30/11/2022",
         "2021": "PROCESSADA — OB RECEBIDA - HONORÁRIOS PAGOS",
         "2022": "PROCESSADA — 26.421,73 EM 31/03/2023",
@@ -3362,6 +3362,12 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T17:50:15.885Z",
+          "exercicio": "2019",
+          "de": "306.907,41 EM 30/06/2023",
+          "para": "PROCESSADA — 306.907,41 EM 30/06/2023"
+        },
         {
           "ts": "2026-03-16T17:50:04.265Z",
           "exercicio": "2020",
@@ -3400,6 +3406,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "30/06/2023",
+          "valor": 306907.41
+        },
         "2020": {
           "data": "30/11/2022",
           "valor": 19394.6
