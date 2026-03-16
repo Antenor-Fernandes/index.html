@@ -9623,12 +9623,18 @@
         "2021": "MALHA DG - DDA FEITO EM 18/12/2024 - 68.377,09 EM 31/01/2025",
         "2022": "MALHA DG - DDA FEITO EM 18/12/2024 - 62.062,24 EM 31/01/2025",
         "2023": "MALHA DG - DDA FEITO EM 18/12/2024 - 62.364,80 EM 31/01/2025",
-        "2024": "MALHA DG - 55.748,83 EM 31/01/2025",
+        "2024": "PROCESSADA — MALHA DG - 55.748,83 EM 31/01/2025",
         "2025": "EM MALHA — MALHA DEDUÇÕES - DDA FEITO EM 27/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-16T19:16:58.783Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - 55.748,83 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - 55.748,83 EM 31/01/2025"
+        },
         {
           "ts": "2026-03-16T19:16:41.196Z",
           "exercicio": "2025",
@@ -9636,7 +9642,12 @@
           "para": "EM MALHA — MALHA DEDUÇÕES - DDA FEITO EM 27/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/01/2025",
+          "valor": 55748.83
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
