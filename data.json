@@ -9244,10 +9244,29 @@
         "2022": "8.547,06 EM 31/05/2023",
         "2023": "RETIFICAMOS - DDA FEITO EM 28/06/2024",
         "2024": "10.577,39 EM 28/06/2024",
-        "2025": "6.593,46 EM 30/06/2025"
+        "2025": "PROCESSADA — 6.593,46 EM 30/06/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-16T19:11:10.604Z",
+          "exercicio": "2025",
+          "de": "6.593,46 EM 30/06/2025",
+          "para": "PROCESSADA — 6.593,46 EM 30/06/2025"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/06/2025",
+          "valor": 6593.46
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "25735241672",
