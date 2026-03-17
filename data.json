@@ -38831,12 +38831,5 @@
       ]
     }
   ],
-  "access": [
-    {
-      "id": "mmuv6286nabp2a",
-      "nome": "teste",
-      "codigo": "teste",
-      "nivel": "visualizar"
-    }
-  ]
+  "access": []
 }
