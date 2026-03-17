@@ -16254,7 +16254,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 A 2023 FEITOS EM 17/01/2025 - PEDIDO DE REVISÃO DE PARCELAMENTO FEITO EM 20/01/2025 - AGUARDAR PARA SOLICITAR AS GUIAS VIA PERDCOMP - RECEBEU 3 EM 20/05/2025 - FALTA 1",
       "exercicios": {
-        "2020": "4.772,15 EM 28/02/2025",
+        "2020": "PROCESSADA — 4.772,15 EM 28/02/2025",
         "2021": "PROCESSADA — 1.569,26 EM 28/02/2025",
         "2022": "PROCESSADA — 248,97 EM 28/02/2025",
         "2023": "PROCESSADA — 796,77 EM 30/12/2025",
@@ -16264,6 +16264,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:44:26.329Z",
+          "exercicio": "2020",
+          "de": "4.772,15 EM 28/02/2025",
+          "para": "PROCESSADA — 4.772,15 EM 28/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:44:15.276Z",
           "exercicio": "2021",
@@ -16301,6 +16308,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "28/02/2025",
+          "valor": 4772.15
+        },
         "2021": {
           "data": "28/02/2025",
           "valor": 1569.26
