@@ -11050,9 +11050,29 @@
       "senhaGov": "Gov@2024",
       "observacoes": "GCAP FEITO EM 01/07/2024 - SENHA GOV Gov@2024",
       "exercicios": {
-        "2025": "MALHA PENSÃO - DDA FEITO EM 28/01/2026"
+        "2025": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 28/01/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T13:14:05.772Z",
+          "exercicio": "2025",
+          "de": "MALHA PENSÃO - DDA FEITO EM 28/01/2026",
+          "para": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 28/01/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "28/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "51964970644",
