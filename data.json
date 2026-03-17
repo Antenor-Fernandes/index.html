@@ -539,7 +539,7 @@
             "dataTransmissao": "06/11/2025",
             "obs": "IRPF",
             "dataRec": "20/02/2026",
-            "valorRec": 3450.07
+            "valorRec": 3450.06
           }
         ]
       }
@@ -23337,9 +23337,9 @@
           "cpfCnpj": "044.713.268-72",
           "nome": "ADILSON CREPALDI",
           "porExercicio": {
-            "EXPERDCOMP-2023-0": 3450.07
+            "EXPERDCOMP-2023-0": 3450.06
           },
-          "total": 3450.07
+          "total": 3450.06
         }
       ]
     },
