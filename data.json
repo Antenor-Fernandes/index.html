@@ -13864,10 +13864,30 @@
         "2022": "R$ 36.488,70 31/08/2022",
         "2023": "41.466,44 EM 31/10/2024",
         "2024": "40.411,25 EM 31/10/2024",
-        "2025": "MALHA DG - MALHA DG E PEDIDO DE PRIORIDADE FEITOS EM 29/01/2026"
+        "2025": "EM MALHA — MALHA DG - MALHA DG E PEDIDO DE PRIORIDADE FEITOS EM 29/01/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:10:09.386Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - MALHA DG E PEDIDO DE PRIORIDADE FEITOS EM 29/01/2026",
+          "para": "EM MALHA — MALHA DG - MALHA DG E PEDIDO DE PRIORIDADE FEITOS EM 29/01/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "29/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "63251337653",
