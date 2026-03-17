@@ -12326,10 +12326,30 @@
         "2022": "1.269,33 EM 28/11/2025",
         "2023": "4.448,93 EM 28/11/2025",
         "2024": "6.612,48 EM 24/11/2025",
-        "2025": "6.830,40 EM 28/11/2025"
+        "2025": "PROCESSADA — 6.830,40 EM 28/11/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T14:10:57.623Z",
+          "exercicio": "2025",
+          "de": "6.830,40 EM 28/11/2025",
+          "para": "PROCESSADA — 6.830,40 EM 28/11/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "28/11/2025",
+          "valor": 6830.4
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "32602910678",
@@ -23789,7 +23809,7 @@
           "id": "49326112691",
           "cpfCnpj": "493.261.126-91",
           "nome": "ILZA VIEIRA DOS SANTOS",
-          "total": 20456.09,
+          "total": 20456.089999999997,
           "porExercicio": {
             "2021": 1294.95,
             "2022": 1269.33,
