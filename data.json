@@ -17067,11 +17067,18 @@
       "senhaGov": "",
       "observacoes": "TIRAR 2025 DE MALHA - HONORÁRIOS DE 400",
       "exercicios": {
-        "2024": "MALHA ALIMENTANDOS - CLIENTE QUE FEZ - NÓS SÓ TIRAMOS DE MALHA - DDA FEITO EM 15/01/2025",
+        "2024": "EM MALHA — MALHA ALIMENTANDOS - CLIENTE QUE FEZ - NÓS SÓ TIRAMOS DE MALHA - DDA FEITO EM 15/01/2025",
         "2025": "EM MALHA — CLIENTE Q FEZ - SÓ TIRAR DE MALHA - DDA FEITO EM 16/01/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T18:49:45.421Z",
+          "exercicio": "2024",
+          "de": "MALHA ALIMENTANDOS - CLIENTE QUE FEZ - NÓS SÓ TIRAMOS DE MALHA - DDA FEITO EM 15/01/2025",
+          "para": "EM MALHA — MALHA ALIMENTANDOS - CLIENTE QUE FEZ - NÓS SÓ TIRAMOS DE MALHA - DDA FEITO EM 15/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:49:28.108Z",
           "exercicio": "2025",
@@ -17082,6 +17089,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "15/01/2025"
+        },
         "2025": {
           "feito": true,
           "data": "16/01/2026"
