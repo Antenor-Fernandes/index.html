@@ -12815,9 +12815,28 @@
         "2018": "IMPUGNAÇÃO FEITA EM 07/10/2025",
         "2019": "IMPUGNAÇÃO FEITA EM 06/10/2025",
         "2020": "IMPUGNAÇÃO FEITA EM 06/10/2025",
-        "2021": "IMPUGNAÇÃO FEITA EM 06/10/2025"
+        "2021": "IMPUGNAÇÃO — FEITA EM 06/10/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T17:54:06.274Z",
+          "exercicio": "2021",
+          "de": "IMPUGNAÇÃO FEITA EM 06/10/2025",
+          "para": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {
+        "2021": {
+          "data": "06/10/2025"
+        }
+      },
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "72841907600",
