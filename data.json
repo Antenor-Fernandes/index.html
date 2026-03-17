@@ -15546,7 +15546,7 @@
       "observacoes": "SENHA GOV.BR 3a250212Jl@ - INDEFERIMENTO DO VGBL PELO CARF - PER FEITO EM 27/02/2026",
       "exercicios": {
         "2016": "R$ 9.889,36 31/08/2021 TEM PER -RECEBEU",
-        "2017": "R$ 8.838,46 31/08/2021 TEM PER - RECEBEU",
+        "2017": "PROCESSADA — R$ 8.838,46 31/08/2021 TEM PER - RECEBEU",
         "2018": "PROCESSADA — R$ 8.437,57 31/08/2021 TEM PER - RECEBEU",
         "2019": "PROCESSADA — R$ 8.043,28 31/08/2021 TEM PER - RECEBEU",
         "2020": "PROCESSADA — R$ 7.713,58 31/08/2021 TEM PER - RECEBEU",
@@ -15559,6 +15559,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:37:18.286Z",
+          "exercicio": "2017",
+          "de": "R$ 8.838,46 31/08/2021 TEM PER - RECEBEU",
+          "para": "PROCESSADA — R$ 8.838,46 31/08/2021 TEM PER - RECEBEU",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:37:04.067Z",
           "exercicio": "2018",
@@ -15617,6 +15624,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "31/08/2021",
+          "valor": 8838.46
+        },
         "2018": {
           "data": "31/08/2021",
           "valor": 8437.57
