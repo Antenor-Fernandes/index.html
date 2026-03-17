@@ -18642,11 +18642,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA PRECATÓRIO - NÃO FOMOS NÓS QUE TRANSMITIMOS - DDA FEITO EM 02/06/2025",
+        "2024": "EM MALHA — MALHA PRECATÓRIO - NÃO FOMOS NÓS QUE TRANSMITIMOS - DDA FEITO EM 02/06/2025",
         "2025": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 04/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T19:10:56.531Z",
+          "exercicio": "2024",
+          "de": "MALHA PRECATÓRIO - NÃO FOMOS NÓS QUE TRANSMITIMOS - DDA FEITO EM 02/06/2025",
+          "para": "EM MALHA — MALHA PRECATÓRIO - NÃO FOMOS NÓS QUE TRANSMITIMOS - DDA FEITO EM 02/06/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:10:34.347Z",
           "exercicio": "2025",
@@ -18657,6 +18664,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "02/06/2025"
+        },
         "2025": {
           "feito": true,
           "data": "04/02/2026"
@@ -18664,6 +18675,10 @@
       },
       "impugnacoes": {},
       "exRRA": {
+        "2024": {
+          "ativo": true,
+          "obs": "PRECATÓRIO"
+        },
         "2025": {
           "ativo": true,
           "obs": "PRECATÓRIO"
