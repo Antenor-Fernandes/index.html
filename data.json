@@ -16004,9 +16004,29 @@
       "senhaGov": "",
       "observacoes": "TEM DÉBITO DE RENDA VARIÁVEL - SOLICITAÇÃO DE DESFAZIMENTO DE COMPENSAÇÃO DIRPF 2023 FEITA EM 22/11/2024",
       "exercicios": {
-        "2023": "MALHA QUALICORP - DDA FEITO EM 13/11/2024"
+        "2023": "EM MALHA — MALHA QUALICORP - DDA FEITO EM 13/11/2024"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:39:41.867Z",
+          "exercicio": "2023",
+          "de": "MALHA QUALICORP - DDA FEITO EM 13/11/2024",
+          "para": "EM MALHA — MALHA QUALICORP - DDA FEITO EM 13/11/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "13/11/2024"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "07102216653",
