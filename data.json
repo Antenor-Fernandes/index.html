@@ -37293,5 +37293,12 @@
       ]
     }
   ],
-  "access": []
+  "access": [
+    {
+      "id": "mmukmmv4wv2nh5",
+      "nome": "teste",
+      "codigo": "teste",
+      "nivel": "exercicios"
+    }
+  ]
 }
