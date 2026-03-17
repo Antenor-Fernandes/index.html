@@ -18002,7 +18002,7 @@
       "senhaGov": "",
       "observacoes": "PER 2021 E 2022 FEITO EM 23/10/2024 E PER 2023 FEITO EM 24/10/2024 - RECEBEU 3 EM 20/05/2025 - 05 PER DAS GUIAS DO PARCELAMENTO RESCINDIDO FEITOS EM 25/11/2025 E RECEBIDOS EM 20/02/2026 - PER 2024 FEITO EM 19/02/2026",
       "exercicios": {
-        "2021": "6.105,86 EM 30/04/2025",
+        "2021": "PROCESSADA — 6.105,86 EM 30/04/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 23/10/2024 - 14.176,38 EM 30/04/2025",
         "2023": "PROCESSADA — 14.054,91 EM 30/04/2025",
         "2024": "PROCESSADA — 20.247,02 EM 30/04/2025",
@@ -18011,6 +18011,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:03:10.430Z",
+          "exercicio": "2021",
+          "de": "6.105,86 EM 30/04/2025",
+          "para": "PROCESSADA — 6.105,86 EM 30/04/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:02:57.268Z",
           "exercicio": "2022",
@@ -18041,6 +18048,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/04/2025",
+          "valor": 6105.86
+        },
         "2022": {
           "data": "30/04/2025",
           "valor": 14176.38
