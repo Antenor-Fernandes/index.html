@@ -16450,6 +16450,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-17T18:46:15.673Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — 54.073,34 EM 31/10/2024",
+          "para": "PROCESSADA — 54.073,34 EM 31/10/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:46:00.517Z",
           "exercicio": "2025",
           "de": "MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 02/02/2026",
@@ -16500,7 +16507,12 @@
         }
       ],
       "doencaGrave": true,
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/10/2024",
+          "valor": 54073.34
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -29777,7 +29789,7 @@
           "id": "01157060625",
           "cpfCnpj": "011.570.606-25",
           "nome": "JUAREZ LEAL",
-          "total": 109102.52,
+          "total": 109102.51999999999,
           "porExercicio": {
             "2023": 55029.18,
             "2024": 54073.34
