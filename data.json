@@ -10977,13 +10977,33 @@
         "2019": "IMPUGNAMOS EM 11/08/2022 - IMPUGNAÇÃO PROCEDENTE - 38.748,09 EM 13/01/2023",
         "2020": "ATENDEMOS INTIMAÇÃO 11/08/2022 - 3264,29 EM 31/10/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - ACOMPANHAR EMISSÃO DE ORDEM BANCÁRIA - RECEBEU E JÁ PAGOU HONORÁRIOS",
         "2021": "ATENDEMOS INTIMAÇÃO 11/08/2022 -3755,62 EM 31/10/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - ACOMPANHAR EMISSÃO DE ORDEM BANCÁRIA - RECEBEU E JÁ PAGOU HONORÁRIOS",
-        "2022": "MALHA DG - 13.952,14 - DDA EM 26/01/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - RECEBEU 7.466,47 EM 07/02/2024",
+        "2022": "PROCESSADA — MALHA DG - 13.952,14 - DDA EM 26/01/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - RECEBEU 7.466,47 EM 07/02/2024",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T13:12:37.084Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - 13.952,14 - DDA EM 26/01/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - RECEBEU 7.466,47 EM 07/02/2024",
+          "para": "PROCESSADA — MALHA DG - 13.952,14 - DDA EM 26/01/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - RECEBEU 7.466,47 EM 07/02/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "07/02/2024",
+          "valor": 7466.47
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "57498814668",
@@ -29245,6 +29265,21 @@
             "2022": 17632.68,
             "2023": 20930.21
           }
+        }
+      ]
+    },
+    {
+      "data": "07/02/2024",
+      "descricao": "Lote 07/02/2024",
+      "pagamentos": [
+        {
+          "clienteId": "31552269604",
+          "cpfCnpj": "315.522.696-04",
+          "nome": "GUALTON BRANDÃO DA MATTA",
+          "porExercicio": {
+            "2022": 7466.47
+          },
+          "total": 7466.47
         }
       ]
     },
