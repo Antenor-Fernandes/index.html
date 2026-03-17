@@ -19259,9 +19259,29 @@
       "senhaGov": "",
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
-        "2025": "MALHA PRECATÓRIO - DDA FEITO EM 04/02/2026"
+        "2025": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 04/02/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:15:59.874Z",
+          "exercicio": "2025",
+          "de": "MALHA PRECATÓRIO - DDA FEITO EM 04/02/2026",
+          "para": "EM MALHA — MALHA PRECATÓRIO - DDA FEITO EM 04/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "04/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "77767179672",
