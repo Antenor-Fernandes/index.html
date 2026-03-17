@@ -18085,13 +18085,20 @@
       "senhaGov": "",
       "observacoes": "EMPREGADA DE MÁRCIO COSTA ULHOA)",
       "exercicios": {
-        "2022": "340,35 EM 31/07/2024",
+        "2022": "PROCESSADA — 340,35 EM 31/07/2024",
         "2023": "EM MALHA — MALHA E SOCIAL - DDA FEITO EM 05/08/2024",
         "2024": "EM MALHA — MALHA IMPOSTO RETIDO ESOCIAL - DDA FEITO EM 22/01/2025",
         "2025": "EM MALHA — PENDÊNCIA E-SOCIAL - DDA FEITO EM 04/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T19:04:25.428Z",
+          "exercicio": "2022",
+          "de": "340,35 EM 31/07/2024",
+          "para": "PROCESSADA — 340,35 EM 31/07/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:04:07.434Z",
           "exercicio": "2023",
@@ -18114,7 +18121,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/07/2024",
+          "valor": 340.35
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
