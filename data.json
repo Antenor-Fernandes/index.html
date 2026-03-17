@@ -14088,12 +14088,19 @@
       "senhaGov": "",
       "observacoes": "FALTA LAUDO",
       "exercicios": {
-        "2020": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+        "2020": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
         "2021": "EM MALHA — TT RETIFICOU PARA NÃO PRESCREVER EM 19/12/2025- FALTA LAUDO"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:14:53.199Z",
+          "exercicio": "2020",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "para": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:14:46.439Z",
           "exercicio": "2021",
