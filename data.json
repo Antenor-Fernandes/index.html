@@ -19326,10 +19326,30 @@
         "2022": "PROCESSADA - NÃO RETIFICAMO - JÁ ESTÁ ISENTA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "MALHA DESPESA MÉDICA - DDA FEITO EM 10/02/2026"
+        "2025": "EM MALHA — MALHA DESPESA MÉDICA - DDA FEITO EM 10/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:16:20.087Z",
+          "exercicio": "2025",
+          "de": "MALHA DESPESA MÉDICA - DDA FEITO EM 10/02/2026",
+          "para": "EM MALHA — MALHA DESPESA MÉDICA - DDA FEITO EM 10/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "10/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "44852150672",
