@@ -1190,19 +1190,27 @@ function renderUserList(){
       <button class="btn btn-danger btn-sm" onclick="removeUser(${i})">🗑</button>
     </div>`).join('');
 }
-function addUser(){
+async function addUser(){
   const nome=document.getElementById('new-user-nome').value.trim();
   const codigo=document.getElementById('new-user-codigo').value.trim();
   const nivel=document.getElementById('new-user-nivel').value;
   if(!nome||!codigo){showToast('Preencha nome e código','error');return;}
+  if(!ghCfg?.token){showToast('⚠️ Configure o token GitHub para salvar usuários','error');return;}
   if(accessList.find(u=>u.codigo===codigo)){showToast('Já existe um usuário com este código','error');return;}
   const id=Date.now().toString(36)+Math.random().toString(36).slice(2,8);
   accessList.push({id,nome,codigo,nivel});
   document.getElementById('new-user-nome').value='';
   document.getElementById('new-user-codigo').value='';
   renderUserList();
-  saveAccessConfig();
-  showToast(`✅ Usuário "${nome}" adicionado`,'success');
+  showToast('💾 Salvando usuário...','info');
+  try{
+    await saveAccessConfig();
+    showToast(`✅ Usuário "${nome}" adicionado e salvo`,'success');
+  }catch(e){
+    accessList.pop();
+    renderUserList();
+    showToast('❌ Erro ao salvar usuário: '+e.message,'error');
+  }
 }
 async function removeUser(idx){
   const u=accessList[idx];
