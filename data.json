@@ -12324,13 +12324,20 @@
       "exercicios": {
         "2021": "MALHA DÉBITO - DDA FEITO EM 01/08/2025 - RESTITUIÇÃO DE 1294,95 UTILIZADA PARA COMPENSAR DÉBITOS",
         "2022": "1.269,33 EM 28/11/2025",
-        "2023": "4.448,93 EM 28/11/2025",
+        "2023": "PROCESSADA — 4.448,93 EM 28/11/2025",
         "2024": "PROCESSADA — 6.612,48 EM 24/11/2025",
         "2025": "PROCESSADA — 6.830,40 EM 28/11/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T14:11:19.114Z",
+          "exercicio": "2023",
+          "de": "4.448,93 EM 28/11/2025",
+          "para": "PROCESSADA — 4.448,93 EM 28/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T14:11:07.975Z",
           "exercicio": "2024",
@@ -12347,6 +12354,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "28/11/2025",
+          "valor": 4448.93
+        },
         "2024": {
           "data": "24/11/2025",
           "valor": 6612.48
