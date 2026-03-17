@@ -38584,6 +38584,12 @@
       "nome": "teste",
       "codigo": "teste",
       "nivel": "visualizar"
+    },
+    {
+      "id": "mmuthvvc6wnltf",
+      "nome": "teste2",
+      "codigo": "teste2",
+      "nivel": "exercicios"
     }
   ],
   "appToken": "QU9ENHczSjlvc3NVV0dNMmpGRFlZY0RkWkJZY05ac0lOb0hpX3BoZw=="
