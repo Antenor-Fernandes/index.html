@@ -15175,10 +15175,30 @@
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "MALHA DG E ALUGUEL - DDA FEITO PELA TT EM 24/01/2025",
-        "2025": "MALHA DG E ALUGUEL - DDA FEITO EM 12/02/2026"
+        "2025": "EM MALHA — MALHA DG E ALUGUEL - DDA FEITO EM 12/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:31:55.660Z",
+          "exercicio": "2025",
+          "de": "MALHA DG E ALUGUEL - DDA FEITO EM 12/02/2026",
+          "para": "EM MALHA — MALHA DG E ALUGUEL - DDA FEITO EM 12/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "12/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "29563550668",
