@@ -19550,9 +19550,29 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA PENSÃO E RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO PELA TT EM 05/02/2025"
+        "2024": "EM MALHA — MALHA PENSÃO E RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO PELA TT EM 05/02/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:17:44.758Z",
+          "exercicio": "2024",
+          "de": "MALHA PENSÃO E RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO PELA TT EM 05/02/2025",
+          "para": "EM MALHA — MALHA PENSÃO E RRA - DECLARAÇÃO FEITA PELO CLIENTE - DDA FEITO PELA TT EM 05/02/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "05/02/2025"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "09768289600",
