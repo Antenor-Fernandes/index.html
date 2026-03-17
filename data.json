@@ -15552,13 +15552,20 @@
         "2020": "R$ 7.713,58 31/08/2021 TEM PER - RECEBEU",
         "2021": "R$ 7.671,62 31/08/2021 - FIZEMOS PER - RECEBEU",
         "2022": "7.649,32 EM 30/09/2024",
-        "2023": "9.409,49 EM 30/09/2024",
+        "2023": "PROCESSADA — 9.409,49 EM 30/09/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:35:45.403Z",
+          "exercicio": "2023",
+          "de": "9.409,49 EM 30/09/2024",
+          "para": "PROCESSADA — 9.409,49 EM 30/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:35:31.548Z",
           "exercicio": "2024",
@@ -15574,7 +15581,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2023": {
+          "data": "30/09/2024",
+          "valor": 9409.49
+        }
+      },
       "dda": {
         "2024": {
           "feito": true,
@@ -29505,7 +29517,7 @@
           "id": "27534030668",
           "cpfCnpj": "275.340.306-68",
           "nome": "JOSÉ LUIZ LAGE GUERRA",
-          "total": 17058.81,
+          "total": 17058.809999999998,
           "porExercicio": {
             "2022": 7649.32,
             "2023": 9409.49
