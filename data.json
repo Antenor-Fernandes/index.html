@@ -10172,7 +10172,7 @@
       "senhaGov": "Gera@195858",
       "observacoes": "SENHA GOV.BR Gera@195858",
       "exercicios": {
-        "2017": "1.473,65 EM 28/02/2023",
+        "2017": "PROCESSADA — 1.473,65 EM 28/02/2023",
         "2018": "PROCESSADA — 2.167,07 EM 28/02/2023",
         "2019": "PROCESSADA — 2.424,85 EM 28/08/2023",
         "2020": "PROCESSADA — 2.622,98 EM 28/02/2023",
@@ -10185,6 +10185,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T12:58:01.628Z",
+          "exercicio": "2017",
+          "de": "1.473,65 EM 28/02/2023",
+          "para": "PROCESSADA — 1.473,65 EM 28/02/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T12:57:47.792Z",
           "exercicio": "2018",
@@ -10243,6 +10250,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "28/02/2023",
+          "valor": 1473.65
+        },
         "2018": {
           "data": "28/02/2023",
           "valor": 2167.07
