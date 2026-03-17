@@ -38573,6 +38573,12 @@
       "nome": "teste",
       "codigo": "teste",
       "nivel": "visualizar"
+    },
+    {
+      "id": "mmurdfn1c0zzuz",
+      "nome": "teste2",
+      "codigo": "teste2",
+      "nivel": "exercicios"
     }
   ],
   "appToken": "ghp_9lTO4p9jde0mLJIKHGbikjhiIhbuoi156fiuhs"
