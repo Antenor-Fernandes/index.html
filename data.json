@@ -16366,10 +16366,17 @@
       "exercicios": {
         "2022": "DDA FEITO EM 11/03/2026",
         "2023": "DDA FEITO EM 11/03/2026",
-        "2024": "DDA FEITO EM 11/03/2026",
+        "2024": "EM MALHA — DDA FEITO EM 11/03/2026",
         "2025": "EM MALHA — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-17T18:44:59.238Z",
+          "exercicio": "2024",
+          "de": "DDA FEITO EM 11/03/2026",
+          "para": "EM MALHA — DDA FEITO EM 11/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:44:48.680Z",
           "exercicio": "2025",
@@ -16386,6 +16393,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "11/03/2026"
+        },
         "2025": {
           "feito": true,
           "data": "11/03/2026"
