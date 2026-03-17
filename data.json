@@ -15548,7 +15548,7 @@
         "2016": "R$ 9.889,36 31/08/2021 TEM PER -RECEBEU",
         "2017": "R$ 8.838,46 31/08/2021 TEM PER - RECEBEU",
         "2018": "R$ 8.437,57 31/08/2021 TEM PER - RECEBEU",
-        "2019": "R$ 8.043,28 31/08/2021 TEM PER - RECEBEU",
+        "2019": "PROCESSADA — R$ 8.043,28 31/08/2021 TEM PER - RECEBEU",
         "2020": "PROCESSADA — R$ 7.713,58 31/08/2021 TEM PER - RECEBEU",
         "2021": "PROCESSADA — R$ 7.671,62 31/08/2021 - FIZEMOS PER - RECEBEU",
         "2022": "PROCESSADA — 7.649,32 EM 30/09/2024",
@@ -15559,6 +15559,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:36:44.698Z",
+          "exercicio": "2019",
+          "de": "R$ 8.043,28 31/08/2021 TEM PER - RECEBEU",
+          "para": "PROCESSADA — R$ 8.043,28 31/08/2021 TEM PER - RECEBEU",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:36:30.718Z",
           "exercicio": "2020",
@@ -15603,6 +15610,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "31/08/2021",
+          "valor": 8043.28
+        },
         "2020": {
           "data": "31/08/2021",
           "valor": 7713.58
