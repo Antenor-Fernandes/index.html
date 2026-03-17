@@ -37293,12 +37293,5 @@
       ]
     }
   ],
-  "access": [
-    {
-      "id": "mmui561aw8d10o",
-      "nome": "teste",
-      "codigo": "teste",
-      "nivel": "exercicios"
-    }
-  ]
+  "access": []
 }
