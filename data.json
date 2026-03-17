@@ -15315,12 +15315,19 @@
       "observacoes": "FALTA OBTER LAUDO - RETIFICAMOS E PER 2018 PARA NÃO PRESCREVER - FAZER PER ATÉ MAIO 2024",
       "exercicios": {
         "2018": "MALHA DG - FALTA LAUDO",
-        "2019": "MALHA DG - FALTA LAUDO",
+        "2019": "EM MALHA — MALHA DG - FALTA LAUDO",
         "2020": "EM MALHA — MALHA DG - FALTA LAUDO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:32:53.476Z",
+          "exercicio": "2019",
+          "de": "MALHA DG - FALTA LAUDO",
+          "para": "EM MALHA — MALHA DG - FALTA LAUDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:32:48.527Z",
           "exercicio": "2020",
