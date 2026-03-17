@@ -19689,10 +19689,30 @@
         "2020": "8.940,56 30/07/2021",
         "2021": "DEPENDENTE",
         "2023": "DEPENDENTE DE TÂNIA MARIA VAZ AMARAL MARTINS",
-        "2025": "MALHA DG - DDA FEITO EM 05/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:18:22.112Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 05/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "05/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "50805320687",
