@@ -11097,9 +11097,29 @@
       "observacoes": "",
       "exercicios": {
         "2024": "MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 09/01/2025",
-        "2025": "24.840,83 EM 31/07/2025"
+        "2025": "PROCESSADA — 24.840,83 EM 31/07/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T13:14:29.565Z",
+          "exercicio": "2025",
+          "de": "24.840,83 EM 31/07/2025",
+          "para": "PROCESSADA — 24.840,83 EM 31/07/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/07/2025",
+          "valor": 24840.83
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "05573563696",
