@@ -14303,11 +14303,18 @@
         "2021": "PROCESSADA",
         "2022": "MALHA - PREVIDÊNCIA E PENSÃO - DDA FEITO EM 15/02/2023",
         "2023": "MALHA - PREVIDÊNCIA E PENSÃO - DDA FEITO EM 06/02/2024",
-        "2024": "MALHA PENSÃO - DDA FEITO EM 22/01/2025",
+        "2024": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 22/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T18:18:01.273Z",
+          "exercicio": "2024",
+          "de": "MALHA PENSÃO - DDA FEITO EM 22/01/2025",
+          "para": "EM MALHA — MALHA PENSÃO - DDA FEITO EM 22/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:17:50.224Z",
           "exercicio": "2025",
@@ -14318,6 +14325,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "22/01/2025"
+        },
         "2025": {
           "feito": true,
           "data": "29/01/2026"
