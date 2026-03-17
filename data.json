@@ -13451,6 +13451,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T18:04:45.494Z",
+          "exercicio": "2018",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:04:36.508Z",
           "exercicio": "2019",
           "de": "2171,22 EM 30/04/2021",
