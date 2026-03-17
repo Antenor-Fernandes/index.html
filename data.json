@@ -15915,12 +15915,19 @@
         "2020": "PG 300 EM 11/06/2021",
         "2021": "PROCESSADA",
         "2023": "PROCESSADA",
-        "2024": "MALHA DG - DDA FEITO EM 25/11/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 25/11/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 02/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:38:42.073Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 25/11/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 25/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:38:28.257Z",
           "exercicio": "2025",
@@ -15931,6 +15938,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "25/11/2025"
+        },
         "2025": {
           "feito": true,
           "data": "02/02/2026"
