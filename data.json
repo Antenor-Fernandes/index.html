@@ -19688,12 +19688,18 @@
       "exercicios": {
         "2020": "8.940,56 30/07/2021",
         "2021": "DEPENDENTE",
-        "2023": "DEPENDENTE DE TÂNIA MARIA VAZ AMARAL MARTINS",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:18:26.899Z",
+          "exercicio": "2023",
+          "de": "DEPENDENTE DE TÂNIA MARIA VAZ AMARAL MARTINS",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:18:22.112Z",
           "exercicio": "2025",
