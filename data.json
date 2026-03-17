@@ -17290,13 +17290,20 @@
       "exercicios": {
         "2021": "5.429,67 EM 29/02/2024",
         "2022": "12.925,48 EM 29/02/2024",
-        "2023": "15.374,95 EM 29/02/2024",
+        "2023": "PROCESSADA — 15.374,95 EM 29/02/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 20/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:53:08.653Z",
+          "exercicio": "2023",
+          "de": "15.374,95 EM 29/02/2024",
+          "para": "PROCESSADA — 15.374,95 EM 29/02/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:52:53.380Z",
           "exercicio": "2024",
@@ -17312,7 +17319,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2023": {
+          "data": "29/02/2024",
+          "valor": 15374.95
+        }
+      },
       "dda": {
         "2024": {
           "feito": true,
@@ -32807,7 +32819,7 @@
           "id": "27675718615",
           "cpfCnpj": "276.757.186-15",
           "nome": "LEONARDO SANTOS COSTA",
-          "total": 33730.1,
+          "total": 33730.100000000006,
           "porExercicio": {
             "2021": 5429.67,
             "2022": 12925.48,
