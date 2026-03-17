@@ -463,6 +463,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T14:23:08.675Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 45.914,54 EM 28/11/2025",
+          "para": "PROCESSADA — 45.914,54 EM 28/11/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T09:53:42.712Z",
           "exercicio": "2023",
           "de": "PROCESSADA — 45.914,54 EM 28/11/2025",
@@ -539,7 +546,7 @@
             "dataTransmissao": "06/11/2025",
             "obs": "IRPF",
             "dataRec": "20/02/2026",
-            "valorRec": 3450.06
+            "valorRec": 3450.07
           }
         ]
       }
@@ -23337,9 +23344,9 @@
           "cpfCnpj": "044.713.268-72",
           "nome": "ADILSON CREPALDI",
           "porExercicio": {
-            "EXPERDCOMP-2023-0": 3450.06
+            "EXPERDCOMP-2023-0": 3450.07
           },
-          "total": 3450.06
+          "total": 3450.07
         }
       ]
     },
