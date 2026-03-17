@@ -1005,6 +1005,8 @@ function loadGHCfg(){
     localStorage.setItem(GH_CFG_KEY,JSON.stringify({owner:ghCfg.owner,repo:ghCfg.repo}));
   }
   isReadOnly=!(ghCfg?.token);
+  // Restaura SHA salvo (permite ghSave funcionar mesmo após API rate limit)
+  if(!ghSHA){try{const s=localStorage.getItem('cadastroIR_ghSHA');if(s)ghSHA=s;}catch(e){}}
   applyReadOnlyUI();
 }
 function applyReadOnlyUI(){
@@ -1033,11 +1035,31 @@ async function ghFetch(){
   if(ghCfg.token)headers['Authorization']=`token ${ghCfg.token}`;
   try{
     const r=await fetch(url,{headers,cache:'no-store'});
-    if(!r.ok)return null;
+    if(!r.ok){
+      // API falhou (rate limit, etc.) — tenta via raw como fallback
+      return await ghFetchRaw();
+    }
     const j=await r.json();
     ghSHA=j.sha;
+    // Persiste SHA no localStorage para uso offline
+    try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}
     const parsed=JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))));
     if(Array.isArray(parsed.access))accessList=parsed.access;
+    return parsed;
+  }catch(e){return await ghFetchRaw();}
+}
+async function ghFetchRaw(){
+  // Leitura via raw.githubusercontent.com — sem rate limit, sem autenticação
+  if(!ghCfg?.owner||!ghCfg?.repo)return null;
+  try{
+    const branch=ghCfg.branch||'main';
+    const rawUrl=`https://raw.githubusercontent.com/${ghCfg.owner}/${ghCfg.repo}/${branch}/data.json`;
+    const r=await fetch(rawUrl,{cache:'no-store'});
+    if(!r.ok)return null;
+    const parsed=await r.json();
+    if(Array.isArray(parsed.access))accessList=parsed.access;
+    // Recupera SHA do localStorage se disponível (para saves futuros)
+    if(!ghSHA){try{const s=localStorage.getItem('cadastroIR_ghSHA');if(s)ghSHA=s;}catch(e){}}
     return parsed;
   }catch(e){return null;}
 }
