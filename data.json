@@ -14633,7 +14633,7 @@
       "observacoes": "PER 2022 A 2024 FEITOS EM 11/02/2025 E RECEBIDOS EM 21/07/2025 - PROCESSO DE DESFAZIMENTO DE COMPENSAÇÃOE FEITO EM 01/07/2025 - PER 2025 FEITO EM 29/01/2026",
       "exercicios": {
         "2021": "MALHA DG - DDA FEITO EM 11/02/2025 - teve compensação - PEDIR DESFAZIMENTO",
-        "2022": "3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
+        "2022": "IMPUGNAR — 3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
         "2023": "PROCESSADA — 6.461,84 EM 30/06/2025",
         "2024": "PROCESSADA — 6.108,07 EM 30/06/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
@@ -14641,6 +14641,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:23:34.499Z",
+          "exercicio": "2022",
+          "de": "3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
+          "para": "IMPUGNAR — 3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:22:58.551Z",
           "exercicio": "2023",
@@ -14664,6 +14671,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/06/2025",
+          "valor": 3997.61
+        },
         "2023": {
           "data": "30/06/2025",
           "valor": 6461.84
