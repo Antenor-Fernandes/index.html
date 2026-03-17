@@ -16450,6 +16450,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-17T18:47:22.757Z",
+          "exercicio": "2019",
+          "de": "PROCESSADA — R$ 39.513,74 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "para": "PROCESSADA — R$ 39.513,74 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:47:06.363Z",
           "exercicio": "2020",
           "de": "PROCESSADA — R$ 39.677,87 31/08/2022 - RECEBEU PER EM 21/11/2022",
@@ -16536,6 +16543,10 @@
       ],
       "doencaGrave": true,
       "recebimentos": {
+        "2019": {
+          "data": "31/08/2022",
+          "valor": 39513.74
+        },
         "2020": {
           "data": "31/08/2022",
           "valor": 39677.87
