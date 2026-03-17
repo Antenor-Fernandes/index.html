@@ -13052,13 +13052,20 @@
         "2020": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBLVGBL",
         "2021": "IMPUGNAR — 3.231,84 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
         "2022": "IMPUGNAR — 14.525,41 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
-        "2023": "PROCESSADA — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
+        "2023": "IMPUGNAR — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
         "2024": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 02/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:00:11.504Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
+          "para": "IMPUGNAR — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:00:04.554Z",
           "exercicio": "2022",
