@@ -1041,7 +1041,7 @@ async function ghFetch(){
   }catch(e){return null;}
 }
 async function ghSave(){
-  if(isReadOnly||!ghCfg?.token||!ghCfg?.owner||!ghCfg?.repo)return;
+  if(isReadOnly||!ghCfg?.token||!ghCfg?.owner||!ghCfg?.repo)return false;
   const data={clientes:allClients,lotes:allLotes,access:accessList};
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
@@ -1052,9 +1052,9 @@ async function ghSave(){
     const r=await fetch(url,{method:'PUT',
       headers:{'Authorization':`token ${ghCfg.token}`,'Content-Type':'application/json'},
       body:JSON.stringify(body)});
-    if(r.ok){const j=await r.json();ghSHA=j.content.sha;}
-    else showToast('⚠️ Erro ao salvar no GitHub','error');
-  }catch(e){showToast('⚠️ Sem conexão — dados salvos localmente','error');}
+    if(r.ok){const j=await r.json();ghSHA=j.content.sha;return true;}
+    else{showToast('⚠️ Erro ao salvar no GitHub','error');return false;}
+  }catch(e){showToast('⚠️ Sem conexão — dados salvos localmente','error');return false;}
 }
 // Config modal controls
 function openGHConfig(){
@@ -1222,8 +1222,13 @@ async function removeUser(idx){
   showToast('Usuário removido','success');
 }
 async function saveAccessConfig(){
-  // access é salvo junto com os dados no próximo ghSave()
-  await ghSave();
+  // Backup local imediato (persiste mesmo se GitHub falhar)
+  try{localStorage.setItem('cadastroIR_accessList',JSON.stringify(accessList));}catch(e){}
+  // Salva no GitHub (fonte autoritativa para todos os dispositivos)
+  const ok=await ghSave();
+  if(!ok&&(ghCfg?.token)){
+    throw new Error('Falha ao salvar no GitHub. Verifique o token e a conexão.');
+  }
 }
 
 // ── STATE ─────────────────────────────────────────────────────────────────────
@@ -1293,11 +1298,17 @@ async function init(){
     // Sincroniza cache local
     for(const c of allClients)await dbPut('clientes',c);
     for(const l of allLotes)await dbPut('lotes',l);
+    // Se GitHub não tem access, usa backup local
+    if(!Array.isArray(ghData.access)||ghData.access.length===0){
+      try{const lb=JSON.parse(localStorage.getItem('cadastroIR_accessList')||'[]');if(Array.isArray(lb)&&lb.length>0)accessList=lb;}catch(e){}
+    }
   }else{
     // Sem GitHub configurado ou offline: usa cache local
     await seedIfEmpty();
     allClients=await dbAll('clientes');
     allLotes=await dbAll('lotes');
+    // Tenta recuperar lista de usuários do backup local
+    try{const lb=JSON.parse(localStorage.getItem('cadastroIR_accessList')||'[]');if(Array.isArray(lb))accessList=lb;}catch(e){}
   }
   // ── Valida sessão contra lista de acesso carregada ──
   if(currentUser&&currentUser!=='admin'){
