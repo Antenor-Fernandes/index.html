@@ -1016,11 +1016,32 @@ function loadGHCfg(){
 }
 function applyReadOnlyUI(){
   const nivel=getNivel();
+  // Em modo local (sem GitHub) não há login — trata como logado
+  const logado=currentUser!==null||!ghCfg?.owner;
+
+  // Classes de edição no body
   document.body.classList.toggle('readonly',nivel==='visualizar');
   document.body.classList.toggle('exercicios-level',nivel==='exercicios');
+
+  // Badge "Modo Consulta" só para nível visualizar
   const rb=document.getElementById('readonly-badge');
-  if(rb)rb.style.display=nivel==='visualizar'?'flex':'none';
-  // ⚙️ sempre visível — necessário para configurar o token
+  if(rb)rb.style.display=(nivel==='visualizar'&&logado)?'flex':'none';
+
+  // Sidebar: itens de navegação visíveis para todos os logados
+  // "Backup / Importar" apenas para admin (evita importação indevida)
+  const navImportar=document.getElementById('nav-importar');
+  if(navImportar)navImportar.style.display=(currentUser==='admin')?'flex':'none';
+
+  // Sidebar: oculta tudo quando não logado (dados ainda não foram renderizados)
+  const aside=document.querySelector('aside.sidebar');
+  if(aside){
+    // Mostra a nav de declarações e relatórios para qualquer usuário logado
+    aside.querySelectorAll('.nav-item').forEach(el=>{
+      if(el.id==='nav-importar')return; // já tratado acima
+      el.style.display=logado?'flex':'none';
+    });
+  }
+
   updateUserBadge();
   renderGHStatusBadge();
 }
