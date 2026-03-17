@@ -14584,12 +14584,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO IR PREV SISTEMA REGRESSIVO EM 16/08/2023 - 10600.726730/2023-23 - deferido em 04/07/2024 - acompanhar ordem bancária - ORDEM BANCÁRIA EM 06/12/2024 - PAGOU OS HONORÁRIOS EM 10/12/2024",
+        "2023": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO IR PREV SISTEMA REGRESSIVO EM 16/08/2023 - 10600.726730/2023-23 - deferido em 04/07/2024 - acompanhar ordem bancária - ORDEM BANCÁRIA EM 06/12/2024 - PAGOU OS HONORÁRIOS EM 10/12/2024",
         "2025": "IMPUGNAÇÃO — ISENTO NA FONTE - RESGATE DE VGBL - PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 28/10/2025 - acompanhar processo 10600.725755/2025-71"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:22:00.222Z",
+          "exercicio": "2023",
+          "de": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO IR PREV SISTEMA REGRESSIVO EM 16/08/2023 - 10600.726730/2023-23 - deferido em 04/07/2024 - acompanhar ordem bancária - ORDEM BANCÁRIA EM 06/12/2024 - PAGOU OS HONORÁRIOS EM 10/12/2024",
+          "para": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO IR PREV SISTEMA REGRESSIVO EM 16/08/2023 - 10600.726730/2023-23 - deferido em 04/07/2024 - acompanhar ordem bancária - ORDEM BANCÁRIA EM 06/12/2024 - PAGOU OS HONORÁRIOS EM 10/12/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:21:47.728Z",
           "exercicio": "2024",
