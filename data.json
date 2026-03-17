@@ -12186,10 +12186,30 @@
         "2022": "12.696,20 EM 31/07/2024",
         "2023": "3.846,69 EM 31/07/2024",
         "2024": "3.500,71 EM 31/07/2024",
-        "2025": "MALHA DG - DDA FEITO EM 29/01/2026 - (não pagou o imposto da declaração original no valor de R$ 10.439,16, cobrar proveito econômico quando receber a rest. de 2025 )"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026 - (não pagou o imposto da declaração original no valor de R$ 10.439,16, cobrar proveito econômico quando receber a rest. de 2025 )"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T14:08:51.944Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 29/01/2026 - (não pagou o imposto da declaração original no valor de R$ 10.439,16, cobrar proveito econômico quando receber a rest. de 2025 )",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026 - (não pagou o imposto da declaração original no valor de R$ 10.439,16, cobrar proveito econômico quando receber a rest. de 2025 )",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "29/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "22705678620",
