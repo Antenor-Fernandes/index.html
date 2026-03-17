@@ -18087,11 +18087,18 @@
       "exercicios": {
         "2022": "340,35 EM 31/07/2024",
         "2023": "MALHA E SOCIAL - DDA FEITO EM 05/08/2024",
-        "2024": "MALHA IMPOSTO RETIDO ESOCIAL - DDA FEITO EM 22/01/2025",
+        "2024": "EM MALHA — MALHA IMPOSTO RETIDO ESOCIAL - DDA FEITO EM 22/01/2025",
         "2025": "EM MALHA — PENDÊNCIA E-SOCIAL - DDA FEITO EM 04/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T19:03:55.793Z",
+          "exercicio": "2024",
+          "de": "MALHA IMPOSTO RETIDO ESOCIAL - DDA FEITO EM 22/01/2025",
+          "para": "EM MALHA — MALHA IMPOSTO RETIDO ESOCIAL - DDA FEITO EM 22/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:03:41.130Z",
           "exercicio": "2025",
@@ -18102,6 +18109,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "22/01/2025"
+        },
         "2025": {
           "feito": true,
           "data": "04/02/2026"
