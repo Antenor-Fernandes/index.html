@@ -2960,7 +2960,7 @@
       "senhaGov": "",
       "observacoes": "5 PER FEITOS EM 21/06/2023 (GCAP 180 DIAS) - RECEBEU 2 EM 22/04/2024 - FALTAM  3 - TEM GCAP 2025",
       "exercicios": {
-        "2018": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
+        "2018": "PROCESSADA — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
         "2019": "PROCESSADA — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
         "2020": "PROCESSADA — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
         "2021": "PROCESSADA — 36.096,64 EM 31/01/2023",
@@ -2971,6 +2971,13 @@
       },
       "temPer": true,
       "historico": [
+        {
+          "ts": "2026-03-17T10:11:00.870Z",
+          "exercicio": "2018",
+          "de": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
+          "para": "PROCESSADA — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T16:34:03.802Z",
           "exercicio": "2018",
