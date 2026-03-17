@@ -15912,7 +15912,7 @@
       "senhaGov": "",
       "observacoes": "RETIFICAR TODO ANO DEPOIS QUE RECEBER A RESTITUIÇÃO",
       "exercicios": {
-        "2020": "PG 300 EM 11/06/2021",
+        "2020": "PROCESSADA — PG 300 EM 11/06/2021",
         "2021": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 25/11/2025",
@@ -15921,6 +15921,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:38:49.961Z",
+          "exercicio": "2020",
+          "de": "PG 300 EM 11/06/2021",
+          "para": "PROCESSADA — PG 300 EM 11/06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:38:42.073Z",
           "exercicio": "2024",
