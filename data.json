@@ -11096,11 +11096,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 09/01/2025",
+        "2024": "EM MALHA — MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 09/01/2025",
         "2025": "PROCESSADA — 24.840,83 EM 31/07/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T13:14:45.810Z",
+          "exercicio": "2024",
+          "de": "MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 09/01/2025",
+          "para": "EM MALHA — MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 09/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:14:29.565Z",
           "exercicio": "2025",
@@ -11115,7 +11122,12 @@
           "valor": 24840.83
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "09/01/2025"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
