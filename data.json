@@ -17236,9 +17236,29 @@
       "observacoes": "PER 2024 FEITO EM 17/06/2024",
       "exercicios": {
         "2024": "PROCESSADA",
-        "2025": "MALHA ALUGUEL - DDA FEITO EM 02/02/2026"
+        "2025": "EM MALHA — MALHA ALUGUEL - DDA FEITO EM 02/02/2026"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:52:17.563Z",
+          "exercicio": "2025",
+          "de": "MALHA ALUGUEL - DDA FEITO EM 02/02/2026",
+          "para": "EM MALHA — MALHA ALUGUEL - DDA FEITO EM 02/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "02/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "27803244653",
