@@ -12183,7 +12183,7 @@
       "observacoes": "",
       "exercicios": {
         "2021": "PROCESSADA",
-        "2022": "12.696,20 EM 31/07/2024",
+        "2022": "PROCESSADA — 12.696,20 EM 31/07/2024",
         "2023": "PROCESSADA — 3.846,69 EM 31/07/2024",
         "2024": "PROCESSADA — 3.500,71 EM 31/07/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026 - (não pagou o imposto da declaração original no valor de R$ 10.439,16, cobrar proveito econômico quando receber a rest. de 2025 )"
@@ -12191,6 +12191,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T14:09:48.366Z",
+          "exercicio": "2022",
+          "de": "12.696,20 EM 31/07/2024",
+          "para": "PROCESSADA — 12.696,20 EM 31/07/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T14:09:33.970Z",
           "exercicio": "2023",
@@ -12214,6 +12221,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/07/2024",
+          "valor": 12696.2
+        },
         "2023": {
           "data": "31/07/2024",
           "valor": 3846.69
