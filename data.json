@@ -15316,10 +15316,25 @@
       "exercicios": {
         "2018": "MALHA DG - FALTA LAUDO",
         "2019": "MALHA DG - FALTA LAUDO",
-        "2020": "MALHA DG - FALTA LAUDO"
+        "2020": "EM MALHA — MALHA DG - FALTA LAUDO"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:32:48.527Z",
+          "exercicio": "2020",
+          "de": "MALHA DG - FALTA LAUDO",
+          "para": "EM MALHA — MALHA DG - FALTA LAUDO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "16387422604",
