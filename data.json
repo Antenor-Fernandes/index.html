@@ -17575,10 +17575,30 @@
         "2022": "7.684,53 EM 31/07/2024",
         "2023": "6.481,59 EM 30/06/2023",
         "2024": "7.504,95 EM 31/07/2024",
-        "2025": "MALHA DG - DDA FEITO EM 26/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:56:30.588Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 26/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 26/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "26/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "01192822676",
