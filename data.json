@@ -16367,16 +16367,34 @@
         "2022": "DDA FEITO EM 11/03/2026",
         "2023": "DDA FEITO EM 11/03/2026",
         "2024": "DDA FEITO EM 11/03/2026",
-        "2025": "DDA FEITO EM 11/03/2026"
+        "2025": "EM MALHA — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-17T18:44:48.680Z",
+          "exercicio": "2025",
+          "de": "DDA FEITO EM 11/03/2026",
+          "para": "EM MALHA — DDA FEITO EM 11/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-11T17:33:41.539Z",
           "exercicio": "2026",
           "de": "NÃO DECLARADA",
           "para": "(removido)"
         }
-      ]
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "11/03/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "01157060625",
