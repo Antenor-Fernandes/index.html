@@ -38579,6 +38579,12 @@
       "nome": "teste2",
       "codigo": "teste2",
       "nivel": "exercicios"
+    },
+    {
+      "id": "mmurhcy8nd4wef",
+      "nome": "teste3",
+      "codigo": "teste3",
+      "nivel": "completo"
     }
   ],
   "appToken": "ghp_9lTO4p9jde0mLJIKHGbikjhiIhbuoi156fiuhs"
