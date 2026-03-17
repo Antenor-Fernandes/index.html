@@ -876,9 +876,9 @@ body.exercicios-level .full-edit-only{display:none!important}
       <div style="font-size:11px;color:var(--text3);margin-top:4px">Gere em: github.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → scope: <strong>repo</strong></div>
     </div>
     <div class="form-group">
-      <label>Token de escrita — colaboradores <span style="font-weight:400;color:var(--text3)">(opcional)</span></label>
+      <label>Token de escrita <span style="font-weight:400;color:var(--text3)">(colaboradores — obrigatório para salvar)</span></label>
       <input type="password" id="gh-write-token" placeholder="ghp_xxxxxxxxxxxxxxxx">
-      <div style="font-size:11px;color:var(--text3);margin-top:4px">Token com escopo <strong>repo</strong> para colaboradores salvarem alterações. Crie um token separado com permissões mínimas.</div>
+      <div style="font-size:11px;color:var(--text3);margin-top:4px">Cada colaborador precisa configurar este campo uma vez. O admin cria o token (scope: <strong>repo</strong>) e envia para cada colaborador por WhatsApp/email. O token fica salvo apenas neste navegador.</div>
     </div>
     <div id="gh-test-result" style="font-size:12.5px;margin-top:6px"></div>
   </div>
@@ -1050,9 +1050,6 @@ async function ghFetch(){
     const parsed=JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))));
     if(Array.isArray(parsed.access))accessList=parsed.access;
     // Armazena token de escrita compartilhado para colaboradores
-    if(parsed.appToken&&!ghCfg?.token){
-      try{const dec=atob(parsed.appToken).split('').reverse().join('');sessionStorage.setItem('cadastroIR_appToken',dec);}catch(e){}
-    }
     return parsed;
   }catch(e){return await ghFetchRaw();}
 }
@@ -1067,30 +1064,20 @@ async function ghFetchRaw(){
     const parsed=await r.json();
     if(Array.isArray(parsed.access))accessList=parsed.access;
     // Armazena token de escrita compartilhado para colaboradores
-    if(parsed.appToken&&!ghCfg?.token){
-      try{const dec=atob(parsed.appToken).split('').reverse().join('');sessionStorage.setItem('cadastroIR_appToken',dec);}catch(e){}
-    }
     // Recupera SHA do localStorage se disponível (para saves futuros)
     if(!ghSHA){try{const s=localStorage.getItem('cadastroIR_ghSHA');if(s)ghSHA=s;}catch(e){}}
     return parsed;
   }catch(e){return null;}
 }
 function getWriteToken(){
-  // Usa token pessoal (admin) ou token de escrita compartilhado (colaboradores)
-  return ghCfg?.token || sessionStorage.getItem('cadastroIR_appToken') || null;
+  // Admin usa ghCfg.token; colaboradores usam ghCfg.writeToken (configurado localmente no ⚙️)
+  return ghCfg?.token || ghCfg?.writeToken || null;
 }
 async function ghSave(){
   const wToken=getWriteToken();
   if(!wToken||!ghCfg?.owner||!ghCfg?.repo)return false;
   if(getNivel()==='visualizar')return false; // Nível visualizar nunca salva
   const data={clientes:allClients,lotes:allLotes,access:accessList};
-  // Preserva appToken no data.json: admin usa ghCfg.writeToken, colaborador usa o que foi carregado
-  if(ghCfg?.writeToken){
-    data.appToken=btoa(ghCfg.writeToken.split('').reverse().join(''));
-  }else{
-    const tok=sessionStorage.getItem('cadastroIR_appToken');
-    if(tok)data.appToken=btoa(tok.split('').reverse().join(''));
-  }
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
