@@ -11699,10 +11699,25 @@
       "senhaGov": "",
       "observacoes": "FALTA LAUDO - FAZER PER PROPORCIONAL ATÉ MARÇO  2026- OBS. TEM ALUGUEL ALTO E NÃO FEZ CARNÊ LEÃO",
       "exercicios": {
-        "2021": "RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025"
+        "2021": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T13:30:32.780Z",
+          "exercicio": "2021",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025",
+          "para": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "29662079653",
