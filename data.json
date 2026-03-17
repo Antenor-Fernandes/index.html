@@ -11864,7 +11864,7 @@
       "exercicios": {
         "2020": "MALHA DG - DDA FEITO EM 05/12/2024 - 55.838,45 EM 31/01/2025",
         "2021": "MALHA DG - DDA FEITO EM 05/12/2024 - 50.754,90 EM 31/01/2025",
-        "2022": "MALHA DG - DDA FEITO EM 05/12/2024 - 49.367,66",
+        "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 05/12/2024 - 49.367,66",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 06/12/2024 - 44.196,91 EM 31/01/2025",
         "2024": "PROCESSADA — MALHA DG - 42.752,02 EM 31/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026"
@@ -11872,6 +11872,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:38:56.896Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 05/12/2024 - 49.367,66",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 05/12/2024 - 49.367,66",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:38:40.598Z",
           "exercicio": "2023",
@@ -11895,6 +11902,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "05/12/2024",
+          "valor": 49367.66
+        },
         "2023": {
           "data": "31/01/2025",
           "valor": 44196.91
@@ -26810,6 +26821,21 @@
             "2020": 68978.01
           },
           "total": 68978.01
+        }
+      ]
+    },
+    {
+      "data": "05/12/2024",
+      "descricao": "Lote 05/12/2024",
+      "pagamentos": [
+        {
+          "clienteId": "51894998634",
+          "cpfCnpj": "518.949.986-34",
+          "nome": "HELTON ROBINI",
+          "porExercicio": {
+            "2022": 49367.66
+          },
+          "total": 49367.66
         }
       ]
     },
