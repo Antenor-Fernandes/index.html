@@ -15478,11 +15478,19 @@
       "exercicios": {
         "2020": "R$ 70.898,72 - 31/07/2020",
         "2021": "98.700,93 - 29/12/2022",
-        "2022": "6.471,59 31/05/2022 - PEDIDO DE IR DO VGBL VIA PROCESSO FEITO EM 26/11/2025",
-        "2023": "CLIENTE QUE FEZ"
+        "2022": "6.471,59 31/05/2022 - PEDIDO DE IR DO VGBL VIA PROCESSO FEITO EM 26/11/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:33:49.544Z",
+          "exercicio": "2023",
+          "de": "CLIENTE QUE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "27534030668",
