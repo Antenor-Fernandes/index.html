@@ -10535,7 +10535,7 @@
       "exercicios": {
         "2017": "651,65 EM 29/12/2022",
         "2018": "MALHA DG - DDA EM 05/10/2022",
-        "2019": "IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+        "2019": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
         "2020": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
         "2021": "PROCESSADA — 2.733,84 EM 28/02/2025",
         "2022": "PROCESSADA — MALHA DG - DDA EM 19/01/2023 - RECEBEU 2.170,82 EM 30/04/2024",
@@ -10546,6 +10546,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:06:14.758Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+          "para": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:06:08.136Z",
           "exercicio": "2020",
