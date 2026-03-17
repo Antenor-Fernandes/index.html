@@ -17798,12 +17798,19 @@
         "2021": "2.366,69  EM 30/05/2025",
         "2022": "3.276,95  EM 30/05/2025",
         "2023": "5.135,75 EM 30/05/2025",
-        "2024": "5.589,15  EM 30/05/2025",
+        "2024": "PROCESSADA — 5.589,15  EM 30/05/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 03/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:58:26.800Z",
+          "exercicio": "2024",
+          "de": "5.589,15  EM 30/05/2025",
+          "para": "PROCESSADA — 5.589,15  EM 30/05/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:58:14.634Z",
           "exercicio": "2025",
@@ -17812,7 +17819,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "30/05/2025",
+          "valor": 5589.15
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -29083,7 +29095,7 @@
           "id": "20313284687",
           "cpfCnpj": "203.132.846-87",
           "nome": "LOURIVAL MUNIZ WERNECK",
-          "total": 16368.54,
+          "total": 16368.539999999999,
           "porExercicio": {
             "2021": 2366.69,
             "2022": 3276.95,
