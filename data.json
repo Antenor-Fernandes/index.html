@@ -20009,9 +20009,24 @@
       "exercicios": {
         "2020": "ATENDEMOS INTIMAÇÃO DA MALHA",
         "2021": "ATENDEMOS INTIMAÇÃO DA MALHA",
-        "2022": "ATENDEMOS INTIMAÇÃO DA MALHA"
+        "2022": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:34:50.228Z",
+          "exercicio": "2022",
+          "de": "ATENDEMOS INTIMAÇÃO DA MALHA",
+          "para": "PROCESSADA — ATENDEMOS INTIMAÇÃO DA MALHA",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "00871389649",
