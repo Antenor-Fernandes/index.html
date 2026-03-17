@@ -12820,6 +12820,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-17T17:54:53.942Z",
+          "exercicio": "2018",
+          "de": "IMPUGNAÇÃO — FEITA EM 07/10/2025",
+          "para": "IMPUGNAÇÃO — FEITA EM 07/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T17:54:31.597Z",
           "exercicio": "2018",
           "de": "IMPUGNAÇÃO FEITA EM 07/10/2025",
@@ -12852,7 +12859,7 @@
       "dda": {},
       "impugnacoes": {
         "2018": {
-          "data": "06/10/2025"
+          "data": "07/10/2025"
         },
         "2019": {
           "data": "06/10/2025"
