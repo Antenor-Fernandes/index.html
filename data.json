@@ -10437,7 +10437,7 @@
       "dataContrato": "",
       "honorarios": "",
       "objeto": "",
-      "doencaGrave": true,
+      "doencaGrave": false,
       "laudo": false,
       "dataAposentadoria": "",
       "diagnostico": "",
