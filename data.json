@@ -16258,12 +16258,19 @@
         "2021": "1.569,26 EM 28/02/2025",
         "2022": "248,97 EM 28/02/2025",
         "2023": "796,77 EM 30/12/2025",
-        "2024": "891,28 EM 28/02/2025",
+        "2024": "PROCESSADA — 891,28 EM 28/02/2025",
         "2025": "EM MALHA — MALHA DG - retificamos para informar a isenção - cobrar proveito econômico original ir a pagar 11.353,01 - DDA FEITO EM 02/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:43:41.474Z",
+          "exercicio": "2024",
+          "de": "891,28 EM 28/02/2025",
+          "para": "PROCESSADA — 891,28 EM 28/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:43:28.978Z",
           "exercicio": "2025",
@@ -16272,7 +16279,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/02/2025",
+          "valor": 891.28
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
