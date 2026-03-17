@@ -871,9 +871,14 @@ body.exercicios-level .full-edit-only{display:none!important}
         <input type="text" id="gh-repo" placeholder="ex: cadastroIR"></div>
     </div>
     <div class="form-group">
-      <label>Token pessoal (só você precisa)</label>
+      <label>Token pessoal — administrador</label>
       <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxxxxxx">
       <div style="font-size:11px;color:var(--text3);margin-top:4px">Gere em: github.com → Settings → Developer settings → Personal access tokens → Tokens (classic) → scope: <strong>repo</strong></div>
+    </div>
+    <div class="form-group">
+      <label>Token de escrita — colaboradores <span style="font-weight:400;color:var(--text3)">(opcional)</span></label>
+      <input type="password" id="gh-write-token" placeholder="ghp_xxxxxxxxxxxxxxxx">
+      <div style="font-size:11px;color:var(--text3);margin-top:4px">Token com escopo <strong>repo</strong> para colaboradores salvarem alterações. Crie um token separado com permissões mínimas.</div>
     </div>
     <div id="gh-test-result" style="font-size:12.5px;margin-top:6px"></div>
   </div>
@@ -1045,6 +1050,10 @@ async function ghFetch(){
     try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}
     const parsed=JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))));
     if(Array.isArray(parsed.access))accessList=parsed.access;
+    // Armazena token de escrita compartilhado para colaboradores
+    if(parsed.appToken&&!ghCfg?.token){
+      sessionStorage.setItem('cadastroIR_appToken',parsed.appToken);
+    }
     return parsed;
   }catch(e){return await ghFetchRaw();}
 }
@@ -1058,14 +1067,25 @@ async function ghFetchRaw(){
     if(!r.ok)return null;
     const parsed=await r.json();
     if(Array.isArray(parsed.access))accessList=parsed.access;
+    // Armazena token de escrita compartilhado para colaboradores
+    if(parsed.appToken&&!ghCfg?.token){
+      sessionStorage.setItem('cadastroIR_appToken',parsed.appToken);
+    }
     // Recupera SHA do localStorage se disponível (para saves futuros)
     if(!ghSHA){try{const s=localStorage.getItem('cadastroIR_ghSHA');if(s)ghSHA=s;}catch(e){}}
     return parsed;
   }catch(e){return null;}
 }
+function getWriteToken(){
+  // Usa token pessoal (admin) ou token de escrita compartilhado (colaboradores)
+  return ghCfg?.token || sessionStorage.getItem('cadastroIR_appToken') || null;
+}
 async function ghSave(){
-  if(isReadOnly||!ghCfg?.token||!ghCfg?.owner||!ghCfg?.repo)return false;
+  const wToken=getWriteToken();
+  if(!wToken||!ghCfg?.owner||!ghCfg?.repo)return false;
+  if(getNivel()==='visualizar')return false; // Nível visualizar nunca salva
   const data={clientes:allClients,lotes:allLotes,access:accessList};
+  if(ghCfg?.writeToken)data.appToken=ghCfg.writeToken; // Inclui token para colaboradores
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
@@ -1073,19 +1093,17 @@ async function ghSave(){
   if(ghSHA)body.sha=ghSHA;
   try{
     const r=await fetch(url,{method:'PUT',
-      headers:{'Authorization':`token ${ghCfg.token}`,'Content-Type':'application/json'},
+      headers:{'Authorization':`token ${wToken}`,'Content-Type':'application/json'},
       body:JSON.stringify(body)});
-    if(r.ok){const j=await r.json();ghSHA=j.content.sha;return true;}
+    if(r.ok){const j=await r.json();ghSHA=j.content.sha;try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}return true;}
     else{
       let errMsg=`HTTP ${r.status}`;
       try{const ej=await r.json();errMsg=ej.message||errMsg;}catch(e2){}
       showToast(`⚠️ GitHub: ${errMsg}`,'error');
-      // SHA inválido (409/422): tenta recarregar SHA e salvar novamente
       if(r.status===409||r.status===422){
         try{
-          const rf=await fetch(`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`,
-            {headers:{'Authorization':`token ${ghCfg.token}`,'Accept':'application/vnd.github.v3+json'},cache:'no-store'});
-          if(rf.ok){const rj=await rf.json();ghSHA=rj.sha;}
+          const rf=await fetch(url,{headers:{'Authorization':`token ${wToken}`,'Accept':'application/vnd.github.v3+json'},cache:'no-store'});
+          if(rf.ok){const rj=await rf.json();ghSHA=rj.sha;try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}}
         }catch(e3){}
       }
       return false;
@@ -1097,6 +1115,7 @@ function openGHConfig(){
   document.getElementById('gh-owner').value=ghCfg?.owner||'';
   document.getElementById('gh-repo').value=ghCfg?.repo||'';
   document.getElementById('gh-token').value=ghCfg?.token||'';
+  document.getElementById('gh-write-token').value=ghCfg?.writeToken||'';
   document.getElementById('gh-test-result').textContent='';
   document.getElementById('modal-gh-config').style.display='flex';
 }
@@ -1120,8 +1139,9 @@ async function saveGHConfig(){
   const owner=document.getElementById('gh-owner').value.trim();
   const repo=document.getElementById('gh-repo').value.trim();
   const token=document.getElementById('gh-token').value.trim();
+  const writeToken=document.getElementById('gh-write-token').value.trim();
   if(!owner||!repo){showToast('Preencha usuário e repositório','error');return;}
-  ghCfg={owner,repo,token:token||null};
+  ghCfg={owner,repo,token:token||null,writeToken:writeToken||null};
   localStorage.setItem(GH_CFG_KEY,JSON.stringify(ghCfg));
   isReadOnly=!token;
   if(token){
@@ -1919,12 +1939,13 @@ function renderLotes(){
             ${l.pagamentos.map((p,pi)=>{
               const exStr=Object.entries(p.porExercicio||{}).sort((a,b)=>b[0]-a[0]).map(([yr,v])=>`${yr}: ${fmtBRL(v)}`).join(' · ');
               const tot=p.total||Object.values(p.porExercicio||{}).reduce((a,b)=>a+b,0);
-              return`<tr style="cursor:pointer" onclick="openLoteCliente(${idx},${pi})">
+              const podeEditar=canEditExercicios();
+              return`<tr style="cursor:${podeEditar?'pointer':'default'}" ${podeEditar?`onclick="openLoteCliente(${idx},${pi})"`:''}>
                 <td class="td-doc">${p.cpfCnpj}</td>
                 <td class="td-name">${p.nome}</td>
                 <td style="font-size:11.5px;color:var(--text2)">${exStr||'—'}</td>
                 <td class="lote-total-row" style="text-align:right">${fmtBRL(tot)}</td>
-                <td style="text-align:right"><span style="font-size:11px;color:var(--accent)">✏️</span></td>
+                <td style="text-align:right">${podeEditar?'<span style="font-size:11px;color:var(--accent)">✏️</span>':''}</td>
               </tr>`;
             }).join('')}
           </tbody>
@@ -2122,6 +2143,7 @@ async function salvarNovoLote(){
 // ── EDITAR CLIENTE NO LOTE ────────────────────────────────────────────────────
 let lcLoteIdx=null, lcPagIdx=null;
 function openLoteCliente(loteIdx,pIdx){
+  if(!canEditExercicios())return; // Nível visualizar não pode editar lotes
   lcLoteIdx=loteIdx;lcPagIdx=pIdx;
   const p=allLotes[loteIdx].pagamentos[pIdx];
   document.getElementById('lc-titulo').textContent='Recebimentos — '+p.nome;
