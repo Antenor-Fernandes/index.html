@@ -16056,7 +16056,7 @@
       "senhaGov": "Castro63@",
       "observacoes": "PER 2023 FEITO EM 04/12/2024 - PER 2024 FEITO EM 21/01/2025 - SENHA GOV Castro63@ - RECEBEU 1 EM 20/03/2025",
       "exercicios": {
-        "2020": "7.473,58 EM 30/12/2024",
+        "2020": "PROCESSADA — 7.473,58 EM 30/12/2024",
         "2021": "PROCESSADA — 9.381,45 EM 30/12/2024",
         "2022": "PROCESSADA — 10.459,20 EM 30/12/2024",
         "2023": "PROCESSADA — 20.448,52 EM 30/12/2024",
@@ -16066,6 +16066,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:41:11.214Z",
+          "exercicio": "2020",
+          "de": "7.473,58 EM 30/12/2024",
+          "para": "PROCESSADA — 7.473,58 EM 30/12/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:40:58.965Z",
           "exercicio": "2021",
@@ -16103,6 +16110,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/12/2024",
+          "valor": 7473.58
+        },
         "2021": {
           "data": "30/12/2024",
           "valor": 9381.45
