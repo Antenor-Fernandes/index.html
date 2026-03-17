@@ -15553,12 +15553,19 @@
         "2021": "R$ 7.671,62 31/08/2021 - FIZEMOS PER - RECEBEU",
         "2022": "7.649,32 EM 30/09/2024",
         "2023": "9.409,49 EM 30/09/2024",
-        "2024": "MALHA DG - DDA FEITO EM 21/01/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:35:31.548Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 21/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:35:21.537Z",
           "exercicio": "2025",
@@ -15569,6 +15576,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "21/01/2025"
+        },
         "2025": {
           "feito": true,
           "data": "27/02/2026"
