@@ -19686,12 +19686,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "8.940,56 30/07/2021",
+        "2020": "PROCESSADA — 8.940,56 30/07/2021",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:18:41.835Z",
+          "exercicio": "2020",
+          "de": "8.940,56 30/07/2021",
+          "para": "PROCESSADA — 8.940,56 30/07/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:18:29.277Z",
           "exercicio": "2021",
@@ -19714,7 +19721,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2020": {
+          "data": "30/07/2021",
+          "valor": 8940.56
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
