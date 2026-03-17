@@ -10533,7 +10533,7 @@
       "senhaGov": "@Geraldo01",
       "observacoes": "SENHA GOV @Geraldo01 - PER 2018, 2020 E 2021 FEITOS EM 05/10/2022 - PER 2022 FEITO EM 19/01/2023 - RECEBIDOS 2 EM 20/05/2025 E 1 EM 20/06/2025 - FALTA 1 - pedido de revisão de débito parcelado ( 2018, 2019 e 2020 ) feito em 27/10/2025 no processo n.º 18183.737816/2025-13 - DEFERIDO NO PROCESSO  10600.729083/2024-92 - 10 PER DO PARCELAMENTO FEITOS EM 20/02/2026",
       "exercicios": {
-        "2017": "651,65 EM 29/12/2022",
+        "2017": "PROCESSADA — 651,65 EM 29/12/2022",
         "2018": "PROCESSADA — MALHA DG - DDA EM 05/10/2022",
         "2019": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
         "2020": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
@@ -10546,6 +10546,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:07:06.266Z",
+          "exercicio": "2017",
+          "de": "651,65 EM 29/12/2022",
+          "para": "PROCESSADA — 651,65 EM 29/12/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:06:33.430Z",
           "exercicio": "2018",
@@ -10604,6 +10611,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "29/12/2022",
+          "valor": 651.65
+        },
         "2021": {
           "data": "28/02/2025",
           "valor": 2733.84
