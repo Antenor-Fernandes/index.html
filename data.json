@@ -17905,7 +17905,7 @@
       "exercicios": {
         "2019": "IMPUGNAÇÃO PARCIAL FEITA EM 07/02/2022 - PEDIDO DE REVISÃO DE OFÍCIO PROTOCOLADO EM 19/03/2024 - DEFERIMENTO PARCIAL",
         "2020": "IMPUGNAMOS EM 07/02/2022 - PEDIDO DE REVISÃO DE OFÍCIO PROTOCOLADO EM 19/03/2024 - DEFERIDO - DÉBITO CANCELADO",
-        "2021": "8.234,52 EM 30/11/2023",
+        "2021": "PROCESSADA — 8.234,52 EM 30/11/2023",
         "2022": "PROCESSADA — 6.523,47 EM 30/11/2023",
         "2023": "PROCESSADA — 8.750,09 EM 30/11/2023",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 28/01/2025",
@@ -17914,6 +17914,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:00:46.716Z",
+          "exercicio": "2021",
+          "de": "8.234,52 EM 30/11/2023",
+          "para": "PROCESSADA — 8.234,52 EM 30/11/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:00:34.650Z",
           "exercicio": "2022",
@@ -17944,6 +17951,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/11/2023",
+          "valor": 8234.52
+        },
         "2022": {
           "data": "30/11/2023",
           "valor": 6523.47
