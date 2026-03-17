@@ -12542,13 +12542,20 @@
       "senhaGov": "Portugalo13$",
       "observacoes": "VAI FAZER PARCELAMENTO - TEM DOENÇA GRAVE - SENHA GOV Portugalo13$  - tem débitos anteriores ao laudo. cobrar proveito econômico",
       "exercicios": {
-        "2023": "MALHA DG - DDA FEITO EM 07/10/2024",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 07/10/2024",
         "2024": "PROCESSADA — MALHA DG - teve compensação de ofício em novembro 2024 - cobrar honorários - PROCESSADA APÓS A COMPENSAÇÃO",
         "2025": "PROCESSADA — TEVE COPMPENSAÇÃO DE OFÍCIO EM 09/2025 - 34,71"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T16:53:23.528Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 07/10/2024",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 07/10/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T16:53:18.851Z",
           "exercicio": "2024",
