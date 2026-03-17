@@ -18552,7 +18552,6 @@
       "senhaGov": "",
       "observacoes": "IMPUGNAMOS 2021 E 2022 EM 01/03/2023",
       "exercicios": {
-        "2018": "NÃO TEVE IMPOSTO RETIDO",
         "2019": "PROCESSADA — 7.212,88 30/11/2022",
         "2020": "PROCESSADA — 3.614,31 30/11/2022",
         "2021": "IMPUGNAÇÃO — 3.537,37 EM 24/03/2023 - IMPUGNAMOS EM 01/03/2023 - RECURSO VOLUNTÁRIO AO CARF FEITO EM 15/10/2024",
@@ -18561,6 +18560,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:09:51.087Z",
+          "exercicio": "2018",
+          "de": "NÃO TEVE IMPOSTO RETIDO",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:09:43.419Z",
           "exercicio": "2019",
