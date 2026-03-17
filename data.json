@@ -15413,10 +15413,25 @@
       "senhaGov": "",
       "observacoes": "FALTA LAUDO",
       "exercicios": {
-        "2021": "RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025"
+        "2021": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:33:25.374Z",
+          "exercicio": "2021",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025",
+          "para": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "21762724634",
