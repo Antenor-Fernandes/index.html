@@ -18920,11 +18920,18 @@
       "senhaGov": "",
       "observacoes": "PER 2024 FEITO EM 24/09/2025 - PER 2025 FEITO EM 04/02/2026 - AVISAR A FILHA DA CLIENTE, JULIANA, TUDO O QUE FOR FEITO NA RECEITA.",
       "exercicios": {
-        "2024": "3.388,47 EM 31/10/2025",
+        "2024": "PROCESSADA — 3.388,47 EM 31/10/2025",
         "2025": "EM MALHA — MALHA DG - DDA 2025 FEITO EM 04/02/2026"
       },
       "temPer": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:15:12.875Z",
+          "exercicio": "2024",
+          "de": "3.388,47 EM 31/10/2025",
+          "para": "PROCESSADA — 3.388,47 EM 31/10/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:15:01.040Z",
           "exercicio": "2025",
@@ -18933,7 +18940,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/10/2025",
+          "valor": 3388.47
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
