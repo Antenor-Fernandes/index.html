@@ -12812,13 +12812,20 @@
       "senhaGov": "",
       "observacoes": "PEDIR REVISÃO DE DÉBITO APÓS RESULTADO DAS IMPUGNAÇÕES",
       "exercicios": {
-        "2018": "IMPUGNAÇÃO FEITA EM 07/10/2025",
+        "2018": "IMPUGNAÇÃO — FEITA EM 07/10/2025",
         "2019": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
         "2020": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
         "2021": "IMPUGNAÇÃO — FEITA EM 06/10/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T17:54:31.597Z",
+          "exercicio": "2018",
+          "de": "IMPUGNAÇÃO FEITA EM 07/10/2025",
+          "para": "IMPUGNAÇÃO — FEITA EM 07/10/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T17:54:21.858Z",
           "exercicio": "2019",
@@ -12844,6 +12851,9 @@
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {
+        "2018": {
+          "data": "06/10/2025"
+        },
         "2019": {
           "data": "06/10/2025"
         },
