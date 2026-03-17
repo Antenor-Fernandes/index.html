@@ -13636,11 +13636,18 @@
         "2021": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS - RECEBEU 15.237,21 EM 20/01/2026",
         "2022": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS  - RECEBEU 9.139,74 EM 20/01/2026",
         "2023": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS - RECEBEU 10.000,61 EM 20/01/2026",
-        "2024": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA MALHA  - ATENDIMENTO À INTIMAÇÃO COMPLEMENTAR EM 24/02/2026"
+        "2024": "EM MALHA — CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA MALHA  - ATENDIMENTO À INTIMAÇÃO COMPLEMENTAR EM 24/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:06:48.120Z",
+          "exercicio": "2024",
+          "de": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA MALHA  - ATENDIMENTO À INTIMAÇÃO COMPLEMENTAR EM 24/02/2026",
+          "para": "EM MALHA — CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA MALHA  - ATENDIMENTO À INTIMAÇÃO COMPLEMENTAR EM 24/02/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:06:30.821Z",
           "exercicio": "2025",
@@ -13648,7 +13655,18 @@
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "24/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "42122708620",
