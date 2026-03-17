@@ -38567,19 +38567,6 @@
       ]
     }
   ],
-  "access": [
-    {
-      "id": "mmurgift345ipz",
-      "nome": "teste2",
-      "codigo": "teste2",
-      "nivel": "exercicios"
-    },
-    {
-      "id": "mmurhcy8nd4wef",
-      "nome": "teste3",
-      "codigo": "teste3",
-      "nivel": "completo"
-    }
-  ],
+  "access": [],
   "appToken": "QU9ENHczSjlvc3NVV0dNMmpGRFlZY0RkWkJZY05ac0lOb0hpX3BoZw=="
 }
