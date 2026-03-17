@@ -13547,12 +13547,19 @@
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
-        "2024": "MALHA DG - DDA FEITO EM 21/01/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "PROCESSADA — 5,51 EM 30/05/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:05:50.453Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 21/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:05:39.207Z",
           "exercicio": "2025",
@@ -13567,7 +13574,12 @@
           "valor": 5.51
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "21/01/2025"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
