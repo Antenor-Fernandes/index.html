@@ -17396,11 +17396,19 @@
       "exercicios": {
         "2022": "MALHA DG - DDA FEITO EM 01/11/2024 - IMPUGNAÇÃO FEITA EM 19/11/2024 - PROCEDENTE - PAGOU HONORÁRIOS",
         "2023": "MALHA DG - DDA FEITO EM 26/01/2024 - IMPUGNAÇÃO FEITA EM 19/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025 - RECEBEU 2.447,97 EM 30/04/2025 - IMPUGNAÇÃO PROCEDENTE CANCELAMENTO DE DÉBITO DE 13.038,19 - FALTA ACERTAR HONORÁRIOS",
-        "2024": "ISENTA NA FONTE",
-        "2025": "CLIENTE FEZ"
+        "2024": "ISENTA NA FONTE"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:53:55.456Z",
+          "exercicio": "2025",
+          "de": "CLIENTE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "27918548604",
