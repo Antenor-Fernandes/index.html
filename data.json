@@ -18156,9 +18156,29 @@
       "observacoes": "",
       "exercicios": {
         "2023": "JUNTAMOS COMPROVANTE DE PGTO DE PREV PRIV AO DDA ABERTO PELO CLIENTE",
-        "2024": "MALHA DESP. MÉD. TIT. E DEP., PREV PRIV DEP. - DDA FEITO EM 17/02/2025"
+        "2024": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP., PREV PRIV DEP. - DDA FEITO EM 17/02/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:04:54.763Z",
+          "exercicio": "2024",
+          "de": "MALHA DESP. MÉD. TIT. E DEP., PREV PRIV DEP. - DDA FEITO EM 17/02/2025",
+          "para": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP., PREV PRIV DEP. - DDA FEITO EM 17/02/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "17/02/2025"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "05160357700",
