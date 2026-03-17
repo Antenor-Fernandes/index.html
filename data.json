@@ -13053,12 +13053,19 @@
         "2021": "3.231,84 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
         "2022": "14.525,41 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
         "2023": "15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
-        "2024": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
+        "2024": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 02/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T17:57:37.976Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
+          "para": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T17:57:28.674Z",
           "exercicio": "2025",
@@ -13069,6 +13076,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "02/02/2026"
+        },
         "2025": {
           "feito": true,
           "data": "02/02/2026"
