@@ -38579,6 +38579,12 @@
       "nome": "teste 2",
       "codigo": "teste 2",
       "nivel": "exercicios"
+    },
+    {
+      "id": "mmupjrzd3yvubz",
+      "nome": "teste 3",
+      "codigo": "teste 3",
+      "nivel": "completo"
     }
   ]
 }
