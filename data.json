@@ -14826,11 +14826,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "MALHA DESPESAS MÉDICAS - DECLARAÇÃO E DDA FEITOS PELO CLIENTE - JUNTAMOS MAIS DOCUMENTOS EM 22/07/2025",
+        "2023": "EM MALHA — MALHA DESPESAS MÉDICAS - DECLARAÇÃO E DDA FEITOS PELO CLIENTE - JUNTAMOS MAIS DOCUMENTOS EM 22/07/2025",
         "2024": "EM MALHA — MALHA DESPESAS MÉDICAS - DECLARAÇÃO E DDA FEITOS PELO CLIENTE - JUNTAMOS MAIS DOCUMENTOS EM 22/07/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T18:27:08.302Z",
+          "exercicio": "2023",
+          "de": "MALHA DESPESAS MÉDICAS - DECLARAÇÃO E DDA FEITOS PELO CLIENTE - JUNTAMOS MAIS DOCUMENTOS EM 22/07/2025",
+          "para": "EM MALHA — MALHA DESPESAS MÉDICAS - DECLARAÇÃO E DDA FEITOS PELO CLIENTE - JUNTAMOS MAIS DOCUMENTOS EM 22/07/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:26:56.118Z",
           "exercicio": "2024",
@@ -14841,6 +14848,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "22/07/2025"
+        },
         "2024": {
           "feito": true,
           "data": "22/07/2025"
