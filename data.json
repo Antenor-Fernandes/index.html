@@ -12033,6 +12033,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T14:00:45.284Z",
+          "exercicio": "2023",
+          "de": "IMPUGNAÇÃO — 6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "para": "IMPUGNAÇÃO — 6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T13:59:58.615Z",
           "exercicio": "2022",
           "de": "IMPUGNAÇÃO — 9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
@@ -12101,6 +12108,10 @@
         "2022": {
           "data": "27/02/2026",
           "valor": 9079.76
+        },
+        "2023": {
+          "data": "27/02/2026",
+          "valor": 6909.2
         }
       },
       "dda": {
