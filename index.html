@@ -902,7 +902,6 @@ body.exercicios-level .full-edit-only{display:none!important}
   <div style="display:flex;flex-direction:column;gap:8px;margin-top:10px">
     <button class="btn btn-primary" onclick="tryLogin()" style="width:100%;justify-content:center">🔑 Entrar</button>
     <button class="btn btn-ghost" onclick="recarregarLogin()" style="width:100%;justify-content:center;font-size:12px;color:var(--text3)">🔄 Recarregar dados de acesso</button>
-    <button class="btn btn-ghost" onclick="continueAsVisitor()" style="width:100%;justify-content:center;font-size:12px;color:var(--text3)">Continuar sem login (somente visualizar)</button>
     <button class="btn btn-ghost btn-sm" id="btn-login-admin" onclick="loginAsAdmin()" style="display:none;width:100%;justify-content:center;color:var(--text3);font-size:11.5px;margin-top:2px">⚙️ Entrar como Administrador (token configurado)</button>
   </div>
 </div>
@@ -1085,7 +1084,13 @@ async function ghSave(){
   if(!wToken||!ghCfg?.owner||!ghCfg?.repo)return false;
   if(getNivel()==='visualizar')return false; // Nível visualizar nunca salva
   const data={clientes:allClients,lotes:allLotes,access:accessList};
-  if(ghCfg?.writeToken)data.appToken=btoa(ghCfg.writeToken.split('').reverse().join('')); // ofuscado
+  // Preserva appToken no data.json: admin usa ghCfg.writeToken, colaborador usa o que foi carregado
+  if(ghCfg?.writeToken){
+    data.appToken=btoa(ghCfg.writeToken.split('').reverse().join(''));
+  }else{
+    const tok=sessionStorage.getItem('cadastroIR_appToken');
+    if(tok)data.appToken=btoa(tok.split('').reverse().join(''));
+  }
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
@@ -1209,6 +1214,7 @@ function tryLogin(){
   sessionStorage.setItem(SESSION_KEY,JSON.stringify(user));
   document.getElementById('modal-login').style.display='none';
   applyReadOnlyUI();
+  populateYearSelects();
   refreshCurrentView();
   showToast(`✅ Bem-vindo(a), ${user.nome}!`+(user.nivel==='exercicios'?' (Nível: Exercícios)':user.nivel==='completo'?' (Nível: Completo)':''),'success');
 }
@@ -1237,6 +1243,7 @@ function loginAsAdmin(){
   sessionStorage.setItem(SESSION_KEY,'admin');
   document.getElementById('modal-login').style.display='none';
   applyReadOnlyUI();
+  populateYearSelects();
   refreshCurrentView();
   showToast('✅ Logado como Administrador','success');
 }
@@ -1424,14 +1431,16 @@ async function init(){
     return pd(b.data)-pd(a.data);
   });
   filteredClients=[...allClients];
-  renderSidebarStats();
-  renderFilterChips();
-  renderTable(filteredClients);
-  populateYearSelects();
   applyReadOnlyUI(); // re-aplica após carregar accessList
-  // Mostra modal de login se GitHub configurado, sem sessão e há usuários
-  if(ghCfg?.owner&&!currentUser&&accessList.length>0){
+  // Exige login antes de renderizar qualquer dado
+  const loginNeeded=ghCfg?.owner&&!currentUser&&accessList.length>0;
+  if(loginNeeded){
     openLoginModal();
+  }else{
+    renderSidebarStats();
+    renderFilterChips();
+    renderTable(filteredClients);
+    populateYearSelects();
   }
   // Mostra dica de configuração se GitHub ainda não foi configurado
   if(!ghCfg?.owner&&!isReadOnly){
