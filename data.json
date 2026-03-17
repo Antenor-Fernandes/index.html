@@ -17472,11 +17472,18 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2023": "MALHA DG - DDA FEITO EM 12/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 12/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITO NO CHAT EM 02/02/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-17T18:56:08.323Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 12/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 12/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:55:55.357Z",
           "exercicio": "2024",
@@ -17494,6 +17501,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "12/11/2024"
+        },
         "2024": {
           "feito": true,
           "data": "21/01/2025"
