@@ -10827,10 +10827,17 @@
       "doencaGrave": false,
       "temRRA": false,
       "exercicios": {
-        "2024": "EM MALHA",
+        "2024": "EM MALHA — ATENDER A MALHA",
         "2025": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-17T13:11:43.808Z",
+          "exercicio": "2024",
+          "de": "EM MALHA",
+          "para": "EM MALHA — ATENDER A MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:11:26.700Z",
           "exercicio": "2025",
