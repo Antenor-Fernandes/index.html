@@ -13319,7 +13319,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "2.092,81 EM 30/04/2020",
+        "2020": "PROCESSADA — 2.092,81 EM 30/04/2020",
         "2021": "PROCESSADA — 2.738,10 EM 28/02/2023",
         "2022": "PROCESSADA — 2.986,76 EM 28/02/2023",
         "2023": "PROCESSADA — 4.527,82 EM 28/02/2025",
@@ -13329,6 +13329,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:03:25.408Z",
+          "exercicio": "2020",
+          "de": "2.092,81 EM 30/04/2020",
+          "para": "PROCESSADA — 2.092,81 EM 30/04/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:03:09.894Z",
           "exercicio": "2021",
@@ -13366,6 +13373,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/04/2020",
+          "valor": 2092.81
+        },
         "2021": {
           "data": "28/02/2023",
           "valor": 2738.1
@@ -39204,6 +39215,15 @@
             "2020": 10074.61
           },
           "total": 10074.61
+        },
+        {
+          "clienteId": "43855172668",
+          "cpfCnpj": "438.551.726-68",
+          "nome": "JADSON ARAÚJO PAPA",
+          "porExercicio": {
+            "2020": 2092.81
+          },
+          "total": 2092.81
         }
       ]
     },
