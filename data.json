@@ -12938,7 +12938,7 @@
       "observacoes": "VOLUNTÁRIO - CUNHADA DO CLÉBER",
       "exercicios": {
         "2021": "3.032,90 EM 31/07/2023",
-        "2022": "7.743,57 EM 31/07/2023",
+        "2022": "PROCESSADA — 7.743,57 EM 31/07/2023",
         "2023": "PROCESSADA — 5.785,35 EM 31/07/2023",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
@@ -12946,6 +12946,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T17:56:43.988Z",
+          "exercicio": "2022",
+          "de": "7.743,57 EM 31/07/2023",
+          "para": "PROCESSADA — 7.743,57 EM 31/07/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T17:56:31.262Z",
           "exercicio": "2023",
@@ -12969,6 +12976,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/07/2023",
+          "valor": 7743.57
+        },
         "2023": {
           "data": "31/07/2023",
           "valor": 5785.35
