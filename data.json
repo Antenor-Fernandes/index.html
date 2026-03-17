@@ -16450,6 +16450,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-17T18:47:06.363Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA — R$ 39.677,87 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "para": "PROCESSADA — R$ 39.677,87 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:46:50.559Z",
           "exercicio": "2021",
           "de": "PROCESSADA — R$ 41.973,17 31/08/2022 - RECEBEU PER EM 21/11/2022",
@@ -16529,6 +16536,10 @@
       ],
       "doencaGrave": true,
       "recebimentos": {
+        "2020": {
+          "data": "31/08/2022",
+          "valor": 39677.87
+        },
         "2021": {
           "data": "21/11/2022",
           "valor": 41973.17
@@ -37358,7 +37369,7 @@
           "id": "01157060625",
           "cpfCnpj": "011.570.606-25",
           "nome": "JUAREZ LEAL",
-          "total": 161399.73,
+          "total": 161399.72999999998,
           "porExercicio": {
             "2018": 40234.95,
             "2019": 39513.74,
