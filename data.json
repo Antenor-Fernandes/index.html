@@ -11301,7 +11301,7 @@
       "observacoes": "TEM PER 17 A 21 RECEBEU 20/04/2022 - FALECIDO - FILHA FERNANDA ESTÁ PROVIDENCIANDO O ACESSO À RFB",
       "exercicios": {
         "2017": "2.004,16 - 30/12/2021",
-        "2018": "3.213,47 - 30/12/2021",
+        "2018": "PROCESSADA — 3.213,47 - 30/12/2021",
         "2019": "PROCESSADA — 3.498,37 - 30/12/2021",
         "2020": "PROCESSADA — 3.962,08 - 30/12/2021",
         "2021": "PROCESSADA — 4.529,68 - 30/12/2021",
@@ -11311,6 +11311,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:17:48.429Z",
+          "exercicio": "2018",
+          "de": "3.213,47 - 30/12/2021",
+          "para": "PROCESSADA — 3.213,47 - 30/12/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:17:28.056Z",
           "exercicio": "2019",
@@ -11348,6 +11355,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "30/12/2021",
+          "valor": 3213.47
+        },
         "2019": {
           "data": "30/12/2021",
           "valor": 3498.37
