@@ -20145,10 +20145,30 @@
         "2022": "MALHA DG - DDA FEITO EM 28/11/2024 - 34.625,22 EM 31/01/2025",
         "2023": "MALHA DG - DDA FEITO EM 28/11/2024 - 36.852,32 EM 31/01/2025",
         "2024": "MALHA DG - 36.290,13 EM 31/01/2025",
-        "2025": "34.832,58 EM 31/07/2025"
+        "2025": "PROCESSADA — 34.832,58 EM 31/07/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:35:42.271Z",
+          "exercicio": "2025",
+          "de": "34.832,58 EM 31/07/2025",
+          "para": "PROCESSADA — 34.832,58 EM 31/07/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/07/2025",
+          "valor": 34832.58
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "42120306672",
@@ -28887,9 +28907,9 @@
           "id": "01386263672",
           "cpfCnpj": "013.862.636-72",
           "nome": "MARIA ALICE MORAIS SOARES DE LIMA",
-          "total": 36698.35,
+          "total": 34832.58,
           "porExercicio": {
-            "2025": 36698.35
+            "2025": 34832.58
           }
         },
         {
