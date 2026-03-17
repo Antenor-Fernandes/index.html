@@ -11538,12 +11538,19 @@
         "2021": "5.743,56 EM 28/03/2024",
         "2022": "815,57 EM 28/03/2024",
         "2023": "1.322,46 EM 28/03/2024",
-        "2024": "MALHA DG - RESTITUIÇÃO USADA PARA COMPENSAR DÉBITOS  EM 15/07/2024 - 2.488,24",
+        "2024": "PROCESSADA — MALHA DG - RESTITUIÇÃO USADA PARA COMPENSAR DÉBITOS  EM 15/07/2024 - 2.488,24",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 28/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:20:58.667Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - RESTITUIÇÃO USADA PARA COMPENSAR DÉBITOS  EM 15/07/2024 - 2.488,24",
+          "para": "PROCESSADA — MALHA DG - RESTITUIÇÃO USADA PARA COMPENSAR DÉBITOS  EM 15/07/2024 - 2.488,24",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:20:41.746Z",
           "exercicio": "2025",
