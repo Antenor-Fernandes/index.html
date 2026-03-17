@@ -14711,7 +14711,7 @@
       "senhaGov": "",
       "observacoes": "RECEBEU 1, FALTA 1 PER",
       "exercicios": {
-        "2017": "R$7,42 31/01/2022 - FIZEMOS PERWEB EM 17/12/2021",
+        "2017": "PROCESSADA — R$7,42 31/01/2022 - FIZEMOS PERWEB EM 17/12/2021",
         "2018": "EM PROCESSAMENTO — RETIFICAMOS PARA NÃO PRESCREVER - FALTA LAUDO",
         "2020": "PROCESSADA — 7,05 EM 31/03/21",
         "2021": "PROCESSADA — 196,87 EM 31/03/2023",
@@ -14723,6 +14723,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:26:04.178Z",
+          "exercicio": "2017",
+          "de": "R$7,42 31/01/2022 - FIZEMOS PERWEB EM 17/12/2021",
+          "para": "PROCESSADA — R$7,42 31/01/2022 - FIZEMOS PERWEB EM 17/12/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:25:44.833Z",
           "exercicio": "2018",
@@ -14774,6 +14781,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "31/01/2022",
+          "valor": 7.42
+        },
         "2020": {
           "data": "31/03/2021",
           "valor": 7.05
