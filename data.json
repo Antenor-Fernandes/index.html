@@ -19319,7 +19319,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 E 2021 FEITOS EM 26/01/2023 - RECEBEU 1 EM 20/02/2024 E 1 EM 22/07/2024",
       "exercicios": {
-        "2018": "fizemos juntada da impugnação ao processo que esta na DRJ 13607.720210/2019-59 - DRJ DEFERIU  - DESPACHO DECISÓRIO EM 03/06/2024 - VALOR ORIGINÁRIO R$7.333,31 REDUZIDO PARA R$222,44",
+        "2018": "PROCESSADA — fizemos juntada da impugnação ao processo que esta na DRJ 13607.720210/2019-59 - DRJ DEFERIU  - DESPACHO DECISÓRIO EM 03/06/2024 - VALOR ORIGINÁRIO R$7.333,31 REDUZIDO PARA R$222,44",
         "2019": "PROCESSADA — IMPUGNAMOS EM 26/01/2023 -DEFERIDA -  DESPACHO DECISÓRIO 29/05/2023 - IMPOSTO ANULADO DE R$8.971,90 - AGUARDAR ATUALIZAÇÃO DO VALOR A PAGAR PARA EMITIR O DARF (ORIGINÁRIO 712,62)",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA — RETIFICAMOS - PROCESSADA",
@@ -19331,6 +19331,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:16:42.410Z",
+          "exercicio": "2018",
+          "de": "fizemos juntada da impugnação ao processo que esta na DRJ 13607.720210/2019-59 - DRJ DEFERIU  - DESPACHO DECISÓRIO EM 03/06/2024 - VALOR ORIGINÁRIO R$7.333,31 REDUZIDO PARA R$222,44",
+          "para": "PROCESSADA — fizemos juntada da impugnação ao processo que esta na DRJ 13607.720210/2019-59 - DRJ DEFERIU  - DESPACHO DECISÓRIO EM 03/06/2024 - VALOR ORIGINÁRIO R$7.333,31 REDUZIDO PARA R$222,44",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:16:38.731Z",
           "exercicio": "2019",
