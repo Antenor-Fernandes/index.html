@@ -17794,7 +17794,7 @@
       "senhaGov": "",
       "observacoes": "PER 2023 E 2024 FEITOS EM 14/03/2025  E RECEBIDOS EM 21/11/2025- PEDIDO DE REVISÃO DE DÉBITO INSCRITO EM DÍVIDA ATIVA DAS DIRPF 2020 A 2022 FEITO EM 19/03/2025 - DEFERIDO",
       "exercicios": {
-        "2020": "1.825,14 EM 31/07/2025",
+        "2020": "PROCESSADA — 1.825,14 EM 31/07/2025",
         "2021": "PROCESSADA — 2.366,69  EM 30/05/2025",
         "2022": "PROCESSADA — 3.276,95  EM 30/05/2025",
         "2023": "PROCESSADA — 5.135,75 EM 30/05/2025",
@@ -17804,6 +17804,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:59:15.674Z",
+          "exercicio": "2020",
+          "de": "1.825,14 EM 31/07/2025",
+          "para": "PROCESSADA — 1.825,14 EM 31/07/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:59:03.674Z",
           "exercicio": "2021",
@@ -17841,6 +17848,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/07/2025",
+          "valor": 1825.14
+        },
         "2021": {
           "data": "30/05/2025",
           "valor": 2366.69
