@@ -12544,10 +12544,25 @@
       "exercicios": {
         "2023": "MALHA DG - DDA FEITO EM 07/10/2024",
         "2024": "MALHA DG - teve compensação de ofício em novembro 2024 - cobrar honorários - PROCESSADA APÓS A COMPENSAÇÃO",
-        "2025": "TEVE COPMPENSAÇÃO DE OFÍCIO EM 09/2025 - 34,71"
+        "2025": "PROCESSADA — TEVE COPMPENSAÇÃO DE OFÍCIO EM 09/2025 - 34,71"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T16:53:13.323Z",
+          "exercicio": "2025",
+          "de": "TEVE COPMPENSAÇÃO DE OFÍCIO EM 09/2025 - 34,71",
+          "para": "PROCESSADA — TEVE COPMPENSAÇÃO DE OFÍCIO EM 09/2025 - 34,71",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "59961465687",
