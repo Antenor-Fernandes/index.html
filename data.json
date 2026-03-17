@@ -14635,12 +14635,19 @@
         "2021": "MALHA DG - DDA FEITO EM 11/02/2025 - teve compensação - PEDIR DESFAZIMENTO",
         "2022": "3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
         "2023": "6.461,84 EM 30/06/2025",
-        "2024": "6.108,07 EM 30/06/2025",
+        "2024": "PROCESSADA — 6.108,07 EM 30/06/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:22:42.111Z",
+          "exercicio": "2024",
+          "de": "6.108,07 EM 30/06/2025",
+          "para": "PROCESSADA — 6.108,07 EM 30/06/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:22:19.407Z",
           "exercicio": "2025",
@@ -14649,7 +14656,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "30/06/2025",
+          "valor": 6108.07
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
