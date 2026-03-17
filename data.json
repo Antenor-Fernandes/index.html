@@ -13443,13 +13443,20 @@
         "2019": "2171,22 EM 30/04/2021",
         "2020": "4379,61 EM 30/04/2021",
         "2021": "18.176,52 EM 31/03/2023",
-        "2022": "19.541,47 EM 31/03/2023",
+        "2022": "PROCESSADA — 19.541,47 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 25/01/2024",
         "2024": "TRANSMITIDA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:03:56.810Z",
+          "exercicio": "2022",
+          "de": "19.541,47 EM 31/03/2023",
+          "para": "PROCESSADA — 19.541,47 EM 31/03/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:03:47.033Z",
           "exercicio": "2023",
@@ -13458,7 +13465,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2023",
+          "valor": 19541.47
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
@@ -33662,7 +33674,7 @@
           "id": "13099639672",
           "cpfCnpj": "130.996.396-72",
           "nome": "JAIR FERREIRA PEDROSA",
-          "total": 37717.99,
+          "total": 37717.990000000005,
           "porExercicio": {
             "2021": 18176.52,
             "2022": 19541.47
