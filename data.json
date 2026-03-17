@@ -38664,18 +38664,5 @@
       ]
     }
   ],
-  "access": [
-    {
-      "id": "mmuthvvc6wnltf",
-      "nome": "teste2",
-      "codigo": "teste2",
-      "nivel": "exercicios"
-    },
-    {
-      "id": "mmuti50t2qs9ro",
-      "nome": "teste3",
-      "codigo": "teste3",
-      "nivel": "completo"
-    }
-  ]
+  "access": []
 }
