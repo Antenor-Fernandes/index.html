@@ -16450,6 +16450,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-17T18:46:26.929Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 55.029,18 EM 31/10/2024",
+          "para": "PROCESSADA — 55.029,18 EM 31/10/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:46:15.673Z",
           "exercicio": "2024",
           "de": "PROCESSADA — 54.073,34 EM 31/10/2024",
@@ -16508,6 +16515,10 @@
       ],
       "doencaGrave": true,
       "recebimentos": {
+        "2023": {
+          "data": "31/10/2024",
+          "valor": 55029.18
+        },
         "2024": {
           "data": "31/10/2024",
           "valor": 54073.34
