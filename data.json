@@ -16151,7 +16151,7 @@
       "senhaGov": "",
       "observacoes": "TEM PER 2020 A 2022 FEITOS EM 24/03/2023 (TEVE COMPENSAÇÃO DE OFÍCIO 16 REAIS) - PER 2019 FEITO EM 12/04/2023 - RECEBEU 2 EM 15/05/2024 E 1 EM 20/05/2025 - ( não tem per/dcomp 2025 não pagou o imposto na declaração original no valor de R$ 20.413,03 )",
       "exercicios": {
-        "2019": "LIBERADA DA MALHA EM 16/04/2023",
+        "2019": "PROCESSADA — LIBERADA DA MALHA EM 16/04/2023",
         "2020": "PROCESSADA — 14.595,33 EM 31/05/2023",
         "2021": "PROCESSADA — 15.374,17 EM 31/05/2023",
         "2022": "PROCESSADA — 13.634,68 EM 31/05/2023",
@@ -16162,6 +16162,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:42:54.426Z",
+          "exercicio": "2019",
+          "de": "LIBERADA DA MALHA EM 16/04/2023",
+          "para": "PROCESSADA — LIBERADA DA MALHA EM 16/04/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:42:48.279Z",
           "exercicio": "2020",
