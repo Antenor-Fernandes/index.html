@@ -11429,10 +11429,30 @@
         "2022": "3.487,94 EM 28/11/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
         "2023": "MALHA DG - DDA FEITO EM 28/08/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
         "2024": "1.288,88 EM 28/11/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
-        "2025": "MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T13:18:20.424Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026",
+          "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "28/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "00122021690",
