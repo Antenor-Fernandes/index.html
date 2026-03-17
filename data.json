@@ -11873,6 +11873,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T13:57:21.362Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026",
+          "para": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T13:38:56.896Z",
           "exercicio": "2022",
           "de": "MALHA DG - DDA FEITO EM 05/12/2024 - 49.367,66",
