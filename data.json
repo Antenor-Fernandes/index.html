@@ -12707,7 +12707,7 @@
       "senhaGov": "",
       "observacoes": "PER 2023 E 2024 FEITOS EM 27/02/2025",
       "exercicios": {
-        "2022": "219,16 EM 31/03/2025",
+        "2022": "PROCESSADA — 219,16 EM 31/03/2025",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 27/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 27/02/2025",
         "2025": "EM MALHA — DDA FEITO EM 27/02/2026"
@@ -12715,6 +12715,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T17:53:32.683Z",
+          "exercicio": "2022",
+          "de": "219,16 EM 31/03/2025",
+          "para": "PROCESSADA — 219,16 EM 31/03/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T17:53:13.384Z",
           "exercicio": "2023",
@@ -12737,7 +12744,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2025",
+          "valor": 219.16
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
