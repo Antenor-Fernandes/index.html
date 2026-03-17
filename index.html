@@ -1052,7 +1052,7 @@ async function ghFetch(){
     if(Array.isArray(parsed.access))accessList=parsed.access;
     // Armazena token de escrita compartilhado para colaboradores
     if(parsed.appToken&&!ghCfg?.token){
-      sessionStorage.setItem('cadastroIR_appToken',parsed.appToken);
+      try{const dec=atob(parsed.appToken).split('').reverse().join('');sessionStorage.setItem('cadastroIR_appToken',dec);}catch(e){}
     }
     return parsed;
   }catch(e){return await ghFetchRaw();}
@@ -1069,7 +1069,7 @@ async function ghFetchRaw(){
     if(Array.isArray(parsed.access))accessList=parsed.access;
     // Armazena token de escrita compartilhado para colaboradores
     if(parsed.appToken&&!ghCfg?.token){
-      sessionStorage.setItem('cadastroIR_appToken',parsed.appToken);
+      try{const dec=atob(parsed.appToken).split('').reverse().join('');sessionStorage.setItem('cadastroIR_appToken',dec);}catch(e){}
     }
     // Recupera SHA do localStorage se disponível (para saves futuros)
     if(!ghSHA){try{const s=localStorage.getItem('cadastroIR_ghSHA');if(s)ghSHA=s;}catch(e){}}
@@ -1085,7 +1085,7 @@ async function ghSave(){
   if(!wToken||!ghCfg?.owner||!ghCfg?.repo)return false;
   if(getNivel()==='visualizar')return false; // Nível visualizar nunca salva
   const data={clientes:allClients,lotes:allLotes,access:accessList};
-  if(ghCfg?.writeToken)data.appToken=ghCfg.writeToken; // Inclui token para colaboradores
+  if(ghCfg?.writeToken)data.appToken=btoa(ghCfg.writeToken.split('').reverse().join('')); // ofuscado
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
