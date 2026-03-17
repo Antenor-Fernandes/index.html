@@ -13543,7 +13543,7 @@
       "observacoes": "",
       "exercicios": {
         "2019": "PROCESSADA - IMPOSTO A PAGAR - MULTA",
-        "2020": "R$ 18.925,82 - 30/09/2020",
+        "2020": "PROCESSADA — R$ 18.925,82 - 30/09/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
@@ -13553,6 +13553,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:06:04.590Z",
+          "exercicio": "2020",
+          "de": "R$ 18.925,82 - 30/09/2020",
+          "para": "PROCESSADA — R$ 18.925,82 - 30/09/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:05:50.453Z",
           "exercicio": "2024",
@@ -13569,6 +13576,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/09/2020",
+          "valor": 18925.82
+        },
         "2025": {
           "data": "30/05/2025",
           "valor": 5.51
@@ -39109,7 +39120,7 @@
           "id": "24795240604",
           "cpfCnpj": "247.952.406-04",
           "nome": "JARBAS MIRANDA MADUREIRA",
-          "total": null,
+          "total": 18925.82,
           "porExercicio": {
             "2020": 18925.82
           }
