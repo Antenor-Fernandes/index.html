@@ -19687,12 +19687,18 @@
       "observacoes": "",
       "exercicios": {
         "2020": "8.940,56 30/07/2021",
-        "2021": "DEPENDENTE",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:18:29.277Z",
+          "exercicio": "2021",
+          "de": "DEPENDENTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:18:26.899Z",
           "exercicio": "2023",
