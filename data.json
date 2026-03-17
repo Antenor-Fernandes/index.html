@@ -10973,7 +10973,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2018": "IMPUGNAMOS EM 11/08/2022 - IMPUGNAÇÃO PROCEDENTE - 40.675,20 EM 13/01/2023",
+        "2018": "PROCESSADA — IMPUGNAMOS EM 11/08/2022 - IMPUGNAÇÃO PROCEDENTE - 40.675,20 EM 13/01/2023",
         "2019": "PROCESSADA — IMPUGNAMOS EM 11/08/2022 - IMPUGNAÇÃO PROCEDENTE - 38.748,09 EM 13/01/2023",
         "2020": "PROCESSADA — ATENDEMOS INTIMAÇÃO 11/08/2022 - 3264,29 EM 31/10/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - ACOMPANHAR EMISSÃO DE ORDEM BANCÁRIA - RECEBEU E JÁ PAGOU HONORÁRIOS",
         "2021": "PROCESSADA — ATENDEMOS INTIMAÇÃO 11/08/2022 -3755,62 EM 31/10/2023 - IMPUGNAÇÃO FEITA EM 18/01/2024 - ACOMPANHAR EMISSÃO DE ORDEM BANCÁRIA - RECEBEU E JÁ PAGOU HONORÁRIOS",
@@ -10985,6 +10985,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:13:28.120Z",
+          "exercicio": "2018",
+          "de": "IMPUGNAMOS EM 11/08/2022 - IMPUGNAÇÃO PROCEDENTE - 40.675,20 EM 13/01/2023",
+          "para": "PROCESSADA — IMPUGNAMOS EM 11/08/2022 - IMPUGNAÇÃO PROCEDENTE - 40.675,20 EM 13/01/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:13:14.215Z",
           "exercicio": "2019",
@@ -11015,6 +11022,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "13/01/2023",
+          "valor": 40675.2
+        },
         "2019": {
           "data": "13/01/2023",
           "valor": 38748.09
@@ -33077,9 +33088,10 @@
           "cpfCnpj": "315.522.696-04",
           "nome": "GUALTON BRANDÃO DA MATTA",
           "porExercicio": {
+            "2018": 40675.2,
             "2019": 38748.09
           },
-          "total": 38748.09
+          "total": 79423.29
         }
       ]
     },
