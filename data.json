@@ -11862,7 +11862,7 @@
       "senhaGov": "",
       "observacoes": "QUANDO RECEBER A RESTITUIÇÃO DESCONTAR O VALOR DE R$5.829,89 DA DECLARAÇÃO ORIGINAL",
       "exercicios": {
-        "2020": "MALHA DG - DDA FEITO EM 05/12/2024 - 55.838,45 EM 31/01/2025",
+        "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 05/12/2024 - 55.838,45 EM 31/01/2025",
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 05/12/2024 - 50.754,90 EM 31/01/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 05/12/2024 - 49.367,66",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 06/12/2024 - 44.196,91 EM 31/01/2025",
@@ -11872,6 +11872,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:58:07.524Z",
+          "exercicio": "2020",
+          "de": "MALHA DG - DDA FEITO EM 05/12/2024 - 55.838,45 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 05/12/2024 - 55.838,45 EM 31/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:57:53.608Z",
           "exercicio": "2021",
@@ -11923,6 +11930,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/01/2025",
+          "valor": 55838.45
+        },
         "2021": {
           "data": "31/01/2025",
           "valor": 50754.9
