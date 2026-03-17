@@ -463,6 +463,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T09:53:42.712Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 45.914,54 EM 28/11/2025",
+          "para": "PROCESSADA — 45.914,54 EM 28/11/2025"
+        },
+        {
           "ts": "2026-03-17T09:48:43.045Z",
           "exercicio": "2023",
           "de": "PROCESSADA — 45.914,54 EM 28/11/2025",
@@ -529,9 +535,9 @@
         "2023": [
           {
             "numero": "37502.77218.061125.2.2.04-2673",
-            "valorPedido": 0,
+            "valorPedido": 2592.68,
             "dataTransmissao": "06/11/2025",
-            "obs": "",
+            "obs": "IRPF",
             "dataRec": "20/02/2026",
             "valorRec": 3450.07
           }
