@@ -292,6 +292,19 @@ body.readonly .edit-only{display:none!important}
 .print-header{display:none;margin-bottom:16px;padding-bottom:12px;border-bottom:2px solid #1e3a6e}
 .print-header-title{font-family:'Syne',sans-serif;font-size:18pt;font-weight:800;color:#1e3a6e}
 .print-header-sub{font-size:10pt;color:#555;margin-top:4px}
+/* ACCESS CONTROL */
+body.exercicios-level .full-edit-only{display:none!important}
+.login-overlay{position:fixed;inset:0;background:rgba(15,25,50,.75);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(4px)}
+.login-box{background:var(--surface);border:1px solid var(--border);border-radius:16px;width:100%;max-width:380px;padding:36px 32px;box-shadow:0 8px 40px rgba(0,0,0,.35)}
+.login-logo{font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:var(--accent);margin-bottom:4px}
+.login-sub{font-size:12.5px;color:var(--text3);margin-bottom:26px}
+.login-code-inp{background:var(--surface2);border:1px solid var(--border);border-radius:9px;padding:12px 16px;font-size:17px;font-family:'DM Mono',monospace;text-align:center;letter-spacing:4px;width:100%;outline:none;transition:border .15s;box-sizing:border-box}
+.login-code-inp:focus{border-color:var(--accent)}
+.user-badge{display:inline-flex;align-items:center;gap:5px;background:rgba(45,107,228,.1);border:1px solid rgba(45,107,228,.22);border-radius:20px;padding:4px 11px;font-size:11.5px;font-weight:600;color:var(--accent);cursor:pointer;transition:background .15s;white-space:nowrap}
+.user-badge:hover{background:rgba(45,107,228,.2)}
+.user-badge.exercicios{background:rgba(6,182,212,.1);border-color:rgba(6,182,212,.22);color:var(--cyan)}
+.user-badge.visualizar{background:rgba(100,116,139,.1);border-color:rgba(100,116,139,.22);color:#64748b}
+.users-row{display:grid;grid-template-columns:1fr 90px 100px auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--border)}
 </style>
 </head>
 <body>
@@ -338,12 +351,14 @@ body.readonly .edit-only{display:none!important}
     </div>
     <!-- Linha 2: Novo Cliente + filtros + badges + Lotes + config (sempre visível) -->
     <div id="topbar-linha2" style="display:flex;align-items:center;gap:6px">
-      <button class="btn btn-primary btn-sm edit-only" onclick="openNewClientModal()" style="flex-shrink:0;white-space:nowrap">＋ Novo Cliente</button>
+      <button class="btn btn-primary btn-sm edit-only full-edit-only" onclick="openNewClientModal()" style="flex-shrink:0;white-space:nowrap">＋ Novo Cliente</button>
       <div class="filter-row" id="filter-chips" style="flex:1"></div>
       <span id="gh-status-badge" class="gh-status" style="display:none"></span>
       <span id="readonly-badge" class="readonly-badge" style="display:none">🔒 Modo Consulta</span>
       <button class="btn btn-ghost btn-sm" onclick="showView('lotes')" id="btn-lotes" style="flex-shrink:0;white-space:nowrap">📋 Lotes de Restituição</button>
       <button class="btn btn-ghost btn-sm" onclick="showRelatorio()" id="btn-relatorio" style="flex-shrink:0;white-space:nowrap">📊 Relatórios</button>
+      <span id="user-badge" class="user-badge" style="display:none" onclick="openUserOptions()"></span>
+      <button class="btn btn-ghost btn-sm" id="btn-equipe" onclick="openUserManager()" title="Gerenciar Equipe" style="display:none">👥</button>
       <button class="btn btn-ghost btn-sm" onclick="openGHConfig()" id="gh-config-btn" title="Configurar GitHub">⚙️</button>
     </div>
   </div>
@@ -388,7 +403,7 @@ body.readonly .edit-only{display:none!important}
       <span class="count-badge" id="lotes-count">—</span>
       <div style="margin-left:auto;display:flex;gap:7px">
         <button class="btn btn-ghost btn-sm no-print" onclick="imprimirLotesView()">🖨️ Imprimir</button>
-        <button class="btn btn-primary btn-sm no-print edit-only" onclick="openNovoLoteModal()">＋ Novo Lote</button>
+        <button class="btn btn-primary btn-sm no-print edit-only full-edit-only" onclick="openNovoLoteModal()">＋ Novo Lote</button>
       </div>
     </div>
     <div class="print-header" id="lotes-print-header">
@@ -753,9 +768,9 @@ body.readonly .edit-only{display:none!important}
     </div>
   </div>
   <div class="modal-foot">
-    <button class="btn btn-danger btn-sm" onclick="deleteExModal()">🗑 Remover</button>
+    <button class="btn btn-danger btn-sm edit-only" onclick="deleteExModal()">🗑 Remover</button>
     <button class="btn btn-ghost" onclick="document.getElementById('modal-ex').style.display='none'">Cancelar</button>
-    <button class="btn btn-primary" onclick="saveExModal()">Salvar</button>
+    <button class="btn btn-primary edit-only" onclick="saveExModal()">Salvar</button>
   </div>
 </div>
 </div>
@@ -870,6 +885,60 @@ body.readonly .edit-only{display:none!important}
 </div>
 </div>
 
+<!-- MODAL LOGIN -->
+<div class="login-overlay" id="modal-login" style="display:none">
+<div class="login-box">
+  <div class="login-logo">CadastroIR</div>
+  <div class="login-sub">Identifique-se para continuar</div>
+  <label style="font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:7px">Código de acesso pessoal</label>
+  <input type="password" id="login-code" class="login-code-inp" placeholder="••••••••"
+    onkeydown="if(event.key==='Enter')tryLogin()" autocomplete="off">
+  <div id="login-error" style="color:var(--red);font-size:12px;margin:8px 0 4px;min-height:16px"></div>
+  <div style="display:flex;flex-direction:column;gap:8px;margin-top:10px">
+    <button class="btn btn-primary" onclick="tryLogin()" style="width:100%;justify-content:center">🔑 Entrar</button>
+    <button class="btn btn-ghost" onclick="continueAsVisitor()" style="width:100%;justify-content:center;font-size:12px;color:var(--text3)">Continuar sem login (somente visualizar)</button>
+    <button class="btn btn-ghost btn-sm" id="btn-login-admin" onclick="loginAsAdmin()" style="display:none;width:100%;justify-content:center;color:var(--text3);font-size:11.5px;margin-top:2px">⚙️ Entrar como Administrador (token configurado)</button>
+  </div>
+</div>
+</div>
+
+<!-- MODAL GERENCIAR EQUIPE -->
+<div class="modal-overlay" id="modal-users" style="display:none" onclick="if(event.target===this)this.style.display='none'">
+<div class="modal modal-sm" style="max-width:580px">
+  <div class="modal-head">
+    <span class="modal-title">👥 Gerenciar Equipe</span>
+    <button class="close-btn" onclick="document.getElementById('modal-users').style.display='none'">✕</button>
+  </div>
+  <div class="modal-body">
+    <div style="background:rgba(45,107,228,.07);border:1px solid rgba(45,107,228,.18);border-radius:9px;padding:11px 15px;font-size:12.5px;color:var(--text2);margin-bottom:16px">
+      ℹ️ Cada membro da equipe tem um código pessoal. O nível define o que pode editar. O código é usado para identificação no histórico.
+    </div>
+    <div style="font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.6px;margin-bottom:8px">Usuários cadastrados</div>
+    <div id="users-list" style="margin-bottom:16px"></div>
+    <div style="background:var(--surface2);border:1px solid var(--border);border-radius:9px;padding:14px">
+      <div style="font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:.6px;margin-bottom:10px">Novo Usuário</div>
+      <div class="form-row" style="margin-bottom:10px">
+        <div class="form-group"><label>Nome</label>
+          <input type="text" id="new-user-nome" placeholder="Ex: Ana Silva"></div>
+        <div class="form-group"><label>Código de Acesso</label>
+          <input type="text" id="new-user-codigo" placeholder="Ex: ana2025" autocomplete="off"></div>
+      </div>
+      <div class="form-group" style="margin-bottom:10px"><label>Nível de Acesso</label>
+        <select id="new-user-nivel">
+          <option value="visualizar">👁️ Visualizar — somente consulta</option>
+          <option value="exercicios" selected>📅 Exercícios — atualizar status de declarações</option>
+          <option value="completo">✅ Completo — acesso total (igual ao Admin)</option>
+        </select>
+      </div>
+      <button class="btn btn-primary btn-sm" onclick="addUser()">＋ Adicionar Usuário</button>
+    </div>
+  </div>
+  <div class="modal-foot">
+    <button class="btn btn-ghost" onclick="document.getElementById('modal-users').style.display='none'">Fechar</button>
+  </div>
+</div>
+</div>
+
 <div class="toast" id="toast"></div>
 
 <script>
@@ -930,10 +999,13 @@ function loadGHCfg(){
   applyReadOnlyUI();
 }
 function applyReadOnlyUI(){
-  document.body.classList.toggle('readonly',isReadOnly);
+  const nivel=getNivel();
+  document.body.classList.toggle('readonly',nivel==='visualizar');
+  document.body.classList.toggle('exercicios-level',nivel==='exercicios');
   const rb=document.getElementById('readonly-badge');
-  if(rb)rb.style.display=isReadOnly?'flex':'none';
+  if(rb)rb.style.display=nivel==='visualizar'?'flex':'none';
   // ⚙️ sempre visível — necessário para configurar o token
+  updateUserBadge();
   renderGHStatusBadge();
 }
 function renderGHStatusBadge(){
@@ -955,12 +1027,14 @@ async function ghFetch(){
     if(!r.ok)return null;
     const j=await r.json();
     ghSHA=j.sha;
-    return JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))));
+    const parsed=JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))));
+    if(Array.isArray(parsed.access))accessList=parsed.access;
+    return parsed;
   }catch(e){return null;}
 }
 async function ghSave(){
   if(isReadOnly||!ghCfg?.token||!ghCfg?.owner||!ghCfg?.repo)return;
-  const data={clientes:allClients,lotes:allLotes};
+  const data={clientes:allClients,lotes:allLotes,access:accessList};
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
@@ -1006,6 +1080,11 @@ async function saveGHConfig(){
   ghCfg={owner,repo,token:token||null};
   localStorage.setItem(GH_CFG_KEY,JSON.stringify(ghCfg));
   isReadOnly=!token;
+  if(token){
+    // Token configurado = admin automático
+    currentUser='admin';
+    sessionStorage.setItem(SESSION_KEY,'admin');
+  }
   applyReadOnlyUI();
   document.getElementById('modal-gh-config').style.display='none';
   if(token){
@@ -1021,14 +1100,174 @@ async function seedIfEmpty(){
   // Dados carregados via importação JSON ou GitHub
 }
 
+// ── LOGIN / LOGOUT ────────────────────────────────────────────────────────────
+function openLoginModal(){
+  document.getElementById('login-error').textContent='';
+  document.getElementById('login-code').value='';
+  // Botão admin: só aparece se já houver token configurado
+  document.getElementById('btn-login-admin').style.display=ghCfg?.token?'block':'none';
+  document.getElementById('modal-login').style.display='flex';
+  setTimeout(()=>document.getElementById('login-code').focus(),100);
+}
+function tryLogin(){
+  const code=document.getElementById('login-code').value.trim();
+  const errEl=document.getElementById('login-error');
+  if(!code){errEl.textContent='Digite seu código de acesso.';return;}
+  const user=accessList.find(u=>u.codigo===code);
+  if(!user){errEl.textContent='Código não encontrado. Verifique com o administrador.';return;}
+  currentUser=user;
+  sessionStorage.setItem(SESSION_KEY,JSON.stringify(user));
+  document.getElementById('modal-login').style.display='none';
+  applyReadOnlyUI();
+  refreshCurrentView();
+  showToast(`✅ Bem-vindo(a), ${user.nome}!`+(user.nivel==='exercicios'?' (Nível: Exercícios)':user.nivel==='completo'?' (Nível: Completo)':''),'success');
+}
+function loginAsAdmin(){
+  currentUser='admin';
+  sessionStorage.setItem(SESSION_KEY,'admin');
+  document.getElementById('modal-login').style.display='none';
+  applyReadOnlyUI();
+  refreshCurrentView();
+  showToast('✅ Logado como Administrador','success');
+}
+function continueAsVisitor(){
+  currentUser=null;
+  sessionStorage.removeItem(SESSION_KEY);
+  document.getElementById('modal-login').style.display='none';
+  applyReadOnlyUI();
+}
+function logout(){
+  currentUser=null;
+  sessionStorage.removeItem(SESSION_KEY);
+  applyReadOnlyUI();
+  refreshCurrentView();
+  showToast('Sessão encerrada','success');
+  if(ghCfg?.owner&&accessList.length>0){
+    setTimeout(openLoginModal,400);
+  }
+}
+function openUserOptions(){
+  if(currentUser==='admin'&&!isReadOnly){
+    openUserManager();
+  }else{
+    const nome=getCurrentUserName();
+    if(confirm(`Encerrar sessão de ${nome}?`))logout();
+  }
+}
+
+// ── GERENCIAMENTO DE USUÁRIOS (admin) ─────────────────────────────────────────
+function openUserManager(){
+  if(!canEditFields()){showToast('Apenas administradores podem gerenciar usuários','error');return;}
+  renderUserList();
+  document.getElementById('new-user-nome').value='';
+  document.getElementById('new-user-codigo').value='';
+  document.getElementById('new-user-nivel').value='exercicios';
+  document.getElementById('modal-users').style.display='flex';
+}
+function renderUserList(){
+  const list=document.getElementById('users-list');
+  if(!accessList.length){
+    list.innerHTML='<div style="color:var(--text3);font-size:13px;padding:6px 0 4px">Nenhum usuário cadastrado.</div>';
+    return;
+  }
+  const nivelBadge=n=>n==='completo'?'<span class="badge badge-fila" style="font-size:10px">Completo</span>':n==='exercicios'?'<span class="badge badge-transmitida" style="font-size:10px">Exercícios</span>':'<span class="badge badge-outro" style="font-size:10px">Visualizar</span>';
+  list.innerHTML=accessList.map((u,i)=>`
+    <div class="users-row">
+      <div>
+        <div style="font-weight:600;font-size:13px">${u.nome}</div>
+        <div style="font-family:'DM Mono',monospace;font-size:10.5px;color:var(--text3)">Código: ${u.codigo}</div>
+      </div>
+      ${nivelBadge(u.nivel)}
+      <span style="font-size:10px;color:var(--text3);font-family:'DM Mono',monospace">${u.id.slice(0,10)}</span>
+      <button class="btn btn-danger btn-sm" onclick="removeUser(${i})">🗑</button>
+    </div>`).join('');
+}
+function addUser(){
+  const nome=document.getElementById('new-user-nome').value.trim();
+  const codigo=document.getElementById('new-user-codigo').value.trim();
+  const nivel=document.getElementById('new-user-nivel').value;
+  if(!nome||!codigo){showToast('Preencha nome e código','error');return;}
+  if(accessList.find(u=>u.codigo===codigo)){showToast('Já existe um usuário com este código','error');return;}
+  const id=Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+  accessList.push({id,nome,codigo,nivel});
+  document.getElementById('new-user-nome').value='';
+  document.getElementById('new-user-codigo').value='';
+  renderUserList();
+  saveAccessConfig();
+  showToast(`✅ Usuário "${nome}" adicionado`,'success');
+}
+async function removeUser(idx){
+  const u=accessList[idx];
+  if(!u)return;
+  if(!confirm(`Remover usuário "${u.nome}"?`))return;
+  accessList.splice(idx,1);
+  renderUserList();
+  await saveAccessConfig();
+  showToast('Usuário removido','success');
+}
+async function saveAccessConfig(){
+  // access é salvo junto com os dados no próximo ghSave()
+  await ghSave();
+}
+
 // ── STATE ─────────────────────────────────────────────────────────────────────
 let allClients=[], allLotes=[], filteredClients=[], currentFilter='TODOS';
 let editingId=null, detailId=null, exEditId=null, exEditYear=null, currentView='lista';
 let prevView='lista', prevDeclStatus=null; // rastreia origem ao abrir detalhe
 
+// ── ACCESS CONTROL STATE ──────────────────────────────────────────────────────
+// currentUser: null | 'admin' | {id, nome, codigo, nivel}
+let currentUser=null;
+let accessList=[]; // [{id, nome, codigo, nivel}]
+const SESSION_KEY='cadastroIR_session';
+
+function getNivel(){
+  if(!ghCfg?.owner)return'completo'; // modo local sem GitHub
+  if(currentUser==='admin')return'completo';
+  if(currentUser?.nivel)return currentUser.nivel;
+  return'visualizar';
+}
+function canEditFields(){return getNivel()==='completo';}
+function canEditExercicios(){const n=getNivel();return n==='completo'||n==='exercicios';}
+function getCurrentUserName(){
+  if(currentUser==='admin')return'Admin';
+  return currentUser?.nome||'';
+}
+function updateUserBadge(){
+  const el=document.getElementById('user-badge');
+  const btnEq=document.getElementById('btn-equipe');
+  if(!el)return;
+  if(!ghCfg?.owner){el.style.display='none';if(btnEq)btnEq.style.display='none';return;}
+  if(currentUser===null){
+    el.style.display='flex';
+    el.className='user-badge visualizar';
+    el.textContent='🔑 Entrar';
+    el.onclick=openLoginModal;
+    if(btnEq)btnEq.style.display='none';
+  }else{
+    el.style.display='flex';
+    const nivel=getNivel();
+    el.className='user-badge'+(nivel==='exercicios'?' exercicios':nivel==='visualizar'?' visualizar':'');
+    el.textContent=`👤 ${getCurrentUserName()}`;
+    el.onclick=openUserOptions;
+    if(btnEq)btnEq.style.display=(currentUser==='admin'&&!isReadOnly)?'flex':'none';
+  }
+}
+
 // ── INIT ──────────────────────────────────────────────────────────────────────
 async function init(){
   loadGHCfg();
+  // ── Restaurar sessão ──
+  const savedSession=sessionStorage.getItem(SESSION_KEY);
+  if(savedSession){
+    if(savedSession==='admin'){currentUser='admin';}
+    else{try{currentUser=JSON.parse(savedSession);}catch(e){currentUser=null;}}
+  }else if(!isReadOnly){
+    // Tem token = admin automático
+    currentUser='admin';
+    sessionStorage.setItem(SESSION_KEY,'admin');
+  }
+  applyReadOnlyUI(); // aplica estado inicial (antes de carregar dados)
   await openDB();
   // Tenta carregar do GitHub (fonte autoritativa, vista por todos)
   const ghData=await ghFetch();
@@ -1044,6 +1283,12 @@ async function init(){
     allClients=await dbAll('clientes');
     allLotes=await dbAll('lotes');
   }
+  // ── Valida sessão contra lista de acesso carregada ──
+  if(currentUser&&currentUser!=='admin'){
+    const still=accessList.find(u=>u.id===currentUser.id&&u.codigo===currentUser.codigo);
+    if(!still){currentUser=null;sessionStorage.removeItem(SESSION_KEY);}
+    else currentUser=still; // Atualiza nivel caso tenha mudado
+  }
   allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
   allLotes.sort((a,b)=>{
     const pd=s=>{const[d,m,y]=s.split('/');return new Date(y,m-1,d)};
@@ -1054,6 +1299,11 @@ async function init(){
   renderFilterChips();
   renderTable(filteredClients);
   populateYearSelects();
+  applyReadOnlyUI(); // re-aplica após carregar accessList
+  // Mostra modal de login se GitHub configurado, sem sessão e há usuários
+  if(ghCfg?.owner&&!currentUser&&accessList.length>0){
+    openLoginModal();
+  }
   // Mostra dica de configuração se GitHub ainda não foi configurado
   if(!ghCfg?.owner&&!isReadOnly){
     showToast('⚙️ Configure o GitHub para ativar o acesso em nuvem','info');
@@ -1186,7 +1436,7 @@ function renderDecl(){
           <div class="malha-doc">${c.cpfCnpj}</div>
         </div>
         <span class="badge badge-${info.cls}" style="margin-left:8px;flex-shrink:0">${exs.length} exercício${exs.length!==1?'s':''}</span>
-        ${!isReadOnly?`<button class="btn btn-ghost btn-sm edit-only" style="margin-left:8px;flex-shrink:0" onclick="event.stopPropagation();openEdit('${c.id}')">✏️ Editar</button>`:''}
+        ${canEditFields()?`<button class="btn btn-ghost btn-sm edit-only full-edit-only" style="margin-left:8px;flex-shrink:0" onclick="event.stopPropagation();openEdit('${c.id}')">✏️ Editar</button>`:''}
         <button class="btn btn-ghost btn-sm" style="margin-left:4px;flex-shrink:0;color:var(--text3);font-size:11px" onclick="event.stopPropagation();openDetail('${c.id}')" title="Ver cadastro completo">👤 Ver</button>
       </div>
       <div class="malha-exs">
@@ -1222,7 +1472,7 @@ function renderTable(list){
   tbody.innerHTML=list.map(c=>{
     const le=getLastEx(c);
     const cat=le?classifyStatus(le.status):null;
-    const qeBtn=(!isReadOnly&&le)?`<span class="badge badge-${cat.cls}" style="cursor:pointer" onclick="event.stopPropagation();openQE('${c.id}','${le.year}',event)" title="Editar status rapidamente">${cat.label}</span>`
+    const qeBtn=(canEditExercicios()&&le)?`<span class="badge badge-${cat.cls}" style="cursor:pointer" onclick="event.stopPropagation();openQE('${c.id}','${le.year}',event)" title="Editar status rapidamente">${cat.label}</span>`
       :(cat?`<span class="badge badge-${cat.cls}">${cat.label}</span>`:'<span style="color:var(--text3)">—</span>');
     return`<tr onclick="openDetail('${c.id}')">
       <td><span class="badge badge-${c.tipo.toLowerCase()}">${c.tipo}</span></td>
@@ -1231,7 +1481,7 @@ function renderTable(list){
       <td>${c.acessoEcac?`<span class="acesso-tag">${c.acessoEcac}</span>`:'<span style="color:var(--text3)">—</span>'}</td>
       <td style="font-family:'DM Mono',monospace;font-size:11.5px;color:var(--text2)">${le?le.year:'—'}</td>
       <td>${qeBtn}</td>
-      <td class="edit-only"><button class="btn btn-ghost btn-sm" onclick="event.stopPropagation();openEdit('${c.id}')">✏️</button></td>
+      <td class="edit-only full-edit-only"><button class="btn btn-ghost btn-sm" onclick="event.stopPropagation();openEdit('${c.id}')">✏️</button></td>
     </tr>`;
   }).join('');
 }
@@ -1548,9 +1798,9 @@ function renderLotes(){
         ${l.descricao?`<span style="font-size:12.5px;color:var(--text2)">${l.descricao}</span>`:''}
         <span class="lote-count">${l.pagamentos.length} cliente${l.pagamentos.length!==1?'s':''}</span>
         <span class="lote-total-badge">${fmtBRL(totalGeral)}</span>
-        <button class="btn btn-ghost btn-sm edit-only" style="margin-left:4px" onclick="event.stopPropagation();abrirEdicaoLote(${idx})">✏️ Editar</button>
+        <button class="btn btn-ghost btn-sm edit-only full-edit-only" style="margin-left:4px" onclick="event.stopPropagation();abrirEdicaoLote(${idx})">✏️ Editar</button>
         <button class="btn btn-ghost btn-sm no-print" style="margin-left:2px" onclick="event.stopPropagation();imprimirLoteUnico(${idx})" title="Imprimir este lote">🖨️</button>
-        ${l.pagamentos.length===0?`<button class="btn btn-danger btn-sm no-print edit-only" style="margin-left:2px" onclick="event.stopPropagation();excluirLote(${idx})" title="Excluir lote vazio">🗑️</button>`:''}
+        ${l.pagamentos.length===0?`<button class="btn btn-danger btn-sm no-print edit-only full-edit-only" style="margin-left:2px" onclick="event.stopPropagation();excluirLote(${idx})" title="Excluir lote vazio">🗑️</button>`:''}
         <span class="lote-chevron" id="lote-chev-${idx}">▶</span>
       </div>
       <div class="lote-body" id="lote-body-${idx}">
@@ -1733,7 +1983,16 @@ async function salvarNovoLote(){
     if(!c.recebimentos)c.recebimentos={};
     let mod=false;
     for(const [yr,valor] of Object.entries(pag.porExercicio||{})){
-      if(yr.startsWith('PERDCOMP')){
+      if(yr.startsWith('EXPERDCOMP-')){
+        // EXPERDCOMP-{ano}-{idx} → sincroniza exPerdcomps do exercício
+        const parts=yr.split('-');const exYr=parts[1];const pidx=parseInt(parts[2])||0;
+        if(!c.exPerdcomps)c.exPerdcomps={};
+        if(!Array.isArray(c.exPerdcomps[exYr]))c.exPerdcomps[exYr]=[];
+        if(!c.exPerdcomps[exYr][pidx])c.exPerdcomps[exYr][pidx]={};
+        c.exPerdcomps[exYr][pidx].valorRec=valor;
+        c.exPerdcomps[exYr][pidx].dataRec=data;
+        mod=true;
+      }else if(yr.startsWith('PERDCOMP')){
         if(!Array.isArray(c.perdcomps))c.perdcomps=getPerdcomps(c);
         const pidx=yr==='PERDCOMP'?0:(parseInt(yr.split('-')[1])||0);
         if(!c.perdcomps[pidx])c.perdcomps[pidx]={};
@@ -1817,7 +2076,18 @@ async function lcSalvar(){
     // Exercícios fiscais
     if(!c.recebimentos)c.recebimentos={};
     for(const [yr,valor] of Object.entries(porExercicio)){
-      if(yr.startsWith('PERDCOMP')){
+      if(yr.startsWith('EXPERDCOMP-')){
+        // EXPERDCOMP-{ano}-{idx} → sincroniza exPerdcomps do exercício
+        const parts=yr.split('-');const exYr=parts[1];const pidx=parseInt(parts[2])||0;
+        if(!c.exPerdcomps)c.exPerdcomps={};
+        if(!Array.isArray(c.exPerdcomps[exYr]))c.exPerdcomps[exYr]=[];
+        if(!c.exPerdcomps[exYr][pidx])c.exPerdcomps[exYr][pidx]={};
+        if(c.exPerdcomps[exYr][pidx].valorRec!==valor||c.exPerdcomps[exYr][pidx].dataRec!==dataLote){
+          c.exPerdcomps[exYr][pidx].valorRec=valor;
+          c.exPerdcomps[exYr][pidx].dataRec=dataLote;
+          clienteModificado=true;
+        }
+      }else if(yr.startsWith('PERDCOMP')){
         // Sincroniza PERDCOMP (suporta múltiplos: PERDCOMP-0, PERDCOMP-1 …)
         if(!Array.isArray(c.perdcomps))c.perdcomps=getPerdcomps(c);
         const pidx=yr==='PERDCOMP'?0:(parseInt(yr.split('-')[1])||0);
@@ -1843,6 +2113,22 @@ async function lcSalvar(){
         if(c.recebimentos[yr]?.data===dataLote){
           delete c.recebimentos[yr];
           clienteModificado=true;
+        }
+      }
+    }
+    // Remove exPerdcomps que foram apagados do lote
+    if(c.exPerdcomps){
+      for(const exYr of Object.keys(c.exPerdcomps)){
+        const arr=c.exPerdcomps[exYr];
+        if(!Array.isArray(arr))continue;
+        for(let i=0;i<arr.length;i++){
+          const key=`EXPERDCOMP-${exYr}-${i}`;
+          if(!(key in porExercicio)||porExercicio[key]===0){
+            if(arr[i]?.dataRec===dataLote){
+              arr[i].valorRec=0;arr[i].dataRec='';
+              clienteModificado=true;
+            }
+          }
         }
       }
     }
@@ -1882,8 +2168,8 @@ function openDetail(id){
         <div class="detail-doc">${c.cpfCnpj} · <span class="badge badge-${c.tipo.toLowerCase()}">${c.tipo}</span></div>
       </div>
       <div class="detail-actions">
-        ${!isReadOnly?`<button class="btn btn-ghost btn-sm edit-only" onclick="openEdit('${c.id}')">✏️ Editar</button>
-        <button class="btn btn-danger btn-sm edit-only" onclick="confirmDelete('${c.id}')">🗑</button>`:''}
+        ${canEditFields()?`<button class="btn btn-ghost btn-sm edit-only full-edit-only" onclick="openEdit('${c.id}')">✏️ Editar</button>
+        <button class="btn btn-danger btn-sm edit-only full-edit-only" onclick="confirmDelete('${c.id}')">🗑</button>`:''}
         <button class="btn btn-ghost btn-sm" onclick="goBack()">← Voltar</button>
       </div>
     </div>
@@ -1906,15 +2192,15 @@ function openDetail(id){
       <div class="info-card" style="grid-column:span 3"><div class="info-card-label">Observações</div><div class="info-card-val" style="font-size:13px;color:var(--text2)">${c.observacoes||'—'}</div></div>
     </div>
     <div class="section-hd">📅 Exercícios Fiscais
-      ${!isReadOnly?`<button class="btn btn-ghost btn-sm edit-only" onclick="openAddEx('${c.id}')">＋ Adicionar</button>`:''}
+      ${canEditExercicios()?`<button class="btn btn-ghost btn-sm edit-only" onclick="openAddEx('${c.id}')">＋ Adicionar</button>`:''}
     </div>
     <div class="ex-timeline">
       ${!exKeys.length?'<div style="color:var(--text3);font-size:13px;padding:10px">Nenhum exercício registrado.</div>':
         exKeys.map(yr=>{
           const st=c.exercicios[yr];
           const cat=classifyStatus(st);
-          const editBtn=!isReadOnly?`<button class="btn btn-ghost btn-sm edit-only" onclick="openExModal('${c.id}','${yr}')">✏️</button>`:'';
-          const qeBtn=!isReadOnly?`<button class="btn btn-primary btn-sm edit-only" onclick="event.stopPropagation();openQE('${c.id}','${yr}',event)" title="Edição rápida">⚡</button>`:'';
+          const editBtn=canEditExercicios()?`<button class="btn btn-ghost btn-sm edit-only" onclick="openExModal('${c.id}','${yr}')">✏️</button>`:'';
+          const qeBtn=canEditExercicios()?`<button class="btn btn-primary btn-sm edit-only" onclick="event.stopPropagation();openQE('${c.id}','${yr}',event)" title="Edição rápida">⚡</button>`:'';
           const rec=c.recebimentos?.[yr];
           const impugDate=c.impugnacoes?.[yr]?.data;
           const rra=c.exRRA?.[yr];
@@ -1941,7 +2227,7 @@ function openDetail(id){
         const deCat=classifyStatus(h.de);const paraCat=classifyStatus(h.para);
         const ts=new Date(h.ts).toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
         return`<div class="hist-item">
-          <span class="hist-ts">${ts}</span>
+          <span class="hist-ts">${ts}${h.usuario?` · <strong>${h.usuario}</strong>`:''}</span>
           <span class="hist-ex">Exerc. ${h.exercicio}</span>
           <div class="hist-arrow">
             <span class="badge badge-${deCat.cls}" style="font-size:10px">${h.de?deCat.label:'(novo)'}</span>
@@ -2126,6 +2412,7 @@ function collectExPerEntries(){
   return entries;
 }
 async function saveExModal(){
+  if(!canEditExercicios()){showToast('Sem permissão para editar exercícios','error');return;}
   const c=allClients.find(x=>x.id===exEditId);if(!c)return;
   const yr=exEditYear||document.getElementById('ex-year-disp').value;
   const det=document.getElementById('ex-detalhe').value.trim();
@@ -2137,13 +2424,15 @@ async function saveExModal(){
   const novo=det?`${cat} — ${det}`:cat;
   c.exercicios[yr]=novo;
   if(!c.historico)c.historico=[];
-  c.historico.unshift({ts:new Date().toISOString(),exercicio:yr,de:anterior,para:novo});
+  c.historico.unshift({ts:new Date().toISOString(),exercicio:yr,de:anterior,para:novo,usuario:getCurrentUserName()});
   // Captura recebimento anterior (antes de sobrescrever) para sincronizar lote
   const oldRec=c.recebimentos?.[yr]?{...c.recebimentos[yr]}:null;
   // Salva recebimento
   if(!c.recebimentos)c.recebimentos={};
-  if(dataRec&&(dataRec.length===10||valorRec>0)){
+  if(dataRec&&dataRec.length===10&&valorRec>0){
     c.recebimentos[yr]={data:dataRec,valor:valorRec};
+  }else if(dataRec&&dataRec.length===10){
+    c.recebimentos[yr]={data:dataRec,valor:0};
   }else{
     delete c.recebimentos[yr];
   }
@@ -2183,12 +2472,14 @@ async function saveExModal(){
   else{delete c.exGCAP[yr];}
   // Salva PERDCOMPs do exercício
   if(!c.exPerdcomps)c.exPerdcomps={};
+  // Captura estado anterior antes de sobrescrever (para sincronizar lotes)
+  const oldExPers=(c.exPerdcomps[yr]||[]).map(p=>({...p}));
   const perEntries=collectExPerEntries();
   if(perEntries.length){c.exPerdcomps[yr]=perEntries;}
   else{delete c.exPerdcomps[yr];}
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
-  // Sincroniza lote: remove da data anterior se mudou ou se valor foi zerado
+  // Sincroniza lote do recebimento principal do exercício
   const newData=dataRec&&dataRec.length===10?dataRec:null;
   const oldData=oldRec?.data||null;
   if(oldData&&(oldData!==newData||!(newData&&valorRec>0))){
@@ -2196,6 +2487,20 @@ async function saveExModal(){
   }
   if(newData&&valorRec>0){
     await autoUpdateLote(c,yr,newData,valorRec);
+  }
+  // Sincroniza PERDCOMPs por exercício com Lotes de Restituição
+  const nMax=Math.max(oldExPers.length,perEntries.length);
+  for(let i=0;i<nMax;i++){
+    const exPerKey=`EXPERDCOMP-${yr}-${i}`;
+    const oldPData=oldExPers[i]?.dataRec&&oldExPers[i].dataRec.length===10?oldExPers[i].dataRec:null;
+    const newPData=perEntries[i]?.dataRec&&perEntries[i].dataRec.length===10?perEntries[i].dataRec:null;
+    const newPVal=perEntries[i]?.valorRec||0;
+    if(oldPData&&(oldPData!==newPData||!(newPData&&newPVal>0))){
+      await removerEntradaLote(c,exPerKey,oldPData);
+    }
+    if(newPData&&newPVal>0){
+      await autoUpdateLote(c,exPerKey,newPData,newPVal);
+    }
   }
   refreshCurrentView();
   showToast('✅ Exercício atualizado','success');
@@ -2263,11 +2568,12 @@ async function excluirLote(idx){
   ghSave();
 }
 async function deleteExModal(){
+  if(!canEditExercicios()){showToast('Sem permissão para remover exercícios','error');return;}
   if(!exEditYear)return;
   const c=allClients.find(x=>x.id===exEditId);
   if(!c||!c.exercicios)return;
   if(!c.historico)c.historico=[];
-  c.historico.unshift({ts:new Date().toISOString(),exercicio:exEditYear,de:c.exercicios[exEditYear],para:'(removido)'});
+  c.historico.unshift({ts:new Date().toISOString(),exercicio:exEditYear,de:c.exercicios[exEditYear],para:'(removido)',usuario:getCurrentUserName()});
   // Remove do lote de restituição se havia recebimento
   const oldRec=c.recebimentos?.[exEditYear];
   if(oldRec?.data){
@@ -2279,6 +2585,14 @@ async function deleteExModal(){
   if(c.impugnacoes)delete c.impugnacoes[exEditYear];
   if(c.exRRA)delete c.exRRA[exEditYear];
   if(c.exGCAP)delete c.exGCAP[exEditYear];
+  // Remove PERDCOMPs do exercício dos lotes de restituição
+  const exPersParaRemover=(c.exPerdcomps&&c.exPerdcomps[exEditYear])||[];
+  for(let i=0;i<exPersParaRemover.length;i++){
+    const p=exPersParaRemover[i];
+    if(p&&p.dataRec&&p.dataRec.length===10&&p.valorRec>0){
+      await removerEntradaLote(c,`EXPERDCOMP-${exEditYear}-${i}`,p.dataRec);
+    }
+  }
   if(c.exPerdcomps)delete c.exPerdcomps[exEditYear];
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
@@ -2391,6 +2705,7 @@ function addExRow(){
   document.getElementById('ex-grid').prepend(div);
 }
 async function saveClient(){
+  if(!canEditFields()){showToast('Sem permissão para editar cadastros de clientes','error');return;}
   const tipo=document.getElementById('f-tipo').value;
   const doc=document.getElementById('f-doc').value.trim();
   const nome=document.getElementById('f-nome').value.trim();
@@ -2426,7 +2741,7 @@ async function saveClient(){
     diagnostico:doencaGrave?document.getElementById('f-diagnostico').value.trim():'',
     observacoes:document.getElementById('f-obs').value.trim(),
     // Campos derivados / preservados
-    temPer:clientHasPer({perdcomps:existing?.perdcomps||[],exPerdcomps:existing?.exPerdcomps||{}}),
+    temPer:existing?clientHasPer(existing):false,
     temRRA:existing?.temRRA||false,
     exercicios:existing?.exercicios||{},
     historico:existing?.historico||[],
@@ -2450,6 +2765,7 @@ async function saveClient(){
   ghSave();
 }
 async function confirmDelete(id){
+  if(!canEditFields()){showToast('Sem permissão para excluir clientes','error');return;}
   if(!confirm('Excluir este cliente permanentemente?'))return;
   allClients=allClients.filter(x=>x.id!==id);
   detailId=null;
@@ -2573,7 +2889,7 @@ function renderSidebarStats(){
 
 // ── IMPORT/EXPORT ─────────────────────────────────────────────────────────────
 function exportJSON(){
-  const data={clientes:allClients,lotes:allLotes};
+  const data={clientes:allClients,lotes:allLotes,access:accessList};
   const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
   const a=document.createElement('a');
   a.href=URL.createObjectURL(blob);
@@ -2588,6 +2904,7 @@ async function importJSON(e){
       const data=JSON.parse(ev.target.result);
       const cli=data.clientes||data;
       const lot=data.lotes||[];
+      if(Array.isArray(data.access))accessList=data.access;
       if(!Array.isArray(cli))throw new Error('Formato inválido');
       for(const c of cli)await dbPut('clientes',c);
       for(const l of lot)await dbPut('lotes',l);
@@ -2611,7 +2928,7 @@ async function importJSON(e){
 // ── QUICK EDIT ────────────────────────────────────────────────────────────────
 let qeClientId=null, qeYear=null;
 function openQE(clientId, year, evt){
-  if(isReadOnly)return;
+  if(!canEditExercicios())return;
   qeClientId=clientId; qeYear=year;
   const c=allClients.find(x=>x.id===clientId);
   if(!c)return;
@@ -2648,6 +2965,7 @@ function openQE(clientId, year, evt){
 }
 function closeQE(){document.getElementById('qe-pop').style.display='none';qeClientId=null;qeYear=null;}
 async function saveQE(){
+  if(!canEditExercicios()){showToast('Sem permissão para editar exercícios','error');closeQE();return;}
   if(!qeClientId||!qeYear)return;
   const c=allClients.find(x=>x.id===qeClientId);if(!c)return;
   const cat=document.getElementById('qe-cat').value;
@@ -2657,7 +2975,7 @@ async function saveQE(){
   const novo=det?`${cat} — ${det}`:cat;
   c.exercicios[qeYear]=novo;
   if(!c.historico)c.historico=[];
-  c.historico.unshift({ts:new Date().toISOString(),exercicio:qeYear,de:anterior,para:novo});
+  c.historico.unshift({ts:new Date().toISOString(),exercicio:qeYear,de:anterior,para:novo,usuario:getCurrentUserName()});
   closeQE();
   // só mantém o detalhe aberto se o usuário já estava nessa view
   if(currentView==='detalhe') detailId=c.id;
