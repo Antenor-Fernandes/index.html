@@ -18921,9 +18921,29 @@
       "observacoes": "PER 2024 FEITO EM 24/09/2025 - PER 2025 FEITO EM 04/02/2026 - AVISAR A FILHA DA CLIENTE, JULIANA, TUDO O QUE FOR FEITO NA RECEITA.",
       "exercicios": {
         "2024": "3.388,47 EM 31/10/2025",
-        "2025": "MALHA DG - DDA 2025 FEITO EM 04/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA 2025 FEITO EM 04/02/2026"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:15:01.040Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA 2025 FEITO EM 04/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA 2025 FEITO EM 04/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "04/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "37113429653",
