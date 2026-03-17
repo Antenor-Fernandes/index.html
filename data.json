@@ -11506,9 +11506,32 @@
       "cpfCnpj": "176.788.976-34",
       "tipo": "PF",
       "nome": "HELENA FREIRE CANGUSSU",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "PER 2021 A 2024 FEITOS EM 28/08/2025",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "PER 2021 A 2024 FEITOS EM 28/08/2025 - VAI FAZER A DECLARAÇÃO DE 2026 E DEPOIS VAMOS RETIFICAR PARA INFORMAR A ISENÇÃO",
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2021": "IMPUGNAÇÃO — 3.878,20 EM 28/11/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
         "2022": "IMPUGNAÇÃO — 3.487,94 EM 28/11/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
@@ -11516,8 +11539,6 @@
         "2024": "IMPUGNAÇÃO — 1.288,88 EM 28/11/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-17T13:20:07.272Z",
@@ -11589,6 +11610,7 @@
           "data": "17/12/2025"
         }
       },
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {}
