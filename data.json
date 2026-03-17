@@ -16450,6 +16450,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-17T18:46:50.559Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — R$ 41.973,17 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "para": "PROCESSADA — R$ 41.973,17 31/08/2022 - RECEBEU PER EM 21/11/2022",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:46:37.209Z",
           "exercicio": "2022",
           "de": "PROCESSADA — 44.386,56 29/12/2022",
@@ -16522,6 +16529,10 @@
       ],
       "doencaGrave": true,
       "recebimentos": {
+        "2021": {
+          "data": "21/11/2022",
+          "valor": 41973.17
+        },
         "2022": {
           "data": "29/12/2022",
           "valor": 44386.56
@@ -36787,6 +36798,21 @@
           "porExercicio": {
             "2022": 3930.12
           }
+        }
+      ]
+    },
+    {
+      "data": "21/11/2022",
+      "descricao": "Lote 21/11/2022",
+      "pagamentos": [
+        {
+          "clienteId": "01157060625",
+          "cpfCnpj": "011.570.606-25",
+          "nome": "JUAREZ LEAL",
+          "porExercicio": {
+            "2021": 41973.17
+          },
+          "total": 41973.17
         }
       ]
     },
