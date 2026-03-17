@@ -12325,12 +12325,19 @@
         "2021": "MALHA DÉBITO - DDA FEITO EM 01/08/2025 - RESTITUIÇÃO DE 1294,95 UTILIZADA PARA COMPENSAR DÉBITOS",
         "2022": "1.269,33 EM 28/11/2025",
         "2023": "4.448,93 EM 28/11/2025",
-        "2024": "6.612,48 EM 24/11/2025",
+        "2024": "PROCESSADA — 6.612,48 EM 24/11/2025",
         "2025": "PROCESSADA — 6.830,40 EM 28/11/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T14:11:07.975Z",
+          "exercicio": "2024",
+          "de": "6.612,48 EM 24/11/2025",
+          "para": "PROCESSADA — 6.612,48 EM 24/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T14:10:57.623Z",
           "exercicio": "2025",
@@ -12340,6 +12347,10 @@
         }
       ],
       "recebimentos": {
+        "2024": {
+          "data": "24/11/2025",
+          "valor": 6612.48
+        },
         "2025": {
           "data": "28/11/2025",
           "valor": 6830.4
@@ -23936,6 +23947,21 @@
           "porExercicio": {
             "2022": 83372.38
           }
+        }
+      ]
+    },
+    {
+      "data": "24/11/2025",
+      "descricao": "Lote 24/11/2025",
+      "pagamentos": [
+        {
+          "clienteId": "49326112691",
+          "cpfCnpj": "493.261.126-91",
+          "nome": "ILZA VIEIRA DOS SANTOS",
+          "porExercicio": {
+            "2024": 6612.48
+          },
+          "total": 6612.48
         }
       ]
     },
