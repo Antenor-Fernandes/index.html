@@ -20302,7 +20302,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "99.113,10 EM 30/09/2025",
+        "2020": "PROCESSADA — 99.113,10 EM 30/09/2025",
         "2021": "PROCESSADA — 97.843,86 EM 30/09/2025",
         "2022": "PROCESSADA — 89.517,91 EM 30/09/2025",
         "2023": "PROCESSADA — 89.375,72 EM 30/09/2025",
@@ -20312,6 +20312,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:38:27.025Z",
+          "exercicio": "2020",
+          "de": "99.113,10 EM 30/09/2025",
+          "para": "PROCESSADA — 99.113,10 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:38:12.683Z",
           "exercicio": "2021",
@@ -20349,6 +20356,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/09/2025",
+          "valor": 99113.1
+        },
         "2021": {
           "data": "30/09/2025",
           "valor": 97843.86
