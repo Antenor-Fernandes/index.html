@@ -18292,9 +18292,29 @@
         "2022": "9.121,59 EM 30/11/2022",
         "2023": "4.625,22 EM 29/09/2023",
         "2024": "PROCESSADA",
-        "2025": "MALHA DESPESAS MÉDICAS - DDA FEITO EM 19/02/2026"
+        "2025": "EM MALHA — MALHA DESPESAS MÉDICAS - DDA FEITO EM 19/02/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:06:08.011Z",
+          "exercicio": "2025",
+          "de": "MALHA DESPESAS MÉDICAS - DDA FEITO EM 19/02/2026",
+          "para": "EM MALHA — MALHA DESPESAS MÉDICAS - DDA FEITO EM 19/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "19/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "00873713672",
