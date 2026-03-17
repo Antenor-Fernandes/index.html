@@ -12023,7 +12023,7 @@
       "observacoes": "pedidos de revisão de débitos inscritos em dívida ativa das declarações de 2020, 2021 e 2022 feitos em 27/10/2025 - PER 2021 A 2025 FEITOS EM 28/01/2026 (SÓ UMA COTA DE CADA - EXERCÍCIO) - acompanhar ordem bancária em relação a declaração de 2020 processo numero  10680.610511/2022-08",
       "exercicios": {
         "2020": "TRABALHO MANUAL RFB — PEDIDO PROCEDENTE - CANCELAMENTO DO DÉBITO E IMPOSTO A RESTITUIR - EM TRATAMENTO MANUAL",
-        "2021": "EM MALHA — 8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+        "2021": "IMPUGNAÇÃO — 8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2022": "IMPUGNAÇÃO — 9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2023": "IMPUGNAÇÃO — 6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2024": "IMPUGNAÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
@@ -12032,6 +12032,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T14:01:26.880Z",
+          "exercicio": "2021",
+          "de": "EM MALHA — 8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "para": "IMPUGNAÇÃO — 8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T14:00:45.284Z",
           "exercicio": "2023",
@@ -12105,6 +12112,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "27/02/2026",
+          "valor": 8380.01
+        },
         "2022": {
           "data": "27/02/2026",
           "valor": 9079.76
@@ -12114,13 +12125,11 @@
           "valor": 6909.2
         }
       },
-      "dda": {
-        "2021": {
-          "feito": true,
-          "data": ""
-        }
-      },
+      "dda": {},
       "impugnacoes": {
+        "2021": {
+          "data": "06/03/2026"
+        },
         "2022": {
           "data": "06/03/2026"
         },
