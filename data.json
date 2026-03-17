@@ -14140,7 +14140,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2015": "R$ 2.117,75 EM 16/03/2020",
+        "2015": "PROCESSADA — R$ 2.117,75 EM 16/03/2020",
         "2016": "PROCESSADA — R$ 2.331,88 - 31/07/2020",
         "2017": "EM PROCESSAMENTO — R$ 3.033,65 - 31/07/2020",
         "2018": "PROCESSADA — R$ 3.471,25 - 31/07/2020",
@@ -14155,6 +14155,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:17:25.551Z",
+          "exercicio": "2015",
+          "de": "R$ 2.117,75 EM 16/03/2020",
+          "para": "PROCESSADA — R$ 2.117,75 EM 16/03/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:17:13.647Z",
           "exercicio": "2016",
@@ -14227,6 +14234,10 @@
         }
       ],
       "recebimentos": {
+        "2015": {
+          "data": "16/03/2020",
+          "valor": 2117.75
+        },
         "2016": {
           "data": "31/07/2020",
           "valor": 2331.88
@@ -39854,6 +39865,15 @@
             "2019": 1192.16
           },
           "total": 1192.16
+        },
+        {
+          "clienteId": "38556618634",
+          "cpfCnpj": "385.566.186-34",
+          "nome": "JOÃO LÚCIO MOREIRA DA COSTA",
+          "porExercicio": {
+            "2015": 2117.75
+          },
+          "total": 2117.75
         }
       ]
     },
