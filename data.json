@@ -15477,12 +15477,19 @@
       "observacoes": "(2022 - PROCESSO DE RESGATE DE PREV PRIVADA. DDA FEITO EM 31/03/2022)",
       "exercicios": {
         "2020": "R$ 70.898,72 - 31/07/2020",
-        "2021": "98.700,93 - 29/12/2022",
+        "2021": "PROCESSADA — 98.700,93 - 29/12/2022",
         "2022": "IMPUGNAÇÃO — 6.471,59 31/05/2022 - PEDIDO DE IR DO VGBL VIA PROCESSO FEITO EM 26/11/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:34:34.365Z",
+          "exercicio": "2021",
+          "de": "98.700,93 - 29/12/2022",
+          "para": "PROCESSADA — 98.700,93 - 29/12/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:34:15.290Z",
           "exercicio": "2022",
@@ -15499,6 +15506,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "29/12/2022",
+          "valor": 98700.93
+        },
         "2022": {
           "data": "31/05/2022",
           "valor": 6471.59
