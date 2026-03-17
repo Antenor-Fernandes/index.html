@@ -18155,11 +18155,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "JUNTAMOS COMPROVANTE DE PGTO DE PREV PRIV AO DDA ABERTO PELO CLIENTE",
+        "2023": "EM MALHA — JUNTAMOS COMPROVANTE DE PGTO DE PREV PRIV AO DDA ABERTO PELO CLIENTE",
         "2024": "EM MALHA — MALHA DESP. MÉD. TIT. E DEP., PREV PRIV DEP. - DDA FEITO EM 17/02/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T19:05:14.274Z",
+          "exercicio": "2023",
+          "de": "JUNTAMOS COMPROVANTE DE PGTO DE PREV PRIV AO DDA ABERTO PELO CLIENTE",
+          "para": "EM MALHA — JUNTAMOS COMPROVANTE DE PGTO DE PREV PRIV AO DDA ABERTO PELO CLIENTE",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:04:54.763Z",
           "exercicio": "2024",
@@ -18170,6 +18177,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": ""
+        },
         "2024": {
           "feito": true,
           "data": "17/02/2025"
