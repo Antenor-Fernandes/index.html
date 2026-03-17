@@ -463,6 +463,12 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T09:48:43.045Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 45.914,54 EM 28/11/2025",
+          "para": "PROCESSADA — 45.914,54 EM 28/11/2025"
+        },
+        {
           "ts": "2026-03-16T16:22:50.137Z",
           "exercicio": "2021",
           "de": "59.156,68 EM 28/11/2025",
@@ -519,7 +525,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "37502.77218.061125.2.2.04-2673",
+            "valorPedido": 0,
+            "dataTransmissao": "06/11/2025",
+            "obs": "",
+            "dataRec": "20/02/2026",
+            "valorRec": 3450.07
+          }
+        ]
+      }
     },
     {
       "id": "30515106704",
@@ -21831,6 +21848,11 @@
     }
   ],
   "lotes": [
+    {
+      "data": "28/11/2026",
+      "descricao": "Lote 28/11/2026",
+      "pagamentos": []
+    },
     {
       "data": "31/03/2026",
       "descricao": "",
