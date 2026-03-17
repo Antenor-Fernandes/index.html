@@ -354,6 +354,7 @@ body.exercicios-level .full-edit-only{display:none!important}
       <button class="btn btn-primary btn-sm edit-only full-edit-only" onclick="openNewClientModal()" style="flex-shrink:0;white-space:nowrap">＋ Novo Cliente</button>
       <div class="filter-row" id="filter-chips" style="flex:1"></div>
       <span id="gh-status-badge" class="gh-status" style="display:none"></span>
+      <span id="save-indicator" style="display:none;font-size:11.5px;padding:2px 8px;border-radius:10px;font-weight:500"></span>
       <span id="readonly-badge" class="readonly-badge" style="display:none">🔒 Modo Consulta</span>
       <button class="btn btn-ghost btn-sm" onclick="showView('lotes')" id="btn-lotes" style="flex-shrink:0;white-space:nowrap">📋 Lotes de Restituição</button>
       <button class="btn btn-ghost btn-sm" onclick="showRelatorio()" id="btn-relatorio" style="flex-shrink:0;white-space:nowrap">📊 Relatórios</button>
@@ -1036,7 +1037,9 @@ async function ghFetch(){
   if(!ghCfg?.owner||!ghCfg?.repo)return null;
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
   const headers={'Accept':'application/vnd.github.v3+json'};
-  if(ghCfg.token)headers['Authorization']=`token ${ghCfg.token}`;
+  // Usa qualquer token disponível para autenticar (evita rate limit e cache CDN do raw)
+  const fetchToken=ghCfg?.token||ghCfg?.writeToken||null;
+  if(fetchToken)headers['Authorization']=`token ${fetchToken}`;
   try{
     const r=await fetch(url,{headers,cache:'no-store'});
     if(!r.ok){
@@ -1045,11 +1048,9 @@ async function ghFetch(){
     }
     const j=await r.json();
     ghSHA=j.sha;
-    // Persiste SHA no localStorage para uso offline
     try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}
     const parsed=JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,'')))));
     if(Array.isArray(parsed.access))accessList=parsed.access;
-    // Armazena token de escrita compartilhado para colaboradores
     return parsed;
   }catch(e){return await ghFetchRaw();}
 }
@@ -1073,10 +1074,39 @@ function getWriteToken(){
   // Admin usa ghCfg.token; colaboradores usam ghCfg.writeToken (configurado localmente no ⚙️)
   return ghCfg?.token || ghCfg?.writeToken || null;
 }
+let _saveIndicatorTimer=null;
+function setSaveIndicator(state,msg){
+  const el=document.getElementById('save-indicator');
+  if(!el)return;
+  if(_saveIndicatorTimer){clearTimeout(_saveIndicatorTimer);_saveIndicatorTimer=null;}
+  if(state==='saving'){
+    el.style.display='inline-block';
+    el.style.background='rgba(180,140,0,0.15)';
+    el.style.color='var(--yellow,#c8a000)';
+    el.textContent='💾 Salvando…';
+  }else if(state==='ok'){
+    el.style.display='inline-block';
+    el.style.background='rgba(40,167,69,0.13)';
+    el.style.color='var(--green,#28a745)';
+    el.textContent='✅ Salvo';
+    _saveIndicatorTimer=setTimeout(()=>{el.style.display='none';},4000);
+  }else if(state==='error'){
+    el.style.display='inline-block';
+    el.style.background='rgba(220,53,69,0.13)';
+    el.style.color='var(--red,#dc3545)';
+    el.textContent='❌ '+msg;
+  }else{
+    el.style.display='none';
+  }
+}
 async function ghSave(){
   const wToken=getWriteToken();
-  if(!wToken||!ghCfg?.owner||!ghCfg?.repo)return false;
-  if(getNivel()==='visualizar')return false; // Nível visualizar nunca salva
+  if(!wToken||!ghCfg?.owner||!ghCfg?.repo){
+    setSaveIndicator('error','Token não configurado — abra ⚙️ e preencha o token');
+    return false;
+  }
+  if(getNivel()==='visualizar')return false;
+  setSaveIndicator('saving');
   const data={clientes:allClients,lotes:allLotes,access:accessList};
   const text=JSON.stringify(data,null,2);
   const content=btoa(unescape(encodeURIComponent(text)));
@@ -1087,20 +1117,47 @@ async function ghSave(){
     const r=await fetch(url,{method:'PUT',
       headers:{'Authorization':`token ${wToken}`,'Content-Type':'application/json'},
       body:JSON.stringify(body)});
-    if(r.ok){const j=await r.json();ghSHA=j.content.sha;try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}return true;}
-    else{
+    if(r.ok){
+      const j=await r.json();
+      ghSHA=j.content.sha;
+      try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}
+      setSaveIndicator('ok');
+      return true;
+    }else{
       let errMsg=`HTTP ${r.status}`;
       try{const ej=await r.json();errMsg=ej.message||errMsg;}catch(e2){}
+      setSaveIndicator('error',errMsg);
       showToast(`⚠️ GitHub: ${errMsg}`,'error');
       if(r.status===409||r.status===422){
+        // SHA conflitante — atualiza SHA e tenta novamente automaticamente
         try{
           const rf=await fetch(url,{headers:{'Authorization':`token ${wToken}`,'Accept':'application/vnd.github.v3+json'},cache:'no-store'});
-          if(rf.ok){const rj=await rf.json();ghSHA=rj.sha;try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}}
+          if(rf.ok){
+            const rj=await rf.json();
+            ghSHA=rj.sha;
+            try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}
+            // Retry com SHA atualizado
+            body.sha=ghSHA;
+            const r2=await fetch(url,{method:'PUT',
+              headers:{'Authorization':`token ${wToken}`,'Content-Type':'application/json'},
+              body:JSON.stringify(body)});
+            if(r2.ok){
+              const j2=await r2.json();
+              ghSHA=j2.content.sha;
+              try{localStorage.setItem('cadastroIR_ghSHA',ghSHA);}catch(e){}
+              setSaveIndicator('ok');
+              return true;
+            }
+          }
         }catch(e3){}
       }
       return false;
     }
-  }catch(e){showToast('⚠️ Sem conexão — dados salvos localmente','error');return false;}
+  }catch(e){
+    setSaveIndicator('error','Sem conexão');
+    showToast('⚠️ Sem conexão — dados salvos localmente','error');
+    return false;
+  }
 }
 // Config modal controls
 function openGHConfig(){
