@@ -38578,6 +38578,13 @@
       ]
     }
   ],
-  "access": [],
+  "access": [
+    {
+      "id": "mmuthjcgvhd7ms",
+      "nome": "teste",
+      "codigo": "teste",
+      "nivel": "visualizar"
+    }
+  ],
   "appToken": "QU9ENHczSjlvc3NVV0dNMmpGRFlZY0RkWkJZY05ac0lOb0hpX3BoZw=="
 }
