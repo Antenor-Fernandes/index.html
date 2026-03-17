@@ -14714,7 +14714,7 @@
         "2017": "R$7,42 31/01/2022 - FIZEMOS PERWEB EM 17/12/2021",
         "2018": "RETIFICAMOS PARA NÃO PRESCREVER - FALTA LAUDO",
         "2020": "7,05 EM 31/03/21",
-        "2021": "196,87 EM 31/03/2023",
+        "2021": "PROCESSADA — 196,87 EM 31/03/2023",
         "2022": "PROCESSADA — 309,76 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 25/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 22/01/2025",
@@ -14723,6 +14723,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:25:26.895Z",
+          "exercicio": "2021",
+          "de": "196,87 EM 31/03/2023",
+          "para": "PROCESSADA — 196,87 EM 31/03/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:25:12.907Z",
           "exercicio": "2022",
@@ -14753,6 +14760,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/03/2023",
+          "valor": 196.87
+        },
         "2022": {
           "data": "31/03/2023",
           "valor": 309.76
