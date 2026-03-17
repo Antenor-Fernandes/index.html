@@ -13994,7 +13994,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "513,22 EM 31/05/2023",
+        "2022": "EM MALHA — 513,22 EM 31/05/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 25/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
@@ -14002,6 +14002,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:14:25.606Z",
+          "exercicio": "2022",
+          "de": "513,22 EM 31/05/2023",
+          "para": "EM MALHA — 513,22 EM 31/05/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:14:11.063Z",
           "exercicio": "2023",
@@ -14024,7 +14031,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/05/2023",
+          "valor": 513.22
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
@@ -33524,8 +33536,9 @@
           "id": "63251337653",
           "cpfCnpj": "632.513.376-53",
           "nome": "JOÃO GARCIA DE SOUZA",
-          "total": 513.22,
+          "total": 1026.44,
           "porExercicio": {
+            "2022": 513.22,
             "2023": 513.22
           }
         },
