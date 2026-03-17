@@ -13060,6 +13060,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-17T17:58:01.020Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
+          "para": "EM MALHA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 20/01/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T17:57:50.930Z",
           "exercicio": "2025",
           "de": "EM MALHA — MALHA DG - DDA FEITO EM 02/02/2026",
@@ -13085,7 +13092,7 @@
       "dda": {
         "2024": {
           "feito": true,
-          "data": "02/02/2026"
+          "data": "20/01/2025"
         },
         "2025": {
           "feito": true,
