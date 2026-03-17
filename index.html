@@ -1054,7 +1054,20 @@ async function ghSave(){
       headers:{'Authorization':`token ${ghCfg.token}`,'Content-Type':'application/json'},
       body:JSON.stringify(body)});
     if(r.ok){const j=await r.json();ghSHA=j.content.sha;return true;}
-    else{showToast('⚠️ Erro ao salvar no GitHub','error');return false;}
+    else{
+      let errMsg=`HTTP ${r.status}`;
+      try{const ej=await r.json();errMsg=ej.message||errMsg;}catch(e2){}
+      showToast(`⚠️ GitHub: ${errMsg}`,'error');
+      // SHA inválido (409/422): tenta recarregar SHA e salvar novamente
+      if(r.status===409||r.status===422){
+        try{
+          const rf=await fetch(`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`,
+            {headers:{'Authorization':`token ${ghCfg.token}`,'Accept':'application/vnd.github.v3+json'},cache:'no-store'});
+          if(rf.ok){const rj=await rf.json();ghSHA=rj.sha;}
+        }catch(e3){}
+      }
+      return false;
+    }
   }catch(e){showToast('⚠️ Sem conexão — dados salvos localmente','error');return false;}
 }
 // Config modal controls
@@ -1110,13 +1123,28 @@ async function seedIfEmpty(){
 }
 
 // ── LOGIN / LOGOUT ────────────────────────────────────────────────────────────
-function openLoginModal(){
+async function openLoginModal(){
   document.getElementById('login-error').textContent='';
   document.getElementById('login-code').value='';
-  // Botão admin: só aparece se já houver token configurado
   document.getElementById('btn-login-admin').style.display=ghCfg?.token?'block':'none';
   document.getElementById('modal-login').style.display='flex';
   setTimeout(()=>document.getElementById('login-code').focus(),100);
+  // Sempre busca a lista de acesso mais recente do GitHub
+  try{
+    const fresh=await ghFetch();
+    // Se GitHub não tem access, tenta localStorage como fallback
+    if(!fresh||!Array.isArray(fresh.access)||fresh.access.length===0){
+      try{
+        const lb=JSON.parse(localStorage.getItem('cadastroIR_accessList')||'[]');
+        if(Array.isArray(lb)&&lb.length>0)accessList=lb;
+      }catch(e){}
+    }
+  }catch(e){
+    try{
+      const lb=JSON.parse(localStorage.getItem('cadastroIR_accessList')||'[]');
+      if(Array.isArray(lb)&&lb.length>0)accessList=lb;
+    }catch(e2){}
+  }
 }
 function tryLogin(){
   const code=document.getElementById('login-code').value.trim();
@@ -1144,16 +1172,23 @@ function tryLogin(){
 }
 async function recarregarLogin(){
   const errEl=document.getElementById('login-error');
+  errEl.style.color='';
   errEl.textContent='🔄 Recarregando…';
   const data=await ghFetch();
-  if(data){
-    errEl.style.color='var(--green)';
-    errEl.textContent=`✅ ${accessList.length} usuário(s) carregado(s). Tente novamente.`;
-  }else{
+  let lbCount=0;
+  try{const lb=JSON.parse(localStorage.getItem('cadastroIR_accessList')||'[]');lbCount=Array.isArray(lb)?lb.length:0;}catch(e){}
+  if(!data){
     errEl.style.color='var(--red)';
-    errEl.textContent='❌ Não foi possível carregar. Verifique a conexão.';
+    errEl.textContent=`❌ GitHub inacessível. Backup local: ${lbCount} usuário(s).`;
+  }else{
+    const ghCount=Array.isArray(data.access)?data.access.length:0;
+    if(ghCount===0&&lbCount>0){
+      try{const lb=JSON.parse(localStorage.getItem('cadastroIR_accessList')||'[]');if(Array.isArray(lb)&&lb.length>0)accessList=lb;}catch(e){}
+    }
+    errEl.style.color='var(--green)';
+    errEl.textContent=`GitHub: ${ghCount} usuário(s) | Backup local: ${lbCount} usuário(s) | Em memória: ${accessList.length}`;
   }
-  setTimeout(()=>{errEl.style.color='';errEl.textContent='';},3000);
+  setTimeout(()=>{errEl.style.color='';errEl.textContent='';},6000);
 }
 function loginAsAdmin(){
   currentUser='admin';
