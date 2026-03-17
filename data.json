@@ -17395,12 +17395,18 @@
       "observacoes": "TEM PER 2022 FEITO EM 01/11/2023 E RECEBIDO EM 20/02/2025",
       "exercicios": {
         "2022": "MALHA DG - DDA FEITO EM 01/11/2024 - IMPUGNAÇÃO FEITA EM 19/11/2024 - PROCEDENTE - PAGOU HONORÁRIOS",
-        "2023": "MALHA DG - DDA FEITO EM 26/01/2024 - IMPUGNAÇÃO FEITA EM 19/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025 - RECEBEU 2.447,97 EM 30/04/2025 - IMPUGNAÇÃO PROCEDENTE CANCELAMENTO DE DÉBITO DE 13.038,19 - FALTA ACERTAR HONORÁRIOS",
-        "2024": "ISENTA NA FONTE"
+        "2023": "MALHA DG - DDA FEITO EM 26/01/2024 - IMPUGNAÇÃO FEITA EM 19/11/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 11/02/2025 - RECEBEU 2.447,97 EM 30/04/2025 - IMPUGNAÇÃO PROCEDENTE CANCELAMENTO DE DÉBITO DE 13.038,19 - FALTA ACERTAR HONORÁRIOS"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:54:00.208Z",
+          "exercicio": "2024",
+          "de": "ISENTA NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:53:55.456Z",
           "exercicio": "2025",
