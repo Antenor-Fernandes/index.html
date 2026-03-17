@@ -20143,13 +20143,20 @@
         "2020": "MALHA DG - DDA FEITO EM 28/11/2024 - 29.043,35 EM 31/01/2025",
         "2021": "MALHA DG - DDA FEITO EM 28/11/2024 - 36.977,29 EM 31/01/2025",
         "2022": "MALHA DG - DDA FEITO EM 28/11/2024 - 34.625,22 EM 31/01/2025",
-        "2023": "MALHA DG - DDA FEITO EM 28/11/2024 - 36.852,32 EM 31/01/2025",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 36.852,32 EM 31/01/2025",
         "2024": "PROCESSADA — MALHA DG - 36.290,13 EM 31/01/2025",
         "2025": "PROCESSADA — 34.832,58 EM 31/07/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:36:14.730Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 28/11/2024 - 36.852,32 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 36.852,32 EM 31/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:35:54.411Z",
           "exercicio": "2024",
@@ -20166,6 +20173,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "28/11/2024",
+          "valor": 36852.32
+        },
         "2024": {
           "data": "31/01/2025",
           "valor": 36290.13
@@ -31197,6 +31208,21 @@
           "porExercicio": {
             "2023": 89814.77
           }
+        }
+      ]
+    },
+    {
+      "data": "28/11/2024",
+      "descricao": "Lote 28/11/2024",
+      "pagamentos": [
+        {
+          "clienteId": "01386263672",
+          "cpfCnpj": "013.862.636-72",
+          "nome": "MARIA ALICE MORAIS SOARES DE LIMA",
+          "porExercicio": {
+            "2023": 36852.32
+          },
+          "total": 36852.32
         }
       ]
     },
