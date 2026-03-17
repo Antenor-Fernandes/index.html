@@ -11536,7 +11536,7 @@
         "2019": "9.937,47 EM 28/03/2024",
         "2020": "8.667,74 EM 28/03/2024",
         "2021": "5.743,56 EM 28/03/2024",
-        "2022": "815,57 EM 28/03/2024",
+        "2022": "PROCESSADA — 815,57 EM 28/03/2024",
         "2023": "PROCESSADA — 1.322,46 EM 28/03/2024",
         "2024": "PROCESSADA — MALHA DG - RESTITUIÇÃO USADA PARA COMPENSAR DÉBITOS  EM 15/07/2024 - 2.488,24",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 28/01/2026"
@@ -11544,6 +11544,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:21:23.756Z",
+          "exercicio": "2022",
+          "de": "815,57 EM 28/03/2024",
+          "para": "PROCESSADA — 815,57 EM 28/03/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:21:11.324Z",
           "exercicio": "2023",
@@ -11567,6 +11574,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "28/03/2024",
+          "valor": 815.57
+        },
         "2023": {
           "data": "28/03/2024",
           "valor": 1322.46
