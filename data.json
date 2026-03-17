@@ -18289,13 +18289,20 @@
       "observacoes": "",
       "exercicios": {
         "2021": "5.486,25 EM 31/03/2023",
-        "2022": "9.121,59 EM 30/11/2022",
+        "2022": "PROCESSADA — 9.121,59 EM 30/11/2022",
         "2023": "PROCESSADA — 4.625,22 EM 29/09/2023",
         "2024": "PROCESSADA",
         "2025": "EM MALHA — MALHA DESPESAS MÉDICAS - DDA FEITO EM 19/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-17T19:06:37.615Z",
+          "exercicio": "2022",
+          "de": "9.121,59 EM 30/11/2022",
+          "para": "PROCESSADA — 9.121,59 EM 30/11/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:06:24.074Z",
           "exercicio": "2023",
@@ -18312,6 +18319,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/11/2022",
+          "valor": 9121.59
+        },
         "2023": {
           "data": "29/09/2023",
           "valor": 4625.22
