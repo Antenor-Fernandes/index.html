@@ -12322,7 +12322,7 @@
       "senhaGov": "",
       "observacoes": "MALHA DÉBITO",
       "exercicios": {
-        "2021": "MALHA DÉBITO - DDA FEITO EM 01/08/2025 - RESTITUIÇÃO DE 1294,95 UTILIZADA PARA COMPENSAR DÉBITOS",
+        "2021": "PROCESSADA — MALHA DÉBITO - DDA FEITO EM 01/08/2025 - RESTITUIÇÃO DE 1294,95 UTILIZADA PARA COMPENSAR DÉBITOS",
         "2022": "PROCESSADA — 1.269,33 EM 28/11/2025",
         "2023": "PROCESSADA — 4.448,93 EM 28/11/2025",
         "2024": "PROCESSADA — 6.612,48 EM 24/11/2025",
@@ -12331,6 +12331,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T14:11:38.418Z",
+          "exercicio": "2021",
+          "de": "MALHA DÉBITO - DDA FEITO EM 01/08/2025 - RESTITUIÇÃO DE 1294,95 UTILIZADA PARA COMPENSAR DÉBITOS",
+          "para": "PROCESSADA — MALHA DÉBITO - DDA FEITO EM 01/08/2025 - RESTITUIÇÃO DE 1294,95 UTILIZADA PARA COMPENSAR DÉBITOS",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T14:11:31.902Z",
           "exercicio": "2022",
