@@ -12482,10 +12482,25 @@
       "senhaGov": "",
       "observacoes": "FALTA LAUDO - FAZER PER EM ABRIL 2026",
       "exercicios": {
-        "2021": "MALHA DG - RETIFICAMOS PARA NÃO PRESCREVER EM 11/12/2025"
+        "2021": "EM MALHA — MALHA DG - RETIFICAMOS PARA NÃO PRESCREVER EM 11/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T16:52:00.569Z",
+          "exercicio": "2021",
+          "de": "MALHA DG - RETIFICAMOS PARA NÃO PRESCREVER EM 11/12/2025",
+          "para": "EM MALHA — MALHA DG - RETIFICAMOS PARA NÃO PRESCREVER EM 11/12/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "10933271620",
