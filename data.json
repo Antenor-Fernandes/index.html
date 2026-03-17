@@ -38573,6 +38573,12 @@
       "nome": "teste",
       "codigo": "teste",
       "nivel": "visualizar"
+    },
+    {
+      "id": "mmupg761hgiox1",
+      "nome": "teste 2",
+      "codigo": "teste 2",
+      "nivel": "exercicios"
     }
   ]
 }
