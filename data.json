@@ -15551,7 +15551,7 @@
         "2019": "R$ 8.043,28 31/08/2021 TEM PER - RECEBEU",
         "2020": "R$ 7.713,58 31/08/2021 TEM PER - RECEBEU",
         "2021": "R$ 7.671,62 31/08/2021 - FIZEMOS PER - RECEBEU",
-        "2022": "7.649,32 EM 30/09/2024",
+        "2022": "PROCESSADA — 7.649,32 EM 30/09/2024",
         "2023": "PROCESSADA — 9.409,49 EM 30/09/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/02/2026"
@@ -15559,6 +15559,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:35:59.051Z",
+          "exercicio": "2022",
+          "de": "7.649,32 EM 30/09/2024",
+          "para": "PROCESSADA — 7.649,32 EM 30/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:35:45.403Z",
           "exercicio": "2023",
@@ -15582,6 +15589,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/09/2024",
+          "valor": 7649.32
+        },
         "2023": {
           "data": "30/09/2024",
           "valor": 9409.49
