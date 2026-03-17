@@ -14636,10 +14636,30 @@
         "2022": "3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
         "2023": "6.461,84 EM 30/06/2025",
         "2024": "6.108,07 EM 30/06/2025",
-        "2025": "MALHA DG - DDA FEITO EM 29/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:22:19.407Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 29/01/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "29/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "80154956600",
