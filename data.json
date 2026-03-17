@@ -19838,7 +19838,7 @@
       "exercicios": {
         "2020": "4.273,22 EM 28/02/2023",
         "2021": "2.942,48 EM 28/02/2023",
-        "2022": "3.608,95 EM 28/02/2023",
+        "2022": "PROCESSADA — 3.608,95 EM 28/02/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 30/01/2024 - PEDIDO DE PRIORIDADE NO CHAT FEITO EM 05/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 04/02/2026"
@@ -19846,6 +19846,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:32:38.411Z",
+          "exercicio": "2022",
+          "de": "3.608,95 EM 28/02/2023",
+          "para": "PROCESSADA — 3.608,95 EM 28/02/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:32:24.523Z",
           "exercicio": "2023",
@@ -19868,7 +19875,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "28/02/2023",
+          "valor": 3608.95
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
@@ -37262,7 +37274,7 @@
           "id": "31207235687",
           "cpfCnpj": "312.072.356-87",
           "nome": "MARCOS TEIXEIRA DE MENEZES",
-          "total": 10824.65,
+          "total": 10824.650000000001,
           "porExercicio": {
             "2020": 4273.22,
             "2021": 2942.48,
