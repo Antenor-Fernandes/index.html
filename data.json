@@ -37293,12 +37293,5 @@
       ]
     }
   ],
-  "access": [
-    {
-      "id": "mmuji51q6gedfb",
-      "nome": "teste",
-      "codigo": "teste",
-      "nivel": "visualizar"
-    }
-  ]
+  "access": []
 }
