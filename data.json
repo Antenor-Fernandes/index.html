@@ -18088,9 +18088,29 @@
         "2022": "340,35 EM 31/07/2024",
         "2023": "MALHA E SOCIAL - DDA FEITO EM 05/08/2024",
         "2024": "MALHA IMPOSTO RETIDO ESOCIAL - DDA FEITO EM 22/01/2025",
-        "2025": "PENDÊNCIA E-SOCIAL - DDA FEITO EM 04/02/2026"
+        "2025": "EM MALHA — PENDÊNCIA E-SOCIAL - DDA FEITO EM 04/02/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:03:41.130Z",
+          "exercicio": "2025",
+          "de": "PENDÊNCIA E-SOCIAL - DDA FEITO EM 04/02/2026",
+          "para": "EM MALHA — PENDÊNCIA E-SOCIAL - DDA FEITO EM 04/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "04/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "72103620615",
