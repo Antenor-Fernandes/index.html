@@ -16364,12 +16364,19 @@
       "observacoes": "DOENÇA GRAVE. RETIFICAMOS 2022 A 2025, DDA FEITOS EM 11/03/2026",
       "temPer": false,
       "exercicios": {
-        "2022": "DDA FEITO EM 11/03/2026",
+        "2022": "EM MALHA — DDA FEITO EM 11/03/2026",
         "2023": "EM MALHA — DDA FEITO EM 11/03/2026",
         "2024": "EM MALHA — DDA FEITO EM 11/03/2026",
         "2025": "EM MALHA — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-17T18:45:31.531Z",
+          "exercicio": "2022",
+          "de": "DDA FEITO EM 11/03/2026",
+          "para": "EM MALHA — DDA FEITO EM 11/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:45:19.276Z",
           "exercicio": "2023",
@@ -16400,6 +16407,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2022": {
+          "feito": true,
+          "data": "11/03/2026"
+        },
         "2023": {
           "feito": true,
           "data": "11/03/2026"
