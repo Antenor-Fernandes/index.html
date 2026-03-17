@@ -18413,9 +18413,29 @@
       "senhaGov": "",
       "observacoes": "DUAS ETAPAS",
       "exercicios": {
-        "2023": "MALHA DESP. MÉD. TITULAR E DEPENDENTE - DDA FEITO EM 29/01/2024"
+        "2023": "EM MALHA — MALHA DESP. MÉD. TITULAR E DEPENDENTE - DDA FEITO EM 29/01/2024"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-17T19:07:20.066Z",
+          "exercicio": "2023",
+          "de": "MALHA DESP. MÉD. TITULAR E DEPENDENTE - DDA FEITO EM 29/01/2024",
+          "para": "EM MALHA — MALHA DESP. MÉD. TITULAR E DEPENDENTE - DDA FEITO EM 29/01/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "29/01/2024"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "67338828849",
