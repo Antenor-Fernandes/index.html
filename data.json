@@ -13634,13 +13634,20 @@
       "exercicios": {
         "2020": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS - RECEBEU 13.978,09 EM 20/01/2026",
         "2021": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS - RECEBEU 15.237,21 EM 20/01/2026",
-        "2022": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS  - RECEBEU 9.139,74 EM 20/01/2026",
+        "2022": "PROCESSADA — CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS  - RECEBEU 9.139,74 EM 20/01/2026",
         "2023": "PROCESSADA — CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS - RECEBEU 10.000,61 EM 20/01/2026",
         "2024": "EM MALHA — CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA MALHA  - ATENDIMENTO À INTIMAÇÃO COMPLEMENTAR EM 24/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T18:07:41.598Z",
+          "exercicio": "2022",
+          "de": "CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS  - RECEBEU 9.139,74 EM 20/01/2026",
+          "para": "PROCESSADA — CLIENTE QUE FEZ - PROCESSO EM ANDAMENTO NA DRJ - MS  - RECEBEU 9.139,74 EM 20/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:07:27.488Z",
           "exercicio": "2023",
@@ -13664,6 +13671,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "20/01/2026",
+          "valor": 9319.74
+        },
         "2023": {
           "data": "20/01/2026",
           "valor": 10000.61
@@ -24397,9 +24408,10 @@
           "cpfCnpj": "270.502.386-00",
           "nome": "JOÃO BATISTA APARECIDO FERNANDES",
           "porExercicio": {
+            "2022": 9319.74,
             "2023": 10000.61
           },
-          "total": 10000.61
+          "total": 19320.35
         }
       ]
     },
