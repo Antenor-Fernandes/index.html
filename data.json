@@ -19783,7 +19783,7 @@
       "exercicios": {
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
-        "2022": "MALHA DG - DDA FEITO EM 20/08/2025",
+        "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 20/08/2025",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 20/08/2025",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 20/08/2025",
         "2025": "PROCESSADA — MALHA DG"
@@ -19791,6 +19791,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T19:31:19.258Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 20/08/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 20/08/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:31:15.532Z",
           "exercicio": "2023",
