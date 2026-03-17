@@ -14089,10 +14089,25 @@
       "observacoes": "FALTA LAUDO",
       "exercicios": {
         "2020": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
-        "2021": "TT RETIFICOU PARA NÃO PRESCREVER EM 19/12/2025- FALTA LAUDO"
+        "2021": "EM MALHA — TT RETIFICOU PARA NÃO PRESCREVER EM 19/12/2025- FALTA LAUDO"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-17T18:14:46.439Z",
+          "exercicio": "2021",
+          "de": "TT RETIFICOU PARA NÃO PRESCREVER EM 19/12/2025- FALTA LAUDO",
+          "para": "EM MALHA — TT RETIFICOU PARA NÃO PRESCREVER EM 19/12/2025- FALTA LAUDO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {}
     },
     {
       "id": "07097311673",
