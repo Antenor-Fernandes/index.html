@@ -11193,13 +11193,20 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "RECURSO AO CARF FEITO EM 13/12/2024",
+        "2020": "IMPUGNAÇÃO — RECURSO AO CARF FEITO EM 13/12/2024",
         "2024": "PROCESSADA — 6.280,75 EM 31/05/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 28/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-17T13:15:38.621Z",
+          "exercicio": "2020",
+          "de": "RECURSO AO CARF FEITO EM 13/12/2024",
+          "para": "IMPUGNAÇÃO — RECURSO AO CARF FEITO EM 13/12/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:15:24.212Z",
           "exercicio": "2024",
@@ -11227,7 +11234,11 @@
           "data": "28/01/2026"
         }
       },
-      "impugnacoes": {},
+      "impugnacoes": {
+        "2020": {
+          "data": "13/12/2024"
+        }
+      },
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {}
