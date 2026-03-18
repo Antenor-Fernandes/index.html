@@ -15616,9 +15616,17 @@
       "temRRA": false,
       "exercicios": {
         "2021": "IMPUGNAÇÃO",
-        "2022": "IMPUGNAÇÃO"
+        "2022": "IMPUGNAÇÃO",
+        "2023": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-18T14:39:23.235Z",
+          "exercicio": "2023",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T14:38:53.982Z",
           "exercicio": "2022",
@@ -15635,7 +15643,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "18/03/2026"
+        }
+      },
       "impugnacoes": {
         "2021": {
           "data": "17/03/2026"
