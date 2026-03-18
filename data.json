@@ -15622,6 +15622,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-18T14:40:56.781Z",
+          "exercicio": "2023",
+          "de": "EM MALHA",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T14:39:43.842Z",
           "exercicio": "2024",
           "de": "",
@@ -15671,7 +15678,18 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "25647.13595.180326.2.2.04-0720",
+            "valorPedido": 3765.77,
+            "dataTransmissao": "18/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
