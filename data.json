@@ -7009,10 +7009,18 @@
       "senhaGov": "",
       "observacoes": "OBS INCLUIR A ESPOSA COMO DEPENDENTE EM 2024 - FAZER 2026 - TEM RRA",
       "exercicios": {
-        "2020": "PROCESSADA — 26.367,69 29/10/2021"
+        "2020": "PROCESSADA — 26.367,69 29/10/2021",
+        "2023": "EM MALHA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-18T17:56:13.784Z",
+          "exercicio": "2023",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T17:55:38.902Z",
           "exercicio": "2020",
@@ -7029,7 +7037,12 @@
       },
       "dda": {},
       "impugnacoes": {},
-      "exRRA": {},
+      "exRRA": {
+        "2023": {
+          "ativo": true,
+          "obs": "TRABALHISTA"
+        }
+      },
       "exGCAP": {},
       "exPerdcomps": {},
       "exProcessos": {}
