@@ -26995,13 +26995,40 @@
       "exercicios": {
         "2020": "IMPUGNAÇÃO FEITA EM 23/06/2025 - processo 13031.077672/2026-35 ( aguardando julgamento )",
         "2021": "IMPUGNAÇÃO FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025 -  processo 18183.737902/2024-45 ( ja teve julgamento. Cancelamento de debito R$ 14.716,19 (cobrar proveito economico) restituição R$ 1.291,25 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
-        "2022": "IMPUGNAÇÃO FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025-  processo 18183.737903/2024-90 ja teve julgamento. Cancelamento de debito R$ 16.184,02 (cobrar proveito economico) restituição R$ 1.296,89 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
+        "2022": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025-  processo 18183.737903/2024-90 ja teve julgamento. Cancelamento de debito R$ 16.184,02 (cobrar proveito economico) restituição R$ 1.296,89 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
         "2023": "IMPUGNAÇÃO FEITA EM 23/06/2025 -  processo 18183.737904/2024-34 (encaminhado para julgamento em 10/02/2026 acompanhar )",
         "2024": "MALHA DG - ATENDEMOS INTIMAÇÃO EM 23/06/2025",
         "2025": "MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-18T14:26:04.138Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAÇÃO FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025-  processo 18183.737903/2024-90 ja teve julgamento. Cancelamento de debito R$ 16.184,02 (cobrar proveito economico) restituição R$ 1.296,89 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
+          "para": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025-  processo 18183.737903/2024-90 ja teve julgamento. Cancelamento de debito R$ 16.184,02 (cobrar proveito economico) restituição R$ 1.296,89 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "00442.33959.230625.2.2.04-2250",
+            "valorPedido": 14424,
+            "dataTransmissao": "23/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 20626.89
+          }
+        ]
+      },
+      "exProcessos": {}
     },
     {
       "id": "16466055604",
@@ -27905,6 +27932,15 @@
             "2023": 35685.36
           },
           "total": 35685.36
+        },
+        {
+          "clienteId": "43372252691",
+          "cpfCnpj": "433.722.526-91",
+          "nome": "VANDA MINEIRO DE SOUZA ROCHA",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 20626.89
+          },
+          "total": 20626.89
         }
       ]
     },
