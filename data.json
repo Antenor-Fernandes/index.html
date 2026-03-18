@@ -27677,12 +27677,33 @@
       "exercicios": {
         "2021": "IMPUGNAMOS EM 24/06/2025 - Impugnação 2021 foi pra DRJ ainda aguardando",
         "2022": "IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
-        "2023": "MALHA DG - DDA FEITO EM 24/06/2025",
+        "2023": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/06/2025",
         "2024": "MALHA DG - DDA FEITO EM 24/06/2025",
         "2025": "MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-18T14:19:15.142Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 24/06/2025",
+          "para": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/06/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2023": {
+          "data": "20/03/2026",
+          "valor": 35685.36
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "46452559672",
@@ -27875,6 +27896,15 @@
             "EXPERDCOMP-2019-0": 39604.24
           },
           "total": 39604.24
+        },
+        {
+          "clienteId": "04391571617",
+          "cpfCnpj": "043.915.716-17",
+          "nome": "WLANIRA DE FREITAS RUTIER DUARTE",
+          "porExercicio": {
+            "2023": 35685.36
+          },
+          "total": 35685.36
         }
       ]
     },
