@@ -8589,11 +8589,18 @@
       "exercicios": {
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025",
-        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
+        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-18T11:03:10.371Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T18:54:11.639Z",
           "exercicio": "2024",
@@ -8628,10 +8635,6 @@
         "2024": {
           "feito": true,
           "data": "30/04/2025"
-        },
-        "2025": {
-          "feito": true,
-          "data": "27/01/2026"
         }
       },
       "impugnacoes": {},
