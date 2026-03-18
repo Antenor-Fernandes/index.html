@@ -3387,7 +3387,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 A 2023 FEITOS EM 19/12/2024 - PER 2024 FEITO EM 10/01/2025 - RECEBEU 4 EM 20/05/2025 - FALTA 1 - RECEBEU EM 20/06/2025",
       "exercicios": {
-        "2019": "MALHA DG - DDA FEITO EM 19/12/2024 - 2.841,81 EM 31/01/2025",
+        "2019": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 2.841,81 EM 31/01/2025",
         "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 5.880,49 EM 31/01/2025",
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 6.998,85 EM 31/01/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 7.449,72 EM 31/01/2025",
@@ -3398,6 +3398,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-18T09:47:53.414Z",
+          "exercicio": "2019",
+          "de": "MALHA DG - DDA FEITO EM 19/12/2024 - 2.841,81 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 19/12/2024 - 2.841,81 EM 31/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T09:47:41.998Z",
           "exercicio": "2020",
@@ -3442,6 +3449,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "31/01/2025",
+          "valor": 2841.81
+        },
         "2020": {
           "data": "31/01/2025",
           "valor": 5880.49
