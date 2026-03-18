@@ -6258,6 +6258,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-18T14:54:53.700Z",
+          "exercicio": "2025",
+          "de": "EM MALHA",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T14:54:35.753Z",
           "exercicio": "2025",
           "de": "",
