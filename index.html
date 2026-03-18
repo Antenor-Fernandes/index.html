@@ -220,6 +220,7 @@ body.readonly .edit-only{display:none!important}
 .filter-chip.dg-chip.active{background:rgba(220,38,38,.12);color:#dc2626;border-color:rgba(220,38,38,.3)}
 .filter-chip.rra-chip.active{background:rgba(234,88,12,.12);color:#ea580c;border-color:rgba(234,88,12,.3)}
 .filter-chip.gcap-chip.active{background:rgba(124,92,252,.12);color:var(--accent2);border-color:rgba(124,92,252,.3)}
+.filter-chip.proc-chip.active{background:rgba(99,102,241,.12);color:#818cf8;border-color:rgba(99,102,241,.3)}
 ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 /* EX MODAL EXTRAS */
 .ex-section-sep{border-top:1px solid var(--border);margin:14px 0 10px;padding-top:10px}
@@ -247,6 +248,14 @@ body.readonly .edit-only{display:none!important}
 .per-lote-hint{font-size:11.5px;color:var(--green);padding:3px 2px;display:none}
 .per-entry{border:1px solid rgba(245,158,11,.18);border-radius:8px;padding:12px 14px;margin-bottom:10px;background:rgba(245,158,11,.02)}
 .per-entry-hd{display:flex;align-items:center;gap:8px;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid rgba(245,158,11,.15)}
+/* PROCESSO */
+.badge-proc{background:rgba(99,102,241,.12);color:#818cf8}
+.ex-proc-entry{border:1px solid rgba(99,102,241,.25);border-radius:9px;padding:12px;background:rgba(99,102,241,.02);margin-bottom:8px}
+.ex-proc-entry-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid rgba(99,102,241,.18)}
+.ex-proc-field{display:flex;flex-direction:column;gap:4px}
+.ex-proc-field label{font-size:10px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.6px}
+.ex-proc-field input,.ex-proc-field textarea{background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:7px 10px;font-size:12.5px;color:var(--text);font-family:'DM Sans',sans-serif;outline:none;transition:border .15s}
+.ex-proc-field input:focus,.ex-proc-field textarea:focus{border-color:#818cf8}
 /* RELATÓRIOS */
 .rel-layout{display:grid;grid-template-columns:280px 1fr;gap:20px;align-items:start}
 .rel-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px}
@@ -490,6 +499,7 @@ body.exercicios-level .full-edit-only{display:none!important}
               <option value="RRA">Com RRA</option>
               <option value="GCAP">Com GCAP</option>
               <option value="PER">Com PERDCOMP</option>
+              <option value="PROC">Com PROCESSO</option>
             </select>
           </div>
           <div class="rel-group">
@@ -766,6 +776,19 @@ body.exercicios-level .full-edit-only{display:none!important}
             <button class="btn btn-ghost btn-sm" onclick="addExPerEntry()">＋ Adicionar PERDCOMP</button>
           </div>
           <div id="ex-per-list"></div>
+        </div>
+      </div>
+      <!-- PROCESSO por exercício -->
+      <div style="margin-bottom:8px">
+        <div class="ex-check-row" onclick="document.getElementById('ex-proc-ativo').click()">
+          <input type="checkbox" id="ex-proc-ativo" onchange="toggleExProc()" onclick="event.stopPropagation()">
+          <span class="ex-check-label">⚖️ PROCESSO – Processo Administrativo/Judicial</span>
+        </div>
+        <div id="ex-proc-box" style="display:none;margin-top:8px">
+          <div style="display:flex;justify-content:flex-end;margin-bottom:6px">
+            <button class="btn btn-ghost btn-sm" onclick="addExProcEntry()">＋ Adicionar PROCESSO</button>
+          </div>
+          <div id="ex-proc-list"></div>
         </div>
       </div>
     </div>
@@ -1060,6 +1083,12 @@ function renderGHStatusBadge(){
     ?`<span style="color:var(--text3)">📡 ${ghCfg.owner}/${ghCfg.repo}</span>`
     :`<span style="color:var(--green)">✅ ${ghCfg.owner}/${ghCfg.repo}</span>`;
 }
+// Utilitário: fetch com timeout por AbortController (evita que ghFetch trave o init)
+function fetchComTimeout(url,opts={},ms=8000){
+  const ac=new AbortController();
+  const t=setTimeout(()=>ac.abort(),ms);
+  return fetch(url,{...opts,signal:ac.signal}).finally(()=>clearTimeout(t));
+}
 async function ghFetch(){
   if(!ghCfg?.owner||!ghCfg?.repo)return null;
   const url=`https://api.github.com/repos/${ghCfg.owner}/${ghCfg.repo}/contents/data.json`;
@@ -1068,7 +1097,7 @@ async function ghFetch(){
   const fetchToken=ghCfg?.token||ghCfg?.writeToken||null;
   if(fetchToken)headers['Authorization']=`token ${fetchToken}`;
   try{
-    const r=await fetch(url,{headers,cache:'no-store'});
+    const r=await fetchComTimeout(url,{headers,cache:'no-store'},8000);
     if(!r.ok){
       // API falhou (rate limit, etc.) — tenta via raw como fallback
       return await ghFetchRaw();
@@ -1087,7 +1116,7 @@ async function ghFetchRaw(){
   try{
     const branch=ghCfg.branch||'main';
     const rawUrl=`https://raw.githubusercontent.com/${ghCfg.owner}/${ghCfg.repo}/${branch}/data.json`;
-    const r=await fetch(rawUrl,{cache:'no-store'});
+    const r=await fetchComTimeout(rawUrl,{cache:'no-store'},8000);
     if(!r.ok)return null;
     const parsed=await r.json();
     if(Array.isArray(parsed.access))accessList=parsed.access;
@@ -1459,6 +1488,9 @@ function updateUserBadge(){
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 async function init(){
+  // Loading overlay: esconde SEMPRE ao final, mesmo em caso de erro
+  const _hideLoader=()=>{const l=document.getElementById('app-loading');if(l)l.style.display='none';};
+  try{
   loadGHCfg();
   // ── Restaurar sessão ──
   const savedSession=sessionStorage.getItem(SESSION_KEY);
@@ -1498,7 +1530,7 @@ async function init(){
     if(!still){currentUser=null;sessionStorage.removeItem(SESSION_KEY);}
     else currentUser=still; // Atualiza nivel caso tenha mudado
   }
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
+  allClients.sort((a,b)=>(a.nome||"").localeCompare(b.nome||"","pt-BR"));
   allLotes.sort((a,b)=>{
     const pd=s=>{const[d,m,y]=s.split('/');return new Date(y,m-1,d)};
     return pd(b.data)-pd(a.data);
@@ -1519,9 +1551,7 @@ async function init(){
   if(!ghCfg?.owner&&!isReadOnly){
     showToast('⚙️ Configure o GitHub para ativar o acesso em nuvem','info');
   }
-  // Esconde o loading overlay
-  const loadEl=document.getElementById('app-loading');
-  if(loadEl)loadEl.style.display='none';
+  }catch(e){console.error('init error:',e);}finally{_hideLoader();}
 }
 
 // ── VIEWS ─────────────────────────────────────────────────────────────────────
@@ -1643,7 +1673,7 @@ function renderDecl(){
   // usa busca da topbar + filtro de chip ativos
   const q=(document.getElementById('search-input')?.value||document.getElementById('decl-search')?.value||'').toLowerCase().trim();
   const clients=allClients.filter(c=>{
-    if(q&&!c.nome.toLowerCase().includes(q)&&!c.cpfCnpj.includes(q))return false;
+    if(q&&!(c.nome||'').toLowerCase().includes(q)&&!(c.cpfCnpj||'').includes(q))return false;
     if(!c.exercicios)return false;
     if(!Object.values(c.exercicios).some(v=>classifyStatus(v).cls===currentDeclStatus))return false;
     // aplica filtro de chip (PF/PJ/Doença Grave/RRA/GCAP/PERDCOMP)
@@ -1652,6 +1682,7 @@ function renderDecl(){
     if(currentFilter==='RRA')return clientHasRRA(c);
     if(currentFilter==='GCAP')return clientHasGCAP(c);
     if(currentFilter==='PER')return clientHasPer(c);
+    if(currentFilter==='PROC')return clientHasProc(c);
     return true;
   });
   document.getElementById('decl-count').textContent=clients.length+' cliente'+(clients.length!==1?'s':'');
@@ -1705,12 +1736,13 @@ function renderTable(list){
   if(!list.length){tbody.innerHTML='';empty.style.display='block';return}
   empty.style.display='none';
   tbody.innerHTML=list.map(c=>{
+    if(!c||!c.id||!c.nome)return'';
     const le=getLastEx(c);
     const cat=le?classifyStatus(le.status):null;
     const qeBtn=(canEditExercicios()&&le)?`<span class="badge badge-${cat.cls}" style="cursor:pointer" onclick="event.stopPropagation();openQE('${c.id}','${le.year}',event)" title="Editar status rapidamente">${cat.label}</span>`
       :(cat?`<span class="badge badge-${cat.cls}">${cat.label}</span>`:'<span style="color:var(--text3)">—</span>');
     return`<tr onclick="openDetail('${c.id}')">
-      <td><span class="badge badge-${c.tipo.toLowerCase()}">${esc(c.tipo)}</span></td>
+      <td><span class="badge badge-${(c.tipo||'').toLowerCase()}">${esc(c.tipo)}</span></td>
       <td class="td-doc">${esc(c.cpfCnpj)}</td>
       <td class="td-name">${statusDots(c)}${esc(c.nome)}${c.doencaGrave?'<br><span class="tag-doenca">🩺 Doença Grave</span>':''}</td>
       <td>${c.acessoEcac?`<span class="acesso-tag">${esc(c.acessoEcac)}</span>`:'<span style="color:var(--text3)">—</span>'}</td>
@@ -1731,6 +1763,7 @@ function renderFilterChips(){
     {key:'RRA',    label:'RRA',           cls:'rra-chip',  icon:'📄'},
     {key:'GCAP',   label:'GCAP',          cls:'',          icon:'📈'},
     {key:'PER',    label:'PERDCOMP',      cls:'per-chip',  icon:'💰'},
+    {key:'PROC',   label:'PROCESSO',      cls:'proc-chip', icon:'⚖️'},
   ];
   document.getElementById('filter-chips').innerHTML=chips.map(c=>
     `<div class="filter-chip ${c.cls} ${currentFilter===c.key?'active':''}" onclick="setFilter('${c.key}')" style="display:inline-flex;align-items:center;gap:5px">${c.icon?`<span style="font-size:11px">${c.icon}</span>`:''} ${c.label}</div>`
@@ -1739,7 +1772,7 @@ function renderFilterChips(){
 function setFilter(k){currentFilter=k;renderFilterChips();filterClients();if(currentView==='decl')renderDecl();}
 // Atualiza a view ativa após qualquer alteração de dados
 function refreshCurrentView(){
-  allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
+  allClients.sort((a,b)=>(a.nome||"").localeCompare(b.nome||"","pt-BR"));
   filteredClients=[...allClients];
   filterClients();
   renderSidebarStats();
@@ -1756,22 +1789,24 @@ function filterClientsDebounced(){
   _searchTimer=setTimeout(()=>{filterClients();if(currentView==='decl')renderDecl();},300);
 }
 function filterClients(){
-  const q=document.getElementById('search-input').value.toLowerCase().trim();
+  const q=(document.getElementById('search-input')?.value||'').toLowerCase().trim();
   filteredClients=allClients.filter(c=>{
+    try{
     const mt=!q
-      ||c.nome.toLowerCase().includes(q)
-      ||c.cpfCnpj.includes(q)
+      ||(c.nome||'').toLowerCase().includes(q)
+      ||(c.cpfCnpj||'').includes(q)
       ||(c.email||'').toLowerCase().includes(q)
       ||(c.telefone||'').replace(/\D/g,'').includes(q.replace(/\D/g,''))
       ||(c.cidade||'').toLowerCase().includes(q)
       ||(c.observacoes||'').toLowerCase().includes(q);
-    if(!mt)return false;
+    if(!mt)return false;}catch(e){return false;}
     if(currentFilter==='TODOS')return true;
     if(currentFilter==='PF'||currentFilter==='PJ')return c.tipo===currentFilter;
     if(currentFilter==='DOENCA')return c.doencaGrave;
     if(currentFilter==='RRA')return clientHasRRA(c);
     if(currentFilter==='GCAP')return clientHasGCAP(c);
     if(currentFilter==='PER')return clientHasPer(c);
+    if(currentFilter==='PROC')return clientHasProc(c);
     return true;
   });
   renderTable(filteredClients);
@@ -1779,9 +1814,10 @@ function filterClients(){
 
 // ── MALHA VIEW ────────────────────────────────────────────────────────────────
 function renderMalha(){
+  if(!document.getElementById('malha-count')||!document.getElementById('malha-list'))return;
   const q=(document.getElementById('malha-search')?.value||'').toLowerCase();
   const malhaClients=allClients.filter(c=>{
-    if(q&&!c.nome.toLowerCase().includes(q)&&!c.cpfCnpj.includes(q))return false;
+    if(q&&!(c.nome||'').toLowerCase().includes(q)&&!(c.cpfCnpj||'').includes(q))return false;
     if(!c.exercicios)return false;
     return Object.values(c.exercicios).some(v=>v.toUpperCase().includes('MALHA'));
   });
@@ -1871,9 +1907,12 @@ function renderPerEntry(cid,idx,per){
   </div>`;
 }
 function renderPer(){
+  const perCountEl=document.getElementById('per-count');
+  const perListEl=document.getElementById('per-list');
+  if(!perCountEl||!perListEl)return; // view-per não está ativa
   const q=(document.getElementById('per-search')?.value||'').toLowerCase();
   const perClients=allClients.filter(c=>c.temPer&&(!q||c.nome.toLowerCase().includes(q)||c.cpfCnpj.includes(q)));
-  document.getElementById('per-count').textContent=perClients.length+' clientes';
+  perCountEl.textContent=perClients.length+' clientes';
   if(!perClients.length){
     document.getElementById('per-list').innerHTML='<div class="empty-state"><div class="empty-icon" style="display:flex;justify-content:center"><span class="status-dot dot-per" style="width:28px;height:28px"></span></div><div style="margin-top:8px">Nenhum cliente com PERDCOMP</div></div>';
     return;
@@ -1973,11 +2012,35 @@ async function savePerPanel(id,idx){
   if(body&&!body.classList.contains('open'))body.classList.add('open');
   showToast('✅ PERDCOMP salvo','success');
 }
+// ── PROCESSO helpers ──────────────────────────────────────────────────────────
+function getProcessos(c){return Array.isArray(c.processos)?c.processos:[];}
+function clientHasProc(c){return getProcessos(c).length>0||Object.values(c.exProcessos||{}).some(v=>Array.isArray(v)&&v.length>0);}
+function detailProcessoHtml(c){
+  const ps=getProcessos(c);
+  const exTotal=Object.values(c.exProcessos||{}).reduce((s,arr)=>s+(Array.isArray(arr)?arr.length:0),0);
+  if(!ps.length&&!exTotal)return'—';
+  const BRL=v=>v?v.toLocaleString('pt-BR',{minimumFractionDigits:2}):'0,00';
+  let html='<span class="badge badge-proc">Sim</span>';
+  if(exTotal){
+    const years=Object.keys(c.exProcessos||{}).sort((a,b)=>b-a);
+    years.forEach(yr=>{
+      const procs=c.exProcessos[yr]||[];
+      if(!procs.length)return;
+      html+=`<div style="font-size:11px;margin-top:4px;color:var(--text3)">Exerc. ${yr}: `;
+      html+=procs.map((p,i)=>`<span style="color:#818cf8">${p.numero||'Processo '+(i+1)}</span>`).join(', ');
+      const totalRec=procs.reduce((s,p)=>s+(p.valorRec||0),0);
+      if(totalRec>0)html+=`<span style="color:var(--green);margin-left:6px">💰 ${BRL(totalRec)}</span>`;
+      html+='</div>';
+    });
+  }
+  return html;
+}
 // ── FILA VIEW ─────────────────────────────────────────────────────────────────
 function renderFila(){
+  if(!document.getElementById('fila-count')||!document.getElementById('fila-list'))return;
   const q=(document.getElementById('fila-search')?.value||'').toLowerCase();
   const filaClients=allClients.filter(c=>{
-    if(q&&!c.nome.toLowerCase().includes(q)&&!c.cpfCnpj.includes(q))return false;
+    if(q&&!(c.nome||'').toLowerCase().includes(q)&&!(c.cpfCnpj||'').includes(q))return false;
     if(!c.exercicios)return false;
     return Object.values(c.exercicios).some(v=>v.toUpperCase().includes('FILA'));
   });
@@ -2003,9 +2066,10 @@ function renderFila(){
 
 // ── IMPUGNAÇÃO VIEW ───────────────────────────────────────────────────────────
 function renderImpugnacao(){
+  if(!document.getElementById('impugnacao-count')||!document.getElementById('impugnacao-list'))return;
   const q=(document.getElementById('impugnacao-search')?.value||'').toLowerCase();
   const impugClients=allClients.filter(c=>{
-    if(q&&!c.nome.toLowerCase().includes(q)&&!c.cpfCnpj.includes(q))return false;
+    if(q&&!(c.nome||'').toLowerCase().includes(q)&&!(c.cpfCnpj||'').includes(q))return false;
     if(!c.exercicios)return false;
     return Object.values(c.exercicios).some(v=>classifyStatus(v).cls==='impugnacao');
   });
@@ -2335,6 +2399,17 @@ async function lcSalvar(){
           c.exPerdcomps[exYr][pidx].dataRec=dataLote;
           clienteModificado=true;
         }
+      }else if(yr.startsWith('EXPROCESSO-')){
+        // EXPROCESSO-{ano}-{idx} → sincroniza exProcessos do exercício
+        const parts=yr.split('-');const exYr=parts[1];const pidx=parseInt(parts[2])||0;
+        if(!c.exProcessos)c.exProcessos={};
+        if(!Array.isArray(c.exProcessos[exYr]))c.exProcessos[exYr]=[];
+        if(!c.exProcessos[exYr][pidx])c.exProcessos[exYr][pidx]={};
+        if(c.exProcessos[exYr][pidx].valorRec!==valor||c.exProcessos[exYr][pidx].dataRec!==dataLote){
+          c.exProcessos[exYr][pidx].valorRec=valor;
+          c.exProcessos[exYr][pidx].dataRec=dataLote;
+          clienteModificado=true;
+        }
       }else if(yr.startsWith('PERDCOMP')){
         // Sincroniza PERDCOMP (suporta múltiplos: PERDCOMP-0, PERDCOMP-1 …)
         if(!Array.isArray(c.perdcomps))c.perdcomps=getPerdcomps(c);
@@ -2371,6 +2446,22 @@ async function lcSalvar(){
         if(!Array.isArray(arr))continue;
         for(let i=0;i<arr.length;i++){
           const key=`EXPERDCOMP-${exYr}-${i}`;
+          if(!(key in porExercicio)||porExercicio[key]===0){
+            if(arr[i]?.dataRec===dataLote){
+              arr[i].valorRec=0;arr[i].dataRec='';
+              clienteModificado=true;
+            }
+          }
+        }
+      }
+    }
+    // Remove exProcessos que foram apagados do lote
+    if(c.exProcessos){
+      for(const exYr of Object.keys(c.exProcessos)){
+        const arr=c.exProcessos[exYr];
+        if(!Array.isArray(arr))continue;
+        for(let i=0;i<arr.length;i++){
+          const key=`EXPROCESSO-${exYr}-${i}`;
           if(!(key in porExercicio)||porExercicio[key]===0){
             if(arr[i]?.dataRec===dataLote){
               arr[i].valorRec=0;arr[i].dataRec='';
@@ -2434,6 +2525,7 @@ function openDetail(id){
       <div class="info-card"><div class="info-card-label">Contrato</div><div class="info-card-val" style="font-size:12px">${c.dataContrato?`📅 ${esc(c.dataContrato)}`:'—'}${c.honorarios?` · 💰 ${esc(c.honorarios)}`:''}</div></div>
       ${c.objeto?`<div class="info-card" style="grid-column:span 2"><div class="info-card-label">Objeto</div><div class="info-card-val" style="font-size:12.5px">${esc(c.objeto)}</div></div>`:''}
       <div class="info-card" style="${c.temPer?'border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.04)':''}"><div class="info-card-label">PERDCOMP</div><div class="info-card-val">${detailPerdcompHtml(c)}</div></div>
+      <div class="info-card" style="${clientHasProc(c)?'border-color:rgba(99,102,241,.35);background:rgba(99,102,241,.04)':''}"><div class="info-card-label">PROCESSO</div><div class="info-card-val">${detailProcessoHtml(c)}</div></div>
       <div class="info-card" style="${c.doencaGrave?'border-color:rgba(220,38,38,.35);background:rgba(220,38,38,.05)':''}"><div class="info-card-label">Doença Grave</div><div class="info-card-val">${c.doencaGrave?`<span class="tag-doenca">🩺 Sim – isento de IR</span>${c.laudo?'<div style="font-size:11px;margin-top:4px;color:var(--green)">✅ Laudo obtido pelo escritório</div>':''}${c.diagnostico?`<div style="font-size:11px;margin-top:4px;color:var(--text2)">${c.diagnostico}</div>`:''}${c.dataAposentadoria?`<div style="font-size:11px;margin-top:4px;color:var(--text3)">Aposen./Pensão: ${c.dataAposentadoria}</div>`:''}`:'Não'}</div></div>
 
 
@@ -2454,16 +2546,18 @@ function openDetail(id){
           const rra=c.exRRA?.[yr];
           const gcap=c.exGCAP?.[yr];
           const exPers=c.exPerdcomps?.[yr]||[];
+          const exProcsYr=c.exProcessos?.[yr]||[];
           const recInfo=rec&&rec.data?`<div style="display:inline-flex;align-items:center;gap:6px;margin-top:5px;font-size:11.5px;color:var(--green);font-family:'DM Mono',monospace;font-weight:600"><span>📅 ${rec.data}</span>${rec.valor?`<span>💰 ${rec.valor.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})}</span>`:''}  </div>`:'';
           const impugInfo=impugDate?`<div style="margin-top:4px;font-size:11.5px;color:#ec4899;font-weight:600">⚖️ Impugn. em ${impugDate}</div>`:'';
           const rraInfo=rra?.ativo?`<div style="margin-top:4px;font-size:11.5px;color:#6366f1;font-weight:600">📄 RRA${rra.obs?` — ${rra.obs.slice(0,60)}`:''}</div>`:'';
           const gcapInfo=gcap?.ativo?`<div style="margin-top:4px;font-size:11.5px;color:#10b981;font-weight:600">📈 GCAP${gcap.obs?` — ${gcap.obs.slice(0,60)}`:''}</div>`:'';
           const perInfo=exPers.length?`<div style="margin-top:4px;font-size:11.5px;color:var(--yellow);font-weight:600">💰 ${exPers.length} PERDCOMP${exPers.length!==1?'s':''}</div>`:'';
+          const procInfo=exProcsYr.length?`<div style="margin-top:4px;font-size:11.5px;color:#818cf8;font-weight:600">⚖️ ${exProcsYr.length} PROCESSO${exProcsYr.length!==1?'s':''}</div>`:'';
           return`<div class="ex-item">
             <div class="ex-item-year">${yr}</div>
             <div><span class="badge badge-${cat.cls}" style="margin-bottom:4px">${cat.label}</span>
               <div class="ex-item-status">${(()=>{const cats2=['EM PROCESSAMENTO','PROCESSADA','EM MALHA','TRABALHO MANUAL RFB','TRANSMITIDA','EM FILA DE RESTITUIÇÃO','PERDCOMP','IMPUGNAÇÃO','IMPUGNAR','AGUARDANDO','NÃO DECLARADA','OUTRO'];const cm=cats2.find(o=>st.toUpperCase().startsWith(o));return cm?st.slice(cm.length).replace(/^\s*[\-\u2014]\s*/,'').trim():st;})()}</div>
-              ${recInfo}${impugInfo}${rraInfo}${gcapInfo}${perInfo}</div>
+              ${recInfo}${impugInfo}${rraInfo}${gcapInfo}${perInfo}${procInfo}</div>
             <div style="display:flex;gap:5px">${qeBtn}${editBtn}</div>
           </div>`;
         }).join('')}
@@ -2514,6 +2608,11 @@ function clearExRecFields(){
   document.getElementById('ex-per-box').style.display='none';
   document.getElementById('ex-per-list').innerHTML='';
   exPerCount=0;
+  // PROCESSO por exercício
+  document.getElementById('ex-proc-ativo').checked=false;
+  document.getElementById('ex-proc-box').style.display='none';
+  document.getElementById('ex-proc-list').innerHTML='';
+  exProcCount=0;
 }
 function openAddEx(clientId){
   exEditId=clientId;exEditYear=null;
@@ -2577,6 +2676,14 @@ function openExModal(clientId,year){
   document.getElementById('ex-per-ativo').checked=perAtivo;
   document.getElementById('ex-per-box').style.display=perAtivo?'block':'none';
   exPers.forEach(p=>addExPerEntry(p));
+  // Carregar PROCESSOs do exercício
+  document.getElementById('ex-proc-list').innerHTML='';
+  exProcCount=0;
+  const exProcs=c?.exProcessos?.[year]||[];
+  const procAtivo=exProcs.length>0;
+  document.getElementById('ex-proc-ativo').checked=procAtivo;
+  document.getElementById('ex-proc-box').style.display=procAtivo?'block':'none';
+  exProcs.forEach(p=>addExProcEntry(p));
   document.getElementById('modal-ex').style.display='flex';
 }
 function toggleExDdaBox(){toggleExCatBoxes();}
@@ -2656,6 +2763,56 @@ function collectExPerEntries(){
     const valorRec=parseBRLField(document.getElementById(`ex-per-vrec-${id}`)?.value);
     if(numero||valorPedido||obs||dataTransmissao||dataRec||valorRec)
       entries.push({numero,valorPedido,dataTransmissao,obs,dataRec,valorRec});
+  });
+  return entries;
+}
+// ── PROCESSO (exercício) ───────────────────────────────────────────────────────
+function toggleExProc(){
+  const on=document.getElementById('ex-proc-ativo').checked;
+  document.getElementById('ex-proc-box').style.display=on?'block':'none';
+  if(!on){document.getElementById('ex-proc-list').innerHTML='';exProcCount=0;}
+}
+let exProcCount=0;
+function addExProcEntry(pre){
+  const idx=exProcCount++;
+  const BRL=v=>v?Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2}):'';
+  const div=document.createElement('div');
+  div.className='ex-proc-entry';div.id=`ex-proc-entry-${idx}`;
+  div.innerHTML=`
+    <div class="ex-proc-entry-hd">
+      <span style="font-size:11px;font-weight:700;color:#818cf8;text-transform:uppercase;letter-spacing:.5px">PROCESSO ${idx+1}</span>
+      <button class="btn btn-danger btn-sm" onclick="document.getElementById('ex-proc-entry-${idx}').remove()">🗑</button>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:8px">
+      <div class="ex-proc-field"><label>Número do Processo</label>
+        <input type="text" id="ex-proc-num-${idx}" value="${pre?.numero||''}" placeholder="Ex: 10830.000000/2024-00"></div>
+      <div class="ex-proc-field"><label>Valor Pedido (R$)</label>
+        <input type="text" id="ex-proc-vpedido-${idx}" value="${pre?.valorPedido?BRL(pre.valorPedido):''}" placeholder="0,00" oninput="maskBRL(this)"></div>
+      <div class="ex-proc-field"><label>📅 Data do Protocolo</label>
+        <input type="text" id="ex-proc-dprot-${idx}" value="${pre?.dataProtocolo||''}" placeholder="dd/mm/aaaa" maxlength="10" oninput="maskDate(this)"></div>
+    </div>
+    <div class="ex-proc-field" style="margin-bottom:8px"><label>Observações</label>
+      <input type="text" id="ex-proc-obs-${idx}" value="${pre?.obs||''}" placeholder="Observações sobre o processo…"></div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;background:rgba(34,197,94,.06);border:1px solid rgba(34,197,94,.2);border-radius:8px;padding:10px">
+      <div class="ex-proc-field"><label style="color:var(--green)">📅 Data do Recebimento</label>
+        <input type="text" id="ex-proc-drec-${idx}" value="${pre?.dataRec||''}" placeholder="dd/mm/aaaa" maxlength="10" oninput="maskDate(this)"></div>
+      <div class="ex-proc-field"><label style="color:var(--green)">💰 Valor Recebido (R$)</label>
+        <input type="text" id="ex-proc-vrec-${idx}" value="${pre?.valorRec?BRL(pre.valorRec):''}" placeholder="0,00" oninput="maskBRL(this)"></div>
+    </div>`;
+  document.getElementById('ex-proc-list').appendChild(div);
+}
+function collectExProcEntries(){
+  const entries=[];
+  document.querySelectorAll('#ex-proc-list .ex-proc-entry').forEach(div=>{
+    const id=div.id.replace('ex-proc-entry-','');
+    const numero=document.getElementById(`ex-proc-num-${id}`)?.value.trim()||'';
+    const valorPedido=parseBRLField(document.getElementById(`ex-proc-vpedido-${id}`)?.value);
+    const dataProtocolo=document.getElementById(`ex-proc-dprot-${id}`)?.value.trim()||'';
+    const obs=document.getElementById(`ex-proc-obs-${id}`)?.value.trim()||'';
+    const dataRec=document.getElementById(`ex-proc-drec-${id}`)?.value.trim()||'';
+    const valorRec=parseBRLField(document.getElementById(`ex-proc-vrec-${id}`)?.value);
+    if(numero||valorPedido||dataProtocolo||obs||dataRec||valorRec)
+      entries.push({numero,valorPedido,dataProtocolo,obs,dataRec,valorRec});
   });
   return entries;
 }
@@ -2750,6 +2907,26 @@ async function saveExModal(){
       await autoUpdateLote(c,exPerKey,newPData,newPVal);
     }
   }
+  // Salva PROCESSOs do exercício
+  if(!c.exProcessos)c.exProcessos={};
+  const oldExProcs=(c.exProcessos[yr]||[]).map(p=>({...p}));
+  const procEntries=collectExProcEntries();
+  if(procEntries.length){c.exProcessos[yr]=procEntries;}
+  else{delete c.exProcessos[yr];}
+  // Sincroniza PROCESSOs por exercício com Lotes de Restituição
+  const nMaxProc=Math.max(oldExProcs.length,procEntries.length);
+  for(let i=0;i<nMaxProc;i++){
+    const exProcKey=`EXPROCESSO-${yr}-${i}`;
+    const oldProcData=oldExProcs[i]?.dataRec&&oldExProcs[i].dataRec.length===10?oldExProcs[i].dataRec:null;
+    const newProcData=procEntries[i]?.dataRec&&procEntries[i].dataRec.length===10?procEntries[i].dataRec:null;
+    const newProcVal=procEntries[i]?.valorRec||0;
+    if(oldProcData&&(oldProcData!==newProcData||!(newProcData&&newProcVal>0))){
+      await removerEntradaLote(c,exProcKey,oldProcData);
+    }
+    if(newProcData&&newProcVal>0){
+      await autoUpdateLote(c,exProcKey,newProcData,newProcVal);
+    }
+  }
   refreshCurrentView();
   showToast('✅ Exercício atualizado','success');
   await dbPut('clientes',c);
@@ -2842,6 +3019,15 @@ async function deleteExModal(){
     }
   }
   if(c.exPerdcomps)delete c.exPerdcomps[exEditYear];
+  // Remove PROCESSOs do exercício dos lotes de restituição
+  const exProcsParaRemover=(c.exProcessos&&c.exProcessos[exEditYear])||[];
+  for(let i=0;i<exProcsParaRemover.length;i++){
+    const p=exProcsParaRemover[i];
+    if(p&&p.dataRec&&p.dataRec.length===10&&p.valorRec>0){
+      await removerEntradaLote(c,`EXPROCESSO-${exEditYear}-${i}`,p.dataRec);
+    }
+  }
+  if(c.exProcessos)delete c.exProcessos[exEditYear];
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
   refreshCurrentView();
@@ -3004,7 +3190,8 @@ async function saveClient(){
     perdcomps:existing?.perdcomps||[],
     exRRA:existing?.exRRA||{},
     exGCAP:existing?.exGCAP||{},
-    exPerdcomps:existing?.exPerdcomps||{}};
+    exPerdcomps:existing?.exPerdcomps||{},
+    exProcessos:existing?.exProcessos||{}};
   // Remove campo legado perdcomp se existir
   if(existing?.perdcomp&&!(existing?.perdcomps?.length))obj.perdcomps=getPerdcomps(existing);
   // atualiza allClients em memória imediatamente
@@ -3181,7 +3368,7 @@ async function importJSON(e){
       for(const c of cli)await dbPut('clientes',c);
       for(const l of lot)await dbPut('lotes',l);
       allClients=await dbAll('clientes');
-      allClients.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
+      allClients.sort((a,b)=>(a.nome||"").localeCompare(b.nome||"","pt-BR"));
       allLotes=await dbAll('lotes');
       currentFilter='TODOS';
       filteredClients=[...allClients];
@@ -3293,6 +3480,16 @@ window.addEventListener('beforeunload',e=>{
 
 init();
 
+// ── Garante que o campo de busca responde a todos os eventos possíveis ─────────
+(()=>{
+  const inp=document.getElementById('search-input');
+  if(inp){
+    ['input','keyup','paste','cut'].forEach(ev=>
+      inp.addEventListener(ev,()=>filterClientsDebounced())
+    );
+  }
+})();
+
 // ── RELATÓRIOS ────────────────────────────────────────────────────────────────
 function showRelatorio(){
   // popula exercícios disponíveis dinamicamente
@@ -3337,6 +3534,7 @@ function gerarRelatorio(){
     if(caract==='RRA'&&!clientHasRRA(c))return false;
     if(caract==='GCAP'&&!clientHasGCAP(c))return false;
     if(caract==='PER'&&!clientHasPer(c))return false;
+    if(caract==='PROC'&&!clientHasProc(c))return false;
     if(status!=='TODOS'){
       const exs=Object.entries(c.exercicios||{});
       if(exercicio!=='TODOS'){
@@ -3352,8 +3550,8 @@ function gerarRelatorio(){
   });
 
   // ordenação
-  if(ordem==='nome')lista.sort((a,b)=>a.nome.localeCompare(b.nome,'pt-BR'));
-  else if(ordem==='cpf')lista.sort((a,b)=>a.cpfCnpj.localeCompare(b.cpfCnpj));
+  if(ordem==='nome')lista.sort((a,b)=>(a.nome||'').localeCompare(b.nome||'','pt-BR'));
+  else if(ordem==='cpf')lista.sort((a,b)=>(a.cpfCnpj||'').localeCompare(b.cpfCnpj||''));
   else if(ordem==='status'){
     lista.sort((a,b)=>{
       const sa=classifyStatus(Object.values(a.exercicios||{})[0]||'').label;
@@ -3586,9 +3784,11 @@ function imprimirLoteUnico(idx){
   <div class="rodape">CadastroIR · Gestão de Clientes</div>
   <script>window.onload=()=>{window.print();window.onafterprint=()=>window.close();}<\/script>
   </body></html>`;
-  const w=window.open('','_blank','width=900,height=700');
-  w.document.write(html);
-  w.document.close();
+  // Usa Blob URL para evitar erro de segurança file:// no Chrome
+  const blob=new Blob([html],{type:'text/html;charset=utf-8'});
+  const url=URL.createObjectURL(blob);
+  const w=window.open(url,'_blank','width=900,height=700');
+  if(w)setTimeout(()=>URL.revokeObjectURL(url),60000);
 }
 function imprimirLotesView(){
   // Abre todos os lotes para impressão
