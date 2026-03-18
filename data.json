@@ -4229,7 +4229,7 @@
       "observacoes": "SENHA GOV Nina2020! - PER 2022 E 2023 RECEBIDOS EM 21/11/2024- PER 2024 FEITO EM 17/02/2025",
       "exercicios": {
         "2020": "8.622,02 EM 30/09/2024",
-        "2021": "8.234,11 EM 30/09/2024",
+        "2021": "PROCESSADA — 8.234,11 EM 30/09/2024",
         "2022": "PROCESSADA — 38.133,05 EM 30/09/2024",
         "2023": "PROCESSADA — 37.382,03 EM 30/09/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 13/01/2025",
@@ -4238,6 +4238,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-18T09:50:49.687Z",
+          "exercicio": "2021",
+          "de": "8.234,11 EM 30/09/2024",
+          "para": "PROCESSADA — 8.234,11 EM 30/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T09:50:37.067Z",
           "exercicio": "2022",
@@ -4268,6 +4275,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/09/2024",
+          "valor": 8234.11
+        },
         "2022": {
           "data": "30/09/2024",
           "valor": 38133.05
