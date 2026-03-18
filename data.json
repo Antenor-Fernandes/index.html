@@ -23291,9 +23291,36 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "RECURSO AO CARF FEITO EM 04/09/2024"
+        "2024": "EM PROCESSAMENTO — RECURSO AO CARF FEITO EM 04/09/2024"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-18T14:42:29.432Z",
+          "exercicio": "2024",
+          "de": "RECURSO AO CARF FEITO EM 04/09/2024",
+          "para": "EM PROCESSAMENTO — RECURSO AO CARF FEITO EM 04/09/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {
+        "2024": [
+          {
+            "numero": "13609.720031/2018-11",
+            "valorPedido": 0,
+            "dataProtocolo": "",
+            "obs": "RECURSO AO CARF EM 04/09/2024",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "20108672620",
