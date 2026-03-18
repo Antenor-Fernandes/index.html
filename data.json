@@ -8133,6 +8133,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-18T10:36:53.221Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T18:51:02.747Z",
           "exercicio": "2022",
           "de": "IMPUGNAÇÃO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
@@ -8230,7 +8237,18 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "08060.29078.041124.2.2.04-9298",
+            "valorPedido": 5010.38,
+            "dataTransmissao": "04/11/2024",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 6147.23
+          }
+        ]
+      }
     },
     {
       "id": "49092278653",
@@ -27477,6 +27495,21 @@
       "data": "31/03/2026",
       "descricao": "",
       "pagamentos": []
+    },
+    {
+      "data": "20/03/2026",
+      "descricao": "Lote 20/03/2026",
+      "pagamentos": [
+        {
+          "clienteId": "11280697172",
+          "cpfCnpj": "112.806.971-72",
+          "nome": "ELIANE MARIA DE CASTRO ROCHA",
+          "porExercicio": {
+            "EXPERDCOMP-2024-0": 6147.23
+          },
+          "total": 6147.23
+        }
+      ]
     },
     {
       "data": "27/02/2026",
