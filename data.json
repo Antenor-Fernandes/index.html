@@ -15614,8 +15614,29 @@
       "temPer": false,
       "doencaGrave": true,
       "temRRA": false,
-      "exercicios": {},
-      "historico": []
+      "exercicios": {
+        "2021": "IMPUGNAÇÃO"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-18T14:38:40.510Z",
+          "exercicio": "2021",
+          "de": "",
+          "para": "IMPUGNAÇÃO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {
+        "2021": {
+          "data": "17/03/2026"
+        }
+      },
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "04558006691",
