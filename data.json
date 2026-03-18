@@ -8595,6 +8595,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-18T11:03:57.226Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T11:03:23.545Z",
           "exercicio": "2023",
           "de": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025",
@@ -8645,7 +8652,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "30/04/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "13894823836",
