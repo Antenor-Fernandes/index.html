@@ -8309,8 +8309,36 @@
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
       "observacoes": "PEDIDO DE REVISÃO DE DÉBITO DIRPF 2017",
-      "exercicios": {},
-      "temPer": true
+      "exercicios": {
+        "2017": "TRABALHO MANUAL RFB"
+      },
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-18T10:51:43.020Z",
+          "exercicio": "2017",
+          "de": "",
+          "para": "TRABALHO MANUAL RFB",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {
+        "2017": [
+          {
+            "numero": "42854.53059.110625.2.2.04-5000",
+            "valorPedido": 155.88,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "30116538600",
