@@ -8315,6 +8315,13 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-18T10:58:46.110Z",
+          "exercicio": "2017",
+          "de": "TRABALHO MANUAL RFB",
+          "para": "TRABALHO MANUAL RFB",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T10:51:43.020Z",
           "exercicio": "2017",
           "de": "",
@@ -8334,8 +8341,64 @@
             "valorPedido": 155.88,
             "dataTransmissao": "11/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/03/2026",
+            "valorRec": 181.08
+          },
+          {
+            "numero": "28535.32840.110625.2.2.04-8004",
+            "valorPedido": 154.65,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 181.09
+          },
+          {
+            "numero": "14052.92421.110625.2.2.04-9120",
+            "valorPedido": 153.39,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 180.88
+          },
+          {
+            "numero": "30647.13855.110625.2.2.04-6789",
+            "valorPedido": 152.06,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 180.66
+          },
+          {
+            "numero": "35611.62127.110625.2.2.04-4636",
+            "valorPedido": 150.91,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 180.66
+          },
+          {
+            "numero": "32647.24993.110625.2.2.04-1521",
+            "valorPedido": 149.7,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 180.4
+          },
+          {
+            "numero": "25147.59925.110625.2.2.04-6406",
+            "valorPedido": 148.4,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 180.06
+          },
+          {
+            "numero": "23832.59058.110625.2.2.04-0432",
+            "valorPedido": 31.46,
+            "dataTransmissao": "11/06/2025",
+            "obs": "",
+            "dataRec": "20/03/2026",
+            "valorRec": 38.45
           }
         ]
       }
@@ -27550,6 +27613,22 @@
             "EXPERDCOMP-2024-0": 6147.23
           },
           "total": 6147.23
+        },
+        {
+          "clienteId": "04085811827",
+          "cpfCnpj": "040.858.118-27",
+          "nome": "ELIZABETE MARISA BAPTISTA ARENQUE",
+          "porExercicio": {
+            "EXPERDCOMP-2017-0": 181.08,
+            "EXPERDCOMP-2017-1": 181.09,
+            "EXPERDCOMP-2017-2": 180.88,
+            "EXPERDCOMP-2017-3": 180.66,
+            "EXPERDCOMP-2017-4": 180.66,
+            "EXPERDCOMP-2017-5": 180.4,
+            "EXPERDCOMP-2017-6": 180.06,
+            "EXPERDCOMP-2017-7": 38.45
+          },
+          "total": 1303.28
         }
       ]
     },
