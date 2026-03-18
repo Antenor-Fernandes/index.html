@@ -270,6 +270,7 @@ body.readonly .edit-only{display:none!important}
 .rel-table td{padding:8px 12px;color:var(--text);vertical-align:top}
 .rel-empty{padding:40px;text-align:center;color:var(--text3);font-size:13px}
 /* PRINT */
+@keyframes spin{to{transform:rotate(360deg)}}
 @media print{
   .sidebar,.topbar,.no-print{display:none!important}
   .main{display:block!important;overflow:visible!important}
@@ -346,7 +347,7 @@ body.exercicios-level .full-edit-only{display:none!important}
     <div id="topbar-linha1" style="display:flex;align-items:center;gap:10px">
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Nome ou CPF/CNPJ…" oninput="filterClients();if(currentView==='decl')renderDecl()">
+        <input type="text" id="search-input" placeholder="Nome, CPF/CNPJ, email, telefone, cidade…" oninput="filterClientsDebounced()">
       </div>
     </div>
     <!-- Linha 2: Novo Cliente + filtros + badges + Lotes + config (sempre visível) -->
@@ -559,7 +560,8 @@ body.exercicios-level .full-edit-only{display:none!important}
       <div style="padding:22px;display:flex;flex-direction:column;gap:14px">
         <p style="font-size:13.5px;color:var(--text2)">Exporte um backup JSON para salvar os dados ou importe um arquivo exportado anteriormente.</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
-          <button class="btn btn-ghost" onclick="exportJSON()">⬇️ Exportar backup</button>
+          <button class="btn btn-ghost" onclick="exportJSON()">⬇️ Exportar backup (JSON)</button>
+          <button class="btn btn-ghost" onclick="exportCSV()">📊 Exportar clientes (CSV)</button>
           <label class="btn btn-ghost" style="cursor:pointer">📂 Importar JSON<input type="file" accept=".json" style="display:none" onchange="importJSON(event)"></label>
         </div>
         <p style="font-size:11.5px;color:var(--text3)">Os dados ficam salvos no navegador (IndexedDB). Para migrar para outro computador, exporte o backup e importe no novo navegador.</p>
@@ -946,6 +948,10 @@ body.exercicios-level .full-edit-only{display:none!important}
 </div>
 
 <div class="toast" id="toast"></div>
+<div id="app-loading" style="position:fixed;inset:0;background:var(--surface,#0f1117);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999;gap:16px">
+  <div style="width:36px;height:36px;border:3px solid rgba(79,138,255,.2);border-top-color:var(--accent,#4f8aff);border-radius:50%;animation:spin .8s linear infinite"></div>
+  <div style="color:var(--text2,#8892a4);font-size:13px">Carregando…</div>
+</div>
 
 <script>
 // ── INDEXEDDB (cache local — funciona offline) ────────────────────────────────
@@ -1106,12 +1112,14 @@ function setSaveIndicator(state,msg){
     el.style.color='var(--yellow,#c8a000)';
     el.textContent='💾 Salvando…';
   }else if(state==='ok'){
+    _savePendente=false;
     el.style.display='inline-block';
     el.style.background='rgba(40,167,69,0.13)';
     el.style.color='var(--green,#28a745)';
     el.textContent='✅ Salvo';
     _saveIndicatorTimer=setTimeout(()=>{el.style.display='none';},4000);
   }else if(state==='error'){
+    _savePendente=true;
     el.style.display='inline-block';
     el.style.background='rgba(220,53,69,0.13)';
     el.style.color='var(--red,#dc3545)';
@@ -1511,6 +1519,9 @@ async function init(){
   if(!ghCfg?.owner&&!isReadOnly){
     showToast('⚙️ Configure o GitHub para ativar o acesso em nuvem','info');
   }
+  // Esconde o loading overlay
+  const loadEl=document.getElementById('app-loading');
+  if(loadEl)loadEl.style.display='none';
 }
 
 // ── VIEWS ─────────────────────────────────────────────────────────────────────
@@ -1567,6 +1578,27 @@ function classifyStatus(s){
   if(u.includes('MALHA'))return{cls:'malha',label:'Em Malha'};
   if(u.includes('FILA'))return{cls:'fila',label:'Em Fila'};
   return{cls:'outro',label:'Outro'};
+}
+// ── SEGURANÇA: escapa HTML para evitar XSS em dados de usuários ───────────────
+function esc(s){
+  if(s==null)return'';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+// ── VALIDAÇÃO CPF (módulo 11) ─────────────────────────────────────────────────
+function validarCPF(cpf){
+  cpf=cpf.replace(/\D/g,'');
+  if(cpf.length!==11||/^(\d)\1{10}$/.test(cpf))return false;
+  let s=0;for(let i=0;i<9;i++)s+=parseInt(cpf[i])*(10-i);
+  let r=11-(s%11);if(r>=10)r=0;if(r!==parseInt(cpf[9]))return false;
+  s=0;for(let i=0;i<10;i++)s+=parseInt(cpf[i])*(11-i);
+  r=11-(s%11);if(r>=10)r=0;return r===parseInt(cpf[10]);
+}
+// ── VALIDAÇÃO CNPJ (módulo 11) ────────────────────────────────────────────────
+function validarCNPJ(cnpj){
+  cnpj=cnpj.replace(/\D/g,'');
+  if(cnpj.length!==14||/^(\d)\1{13}$/.test(cnpj))return false;
+  const calc=(c,n)=>{let s=0,p=n-7;for(let i=0;i<n;i++){if(i===n-8)p=9;s+=parseInt(c[i])*p--;if(p<2)p=9;}const r=s%11;return r<2?0:11-r;};
+  return calc(cnpj,12)===parseInt(cnpj[12])&&calc(cnpj,13)===parseInt(cnpj[13]);
 }
 function getLastEx(c){
   if(!c.exercicios||!Object.keys(c.exercicios).length)return null;
@@ -1678,10 +1710,10 @@ function renderTable(list){
     const qeBtn=(canEditExercicios()&&le)?`<span class="badge badge-${cat.cls}" style="cursor:pointer" onclick="event.stopPropagation();openQE('${c.id}','${le.year}',event)" title="Editar status rapidamente">${cat.label}</span>`
       :(cat?`<span class="badge badge-${cat.cls}">${cat.label}</span>`:'<span style="color:var(--text3)">—</span>');
     return`<tr onclick="openDetail('${c.id}')">
-      <td><span class="badge badge-${c.tipo.toLowerCase()}">${c.tipo}</span></td>
-      <td class="td-doc">${c.cpfCnpj}</td>
-      <td class="td-name">${statusDots(c)}${c.nome}${c.doencaGrave?'<br><span class="tag-doenca">🩺 Doença Grave</span>':''}</td>
-      <td>${c.acessoEcac?`<span class="acesso-tag">${c.acessoEcac}</span>`:'<span style="color:var(--text3)">—</span>'}</td>
+      <td><span class="badge badge-${c.tipo.toLowerCase()}">${esc(c.tipo)}</span></td>
+      <td class="td-doc">${esc(c.cpfCnpj)}</td>
+      <td class="td-name">${statusDots(c)}${esc(c.nome)}${c.doencaGrave?'<br><span class="tag-doenca">🩺 Doença Grave</span>':''}</td>
+      <td>${c.acessoEcac?`<span class="acesso-tag">${esc(c.acessoEcac)}</span>`:'<span style="color:var(--text3)">—</span>'}</td>
       <td style="font-family:'DM Mono',monospace;font-size:11.5px;color:var(--text2)">${le?le.year:'—'}</td>
       <td>${qeBtn}</td>
       <td class="edit-only full-edit-only"><button class="btn btn-ghost btn-sm" onclick="event.stopPropagation();openEdit('${c.id}')">✏️</button></td>
@@ -1718,10 +1750,21 @@ function refreshCurrentView(){
 function clientHasRRA(c){return Object.values(c.exRRA||{}).some(v=>v?.ativo);}
 function clientHasGCAP(c){return Object.values(c.exGCAP||{}).some(v=>v?.ativo);}
 function clientHasPer(c){return getPerdcomps(c).length>0||Object.values(c.exPerdcomps||{}).some(v=>Array.isArray(v)&&v.length>0);}
+let _searchTimer=null;
+function filterClientsDebounced(){
+  clearTimeout(_searchTimer);
+  _searchTimer=setTimeout(()=>{filterClients();if(currentView==='decl')renderDecl();},300);
+}
 function filterClients(){
   const q=document.getElementById('search-input').value.toLowerCase().trim();
   filteredClients=allClients.filter(c=>{
-    const mt=!q||c.nome.toLowerCase().includes(q)||c.cpfCnpj.includes(q);
+    const mt=!q
+      ||c.nome.toLowerCase().includes(q)
+      ||c.cpfCnpj.includes(q)
+      ||(c.email||'').toLowerCase().includes(q)
+      ||(c.telefone||'').replace(/\D/g,'').includes(q.replace(/\D/g,''))
+      ||(c.cidade||'').toLowerCase().includes(q)
+      ||(c.observacoes||'').toLowerCase().includes(q);
     if(!mt)return false;
     if(currentFilter==='TODOS')return true;
     if(currentFilter==='PF'||currentFilter==='PJ')return c.tipo===currentFilter;
@@ -2367,10 +2410,10 @@ function openDetail(id){
   const exKeys=c.exercicios?Object.keys(c.exercicios).sort((a,b)=>b-a):[];
   document.getElementById('detail-content').innerHTML=`
     <div class="detail-header">
-      <div class="detail-avatar avatar-${c.tipo.toLowerCase()}">${initials(c.nome)}</div>
+      <div class="detail-avatar avatar-${c.tipo.toLowerCase()}">${esc(initials(c.nome))}</div>
       <div style="flex:1">
-        <div class="detail-name">${statusDots(c)}${c.nome}</div>
-        <div class="detail-doc">${c.cpfCnpj} · <span class="badge badge-${c.tipo.toLowerCase()}">${c.tipo}</span></div>
+        <div class="detail-name">${statusDots(c)}${esc(c.nome)}</div>
+        <div class="detail-doc">${esc(c.cpfCnpj)} · <span class="badge badge-${c.tipo.toLowerCase()}">${esc(c.tipo)}</span></div>
       </div>
       <div class="detail-actions">
         ${canEditFields()?`<button class="btn btn-ghost btn-sm edit-only full-edit-only" onclick="openEdit('${c.id}')">✏️ Editar</button>
@@ -2379,17 +2422,17 @@ function openDetail(id){
       </div>
     </div>
     <div class="cards-row">
-      <div class="info-card"><div class="info-card-label">RG</div><div class="info-card-val" style="font-family:'DM Mono',monospace;font-size:12.5px">${c.rg||'—'}</div></div>
-      <div class="info-card"><div class="info-card-label">Nacionalidade / Profissão</div><div class="info-card-val" style="font-size:12.5px">${[c.nacionalidade,c.profissao].filter(Boolean).join(' · ')||'—'}</div></div>
-      <div class="info-card"><div class="info-card-label">Estado Civil</div><div class="info-card-val">${c.estadoCivil||'—'}</div></div>
-      <div class="info-card"><div class="info-card-label">Telefone</div><div class="info-card-val" style="font-family:'DM Mono',monospace;font-size:12.5px">${c.telefone||'—'}</div></div>
-      <div class="info-card"><div class="info-card-label">E-mail</div><div class="info-card-val" style="font-size:12.5px;word-break:break-all">${c.email||'—'}</div></div>
-      <div class="info-card" style="grid-column:span 2"><div class="info-card-label">Endereço</div><div class="info-card-val" style="font-size:12.5px">${[c.logradouro,c.numeroEnd,c.complemento,c.bairro,c.cidade,c.uf].filter(Boolean).join(', ')||c.endereco||'—'}${c.cep?` — CEP ${c.cep}`:''}</div></div>
-      <div class="info-card"><div class="info-card-label">Acesso e-CAC</div><div class="info-card-val">${c.acessoEcac||'—'}</div></div>
-      <div class="info-card"><div class="info-card-label">Senha gov.br</div><div class="info-card-val" style="font-family:'DM Mono',monospace;font-size:12.5px">${c.senhaGov||'—'}</div></div>
-      ${c.procurador?`<div class="info-card"><div class="info-card-label">Procurador</div><div class="info-card-val" style="font-size:12.5px">${c.procurador}</div></div>`:''}
-      <div class="info-card"><div class="info-card-label">Contrato</div><div class="info-card-val" style="font-size:12px">${c.dataContrato?`📅 ${c.dataContrato}`:'—'}${c.honorarios?` · 💰 ${c.honorarios}`:''}</div></div>
-      ${c.objeto?`<div class="info-card" style="grid-column:span 2"><div class="info-card-label">Objeto</div><div class="info-card-val" style="font-size:12.5px">${c.objeto}</div></div>`:''}
+      <div class="info-card"><div class="info-card-label">RG</div><div class="info-card-val" style="font-family:'DM Mono',monospace;font-size:12.5px">${esc(c.rg)||'—'}</div></div>
+      <div class="info-card"><div class="info-card-label">Nacionalidade / Profissão</div><div class="info-card-val" style="font-size:12.5px">${[c.nacionalidade,c.profissao].filter(Boolean).map(esc).join(' · ')||'—'}</div></div>
+      <div class="info-card"><div class="info-card-label">Estado Civil</div><div class="info-card-val">${esc(c.estadoCivil)||'—'}</div></div>
+      <div class="info-card"><div class="info-card-label">Telefone</div><div class="info-card-val" style="font-family:'DM Mono',monospace;font-size:12.5px">${esc(c.telefone)||'—'}</div></div>
+      <div class="info-card"><div class="info-card-label">E-mail</div><div class="info-card-val" style="font-size:12.5px;word-break:break-all">${esc(c.email)||'—'}</div></div>
+      <div class="info-card" style="grid-column:span 2"><div class="info-card-label">Endereço</div><div class="info-card-val" style="font-size:12.5px">${[c.logradouro,c.numeroEnd,c.complemento,c.bairro,c.cidade,c.uf].filter(Boolean).map(esc).join(', ')||esc(c.endereco)||'—'}${c.cep?` — CEP ${esc(c.cep)}`:''}</div></div>
+      <div class="info-card"><div class="info-card-label">Acesso e-CAC</div><div class="info-card-val">${esc(c.acessoEcac)||'—'}</div></div>
+      <div class="info-card"><div class="info-card-label">Senha gov.br</div><div class="info-card-val" style="font-family:'DM Mono',monospace;font-size:12.5px">${esc(c.senhaGov)||'—'}</div></div>
+      ${c.procurador?`<div class="info-card"><div class="info-card-label">Procurador</div><div class="info-card-val" style="font-size:12.5px">${esc(c.procurador)}</div></div>`:''}
+      <div class="info-card"><div class="info-card-label">Contrato</div><div class="info-card-val" style="font-size:12px">${c.dataContrato?`📅 ${esc(c.dataContrato)}`:'—'}${c.honorarios?` · 💰 ${esc(c.honorarios)}`:''}</div></div>
+      ${c.objeto?`<div class="info-card" style="grid-column:span 2"><div class="info-card-label">Objeto</div><div class="info-card-val" style="font-size:12.5px">${esc(c.objeto)}</div></div>`:''}
       <div class="info-card" style="${c.temPer?'border-color:rgba(245,158,11,.35);background:rgba(245,158,11,.04)':''}"><div class="info-card-label">PERDCOMP</div><div class="info-card-val">${detailPerdcompHtml(c)}</div></div>
       <div class="info-card" style="${c.doencaGrave?'border-color:rgba(220,38,38,.35);background:rgba(220,38,38,.05)':''}"><div class="info-card-label">Doença Grave</div><div class="info-card-val">${c.doencaGrave?`<span class="tag-doenca">🩺 Sim – isento de IR</span>${c.laudo?'<div style="font-size:11px;margin-top:4px;color:var(--green)">✅ Laudo obtido pelo escritório</div>':''}${c.diagnostico?`<div style="font-size:11px;margin-top:4px;color:var(--text2)">${c.diagnostico}</div>`:''}${c.dataAposentadoria?`<div style="font-size:11px;margin-top:4px;color:var(--text3)">Aposen./Pensão: ${c.dataAposentadoria}</div>`:''}`:'Não'}</div></div>
 
@@ -2916,9 +2959,14 @@ async function saveClient(){
   const nome=document.getElementById('f-nome').value.trim();
   if(!doc||!nome){showToast('CPF/CNPJ e Nome são obrigatórios','error');return}
   const digits=doc.replace(/[.\-\/]/g,'');
+  // Validação aritmética do documento
+  if(tipo==='PF'&&!validarCPF(digits)){showToast('CPF inválido — verifique os dígitos','error');return;}
+  if(tipo==='PJ'&&!validarCNPJ(digits)){showToast('CNPJ inválido — verifique os dígitos','error');return;}
   const id=digits;
   // Preserva todos os campos não editáveis pelo formulário
   const existing=allClients.find(x=>x.id===id);
+  // Bloqueia duplicata ao criar novo cliente
+  if(!editingId&&existing){showToast(`⚠️ Já existe um cliente com este ${tipo==='PJ'?'CNPJ':'CPF'}: ${existing.nome}`,'error');return;}
   const doencaGrave=document.getElementById('f-doenca').value==='true';
   const obj={id,cpfCnpj:doc,tipo,nome,
     rg:document.getElementById('f-rg').value.trim(),
@@ -3093,6 +3141,25 @@ function renderSidebarStats(){
 }
 
 // ── IMPORT/EXPORT ─────────────────────────────────────────────────────────────
+function exportCSV(){
+  const headers=['Nome','CPF/CNPJ','Tipo','Telefone','Email','Cidade','UF','Acesso eCac',
+    'Último Exercício','Status','Doença Grave','Observações'];
+  const rows=allClients.map(c=>{
+    const le=getLastEx(c);
+    const status=le?classifyStatus(le.status).label:'—';
+    return[c.nome,c.cpfCnpj,c.tipo,c.telefone||'',c.email||'',c.cidade||'',c.uf||'',
+      c.acessoEcac||'',le?le.year:'',status,c.doencaGrave?'Sim':'Não',c.observacoes||''];
+  });
+  const csvStr=[headers,...rows].map(r=>
+    r.map(v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"').join(',')
+  ).join('\r\n');
+  const blob=new Blob(['\ufeff'+csvStr],{type:'text/csv;charset=utf-8'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`clientes_IR_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  showToast(`✅ CSV exportado — ${allClients.length} clientes`,'success');
+}
 function exportJSON(){
   const data={clientes:allClients,lotes:allLotes,access:accessList};
   const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
@@ -3202,6 +3269,27 @@ function showToast(msg,type='success'){
   el.textContent=msg;el.className=`toast ${type} show`;
   clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),3000);
 }
+
+// ── ESC fecha qualquer modal aberto ───────────────────────────────────────────
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  const ids=['modal-cliente','modal-gh-config','modal-user-manager','modal-ex','modal-novo-lote','modal-lote-cliente'];
+  for(const id of ids){
+    const el=document.getElementById(id);
+    if(el&&el.style.display!=='none'){el.style.display='none';return;}
+  }
+  // modal-login: só fecha se não for obrigatório
+  const ml=document.getElementById('modal-login');
+  if(ml&&ml.style.display!=='none'&&!(ghCfg?.owner&&accessList.length>0&&!currentUser)){
+    ml.style.display='none';
+  }
+});
+
+// ── Aviso ao fechar aba quando há save pendente ────────────────────────────────
+let _savePendente=false;
+window.addEventListener('beforeunload',e=>{
+  if(_savePendente){e.preventDefault();e.returnValue='';}
+});
 
 init();
 
