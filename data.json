@@ -21915,14 +21915,35 @@
       "senhaGov": "",
       "observacoes": "PER 2021 FEITO EM 06/11/2025 E RECEBIDO EM 20/02/2026- PEDIDO DE REVISÃO DE DÉBITO 2021 NA PGFN FEITO EM 05/11/2025 - DEFERIDO - ACOMPANHAR ORDEM BANCÁRIA",
       "exercicios": {
-        "2021": "IMPUGNAMOS EM 06/11/2025",
+        "2021": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
         "2022": "IMPUGNAMOS EM 06/11/2025",
         "2023": "RETIFICAMOS PARA INFORMAR ISENÇÃO DO PRECATÓRIO - DDA DG FEITO EM 06/11/2025 E PRECATÓRIO JUNTADO EM EM 27/11/2025",
         "2024": "ISENTA NA FONTE",
         "2025": "ISENTA NA FONTE"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-18T13:17:29.823Z",
+          "exercicio": "2021",
+          "de": "IMPUGNAMOS EM 06/11/2025",
+          "para": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2021": {
+          "data": "20/03/2026",
+          "valor": 217380.29
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "12464201634",
@@ -27750,6 +27771,15 @@
             "EXPERDCOMP-2017-7": 38.45
           },
           "total": 1303.28
+        },
+        {
+          "clienteId": "42104335604",
+          "cpfCnpj": "421.043.356-04",
+          "nome": "MARIA HELENA SCATOLINO DA SILVA",
+          "porExercicio": {
+            "2021": 217380.29
+          },
+          "total": 217380.29
         }
       ]
     },
