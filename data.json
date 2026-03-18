@@ -6253,9 +6253,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2023": "EM MALHA"
+        "2023": "EM MALHA",
+        "2025": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-18T14:54:35.753Z",
+          "exercicio": "2025",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T14:54:22.029Z",
           "exercicio": "2023",
@@ -6267,6 +6275,10 @@
       "recebimentos": {},
       "dda": {
         "2023": {
+          "feito": true,
+          "data": "18/03/2026"
+        },
+        "2025": {
           "feito": true,
           "data": "18/03/2026"
         }
