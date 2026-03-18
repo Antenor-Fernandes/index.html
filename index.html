@@ -356,7 +356,7 @@ body.exercicios-level .full-edit-only{display:none!important}
     <div id="topbar-linha1" style="display:flex;align-items:center;gap:10px">
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Nome, CPF/CNPJ, email, telefone, cidade…" oninput="filterClientsDebounced()">
+        <input type="text" id="search-input" placeholder="Nome, CPF/CNPJ, email, telefone, cidade…" oninput="filterClients();if(currentView==='decl')renderDecl()" onkeyup="filterClients()" onchange="filterClients()">
       </div>
     </div>
     <!-- Linha 2: Novo Cliente + filtros + badges + Lotes + config (sempre visível) -->
@@ -1732,10 +1732,13 @@ function renderDecl(){
 function renderTable(list){
   const tbody=document.getElementById('clients-tbody');
   const empty=document.getElementById('empty-state');
+  if(!tbody||!empty)return;
   document.getElementById('count-badge').textContent=list.length+' clientes';
   if(!list.length){tbody.innerHTML='';empty.style.display='block';return}
   empty.style.display='none';
+  try{
   tbody.innerHTML=list.map(c=>{
+    try{
     if(!c||!c.id||!c.nome)return'';
     const le=getLastEx(c);
     const cat=le?classifyStatus(le.status):null;
@@ -1749,8 +1752,9 @@ function renderTable(list){
       <td style="font-family:'DM Mono',monospace;font-size:11.5px;color:var(--text2)">${le?le.year:'—'}</td>
       <td>${qeBtn}</td>
       <td class="edit-only full-edit-only"><button class="btn btn-ghost btn-sm" onclick="event.stopPropagation();openEdit('${c.id}')">✏️</button></td>
-    </tr>`;
+    </tr>`;}catch(e){console.error('renderTable row error:',e);return'';}
   }).join('');
+  }catch(e){console.error('renderTable error:',e);}
 }
 
 // ── FILTER ────────────────────────────────────────────────────────────────────
@@ -1789,14 +1793,17 @@ function filterClientsDebounced(){
   _searchTimer=setTimeout(()=>{filterClients();if(currentView==='decl')renderDecl();},300);
 }
 function filterClients(){
+  try{
   const q=(document.getElementById('search-input')?.value||'').toLowerCase().trim();
+  const qDigits=q.replace(/\D/g,'');
   filteredClients=allClients.filter(c=>{
     try{
     const mt=!q
       ||(c.nome||'').toLowerCase().includes(q)
-      ||(c.cpfCnpj||'').includes(q)
+      ||(c.cpfCnpj||'').replace(/\D/g,'').includes(qDigits||q)
+      ||(c.cpfCnpj||'').toLowerCase().includes(q)
       ||(c.email||'').toLowerCase().includes(q)
-      ||(c.telefone||'').replace(/\D/g,'').includes(q.replace(/\D/g,''))
+      ||(qDigits&&(c.telefone||'').replace(/\D/g,'').includes(qDigits))
       ||(c.cidade||'').toLowerCase().includes(q)
       ||(c.observacoes||'').toLowerCase().includes(q);
     if(!mt)return false;}catch(e){return false;}
@@ -1810,6 +1817,7 @@ function filterClients(){
     return true;
   });
   renderTable(filteredClients);
+  }catch(e){console.error('filterClients error:',e);}
 }
 
 // ── MALHA VIEW ────────────────────────────────────────────────────────────────
@@ -3480,14 +3488,20 @@ window.addEventListener('beforeunload',e=>{
 
 init();
 
-// ── Garante que o campo de busca responde a todos os eventos possíveis ─────────
+// ── Garante busca via eventos E polling (fallback robusto para file://) ────────
 (()=>{
   const inp=document.getElementById('search-input');
   if(inp){
-    ['input','keyup','paste','cut'].forEach(ev=>
-      inp.addEventListener(ev,()=>filterClientsDebounced())
+    ['input','keyup','paste','cut','change'].forEach(ev=>
+      inp.addEventListener(ev,()=>{filterClients();if(currentView==='decl')renderDecl();})
     );
   }
+  // Polling de 200ms: detecta mudança de valor mesmo sem eventos (file:// fallback)
+  let _lastQ='';
+  setInterval(()=>{
+    const v=(document.getElementById('search-input')?.value||'').toLowerCase().trim();
+    if(v!==_lastQ){_lastQ=v;filterClients();if(currentView==='decl')renderDecl();}
+  },200);
 })();
 
 // ── RELATÓRIOS ────────────────────────────────────────────────────────────────
