@@ -21918,12 +21918,18 @@
         "2021": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
         "2022": "IMPUGNAMOS EM 06/11/2025",
         "2023": "EM MALHA — RETIFICAMOS PARA INFORMAR ISENÇÃO DO PRECATÓRIO - DDA DG FEITO EM 06/11/2025 E PRECATÓRIO JUNTADO EM EM 27/11/2025",
-        "2024": "ISENTA NA FONTE",
         "2025": "ISENTA NA FONTE"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-18T13:20:15.791Z",
+          "exercicio": "2024",
+          "de": "ISENTA NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T13:20:08.397Z",
           "exercicio": "2023",
