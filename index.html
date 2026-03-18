@@ -356,7 +356,7 @@ body.exercicios-level .full-edit-only{display:none!important}
     <div id="topbar-linha1" style="display:flex;align-items:center;gap:10px">
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Nome, CPF/CNPJ, email, telefone, cidade…" oninput="filterClients();if(currentView==='decl')renderDecl()" onkeyup="filterClients()" onchange="filterClients()">
+        <input type="text" id="search-input" placeholder="Nome, CPF/CNPJ, email, telefone, cidade…" oninput="filterClients();if(currentView==='decl')renderDecl()">
       </div>
     </div>
     <!-- Linha 2: Novo Cliente + filtros + badges + Lotes + config (sempre visível) -->
@@ -3492,7 +3492,7 @@ init();
 (()=>{
   const inp=document.getElementById('search-input');
   if(inp){
-    ['input','keyup','paste','cut','change'].forEach(ev=>
+    ['input','keyup','paste','cut'].forEach(ev=>
       inp.addEventListener(ev,()=>{filterClients();if(currentView==='decl')renderDecl();})
     );
   }
