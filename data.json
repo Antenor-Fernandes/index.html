@@ -21925,6 +21925,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-18T13:19:03.512Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
+          "para": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T13:17:29.823Z",
           "exercicio": "2021",
           "de": "IMPUGNAMOS EM 06/11/2025",
@@ -21942,7 +21949,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "37024.61588.061125.2.2.04-7925",
+            "valorPedido": 0,
+            "dataTransmissao": "06/11/2025",
+            "obs": "",
+            "dataRec": "20/02/2026",
+            "valorRec": 4194.08
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -28003,6 +28021,15 @@
             "EXPERDCOMP-2023-0": 3450.07
           },
           "total": 3450.07
+        },
+        {
+          "clienteId": "42104335604",
+          "cpfCnpj": "421.043.356-04",
+          "nome": "MARIA HELENA SCATOLINO DA SILVA",
+          "porExercicio": {
+            "EXPERDCOMP-2021-0": 4194.08
+          },
+          "total": 4194.08
         }
       ]
     },
