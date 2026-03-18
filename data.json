@@ -21004,6 +21004,13 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-18T12:40:16.950Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAÇÃO — MANIFESTAÇÃO DE INCONFORMIDADE",
+          "para": "IMPUGNAÇÃO — MANIFESTAÇÃO DE INCONFORMIDADE",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T12:39:16.333Z",
           "exercicio": "2020",
           "de": "MANIFESTAÇÃO DE INCONFORMIDADE",
@@ -21027,7 +21034,7 @@
             "numero": "10680.901452/2020-12",
             "valorPedido": 19382.32,
             "dataProtocolo": "19/02/2020",
-            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE",
+            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE - GCAP PAGO A MAIOR",
             "dataRec": "",
             "valorRec": 0
           }
