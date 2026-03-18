@@ -8587,13 +8587,20 @@
       "senhaGov": "",
       "observacoes": "PER 2023 E 2024 FEITOS EM 30/04/2025 - COBRAR PROVEITO ECONÔMICO DA DECLARAÇÃO ORIGINAL DE 2025 - IR A PAGAR DE 13.617,25 - NÃO PAGOU E NÃO TEM PER",
       "exercicios": {
-        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025",
+        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-18T11:03:23.545Z",
+          "exercicio": "2023",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 30/04/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T11:03:18.727Z",
           "exercicio": "2024",
@@ -8634,12 +8641,7 @@
         }
       ],
       "recebimentos": {},
-      "dda": {
-        "2023": {
-          "feito": true,
-          "data": "30/04/2025"
-        }
-      },
+      "dda": {},
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
