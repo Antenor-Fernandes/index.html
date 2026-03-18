@@ -20548,7 +20548,7 @@
       "senhaGov": "",
       "observacoes": "53 PER FEITOS EM 28/01/2025",
       "exercicios": {
-        "2019": "PROCESSADA — PEDIDO DE REVISÃO DE DÉBITO PGFN - DEFERIDO",
+        "2019": "EM PROCESSAMENTO",
         "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 29.043,35 EM 31/01/2025",
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 36.977,29 EM 31/01/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 34.625,22 EM 31/01/2025",
@@ -20559,6 +20559,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-18T14:17:12.756Z",
+          "exercicio": "2019",
+          "de": "PROCESSADA — PEDIDO DE REVISÃO DE DÉBITO PGFN - DEFERIDO",
+          "para": "EM PROCESSAMENTO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:36:58.583Z",
           "exercicio": "2019",
@@ -20639,7 +20646,19 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "PEDIDO DE REVISÃO DE DÉBITO NA PGFN DEFERIDO - RECEBEU 51 PER DE GUIAS DE PARCELAMENTO",
+            "dataRec": "20/03/2026",
+            "valorRec": 39604.24
+          }
+        ]
+      },
+      "exProcessos": {}
     },
     {
       "id": "42120306672",
@@ -27847,6 +27866,15 @@
             "2021": 217380.29
           },
           "total": 217380.29
+        },
+        {
+          "clienteId": "01386263672",
+          "cpfCnpj": "013.862.636-72",
+          "nome": "MARIA ALICE MORAIS SOARES DE LIMA",
+          "porExercicio": {
+            "EXPERDCOMP-2019-0": 39604.24
+          },
+          "total": 39604.24
         }
       ]
     },
