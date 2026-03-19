@@ -26861,10 +26861,31 @@
         "2022": "11.463,40 EM 31/10/2024",
         "2023": "46.112,43 EM 30/09/2024",
         "2024": "MALHA DG E PENSÃO - DDA FEITO EM 27/01/2025",
-        "2025": "MALHA DG E PENSÃO - DDA FEITO EM 09/02/2026"
+        "2025": "EM MALHA — MALHA DG E PENSÃO - DDA FEITO EM 09/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:20:58.116Z",
+          "exercicio": "2025",
+          "de": "MALHA DG E PENSÃO - DDA FEITO EM 09/02/2026",
+          "para": "EM MALHA — MALHA DG E PENSÃO - DDA FEITO EM 09/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "09/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "09165746600",
