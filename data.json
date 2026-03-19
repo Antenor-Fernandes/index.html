@@ -30500,9 +30500,28 @@
       "exercicios": {
         "2023": "MALHA DG - DDA FEITO EM 07/08/2024",
         "2024": "MALHA DG - DDA FEITO EM 30/01/2025",
-        "2025": "CLIENTE FEZ SEM ISENÇÃO"
+        "2025": "EM PROCESSAMENTO — CLIENTE FEZ SEM ISENÇÃO"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T19:21:21.766Z",
+          "exercicio": "2025",
+          "de": "CLIENTE FEZ SEM ISENÇÃO",
+          "para": "EM PROCESSAMENTO — CLIENTE FEZ SEM ISENÇÃO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2025": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "14416280610",
