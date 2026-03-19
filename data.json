@@ -22926,7 +22926,7 @@
       "temRRA": false,
       "exercicios": {
         "2016": "29802,66 EM 30/12/2020 MALHA DG",
-        "2017": "31883,8 EM 30/12/2020 MALHA DG",
+        "2017": "PROCESSADA — 31883,8 EM 30/12/2020 MALHA DG",
         "2018": "PROCESSADA — 33195,34 EM 30/12/2020 MALHA DG",
         "2019": "PROCESSADA — 32329,66 EM 30/12/2020 MALHA DG",
         "2020": "PROCESSADA — 31905,68 EM 30/12/2020 MALHA DG",
@@ -22937,6 +22937,13 @@
         "2025": "PROCESSADA — 48.022,90 EM 30/05/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-19T16:10:23.949Z",
+          "exercicio": "2017",
+          "de": "31883,8 EM 30/12/2020 MALHA DG",
+          "para": "PROCESSADA — 31883,8 EM 30/12/2020 MALHA DG",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:10:05.899Z",
           "exercicio": "2018",
@@ -22995,6 +23002,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "30/12/2020",
+          "valor": 31883.8
+        },
         "2018": {
           "data": "30/12/2020",
           "valor": 33195.34
@@ -44713,11 +44724,12 @@
           "cpfCnpj": "838.312.236-53",
           "nome": "MARIA DO CARMO MENEZES CESAR",
           "porExercicio": {
+            "2017": 31883.8,
             "2018": 33195.34,
             "2019": 32329.66,
             "2020": 31905.68
           },
-          "total": 97430.68
+          "total": 129314.48000000001
         }
       ]
     },
