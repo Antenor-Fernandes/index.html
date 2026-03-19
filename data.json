@@ -27373,12 +27373,19 @@
       "exercicios": {
         "2020": "PROCESSADA",
         "2021": "340,46 EM 31/10/2022",
-        "2022": "536,25 EM 31/10/2022",
+        "2022": "PROCESSADA — 536,25 EM 31/10/2022",
         "2023": "PROCESSADA — 1.121,70 EM 31/10/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 10/02/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-19T17:21:21.537Z",
+          "exercicio": "2022",
+          "de": "536,25 EM 31/10/2022",
+          "para": "PROCESSADA — 536,25 EM 31/10/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:21:09.856Z",
           "exercicio": "2023",
@@ -27402,6 +27409,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2022",
+          "valor": 536.25
+        },
         "2023": {
           "data": "31/10/2024",
           "valor": 1121.7
