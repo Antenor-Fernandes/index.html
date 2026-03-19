@@ -22566,12 +22566,19 @@
         "2021": "152.557,11 30/11/2022",
         "2022": "159.126,90 EM 28/03/2024",
         "2023": "144.121,38 EM 28/03/2024",
-        "2024": "MALHA DG - DDA FEITO EM 09/01/2025 - 135.413,97",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 09/01/2025 - 135.413,97",
         "2025": "EM MALHA — MALHA DG E DESPESAS MÉDICAS - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:02:09.708Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 09/01/2025 - 135.413,97",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 09/01/2025 - 135.413,97",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:01:53.641Z",
           "exercicio": "2025",
@@ -22582,6 +22589,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "09/01/2025"
+        },
         "2025": {
           "feito": true,
           "data": "26/01/2026"
