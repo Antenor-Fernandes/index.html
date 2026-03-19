@@ -31692,10 +31692,32 @@
       "observacoes": "FALTA LAUDO",
       "exercicios": {
         "2021": "RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025 - PROCESSADA IMPOSTO JÁ HAVIA SIDO RESTITUÍDO",
-        "2023": "ATENDEMOS A MALHA EM 18/11/2025 - NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO"
+        "2023": "EM MALHA — ATENDEMOS A MALHA EM 18/11/2025 - NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T19:35:40.818Z",
+          "exercicio": "2023",
+          "de": "ATENDEMOS A MALHA EM 18/11/2025 - NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO",
+          "para": "EM MALHA — ATENDEMOS A MALHA EM 18/11/2025 - NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "18/11/2025"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "27653307604",
