@@ -24595,10 +24595,31 @@
       "observacoes": "Maria2505# - PER 2024 FEITO EM 14/08/2025 -PER 2025 FEITO EM 09/02/2026",
       "exercicios": {
         "2024": "MALHA DG - DDA FEITO EM 14/08/2025",
-        "2025": "MALHA DG - DDA FEITO EM 06/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 06/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T17:02:05.068Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 06/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 06/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "06/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "04178583611",
