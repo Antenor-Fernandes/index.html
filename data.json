@@ -23868,7 +23868,7 @@
       "observacoes": "PER 2020 A 2024 FEITOS EM 30/01/2025 - RECBIDOS EM 20/05/2025 - Não pagou o imposto da declaração original no valor de R$ 17.059,90. Cobrar proveito econômico quando sair a restituição de 2025",
       "exercicios": {
         "2020": "4.360,75 EM 28/02/2025",
-        "2021": "5.028,65 EM 28/02/2025",
+        "2021": "PROCESSADA — 5.028,65 EM 28/02/2025",
         "2022": "PROCESSADA — 6.306,47 EM 28/02/2025",
         "2023": "PROCESSADA — 8.596,48 EM 28/02/2025",
         "2024": "PROCESSADA — 9.148,48 EM 28/02/2025",
@@ -23877,6 +23877,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:26:59.227Z",
+          "exercicio": "2021",
+          "de": "5.028,65 EM 28/02/2025",
+          "para": "PROCESSADA — 5.028,65 EM 28/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:26:47.919Z",
           "exercicio": "2022",
@@ -23907,6 +23914,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "28/02/2025",
+          "valor": 5028.65
+        },
         "2022": {
           "data": "28/02/2025",
           "valor": 6306.47
