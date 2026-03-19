@@ -31149,7 +31149,7 @@
       "observacoes": "",
       "exercicios": {
         "2020": "PROCESSADA",
-        "2021": "52.073,46 - 29/12/2022",
+        "2021": "EM PROCESSAMENTO — 52.073,46 - 29/12/2022",
         "2022": "PROCESSADA — 74.545,48 - 29/12/2022",
         "2023": "PROCESSADA — 89.814,77 EM 29/11/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 20/01/2025",
@@ -31158,6 +31158,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:31:53.262Z",
+          "exercicio": "2021",
+          "de": "52.073,46 - 29/12/2022",
+          "para": "EM PROCESSAMENTO — 52.073,46 - 29/12/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:31:35.665Z",
           "exercicio": "2022",
@@ -31188,6 +31195,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "29/12/2022",
+          "valor": 52073.46
+        },
         "2022": {
           "data": "29/12/2022",
           "valor": 74545.48
