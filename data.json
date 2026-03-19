@@ -28182,13 +28182,20 @@
       "observacoes": "TEM PER 2020, 2021 E 2022- RECEBIDOS 2020 e 2021 EM 20/10/2023 - PER 2022 RECEBIDO EM 20/02/2024 - PER 2023 FEITO EM 31/01/2024 FALTA RECEBER",
       "exercicios": {
         "2020": "MALHA DG - 8.561,30 - TEVE COMPENSAÇÃO COM O IR DE 2023",
-        "2021": "11.249,78 EM 31/08/2023",
+        "2021": "PROCESSADA — 11.249,78 EM 31/08/2023",
         "2022": "PROCESSADA — 11.340,70 EM 31/08/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 31/01/2024"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:45:42.617Z",
+          "exercicio": "2021",
+          "de": "11.249,78 EM 31/08/2023",
+          "para": "PROCESSADA — 11.249,78 EM 31/08/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:45:28.180Z",
           "exercicio": "2022",
@@ -28219,6 +28226,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/08/2023",
+          "valor": 11249.78
+        },
         "2022": {
           "data": "31/08/2023",
           "valor": 11340.7
