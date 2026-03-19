@@ -22306,9 +22306,30 @@
         "2022": "PROCESSADA",
         "2023": "MALHA DESP MED - BRADESCO SAÚDE - DDA FEITO EM 15/02/2024",
         "2024": "MALHA DESP. MÉD - DDA FEITO EM 03/02/2025",
-        "2025": "MALHA DEDUÇÕES - DDA FEITO EM 05/02/2026"
+        "2025": "EM MALHA — MALHA DEDUÇÕES - DDA FEITO EM 05/02/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T15:59:29.107Z",
+          "exercicio": "2025",
+          "de": "MALHA DEDUÇÕES - DDA FEITO EM 05/02/2026",
+          "para": "EM MALHA — MALHA DEDUÇÕES - DDA FEITO EM 05/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "05/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "14399318600",
