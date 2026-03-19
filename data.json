@@ -22020,11 +22020,18 @@
         "2021": "122.432,27 - 30/12/2021",
         "2022": "MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
         "2023": "CLIENTE QUE FEZ",
-        "2024": "9.528,98 EM 31/05/2024"
+        "2024": "PROCESSADA — 9.528,98 EM 31/05/2024"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:54:34.658Z",
+          "exercicio": "2024",
+          "de": "9.528,98 EM 31/05/2024",
+          "para": "PROCESSADA — 9.528,98 EM 31/05/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:54:15.804Z",
           "exercicio": "2025",
@@ -22032,7 +22039,19 @@
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "recebimentos": {
+        "2024": {
+          "data": "31/05/2024",
+          "valor": 9528.98
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "45636613687",
