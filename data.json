@@ -25393,7 +25393,7 @@
       "observacoes": "não pagou o imposto da declaração original no valor de R$ 12.381,34, cobrar proveito economico quando sair a restituição de 2025",
       "exercicios": {
         "2017": "R$ 106,60 30/12/2021 - RECEBEU 1 PER EM 20/04/2022",
-        "2018": "302,28 31/05/2022",
+        "2018": "PROCESSADA — 302,28 31/05/2022",
         "2019": "PROCESSADA — 2.742,73 30/11/2022",
         "2020": "PROCESSADA — 346,02 31/05/2022",
         "2021": "PROCESSADA — 291,48 31/05/2022",
@@ -25405,6 +25405,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:31:23.676Z",
+          "exercicio": "2018",
+          "de": "302,28 31/05/2022",
+          "para": "PROCESSADA — 302,28 31/05/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:31:13.877Z",
           "exercicio": "2019",
@@ -25456,6 +25463,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "31/05/2022",
+          "valor": 302.28
+        },
         "2019": {
           "data": "30/11/2022",
           "valor": 2742.73
