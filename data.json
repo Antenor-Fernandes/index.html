@@ -25773,12 +25773,19 @@
         "2021": "10.362,53 EM 31/10/2024",
         "2022": "11.474,17 EM 29/11/2024",
         "2023": "5.719,31 EM 29/11/2024",
-        "2024": "10.943,56 EM 29/11/2024",
+        "2024": "PROCESSADA — 10.943,56 EM 29/11/2024",
         "2025": "EM MALHA — MALHA DG E ALUGUEL - DDA FEITO EM 10/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:46:19.443Z",
+          "exercicio": "2024",
+          "de": "10.943,56 EM 29/11/2024",
+          "para": "PROCESSADA — 10.943,56 EM 29/11/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:45:55.104Z",
           "exercicio": "2025",
@@ -25787,7 +25794,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "29/11/2024",
+          "valor": 10943.56
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
