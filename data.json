@@ -26444,9 +26444,41 @@
       "senhaGov": "",
       "observacoes": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO DAS GUIAS PADAS NO CÓDIGO 1734 NÃO ACEITAS PELO PROGRAMA PERDCOMP",
       "exercicios": {
-        "2023": "PEDIDO DE DESFAZIMENTO DA COMPENSAÇÃO FEITO EM 09/09/2025 - 4.152,71 EM 30/12/2025 - FOI PEDIDO O DESFAZIMENTO DA COMPENSAÇÃO DE DOIS DÉBITOS MAS SÓ UM FOI DEFERIDO"
+        "2023": "EM PROCESSAMENTO — PEDIDO DE DESFAZIMENTO DA COMPENSAÇÃO FEITO EM 09/09/2025 - 4.152,71 EM 30/12/2025 - FOI PEDIDO O DESFAZIMENTO DA COMPENSAÇÃO DE DOIS DÉBITOS MAS SÓ UM FOI DEFERIDO"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T17:56:20.789Z",
+          "exercicio": "2023",
+          "de": "PEDIDO DE DESFAZIMENTO DA COMPENSAÇÃO FEITO EM 09/09/2025 - 4.152,71 EM 30/12/2025 - FOI PEDIDO O DESFAZIMENTO DA COMPENSAÇÃO DE DOIS DÉBITOS MAS SÓ UM FOI DEFERIDO",
+          "para": "EM PROCESSAMENTO — PEDIDO DE DESFAZIMENTO DA COMPENSAÇÃO FEITO EM 09/09/2025 - 4.152,71 EM 30/12/2025 - FOI PEDIDO O DESFAZIMENTO DA COMPENSAÇÃO DE DOIS DÉBITOS MAS SÓ UM FOI DEFERIDO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2023": {
+          "data": "30/12/2025",
+          "valor": 4152.71
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {
+        "2023": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataProtocolo": "",
+            "obs": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO DAS GUIAS PAGAS NO CÓDIGO 1734 NÃO ACEITAS PELO PROGRAMA PERDCOMP",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "26495996691",
