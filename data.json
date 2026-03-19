@@ -27285,11 +27285,18 @@
       "exercicios": {
         "2022": "2.266,81 EM 31/10/2023",
         "2023": "PROCESSADA",
-        "2024": "954,50 EM 31/05/2025",
+        "2024": "PROCESSADA — 954,50 EM 31/05/2025",
         "2025": "EM MALHA — MALHA ALUGUEL - DDA FEITO EM 13/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T18:40:00.099Z",
+          "exercicio": "2024",
+          "de": "954,50 EM 31/05/2025",
+          "para": "PROCESSADA — 954,50 EM 31/05/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:39:47.973Z",
           "exercicio": "2025",
@@ -27298,7 +27305,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/05/2025",
+          "valor": 954.5
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -34471,6 +34483,21 @@
           "porExercicio": {
             "2025": 3241.47
           }
+        }
+      ]
+    },
+    {
+      "data": "31/05/2025",
+      "descricao": "Lote 31/05/2025",
+      "pagamentos": [
+        {
+          "clienteId": "91494095653",
+          "cpfCnpj": "914.940.956-53",
+          "nome": "NÍDIA DOS ANJOS COSTA",
+          "porExercicio": {
+            "2024": 954.5
+          },
+          "total": 954.5
         }
       ]
     },
