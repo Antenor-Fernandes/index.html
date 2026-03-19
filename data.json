@@ -22682,13 +22682,20 @@
         "2020": "R$ 26.971,79 - 31/07/2020",
         "2021": "33.537,59 EM 31/01/2023",
         "2022": "MALHA DG -31.575,53 - DDA EM 18/01/2023",
-        "2023": "43.597,58 EM 30/04/2024",
+        "2023": "EM PROCESSAMENTO — 43.597,58 EM 30/04/2024",
         "2024": "PROCESSADA — 51.775,69 EM 31/05/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 26/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:03:59.590Z",
+          "exercicio": "2023",
+          "de": "43.597,58 EM 30/04/2024",
+          "para": "EM PROCESSAMENTO — 43.597,58 EM 30/04/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:03:49.889Z",
           "exercicio": "2024",
@@ -22705,6 +22712,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "30/04/2024",
+          "valor": 43597.58
+        },
         "2024": {
           "data": "31/05/2024",
           "valor": 51775.69
@@ -35821,7 +35832,7 @@
           "id": "39284743672",
           "cpfCnpj": "392.847.436-72",
           "nome": "MARIA DE LOURDES SANTANA OLIVEIRA",
-          "total": 82369.29,
+          "total": 82369.29000000001,
           "porExercicio": {
             "2022": 38771.71,
             "2023": 43597.58
