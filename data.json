@@ -21405,7 +21405,7 @@
       "senhaGov": "",
       "observacoes": "TEM PER 2018, 2020 E 2021 FEITOS EM 24/05/2022 - RECEBEU OS 3 - PER DO PARCELAMENTO exerc. 18 e 19 FEITOS EM 17/10/2023 (14 PER) -  RECEBEU 11 EM 22/04/2024 E 2 EM 20/08/2024",
       "exercicios": {
-        "2016": "R$ 1.475,90 29/07/2022",
+        "2016": "PROCESSADA — R$ 1.475,90 29/07/2022",
         "2018": "PROCESSADA — 2.949,07 EM 31/10/2023",
         "2019": "PROCESSADA — 3.088,30 EM 31/10/2023",
         "2020": "PROCESSADA — R$ 2.917,22 29/07/2022",
@@ -21418,6 +21418,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:42:21.573Z",
+          "exercicio": "2016",
+          "de": "R$ 1.475,90 29/07/2022",
+          "para": "PROCESSADA — R$ 1.475,90 29/07/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:42:06.222Z",
           "exercicio": "2019",
@@ -21497,6 +21504,10 @@
         }
       ],
       "recebimentos": {
+        "2016": {
+          "data": "29/07/2022",
+          "valor": 1475.9
+        },
         "2018": {
           "data": "31/10/2023",
           "valor": 2949.07
