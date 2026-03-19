@@ -28183,12 +28183,19 @@
       "exercicios": {
         "2020": "MALHA DG - 8.561,30 - TEVE COMPENSAÇÃO COM O IR DE 2023",
         "2021": "11.249,78 EM 31/08/2023",
-        "2022": "11.340,70 EM 31/08/2023",
+        "2022": "PROCESSADA — 11.340,70 EM 31/08/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 31/01/2024"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:45:28.180Z",
+          "exercicio": "2022",
+          "de": "11.340,70 EM 31/08/2023",
+          "para": "PROCESSADA — 11.340,70 EM 31/08/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:45:10.805Z",
           "exercicio": "2023",
@@ -28211,7 +28218,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/08/2023",
+          "valor": 11340.7
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
@@ -40107,7 +40119,7 @@
           "id": "00629464634",
           "cpfCnpj": "006.294.646-34",
           "nome": "PAULO AFONSO DE FARIA",
-          "total": null,
+          "total": 22590.480000000003,
           "porExercicio": {
             "2021": 11249.78,
             "2022": 11340.7
