@@ -28401,13 +28401,20 @@
       "exercicios": {
         "2021": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
         "2022": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
-        "2023": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+        "2023": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
         "2024": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
         "2025": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:57:17.405Z",
+          "exercicio": "2023",
+          "de": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+          "para": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:56:58.638Z",
           "exercicio": "2024",
@@ -28438,6 +28445,16 @@
       "exPerdcomps": {},
       "exAtencao": {},
       "exProcessos": {
+        "2023": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataProtocolo": "17/12/2025",
+            "obs": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
         "2024": [
           {
             "numero": "",
