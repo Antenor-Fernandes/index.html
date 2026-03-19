@@ -24725,9 +24725,30 @@
       "observacoes": "",
       "exercicios": {
         "2024": "ATENDEMOS INTIMAÇÃO EM 01/09/2025",
-        "2025": "NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026"
+        "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T17:04:59.754Z",
+          "exercicio": "2025",
+          "de": "NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026",
+          "para": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "25/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "68392478649",
