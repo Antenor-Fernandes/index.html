@@ -23130,7 +23130,7 @@
         "2019": "2756,26 EM 31/03/21 - FIZEMOS PER",
         "2020": "2756,26 EM 31/03/21 - FIZEMOS PER",
         "2021": "3.231,43 EM 28/02/2023",
-        "2022": "2.435,85 EM 28/02/2023",
+        "2022": "PROCESSADA — 2.435,85 EM 28/02/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
@@ -23138,6 +23138,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:12:12.821Z",
+          "exercicio": "2022",
+          "de": "2.435,85 EM 28/02/2023",
+          "para": "PROCESSADA — 2.435,85 EM 28/02/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:12:00.856Z",
           "exercicio": "2023",
@@ -23160,7 +23167,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "28/02/2023",
+          "valor": 2435.85
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
