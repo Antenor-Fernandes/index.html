@@ -28520,7 +28520,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2015": "IMPUGNAMOS - DEFERIDO",
+        "2015": "PROCESSADA — IMPUGNAMOS - DEFERIDO",
         "2016": "PROCESSADA — 12.328,68 EM 15/07/2019",
         "2017": "PROCESSADA — 13.716,10 EM 15/07/2019",
         "2018": "PROCESSADA — 14.612,13 EM 15/07/2019",
@@ -28535,6 +28535,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:01:13.147Z",
+          "exercicio": "2015",
+          "de": "IMPUGNAMOS - DEFERIDO",
+          "para": "PROCESSADA — IMPUGNAMOS - DEFERIDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:01:07.008Z",
           "exercicio": "2016",
