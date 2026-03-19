@@ -26516,10 +26516,37 @@
       "senhaGov": "",
       "observacoes": "COBRAR PROVEITO ECONÔMICO, APOS LIBERAÇÃO DA MALHA PEDIR REVISÃO DE PARCELAMENTO",
       "exercicios": {
-        "2025": "PROCESSADA EM 05/01/2026"
+        "2025": "PROCESSADA — LIBERADA EM 05/01/2026 - COBRAR PROVEITO ECONÔMICO"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:00:00.538Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA EM 05/01/2026",
+          "para": "PROCESSADA — LIBERADA EM 05/01/2026 - COBRAR PROVEITO ECONÔMICO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {
+        "2025": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataProtocolo": "",
+            "obs": "PEDIR REVISÃO DE PARCELAMENTO",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "05644469638",
