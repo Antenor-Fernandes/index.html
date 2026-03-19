@@ -23434,7 +23434,7 @@
       "senhaGov": "Maria1959!",
       "observacoes": "SENHA GOV Maria1959! - PER 2021 A 2023 FEITOS EM 25/06/2024  - PER E DDA 2024 FEITO EM 16/01/2025 - RECEBEU 4 EM 20/05/2025 - OBS: cobrar proveito econômico do imposto devido na original no valor de R$ 6.117,73 DA DECLARAÇÃO DE 2025",
       "exercicios": {
-        "2020": "151,22 EM 31/07/2024",
+        "2020": "PROCESSADA — 151,22 EM 31/07/2024",
         "2021": "PROCESSADA — 4.942,98 EM 28/02/2025",
         "2022": "PROCESSADA — 5.561,28 EM 28/02/2025",
         "2023": "PROCESSADA — 6.727,37 EM 28/02/2025",
@@ -23444,6 +23444,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:19:20.905Z",
+          "exercicio": "2020",
+          "de": "151,22 EM 31/07/2024",
+          "para": "PROCESSADA — 151,22 EM 31/07/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:19:07.911Z",
           "exercicio": "2021",
@@ -23481,6 +23488,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/07/2024",
+          "valor": 151.22
+        },
         "2021": {
           "data": "28/02/2025",
           "valor": 4942.98
