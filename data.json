@@ -24643,13 +24643,20 @@
       "exercicios": {
         "2021": "6.818,36 EM 30/01/2026",
         "2022": "9.820,72 EM 30/01/2026 - GLOSA DO VGBL - IMPUGNAR",
-        "2023": "9010,78 - GLOSA DO VGBL - IMPUGNAR",
+        "2023": "IMPUGNAR — 9010,78 - GLOSA DO VGBL - IMPUGNAR",
         "2024": "PROCESSADA — 9.744,04 EM 30/01/2026",
         "2025": "PROCESSADA — 10.668,92 EM 30/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:03:57.114Z",
+          "exercicio": "2023",
+          "de": "9010,78 - GLOSA DO VGBL - IMPUGNAR",
+          "para": "IMPUGNAR — 9010,78 - GLOSA DO VGBL - IMPUGNAR",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:03:13.312Z",
           "exercicio": "2024",
@@ -24666,6 +24673,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "30/01/2026",
+          "valor": 9010.78
+        },
         "2024": {
           "data": "30/01/2026",
           "valor": 9744.04
