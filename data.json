@@ -25549,7 +25549,7 @@
       "senhaGov": "Silva@2022",
       "observacoes": "PER 2019 A 2021 FEITOS EM 18/01/2024 - PER 2022 E 2023 FEITOS EM 19/01/2024 - RECEBEU 2 EM 15/05/2024 E 3 EM 20/06/2024 - SENHA GOV Silva@2022",
       "exercicios": {
-        "2019": "MALHA DG - DDA FEITO EM 18/01/2024",
+        "2019": "PROCESSADA — MALHA DG - DDA FEITO EM 18/01/2024",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA — 5.148,81 EM 28/03/2024",
         "2022": "PROCESSADA — 14.106,43 EM 28/03/2024",
@@ -25560,6 +25560,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:34:05.429Z",
+          "exercicio": "2019",
+          "de": "MALHA DG - DDA FEITO EM 18/01/2024",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 18/01/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:33:37.373Z",
           "exercicio": "2021",
