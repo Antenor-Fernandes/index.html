@@ -25261,11 +25261,32 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 05/02/2025",
+        "2024": "EM MALHA — MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 05/02/2025",
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T17:16:47.224Z",
+          "exercicio": "2024",
+          "de": "MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 05/02/2025",
+          "para": "EM MALHA — MALHA - NÃO FOMOS NÓS QUE TRANSMITIMOS - FIZEMOS SÓ O DDA EM 05/02/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "05/02/2025"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "17746248691",
