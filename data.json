@@ -23287,7 +23287,7 @@
         "2017": "11918,53 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
         "2018": "12011,76 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
         "2019": "12.069,67  EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
-        "2020": "R$ 12.172,74 31/08/2021 TEM PERDCOMP WEB - RECEBEU PER EM 20/09/2021 - 12.376,76",
+        "2020": "PROCESSADA — R$ 12.172,74 31/08/2021 TEM PERDCOMP WEB - RECEBEU PER EM 20/09/2021 - 12.376,76",
         "2021": "PROCESSADA — 13.152,22 - 31/08/2021 - TEM PER WEB - RECEBEU PER EM 22/11/2021 - 11.319,53",
         "2022": "PROCESSADA — 17.621,95 EM 30/09/2024",
         "2023": "PROCESSADA — 17.268,93 EM 30/09/2024",
@@ -23297,6 +23297,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:17:07.485Z",
+          "exercicio": "2020",
+          "de": "R$ 12.172,74 31/08/2021 TEM PERDCOMP WEB - RECEBEU PER EM 20/09/2021 - 12.376,76",
+          "para": "PROCESSADA — R$ 12.172,74 31/08/2021 TEM PERDCOMP WEB - RECEBEU PER EM 20/09/2021 - 12.376,76",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:16:50.229Z",
           "exercicio": "2021",
@@ -23334,6 +23341,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/08/2021",
+          "valor": 12172.74
+        },
         "2021": {
           "data": "31/08/2021",
           "valor": 1315.22
