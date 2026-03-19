@@ -29016,7 +29016,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "R$ 1.143,96 - 30/09/2020",
+        "2020": "PROCESSADA — R$ 1.143,96 - 30/09/2020",
         "2021": "PROCESSADA — R$ 3.252,30 31/08/2021",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
@@ -29025,6 +29025,13 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T19:04:46.817Z",
+          "exercicio": "2020",
+          "de": "R$ 1.143,96 - 30/09/2020",
+          "para": "PROCESSADA — R$ 1.143,96 - 30/09/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:04:34.116Z",
           "exercicio": "2021",
@@ -29041,6 +29048,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/09/2020",
+          "valor": 1143.96
+        },
         "2021": {
           "data": "31/08/2021",
           "valor": 3252.3
@@ -47955,7 +47966,7 @@
           "id": "04043583656",
           "cpfCnpj": "040.435.836-56",
           "nome": "RACHEL FRIZEIRO",
-          "total": null,
+          "total": 1143.96,
           "porExercicio": {
             "2020": 1143.96
           }
