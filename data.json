@@ -28185,11 +28185,19 @@
         "2021": "11.249,78 EM 31/08/2023",
         "2022": "11.340,70 EM 31/08/2023",
         "2023": "MALHA DG - DDA FEITO EM 31/01/2024",
-        "2024": "CLIENTE QUE FEZ",
-        "2025": "CLIENTE QUE FEZ"
+        "2024": "CLIENTE QUE FEZ"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:44:45.185Z",
+          "exercicio": "2025",
+          "de": "CLIENTE QUE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "13110110644",
