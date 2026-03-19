@@ -26366,13 +26366,20 @@
       "exercicios": {
         "2019": "86.749,50 EM 20/08/2025 - NÃO FOMOS NÓS QUE FIZEMOS",
         "2020": "91.015,80 EM 21/11/2025 - NÃO FOMOS NÓS QUE FIZEMOS",
-        "2023": "MALHA DG - DDA FEITO EM 26/04/2024 - 70.000 - PEDIDO DE PRIORIDADE FEITO PELO CHAT EM 12/02/2025",
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 26/04/2024 - 70.000 - PEDIDO DE PRIORIDADE FEITO PELO CHAT EM 12/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2025",
         "2025": "PROCESSADA"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:53:30.501Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 26/04/2024 - 70.000 - PEDIDO DE PRIORIDADE FEITO PELO CHAT EM 12/02/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 26/04/2024 - 70.000 - PEDIDO DE PRIORIDADE FEITO PELO CHAT EM 12/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:53:09.101Z",
           "exercicio": "2024",
@@ -26383,6 +26390,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "26/04/2024"
+        },
         "2024": {
           "feito": true,
           "data": "27/01/2025"
