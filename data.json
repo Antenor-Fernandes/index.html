@@ -27577,12 +27577,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA DG - DDA FEITO PELA TT",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO PELA TT",
         "2025": "PROCESSADA — 1.842,14 EM 30/05/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:42:27.731Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO PELA TT",
+          "para": "EM MALHA — MALHA DG - DDA FEITO PELA TT",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:42:17.000Z",
           "exercicio": "2025",
@@ -27597,7 +27604,12 @@
           "valor": 1842.14
         }
       },
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": ""
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
