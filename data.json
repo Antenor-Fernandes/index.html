@@ -28184,11 +28184,18 @@
         "2020": "MALHA DG - 8.561,30 - TEVE COMPENSAÇÃO COM O IR DE 2023",
         "2021": "11.249,78 EM 31/08/2023",
         "2022": "11.340,70 EM 31/08/2023",
-        "2023": "MALHA DG - DDA FEITO EM 31/01/2024"
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 31/01/2024"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:45:10.805Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 31/01/2024",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 31/01/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:44:48.263Z",
           "exercicio": "2024",
@@ -28203,7 +28210,20 @@
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "31/01/2024"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "13110110644",
