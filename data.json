@@ -24323,7 +24323,7 @@
       "senhaGov": "mari24PA$",
       "observacoes": "SENHA GOV.BR mari24PA$",
       "exercicios": {
-        "2020": "R$ 1.049,53 30/06/2022",
+        "2020": "EM PROCESSAMENTO — R$ 1.049,53 30/06/2022",
         "2021": "PROCESSADA — R$ 663,16 - 30/06/2021",
         "2022": "PROCESSADA — 7.984,33 EM 31/07/2024",
         "2023": "PROCESSADA — 5.235,11 EM 31/07/2024",
@@ -24333,6 +24333,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:59:59.051Z",
+          "exercicio": "2020",
+          "de": "R$ 1.049,53 30/06/2022",
+          "para": "EM PROCESSAMENTO — R$ 1.049,53 30/06/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:59:50.228Z",
           "exercicio": "2021",
@@ -24370,6 +24377,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/06/2022",
+          "valor": 1049.53
+        },
         "2021": {
           "data": "30/06/2021",
           "valor": 663.16
@@ -42670,8 +42681,9 @@
           "id": "27929493687",
           "cpfCnpj": "279.294.936-87",
           "nome": "MARIA JOSÉ NEGREIROS DE PAIVA",
-          "total": 1049.53,
+          "total": 2099.06,
           "porExercicio": {
+            "2020": 1049.53,
             "2021": 1049.53
           }
         },
