@@ -21768,13 +21768,20 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "TRABALHADA PELA MALHA - IMPOSTO COMPLEMENTAR A PAGAR",
+        "2019": "PROCESSADA — TRABALHADA PELA MALHA - IMPOSTO COMPLEMENTAR A PAGAR",
         "2020": "PROCESSADA",
         "2024": "PROCESSADA — 2.012,67 EM 31/07/2021",
         "2025": "PROCESSADA — 541,54 EM 30/05/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T15:46:08.786Z",
+          "exercicio": "2019",
+          "de": "TRABALHADA PELA MALHA - IMPOSTO COMPLEMENTAR A PAGAR",
+          "para": "PROCESSADA — TRABALHADA PELA MALHA - IMPOSTO COMPLEMENTAR A PAGAR",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:45:46.140Z",
           "exercicio": "2024",
