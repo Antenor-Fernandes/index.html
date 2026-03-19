@@ -2547,7 +2547,7 @@ function openDetail(id){
         exKeys.map(yr=>{
           const st=c.exercicios[yr];
           const cat=classifyStatus(st);
-          const editBtn=canEditExercicios()?`<button class="btn btn-ghost btn-sm edit-only" onclick="openExModal('${c.id}','${yr}')">✏️</button>`:'';
+          const editBtn=canEditExercicios()?`<button class="btn btn-ghost btn-sm edit-only" onclick="event.stopPropagation();openExModal('${c.id}','${yr}')">✏️</button>`:'';
           const qeBtn=canEditExercicios()?`<button class="btn btn-primary btn-sm edit-only" onclick="event.stopPropagation();openQE('${c.id}','${yr}',event)" title="Edição rápida">⚡</button>`:'';
           const rec=c.recebimentos?.[yr];
           const impugDate=c.impugnacoes?.[yr]?.data;
@@ -2561,7 +2561,7 @@ function openDetail(id){
           const gcapInfo=gcap?.ativo?`<div style="margin-top:4px;font-size:11.5px;color:#10b981;font-weight:600">📈 GCAP${gcap.obs?` — ${gcap.obs.slice(0,60)}`:''}</div>`:'';
           const perInfo=exPers.length?`<div style="margin-top:4px;font-size:11.5px;color:var(--yellow);font-weight:600">💰 ${exPers.length} PERDCOMP${exPers.length!==1?'s':''}</div>`:'';
           const procInfo=exProcsYr.length?`<div style="margin-top:4px;font-size:11.5px;color:#818cf8;font-weight:600">⚖️ ${exProcsYr.length} PROCESSO${exProcsYr.length!==1?'s':''}</div>`:'';
-          return`<div class="ex-item">
+          return`<div class="ex-item" style="cursor:pointer" onclick="openExModal('${c.id}','${yr}')">
             <div class="ex-item-year">${yr}</div>
             <div><span class="badge badge-${cat.cls}" style="margin-bottom:4px">${cat.label}</span>
               <div class="ex-item-status">${(()=>{const cats2=['EM PROCESSAMENTO','PROCESSADA','EM MALHA','TRABALHO MANUAL RFB','TRANSMITIDA','EM FILA DE RESTITUIÇÃO','PERDCOMP','IMPUGNAÇÃO','IMPUGNAR','AGUARDANDO','NÃO DECLARADA','OUTRO'];const cm=cats2.find(o=>st.toUpperCase().startsWith(o));return cm?st.slice(cm.length).replace(/^\s*[\-\u2014]\s*/,'').trim():st;})()}</div>
@@ -2692,6 +2692,17 @@ function openExModal(clientId,year){
   document.getElementById('ex-proc-ativo').checked=procAtivo;
   document.getElementById('ex-proc-box').style.display=procAtivo?'block':'none';
   exProcs.forEach(p=>addExProcEntry(p));
+  // ── Modo Visualização: bloqueia edição para usuários sem permissão ────────────
+  const editable=canEditExercicios();
+  const modalBody=document.querySelector('#modal-ex .modal-body');
+  // Desabilita inputs/selects/textareas (exceto o campo ano que já é sempre disabled)
+  modalBody.querySelectorAll('input:not(#ex-year-disp),textarea,select').forEach(el=>{el.disabled=!editable;});
+  // Bloqueia clique nos check-rows (RRA, GCAP, PERDCOMP, PROCESSO)
+  modalBody.querySelectorAll('.ex-check-row').forEach(el=>{el.style.pointerEvents=editable?'':'none';});
+  // Esconde botões de ação no corpo (＋Adicionar e 🗑 excluir entradas)
+  modalBody.querySelectorAll('.btn').forEach(btn=>{btn.style.display=editable?'':'none';});
+  // Título: indica modo visualização quando readonly
+  document.getElementById('ex-modal-title').textContent=`Exercício ${year}`+(editable?'':' — 👁 Visualização');
   document.getElementById('modal-ex').style.display='flex';
 }
 function toggleExDdaBox(){toggleExCatBoxes();}
