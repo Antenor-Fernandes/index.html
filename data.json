@@ -23438,12 +23438,19 @@
         "2021": "4.942,98 EM 28/02/2025",
         "2022": "5.561,28 EM 28/02/2025",
         "2023": "6.727,37 EM 28/02/2025",
-        "2024": "5.520,13 EM 28/05/2025",
+        "2024": "PROCESSADA — 5.520,13 EM 28/05/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:18:34.594Z",
+          "exercicio": "2024",
+          "de": "5.520,13 EM 28/05/2025",
+          "para": "PROCESSADA — 5.520,13 EM 28/05/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:18:21.909Z",
           "exercicio": "2025",
@@ -23452,7 +23459,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/05/2025",
+          "valor": 5520.13
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -33202,6 +33214,21 @@
           "porExercicio": {
             "2025": 13139.05
           }
+        }
+      ]
+    },
+    {
+      "data": "28/05/2025",
+      "descricao": "Lote 28/05/2025",
+      "pagamentos": [
+        {
+          "clienteId": "40271927615",
+          "cpfCnpj": "402.719.276-15",
+          "nome": "MARIA EUGÊNIA RIBEIRO TAVARES",
+          "porExercicio": {
+            "2024": 5520.13
+          },
+          "total": 5520.13
         }
       ]
     },
