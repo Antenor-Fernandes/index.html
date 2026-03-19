@@ -23775,12 +23775,19 @@
       "observacoes": "PER 2021 FEITO EM 06/11/2025 E RECEBIDO EM 20/02/2026- PEDIDO DE REVISÃO DE DÉBITO 2021 NA PGFN FEITO EM 05/11/2025 - DEFERIDO - ACOMPANHAR ORDEM BANCÁRIA",
       "exercicios": {
         "2021": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
-        "2022": "IMPUGNAMOS EM 06/11/2025",
+        "2022": "EM FILA DE RESTITUIÇÃO — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE",
         "2023": "EM MALHA — RETIFICAMOS PARA INFORMAR ISENÇÃO DO PRECATÓRIO - DDA DG FEITO EM 06/11/2025 E PRECATÓRIO JUNTADO EM EM 27/11/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:25:28.123Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAMOS EM 06/11/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T13:20:18.848Z",
           "exercicio": "2025",
