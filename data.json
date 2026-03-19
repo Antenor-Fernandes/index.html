@@ -30288,10 +30288,32 @@
         "2022": "18.380,65 EM 28/02/2023",
         "2023": "MALHA DG - DDA FEITO EM 08/02/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 29/01/2025",
         "2024": "MALHA DG - DDA FEITO EM 29/01/2025",
-        "2025": "MALHA DG - DDA FEITO EM 10/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 10/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T19:19:23.562Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 10/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 10/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "10/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "92364438691",
