@@ -26953,7 +26953,7 @@
       "observacoes": "PER 2018 A 2021 EM 30/09/2022 RECEBIDOS EM 22/03/2023- PER 2022 FEITO EM 31/10/2022 - SENHA GOV.BR Pavaroti46.",
       "exercicios": {
         "2018": "206,79 30/11/2022",
-        "2019": "328,06 30/11/2022",
+        "2019": "PROCESSADA — 328,06 30/11/2022",
         "2020": "PROCESSADA — 394,12 30/11/2022",
         "2021": "PROCESSADA — 585,90 30/11/2022",
         "2022": "PROCESSADA — 694,88 30/11/2022",
@@ -26962,6 +26962,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:23:32.199Z",
+          "exercicio": "2019",
+          "de": "328,06 30/11/2022",
+          "para": "PROCESSADA — 328,06 30/11/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:23:20.288Z",
           "exercicio": "2020",
@@ -26999,6 +27006,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "30/11/2022",
+          "valor": 328.06
+        },
         "2020": {
           "data": "30/11/2022",
           "valor": 394.12
