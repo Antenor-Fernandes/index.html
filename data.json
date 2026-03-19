@@ -30778,7 +30778,7 @@
       "observacoes": "SENHA GOV.BR Tibus.1234",
       "exercicios": {
         "2019": "9.674,09 EM 30/04/2020",
-        "2020": "22.510,00 EM 30/04/2020",
+        "2020": "PROCESSADA — 22.510,00 EM 30/04/2020",
         "2021": "15.217,64 EM 31/03/2023",
         "2022": "PROCESSADA — 12.081,47 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 04/03/2024",
@@ -30788,6 +30788,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:29:40.803Z",
+          "exercicio": "2020",
+          "de": "22.510,00 EM 30/04/2020",
+          "para": "PROCESSADA — 22.510,00 EM 30/04/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:29:29.389Z",
           "exercicio": "2022",
@@ -30825,6 +30832,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "30/04/2020",
+          "valor": 22510
+        },
         "2022": {
           "data": "31/03/2023",
           "valor": 12081.47
@@ -48978,6 +48989,15 @@
             "2020": 2092.81
           },
           "total": 2092.81
+        },
+        {
+          "clienteId": "49285220606",
+          "cpfCnpj": "492.852.206-06",
+          "nome": "RONALDO TIBÚRCIO PEREIRA RIBEIRO",
+          "porExercicio": {
+            "2020": 22510
+          },
+          "total": 22510
         }
       ]
     },
