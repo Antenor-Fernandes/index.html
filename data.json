@@ -21838,7 +21838,7 @@
       "senhaGov": "",
       "observacoes": "TEM PER 2018 A 2021 - NÃO PAGOU IR EM 2022",
       "exercicios": {
-        "2018": "3.401,12 EM 31/03/2023",
+        "2018": "EM PROCESSAMENTO — 3.401,12 EM 31/03/2023",
         "2019": "PROCESSADA — 3.662,02 EM 31/03/2023",
         "2020": "PROCESSADA — 4.167,65 EM 31/03/2023",
         "2021": "PROCESSADA — 4.990,39 EM 31/03/2023",
@@ -21849,6 +21849,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:53:33.419Z",
+          "exercicio": "2018",
+          "de": "3.401,12 EM 31/03/2023",
+          "para": "EM PROCESSAMENTO — 3.401,12 EM 31/03/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:53:23.858Z",
           "exercicio": "2019",
@@ -21921,6 +21928,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "31/03/2023",
+          "valor": 3401.12
+        },
         "2019": {
           "data": "31/03/2023",
           "valor": 3662.02
