@@ -25300,12 +25300,19 @@
         "2021": "9.063,06 30/01/2026",
         "2022": "11.371,78 EM 30/01/2026",
         "2023": "65.282,36 EM 30/01/2026",
-        "2024": "65.023,92 EM 30/01/2026",
+        "2024": "PROCESSADA — 65.023,92 EM 30/01/2026",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 30/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:28:08.523Z",
+          "exercicio": "2024",
+          "de": "65.023,92 EM 30/01/2026",
+          "para": "PROCESSADA — 65.023,92 EM 30/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:27:57.090Z",
           "exercicio": "2025",
@@ -25314,7 +25321,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "30/01/2026",
+          "valor": 65023.92
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
