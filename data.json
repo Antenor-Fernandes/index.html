@@ -20150,7 +20150,7 @@
         "2019": "PROCESSADA — IMPUGNAMOS EM 26/01/2023 -DEFERIDA -  DESPACHO DECISÓRIO 29/05/2023 - IMPOSTO ANULADO DE R$8.971,90 - AGUARDAR ATUALIZAÇÃO DO VALOR A PAGAR PARA EMITIR O DARF (ORIGINÁRIO 712,62)",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA — RETIFICAMOS - PROCESSADA",
-        "2022": "PROCESSADA - NÃO RETIFICAMO - JÁ ESTÁ ISENTA",
+        "2022": "PROCESSADA — NÃO RETIFICAMOS - JÁ ESTÁ ISENTA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "EM MALHA — MALHA DESPESA MÉDICA - DDA FEITO EM 10/02/2026"
@@ -20158,6 +20158,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:38:11.771Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA - NÃO RETIFICAMO - JÁ ESTÁ ISENTA",
+          "para": "PROCESSADA — NÃO RETIFICAMOS - JÁ ESTÁ ISENTA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T19:16:42.410Z",
           "exercicio": "2018",
@@ -20197,7 +20204,8 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "44852150672",
