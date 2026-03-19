@@ -21558,7 +21558,7 @@
       "senhaGov": "Jahyr2590*",
       "observacoes": "SENHA GOV.BR Jahyr2590* - PER 2022 E 2023 FEITOS EM 06/03/2024 E RECEBIDOS EM 20/01/2025",
       "exercicios": {
-        "2022": "18.829,10 EM 31/10/2024",
+        "2022": "PROCESSADA — 18.829,10 EM 31/10/2024",
         "2023": "PROCESSADA — 18.921,39 EM 31/10/2024",
         "2024": "PROCESSADA — 19.049,04 EM 31/10/2024",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE VIA CHAT FEITOS EM 19/01/2026"
@@ -21566,6 +21566,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:44:13.150Z",
+          "exercicio": "2022",
+          "de": "18.829,10 EM 31/10/2024",
+          "para": "PROCESSADA — 18.829,10 EM 31/10/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:44:00.202Z",
           "exercicio": "2023",
@@ -21603,6 +21610,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2024",
+          "valor": 18829.1
+        },
         "2023": {
           "data": "31/10/2024",
           "valor": 18921.39
