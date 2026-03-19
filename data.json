@@ -24642,7 +24642,7 @@
       "observacoes": "PER 2021 A 2024 FEITOS EM 16/12/2025 - PER 2025 FEITO EM 18/12/2025 - RECEBEU 4 FALTA 1- 2022, 2023 E 2024 GLOSA DO VGBL - IMPUGNAR",
       "exercicios": {
         "2021": "6.818,36 EM 30/01/2026",
-        "2022": "9.820,72 EM 30/01/2026 - GLOSA DO VGBL - IMPUGNAR",
+        "2022": "IMPUGNAR — 9.820,72 EM 30/01/2026 - GLOSA DO VGBL - IMPUGNAR",
         "2023": "IMPUGNAR — 9010,78 - GLOSA DO VGBL - IMPUGNAR",
         "2024": "PROCESSADA — 9.744,04 EM 30/01/2026",
         "2025": "PROCESSADA — 10.668,92 EM 30/01/2026"
@@ -24650,6 +24650,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:04:11.126Z",
+          "exercicio": "2022",
+          "de": "9.820,72 EM 30/01/2026 - GLOSA DO VGBL - IMPUGNAR",
+          "para": "IMPUGNAR — 9.820,72 EM 30/01/2026 - GLOSA DO VGBL - IMPUGNAR",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:03:57.114Z",
           "exercicio": "2023",
@@ -24673,6 +24680,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/01/2026",
+          "valor": 9820.72
+        },
         "2023": {
           "data": "30/01/2026",
           "valor": 9010.78
