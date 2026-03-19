@@ -30789,6 +30789,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-19T19:28:50.157Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG E DESPESAS MÉDICAS - DDA FEITO EM 05/02/2025 - ACOMPANHAR SE TERÁ INTIMAÇÃO COMPLEMENTAR DAS DESPESAS MÉDICAS",
+          "para": "EM MALHA — MALHA DG E DESPESAS MÉDICAS - DDA FEITO EM 05/02/2025 - ACOMPANHAR SE TERÁ INTIMAÇÃO COMPLEMENTAR DAS DESPESAS MÉDICAS",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-19T19:28:37.900Z",
           "exercicio": "2024",
           "de": "MALHA DG E DESPESAS MÉDICAS - DDA FEITO EM 05/02/2025 - ACOMPANHAR SE TERÁ INTIMAÇÃO COMPLEMENTAR DAS DESPESAS MÉDICAS",
@@ -30818,7 +30825,9 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exAtencao": {},
+      "exAtencao": {
+        "2024": true
+      },
       "exProcessos": {}
     },
     {
