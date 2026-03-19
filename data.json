@@ -23124,7 +23124,7 @@
       "observacoes": "",
       "exercicios": {
         "2015": "FIZEMOS PEDIDO DE REVISÃO DE DÉBITO NA PGFN-2016 DEFERIDO - ANULOU DÉBITO DE 9625,00 (ORIGINAL). FIZEMOS PEDIDO DE REVISÃO DE 2012 4667,27-AGUARDAR PARECER DESSE DE 2012",
-        "2016": "PROCESSADA IAP - FIZEMOS PER",
+        "2016": "PROCESSADA — IAP - FIZEMOS PER",
         "2017": "PROCESSADA — 1302,22 EM 31/03/21 - FIZEMOS PER",
         "2018": "PROCESSADA — 2138,02 EM 31/03/21 - FIZEMOS PER",
         "2019": "PROCESSADA — 2756,26 EM 31/03/21 - FIZEMOS PER",
@@ -23138,6 +23138,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:14:44.535Z",
+          "exercicio": "2016",
+          "de": "PROCESSADA IAP - FIZEMOS PER",
+          "para": "PROCESSADA — IAP - FIZEMOS PER",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:14:35.763Z",
           "exercicio": "2017",
