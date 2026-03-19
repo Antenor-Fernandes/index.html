@@ -27056,7 +27056,7 @@
       "observacoes": "RETIFICAR  EM JUNHO 2025 PARA INFORMAR A ISENÇÃO - SENHA GOV Rotsen1945!",
       "exercicios": {
         "2021": "IMPUGNAMOS EM 19/06/2023",
-        "2022": "IMPUGNAMOS EM 19/06/2023",
+        "2022": "PROCESSADA — IMPUGNAMOS EM 19/06/2023",
         "2023": "PROCESSADA",
         "2024": "EM MALHA — NÃO FIZEMOS A DECLARAÇÃO - DDA FEITO POR NÓS EM 02/07/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026"
@@ -27064,6 +27064,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:37:08.112Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAMOS EM 19/06/2023",
+          "para": "PROCESSADA — IMPUGNAMOS EM 19/06/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:36:52.981Z",
           "exercicio": "2024",
