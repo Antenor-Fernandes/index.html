@@ -22018,12 +22018,19 @@
       "observacoes": "",
       "exercicios": {
         "2021": "122.432,27 - 30/12/2021",
-        "2022": "MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
+        "2022": "PROCESSADA — MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
         "2024": "PROCESSADA — 9.528,98 EM 31/05/2024"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:56:29.998Z",
+          "exercicio": "2022",
+          "de": "MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
+          "para": "PROCESSADA — MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:54:38.630Z",
           "exercicio": "2023",
@@ -22047,6 +22054,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/05/2024",
+          "valor": 6347.38
+        },
         "2024": {
           "data": "31/05/2024",
           "valor": 9528.98
