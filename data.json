@@ -25392,7 +25392,7 @@
       "senhaGov": "",
       "observacoes": "não pagou o imposto da declaração original no valor de R$ 12.381,34, cobrar proveito economico quando sair a restituição de 2025",
       "exercicios": {
-        "2017": "R$ 106,60 30/12/2021 - RECEBEU 1 PER EM 20/04/2022",
+        "2017": "PROCESSADA — R$ 106,60 30/12/2021 - RECEBEU 1 PER EM 20/04/2022",
         "2018": "PROCESSADA — 302,28 31/05/2022",
         "2019": "PROCESSADA — 2.742,73 30/11/2022",
         "2020": "PROCESSADA — 346,02 31/05/2022",
@@ -25405,6 +25405,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:31:38.842Z",
+          "exercicio": "2017",
+          "de": "R$ 106,60 30/12/2021 - RECEBEU 1 PER EM 20/04/2022",
+          "para": "PROCESSADA — R$ 106,60 30/12/2021 - RECEBEU 1 PER EM 20/04/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:31:23.676Z",
           "exercicio": "2018",
@@ -25463,6 +25470,10 @@
         }
       ],
       "recebimentos": {
+        "2017": {
+          "data": "30/12/2021",
+          "valor": 106.6
+        },
         "2018": {
           "data": "31/05/2022",
           "valor": 302.28
@@ -44382,6 +44393,15 @@
           "porExercicio": {
             "2021": 3401.93
           }
+        },
+        {
+          "clienteId": "37209744649",
+          "cpfCnpj": "372.097.446-49",
+          "nome": "MARISTELA MARQUES DE CASTRO MACEDO",
+          "porExercicio": {
+            "2017": 106.6
+          },
+          "total": 106.6
         }
       ]
     },
