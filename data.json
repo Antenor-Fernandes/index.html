@@ -29744,10 +29744,32 @@
       "exercicios": {
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
-        "2024": "MALHA DESPESAS MÉDICAS - DDA FEITO EM 28/01/2025",
+        "2024": "EM MALHA — MALHA DESPESAS MÉDICAS - DDA FEITO EM 28/01/2025",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T19:10:25.864Z",
+          "exercicio": "2024",
+          "de": "MALHA DESPESAS MÉDICAS - DDA FEITO EM 28/01/2025",
+          "para": "EM MALHA — MALHA DESPESAS MÉDICAS - DDA FEITO EM 28/01/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "28/01/2025"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "25781065687",
