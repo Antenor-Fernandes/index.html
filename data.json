@@ -27059,10 +27059,32 @@
         "2022": "IMPUGNAMOS EM 19/06/2023",
         "2023": "PROCESSADA",
         "2024": "NÃO FIZEMOS A DECLARAÇÃO - DDA FEITO POR NÓS EM 02/07/2025",
-        "2025": "MALHA DG - DDA FEITO EM 09/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:28:02.016Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 09/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "09/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "60056827687",
