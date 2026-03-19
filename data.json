@@ -23582,10 +23582,31 @@
         "2022": "531,04 EM 29/11/2024",
         "2023": "MALHA DG - DDA FEITO EM 12/11/2024",
         "2024": "MALHA DG - DDA FEITO EM 23/01/2025",
-        "2025": "MALHA DG - DDA FEITO EM 05/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T16:22:43.537Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 05/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "05/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "16556070653",
