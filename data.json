@@ -22019,12 +22019,18 @@
       "exercicios": {
         "2021": "122.432,27 - 30/12/2021",
         "2022": "MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
-        "2023": "CLIENTE QUE FEZ",
         "2024": "PROCESSADA — 9.528,98 EM 31/05/2024"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:54:38.630Z",
+          "exercicio": "2023",
+          "de": "CLIENTE QUE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:54:34.658Z",
           "exercicio": "2024",
