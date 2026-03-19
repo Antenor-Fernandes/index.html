@@ -21770,11 +21770,18 @@
       "exercicios": {
         "2019": "TRABALHADA PELA MALHA - IMPOSTO COMPLEMENTAR A PAGAR",
         "2020": "PROCESSADA",
-        "2024": "2.012,67 EM 31/07/2021",
+        "2024": "PROCESSADA — 2.012,67 EM 31/07/2021",
         "2025": "PROCESSADA — 541,54 EM 30/05/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T15:45:46.140Z",
+          "exercicio": "2024",
+          "de": "2.012,67 EM 31/07/2021",
+          "para": "PROCESSADA — 2.012,67 EM 31/07/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:45:29.788Z",
           "exercicio": "2025",
@@ -21784,6 +21791,10 @@
         }
       ],
       "recebimentos": {
+        "2024": {
+          "data": "31/07/2021",
+          "valor": 2012.67
+        },
         "2025": {
           "data": "30/05/2025",
           "valor": 541.54
@@ -42873,6 +42884,21 @@
           "porExercicio": {
             "2021": 480.16
           }
+        }
+      ]
+    },
+    {
+      "data": "31/07/2021",
+      "descricao": "Lote 31/07/2021",
+      "pagamentos": [
+        {
+          "clienteId": "22269738691",
+          "cpfCnpj": "222.697.386-91",
+          "nome": "MARIA CHRISTINA ROCHA MONTEIRO DE PORTILHO",
+          "porExercicio": {
+            "2024": 2012.67
+          },
+          "total": 2012.67
         }
       ]
     },
