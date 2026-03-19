@@ -24837,10 +24837,17 @@
       "exercicios": {
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
-        "2023": "MALHA DG - DDA FEITO EM 08/03/2024",
-        "2024": "CLIENTE QUE FEZ - ISENTA NA FONTE"
+        "2023": "MALHA DG - DDA FEITO EM 08/03/2024"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-19T17:06:52.971Z",
+          "exercicio": "2024",
+          "de": "CLIENTE QUE FEZ - ISENTA NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
