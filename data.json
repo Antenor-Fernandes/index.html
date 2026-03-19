@@ -27286,9 +27286,31 @@
         "2022": "2.266,81 EM 31/10/2023",
         "2023": "PROCESSADA",
         "2024": "954,50 EM 31/05/2025",
-        "2025": "MALHA ALUGUEL - DDA FEITO EM 13/02/2026"
+        "2025": "EM MALHA — MALHA ALUGUEL - DDA FEITO EM 13/02/2026"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:39:47.973Z",
+          "exercicio": "2025",
+          "de": "MALHA ALUGUEL - DDA FEITO EM 13/02/2026",
+          "para": "EM MALHA — MALHA ALUGUEL - DDA FEITO EM 13/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "13/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "01223811654",
