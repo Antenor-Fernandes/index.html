@@ -29644,11 +29644,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "SÓ TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 14/07/2021 - TEREZINHA: 98573-4143 - PROCESSADA"
+        "2020": "PROCESSADA — SÓ TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 14/07/2021 - TEREZINHA: 98573-4143 - PROCESSADA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:09:56.828Z",
+          "exercicio": "2020",
+          "de": "SÓ TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 14/07/2021 - TEREZINHA: 98573-4143 - PROCESSADA",
+          "para": "PROCESSADA — SÓ TIRAR DE MALHA - NÃO FOMOS NÓS QUE FIZEMOS - DDA FEITO EM 14/07/2021 - TEREZINHA: 98573-4143 - PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:09:48.991Z",
           "exercicio": "2022",
@@ -29656,7 +29663,15 @@
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "03479612660",
