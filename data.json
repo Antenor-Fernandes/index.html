@@ -30780,7 +30780,7 @@
         "2019": "9.674,09 EM 30/04/2020",
         "2020": "22.510,00 EM 30/04/2020",
         "2021": "15.217,64 EM 31/03/2023",
-        "2022": "12.081,47 EM 31/03/2023",
+        "2022": "PROCESSADA — 12.081,47 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 04/03/2024",
         "2024": "EM MALHA — MALHA DG E DESPESAS MÉDICAS - DDA FEITO EM 05/02/2025 - ACOMPANHAR SE TERÁ INTIMAÇÃO COMPLEMENTAR DAS DESPESAS MÉDICAS",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 25/02/2026"
@@ -30788,6 +30788,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:29:29.389Z",
+          "exercicio": "2022",
+          "de": "12.081,47 EM 31/03/2023",
+          "para": "PROCESSADA — 12.081,47 EM 31/03/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:29:03.360Z",
           "exercicio": "2023",
@@ -30817,7 +30824,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2023",
+          "valor": 12081.47
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
