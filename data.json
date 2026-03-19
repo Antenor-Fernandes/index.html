@@ -30608,10 +30608,15 @@
       "atencao": true,
       "temPer": false,
       "temRRA": true,
-      "exercicios": {
-        "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO"
-      },
+      "exercicios": {},
       "historico": [
+        {
+          "ts": "2026-03-19T19:24:40.565Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T19:24:29.670Z",
           "exercicio": "2025",
