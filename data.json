@@ -28403,10 +28403,38 @@
         "2022": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
         "2023": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
         "2024": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
-        "2025": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025"
+        "2025": "EM PROCESSAMENTO — PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:56:21.239Z",
+          "exercicio": "2025",
+          "de": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+          "para": "EM PROCESSAMENTO — PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {
+        "2025": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataProtocolo": "17/12/2025",
+            "obs": "PEDIDO DE RESTITUIÇÃO VIA PROCESSO FEITO EM 17/12/2025",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "51194821634",
