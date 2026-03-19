@@ -28258,7 +28258,7 @@
       "observacoes": "PER 2020 FEITO EM 23/02/2024 (SÓ TEM ESSE) RECEBIDO EM 20/09/2024",
       "exercicios": {
         "2020": "100.323,09 EM 30/04/2024",
-        "2021": "103.640,75 EM 30/04/2024",
+        "2021": "PROCESSADA — 103.640,75 EM 30/04/2024",
         "2022": "PROCESSADA — 88.097,39 EM 30/04/2024",
         "2023": "PROCESSADA — 88.542,93 EM 30/04/2024",
         "2024": "EM PROCESSAMENTO — 94.390,58 EM 30/09/2024",
@@ -28267,6 +28267,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:54:39.438Z",
+          "exercicio": "2021",
+          "de": "103.640,75 EM 30/04/2024",
+          "para": "PROCESSADA — 103.640,75 EM 30/04/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:54:26.185Z",
           "exercicio": "2022",
@@ -28297,6 +28304,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/04/2024",
+          "valor": 103640.75
+        },
         "2022": {
           "data": "30/04/2024",
           "valor": 88097.39
