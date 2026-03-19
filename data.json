@@ -30285,7 +30285,7 @@
         "2019": "R$ 40.292,05 - 31/08/2020",
         "2020": "R$ 12.542,56 - 31/08/2020",
         "2021": "17.670,74 EM 28/02/2023",
-        "2022": "18.380,65 EM 28/02/2023",
+        "2022": "PROCESSADA — 18.380,65 EM 28/02/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 08/02/2024 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 29/01/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 10/02/2026"
@@ -30293,6 +30293,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:20:11.092Z",
+          "exercicio": "2022",
+          "de": "18.380,65 EM 28/02/2023",
+          "para": "PROCESSADA — 18.380,65 EM 28/02/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:19:51.628Z",
           "exercicio": "2023",
@@ -30315,7 +30322,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "28/02/2023",
+          "valor": 18380.65
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
