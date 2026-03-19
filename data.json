@@ -27375,10 +27375,17 @@
         "2021": "340,46 EM 31/10/2022",
         "2022": "536,25 EM 31/10/2022",
         "2023": "1.121,70 EM 31/10/2024",
-        "2024": "MALHA DG - DDA FEITO EM 27/01/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 10/02/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-19T17:20:45.113Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 27/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:20:30.105Z",
           "exercicio": "2025",
@@ -27389,6 +27396,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "27/01/2025"
+        },
         "2025": {
           "feito": true,
           "data": "10/02/2026"
