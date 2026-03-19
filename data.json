@@ -30499,10 +30499,17 @@
       "observacoes": "PER FEITO 2023 FEITO EM 07/08/2024 - PER 2024 FEITO EM 30/01/2025 - SENHA GOV.BR Gmdc65#69$0415 - ACERTOU OS HONORÁRIOS E FEZ O DISTRATO EM 30/09/2025",
       "exercicios": {
         "2023": "MALHA DG - DDA FEITO EM 07/08/2024",
-        "2024": "MALHA DG - DDA FEITO EM 30/01/2025"
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 30/01/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T19:21:53.781Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 30/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 30/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:21:29.649Z",
           "exercicio": "2025",
@@ -30519,7 +30526,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "30/01/2025"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
