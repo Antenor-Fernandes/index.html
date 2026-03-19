@@ -27772,10 +27772,32 @@
         "2019": "R$ 681,66 EM 30/12/2020",
         "2020": "MALHA DG - FALTA LAUDO - 845,68 EM 31/01/2025",
         "2021": "1.070,52 30/07/2021",
-        "2022": "R$ 1.121,37 29/07/2022"
+        "2022": "PROCESSADA — R$ 1.121,37 29/07/2022"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:43:23.496Z",
+          "exercicio": "2022",
+          "de": "R$ 1.121,37 29/07/2022",
+          "para": "PROCESSADA — R$ 1.121,37 29/07/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "29/07/2022",
+          "valor": 1121.37
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "08173435634",
