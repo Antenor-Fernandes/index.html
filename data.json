@@ -24594,12 +24594,19 @@
       "senhaGov": "",
       "observacoes": "Maria2505# - PER 2024 FEITO EM 14/08/2025 -PER 2025 FEITO EM 09/02/2026",
       "exercicios": {
-        "2024": "MALHA DG - DDA FEITO EM 14/08/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 14/08/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 06/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:02:26.784Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 14/08/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 14/08/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:02:05.068Z",
           "exercicio": "2025",
@@ -24610,6 +24617,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "14/08/2025"
+        },
         "2025": {
           "feito": true,
           "data": "06/02/2026"
