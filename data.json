@@ -24027,12 +24027,19 @@
       "exercicios": {
         "2022": "MALHA DG - DDA FEITO EM 23/09/2024",
         "2023": "MALHA DG - DDA FEITO EM 23/09/2024",
-        "2024": "MALHA DG - DDA FEITO EM 23/01/2025",
+        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
         "2025": "PROCESSADA — 66.775,55 EM 27/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:28:25.662Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 23/01/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:28:17.431Z",
           "exercicio": "2025",
