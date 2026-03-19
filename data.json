@@ -24837,9 +24837,16 @@
       "exercicios": {
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
-        "2023": "MALHA DG - DDA FEITO EM 08/03/2024"
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 08/03/2024"
       },
       "historico": [
+        {
+          "ts": "2026-03-19T17:07:29.272Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 08/03/2024",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 08/03/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:06:52.971Z",
           "exercicio": "2024",
@@ -24849,7 +24856,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "08/03/2024"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
