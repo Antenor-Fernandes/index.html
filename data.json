@@ -29373,10 +29373,32 @@
       "exercicios": {
         "2020": "MALHA DG - RETIFICAMOS PARA NÃO PRESCREVER - FALTA OBTER LAUDO - 657,09 EM 31/01/2025",
         "2021": "R$ 669,66 - 30/06/2021 - RETIFICAMOS PARA NÃO PRESCREVER - FALTA LAUDO",
-        "2025": "816,36 EM 30/05/2025"
+        "2025": "PROCESSADA — 816,36 EM 30/05/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T19:07:00.525Z",
+          "exercicio": "2025",
+          "de": "816,36 EM 30/05/2025",
+          "para": "PROCESSADA — 816,36 EM 30/05/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 816.36
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "13087177687",
