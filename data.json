@@ -23548,10 +23548,26 @@
       "senhaGov": "",
       "observacoes": "FAZER PER 2025 PARCIAL",
       "exercicios": {
-        "2025": "RETIFICAMOS - MALHA DG E DEDUÇÕES"
+        "2025": "EM MALHA — RETIFICAMOS - MALHA DG E DEDUÇÕES"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T16:21:38.026Z",
+          "exercicio": "2025",
+          "de": "RETIFICAMOS - MALHA DG E DEDUÇÕES",
+          "para": "EM MALHA — RETIFICAMOS - MALHA DG E DEDUÇÕES",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "73568627604",
