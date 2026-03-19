@@ -801,6 +801,24 @@ body.exercicios-level .full-edit-only{display:none!important}
 </div>
 </div>
 
+<!-- MODAL CONFIRMAR EXCLUSÃO DE CLIENTE -->
+<div class="modal-overlay" id="modal-delete-confirm" style="display:none" onclick="if(event.target===this)this.style.display='none'">
+<div class="modal modal-sm">
+  <div class="modal-head">
+    <span class="modal-title" style="color:var(--red)">🗑 Excluir Cliente</span>
+    <button class="close-btn" onclick="document.getElementById('modal-delete-confirm').style.display='none'">✕</button>
+  </div>
+  <div class="modal-body" style="padding:20px 20px 8px">
+    <div id="delete-confirm-msg" style="font-size:14px;margin-bottom:14px;color:var(--text)"></div>
+    <div id="delete-confirm-detail" style="background:rgba(220,53,69,.07);border:1px solid rgba(220,53,69,.25);border-radius:8px;padding:12px;font-size:12.5px;color:var(--text2);line-height:1.7"></div>
+  </div>
+  <div class="modal-foot">
+    <button class="btn btn-ghost" onclick="document.getElementById('modal-delete-confirm').style.display='none'">Cancelar</button>
+    <button class="btn btn-danger" onclick="doConfirmedDelete()">🗑 Confirmar Exclusão</button>
+  </div>
+</div>
+</div>
+
 <!-- MODAL NOVO LOTE -->
 <div class="modal-overlay" id="modal-novo-lote" style="display:none" onclick="if(event.target===this)this.style.display='none'">
 <div class="modal modal-lg">
@@ -2515,8 +2533,8 @@ function openDetail(id){
         <div class="detail-doc">${esc(c.cpfCnpj)} · <span class="badge badge-${c.tipo.toLowerCase()}">${esc(c.tipo)}</span></div>
       </div>
       <div class="detail-actions">
-        ${canEditFields()?`<button class="btn btn-ghost btn-sm edit-only full-edit-only" onclick="openEdit('${c.id}')">✏️ Editar</button>
-        <button class="btn btn-danger btn-sm edit-only full-edit-only" onclick="confirmDelete('${c.id}')">🗑</button>`:''}
+        ${canEditFields()?`<button class="btn btn-ghost btn-sm" onclick="openEdit('${c.id}')">✏️ Editar</button>
+        <button class="btn btn-danger btn-sm" onclick="confirmDelete('${c.id}')">🗑 Excluir</button>`:''}
         <button class="btn btn-ghost btn-sm" onclick="goBack()">← Voltar</button>
       </div>
     </div>
@@ -3223,15 +3241,45 @@ async function saveClient(){
   await dbPut('clientes',obj);
   ghSave();
 }
-async function confirmDelete(id){
+let _deleteTargetId=null;
+function confirmDelete(id){
   if(!canEditFields()){showToast('Sem permissão para excluir clientes','error');return;}
-  if(!confirm('Excluir este cliente permanentemente?'))return;
+  const c=allClients.find(x=>x.id===id);
+  if(!c)return;
+  // Levanta o que será removido junto ao cliente
+  const lotesAfetados=allLotes.filter(l=>l.pagamentos?.some(p=>p.clienteId===id||p.cpfCnpj===c.cpfCnpj));
+  const totalLoteEntradas=lotesAfetados.reduce((s,l)=>s+l.pagamentos.filter(p=>p.clienteId===id||p.cpfCnpj===c.cpfCnpj).length,0);
+  const exCount=Object.keys(c.exercicios||{}).length;
+  document.getElementById('delete-confirm-msg').innerHTML=
+    `Tem certeza que deseja excluir <strong>${esc(c.nome)}</strong>?<div style="font-size:12px;color:var(--text3);margin-top:4px">${esc(c.cpfCnpj)}</div>`;
+  const loteInfo=lotesAfetados.length>0
+    ?`<div>📋 ${totalLoteEntradas} entrada${totalLoteEntradas!==1?'s':''} em ${lotesAfetados.length} lote${lotesAfetados.length!==1?'s':''} de restituição</div>`:'';
+  document.getElementById('delete-confirm-detail').innerHTML=
+    `⚠️ Esta ação é <strong>irreversível</strong> e removerá:<br><div style="margin-top:6px">📅 ${exCount} exercício${exCount!==1?'s':''} fiscal${exCount!==1?'is':''}</div>${loteInfo}<div>🗃 Todos os dados de RRA, GCAP, PERDCOMP e PROCESSO vinculados</div>`;
+  _deleteTargetId=id;
+  document.getElementById('modal-delete-confirm').style.display='flex';
+}
+async function doConfirmedDelete(){
+  const id=_deleteTargetId;
+  if(!id)return;
+  document.getElementById('modal-delete-confirm').style.display='none';
+  _deleteTargetId=null;
+  const c=allClients.find(x=>x.id===id);
+  if(!c)return;
+  // Remove o cliente de todos os lotes de restituição
+  for(const lote of allLotes){
+    if(!lote.pagamentos)continue;
+    const antes=lote.pagamentos.length;
+    lote.pagamentos=lote.pagamentos.filter(p=>p.clienteId!==id&&p.cpfCnpj!==c.cpfCnpj);
+    if(lote.pagamentos.length!==antes)await dbPut('lotes',lote);
+  }
+  // Remove o cliente
   allClients=allClients.filter(x=>x.id!==id);
   detailId=null;
   showView('lista');
   refreshCurrentView();
-  showToast('🗑 Cliente excluído','success');
-  dbDelete('clientes',id);
+  showToast('🗑 Cliente excluído com sucesso','success');
+  await dbDelete('clientes',id);
   ghSave();
 }
 function closeModal(){document.getElementById('modal-cliente').style.display='none'}
