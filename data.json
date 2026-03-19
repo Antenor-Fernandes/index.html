@@ -7011,11 +7011,18 @@
       "exercicios": {
         "2020": "PROCESSADA — 26.367,69 29/10/2021",
         "2023": "PROCESSADA",
-        "2024": "EM MALHA",
+        "2024": "PROCESSADA",
         "2025": "EM MALHA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T12:45:08.574Z",
+          "exercicio": "2024",
+          "de": "EM MALHA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T11:14:48.284Z",
           "exercicio": "2023",
