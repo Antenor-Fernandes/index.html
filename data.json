@@ -21771,9 +21771,30 @@
         "2019": "TRABALHADA PELA MALHA - IMPOSTO COMPLEMENTAR A PAGAR",
         "2020": "PROCESSADA",
         "2024": "2.012,67 EM 31/07/2021",
-        "2025": "541,54 EM 30/05/2025"
+        "2025": "PROCESSADA — 541,54 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T15:45:29.788Z",
+          "exercicio": "2025",
+          "de": "541,54 EM 30/05/2025",
+          "para": "PROCESSADA — 541,54 EM 30/05/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 541.54
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "13845586672",
