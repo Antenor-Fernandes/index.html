@@ -26769,11 +26769,18 @@
         "2021": "R$ 10.087,23 - 30/06/2021",
         "2022": "10.691,60 31/05/2022",
         "2023": "25.353,59 EM 28/11/2025",
-        "2024": "MALHA PENSÃO - DDA FEITO PELA TT",
+        "2024": "EM MALHA — MALHA PENSÃO - DDA FEITO PELA TT",
         "2025": "EM MALHA — MALHA PENSÃO"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T18:19:33.028Z",
+          "exercicio": "2024",
+          "de": "MALHA PENSÃO - DDA FEITO PELA TT",
+          "para": "EM MALHA — MALHA PENSÃO - DDA FEITO PELA TT",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:19:25.228Z",
           "exercicio": "2025",
@@ -26783,7 +26790,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": ""
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
