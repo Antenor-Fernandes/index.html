@@ -30768,10 +30768,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2018": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+        "2018": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
         "2020": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO"
       },
       "historico": [
+        {
+          "ts": "2026-03-19T19:26:18.176Z",
+          "exercicio": "2018",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "para": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:26:05.295Z",
           "exercicio": "2020",
