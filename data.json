@@ -22017,13 +22017,20 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2021": "122.432,27 - 30/12/2021",
+        "2021": "EM PROCESSAMENTO — 122.432,27 - 30/12/2021",
         "2022": "PROCESSADA — MALHA DG  - 5.108,56 - DDA EM 09/02/2023",
         "2024": "PROCESSADA — 9.528,98 EM 31/05/2024"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:56:42.559Z",
+          "exercicio": "2021",
+          "de": "122.432,27 - 30/12/2021",
+          "para": "EM PROCESSAMENTO — 122.432,27 - 30/12/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:56:29.998Z",
           "exercicio": "2022",
@@ -22054,6 +22061,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/12/2021",
+          "valor": 122432.27
+        },
         "2022": {
           "data": "31/05/2024",
           "valor": 6347.38
