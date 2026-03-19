@@ -9735,13 +9735,20 @@
         "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 16/02/2022 - COMPENSAÇÃO DE OFÍCIO EM 09/08/2023 - JÁ ACERTOU OS HONORÁRIOS",
         "2021": "PROCESSADA — 5.580,04 EM 31/10/2023",
         "2022": "PROCESSADA — 2.940,45 EM 31/10/2023",
-        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2024",
+        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2024",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 06/01/2025",
         "2025": "PROCESSADA — 3.256,14 EM 30/06/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T12:43:59.578Z",
+          "exercicio": "2023",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2024",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T12:43:47.796Z",
           "exercicio": "2024",
@@ -9824,12 +9831,7 @@
           "valor": 3256.14
         }
       },
-      "dda": {
-        "2023": {
-          "feito": true,
-          "data": "23/01/2024"
-        }
-      },
+      "dda": {},
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
