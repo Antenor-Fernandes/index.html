@@ -16135,9 +16135,30 @@
       "exercicios": {
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "31,49 EM 30/06/2025"
+        "2025": "PROCESSADA — 31,49 EM 30/06/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T15:00:05.101Z",
+          "exercicio": "2025",
+          "de": "31,49 EM 30/06/2025",
+          "para": "PROCESSADA — 31,49 EM 30/06/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/06/2025",
+          "valor": 31.49
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "51236109600",
