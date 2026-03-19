@@ -24645,10 +24645,31 @@
         "2022": "9.820,72 EM 30/01/2026 - GLOSA DO VGBL - IMPUGNAR",
         "2023": "9010,78 - GLOSA DO VGBL - IMPUGNAR",
         "2024": "9.744,04 EM 30/01/2026",
-        "2025": "10.668,92 EM 30/01/2026"
+        "2025": "PROCESSADA — 10.668,92 EM 30/01/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T17:02:59.776Z",
+          "exercicio": "2025",
+          "de": "10.668,92 EM 30/01/2026",
+          "para": "PROCESSADA — 10.668,92 EM 30/01/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/01/2026",
+          "valor": 10668.92
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "23024950630",
