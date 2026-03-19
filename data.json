@@ -26149,12 +26149,19 @@
       "senhaGov": "",
       "observacoes": "PAZER PER 221 PROPORCIONAL ATÉ MARÇO DE 2026",
       "exercicios": {
-        "2020": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+        "2020": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
         "2021": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER EM 19/12/2025- FALTA LAUDO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:49:23.409Z",
+          "exercicio": "2020",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "para": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:49:18.805Z",
           "exercicio": "2021",
