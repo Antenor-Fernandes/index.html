@@ -25668,12 +25668,19 @@
         "2021": "RETIFICADORA TRANSMITIDA DA RECEITA - DDA FEITO EM 08/01/2025",
         "2022": "1.894,63 EM 28/02/2025",
         "2023": "3.008,31 EM 28/02/2025",
-        "2024": "2.651,52 EM 28/02/2025",
+        "2024": "PROCESSADA — 2.651,52 EM 28/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:35:01.475Z",
+          "exercicio": "2024",
+          "de": "2.651,52 EM 28/02/2025",
+          "para": "PROCESSADA — 2.651,52 EM 28/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:34:44.357Z",
           "exercicio": "2025",
@@ -25682,7 +25689,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/02/2025",
+          "valor": 2651.52
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -34706,7 +34718,7 @@
           "id": "07233249725",
           "cpfCnpj": "072.332.497-25",
           "nome": "MARLI ÂNGELO DA SILVA",
-          "total": 7554.46,
+          "total": 7554.460000000001,
           "porExercicio": {
             "2022": 1894.63,
             "2023": 3008.31,
