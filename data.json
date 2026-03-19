@@ -22571,9 +22571,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2022": "EM MALHA"
+        "2022": "EM MALHA",
+        "2023": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-19T14:42:25.680Z",
+          "exercicio": "2023",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T14:41:54.538Z",
           "exercicio": "2022",
@@ -22587,6 +22595,10 @@
         "2022": {
           "feito": true,
           "data": "19/03/2026"
+        },
+        "2023": {
+          "feito": true,
+          "data": "19/03/2026"
         }
       },
       "impugnacoes": {},
@@ -22595,6 +22607,16 @@
       "exGCAP": {},
       "exPerdcomps": {
         "2022": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "19/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
+        "2023": [
           {
             "numero": "",
             "valorPedido": 0,
