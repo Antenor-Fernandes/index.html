@@ -26364,7 +26364,6 @@
       "senhaGov": "",
       "observacoes": "PER 2019 A 2022 FEITOS EM 26/04/2024 E RECEBIDOS EM 20/09/2024 - PER 2023 FEITO EM 27/01/2025 - 2019 E 2020 PENDENTE DE DECISÃO DA DRJ - procedentes",
       "exercicios": {
-        "2019": "86.749,50 EM 20/08/2025 - NÃO FOMOS NÓS QUE FIZEMOS",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 26/04/2024 - 70.000 - PEDIDO DE PRIORIDADE FEITO PELO CHAT EM 12/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2025",
         "2025": "PROCESSADA"
@@ -26372,6 +26371,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:53:54.002Z",
+          "exercicio": "2019",
+          "de": "86.749,50 EM 20/08/2025 - NÃO FOMOS NÓS QUE FIZEMOS",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:53:50.539Z",
           "exercicio": "2020",
