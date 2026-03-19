@@ -7010,12 +7010,19 @@
       "observacoes": "OBS INCLUIR A ESPOSA COMO DEPENDENTE EM 2024 - FAZER 2026 - TEM RRA",
       "exercicios": {
         "2020": "PROCESSADA — 26.367,69 29/10/2021",
-        "2023": "EM MALHA",
+        "2023": "PROCESSADA",
         "2024": "EM MALHA",
         "2025": "EM MALHA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T11:14:48.284Z",
+          "exercicio": "2023",
+          "de": "EM MALHA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T17:56:50.343Z",
           "exercicio": "2025",
@@ -7068,7 +7075,18 @@
         }
       },
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "04592.39775.190326.2.2.04-3079",
+            "valorPedido": 2719.64,
+            "dataTransmissao": "19/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
