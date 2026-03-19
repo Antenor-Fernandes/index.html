@@ -26768,12 +26768,19 @@
         "2020": "9.551,98 - 29/05/2020",
         "2021": "R$ 10.087,23 - 30/06/2021",
         "2022": "10.691,60 31/05/2022",
-        "2023": "25.353,59 EM 28/11/2025",
+        "2023": "PROCESSADA — 25.353,59 EM 28/11/2025",
         "2024": "EM MALHA — MALHA PENSÃO - DDA FEITO PELA TT",
         "2025": "EM MALHA — MALHA PENSÃO"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T18:19:45.614Z",
+          "exercicio": "2023",
+          "de": "25.353,59 EM 28/11/2025",
+          "para": "PROCESSADA — 25.353,59 EM 28/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:19:33.028Z",
           "exercicio": "2024",
@@ -26789,7 +26796,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2023": {
+          "data": "28/11/2025",
+          "valor": 25353.59
+        }
+      },
       "dda": {
         "2024": {
           "feito": true,
@@ -32380,6 +32392,15 @@
           "porExercicio": {
             "2022": 83372.38
           }
+        },
+        {
+          "clienteId": "32512627691",
+          "cpfCnpj": "325.126.276-91",
+          "nome": "NELSON FIGUEIREDO DE OLIVEIRA",
+          "porExercicio": {
+            "2023": 25353.59
+          },
+          "total": 25353.59
         }
       ]
     },
