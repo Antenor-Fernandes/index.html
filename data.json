@@ -12960,7 +12960,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 E 2021 EM 19/09/2024 - RECEBIDOS EM 20/01/2025 - VERIFICAR DESPACHO DO INDEFERIMENTO DO VGBL",
       "exercicios": {
-        "2019": "5.840,40 EM 31/10/2024",
+        "2019": "EM PROCESSAMENTO — 5.840,40 EM 31/10/2024",
         "2020": "PROCESSADA — 6.691,19 EM 31/10/2024",
         "2021": "PROCESSADA — 12.501,84 EM 31/10/2024",
         "2022": "PROCESSADA",
@@ -12970,6 +12970,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:16:02.187Z",
+          "exercicio": "2019",
+          "de": "5.840,40 EM 31/10/2024",
+          "para": "EM PROCESSAMENTO — 5.840,40 EM 31/10/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:15:51.104Z",
           "exercicio": "2020",
@@ -13021,6 +13028,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "31/10/2024",
+          "valor": 5840.4
+        },
         "2020": {
           "data": "31/10/2024",
           "valor": 6691.19
