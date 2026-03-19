@@ -27578,10 +27578,32 @@
       "observacoes": "",
       "exercicios": {
         "2024": "MALHA DG - DDA FEITO PELA TT",
-        "2025": "1.842,14 EM 30/05/2025"
+        "2025": "PROCESSADA — 1.842,14 EM 30/05/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:42:17.000Z",
+          "exercicio": "2025",
+          "de": "1.842,14 EM 30/05/2025",
+          "para": "PROCESSADA — 1.842,14 EM 30/05/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 1842.14
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "72247720625",
