@@ -22197,12 +22197,19 @@
         "2021": "51.024,26 EM 29/11/2024",
         "2022": "48.431,51 EM 29/11/2024",
         "2023": "PROCESSADA — 45.496,09 EM 29/11/2024",
-        "2024": "EM PROCESSAMENTO — 43.674,07 EM 29/11/2024",
+        "2024": "PROCESSADA — 43.674,07 EM 29/11/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:58:02.510Z",
+          "exercicio": "2024",
+          "de": "EM PROCESSAMENTO — 43.674,07 EM 29/11/2024",
+          "para": "PROCESSADA — 43.674,07 EM 29/11/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:57:56.276Z",
           "exercicio": "2023",
