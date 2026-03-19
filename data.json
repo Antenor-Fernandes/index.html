@@ -25770,7 +25770,7 @@
       "observacoes": "MOLÉSTIA PROFISSIONAL - SENHA GOV.BR Bodas020559@ - PER 2020 A 2022 FEITOS EM 03/10/2024 E RECEBIDOS EM 20/01/2025 - PER 2023 FEITO EM 04/10/2024  E RECEBIDO EM 20/03/2025- PER 2024 FEITO EM 04/12/2024",
       "exercicios": {
         "2020": "PROCESSADA",
-        "2021": "10.362,53 EM 31/10/2024",
+        "2021": "PROCESSADA — 10.362,53 EM 31/10/2024",
         "2022": "PROCESSADA — 11.474,17 EM 29/11/2024",
         "2023": "PROCESSADA — 5.719,31 EM 29/11/2024",
         "2024": "PROCESSADA — 10.943,56 EM 29/11/2024",
@@ -25779,6 +25779,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:46:59.183Z",
+          "exercicio": "2021",
+          "de": "10.362,53 EM 31/10/2024",
+          "para": "PROCESSADA — 10.362,53 EM 31/10/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:46:46.694Z",
           "exercicio": "2022",
@@ -25809,6 +25816,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/10/2024",
+          "valor": 10362.53
+        },
         "2022": {
           "data": "29/11/2024",
           "valor": 11474.17
