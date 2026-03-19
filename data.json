@@ -23289,7 +23289,7 @@
         "2019": "12.069,67  EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
         "2020": "R$ 12.172,74 31/08/2021 TEM PERDCOMP WEB - RECEBEU PER EM 20/09/2021 - 12.376,76",
         "2021": "13.152,22 - 31/08/2021 - TEM PER WEB - RECEBEU PER EM 22/11/2021 - 11.319,53",
-        "2022": "17.621,95 EM 30/09/2024",
+        "2022": "PROCESSADA — 17.621,95 EM 30/09/2024",
         "2023": "PROCESSADA — 17.268,93 EM 30/09/2024",
         "2024": "PROCESSADA — 19.345,04 EM 30/09/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
@@ -23297,6 +23297,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:16:15.361Z",
+          "exercicio": "2022",
+          "de": "17.621,95 EM 30/09/2024",
+          "para": "PROCESSADA — 17.621,95 EM 30/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:16:00.879Z",
           "exercicio": "2023",
@@ -23320,6 +23327,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/09/2024",
+          "valor": 17621.95
+        },
         "2023": {
           "data": "30/09/2024",
           "valor": 17268.93
