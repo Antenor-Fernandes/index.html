@@ -30074,7 +30074,7 @@
       "senhaGov": "",
       "observacoes": "TEM PERWEB 2018 A 2021 FEITO EM 17/08/2022 E RECEBIDOS EM 20/12/2022 - PER 2022 FEITO EM 21/09/2022 VIA PROGRAMA  E RECEBIDO EM 15/05/2024 - TEM PER 2024",
       "exercicios": {
-        "2018": "40.171,62 30/09/2022",
+        "2018": "PROCESSADA — 40.171,62 30/09/2022",
         "2019": "PROCESSADA — 41.813,14 30/09/2022",
         "2020": "PROCESSADA — 42.562,60 30/09/2022",
         "2021": "PROCESSADA — 43.941,86 30/09/2022",
@@ -30086,6 +30086,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:17:55.112Z",
+          "exercicio": "2018",
+          "de": "40.171,62 30/09/2022",
+          "para": "PROCESSADA — 40.171,62 30/09/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:17:34.216Z",
           "exercicio": "2020",
@@ -30137,6 +30144,10 @@
         }
       ],
       "recebimentos": {
+        "2018": {
+          "data": "30/09/2022",
+          "valor": 40171.62
+        },
         "2019": {
           "data": "30/09/2022",
           "valor": 41813.14
