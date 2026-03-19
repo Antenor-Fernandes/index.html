@@ -7017,6 +7017,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-19T12:45:26.645Z",
+          "exercicio": "2025",
+          "de": "EM MALHA",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-19T12:45:08.574Z",
           "exercicio": "2024",
           "de": "EM MALHA",
@@ -7065,7 +7072,12 @@
           "valor": 26367.69
         }
       },
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "19/03/2026"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {
         "2023": {
