@@ -27367,13 +27367,20 @@
       "senhaGov": "Nina2711@",
       "observacoes": "SENHA GOV  Nina2711@ - NÃO TEVE IRRF NOS ANOS ANTERIORES - PER 2023 FEITO EM 06/06/2024",
       "exercicios": {
-        "2023": "MALHA DG - DDA FEITO EM 06/06/2024",
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 06/06/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026 - não pagou o imposto da declaração original no valor de R$ 21.283,60. Cobrar proveito econômico quando sair a restituição de 2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:41:29.861Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 06/06/2024",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 06/06/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:41:16.092Z",
           "exercicio": "2024",
@@ -27391,6 +27398,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "06/06/2024"
+        },
         "2024": {
           "feito": true,
           "data": "27/01/2025"
