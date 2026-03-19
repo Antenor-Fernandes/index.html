@@ -28674,7 +28674,7 @@
       "observacoes": "PER 2021 A 2024 FEITOS EM 26/06/2025 - PER 2025 FEITO EM 10/02/2026",
       "exercicios": {
         "2021": "1.663,27 EM 31/10/2025",
-        "2022": "2.645,38 EM 31/10/2025",
+        "2022": "PROCESSADA — 2.645,38 EM 31/10/2025",
         "2023": "PROCESSADA — 4.436,80 EM 31/10/2025",
         "2024": "PROCESSADA — 5.038,67 EM 31/10/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 10/02/2026"
@@ -28682,6 +28682,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:02:20.178Z",
+          "exercicio": "2022",
+          "de": "2.645,38 EM 31/10/2025",
+          "para": "PROCESSADA — 2.645,38 EM 31/10/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:02:08.867Z",
           "exercicio": "2023",
@@ -28712,6 +28719,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2025",
+          "valor": 2645.38
+        },
         "2023": {
           "data": "31/10/2025",
           "valor": 4436.8
