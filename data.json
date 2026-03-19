@@ -26770,9 +26770,25 @@
         "2022": "10.691,60 31/05/2022",
         "2023": "25.353,59 EM 28/11/2025",
         "2024": "MALHA PENSÃO - DDA FEITO PELA TT",
-        "2025": "MALHA PENSÃO"
+        "2025": "EM MALHA — MALHA PENSÃO"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-19T18:19:25.228Z",
+          "exercicio": "2025",
+          "de": "MALHA PENSÃO",
+          "para": "EM MALHA — MALHA PENSÃO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {}
     },
     {
       "id": "24800228620",
