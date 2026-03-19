@@ -30494,14 +30494,37 @@
       "cpfCnpj": "563.746.236-49",
       "tipo": "PF",
       "nome": "ROGÉRIO AMARO DA SILVA",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "Gmdc65#69$0415",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": false,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "PER FEITO 2023 FEITO EM 07/08/2024 - PER 2024 FEITO EM 30/01/2025 - SENHA GOV.BR Gmdc65#69$0415 - ACERTOU OS HONORÁRIOS E FEZ O DISTRATO EM 30/09/2025",
+      "atencao": true,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 07/08/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 30/01/2025"
       },
-      "temPer": false,
       "historico": [
         {
           "ts": "2026-03-19T19:22:24.316Z",
@@ -30544,13 +30567,14 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
+      "exProcessos": {},
       "exAtencao": {
         "2025": true
-      },
-      "exProcessos": {}
+      }
     },
     {
       "id": "14416280610",
