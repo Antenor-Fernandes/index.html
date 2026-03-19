@@ -25666,7 +25666,7 @@
       "exercicios": {
         "2020": "457,21 EM 30/12/2024",
         "2021": "RETIFICADORA TRANSMITIDA DA RECEITA - DDA FEITO EM 08/01/2025",
-        "2022": "1.894,63 EM 28/02/2025",
+        "2022": "PROCESSADA — 1.894,63 EM 28/02/2025",
         "2023": "PROCESSADA — 3.008,31 EM 28/02/2025",
         "2024": "PROCESSADA — 2.651,52 EM 28/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026"
@@ -25674,6 +25674,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T17:36:57.888Z",
+          "exercicio": "2022",
+          "de": "1.894,63 EM 28/02/2025",
+          "para": "PROCESSADA — 1.894,63 EM 28/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:36:22.303Z",
           "exercicio": "2023",
@@ -25697,6 +25704,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "28/02/2025",
+          "valor": 1894.63
+        },
         "2023": {
           "data": "28/02/2025",
           "valor": 3008.31
