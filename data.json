@@ -27122,12 +27122,19 @@
       "exercicios": {
         "2022": "PROCESSADA",
         "2023": "MALHA DG - DDA FEITO EM 09/07/2025",
-        "2024": "MALHA DG - DDA FEITO EM 09/07/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 09/07/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 09/02/2026 - COBRAR PROVEITO DO EX. 2025. NÃO PAGOU O IMPOSTO ORIGINAL (R$14.275,20) E SEM RESTITUIÇÃO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T18:38:53.200Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 09/07/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 09/07/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:38:34.223Z",
           "exercicio": "2025",
@@ -27138,6 +27145,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "09/07/2025"
+        },
         "2025": {
           "feito": true,
           "data": "09/02/2026"
