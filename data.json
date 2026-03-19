@@ -27283,13 +27283,20 @@
       "senhaGov": "",
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
-        "2022": "2.266,81 EM 31/10/2023",
+        "2022": "PROCESSADA — 2.266,81 EM 31/10/2023",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA — 954,50 EM 31/05/2025",
         "2025": "EM MALHA — MALHA ALUGUEL - DDA FEITO EM 13/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T18:40:25.191Z",
+          "exercicio": "2022",
+          "de": "2.266,81 EM 31/10/2023",
+          "para": "PROCESSADA — 2.266,81 EM 31/10/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T18:40:00.099Z",
           "exercicio": "2024",
@@ -27306,6 +27313,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2023",
+          "valor": 2266.81
+        },
         "2024": {
           "data": "31/05/2025",
           "valor": 954.5
