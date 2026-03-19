@@ -22197,12 +22197,19 @@
         "2021": "51.024,26 EM 29/11/2024",
         "2022": "48.431,51 EM 29/11/2024",
         "2023": "45.496,09 EM 29/11/2024",
-        "2024": "43.674,07 EM 29/11/2024",
+        "2024": "EM PROCESSAMENTO — 43.674,07 EM 29/11/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T15:57:43.566Z",
+          "exercicio": "2024",
+          "de": "43.674,07 EM 29/11/2024",
+          "para": "EM PROCESSAMENTO — 43.674,07 EM 29/11/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:57:28.592Z",
           "exercicio": "2025",
@@ -22211,7 +22218,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "29/11/2024",
+          "valor": 43674.07
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -33024,7 +33036,7 @@
           "id": "20315040610",
           "cpfCnpj": "203.150.406-10",
           "nome": "MARIA DA LUZ OLIVEIRA AGUIAR CANELLAS",
-          "total": 234207.11,
+          "total": 234207.11000000002,
           "porExercicio": {
             "2020": 45581.18,
             "2021": 51024.26,
