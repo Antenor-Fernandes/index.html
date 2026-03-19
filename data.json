@@ -21844,11 +21844,19 @@
         "2021": "4.990,39 EM 31/03/2023",
         "2022": "5.736,81 EM 31/03/2023",
         "2023": "8.610,74 EM 31/10/2024",
-        "2024": "MALHA DG - DDA FEITO EM 22/01/2025",
-        "2025": "JÁ BUSCOU O IMPOSTO RETIDO NA DECLARAÇÃO ORIGINAL FEITA POR ELA PRÓPRIA"
+        "2024": "MALHA DG - DDA FEITO EM 22/01/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-19T15:51:27.955Z",
+          "exercicio": "2025",
+          "de": "JÁ BUSCOU O IMPOSTO RETIDO NA DECLARAÇÃO ORIGINAL FEITA POR ELA PRÓPRIA",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "52428923668",
