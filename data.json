@@ -23291,12 +23291,19 @@
         "2021": "13.152,22 - 31/08/2021 - TEM PER WEB - RECEBEU PER EM 22/11/2021 - 11.319,53",
         "2022": "17.621,95 EM 30/09/2024",
         "2023": "17.268,93 EM 30/09/2024",
-        "2024": "19.345,04 EM 30/09/2024",
+        "2024": "PROCESSADA — 19.345,04 EM 30/09/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T16:15:44.313Z",
+          "exercicio": "2024",
+          "de": "19.345,04 EM 30/09/2024",
+          "para": "PROCESSADA — 19.345,04 EM 30/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:15:29.423Z",
           "exercicio": "2025",
@@ -23305,7 +23312,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "30/09/2024",
+          "valor": 19345.04
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -34162,7 +34174,7 @@
           "id": "59218363620",
           "cpfCnpj": "592.183.636-20",
           "nome": "MARIA ELLENA CYRINO FRATEZZI",
-          "total": 54235.92,
+          "total": 54235.920000000006,
           "porExercicio": {
             "2022": 17621.95,
             "2023": 17268.93,
