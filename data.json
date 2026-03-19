@@ -26522,6 +26522,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-19T18:01:47.313Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA — LIBERADA EM 05/01/2026 - COBRAR PROVEITO ECONÔMICO",
+          "para": "PROCESSADA — LIBERADA EM 05/01/2026 - COBRAR PROVEITO ECONÔMICO",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-19T18:01:39.218Z",
           "exercicio": "2025",
           "de": "PROCESSADA — LIBERADA EM 05/01/2026 - COBRAR PROVEITO ECONÔMICO",
@@ -26540,12 +26547,7 @@
       "dda": {},
       "impugnacoes": {},
       "exRRA": {},
-      "exGCAP": {
-        "2025": {
-          "ativo": true,
-          "obs": ""
-        }
-      },
+      "exGCAP": {},
       "exPerdcomps": {},
       "exProcessos": {
         "2025": [
