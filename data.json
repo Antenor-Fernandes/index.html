@@ -30282,7 +30282,7 @@
       "observacoes": "SENHA GOV.BR Brasil1963$",
       "exercicios": {
         "2018": "PROCESSADA - PER R$ 9.049,00 20/07/2020",
-        "2019": "R$ 40.292,05 - 31/08/2020",
+        "2019": "PROCESSADA — R$ 40.292,05 - 31/08/2020",
         "2020": "PROCESSADA — R$ 12.542,56 - 31/08/2020",
         "2021": "PROCESSADA — 17.670,74 EM 28/02/2023",
         "2022": "PROCESSADA — 18.380,65 EM 28/02/2023",
@@ -30293,6 +30293,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:20:54.854Z",
+          "exercicio": "2019",
+          "de": "R$ 40.292,05 - 31/08/2020",
+          "para": "PROCESSADA — R$ 40.292,05 - 31/08/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:20:41.200Z",
           "exercicio": "2020",
@@ -30337,6 +30344,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "31/08/2020",
+          "valor": 40292.05
+        },
         "2020": {
           "data": "31/08/2020",
           "valor": 12542.56
@@ -48587,9 +48598,10 @@
           "cpfCnpj": "488.484.176-04",
           "nome": "ROBERTO RIBEIRO VAZ",
           "porExercicio": {
+            "2019": 40292.05,
             "2020": 12542.56
           },
-          "total": 12542.56
+          "total": 52834.61
         }
       ]
     },
