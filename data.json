@@ -24724,11 +24724,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "ATENDEMOS INTIMAÇÃO EM 01/09/2025",
+        "2024": "EM MALHA — ATENDEMOS INTIMAÇÃO EM 01/09/2025",
         "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-19T17:05:17.134Z",
+          "exercicio": "2024",
+          "de": "ATENDEMOS INTIMAÇÃO EM 01/09/2025",
+          "para": "EM MALHA — ATENDEMOS INTIMAÇÃO EM 01/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:04:59.754Z",
           "exercicio": "2025",
@@ -24739,6 +24746,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "01/09/2025"
+        },
         "2025": {
           "feito": true,
           "data": "25/02/2026"
