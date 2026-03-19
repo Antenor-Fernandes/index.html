@@ -31691,12 +31691,19 @@
       "senhaGov": "",
       "observacoes": "FALTA LAUDO",
       "exercicios": {
-        "2021": "RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025 - PROCESSADA IMPOSTO JÁ HAVIA SIDO RESTITUÍDO",
+        "2021": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025 - PROCESSADA IMPOSTO JÁ HAVIA SIDO RESTITUÍDO",
         "2023": "EM MALHA — ATENDEMOS A MALHA EM 18/11/2025 - NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-19T19:35:54.065Z",
+          "exercicio": "2021",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025 - PROCESSADA IMPOSTO JÁ HAVIA SIDO RESTITUÍDO",
+          "para": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025 - PROCESSADA IMPOSTO JÁ HAVIA SIDO RESTITUÍDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:35:40.818Z",
           "exercicio": "2023",
