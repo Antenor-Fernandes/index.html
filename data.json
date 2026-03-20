@@ -31927,10 +31927,32 @@
       "observacoes": "PER 2024 E 2025 FEITOS EM 25/02/2026",
       "exercicios": {
         "2024": "MALHA DG - DDA FEITO EM 25/02/2026",
-        "2025": "MALHA DG - DDA FEITO EM 25/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 25/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-20T09:39:23.157Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 25/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 25/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "25/02/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "14160511635",
