@@ -648,6 +648,13 @@
       ],
       "historico": [
         {
+          "ts": "2026-03-20T11:18:27.174Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAR — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL:  pensão alimentícia ao maior de 2024 ( não tem o que impugnar Súmula CARF nº 214 ) e em relação ao menor se ele apresentar os comprovantes a gente impugna mês que vem ( ciência em 17/03 )",
+          "para": "IMPUGNAR — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL:  pensão alimentícia ao maior de 2024 ( não tem o que impugnar Súmula CARF nº 214 ) e em relação ao menor se ele apresentar os comprovantes a gente impugna mês que vem ( ciência em 17/03 )",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-20T11:17:19.248Z",
           "exercicio": "2023",
           "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
@@ -776,6 +783,16 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "29371.70238.231025.2.2.04-5185",
+            "valorPedido": 42723.55,
+            "dataTransmissao": "23/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
         "2023": [
           {
             "numero": "33620.56903.231025.2.2.04-7678",
