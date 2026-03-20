@@ -33924,12 +33924,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "MALHA DG - DDA FEITO EM 05/02/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:34:27.901Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 05/02/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:34:15.973Z",
           "exercicio": "2025",
@@ -33940,6 +33947,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "05/02/2025"
+        },
         "2025": {
           "feito": true,
           "data": "11/02/2026"
