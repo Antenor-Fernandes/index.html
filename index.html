@@ -2708,16 +2708,18 @@ function openExModal(clientId,year){
   const impug=c?.impugnacoes?.[year]||{};
   document.getElementById('ex-impug-box').style.display=isImpug?'block':'none';
   document.getElementById('ex-impug-data').value=impug.data||'';
-  // Carregar RRA
+  // Carregar RRA — checkbox ativado se há ativo:true OU obs preenchida
   const rra=c?.exRRA?.[year]||{};
-  document.getElementById('ex-rra-ativo').checked=!!(rra.ativo);
+  const rraOn=!!(rra.ativo)||!!(rra.obs);
+  document.getElementById('ex-rra-ativo').checked=rraOn;
   document.getElementById('ex-rra-obs').value=rra.obs||'';
-  document.getElementById('ex-rra-obs-row').style.display=rra.ativo?'block':'none';
-  // Carregar GCAP
+  document.getElementById('ex-rra-obs-row').style.display=rraOn?'block':'none';
+  // Carregar GCAP — checkbox ativado se há ativo:true OU obs preenchida
   const gcap=c?.exGCAP?.[year]||{};
-  document.getElementById('ex-gcap-ativo').checked=!!(gcap.ativo);
+  const gcapOn=!!(gcap.ativo)||!!(gcap.obs);
+  document.getElementById('ex-gcap-ativo').checked=gcapOn;
   document.getElementById('ex-gcap-obs').value=gcap.obs||'';
-  document.getElementById('ex-gcap-obs-row').style.display=gcap.ativo?'block':'none';
+  document.getElementById('ex-gcap-obs-row').style.display=gcapOn?'block':'none';
   // Carregar PERDCOMPs do exercício
   document.getElementById('ex-per-list').innerHTML='';
   exPerCount=0;
@@ -2772,17 +2774,17 @@ function toggleExDdaData(){
 function toggleExRRA(){
   const on=document.getElementById('ex-rra-ativo').checked;
   document.getElementById('ex-rra-obs-row').style.display=on?'block':'none';
-  if(!on)document.getElementById('ex-rra-obs').value='';
+  // Não limpa o campo ao desmarcar — dados preservados até exclusão explícita
 }
 function toggleExGCAP(){
   const on=document.getElementById('ex-gcap-ativo').checked;
   document.getElementById('ex-gcap-obs-row').style.display=on?'block':'none';
-  if(!on)document.getElementById('ex-gcap-obs').value='';
+  // Não limpa o campo ao desmarcar — dados preservados até exclusão explícita
 }
 function toggleExPer(){
   const on=document.getElementById('ex-per-ativo').checked;
   document.getElementById('ex-per-box').style.display=on?'block':'none';
-  if(!on){document.getElementById('ex-per-list').innerHTML='';exPerCount=0;}
+  // Não remove entradas ao desmarcar — dados preservados até exclusão explícita
 }
 let exPerCount=0;
 function addExPerEntry(pre){
@@ -2832,7 +2834,7 @@ function collectExPerEntries(){
 function toggleExProc(){
   const on=document.getElementById('ex-proc-ativo').checked;
   document.getElementById('ex-proc-box').style.display=on?'block':'none';
-  if(!on){document.getElementById('ex-proc-list').innerHTML='';exProcCount=0;}
+  // Não remove entradas ao desmarcar — dados preservados até exclusão explícita
 }
 let exProcCount=0;
 function addExProcEntry(pre){
@@ -2925,17 +2927,18 @@ async function saveExModal(){
   }else{
     delete c.impugnacoes[yr];
   }
-  // Salva RRA
+  // Salva RRA — preserva dados se obs preenchida mesmo com checkbox desmarcado;
+  // só deleta se checkbox desmarcado E obs vazia (exclusão explícita)
   if(!c.exRRA)c.exRRA={};
   const rraAtivo=document.getElementById('ex-rra-ativo').checked;
   const rraObs=document.getElementById('ex-rra-obs').value.trim();
-  if(rraAtivo){c.exRRA[yr]={ativo:true,obs:rraObs};}
+  if(rraAtivo||rraObs){c.exRRA[yr]={ativo:rraAtivo,obs:rraObs};}
   else{delete c.exRRA[yr];}
-  // Salva GCAP
+  // Salva GCAP — mesma lógica de preservação
   if(!c.exGCAP)c.exGCAP={};
   const gcapAtivo=document.getElementById('ex-gcap-ativo').checked;
   const gcapObs=document.getElementById('ex-gcap-obs').value.trim();
-  if(gcapAtivo){c.exGCAP[yr]={ativo:true,obs:gcapObs};}
+  if(gcapAtivo||gcapObs){c.exGCAP[yr]={ativo:gcapAtivo,obs:gcapObs};}
   else{delete c.exGCAP[yr];}
   // Salva PERDCOMPs do exercício
   if(!c.exPerdcomps)c.exPerdcomps={};
