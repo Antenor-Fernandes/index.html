@@ -1594,6 +1594,38 @@ async function init(){
     if(_migCount)ghSave();
     console.log(`[mig] Dados cadastrais preenchidos para ${_migCount} clientes (A)`);
   }
+  // ── MIGRAÇÃO ÚNICA: preenche PERDCOMPs com Número do Documento (2026-03-20) ──
+  if(!localStorage.getItem('mig_perdcomp_v2')){
+    const _PER={
+      '30515106704':{'2022':[{numero:'29371.70238.231025.2.2.04-5185',valorPedido:42723.55,dataTransmissao:'23/10/2025',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'33620.56903.231025.2.2.04-7678',valorPedido:12613.02,dataTransmissao:'23/10/2025',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'00623.70194.231025.2.2.04-0729',valorPedido:25712.32,dataTransmissao:'23/10/2025',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'23758.55716.231025.2.2.04-2782',valorPedido:16121.67,dataTransmissao:'23/10/2025',obs:'',dataRec:'',valorRec:''}]},
+      '04518438787':{'2022':[{numero:'24730.09055.150623.2.2.04-5660',valorPedido:8459.42,dataTransmissao:'15/06/2023',obs:'',dataRec:'',valorRec:''}]},
+      '34694455672':{'2021':[{numero:'05883.29726.170925.2.2.04-2546',valorPedido:1074.73,dataTransmissao:'17/09/2025',obs:'',dataRec:'',valorRec:''}],'2022':[{numero:'10621.29313.170925.2.2.04-4904',valorPedido:1345.53,dataTransmissao:'17/09/2025',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'42271.89126.170925.2.6.04-5628',valorPedido:2172.28,dataTransmissao:'17/09/2025',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'30763.62178.170925.2.2.04-0698',valorPedido:1921.57,dataTransmissao:'17/09/2025',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'24235.87312.091025.2.2.04-2341',valorPedido:2055.76,dataTransmissao:'09/10/2025',obs:'',dataRec:'',valorRec:''}]},
+      '69855196600':{'2020':[{numero:'25556.80031.290725.2.2.04-4830',valorPedido:1682.00,dataTransmissao:'29/07/2025',obs:'',dataRec:'',valorRec:''}],'2021':[{numero:'06461.78509.290725.2.2.04-5025',valorPedido:3548.02,dataTransmissao:'29/07/2025',obs:'',dataRec:'',valorRec:''}],'2022':[{numero:'08066.92691.290725.2.2.04-5002',valorPedido:3366.76,dataTransmissao:'29/07/2025',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'06546.83850.290725.2.2.04-9487',valorPedido:3483.83,dataTransmissao:'29/07/2025',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'22305.44476.290725.2.2.04-8815',valorPedido:11110.43,dataTransmissao:'29/07/2025',obs:'',dataRec:'',valorRec:''}]},
+      '66677270653':{'2021':[{numero:'42769.51153.190226.2.2.04-3817',valorPedido:1049.37,dataTransmissao:'19/02/2026',obs:'',dataRec:'',valorRec:''}],'2022':[{numero:'21315.31179.190226.2.2.04-0080',valorPedido:2503.11,dataTransmissao:'19/02/2026',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'41658.91001.190226.2.2.04-6588',valorPedido:3113.64,dataTransmissao:'19/02/2026',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'19614.02486.190226.2.2.04-3230',valorPedido:4647.52,dataTransmissao:'19/02/2026',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'00601.76889.190226.2.2.04-2065',valorPedido:5873.83,dataTransmissao:'19/02/2026',obs:'',dataRec:'',valorRec:''}]},
+      '27965368668':{'2018':[{numero:'17375.18685.230922.2.2.04-5801',valorPedido:3511.57,dataTransmissao:'23/09/2022',obs:'',dataRec:'',valorRec:''}],'2019':[{numero:'32379.53851.230922.2.2.04-2588',valorPedido:2152.96,dataTransmissao:'23/09/2022',obs:'',dataRec:'',valorRec:''}],'2020':[{numero:'17003.36243.230922.2.2.04-0018',valorPedido:6212.74,dataTransmissao:'23/09/2022',obs:'',dataRec:'',valorRec:''}],'2021':[{numero:'02007.98526.230922.2.2.04-4868',valorPedido:7243.79,dataTransmissao:'23/09/2022',obs:'',dataRec:'',valorRec:''}],'2022':[{numero:'41531.34743.111022.2.2.04-4871',valorPedido:3748.11,dataTransmissao:'11/10/2022',obs:'',dataRec:'',valorRec:''}]},
+      '01317016653':{'2021':[{numero:'20221.30735.101025.2.2.04-7092',valorPedido:1094.42,dataTransmissao:'10/10/2025',obs:'',dataRec:'',valorRec:''}],'2022':[{numero:'03245.56786.101025.2.2.04-3596',valorPedido:883.03,dataTransmissao:'10/10/2025',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'18044.13151.101025.2.2.04-9106',valorPedido:1675.83,dataTransmissao:'10/10/2025',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'08674.61962.101025.2.2.04-9663',valorPedido:8997.95,dataTransmissao:'10/10/2025',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'13599.83023.121125.2.2.04-9408',valorPedido:7243.77,dataTransmissao:'12/11/2025',obs:'',dataRec:'',valorRec:''}]},
+      '29621631653':{'2022':[{numero:'09654.82764.151223.2.2.04-4669',valorPedido:7085.04,dataTransmissao:'15/12/2023',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'42421.56577.130325.2.2.04-0235',valorPedido:1845.29,dataTransmissao:'13/03/2025',obs:'',dataRec:'',valorRec:''}]},
+      '10132147734':{'2022':[{numero:'28923.47826.170724.2.2.04-4451',valorPedido:9923.16,dataTransmissao:'17/07/2024',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'38039.41394.170724.2.2.04-0854',valorPedido:28525.55,dataTransmissao:'17/07/2024',obs:'',dataRec:'',valorRec:''}]},
+      '29730163634':{'2023':[{numero:'37735.86526.080725.2.2.04-0177',valorPedido:4202.48,dataTransmissao:'08/07/2025',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'27360.68583.080725.2.2.04-6133',valorPedido:5918.00,dataTransmissao:'08/07/2025',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'16838.39690.260126.2.2.04-1848',valorPedido:616.86,dataTransmissao:'26/01/2026',obs:'',dataRec:'',valorRec:''}]},
+      '35903490697':{'2022':[{numero:'40996.22467.160326.2.2.04-0507',valorPedido:31412.01,dataTransmissao:'16/03/2026',obs:'',dataRec:'',valorRec:''}]},
+      '01226657672':{'2023':[{numero:'41201.62002.090625.2.2.04-4804',valorPedido:7796.72,dataTransmissao:'09/06/2025',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'12914.71148.090625.2.2.04-0499',valorPedido:7024.66,dataTransmissao:'09/06/2025',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'09808.18933.260126.2.2.04-4382',valorPedido:7824.16,dataTransmissao:'26/01/2026',obs:'',dataRec:'',valorRec:''}]},
+      '75236982634':{'2022':[{numero:'17747.96026.050226.2.2.04-9727',valorPedido:3403.16,dataTransmissao:'05/02/2026',obs:'',dataRec:'',valorRec:''}],'2023':[{numero:'07453.75656.050226.2.2.04-0304',valorPedido:13.57,dataTransmissao:'05/02/2026',obs:'',dataRec:'',valorRec:''}],'2024':[{numero:'42189.08777.050226.2.2.04-6270',valorPedido:5045.95,dataTransmissao:'05/02/2026',obs:'',dataRec:'',valorRec:''}],'2025':[{numero:'35066.56980.050226.2.2.04-0447',valorPedido:9103.29,dataTransmissao:'05/02/2026',obs:'',dataRec:'',valorRec:''}]},
+    };
+    let _pCnt=0;
+    for(const c of allClients){
+      const upd=_PER[c.id];if(!upd)continue;
+      if(!c.exPerdcomps)c.exPerdcomps={};
+      for(const[yr,arr]of Object.entries(upd)){
+        if(!c.exPerdcomps[yr]){c.exPerdcomps[yr]=arr;}
+        else if(c.exPerdcomps[yr][0]){c.exPerdcomps[yr][0].numero=arr[0].numero;}
+      }
+      c.temPer=true;
+      await dbPut('clientes',c);_pCnt++;
+    }
+    localStorage.setItem('mig_perdcomp_v2','1');
+    if(_pCnt)ghSave();
+    console.log(`[mig] PERDCOMPs (v2 Nº Documento) preenchidos para ${_pCnt} clientes`);
+  }
   // ── FIM MIGRAÇÃO ──
   filteredClients=[...allClients];
   applyReadOnlyUI(); // re-aplica após carregar accessList
@@ -1745,6 +1777,7 @@ function renderDecl(){
     if(currentFilter==='PROC')return clientHasProc(c);
     if(currentFilter==='ATENCAO')return clientHasAtencao(c);
     if(currentFilter==='PERR')return clientHasPerAReceber(c);
+    if(currentFilter==='MALHA_SEM_DDA')return clientHasMalhaSemDDA(c);
     return true;
   });
   document.getElementById('decl-count').textContent=clients.length+' cliente'+(clients.length!==1?'s':'');
@@ -1832,6 +1865,7 @@ function renderFilterChips(){
     {key:'PROC',   label:'PROCESSO',      cls:'proc-chip',    icon:'⚖️'},
     {key:'ATENCAO',label:'ATENÇÃO',       cls:'atencao-chip', icon:'⚠️'},
     {key:'PERR',   label:'<span style="font-size:10px;font-weight:800;letter-spacing:.6px;background:rgba(217,119,6,.15);color:#d97706;border:1px solid rgba(217,119,6,.35);border-radius:4px;padding:1px 5px;margin-right:3px">PER</span>A Receber',cls:'perr-chip',icon:''},
+    {key:'MALHA_SEM_DDA', label:'Malha s/ DDA', cls:'malha-chip', icon:'🔴'},
   ];
   document.getElementById('filter-chips').innerHTML=chips.map(c=>
     `<div class="filter-chip ${c.cls} ${currentFilter===c.key?'active':''}" onclick="setFilter('${c.key}')" style="display:inline-flex;align-items:center;gap:5px">${c.icon?`<span style="font-size:11px">${c.icon}</span>`:''} ${c.label}</div>`
@@ -1860,6 +1894,12 @@ function clientHasPerAReceber(c){
   // perdcomps legados: alguma entrada com valorPedido > 0 e sem valorRecebido completo
   const legPendente=getPerdcomps(c).some(p=>p.valorPedido>0&&!(p.valorRecebido>0&&p.dataRecebimento));
   return exPendente||legPendente;
+}
+function clientHasMalhaSemDDA(c){
+  return Object.entries(c.exercicios||{}).some(([yr,st])=>{
+    if(classifyStatus(st).cls!=='malha')return false;
+    return !c.dda?.[yr]?.feito;
+  });
 }
 let _searchTimer=null;
 function filterClientsDebounced(){
@@ -1890,6 +1930,7 @@ function filterClients(){
     if(currentFilter==='PROC')return clientHasProc(c);
     if(currentFilter==='ATENCAO')return clientHasAtencao(c);
     if(currentFilter==='PERR')return clientHasPerAReceber(c);
+    if(currentFilter==='MALHA_SEM_DDA')return clientHasMalhaSemDDA(c);
     return true;
   });
   renderTable(filteredClients);
