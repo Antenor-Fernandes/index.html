@@ -33406,7 +33406,7 @@
       "senhaGov": "",
       "observacoes": "2 PEDIDOS DE REVISÃO DE DÉBITO NA PGFN FEITOS EM 16/11/2023 CANCELADOS - PER 2020 A 2022 FEITOS EM 17/11/2023 - PER 2023 FEITO EM 05/02/2024 - RECEBEU EM 20/09/2024",
       "exercicios": {
-        "2019": "IMPUGNAÇÃO FEITA EM 16/11/2023 - 13031.633050/2023-57 - PROCEDENTE",
+        "2019": "PROCESSADA — FEITA EM 16/11/2023 - 13031.633050/2023-57 - PROCEDENTE",
         "2020": "PROCESSADA — 15.652,23 EM 29/02/2024",
         "2021": "PROCESSADA — 17.752,30 EM 29/02/2024",
         "2022": "PROCESSADA — 17.632,68 EM 29/02/2024",
@@ -33417,6 +33417,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:26:41.000Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAÇÃO FEITA EM 16/11/2023 - 13031.633050/2023-57 - PROCEDENTE",
+          "para": "PROCESSADA — FEITA EM 16/11/2023 - 13031.633050/2023-57 - PROCEDENTE",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:26:25.061Z",
           "exercicio": "2020",
