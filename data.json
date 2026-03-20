@@ -33003,6 +33003,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-20T10:01:45.098Z",
+          "exercicio": "2023",
+          "de": "IMPUGNAÇÃO — FEITA EM 23/06/2025 -  processo 18183.737904/2024-34 (encaminhado para julgamento em 10/02/2026 acompanhar )",
+          "para": "IMPUGNAÇÃO — FEITA EM 23/06/2025 -  processo 18183.737904/2024-34 (encaminhado para julgamento em 10/02/2026 acompanhar )",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-20T09:59:49.944Z",
           "exercicio": "2024",
           "de": "MALHA DG - ATENDEMOS INTIMAÇÃO EM 23/06/2025",
@@ -33049,7 +33056,11 @@
           "data": "11/02/2026"
         }
       },
-      "impugnacoes": {},
+      "impugnacoes": {
+        "2023": {
+          "data": "23/06/2025"
+        }
+      },
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -33085,7 +33096,9 @@
         ]
       },
       "exProcessos": {},
-      "exAtencao": {}
+      "exAtencao": {
+        "2023": true
+      }
     },
     {
       "id": "16466055604",
