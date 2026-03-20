@@ -32692,10 +32692,45 @@
         "2022": "PROCESSADA",
         "2023": "1.235,54 EM 31/10/2025",
         "2024": "9.840,72 EM 28/11/2025",
-        "2025": "MALHA DG - DDA FEITO EM 21/01/2026 -  PROCESSO DE RESTITUIÇÃO LIBERTAS TRIB EXC FONTE FEITO EM 27/06/2025 - DEFERIDO E AINDA NÃO PAGO - DÉBITO DE ITR E E-SOCIAL - TEVE COMPENSAÇÃO"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026 -  PROCESSO DE RESTITUIÇÃO LIBERTAS TRIB EXC FONTE FEITO EM 27/06/2025 - DEFERIDO E AINDA NÃO PAGO - DÉBITO DE ITR E E-SOCIAL - TEVE COMPENSAÇÃO"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-20T09:54:54.019Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 21/01/2026 -  PROCESSO DE RESTITUIÇÃO LIBERTAS TRIB EXC FONTE FEITO EM 27/06/2025 - DEFERIDO E AINDA NÃO PAGO - DÉBITO DE ITR E E-SOCIAL - TEVE COMPENSAÇÃO",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026 -  PROCESSO DE RESTITUIÇÃO LIBERTAS TRIB EXC FONTE FEITO EM 27/06/2025 - DEFERIDO E AINDA NÃO PAGO - DÉBITO DE ITR E E-SOCIAL - TEVE COMPENSAÇÃO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "21/01/2026"
+        }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2025": true
+      },
+      "exProcessos": {
+        "2025": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataProtocolo": "27/06/2025",
+            "obs": "PROCESSO DE RESTITUIÇÃO LIBERTAS TRIB EXC FONTE FEITO EM 27/06/2025 - DEFERIDO E AINDA NÃO PAGO",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "05581861579",
