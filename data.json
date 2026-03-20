@@ -33211,10 +33211,32 @@
         "2022": "8.327,21 EM 28/02/2023",
         "2023": "9.484,65 EM 28/03/2024",
         "2024": "MALHA DG - DDA FEITO EM 05/02/2025",
-        "2025": "12.590,75 EM 30/05/2025"
+        "2025": "PROCESSADA — 12.590,75 EM 30/05/2025"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-20T10:10:36.612Z",
+          "exercicio": "2025",
+          "de": "12.590,75 EM 30/05/2025",
+          "para": "PROCESSADA — 12.590,75 EM 30/05/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 12590.75
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "10853022615",
