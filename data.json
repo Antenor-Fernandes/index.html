@@ -34014,7 +34014,7 @@
       "observacoes": "SENHA GOV #Qezivez6",
       "exercicios": {
         "2021": "MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU 83.696,28 EM 20/02/2026",
-        "2022": "MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU  82.413,84 EM 20/01/2026",
+        "2022": "EM PROCESSAMENTO — MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU  82.413,84 EM 20/01/2026",
         "2023": "EM PROCESSAMENTO — 54.961,32 EM 30/06/2025",
         "2024": "PROCESSADA — 47.044,90 EM 30/06/2025",
         "2025": "PROCESSADA — 23.870,03 EM 30/05/2025"
@@ -34022,6 +34022,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:36:04.665Z",
+          "exercicio": "2022",
+          "de": "MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU  82.413,84 EM 20/01/2026",
+          "para": "EM PROCESSAMENTO — MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU  82.413,84 EM 20/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:35:47.777Z",
           "exercicio": "2023",
@@ -34045,6 +34052,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "20/01/2026",
+          "valor": 82413.84
+        },
         "2023": {
           "data": "30/06/2025",
           "valor": 54961.32
@@ -34966,6 +34977,15 @@
             "2023": 10000.61
           },
           "total": 48535.65
+        },
+        {
+          "clienteId": "23058994672",
+          "cpfCnpj": "230.589.946-72",
+          "nome": "WALTER MIRANDA DE SALES",
+          "porExercicio": {
+            "2022": 82413.84
+          },
+          "total": 82413.84
         }
       ]
     },
