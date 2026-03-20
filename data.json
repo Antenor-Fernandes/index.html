@@ -32130,7 +32130,7 @@
       "observacoes": "PER 2025 FEITO EM 12/11/2025 RECEBIDO EM 20/02/2026",
       "exercicios": {
         "2019": "MARCOS ANTÔNIO AMARAL MARTINS ENTROU COMO DEPENDENTE EM 2021 E TEM D.G.",
-        "2020": "R$ 350,60 - 31/07/2020",
+        "2020": "PROCESSADA — R$ 350,60 - 31/07/2020",
         "2021": "PROCESSADA — 10.490,44 EM 31/03/2023",
         "2022": "PROCESSADA — 6.467,96 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 02/02/2024",
@@ -32140,6 +32140,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:41:33.840Z",
+          "exercicio": "2020",
+          "de": "R$ 350,60 - 31/07/2020",
+          "para": "PROCESSADA — R$ 350,60 - 31/07/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:41:23.983Z",
           "exercicio": "2021",
@@ -32170,6 +32177,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/07/2020",
+          "valor": 350.6
+        },
         "2021": {
           "data": "31/03/2023",
           "valor": 10490.44
@@ -49193,6 +49204,15 @@
             "2020": 26971.79
           },
           "total": 26971.79
+        },
+        {
+          "clienteId": "21965609600",
+          "cpfCnpj": "219.656.096-00",
+          "nome": "TÂNIA MARIA VAZ AMARAL MARTINS",
+          "porExercicio": {
+            "2020": 350.6
+          },
+          "total": 350.6
         }
       ]
     },
