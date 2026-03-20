@@ -615,7 +615,7 @@
       "id": "30515106704",
       "cpfCnpj": "305.151.067-04",
       "tipo": "PF",
-      "nome": "ADOLFO PAULO BICALHO",
+      "nome": "ADOLFO PAULO BICALHO DE LANA",
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
       "observacoes": "PER 2022, 2023 2024 E 2025 FEITOS EM 23/10/2025 - PROCESSO 13031.498082/2025-61 PEDINDO PRIORIDADE NA ALÁLISE DOS PER - RECEBEU 1 EM 20/02/2026",
@@ -839,7 +839,17 @@
         ]
       },
       "exAtencao": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "telefone": "(31) 99669-1283",
+      "email": "adolfolana@yahoo.com.br",
+      "logradouro": "Rua Pio Porto Menezes",
+      "numeroEnd": "120",
+      "complemento": "Apto 104A",
+      "bairro": "Luxemburgo",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30380-300",
+      "dataContrato": "19/08/2025"
     },
     {
       "id": "82924481600",
@@ -2168,7 +2178,18 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "rg": "MG-22.086.475",
+      "telefone": "(31) 99119-5097",
+      "email": "a.ribeiro@emfaaviacao.com.br",
+      "logradouro": "Avenida Prudente de Morais",
+      "numeroEnd": "107",
+      "complemento": "Apto 302",
+      "bairro": "Santo Antônio",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30350-093",
+      "dataContrato": "02/12/2022"
     },
     {
       "id": "25741853668",
@@ -2254,7 +2275,14 @@
         "2025": "498,12 EM 31/10/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "telefone": "(31) 3442-4536",
+      "logradouro": "Rua Cyro Borja",
+      "numeroEnd": "470",
+      "bairro": "Floresta",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "31110-235"
     },
     {
       "id": "10506844609",
@@ -2458,7 +2486,17 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "rg": "MG-2.834.705",
+      "telefone": "(31) 99979-4756",
+      "email": "ananovato@uol.com.br",
+      "logradouro": "Rua Professor Carlos Pereira da Silva",
+      "numeroEnd": "617",
+      "bairro": "Belvedere",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30320-330",
+      "dataContrato": "10/05/2023"
     },
     {
       "id": "18821467864",
@@ -2632,7 +2670,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "rg": "M-1463240",
+      "telefone": "(31) 99935-4588",
+      "email": "andreaathayde1960@gmail.com",
+      "logradouro": "Rua Oscar Trompowisky",
+      "numeroEnd": "1286",
+      "complemento": "Apto 201",
+      "bairro": "Grajaú",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30431-177",
+      "dataContrato": "20/03/2025"
     },
     {
       "id": "90383982634",
@@ -3035,7 +3084,17 @@
           "valor": 40257.41
         }
       },
-      "dda": {}
+      "dda": {},
+      "telefone": "(31) 98805-5577",
+      "email": "laercio.nogueira@gmail.com",
+      "logradouro": "Rua Carangola",
+      "numeroEnd": "144",
+      "complemento": "Apto 201",
+      "bairro": "Santo Antônio",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30330-240",
+      "dataContrato": "31/08/2021"
     },
     {
       "id": "06297984603",
@@ -3168,7 +3227,17 @@
         "2025": "56.143,68 EM 28/11/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "telefone": "(31) 3281-4690 / (31) 98858-2661",
+      "email": "antoninoteixeira@gmail.com",
+      "logradouro": "Rua Caldas",
+      "numeroEnd": "143",
+      "complemento": "Casa",
+      "bairro": "Carmo",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "30310-560",
+      "dataContrato": "30/09/2025"
     },
     {
       "id": "00184217687",
@@ -4302,7 +4371,17 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "rg": "MG-1.074.560",
+      "telefone": "(31) 99283-4969",
+      "email": "arisovaldo@grafite.com",
+      "logradouro": "Rua Maria Cândida de Jesus",
+      "numeroEnd": "330",
+      "bairro": "Jardim Paquetá",
+      "cidade": "Belo Horizonte",
+      "uf": "MG",
+      "cep": "31330-460",
+      "dataContrato": "20/09/2023"
     },
     {
       "id": "10132147734",
@@ -4397,7 +4476,16 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "telefone": "(21) 2264-2636 / (21) 99495-2774",
+      "logradouro": "Rua Benjamim Franklin",
+      "numeroEnd": "11",
+      "complemento": "Apto 601",
+      "bairro": "Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "20540-096",
+      "dataContrato": "10/07/2024"
     },
     {
       "id": "25088173687",
