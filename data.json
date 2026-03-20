@@ -34498,11 +34498,19 @@
       "observacoes": "SENHA GOV.BR At19391942*",
       "exercicios": {
         "2023": "MALHA DG E DESP MED - DDA FEITO EM 07/02/2024",
-        "2024": "CLIENTE QUE FEZ",
-        "2025": "ISENTO NA FONTE"
+        "2024": "CLIENTE QUE FEZ"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-20T10:42:31.587Z",
+          "exercicio": "2025",
+          "de": "ISENTO NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "04391571617",
