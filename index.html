@@ -1404,8 +1404,7 @@ function openUserOptions(){
   if(currentUser==='admin'&&!isReadOnly){
     openUserManager();
   }else{
-    const nome=getCurrentUserName();
-    if(confirm(`Encerrar sessão de ${nome}?`))logout();
+    logout();
   }
 }
 
@@ -1461,7 +1460,6 @@ async function addUser(){
 async function removeUser(idx){
   const u=accessList[idx];
   if(!u)return;
-  if(!confirm(`Remover usuário "${u.nome}"?`))return;
   accessList.splice(idx,1);
   renderUserList();
   await saveAccessConfig();
@@ -2017,7 +2015,6 @@ async function addNewPerdcomp(id){
   if(body&&!body.classList.contains('open'))body.classList.add('open');
 }
 async function deletePerEntry(id,idx){
-  if(!confirm('Remover este PERDCOMP?'))return;
   const c=allClients.find(x=>x.id===id);if(!c)return;
   if(!Array.isArray(c.perdcomps))c.perdcomps=getPerdcomps(c);
   c.perdcomps.splice(idx,1);
@@ -2236,6 +2233,7 @@ function adicionarClienteNoLote(preload){
           <option value="">— Selecione o cliente —</option>
           ${allClients.map(c=>`<option value="${c.id}" data-cpf="${c.cpfCnpj}" data-nome="${c.nome}" ${preload&&preload.clienteId===c.id?'selected':''}>${c.nome} · ${c.cpfCnpj}</option>`).join('')}
         </select>
+        <input type="number" id="nl-yr-${uid}" min="2010" max="${new Date().getFullYear()+1}" value="${new Date().getFullYear()}" style="width:66px;padding:5px 6px;border:1px solid var(--border);border-radius:7px;background:var(--surface2);font-size:12.5px;color:var(--text);text-align:center" title="Ano do exercício">
         <button class="btn btn-ghost btn-sm" onclick="nlAddExInput('${uid}')">＋ Exercício</button>
       </div>
       <div class="lote-ex-inputs" id="ex-inputs-${uid}">${exHtml}</div>
@@ -2271,8 +2269,11 @@ function nlCliSelecionado(sel,uid){
 }
 function nlAddExInput(uid){
   const sel=document.getElementById('ex-inputs-'+uid);
-  const yr=prompt('Ano do exercício (ex: 2023):');
+  const yrInp=document.getElementById('nl-yr-'+uid);
+  const yr=yrInp?String(parseInt(yrInp.value,10)||new Date().getFullYear()):String(new Date().getFullYear());
   if(!yr||isNaN(yr))return;
+  // Não adiciona se já existe o mesmo ano
+  if(sel.querySelector(`[data-year="${yr}"]`)){showToast(`Exercício ${yr} já adicionado`,'error');return;}
   const tmp=document.createElement('div');
   tmp.innerHTML=nlExInputHtml(yr,'');
   sel.appendChild(tmp.firstElementChild);
@@ -2526,7 +2527,6 @@ async function lcSalvar(){
   ghSave();
 }
 async function lcRemoverCliente(){
-  if(!confirm('Remover este cliente do lote?'))return;
   allLotes[lcLoteIdx].pagamentos.splice(lcPagIdx,1);
   await dbPut('lotes',allLotes[lcLoteIdx]);
   document.getElementById('modal-lote-cliente').style.display='none';
@@ -2663,6 +2663,8 @@ function clearExRecFields(){
   document.getElementById('ex-proc-box').style.display='none';
   document.getElementById('ex-proc-list').innerHTML='';
   exProcCount=0;
+  // ATENÇÃO
+  document.getElementById('ex-atencao').checked=false;
 }
 function openAddEx(clientId){
   exEditId=clientId;exEditYear=null;
@@ -2678,7 +2680,6 @@ function openExModal(clientId,year){
   exEditId=clientId;exEditYear=year;
   const c=allClients.find(x=>x.id===clientId);
   const st=c?.exercicios?.[year]||'';
-  document.getElementById('ex-modal-title').textContent=`Exercício ${year}`;
   document.getElementById('ex-year-disp').disabled=true;
   document.getElementById('ex-year-disp').value=year;
   const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','PERDCOMP','AGUARDANDO','NÃO DECLARADA','OUTRO'];
@@ -3055,7 +3056,6 @@ async function excluirLote(idx){
     showToast('Remova todos os clientes antes de excluir o lote','error');
     return;
   }
-  if(!confirm(`Excluir lote de ${l.data}?`))return;
   allLotes.splice(idx,1);
   await dbDelete('lotes',l.data);
   renderLotes();
@@ -3098,6 +3098,7 @@ async function deleteExModal(){
     }
   }
   if(c.exProcessos)delete c.exProcessos[exEditYear];
+  if(c.exAtencao)delete c.exAtencao[exEditYear];
   document.getElementById('modal-ex').style.display='none';
   detailId=exEditId;
   refreshCurrentView();
@@ -3564,7 +3565,7 @@ function showToast(msg,type='success'){
 // ── ESC fecha qualquer modal aberto ───────────────────────────────────────────
 document.addEventListener('keydown',e=>{
   if(e.key!=='Escape')return;
-  const ids=['modal-cliente','modal-gh-config','modal-user-manager','modal-ex','modal-novo-lote','modal-lote-cliente'];
+  const ids=['modal-cliente','modal-gh-config','modal-user-manager','modal-ex','modal-novo-lote','modal-lote-cliente','modal-delete-confirm'];
   for(const id of ids){
     const el=document.getElementById(id);
     if(el&&el.style.display!=='none'){el.style.display='none';return;}
@@ -3780,7 +3781,7 @@ function gerarRelatorioLotes(){
       if(ateDt&&lDt>ateDt)return false;
     }
     if(busca){
-      return l.pagamentos.some(p=>p.nome.toLowerCase().includes(busca)||p.cpfCnpj.includes(busca));
+      return (l.pagamentos||[]).some(p=>(p.nome||'').toLowerCase().includes(busca)||(p.cpfCnpj||'').includes(busca));
     }
     return true;
   });
@@ -3826,8 +3827,8 @@ function gerarRelatorioLotes(){
   } else {
     // Detalhado: cada lote com seus clientes
     html+=lotes.map(l=>{
-      const tot=l.pagamentos.reduce((s,p)=>s+(p.total||Object.values(p.porExercicio||{}).reduce((a,b)=>a+b,0)),0);
-      const pags=busca?l.pagamentos.filter(p=>p.nome.toLowerCase().includes(busca)||p.cpfCnpj.includes(busca)):l.pagamentos;
+      const tot=(l.pagamentos||[]).reduce((s,p)=>s+(p.total||Object.values(p.porExercicio||{}).reduce((a,b)=>a+b,0)),0);
+      const pags=busca?(l.pagamentos||[]).filter(p=>(p.nome||'').toLowerCase().includes(busca)||(p.cpfCnpj||'').includes(busca)):(l.pagamentos||[]);
       return`<div class="rel-panel" style="margin-bottom:12px">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
           <span style="font-family:'DM Mono',monospace;font-weight:700;font-size:13px">📅 ${l.data}</span>
