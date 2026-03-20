@@ -33847,12 +33847,19 @@
         "2021": "IMPUGNAÇÃO EM 15/01/2024 - DEFERIDO - COBRAR HONORÁRIOS DE 1.716,19 QUANDO RECEBER AS RESTITUIÇÕES DAS OUTRAS DECLARAÇÕES",
         "2022": "6.288,45 EM 30/01/2026",
         "2023": "9.057,90 EM 30/01/2026",
-        "2024": "10.487,72 EM 30/01/2026",
+        "2024": "PROCESSADA — 10.487,72 EM 30/01/2026",
         "2025": "PROCESSADA — 9.845,68 EM 30/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:32:44.655Z",
+          "exercicio": "2024",
+          "de": "10.487,72 EM 30/01/2026",
+          "para": "PROCESSADA — 10.487,72 EM 30/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:32:28.009Z",
           "exercicio": "2025",
@@ -33862,6 +33869,10 @@
         }
       ],
       "recebimentos": {
+        "2024": {
+          "data": "30/01/2026",
+          "valor": 10487.72
+        },
         "2025": {
           "data": "30/01/2026",
           "valor": 9845.68
