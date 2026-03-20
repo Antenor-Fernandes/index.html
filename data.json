@@ -34656,7 +34656,7 @@
         "2019": "10.614,64 - 29/05/2020",
         "2020": "12256,65 EM 31/03/21",
         "2021": "17.356,13 EM 31/03/2023",
-        "2022": "16.383,00 EM 31/03/2023",
+        "2022": "PROCESSADA — 16.383,00 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 17/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
@@ -34664,6 +34664,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:45:22.207Z",
+          "exercicio": "2022",
+          "de": "16.383,00 EM 31/03/2023",
+          "para": "PROCESSADA — 16.383,00 EM 31/03/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:45:08.997Z",
           "exercicio": "2023",
@@ -34686,7 +34693,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2023",
+          "valor": 16383
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
@@ -45015,7 +45027,7 @@
           "id": "46452559672",
           "cpfCnpj": "464.525.596-72",
           "nome": "XÊNIA PAULA MONTEIRO DE BARROS",
-          "total": 33739.13,
+          "total": 33739.130000000005,
           "porExercicio": {
             "2021": 17356.13,
             "2022": 16383
