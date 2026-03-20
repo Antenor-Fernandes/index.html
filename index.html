@@ -223,6 +223,8 @@ body.readonly .edit-only{display:none!important}
 .filter-chip.proc-chip.active{background:rgba(99,102,241,.12);color:#818cf8;border-color:rgba(99,102,241,.3)}
 .filter-chip.atencao-chip{border-color:rgba(245,158,11,.25)}
 .filter-chip.atencao-chip.active{background:rgba(245,158,11,.14);color:#d97706;border-color:rgba(245,158,11,.45);font-weight:700}
+.filter-chip.perr-chip{border-color:rgba(22,163,74,.25)}
+.filter-chip.perr-chip.active{background:rgba(22,163,74,.13);color:#16a34a;border-color:rgba(22,163,74,.4);font-weight:700}
 ::-webkit-scrollbar{width:5px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:var(--border);border-radius:3px}
 /* EX MODAL EXTRAS */
 .ex-section-sep{border-top:1px solid var(--border);margin:14px 0 10px;padding-top:10px}
@@ -501,6 +503,7 @@ body.exercicios-level .full-edit-only{display:none!important}
               <option value="RRA">Com RRA</option>
               <option value="GCAP">Com GCAP</option>
               <option value="PER">Com PERDCOMP</option>
+              <option value="PERR">PERDCOMP a receber</option>
               <option value="PROC">Com PROCESSO</option>
             </select>
           </div>
@@ -1717,6 +1720,7 @@ function renderDecl(){
     if(currentFilter==='PER')return clientHasPer(c);
     if(currentFilter==='PROC')return clientHasProc(c);
     if(currentFilter==='ATENCAO')return clientHasAtencao(c);
+    if(currentFilter==='PERR')return clientHasPerAReceber(c);
     return true;
   });
   document.getElementById('decl-count').textContent=clients.length+' cliente'+(clients.length!==1?'s':'');
@@ -1803,6 +1807,7 @@ function renderFilterChips(){
     {key:'PER',    label:'PERDCOMP',      cls:'per-chip',  icon:'💰'},
     {key:'PROC',   label:'PROCESSO',      cls:'proc-chip',    icon:'⚖️'},
     {key:'ATENCAO',label:'ATENÇÃO',       cls:'atencao-chip', icon:'⚠️'},
+    {key:'PERR',   label:'A Receber',     cls:'perr-chip',    icon:'💰'},
   ];
   document.getElementById('filter-chips').innerHTML=chips.map(c=>
     `<div class="filter-chip ${c.cls} ${currentFilter===c.key?'active':''}" onclick="setFilter('${c.key}')" style="display:inline-flex;align-items:center;gap:5px">${c.icon?`<span style="font-size:11px">${c.icon}</span>`:''} ${c.label}</div>`
@@ -1823,6 +1828,15 @@ function clientHasRRA(c){return Object.values(c.exRRA||{}).some(v=>v?.ativo);}
 function clientHasGCAP(c){return Object.values(c.exGCAP||{}).some(v=>v?.ativo);}
 function clientHasPer(c){return getPerdcomps(c).length>0||Object.values(c.exPerdcomps||{}).some(v=>Array.isArray(v)&&v.length>0);}
 function clientHasAtencao(c){return !!(c.atencao)||Object.values(c.exAtencao||{}).some(Boolean);}
+function clientHasPerAReceber(c){
+  // exPerdcomps por exercício: alguma entrada com valorPedido > 0 e sem pagamento completo
+  const exPendente=Object.values(c.exPerdcomps||{}).some(arr=>
+    Array.isArray(arr)&&arr.some(p=>p.valorPedido>0&&!(p.valorRec>0&&p.dataRec))
+  );
+  // perdcomps legados: alguma entrada com valorPedido > 0 e sem valorRecebido completo
+  const legPendente=getPerdcomps(c).some(p=>p.valorPedido>0&&!(p.valorRecebido>0&&p.dataRecebimento));
+  return exPendente||legPendente;
+}
 let _searchTimer=null;
 function filterClientsDebounced(){
   clearTimeout(_searchTimer);
@@ -1851,6 +1865,7 @@ function filterClients(){
     if(currentFilter==='PER')return clientHasPer(c);
     if(currentFilter==='PROC')return clientHasProc(c);
     if(currentFilter==='ATENCAO')return clientHasAtencao(c);
+    if(currentFilter==='PERR')return clientHasPerAReceber(c);
     return true;
   });
   renderTable(filteredClients);
@@ -2600,7 +2615,14 @@ function openDetail(id){
           const ddaInfo=dda?.feito?`<div style="margin-top:4px;font-size:11.5px;color:var(--orange);font-weight:600">✅ DDA feito${dda.data?` — ${dda.data}`:''}</div>`:'';
           const rraInfo=rra?.ativo?`<div style="margin-top:4px;font-size:11.5px;color:#6366f1;font-weight:600">📄 RRA${rra.obs?` — ${rra.obs.slice(0,60)}`:''}</div>`:'';
           const gcapInfo=gcap?.ativo?`<div style="margin-top:4px;font-size:11.5px;color:#10b981;font-weight:600">📈 GCAP${gcap.obs?` — ${gcap.obs.slice(0,60)}`:''}</div>`:'';
-          const perInfo=exPers.length?`<div style="margin-top:4px;font-size:11.5px;color:var(--yellow);font-weight:600">💰 ${exPers.length} PERDCOMP${exPers.length!==1?'s':''}</div>`:'';
+          const perInfo=exPers.length?exPers.map((p,i)=>{
+            const lbl=exPers.length>1?`PERDCOMP ${i+1}: `:'';
+            if(p.valorRec>0&&p.dataRec)
+              return`<div style="margin-top:4px;font-size:11.5px;color:var(--green);font-weight:600">💰 ${lbl}${fmtBRL(p.valorRec)} recebido em ${p.dataRec}</div>`;
+            if(p.valorPedido>0||p.dataTransmissao)
+              return`<div style="margin-top:4px;font-size:11.5px;color:var(--yellow);font-weight:600">💰 ${lbl}A receber${p.valorPedido?` ${fmtBRL(p.valorPedido)}`:''}${p.dataTransmissao?` — transm. ${p.dataTransmissao}`:''}</div>`;
+            return`<div style="margin-top:4px;font-size:11.5px;color:var(--yellow);font-weight:600">💰 PERDCOMP${exPers.length>1?` ${i+1}`:''}</div>`;
+          }).join(''):'';
           const procInfo=exProcsYr.length?`<div style="margin-top:4px;font-size:11.5px;color:#818cf8;font-weight:600">⚖️ ${exProcsYr.length} PROCESSO${exProcsYr.length!==1?'s':''}</div>`:'';
           const exAtencaoInfo=c.exAtencao?.[yr]?`<div style="margin-top:4px;font-size:11.5px;color:#f59e0b;font-weight:700">⚠️ ATENÇÃO</div>`:'';
           return`<div class="ex-item" style="cursor:pointer" onclick="openExModal('${c.id}','${yr}')">
@@ -3646,6 +3668,7 @@ function gerarRelatorio(){
     if(caract==='GCAP'&&!clientHasGCAP(c))return false;
     if(caract==='PER'&&!clientHasPer(c))return false;
     if(caract==='PROC'&&!clientHasProc(c))return false;
+    if(caract==='PERR'&&!clientHasPerAReceber(c))return false;
     if(status!=='TODOS'){
       const exs=Object.entries(c.exercicios||{});
       if(exercicio!=='TODOS'){
