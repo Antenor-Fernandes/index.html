@@ -34178,13 +34178,20 @@
         "2020": "R$ 24.364,24 - 31/07/2020",
         "2021": "7.094,66 EM 31/03/2023",
         "2022": "23.008,66 EM 31/03/2023",
-        "2023": "MALHA DG - DDA FEITO EM 14/03/2025",
+        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 14/03/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:37:32.437Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 14/03/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 14/03/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:37:19.859Z",
           "exercicio": "2024",
@@ -34202,6 +34209,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "14/03/2025"
+        },
         "2024": {
           "feito": true,
           "data": "16/01/2025"
