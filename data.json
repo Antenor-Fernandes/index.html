@@ -32617,12 +32617,19 @@
       "exercicios": {
         "2022": "MALHA DG - DDA FEITO EM 06/11/2024",
         "2023": "MALHA DG - DDA FEITO EM 06/11/2024 - PEDIDO DE PRIORIDADE FEITO EM 04/02/2025",
-        "2024": "MALHA DG - DDA FEITO EM 04/02/2025",
+        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 04/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:52:38.193Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - DDA FEITO EM 04/02/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 04/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:52:26.721Z",
           "exercicio": "2025",
@@ -32633,6 +32640,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "04/02/2025"
+        },
         "2025": {
           "feito": true,
           "data": "11/02/2026"
