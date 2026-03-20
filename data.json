@@ -32272,11 +32272,18 @@
       "senhaGov": "",
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
-        "2023": "MALHA - DDA FEITO EM 03/07/2025 - ATENDEMOS INTIMAÇÃO EM 03/02/2026",
+        "2023": "EM MALHA — MALHA - DDA FEITO EM 03/07/2025 - ATENDEMOS INTIMAÇÃO EM 03/02/2026",
         "2024": "EM MALHA — MALHA DESPESAS MÉDICAS E DEPENDENTE - ATENDEMOS INTIMAÇÃO EM  03/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-20T09:47:36.164Z",
+          "exercicio": "2023",
+          "de": "MALHA - DDA FEITO EM 03/07/2025 - ATENDEMOS INTIMAÇÃO EM 03/02/2026",
+          "para": "EM MALHA — MALHA - DDA FEITO EM 03/07/2025 - ATENDEMOS INTIMAÇÃO EM 03/02/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:47:23.722Z",
           "exercicio": "2024",
@@ -32287,6 +32294,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2023": {
+          "feito": true,
+          "data": "03/02/2026"
+        },
         "2024": {
           "feito": true,
           "data": "03/02/2026"
