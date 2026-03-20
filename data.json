@@ -34571,7 +34571,7 @@
       "observacoes": "SENHA GOV Wlarutier2511@",
       "exercicios": {
         "2021": "IMPUGNAMOS EM 24/06/2025 - Impugnação 2021 foi pra DRJ ainda aguardando",
-        "2022": "IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
+        "2022": "EM PROCESSAMENTO — IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
         "2023": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/06/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 24/06/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
@@ -34579,6 +34579,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:44:15.539Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
+          "para": "EM PROCESSAMENTO — IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:43:50.017Z",
           "exercicio": "2024",
@@ -34622,7 +34629,9 @@
       "exGCAP": {},
       "exPerdcomps": {},
       "exProcessos": {},
-      "exAtencao": {}
+      "exAtencao": {
+        "2022": true
+      }
     },
     {
       "id": "46452559672",
