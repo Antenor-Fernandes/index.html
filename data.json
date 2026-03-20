@@ -34016,12 +34016,19 @@
         "2021": "MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU 83.696,28 EM 20/02/2026",
         "2022": "MALHA DG - DDA FEITO EM 20/03/2025 - NL - IMPUGNAÇÃO FEITA EM 01/08/2025 - PROCEDENTE - RECEBEU  82.413,84 EM 20/01/2026",
         "2023": "54.961,32 EM 30/06/2025",
-        "2024": "47.044,90 EM 30/06/2025",
+        "2024": "PROCESSADA — 47.044,90 EM 30/06/2025",
         "2025": "PROCESSADA — 23.870,03 EM 30/05/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:35:36.957Z",
+          "exercicio": "2024",
+          "de": "47.044,90 EM 30/06/2025",
+          "para": "PROCESSADA — 47.044,90 EM 30/06/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:35:25.545Z",
           "exercicio": "2025",
@@ -34031,6 +34038,10 @@
         }
       ],
       "recebimentos": {
+        "2024": {
+          "data": "30/06/2025",
+          "valor": 47044.9
+        },
         "2025": {
           "data": "30/05/2025",
           "valor": 23870.03
