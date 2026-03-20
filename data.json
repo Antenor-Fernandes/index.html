@@ -33845,7 +33845,7 @@
       "observacoes": "PER 2022 E 2023 FEITOS EM 16/01/2023 RECEBIDOS EM 20/02/2026 - PER 2024 FEITO EM 05/02/2025",
       "exercicios": {
         "2021": "IMPUGNAÇÃO EM 15/01/2024 - DEFERIDO - COBRAR HONORÁRIOS DE 1.716,19 QUANDO RECEBER AS RESTITUIÇÕES DAS OUTRAS DECLARAÇÕES",
-        "2022": "6.288,45 EM 30/01/2026",
+        "2022": "PROCESSADA — 6.288,45 EM 30/01/2026",
         "2023": "PROCESSADA — 9.057,90 EM 30/01/2026",
         "2024": "PROCESSADA — 10.487,72 EM 30/01/2026",
         "2025": "PROCESSADA — 9.845,68 EM 30/01/2026"
@@ -33853,6 +33853,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:33:12.600Z",
+          "exercicio": "2022",
+          "de": "6.288,45 EM 30/01/2026",
+          "para": "PROCESSADA — 6.288,45 EM 30/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:32:56.690Z",
           "exercicio": "2023",
@@ -33876,6 +33883,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "30/01/2026",
+          "valor": 6288.45
+        },
         "2023": {
           "data": "30/01/2026",
           "valor": 9057.9
