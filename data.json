@@ -34394,10 +34394,17 @@
       "senhaGov": "",
       "observacoes": "FAZER PER 2024 QUANDO FOR PARA A FILA - 31 99880-8801",
       "exercicios": {
-        "2024": "EM MALHA — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025"
+        "2024": "EM MALHA — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025 - FAZER O PER QUANDO FOR PARA A FILA"
       },
       "temPer": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:41:43.609Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025",
+          "para": "EM MALHA — MALHA - PRECATÓRIO - RENDIMENTO ISENTO - DDA FEITO EM 04/09/2025 - FAZER O PER QUANDO FOR PARA A FILA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T16:17:01.467Z",
           "exercicio": "2024",
@@ -34420,7 +34427,11 @@
         }
       },
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2024": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "02445896665",
