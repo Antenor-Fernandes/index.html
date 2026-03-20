@@ -648,6 +648,13 @@
       ],
       "historico": [
         {
+          "ts": "2026-03-20T11:14:32.321Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T17:09:29.901Z",
           "exercicio": "2022",
           "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL:  pensão alimentícia ao maior de 2024 ( não tem o que impugnar Súmula CARF nº 214 ) e em relação ao menor se ele apresentar os comprovantes a gente impugna mês que vem ( ciência em 17/03 )",
@@ -754,7 +761,20 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2025": [
+          {
+            "numero": "23758.55716.231025.2.2.04-2782",
+            "valorPedido": 16121.67,
+            "dataTransmissao": "23/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "82924481600",
