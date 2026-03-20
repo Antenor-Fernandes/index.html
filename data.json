@@ -32476,7 +32476,7 @@
       "exercicios": {
         "2019": "31.841,07 EM 31/08/2023",
         "2020": "24.189,00 EM 31/08/2023",
-        "2021": "28.079,52 EM 31/08/2023",
+        "2021": "PROCESSADA — 28.079,52 EM 31/08/2023",
         "2022": "PROCESSADA — 25.610,66 EM 31/08/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 06/02/2024 - PEDIDO DE PRIORIDADE NO CHAT FEITO EM 04/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 04/02/2025",
@@ -32485,6 +32485,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:51:30.844Z",
+          "exercicio": "2021",
+          "de": "28.079,52 EM 31/08/2023",
+          "para": "PROCESSADA — 28.079,52 EM 31/08/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:51:14.696Z",
           "exercicio": "2022",
@@ -32515,6 +32522,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/08/2023",
+          "valor": 28079.52
+        },
         "2022": {
           "data": "31/08/2023",
           "valor": 25610.66
