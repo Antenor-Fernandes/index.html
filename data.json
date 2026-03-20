@@ -32992,7 +32992,7 @@
       "senhaGov": "",
       "observacoes": "PER 2020 A 2023 FEITOS EM 23/06/2025 - PER 2025 FEITO EM 11/02/2026",
       "exercicios": {
-        "2020": "IMPUGNAÇÃO FEITA EM 23/06/2025 - processo 13031.077672/2026-35 ( aguardando julgamento )",
+        "2020": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - processo 13031.077672/2026-35 ( aguardando julgamento )",
         "2021": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025 -  processo 18183.737902/2024-45 ( ja teve julgamento. Cancelamento de debito R$ 14.716,19 (cobrar proveito economico) restituição R$ 1.291,25 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
         "2022": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025-  processo 18183.737903/2024-90 ja teve julgamento. Cancelamento de debito R$ 16.184,02 (cobrar proveito economico) restituição R$ 1.296,89 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
         "2023": "IMPUGNAÇÃO — FEITA EM 23/06/2025 -  processo 18183.737904/2024-34 (encaminhado para julgamento em 10/02/2026 acompanhar )",
@@ -33002,6 +33002,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:02:53.062Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAÇÃO FEITA EM 23/06/2025 - processo 13031.077672/2026-35 ( aguardando julgamento )",
+          "para": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - processo 13031.077672/2026-35 ( aguardando julgamento )",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:02:38.938Z",
           "exercicio": "2021",
@@ -33071,6 +33078,9 @@
         }
       },
       "impugnacoes": {
+        "2020": {
+          "data": "23/06/2025"
+        },
         "2021": {
           "data": "23/06/2025"
         },
@@ -33117,6 +33127,7 @@
       },
       "exProcessos": {},
       "exAtencao": {
+        "2020": true,
         "2021": true,
         "2022": true,
         "2023": true
