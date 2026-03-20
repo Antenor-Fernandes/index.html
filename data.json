@@ -33325,10 +33325,34 @@
         "2022": "RETIFICADA TT - DDA FEITO EM 04/02/2026 - EM PROCESSAMENTO -  ALTERAR CONTA QUANDO FOR PARA A FILA - CEF - AG 1530 - 00774556084-6",
         "2023": "RETIFICADA TT - DDA FEITO EM 04/02/2026 - EM PROCESSAMENTO -  ALTERAR CONTA QUANDO FOR PARA A FILA - CEF - AG 1530 - 00774556084-6",
         "2024": "9.565,80 EM 27/02/2026",
-        "2025": "5.398,88 EM 27/02/2026"
+        "2025": "EM PROCESSAMENTO — 5.398,88 EM 27/02/2026"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-20T10:22:41.615Z",
+          "exercicio": "2025",
+          "de": "5.398,88 EM 27/02/2026",
+          "para": "EM PROCESSAMENTO — 5.398,88 EM 27/02/2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "27/02/2026",
+          "valor": 5398.88
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2025": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "54686342600",
