@@ -32996,12 +32996,19 @@
         "2021": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025 -  processo 18183.737902/2024-45 ( ja teve julgamento. Cancelamento de debito R$ 14.716,19 (cobrar proveito economico) restituição R$ 1.291,25 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
         "2022": "IMPUGNAÇÃO — FEITA EM 23/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 14/10/2025 - IMPROCEDENTE EM 26/11/2025 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 27/11/2025-  processo 18183.737903/2024-90 ja teve julgamento. Cancelamento de debito R$ 16.184,02 (cobrar proveito economico) restituição R$ 1.296,89 compensada no debito contido no processo da DIRPF 2020 que ainda esta pendente de julgamento,  juntada ao processo nao concordando com a compensação feita em 11/02/2026",
         "2023": "IMPUGNAÇÃO — FEITA EM 23/06/2025 -  processo 18183.737904/2024-34 (encaminhado para julgamento em 10/02/2026 acompanhar )",
-        "2024": "MALHA DG - ATENDEMOS INTIMAÇÃO EM 23/06/2025",
+        "2024": "EM MALHA — MALHA DG - ATENDEMOS INTIMAÇÃO EM 23/06/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:59:49.944Z",
+          "exercicio": "2024",
+          "de": "MALHA DG - ATENDEMOS INTIMAÇÃO EM 23/06/2025",
+          "para": "EM MALHA — MALHA DG - ATENDEMOS INTIMAÇÃO EM 23/06/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:59:37.594Z",
           "exercicio": "2025",
@@ -33033,6 +33040,10 @@
       ],
       "recebimentos": {},
       "dda": {
+        "2024": {
+          "feito": true,
+          "data": "23/06/2025"
+        },
         "2025": {
           "feito": true,
           "data": "11/02/2026"
