@@ -34574,11 +34574,18 @@
         "2022": "IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
         "2023": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/06/2025",
         "2024": "MALHA DG - DDA FEITO EM 24/06/2025",
-        "2025": "MALHA DG - DDA FEITO EM 11/02/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:43:37.907Z",
+          "exercicio": "2025",
+          "de": "MALHA DG - DDA FEITO EM 11/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T14:19:15.142Z",
           "exercicio": "2023",
@@ -34593,12 +34600,18 @@
           "valor": 35685.36
         }
       },
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "11/02/2026"
+        }
+      },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "46452559672",
