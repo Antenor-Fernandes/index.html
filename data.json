@@ -33517,12 +33517,19 @@
         "2021": "14.898,72 30/11/2022",
         "2022": "16.182,95 EM 30/04/2024",
         "2023": "18.931,40 EM 30/04/2024",
-        "2024": "3.104,26 EM 28/06/2024 - RETIFICADA EM 28/06/2024 PARA INFORMAR ISENÇÃO",
+        "2024": "PROCESSADA — 3.104,26 EM 28/06/2024 - RETIFICADA EM 28/06/2024 PARA INFORMAR ISENÇÃO - 21.581,93 EM 31/07/2024",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T10:30:13.169Z",
+          "exercicio": "2024",
+          "de": "3.104,26 EM 28/06/2024 - RETIFICADA EM 28/06/2024 PARA INFORMAR ISENÇÃO",
+          "para": "PROCESSADA — 3.104,26 EM 28/06/2024 - RETIFICADA EM 28/06/2024 PARA INFORMAR ISENÇÃO - 21.581,93 EM 31/07/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:27:25.399Z",
           "exercicio": "2025",
@@ -33531,7 +33538,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "31/07/2024",
+          "valor": 21571.93
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -39461,9 +39473,9 @@
           "id": "45597600630",
           "cpfCnpj": "455.976.006-30",
           "nome": "VERA LÚCIA LEMOS SANTOS (ESPOSA TATÁ)",
-          "total": 21581.93,
+          "total": 21571.93,
           "porExercicio": {
-            "2024": 21581.93
+            "2024": 21571.93
           }
         }
       ]
