@@ -1571,6 +1571,30 @@ async function init(){
     const pd=s=>{const[d,m,y]=s.split('/');return new Date(y,m-1,d)};
     return pd(b.data)-pd(a.data);
   });
+  // ── MIGRAÇÃO ÚNICA: preenche dados cadastrais clientes A (2026-03-20) ──
+  if(!localStorage.getItem('mig_cadastro_A_v1')){
+    const _MIG={
+      '30515106704':{nome:'ADOLFO PAULO BICALHO DE LANA',telefone:'(31) 99669-1283',email:'adolfolana@yahoo.com.br',logradouro:'Rua Pio Porto Menezes',numeroEnd:'120',complemento:'Apto 104A',bairro:'Luxemburgo',cidade:'Belo Horizonte',uf:'MG',cep:'30380-300',dataContrato:'19/08/2025'},
+      '04518438787':{rg:'MG-22.086.475',telefone:'(31) 99119-5097',email:'a.ribeiro@emfaaviacao.com.br',logradouro:'Avenida Prudente de Morais',numeroEnd:'107',complemento:'Apto 302',bairro:'Santo Antônio',cidade:'Belo Horizonte',uf:'MG',cep:'30350-093',dataContrato:'02/12/2022'},
+      '34694455672':{telefone:'(31) 3442-4536',logradouro:'Rua Cyro Borja',numeroEnd:'470',bairro:'Floresta',cidade:'Belo Horizonte',uf:'MG',cep:'31110-235'},
+      '69855196600':{rg:'MG-2.834.705',telefone:'(31) 99979-4756',email:'ananovato@uol.com.br',logradouro:'Rua Professor Carlos Pereira da Silva',numeroEnd:'617',bairro:'Belvedere',cidade:'Belo Horizonte',uf:'MG',cep:'30320-330',dataContrato:'10/05/2023'},
+      '66677270653':{rg:'M-1463240',telefone:'(31) 99935-4588',email:'andreaathayde1960@gmail.com',logradouro:'Rua Oscar Trompowisky',numeroEnd:'1286',complemento:'Apto 201',bairro:'Grajaú',cidade:'Belo Horizonte',uf:'MG',cep:'30431-177',dataContrato:'20/03/2025'},
+      '27965368668':{telefone:'(31) 98805-5577',email:'laercio.nogueira@gmail.com',logradouro:'Rua Carangola',numeroEnd:'144',complemento:'Apto 201',bairro:'Santo Antônio',cidade:'Belo Horizonte',uf:'MG',cep:'30330-240',dataContrato:'31/08/2021'},
+      '01317016653':{telefone:'(31) 3281-4690 / (31) 98858-2661',email:'antoninoteixeira@gmail.com',logradouro:'Rua Caldas',numeroEnd:'143',complemento:'Casa',bairro:'Carmo',cidade:'Belo Horizonte',uf:'MG',cep:'30310-560',dataContrato:'30/09/2025'},
+      '29621631653':{rg:'MG-1.074.560',telefone:'(31) 99283-4969',email:'arisovaldo@grafite.com',logradouro:'Rua Maria Cândida de Jesus',numeroEnd:'330',bairro:'Jardim Paquetá',cidade:'Belo Horizonte',uf:'MG',cep:'31330-460',dataContrato:'20/09/2023'},
+      '10132147734':{telefone:'(21) 2264-2636 / (21) 99495-2774',logradouro:'Rua Benjamim Franklin',numeroEnd:'11',complemento:'Apto 601',bairro:'Tijuca',cidade:'Rio de Janeiro',uf:'RJ',cep:'20540-096',dataContrato:'10/07/2024'},
+    };
+    let _migCount=0;
+    for(const c of allClients){
+      const upd=_MIG[c.id];if(!upd)continue;
+      for(const[k,v]of Object.entries(upd)){if(k==='nome'||!c[k])c[k]=v;}
+      await dbPut('clientes',c);_migCount++;
+    }
+    localStorage.setItem('mig_cadastro_A_v1','1');
+    if(_migCount)ghSave();
+    console.log(`[mig] Dados cadastrais preenchidos para ${_migCount} clientes (A)`);
+  }
+  // ── FIM MIGRAÇÃO ──
   filteredClients=[...allClients];
   applyReadOnlyUI(); // re-aplica após carregar accessList
   // Exige login antes de renderizar qualquer dado
