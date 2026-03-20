@@ -1807,7 +1807,7 @@ function renderFilterChips(){
     {key:'PER',    label:'PERDCOMP',      cls:'per-chip',  icon:'💰'},
     {key:'PROC',   label:'PROCESSO',      cls:'proc-chip',    icon:'⚖️'},
     {key:'ATENCAO',label:'ATENÇÃO',       cls:'atencao-chip', icon:'⚠️'},
-    {key:'PERR',   label:'A Receber',     cls:'perr-chip',    icon:'💰'},
+    {key:'PERR',   label:'<span style="font-size:10px;font-weight:800;letter-spacing:.6px;background:rgba(217,119,6,.15);color:#d97706;border:1px solid rgba(217,119,6,.35);border-radius:4px;padding:1px 5px;margin-right:3px">PER</span>A Receber',cls:'perr-chip',icon:''},
   ];
   document.getElementById('filter-chips').innerHTML=chips.map(c=>
     `<div class="filter-chip ${c.cls} ${currentFilter===c.key?'active':''}" onclick="setFilter('${c.key}')" style="display:inline-flex;align-items:center;gap:5px">${c.icon?`<span style="font-size:11px">${c.icon}</span>`:''} ${c.label}</div>`
