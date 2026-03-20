@@ -32691,12 +32691,19 @@
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "1.235,54 EM 31/10/2025",
-        "2024": "9.840,72 EM 28/11/2025",
+        "2024": "PROCESSADA — 9.840,72 EM 28/11/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026 -  PROCESSO DE RESTITUIÇÃO LIBERTAS TRIB EXC FONTE FEITO EM 27/06/2025 - DEFERIDO E AINDA NÃO PAGO - DÉBITO DE ITR E E-SOCIAL - TEVE COMPENSAÇÃO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:55:09.562Z",
+          "exercicio": "2024",
+          "de": "9.840,72 EM 28/11/2025",
+          "para": "PROCESSADA — 9.840,72 EM 28/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:54:54.019Z",
           "exercicio": "2025",
@@ -32705,7 +32712,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2024": {
+          "data": "28/11/2025",
+          "valor": 9840.72
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
