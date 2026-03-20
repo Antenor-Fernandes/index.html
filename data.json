@@ -32372,7 +32372,7 @@
       "observacoes": "PER 2021 A 2024 FEITOS EM 10/06/2025 - RECEBEU 3 FALTA 1 - INÍCIO DA MOLÉSTIA 01/2020, POSSUI PARCELAMENTO ATIVO, DÉBITO DE PERÍODO ANTERIOR AO LAUDO",
       "exercicios": {
         "2018": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
-        "2019": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+        "2019": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
         "2021": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/06/2025 - em processamento",
         "2022": "PROCESSADA — 3.247,44 EM 31/10/2025",
         "2023": "PROCESSADA — 1.742,11 EM 31/10/2025",
@@ -32382,6 +32382,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:48:22.707Z",
+          "exercicio": "2019",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "para": "EM MALHA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:36:52.054Z",
           "exercicio": "2021",
@@ -32431,7 +32438,13 @@
           "valor": 4195.35
         }
       },
-      "dda": {}
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "13401360663",
