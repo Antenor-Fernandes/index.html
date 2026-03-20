@@ -648,6 +648,13 @@
       ],
       "historico": [
         {
+          "ts": "2026-03-20T11:15:51.988Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-20T11:14:32.321Z",
           "exercicio": "2025",
           "de": "PROCESSADA",
@@ -762,6 +769,16 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "00623.70194.231025.2.2.04-0729",
+            "valorPedido": 25712.32,
+            "dataTransmissao": "23/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
         "2025": [
           {
             "numero": "23758.55716.231025.2.2.04-2782",
