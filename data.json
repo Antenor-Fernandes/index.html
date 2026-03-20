@@ -32132,7 +32132,7 @@
         "2019": "MARCOS ANTÔNIO AMARAL MARTINS ENTROU COMO DEPENDENTE EM 2021 E TEM D.G.",
         "2020": "R$ 350,60 - 31/07/2020",
         "2021": "10.490,44 EM 31/03/2023",
-        "2022": "6.467,96 EM 31/03/2023",
+        "2022": "PROCESSADA — 6.467,96 EM 31/03/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 02/02/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 04/02/2025",
         "2025": "PROCESSADA"
@@ -32140,6 +32140,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-20T09:41:11.407Z",
+          "exercicio": "2022",
+          "de": "6.467,96 EM 31/03/2023",
+          "para": "PROCESSADA — 6.467,96 EM 31/03/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:40:57.991Z",
           "exercicio": "2023",
@@ -32155,7 +32162,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2023",
+          "valor": 6467.96
+        }
+      },
       "dda": {
         "2023": {
           "feito": true,
