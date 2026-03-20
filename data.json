@@ -648,6 +648,13 @@
       ],
       "historico": [
         {
+          "ts": "2026-03-20T11:19:47.162Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-20T11:18:27.174Z",
           "exercicio": "2022",
           "de": "IMPUGNAR — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL:  pensão alimentícia ao maior de 2024 ( não tem o que impugnar Súmula CARF nº 214 ) e em relação ao menor se ele apresentar os comprovantes a gente impugna mês que vem ( ciência em 17/03 )",
@@ -819,8 +826,8 @@
             "valorPedido": 16121.67,
             "dataTransmissao": "23/10/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 17809.6
           }
         ]
       },
@@ -35286,6 +35293,15 @@
             "2021": 83696.28
           },
           "total": 83696.28
+        },
+        {
+          "clienteId": "30515106704",
+          "cpfCnpj": "305.151.067-04",
+          "nome": "ADOLFO PAULO BICALHO",
+          "porExercicio": {
+            "EXPERDCOMP-2025-0": 17809.6
+          },
+          "total": 17809.6
         }
       ]
     },
