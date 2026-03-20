@@ -2178,7 +2178,18 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "24.73.00.90.55",
+            "valorPedido": 8459.42,
+            "dataTransmissao": "15/06/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "rg": "MG-22.086.475",
       "telefone": "(31) 99119-5097",
       "email": "a.ribeiro@emfaaviacao.com.br",
@@ -2282,7 +2293,59 @@
       "bairro": "Floresta",
       "cidade": "Belo Horizonte",
       "uf": "MG",
-      "cep": "31110-235"
+      "cep": "31110-235",
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "05.88.32.97.26",
+            "valorPedido": 1074.73,
+            "dataTransmissao": "17/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "10.62.12.93.13",
+            "valorPedido": 1345.53,
+            "dataTransmissao": "17/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "42.27.18.91.26",
+            "valorPedido": 2172.28,
+            "dataTransmissao": "17/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "30.76.36.21.78",
+            "valorPedido": 1921.57,
+            "dataTransmissao": "17/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "24.23.58.73.12",
+            "valorPedido": 2055.76,
+            "dataTransmissao": "09/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "10506844609",
@@ -2486,7 +2549,58 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "25.55.68.00.31",
+            "valorPedido": 1682,
+            "dataTransmissao": "29/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "06.46.17.85.09",
+            "valorPedido": 3548.02,
+            "dataTransmissao": "29/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "08.06.69.26.91",
+            "valorPedido": 3366.76,
+            "dataTransmissao": "29/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "06.54.68.38.50",
+            "valorPedido": 3483.83,
+            "dataTransmissao": "29/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "22.30.54.44.76",
+            "valorPedido": 11110.43,
+            "dataTransmissao": "29/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "rg": "MG-2.834.705",
       "telefone": "(31) 99979-4756",
       "email": "ananovato@uol.com.br",
@@ -2670,7 +2784,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "42.76.95.11.53",
+            "valorPedido": 1049.37,
+            "dataTransmissao": "19/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "21.31.53.11.79",
+            "valorPedido": 2503.11,
+            "dataTransmissao": "19/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "41.65.89.10.01",
+            "valorPedido": 3113.64,
+            "dataTransmissao": "19/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "19.61.40.24.86",
+            "valorPedido": 4647.52,
+            "dataTransmissao": "19/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "00.60.17.68.89",
+            "valorPedido": 5873.83,
+            "dataTransmissao": "19/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "rg": "M-1463240",
       "telefone": "(31) 99935-4588",
       "email": "andreaathayde1960@gmail.com",
@@ -3094,7 +3259,59 @@
       "cidade": "Belo Horizonte",
       "uf": "MG",
       "cep": "30330-240",
-      "dataContrato": "31/08/2021"
+      "dataContrato": "31/08/2021",
+      "exPerdcomps": {
+        "2018": [
+          {
+            "numero": "17.37.51.86.85",
+            "valorPedido": 3511.57,
+            "dataTransmissao": "23/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2019": [
+          {
+            "numero": "32.37.95.38.51",
+            "valorPedido": 2152.96,
+            "dataTransmissao": "23/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "17.00.33.62.43",
+            "valorPedido": 6212.74,
+            "dataTransmissao": "23/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "02.00.79.85.26",
+            "valorPedido": 7243.79,
+            "dataTransmissao": "23/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "27.91.26.69.96",
+            "valorPedido": 3748.11,
+            "dataTransmissao": "11/10/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "06297984603",
@@ -3237,7 +3454,59 @@
       "cidade": "Belo Horizonte",
       "uf": "MG",
       "cep": "30310-560",
-      "dataContrato": "30/09/2025"
+      "dataContrato": "30/09/2025",
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "20.22.13.07.35",
+            "valorPedido": 1094.42,
+            "dataTransmissao": "10/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "03.24.55.67.86",
+            "valorPedido": 883.03,
+            "dataTransmissao": "10/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "18.04.41.31.51",
+            "valorPedido": 1675.83,
+            "dataTransmissao": "10/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "08.67.46.19.62",
+            "valorPedido": 8997.95,
+            "dataTransmissao": "10/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "13.59.98.30.23",
+            "valorPedido": 7243.77,
+            "dataTransmissao": "12/11/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "00184217687",
@@ -4371,7 +4640,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "09.65.48.27.64",
+            "valorPedido": 7085.04,
+            "dataTransmissao": "15/12/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "42.42.15.65.77",
+            "valorPedido": 1845.29,
+            "dataTransmissao": "13/03/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "rg": "MG-1.074.560",
       "telefone": "(31) 99283-4969",
       "email": "arisovaldo@grafite.com",
@@ -4476,7 +4766,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "28.92.34.78.26",
+            "valorPedido": 9923.16,
+            "dataTransmissao": "17/07/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "38.03.94.13.94",
+            "valorPedido": 28525.55,
+            "dataTransmissao": "17/07/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "telefone": "(21) 2264-2636 / (21) 99495-2774",
       "logradouro": "Rua Benjamim Franklin",
       "numeroEnd": "11",
@@ -4750,7 +5061,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "37.73.58.65.26",
+            "valorPedido": 4202.48,
+            "dataTransmissao": "08/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "27.36.06.85.83",
+            "valorPedido": 5918,
+            "dataTransmissao": "08/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "16.83.83.96.90",
+            "valorPedido": 616.86,
+            "dataTransmissao": "26/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "12078405647",
@@ -5220,7 +5562,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "41.20.16.20.02",
+            "valorPedido": 7796.72,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "12.91.47.11.48",
+            "valorPedido": 7024.66,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "09.80.81.89.33",
+            "valorPedido": 7824.16,
+            "dataTransmissao": "26/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "10366442600",
@@ -5414,7 +5787,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "17.74.79.60.26",
+            "valorPedido": 3403.16,
+            "dataTransmissao": "05/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "07.45.37.56.56",
+            "valorPedido": 13.57,
+            "dataTransmissao": "05/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "42.18.90.87.77",
+            "valorPedido": 5045.95,
+            "dataTransmissao": "05/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "35.06.65.69.80",
+            "valorPedido": 9103.29,
+            "dataTransmissao": "05/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "91182115691",
