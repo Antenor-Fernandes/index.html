@@ -34521,9 +34521,16 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2023": "MALHA DG E DESP MED - DDA FEITO EM 07/02/2024"
+        "2023": "EM MALHA — MALHA DG E DESP MED - DDA FEITO EM 07/02/2024"
       },
       "historico": [
+        {
+          "ts": "2026-03-20T10:43:11.272Z",
+          "exercicio": "2023",
+          "de": "MALHA DG E DESP MED - DDA FEITO EM 07/02/2024",
+          "para": "EM MALHA — MALHA DG E DESP MED - DDA FEITO EM 07/02/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T10:42:35.769Z",
           "exercicio": "2024",
@@ -34540,7 +34547,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2023": {
+          "feito": true,
+          "data": "07/02/2024"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
