@@ -6410,13 +6410,20 @@
       "exercicios": {
         "2021": "13.024,55 EM 31/10/2025",
         "2022": "11.218,58 EM 31/10/2025",
-        "2023": "EM PROCESSAMENTO — 11.976,41 EM 31/10/2025",
+        "2023": "PROCESSADA — 11.976,41 EM 31/10/2025",
         "2024": "PROCESSADA — 15.016,53 EM 31/10/2025",
         "2025": "PROCESSADA — 11.524,02 EM 31/10/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-23T17:39:59.583Z",
+          "exercicio": "2023",
+          "de": "EM PROCESSAMENTO — 11.976,41 EM 31/10/2025",
+          "para": "PROCESSADA — 11.976,41 EM 31/10/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T17:39:54.110Z",
           "exercicio": "2023",
