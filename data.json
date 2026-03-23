@@ -12491,7 +12491,7 @@
       "senhaGov": "",
       "observacoes": "PER 2019 A 2022 EM 23/06/2023 - RECEBEU 3 EM 22/04/2024 E 1 EM 22/07/2024 - PER 2023 E 2024 FEITO EM 11/02/2025 RECEBEU 1 EM 21/11/2025 E 1 EM 22/12/2025 - PER 2025 FEITO EM 16/10/2025",
       "exercicios": {
-        "2018": "RETIFICAMOS PARA NÃO PRESCREVER- LAUDO DE 01/2018",
+        "2018": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER- LAUDO DE 01/2018",
         "2019": "PROCESSADA — 12.229,33 EM 31/07/2023",
         "2020": "PROCESSADA — 13.864,80 EM 31/07/2023",
         "2021": "PROCESSADA — 13.918,06 EM 31/07/2023",
@@ -12503,6 +12503,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-23T18:39:30.677Z",
+          "exercicio": "2018",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER- LAUDO DE 01/2018",
+          "para": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER- LAUDO DE 01/2018",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T18:39:12.130Z",
           "exercicio": "2019",
