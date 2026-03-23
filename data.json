@@ -10852,6 +10852,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T18:26:58.414Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
+          "para": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T18:26:45.623Z",
           "exercicio": "2020",
           "de": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
@@ -10934,16 +10941,6 @@
       },
       "exGCAP": {},
       "exPerdcomps": {
-        "2020": [
-          {
-            "numero": "39127.40009.011024.2.2.04-8039",
-            "valorPedido": 3617.56,
-            "dataTransmissao": "01/10/2024",
-            "obs": "INDEFERIDO",
-            "dataRec": "",
-            "valorRec": 0
-          }
-        ],
         "2021": [
           {
             "numero": "13273.91135.011024.2.2.04-9700",
