@@ -2185,8 +2185,8 @@
             "valorPedido": 8459.42,
             "dataTransmissao": "15/06/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/07/2024",
+            "valorRec": 10152.31
           }
         ]
       },
@@ -2566,8 +2566,8 @@
             "valorPedido": 3548.02,
             "dataTransmissao": "29/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 5350.77
           }
         ],
         "2022": [
@@ -2576,8 +2576,8 @@
             "valorPedido": 3366.76,
             "dataTransmissao": "29/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 4737.89
           }
         ],
         "2023": [
@@ -2586,8 +2586,8 @@
             "valorPedido": 3483.83,
             "dataTransmissao": "29/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 4595.52
           }
         ],
         "2024": [
@@ -2596,8 +2596,8 @@
             "valorPedido": 11110.43,
             "dataTransmissao": "29/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 13053.76
           }
         ]
       },
@@ -3267,8 +3267,8 @@
             "valorPedido": 3511.57,
             "dataTransmissao": "23/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/02/2023",
+            "valorRec": 4557.48
           }
         ],
         "2019": [
@@ -3277,8 +3277,8 @@
             "valorPedido": 2152.96,
             "dataTransmissao": "23/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/02/2023",
+            "valorRec": 2749.42
           }
         ],
         "2020": [
@@ -3287,8 +3287,8 @@
             "valorPedido": 6212.74,
             "dataTransmissao": "23/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/02/2023",
+            "valorRec": 7366.73
           }
         ],
         "2021": [
@@ -3297,8 +3297,8 @@
             "valorPedido": 7243.79,
             "dataTransmissao": "23/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/02/2023",
+            "valorRec": 8386.17
           }
         ],
         "2022": [
@@ -3307,8 +3307,8 @@
             "valorPedido": 3748.11,
             "dataTransmissao": "11/10/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/02/2023",
+            "valorRec": 3221.84
           }
         ]
       }
@@ -3502,8 +3502,8 @@
             "valorPedido": 7243.77,
             "dataTransmissao": "12/11/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 7962.14
           }
         ]
       }
@@ -4647,8 +4647,8 @@
             "valorPedido": 7085.04,
             "dataTransmissao": "15/12/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "15/05/2024",
+            "valorRec": 7670.97
           }
         ],
         "2024": [
@@ -4773,8 +4773,8 @@
             "valorPedido": 9923.16,
             "dataTransmissao": "17/07/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2024",
+            "valorRec": 12468.82
           }
         ],
         "2023": [
@@ -4783,8 +4783,8 @@
             "valorPedido": 28525.55,
             "dataTransmissao": "17/07/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2024",
+            "valorRec": 32237.87
           }
         ]
       },
@@ -5869,8 +5869,8 @@
             "valorPedido": 4473.45,
             "dataTransmissao": "02/08/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "15/05/2024",
+            "valorRec": 6234.64
           }
         ],
         "2020": [
@@ -5879,8 +5879,8 @@
             "valorPedido": 3816.91,
             "dataTransmissao": "02/08/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/04/2024",
+            "valorRec": 4805.64
           }
         ],
         "2021": [
@@ -5889,8 +5889,8 @@
             "valorPedido": 7591.47,
             "dataTransmissao": "02/08/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/04/2024",
+            "valorRec": 9830.19
           }
         ],
         "2022": [
@@ -5899,8 +5899,8 @@
             "valorPedido": 8813.1,
             "dataTransmissao": "02/08/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/04/2024",
+            "valorRec": 10871.84
           }
         ],
         "2023": [
@@ -7442,8 +7442,8 @@
             "valorPedido": 1120.18,
             "dataTransmissao": "24/02/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 1695.56
           }
         ],
         "2021": [
@@ -7452,8 +7452,8 @@
             "valorPedido": 1789.15,
             "dataTransmissao": "24/02/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 2657.58
           }
         ],
         "2022": [
@@ -7462,8 +7462,8 @@
             "valorPedido": 2088.02,
             "dataTransmissao": "24/02/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 2893.42
           }
         ],
         "2023": [
@@ -7472,8 +7472,8 @@
             "valorPedido": 2919.02,
             "dataTransmissao": "24/02/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 3705.46
           }
         ],
         "2024": [
@@ -7482,8 +7482,8 @@
             "valorPedido": 3556.5,
             "dataTransmissao": "24/02/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 4129.19
           }
         ]
       }
@@ -10026,8 +10026,8 @@
             "valorPedido": 6881.96,
             "dataTransmissao": "01/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 9715.58
           }
         ],
         "2022": [
@@ -10036,8 +10036,8 @@
             "valorPedido": 8389.06,
             "dataTransmissao": "01/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 10807.62
           }
         ],
         "2023": [
@@ -10046,8 +10046,8 @@
             "valorPedido": 10186.8,
             "dataTransmissao": "01/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 12059.27
           }
         ],
         "2024": [
@@ -10056,8 +10056,8 @@
             "valorPedido": 6436.58,
             "dataTransmissao": "16/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 7039.73
           }
         ],
         "2025": [
@@ -10177,8 +10177,8 @@
             "valorPedido": 5750.75,
             "dataTransmissao": "12/12/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/03/2025",
+            "valorRec": 8011.06
           }
         ],
         "2022": [
@@ -10187,8 +10187,8 @@
             "valorPedido": 186.58,
             "dataTransmissao": "12/12/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/03/2025",
+            "valorRec": 248.41
           }
         ],
         "2023": [
@@ -11472,8 +11472,8 @@
             "valorPedido": 36880.45,
             "dataTransmissao": "09/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2023",
+            "valorRec": 47652.25
           }
         ],
         "2019": [
@@ -11482,8 +11482,8 @@
             "valorPedido": 24486.04,
             "dataTransmissao": "09/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2023",
+            "valorRec": 29939.46
           }
         ],
         "2020": [
@@ -11502,8 +11502,8 @@
             "valorPedido": 11316.26,
             "dataTransmissao": "09/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2023",
+            "valorRec": 12975.33
           }
         ],
         "2022": [
@@ -11512,8 +11512,8 @@
             "valorPedido": 11443.34,
             "dataTransmissao": "21/09/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2023",
+            "valorRec": 12410.3
           }
         ]
       }
@@ -12742,8 +12742,8 @@
             "valorPedido": 4628.68,
             "dataTransmissao": "12/12/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/06/2024",
+            "valorRec": 5662.96
           }
         ],
         "2023": [
@@ -12752,8 +12752,8 @@
             "valorPedido": 4463.45,
             "dataTransmissao": "23/01/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 5744.52
           }
         ]
       }
@@ -15288,8 +15288,8 @@
             "valorPedido": 234.82,
             "dataTransmissao": "20/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 317.38
           }
         ],
         "2024": [
@@ -17803,8 +17803,8 @@
             "valorPedido": 12217.99,
             "dataTransmissao": "26/09/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 16801.76
           }
         ],
         "2021": [
@@ -17813,8 +17813,8 @@
             "valorPedido": 9883.73,
             "dataTransmissao": "26/09/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 13312.45
           }
         ],
         "2022": [
@@ -17823,8 +17823,8 @@
             "valorPedido": 9493.53,
             "dataTransmissao": "26/09/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 11840.69
           }
         ],
         "2023": [
@@ -17833,8 +17833,8 @@
             "valorPedido": 2995.5,
             "dataTransmissao": "25/01/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 3394.27
           }
         ],
         "2024": [
@@ -18358,8 +18358,8 @@
             "valorPedido": 1480.5,
             "dataTransmissao": "10/08/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/06/2024",
+            "valorRec": 1979.57
           }
         ],
         "2021": [
@@ -18368,8 +18368,8 @@
             "valorPedido": 55.4,
             "dataTransmissao": "10/08/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/06/2024",
+            "valorRec": 73.54
           }
         ],
         "2022": [
@@ -18388,8 +18388,8 @@
             "valorPedido": 3317.82,
             "dataTransmissao": "25/01/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 3778.07
           }
         ],
         "2024": [
@@ -18398,8 +18398,8 @@
             "valorPedido": 19794.44,
             "dataTransmissao": "17/06/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 20501.1
           }
         ],
         "2025": [
@@ -18532,8 +18532,8 @@
             "valorPedido": 21301.8,
             "dataTransmissao": "18/01/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/06/2024",
+            "valorRec": 27778.96
           }
         ],
         "2021": [
@@ -18542,8 +18542,8 @@
             "valorPedido": 16996.99,
             "dataTransmissao": "18/01/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/06/2024",
+            "valorRec": 22563.5
           }
         ]
       }
@@ -18722,8 +18722,8 @@
             "valorPedido": 4745.55,
             "dataTransmissao": "04/12/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/03/2025",
+            "valorRec": 5768.69
           }
         ],
         "2024": [
@@ -18942,8 +18942,8 @@
             "valorPedido": 6383.29,
             "dataTransmissao": "17/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 9181.9
           }
         ],
         "2021": [
@@ -18962,8 +18962,8 @@
             "valorPedido": 7475.68,
             "dataTransmissao": "17/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 9658.58
           }
         ],
         "2023": [
@@ -19452,8 +19452,8 @@
             "valorPedido": 825.11,
             "dataTransmissao": "30/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 1253.76
           }
         ],
         "2022": [
@@ -19462,8 +19462,8 @@
             "valorPedido": 1976.85,
             "dataTransmissao": "30/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 2848.58
           }
         ],
         "2023": [
@@ -19640,8 +19640,8 @@
             "valorPedido": 13382.12,
             "dataTransmissao": "31/10/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 17807.58
           }
         ],
         "2024": [
@@ -19650,8 +19650,8 @@
             "valorPedido": 12558.46,
             "dataTransmissao": "31/10/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 15282.38
           }
         ]
       }
@@ -19996,8 +19996,8 @@
             "valorPedido": 5136.07,
             "dataTransmissao": "06/09/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2025",
+            "valorRec": 7201.89
           }
         ],
         "2021": [
@@ -20006,8 +20006,8 @@
             "valorPedido": 5774.69,
             "dataTransmissao": "06/09/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2025",
+            "valorRec": 7932.88
           }
         ],
         "2022": [
@@ -20110,8 +20110,8 @@
             "valorPedido": 8053.53,
             "dataTransmissao": "24/11/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "15/05/2024",
+            "valorRec": 10505.87
           }
         ],
         "2022": [
@@ -20120,8 +20120,8 @@
             "valorPedido": 9273.35,
             "dataTransmissao": "",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 11463.37
           }
         ],
         "2023": [
@@ -20130,8 +20130,8 @@
             "valorPedido": 8087.35,
             "dataTransmissao": "26/01/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 8996.66
           }
         ],
         "2024": [
@@ -20906,8 +20906,8 @@
             "valorPedido": 2597.72,
             "dataTransmissao": "23/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 3667.37
           }
         ],
         "2022": [
@@ -20916,8 +20916,8 @@
             "valorPedido": 1407.11,
             "dataTransmissao": "23/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 1841.48
           }
         ],
         "2023": [
@@ -20926,8 +20926,8 @@
             "valorPedido": 4684.8,
             "dataTransmissao": "24/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 5622.59
           }
         ],
         "?": [
@@ -20936,8 +20936,8 @@
             "valorPedido": 105.15,
             "dataTransmissao": "25/11/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 125.25
           }
         ]
       }
@@ -23520,8 +23520,8 @@
             "valorPedido": 302.64,
             "dataTransmissao": "24/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 406.39
           }
         ],
         "2021": [
@@ -23530,8 +23530,8 @@
             "valorPedido": 703.76,
             "dataTransmissao": "24/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 928.99
           }
         ],
         "2022": [
@@ -23540,8 +23540,8 @@
             "valorPedido": 1348.83,
             "dataTransmissao": "24/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 1695.9
           }
         ],
         "2023": [
@@ -23550,8 +23550,8 @@
             "valorPedido": 11154.31,
             "dataTransmissao": "24/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 12048.94
           }
         ],
         "2024": [
@@ -25873,8 +25873,8 @@
             "valorPedido": 1244.11,
             "dataTransmissao": "12/11/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/03/2025",
+            "valorRec": 1755.19
           }
         ],
         "2022": [
@@ -25883,8 +25883,8 @@
             "valorPedido": 1922.19,
             "dataTransmissao": "12/11/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/03/2025",
+            "valorRec": 2549.35
           }
         ],
         "2023": [
@@ -27041,8 +27041,8 @@
             "valorPedido": 11429.17,
             "dataTransmissao": "16/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 17536.91
           }
         ],
         "2022": [
@@ -27051,8 +27051,8 @@
             "valorPedido": 9636.85,
             "dataTransmissao": "16/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 14047.63
           }
         ],
         "2023": [
@@ -27061,8 +27061,8 @@
             "valorPedido": 10022.3,
             "dataTransmissao": "16/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 13336.67
           }
         ],
         "2024": [
@@ -27071,8 +27071,8 @@
             "valorPedido": 12588.74,
             "dataTransmissao": "16/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 15319.23
           }
         ]
       },
@@ -27161,8 +27161,8 @@
             "valorPedido": 2182.91,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 3349.45
           }
         ],
         "2024": [
@@ -27171,8 +27171,8 @@
             "valorPedido": 17749.79,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 21067.76
           }
         ],
         "?": [
@@ -27181,8 +27181,8 @@
             "valorPedido": 274.7,
             "dataTransmissao": "14/08/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 314.8
           }
         ]
       }
@@ -27268,8 +27268,8 @@
             "valorPedido": 1287.89,
             "dataTransmissao": "08/03/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 1740.76
           }
         ],
         "2022": [
@@ -27278,8 +27278,8 @@
             "valorPedido": 9241.21,
             "dataTransmissao": "08/03/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 11448.35
           }
         ],
         "2023": [
@@ -27802,8 +27802,8 @@
             "valorPedido": 6097.92,
             "dataTransmissao": "17/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 9273.21
           }
         ],
         "2022": [
@@ -27812,8 +27812,8 @@
             "valorPedido": 5689.79,
             "dataTransmissao": "17/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 8071.27
           }
         ],
         "2023": [
@@ -27822,8 +27822,8 @@
             "valorPedido": 10303.59,
             "dataTransmissao": "17/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 13329.1
           }
         ],
         "2024": [
@@ -27832,8 +27832,8 @@
             "valorPedido": 11232.02,
             "dataTransmissao": "17/12/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 13326.91
           }
         ],
         "2025": [
@@ -28228,8 +28228,8 @@
             "valorPedido": 898.64,
             "dataTransmissao": "11/12/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/05/2025",
+            "valorRec": 1214.6
           }
         ],
         "2023": [
@@ -28248,8 +28248,8 @@
             "valorPedido": 1879.24,
             "dataTransmissao": "08/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/06/2025",
+            "valorRec": 2053.08
           }
         ],
         "?": [
@@ -28367,8 +28367,8 @@
             "valorPedido": 20879.68,
             "dataTransmissao": "03/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2025",
+            "valorRec": 29258.84
           }
         ],
         "2021": [
@@ -28377,8 +28377,8 @@
             "valorPedido": 25416.58,
             "dataTransmissao": "03/10/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2025",
+            "valorRec": 34907.34
           }
         ],
         "2022": [
@@ -29040,8 +29040,8 @@
             "valorPedido": 10702.97,
             "dataTransmissao": "26/04/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 15082.97
           }
         ],
         "2020": [
@@ -29050,8 +29050,8 @@
             "valorPedido": 10569.72,
             "dataTransmissao": "26/04/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 14446.31
           }
         ],
         "2021": [
@@ -29060,8 +29060,8 @@
             "valorPedido": 10631.42,
             "dataTransmissao": "26/04/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 14230.23
           }
         ],
         "2022": [
@@ -29070,8 +29070,8 @@
             "valorPedido": 10839.28,
             "dataTransmissao": "26/04/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 13415.52
           }
         ],
         "2023": [
@@ -29836,8 +29836,8 @@
             "valorPedido": 9320.31,
             "dataTransmissao": "09/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "22/09/2025",
+            "valorRec": 12682.49
           }
         ],
         "2023": [
@@ -30474,8 +30474,8 @@
             "valorPedido": 1750.09,
             "dataTransmissao": "16/04/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 2659.26
           }
         ],
         "2021": [
@@ -30484,8 +30484,8 @@
             "valorPedido": 2122.66,
             "dataTransmissao": "16/04/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 3177.22
           }
         ],
         "2022": [
@@ -30494,8 +30494,8 @@
             "valorPedido": 2522.9,
             "dataTransmissao": "16/04/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 3551.06
           }
         ],
         "2023": [
@@ -30504,8 +30504,8 @@
             "valorPedido": 3890.17,
             "dataTransmissao": "16/04/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 4958.77
           }
         ],
         "2024": [
@@ -30514,8 +30514,8 @@
             "valorPedido": 108.46,
             "dataTransmissao": "16/04/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/11/2025",
+            "valorRec": 128.26
           }
         ]
       }
@@ -31018,8 +31018,8 @@
             "valorPedido": 17484.03,
             "dataTransmissao": "10/06/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/10/2023",
+            "valorRec": 22160.44
           }
         ],
         "2021": [
@@ -31028,8 +31028,8 @@
             "valorPedido": 16031.19,
             "dataTransmissao": "10/06/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/10/2023",
+            "valorRec": 19902.84
           }
         ],
         "2022": [
@@ -31038,8 +31038,8 @@
             "valorPedido": 1932.65,
             "dataTransmissao": "31/01/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2024",
+            "valorRec": 2352.61
           }
         ],
         "2023": [
@@ -34624,8 +34624,8 @@
             "valorPedido": 11741.85,
             "dataTransmissao": "07/12/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 16127.31
           }
         ],
         "2021": [
@@ -34634,8 +34634,8 @@
             "valorPedido": 11989.77,
             "dataTransmissao": "07/12/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "21/10/2024",
+            "valorRec": 14659.41
           }
         ],
         "2022": [
@@ -35533,8 +35533,8 @@
             "valorPedido": 10827.01,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 15249.17
           }
         ],
         "2023": [
@@ -35543,8 +35543,8 @@
             "valorPedido": 17000.11,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 22333.43
           }
         ],
         "2024": [
@@ -35553,8 +35553,8 @@
             "valorPedido": 26893.79,
             "dataTransmissao": "10/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/01/2026",
+            "valorRec": 31456.93
           }
         ]
       },
@@ -36548,8 +36548,8 @@
             "valorPedido": 1284.59,
             "dataTransmissao": "13/06/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/09/2024",
+            "valorRec": 1719.41
           }
         ],
         "2022": [
@@ -37293,8 +37293,8 @@
             "valorPedido": 10445.72,
             "dataTransmissao": "16/01/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 14833.31
           }
         ],
         "2023": [
@@ -37303,8 +37303,8 @@
             "valorPedido": 14456.92,
             "dataTransmissao": "16/01/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2026",
+            "valorRec": 18686.06
           }
         ],
         "2024": [
