@@ -6034,7 +6034,7 @@
       "observacoes": "PER 2019 A 2022 FEITOS EM 02/08/2023 - PER 2023 FEITO ENTRE 11/01/2024 - RECEBEU 3 EM 22/04/2024, 1 EM 22/04/2024  - FALTA RECEBER 1",
       "exercicios": {
         "2019": "7.207,86 EM 31/10/2023",
-        "2020": "8.527,99 EM 31/10/2023",
+        "2020": "PROCESSADA — 8.527,99 EM 31/10/2023",
         "2021": "PROCESSADA — 6.932,84 EM 31/10/2023",
         "2022": "PROCESSADA — 3.982,12 EM 31/10/2023",
         "2023": "PROCESSADA — 658.146,61 EM 30/06/2025",
@@ -6097,6 +6097,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T17:33:55.252Z",
+          "exercicio": "2020",
+          "de": "8.527,99 EM 31/10/2023",
+          "para": "PROCESSADA — 8.527,99 EM 31/10/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T17:33:36.274Z",
           "exercicio": "2021",
           "de": "6.932,84 EM 31/10/2023",
@@ -6133,6 +6140,10 @@
         }
       ],
       "recebimentos": {
+        "2020": {
+          "data": "31/10/2023",
+          "valor": 8527.99
+        },
         "2021": {
           "data": "31/10/2023",
           "valor": 6932.84
@@ -45806,9 +45817,10 @@
           "nome": "CARLOS ALBERTO SÃO TIAGO LAURIA",
           "porExercicio": {
             "EXPERDCOMP-2022-0": 10871.84,
-            "EXPERDCOMP-2021-0": 9830.19
+            "EXPERDCOMP-2021-0": 9830.19,
+            "EXPERDCOMP-2020-0": 4805.64
           },
-          "total": 20702.03
+          "total": 25507.67
         }
       ]
     },
