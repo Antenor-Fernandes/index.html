@@ -26500,6 +26500,13 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-23T16:54:04.116Z",
+          "exercicio": "2014",
+          "de": "IMPUGNAÇÃO",
+          "para": "IMPUGNAÇÃO",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T13:30:55.301Z",
           "exercicio": "2014",
           "de": "",
@@ -26540,6 +26547,9 @@
             "valorRec": 0
           }
         ]
+      },
+      "exAtencao": {
+        "2014": true
       }
     },
     {
