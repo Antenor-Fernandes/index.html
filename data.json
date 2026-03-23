@@ -10692,16 +10692,38 @@
       "cpfCnpj": "085.071.201-72",
       "tipo": "PF",
       "nome": "EMANUEL HÉLIO MOREIRA SARMENTO",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "PER 2023 E 2024 FEITOS EM 30/04/2025 - COBRAR PROVEITO ECONÔMICO DA DECLARAÇÃO ORIGINAL DE 2025 - IR A PAGAR DE 13.617,25 - NÃO PAGOU E NÃO TEM PER",
+      "atencao": true,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-18T11:04:27.379Z",
@@ -10766,6 +10788,7 @@
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -10789,7 +10812,9 @@
             "valorRec": 0
           }
         ]
-      }
+      },
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "13894823836",
