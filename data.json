@@ -7083,8 +7083,29 @@
       "acessoEcac": "Dal@0828",
       "senhaGov": "",
       "observacoes": "NÃO É CLIENTE - COISAS DE TT - MS AJUIZADO EM MARÇO DE 2026",
-      "exercicios": {},
-      "temPer": false
+      "exercicios": {
+        "2026": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026"
+      },
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-23T12:13:37.776Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2026": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "37357077691",
