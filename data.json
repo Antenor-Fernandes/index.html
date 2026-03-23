@@ -11977,6 +11977,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T18:34:30.039Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 26.334,85 EM 31/10/2025",
+          "para": "PROCESSADA — 26.334,85 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T18:33:40.477Z",
           "exercicio": "2022",
           "de": "PROCESSADA — 25.010,36 EM 31/10/2025",
@@ -12068,6 +12075,16 @@
             "numero": "08656.34289.110725.2.2.04-0510",
             "valorPedido": 10221.4,
             "dataTransmissao": "11/07/225",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
+        "2023": [
+          {
+            "numero": "04991.19730.110725.2.2.04-5014",
+            "valorPedido": 18649.84,
+            "dataTransmissao": "11/07/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
