@@ -37090,8 +37090,7 @@
         "2020": "25.425,35 EM 30/06/2023",
         "2021": "25.189,82 EM 30/06/2023",
         "2022": "20.981,24 EM 30/06/2023",
-        "2023": "CLIENTE Q FEZ",
-        "2024": "CLIENTE Q FEZ"
+        "2023": "CLIENTE Q FEZ"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -37138,6 +37137,13 @@
         ]
       },
       "historico": [
+        {
+          "ts": "2026-03-23T13:25:49.954Z",
+          "exercicio": "2024",
+          "de": "CLIENTE Q FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T13:25:46.845Z",
           "exercicio": "2025",
