@@ -13878,6 +13878,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T19:30:16.166Z",
+          "exercicio": "2019",
+          "de": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+          "para": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:29:38.008Z",
           "exercicio": "2019",
           "de": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
@@ -14129,6 +14136,14 @@
             "valorPedido": 487.6,
             "dataTransmissao": "20/02/2026",
             "obs": "PARCELAMENTO",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "24587.03907.200226.2.2.04-5889",
+            "valorPedido": 491.94,
+            "dataTransmissao": "20/02/2026",
+            "obs": "",
             "dataRec": "",
             "valorRec": 0
           }
