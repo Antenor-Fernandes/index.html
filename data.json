@@ -37082,58 +37082,38 @@
       "cpfCnpj": "083.544.996-34",
       "tipo": "PF",
       "nome": "VIRGÍNIA CHRISTÓFARO RIBEIRO BICALHO",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "MG 1.086.327 PC/MG",
+      "nacionalidade": "BRASILEIRA",
+      "profissao": "APOSENTADA",
+      "estadoCivil": "Viúvo(a)",
+      "telefone": "(31) 99208-1781",
+      "email": "V.CHRISTOFARO@YAHOO.COM.BR",
+      "logradouro": "RUA ANDRÉ CAVALCANTI",
+      "numeroEnd": "136",
+      "complemento": "APARTAMENTO 601",
+      "bairro": "GUTIERREZ",
+      "cidade": "BELO HORIZONTE",
+      "uf": "MG",
+      "cep": "30441-014",
+      "acessoEcac": "PROCURAÇÃO ECAC",
       "senhaGov": "GovBR220898@",
+      "procurador": "TGC",
+      "dataContrato": "12/04/2023",
+      "honorarios": "30%",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "01/08/1997",
+      "diagnostico": "NEOPLASIA MALIGNA - CID 044.3 - DESDE 16/08/2005",
       "observacoes": "TEM PER 2019 A 2022 FEITOS EM 14/04/2023 - RECEBEU 3 EM 20/02/2024 - FALTA RECEBER 1 - SENHA GOV.BR GovBR220898@",
+      "atencao": false,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2019": "EM PROCESSAMENTO — 26.388,72 EM 30/06/2023",
         "2020": "EM PROCESSAMENTO — 25.425,35 EM 30/06/2023",
         "2021": "25.189,82 EM 30/06/2023",
         "2022": "EM PROCESSAMENTO — 20.981,24 EM 30/06/2023"
-      },
-      "temPer": true,
-      "doencaGrave": true,
-      "exPerdcomps": {
-        "2019": [
-          {
-            "numero": "29421.59294.140423.2.2.04-3709",
-            "valorPedido": 29228.66,
-            "dataTransmissao": "14/04/2023",
-            "obs": "",
-            "dataRec": "20/02/2024",
-            "valorRec": 39999.42
-          }
-        ],
-        "2020": [
-          {
-            "numero": "12735.98979.140423.2.2.04-5500",
-            "valorPedido": 29073.11,
-            "dataTransmissao": "14/04/2023",
-            "obs": "",
-            "dataRec": "20/02/2024",
-            "valorRec": 38184.62
-          }
-        ],
-        "2021": [
-          {
-            "numero": "10396.69067.140423.2.2.04-2024",
-            "valorPedido": 32045.8,
-            "dataTransmissao": "14/04/2023",
-            "obs": "",
-            "dataRec": "",
-            "valorRec": ""
-          }
-        ],
-        "2022": [
-          {
-            "numero": "10819.59021.140423.2.2.04-8128",
-            "valorPedido": 25032.08,
-            "dataTransmissao": "14/04/2023",
-            "obs": "",
-            "dataRec": "20/02/2024",
-            "valorRec": 30471.55
-          }
-        ]
       },
       "historico": [
         {
@@ -37182,10 +37162,53 @@
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exAtencao": {},
-      "exProcessos": {}
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "29421.59294.140423.2.2.04-3709",
+            "valorPedido": 29228.66,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "20/02/2024",
+            "valorRec": 39999.42
+          }
+        ],
+        "2020": [
+          {
+            "numero": "12735.98979.140423.2.2.04-5500",
+            "valorPedido": 29073.11,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "20/02/2024",
+            "valorRec": 38184.62
+          }
+        ],
+        "2021": [
+          {
+            "numero": "10396.69067.140423.2.2.04-2024",
+            "valorPedido": 32045.8,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "10819.59021.140423.2.2.04-8128",
+            "valorPedido": 25032.08,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "20/02/2024",
+            "valorRec": 30471.55
+          }
+        ]
+      },
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "14078716687",
