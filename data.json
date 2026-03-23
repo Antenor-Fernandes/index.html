@@ -17567,11 +17567,18 @@
         "2022": "PROCESSADA — 3.212,34 EM 31/10/2022",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 25/01/2024",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 03/02/2025",
-        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026"
+        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 29/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-23T19:39:27.856Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 29/01/2026",
+          "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 29/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:09:37.895Z",
           "exercicio": "2020",
@@ -17637,16 +17644,14 @@
         "2024": {
           "feito": true,
           "data": "03/02/2025"
-        },
-        "2025": {
-          "feito": true,
-          "data": "29/01/2026"
         }
       },
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "97745049687",
