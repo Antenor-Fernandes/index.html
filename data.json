@@ -12504,6 +12504,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T19:09:42.239Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 29.784,67 EM 31/07/2023",
+          "para": "PROCESSADA — 29.784,67 EM 31/07/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:08:21.147Z",
           "exercicio": "2024",
           "de": "PROCESSADA — 15.443,99 EM 31/10/2025",
@@ -12715,8 +12722,8 @@
             "valorPedido": 8839.28,
             "dataTransmissao": "23/06/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "22/07/2024",
+            "valorRec": 10676.78
           }
         ],
         "2023": [
@@ -45298,6 +45305,21 @@
           "porExercicio": {
             "2024": 21571.93
           }
+        }
+      ]
+    },
+    {
+      "data": "22/07/2024",
+      "descricao": "Lote 22/07/2024",
+      "pagamentos": [
+        {
+          "clienteId": "08817790672",
+          "cpfCnpj": "088.177.906-72",
+          "nome": "FERNANDO DE ANDRADE LANZA",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 10676.78
+          },
+          "total": 10676.78
         }
       ]
     },
