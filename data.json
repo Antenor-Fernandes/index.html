@@ -13878,6 +13878,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T19:20:09.362Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — MALHA DG - DDA EM 19/01/2023 - RECEBEU 2.170,82 EM 30/04/2024",
+          "para": "PROCESSADA — MALHA DG - DDA EM 19/01/2023 - RECEBEU 2.170,82 EM 30/04/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:19:25.269Z",
           "exercicio": "2021",
           "de": "PROCESSADA — 2.733,84 EM 28/02/2025",
@@ -14020,6 +14027,16 @@
             "numero": "39422.65789.051022.2.2.04-7008",
             "valorPedido": 2771.56,
             "dataTransmissao": "05/10/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
+        "2022": [
+          {
+            "numero": "08439.86497.190123.2.2.04-1239",
+            "valorPedido": 3376.17,
+            "dataTransmissao": "19/01/2023",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
