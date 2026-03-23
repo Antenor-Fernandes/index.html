@@ -6787,13 +6787,20 @@
         "2020": "8.820,81 EM 29/09/2023",
         "2021": "6.752,66 EM 29/09/2023",
         "2022": "7.206,71 EM 29/09/2023",
-        "2023": "8.299,74 EM 29/09/2023",
+        "2023": "PROCESSADA — 8.299,74 EM 29/09/2023",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 14/02/2025 - PEDIDO DE PRIORIDADE FEITO EM 14/02/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 26/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-23T17:43:21.546Z",
+          "exercicio": "2023",
+          "de": "8.299,74 EM 29/09/2023",
+          "para": "PROCESSADA — 8.299,74 EM 29/09/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:04:03.116Z",
           "exercicio": "2024",
@@ -6807,7 +6814,12 @@
           "para": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 26/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2023": {
+          "data": "29/09/2023",
+          "valor": 8299.74
+        }
+      },
       "dda": {},
       "exPerdcomps": {
         "2019": [
@@ -6857,7 +6869,7 @@
             "dataTransmissao": "21/08/2023",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2024": [
@@ -6880,7 +6892,12 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "50879952687",
