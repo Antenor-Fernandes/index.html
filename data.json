@@ -11967,7 +11967,7 @@
       "senhaGov": "",
       "observacoes": "Fafc102090# - PER 2021 A 2024 FEITOS EM 11/07/2025 - PER 2025 FEITO EM 16/10/2025",
       "exercicios": {
-        "2021": "26.136,30 EM 31/10/2025",
+        "2021": "PROCESSADA — 26.136,30 EM 31/10/2025",
         "2022": "PROCESSADA — 25.010,36 EM 31/10/2025",
         "2023": "PROCESSADA — 26.334,85 EM 31/10/2025",
         "2024": "PROCESSADA — 17.316,56 EM 31/10/2025",
@@ -11976,6 +11976,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-23T18:29:20.359Z",
+          "exercicio": "2021",
+          "de": "26.136,30 EM 31/10/2025",
+          "para": "PROCESSADA — 26.136,30 EM 31/10/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T18:29:08.846Z",
           "exercicio": "2022",
@@ -12006,6 +12013,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/10/2025",
+          "valor": 26136.3
+        },
         "2022": {
           "data": "31/10/2025",
           "valor": 25010.36
