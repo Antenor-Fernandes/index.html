@@ -13730,6 +13730,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T19:14:19.164Z",
+          "exercicio": "2022",
+          "de": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
+          "para": "EM MALHA — MALHA RRA  - 150.276,10 - DDA EM 10/01/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:11:27.620Z",
           "exercicio": "2020",
           "de": "APRESENTAMOS DOCUMENTAÇÃO INTIMAÇÃO COMPLEMENTAR - NÃO FOMOS NÓS QUE FIZEMOS O DDA",
@@ -13759,7 +13766,18 @@
         }
       },
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "19368.16846.050422.2.2.04-1705",
+            "valorPedido": 16204.05,
+            "dataTransmissao": "05/04/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
