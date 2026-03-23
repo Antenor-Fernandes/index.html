@@ -10852,6 +10852,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T18:26:45.623Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
+          "para": "PROCESSADA — IMPUGNAÇÃO EM 01/10/2024 - IMPROCEDENTE POR PAGAMENTO DO DÉBITO",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T18:56:33.346Z",
           "exercicio": "2025",
           "de": "EM MALHA — MALHA DG E RRA - DDA E PEDIDO DE PRIORIDADE FEITOS EM 03/02/2026",
@@ -10932,9 +10939,9 @@
             "numero": "39127.40009.011024.2.2.04-8039",
             "valorPedido": 3617.56,
             "dataTransmissao": "01/10/2024",
-            "obs": "",
+            "obs": "INDEFERIDO",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2021": [
@@ -10987,7 +10994,9 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "26642468104",
