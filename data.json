@@ -13878,6 +13878,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T19:18:36.884Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+          "para": "PROCESSADA — IMPUGNAMOS EM 05/10/2022 - DEFERIDA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:17:35.028Z",
           "exercicio": "2018",
           "de": "PROCESSADA — MALHA DG - DDA EM 05/10/2022",
@@ -13985,6 +13992,16 @@
           {
             "numero": "09154.81938.051022.2.2.04-0076",
             "valorPedido": 7034.89,
+            "dataTransmissao": "05/10/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
+        "2020": [
+          {
+            "numero": "06091.27207.051022.2.2.04-5130",
+            "valorPedido": 665.65,
             "dataTransmissao": "05/10/2022",
             "obs": "",
             "dataRec": "",
