@@ -28908,6 +28908,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T17:06:37.375Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 17.787,55 EM 31/10/2025",
+          "para": "PROCESSADA — 17.787,55 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T17:05:59.583Z",
           "exercicio": "2020",
           "de": "PROCESSADA — 19.659,91 EM 31/10/2025",
@@ -29087,8 +29094,8 @@
             "valorPedido": 1747.31,
             "dataTransmissao": "17/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "22/12/2025",
+            "valorRec": 2084.71
           }
         ],
         "2024": [
@@ -39459,9 +39466,10 @@
           "cpfCnpj": "363.429.047-15",
           "nome": "MAURO MONTEIRO DE PAIVA FILHO",
           "porExercicio": {
-            "EXPERDCOMP-2020-0": 264.29
+            "EXPERDCOMP-2020-0": 264.29,
+            "EXPERDCOMP-2023-0": 2084.71
           },
-          "total": 264.29
+          "total": 2349
         }
       ]
     },
