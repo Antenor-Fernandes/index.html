@@ -9747,7 +9747,7 @@
       "observacoes": "PER 2021 A 2024 FEITOS EM 18/07/2025 -  PER 2025 FEITO EM 16/10/2025 - COBRAR PROVEITO ECONÔMICO",
       "exercicios": {
         "2021": "4.215,97 EM 31/10/2025",
-        "2022": "4.303,45 EM 31/10/2025",
+        "2022": "PROCESSADA — 4.303,45 EM 31/10/2025",
         "2023": "PROCESSADA — 6.606,75 EM 31/10/2025",
         "2024": "PROCESSADA — 5.803,77 EM 31/10/2025",
         "2025": "PROCESSADA — 5.613,02 EM 31/10/2025"
@@ -9772,7 +9772,7 @@
             "dataTransmissao": "18/07/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2023": [
@@ -9798,6 +9798,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T18:22:01.073Z",
+          "exercicio": "2022",
+          "de": "4.303,45 EM 31/10/2025",
+          "para": "PROCESSADA — 4.303,45 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T18:21:47.093Z",
           "exercicio": "2023",
           "de": "6.606,75 EM 31/10/2025",
@@ -9820,6 +9827,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2025",
+          "valor": 4303.45
+        },
         "2023": {
           "data": "31/10/2025",
           "valor": 6606.75
