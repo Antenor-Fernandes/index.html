@@ -6795,6 +6795,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T17:58:20.461Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 8.299,74 EM 29/09/2023",
+          "para": "PROCESSADA — 8.299,74 EM 29/09/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T17:58:12.994Z",
           "exercicio": "2022",
           "de": "PROCESSADA — 7.206,71 EM 29/09/2023",
@@ -6975,7 +6982,7 @@
             "valorPedido": 4818.9,
             "dataTransmissao": "21/08/2023",
             "obs": "",
-            "dataRec": "20/04/2024",
+            "dataRec": "20/02/2024",
             "valorRec": 5202.12
           }
         ],
@@ -46077,17 +46084,7 @@
     {
       "data": "20/04/2024",
       "descricao": "Lote 20/04/2024",
-      "pagamentos": [
-        {
-          "clienteId": "30025958615",
-          "cpfCnpj": "300.259.586-15",
-          "nome": "CÉSAR AUGUSTO DIAS MACHADO",
-          "porExercicio": {
-            "EXPERDCOMP-2023-0": 5202.12
-          },
-          "total": 5202.12
-        }
-      ]
+      "pagamentos": []
     },
     {
       "data": "28/03/2024",
@@ -46427,9 +46424,10 @@
             "EXPERDCOMP-2019-0": 3734.23,
             "EXPERDCOMP-2020-0": 9030.11,
             "EXPERDCOMP-2021-0": 9940.65,
-            "EXPERDCOMP-2022-0": 13074.98
+            "EXPERDCOMP-2022-0": 13074.98,
+            "EXPERDCOMP-2023-0": 5202.12
           },
-          "total": 35779.97
+          "total": 40982.090000000004
         }
       ]
     },
