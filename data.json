@@ -6039,7 +6039,7 @@
         "2022": "3.982,12 EM 31/10/2023",
         "2023": "658.146,61 EM 30/06/2025",
         "2024": "4.271,48 EM 30/06/2025",
-        "2025": "428,57 EM 30/06/2025"
+        "2025": "PROCESSADA — 428,57 EM 30/06/2025"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -6094,7 +6094,28 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-23T17:32:18.083Z",
+          "exercicio": "2025",
+          "de": "428,57 EM 30/06/2025",
+          "para": "PROCESSADA — 428,57 EM 30/06/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/06/2025",
+          "valor": 428.57
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "19993188620",
@@ -41018,7 +41039,7 @@
           "id": "15483959604",
           "cpfCnpj": "154.839.596-04",
           "nome": "CARLOS ALBERTO SÃO TIAGO LAURIA",
-          "total": 662846.66,
+          "total": 662846.6599999999,
           "porExercicio": {
             "2023": 658146.61,
             "2024": 4271.48,
