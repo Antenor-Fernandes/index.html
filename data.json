@@ -4846,6 +4846,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T17:26:57.474Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 13/01/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 13/01/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T09:50:59.627Z",
           "exercicio": "2020",
           "de": "8.622,02 EM 30/09/2024",
@@ -4939,6 +4946,16 @@
             "dataRec": "21/11/2024",
             "valorRec": 32237.87
           }
+        ],
+        "2024": [
+          {
+            "numero": "36042.14294.170225.2.2.04-7077",
+            "valorPedido": 8395.36,
+            "dataTransmissao": "17/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
         ]
       },
       "telefone": "(21) 2264-2636 / (21) 99495-2774",
@@ -4949,7 +4966,9 @@
       "cidade": "Rio de Janeiro",
       "uf": "RJ",
       "cep": "20540-096",
-      "dataContrato": "10/07/2024"
+      "dataContrato": "10/07/2024",
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "25088173687",
