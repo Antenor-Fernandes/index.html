@@ -37089,8 +37089,7 @@
         "2019": "26.388,72 EM 30/06/2023",
         "2020": "25.425,35 EM 30/06/2023",
         "2021": "25.189,82 EM 30/06/2023",
-        "2022": "20.981,24 EM 30/06/2023",
-        "2023": "CLIENTE Q FEZ"
+        "2022": "EM PROCESSAMENTO — 20.981,24 EM 30/06/2023"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -37131,12 +37130,26 @@
             "valorPedido": 25032.08,
             "dataTransmissao": "14/04/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2024",
+            "valorRec": 30471.55
           }
         ]
       },
       "historico": [
+        {
+          "ts": "2026-03-23T13:27:15.420Z",
+          "exercicio": "2022",
+          "de": "20.981,24 EM 30/06/2023",
+          "para": "EM PROCESSAMENTO — 20.981,24 EM 30/06/2023",
+          "usuario": "Admin"
+        },
+        {
+          "ts": "2026-03-23T13:25:52.822Z",
+          "exercicio": "2023",
+          "de": "CLIENTE Q FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T13:25:49.954Z",
           "exercicio": "2024",
@@ -37151,7 +37164,14 @@
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "14078716687",
@@ -45510,6 +45530,21 @@
             "2022": 17632.68,
             "2023": 20930.21
           }
+        }
+      ]
+    },
+    {
+      "data": "20/02/2024",
+      "descricao": "Lote 20/02/2024",
+      "pagamentos": [
+        {
+          "clienteId": "08354499634",
+          "cpfCnpj": "083.544.996-34",
+          "nome": "VIRGÍNIA CHRISTÓFARO RIBEIRO BICALHO",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 30471.55
+          },
+          "total": 30471.55
         }
       ]
     },
