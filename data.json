@@ -8502,10 +8502,27 @@
       "senhaGov": "",
       "observacoes": "FALTA LAUDO - PER 2021 FEITO EM 19/02/2026",
       "exercicios": {
-        "2021": "RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025"
+        "2021": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-23T18:06:45.237Z",
+          "exercicio": "2021",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025",
+          "para": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER EM 18/12/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "44596898634",
