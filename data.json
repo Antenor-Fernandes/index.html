@@ -11977,6 +11977,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T18:32:56.869Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — 26.136,30 EM 31/10/2025",
+          "para": "PROCESSADA — 26.136,30 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T18:29:20.359Z",
           "exercicio": "2021",
           "de": "26.136,30 EM 31/10/2025",
@@ -12038,7 +12045,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "36746.59957.110725.2.2.04-7828",
+            "valorPedido": 10182.44,
+            "dataTransmissao": "11/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
