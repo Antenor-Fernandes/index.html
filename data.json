@@ -8564,6 +8564,13 @@
       "temPer": false,
       "historico": [
         {
+          "ts": "2026-03-23T18:07:15.786Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-19T12:45:26.645Z",
           "exercicio": "2025",
           "de": "EM MALHA",
@@ -8653,7 +8660,8 @@
           }
         ]
       },
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "06807784627",
