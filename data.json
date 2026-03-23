@@ -24408,16 +24408,38 @@
       "cpfCnpj": "421.043.356-04",
       "tipo": "PF",
       "nome": "MARIA HELENA SCATOLINO DA SILVA",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "MG1.638233 SSP/MG",
+      "nacionalidade": "BRASILEIRA",
+      "profissao": "BENEFICIÁRIA DE PENSÃO POR MORTE",
+      "estadoCivil": "Viúvo(a)",
+      "telefone": "(31) 99917-1419",
+      "email": "pedroscatolino@gmail.com",
+      "logradouro": "RUA BERNARDO GUIMARÃES",
+      "numeroEnd": "1722",
+      "complemento": "APARTAMENTO 202",
+      "bairro": "LOURDES",
+      "cidade": "BELO HORIZONTE",
+      "uf": "MG",
+      "cep": "30140-082",
+      "acessoEcac": "PROCURAÇÃO ECAC",
       "senhaGov": "",
-      "observacoes": "PER 2021 FEITO EM 06/11/2025 E RECEBIDO EM 20/02/2026- PEDIDO DE REVISÃO DE DÉBITO 2021 NA PGFN FEITO EM 05/11/2025 - DEFERIDO - ACOMPANHAR ORDEM BANCÁRIA",
+      "procurador": "TGC",
+      "dataContrato": "14/08/2025",
+      "honorarios": "02 SM + 30%",
+      "objeto": "Obtenção do Laudo do Serviço Médico Oficial; Preenchimento, transmissão e\nacompanhamento de suas Declarações de Imposto de Renda da Pessoa Física — DIRPF dos\nexercícios 2021 a 2025, anos calendários 2020 a 2024, respectivamente.",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "01/01/2020 - PARALISIA IRREVERSÍVEL E INCAPACITANTE - CID I61",
+      "observacoes": "PUBLICAÇÃO NO MINAS GERAIS DA CONCESSÃO DA PENSÃO EM 23/09/2017 - PER 2021 FEITO EM 06/11/2025 E RECEBIDO EM 20/02/2026- PEDIDO DE REVISÃO DE DÉBITO 2021 NA PGFN FEITO EM 05/11/2025 - DEFERIDO - ACOMPANHAR ORDEM BANCÁRIA",
+      "atencao": false,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2021": "PROCESSADA — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE - RECEBIDA A RESTITUIÇÃO PELO PROCESSO DE PAGAMENTO 12154-726.290_2026-98",
         "2022": "EM FILA DE RESTITUIÇÃO — IMPUGNAMOS EM 06/11/2025 - PROCEDENTE",
         "2023": "EM MALHA — RETIFICAMOS PARA INFORMAR ISENÇÃO DO PRECATÓRIO - DDA DG FEITO EM 06/11/2025 E PRECATÓRIO JUNTADO EM EM 27/11/2025"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-19T16:25:28.123Z",
@@ -24475,6 +24497,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {
         "2023": {
           "ativo": true,
@@ -24494,7 +24517,8 @@
           }
         ]
       },
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "12464201634",
