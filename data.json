@@ -28908,6 +28908,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T17:05:59.583Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA — 19.659,91 EM 31/10/2025",
+          "para": "PROCESSADA — 19.659,91 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T17:04:27.905Z",
           "exercicio": "2025",
           "de": "PROCESSADA — 16.572,32  EM 31/10/2025",
@@ -29050,8 +29057,8 @@
             "valorPedido": 172.74,
             "dataTransmissao": "17/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "22/12/2025",
+            "valorRec": 264.29
           }
         ],
         "2021": [
@@ -39440,6 +39447,21 @@
             "2024": 4536.29,
             "2025": 4811.08
           }
+        }
+      ]
+    },
+    {
+      "data": "22/12/2025",
+      "descricao": "Lote 22/12/2025",
+      "pagamentos": [
+        {
+          "clienteId": "36342904715",
+          "cpfCnpj": "363.429.047-15",
+          "nome": "MAURO MONTEIRO DE PAIVA FILHO",
+          "porExercicio": {
+            "EXPERDCOMP-2020-0": 264.29
+          },
+          "total": 264.29
         }
       ]
     },
