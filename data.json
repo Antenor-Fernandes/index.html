@@ -37086,7 +37086,7 @@
       "senhaGov": "GovBR220898@",
       "observacoes": "TEM PER 2019 A 2022 FEITOS EM 14/04/2023 - RECEBEU 3 EM 20/02/2024 - FALTA RECEBER 1 - SENHA GOV.BR GovBR220898@",
       "exercicios": {
-        "2019": "26.388,72 EM 30/06/2023",
+        "2019": "EM PROCESSAMENTO — 26.388,72 EM 30/06/2023",
         "2020": "EM PROCESSAMENTO — 25.425,35 EM 30/06/2023",
         "2021": "25.189,82 EM 30/06/2023",
         "2022": "EM PROCESSAMENTO — 20.981,24 EM 30/06/2023"
@@ -37100,8 +37100,8 @@
             "valorPedido": 29228.66,
             "dataTransmissao": "14/04/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": ""
+            "dataRec": "20/02/2024",
+            "valorRec": 39999.42
           }
         ],
         "2020": [
@@ -37136,6 +37136,13 @@
         ]
       },
       "historico": [
+        {
+          "ts": "2026-03-23T13:28:21.176Z",
+          "exercicio": "2019",
+          "de": "26.388,72 EM 30/06/2023",
+          "para": "EM PROCESSAMENTO — 26.388,72 EM 30/06/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T13:28:02.678Z",
           "exercicio": "2020",
@@ -45550,9 +45557,10 @@
           "nome": "VIRGÍNIA CHRISTÓFARO RIBEIRO BICALHO",
           "porExercicio": {
             "EXPERDCOMP-2022-0": 30471.55,
-            "EXPERDCOMP-2020-0": 38184.62
+            "EXPERDCOMP-2020-0": 38184.62,
+            "EXPERDCOMP-2019-0": 39999.42
           },
-          "total": 68656.17
+          "total": 108655.59
         }
       ]
     },
