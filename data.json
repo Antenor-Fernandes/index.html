@@ -5861,7 +5861,59 @@
         "2025": "428,57 EM 30/06/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "39515.26461.020823.2.2.04-6618",
+            "valorPedido": 4473.45,
+            "dataTransmissao": "02/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "23739.05812.020823.2.2.04-6206",
+            "valorPedido": 3816.91,
+            "dataTransmissao": "02/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "37519.22047.020823.2.2.04-1246",
+            "valorPedido": 7591.47,
+            "dataTransmissao": "02/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "31840.46900.020823.2.2.04-5525",
+            "valorPedido": 8813.1,
+            "dataTransmissao": "02/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "33632.09121.110124.2.2.04-2890",
+            "valorPedido": 436716.12,
+            "dataTransmissao": "11/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "19993188620",
@@ -6388,7 +6440,79 @@
         }
       ],
       "recebimentos": {},
-      "dda": {}
+      "dda": {},
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "23365.60544.170823.2.2.04-4499",
+            "valorPedido": 2744.49,
+            "dataTransmissao": "17/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "30429.63330.170823.2.2.04-6401",
+            "valorPedido": 6875.37,
+            "dataTransmissao": "17/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "07916.74464.170823.2.2.04-8558",
+            "valorPedido": 7713.26,
+            "dataTransmissao": "17/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "25771.81036.170823.2.2.04-8897",
+            "valorPedido": 10982.85,
+            "dataTransmissao": "17/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "40105.13278.210823.2.2.04-3735",
+            "valorPedido": 4818.9,
+            "dataTransmissao": "21/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "10673.17842.140225.2.2.04-1894",
+            "valorPedido": 5516.92,
+            "dataTransmissao": "14/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "23829.79892.260126.2.2.04-0429",
+            "valorPedido": 1723.79,
+            "dataTransmissao": "26/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "50879952687",
@@ -6427,7 +6551,49 @@
         "2025": "57.983,60 EM 31/10/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "27321.80966.070725.2.2.04-0497",
+            "valorPedido": 11748.42,
+            "dataTransmissao": "07/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "39407.67159.070725.2.2.04-7007",
+            "valorPedido": 11714.84,
+            "dataTransmissao": "07/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "39907.82006.070725.2.2.04-0932",
+            "valorPedido": 14174.86,
+            "dataTransmissao": "07/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "42352.58328.070725.2.2.04-4394",
+            "valorPedido": 13339.91,
+            "dataTransmissao": "07/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "04455362681",
@@ -6607,7 +6773,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2025": [
+          {
+            "numero": "32587.12986.260126.2.2.04-6050",
+            "valorPedido": 479.3,
+            "dataTransmissao": "26/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "94023069604",
@@ -6972,7 +7149,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "04870.54758.191225.2.2.04-0041",
+            "valorPedido": 1772.53,
+            "dataTransmissao": "19/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "40404.46049.191225.2.2.04-7790",
+            "valorPedido": 1742.25,
+            "dataTransmissao": "19/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "25371.07733.191225.2.2.04-5903",
+            "valorPedido": 3660.04,
+            "dataTransmissao": "19/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "38276.37346.191225.2.2.04-3365",
+            "valorPedido": 4142.88,
+            "dataTransmissao": "19/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "36121.73848.260126.2.2.04-8748",
+            "valorPedido": 4476.48,
+            "dataTransmissao": "26/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "05544831734",
@@ -11236,7 +11464,59 @@
         "2025": "TRANSMITIDA"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2018": [
+          {
+            "numero": "06446.32693.090922.2.2.04-6720",
+            "valorPedido": 36880.45,
+            "dataTransmissao": "09/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2019": [
+          {
+            "numero": "05865.71315.090922.2.2.04-9532",
+            "valorPedido": 24486.04,
+            "dataTransmissao": "09/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "29916.19494.110823.2.2.04-0994",
+            "valorPedido": 4126.61,
+            "dataTransmissao": "11/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "07970.50633.090922.2.2.04-4847",
+            "valorPedido": 11316.26,
+            "dataTransmissao": "09/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "08494.98949.210922.2.2.04-0300",
+            "valorPedido": 11443.34,
+            "dataTransmissao": "21/09/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "25472879604",
@@ -12372,7 +12652,49 @@
         "2025": "55.169,34 EM 28/11/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "29772.04730.291025.2.2.04-3009",
+            "valorPedido": 20514.7,
+            "dataTransmissao": "29/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "24976.16922.291025.2.2.04-8300",
+            "valorPedido": 14375.15,
+            "dataTransmissao": "29/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "28599.84145.291025.2.2.04-9741",
+            "valorPedido": 17703.78,
+            "dataTransmissao": "29/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "40251.34580.291025.2.2.04-3143",
+            "valorPedido": 23493.18,
+            "dataTransmissao": "29/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "09222766687",
@@ -12392,7 +12714,49 @@
         "2025": "26.326,27 EM 31/10/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "03679.54584.270824.2.2.04-0541",
+            "valorPedido": 4321.34,
+            "dataTransmissao": "27/08/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "31367.51651.270824.2.2.04-3378",
+            "valorPedido": 4869.74,
+            "dataTransmissao": "27/08/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "11633.29684.121223.2.2.04-8610",
+            "valorPedido": 4628.68,
+            "dataTransmissao": "12/12/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "31834.59481.230124.2.2.04-6088",
+            "valorPedido": 4463.45,
+            "dataTransmissao": "23/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "12845639600",
@@ -13077,7 +13441,7 @@
       "dataAposentadoria": "",
       "diagnostico": "",
       "observacoes": "PER 2021 A 2024 FEITOS EM 28/08/2025 - VAI FAZER A DECLARAÇÃO DE 2026 E DEPOIS VAMOS RETIFICAR PARA INFORMAR A ISENÇÃO",
-      "temPer": false,
+      "temPer": true,
       "temRRA": false,
       "exercicios": {
         "2021": "IMPUGNAÇÃO — 3.878,20 EM 28/11/2025 - TEVE NL - IMPUGNAÇÃO FEITA EM 17/12/2025",
@@ -13160,7 +13524,48 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "19331.80138.280825.2.2.04-6033",
+            "valorPedido": 4677.3,
+            "dataTransmissao": "28/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "33764.28953.280825.2.2.04-9505",
+            "valorPedido": 2393.52,
+            "dataTransmissao": "28/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "34161.84669.280825.2.2.04-8409",
+            "valorPedido": 11916.33,
+            "dataTransmissao": "28/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "01419.24704.280825.2.2.04-7153",
+            "valorPedido": 5355.06,
+            "dataTransmissao": "28/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "00122021690",
@@ -13342,7 +13747,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "10841.19014.241125.2.2.04-3930",
+            "valorPedido": 2464.15,
+            "dataTransmissao": "24/11/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "19702.53120.280126.2.2.04-4057",
+            "valorPedido": 2922.17,
+            "dataTransmissao": "28/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "17634474649",
@@ -13800,7 +14226,58 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "06294.65530.280126.2.2.04-4099",
+            "valorPedido": 293.14,
+            "dataTransmissao": "28/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "16564.01628.280126.2.2.04-4252",
+            "valorPedido": 218.54,
+            "dataTransmissao": "28/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "02414.73671.280126.2.2.04-0245",
+            "valorPedido": 365.78,
+            "dataTransmissao": "28/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "31013.52659.280126.2.2.04-0220",
+            "valorPedido": 328.8,
+            "dataTransmissao": "28/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "11020.66378.280126.2.2.04-0464",
+            "valorPedido": 362.23,
+            "dataTransmissao": "28/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "97346896734",
@@ -14382,7 +14859,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "02440.97826.270225.2.2.04-0195",
+            "valorPedido": 9562.96,
+            "dataTransmissao": "27/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "06869.58398.270225.2.2.04-1148",
+            "valorPedido": 5815.15,
+            "dataTransmissao": "27/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "16331001620",
@@ -14783,7 +15281,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "32066.54963.200125.2.2.04-0170",
+            "valorPedido": 234.82,
+            "dataTransmissao": "20/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "05183.78863.200125.2.2.04-3271",
+            "valorPedido": 5241.17,
+            "dataTransmissao": "20/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "82773076672",
@@ -14905,7 +15424,78 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "02039.61852.060923.2.2.04-2715",
+            "valorPedido": 9978.04,
+            "dataTransmissao": "06/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "20750.85463.060923.2.2.04-7059",
+            "valorPedido": 10996.68,
+            "dataTransmissao": "06/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "41237.50839.060923.2.2.04-2640",
+            "valorPedido": 12843.77,
+            "dataTransmissao": "06/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "36215.03625.060923.2.2.04-4251",
+            "valorPedido": 14163.57,
+            "dataTransmissao": "06/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "37648.57468.240124.2.2.04-4967",
+            "valorPedido": 13844.54,
+            "dataTransmissao": "24/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "20311.24484.200125.2.2.04-2532",
+            "valorPedido": 13747.73,
+            "dataTransmissao": "20/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "42185.12556.020226.2.2.04-9559",
+            "valorPedido": 9178.3,
+            "dataTransmissao": "02/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "45566631649",
@@ -17092,7 +17682,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2018": [
+          {
+            "numero": "24235.45808.191222.2.2.04-0426",
+            "valorPedido": 589.82,
+            "dataTransmissao": "19/12/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "16387422604",
@@ -17194,7 +17795,59 @@
         "2025": "23.413,71 EM 27/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "35901.04472.260923.2.2.04-6975",
+            "valorPedido": 12217.99,
+            "dataTransmissao": "26/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "07237.13957.260923.2.2.04-5041",
+            "valorPedido": 9883.73,
+            "dataTransmissao": "26/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "27742.82193.260923.2.2.04-5684",
+            "valorPedido": 9493.53,
+            "dataTransmissao": "26/09/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "04147.90122.250124.2.2.04-8335",
+            "valorPedido": 2995.5,
+            "dataTransmissao": "25/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "00893.82249.210125.2.2.04-1722",
+            "valorPedido": 6079.74,
+            "dataTransmissao": "21/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "00998370649",
@@ -17546,7 +18199,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "38471.56126.250825.2.2.04-1138",
+            "valorPedido": 1127.54,
+            "dataTransmissao": "25/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "00091103649",
@@ -17686,7 +18350,69 @@
           "valor": 7989.07
         }
       },
-      "dda": {}
+      "dda": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "06718.06119.100823.2.2.04-2165",
+            "valorPedido": 1480.5,
+            "dataTransmissao": "10/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "38849.38551.100823.2.2.04-8007",
+            "valorPedido": 55.4,
+            "dataTransmissao": "10/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "16652.41838.100823.2.2.04-9393",
+            "valorPedido": 8713.73,
+            "dataTransmissao": "10/08/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "01952.02099.250124.2.2.04-4634",
+            "valorPedido": 3317.82,
+            "dataTransmissao": "25/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "39297.34464.170624.2.2.04-5143",
+            "valorPedido": 19794.44,
+            "dataTransmissao": "17/06/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "08547.23404.270226.2.2.04-3827",
+            "valorPedido": 7676.24,
+            "dataTransmissao": "27/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "01050931653",
@@ -17798,7 +18524,29 @@
         "2025": "14.319,94  EM 30/05/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "13923.00698.180123.2.2.04-2500",
+            "valorPedido": 21301.8,
+            "dataTransmissao": "18/01/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "03305.81052.180123.2.2.04-1584",
+            "valorPedido": 16996.99,
+            "dataTransmissao": "18/01/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "22192646615",
@@ -17967,7 +18715,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "35285.95944.041224.2.2.04-3778",
+            "valorPedido": 4745.55,
+            "dataTransmissao": "04/12/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "03692.34571.210125.2.2.04-3946",
+            "valorPedido": 1171.43,
+            "dataTransmissao": "21/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -18166,7 +18935,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "08211.09570.170125.2.2.04-1106",
+            "valorPedido": 6383.29,
+            "dataTransmissao": "17/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "25142.43206.170125.2.2.04-6329",
+            "valorPedido": 3138.66,
+            "dataTransmissao": "17/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "24027.86442.170125.2.2.04-2028",
+            "valorPedido": 7475.68,
+            "dataTransmissao": "17/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "42242.45407.170125.2.2.04-0072",
+            "valorPedido": 1055.1,
+            "dataTransmissao": "17/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "22888365634",
@@ -18635,7 +19445,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "14746.00416.300725.2.2.04-4540",
+            "valorPedido": 825.11,
+            "dataTransmissao": "30/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "17564.83017.300725.2.2.04-9800",
+            "valorPedido": 1976.85,
+            "dataTransmissao": "30/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "02882.76138.300725.2.2.04-5065",
+            "valorPedido": 3229.08,
+            "dataTransmissao": "30/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "29850.06425.300725.2.2.04-7265",
+            "valorPedido": 4074.96,
+            "dataTransmissao": "30/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "04088.75295.020226.2.2.04-9606",
+            "valorPedido": 3430.17,
+            "dataTransmissao": "02/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "01545620687",
@@ -18771,7 +19632,29 @@
         "2025": "13.498,87 EM 30/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "17644.93402.311025.2.2.04-3037",
+            "valorPedido": 13382.12,
+            "dataTransmissao": "31/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "24568.23969.311025.2.2.04-5807",
+            "valorPedido": 12558.46,
+            "dataTransmissao": "31/10/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "11633239772",
@@ -19105,7 +19988,39 @@
         "2025": "3.003,92 EM 30/05/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "19515.46787.060924.2.2.04-5118",
+            "valorPedido": 5136.07,
+            "dataTransmissao": "06/09/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "42593.17615.060924.2.2.04-2315",
+            "valorPedido": 5774.69,
+            "dataTransmissao": "06/09/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "03737.26055.130423.2.2.04-3110",
+            "valorPedido": 3298.59,
+            "dataTransmissao": "13/04/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "27675718615",
@@ -19188,7 +20103,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "35397.16001.241122.2.2.04-5285",
+            "valorPedido": 8053.53,
+            "dataTransmissao": "24/11/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "11763.73264.020524.2.6.04-4880",
+            "valorPedido": 9273.35,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "32819.07233.260124.2.2.04-7465",
+            "valorPedido": 8087.35,
+            "dataTransmissao": "26/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "37129.85684.050225.2.2.04-3390",
+            "valorPedido": 13443.68,
+            "dataTransmissao": "05/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "19195.67503.200226.2.2.04-9404",
+            "valorPedido": 10121.78,
+            "dataTransmissao": "20/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "15651118691",
@@ -19819,7 +20785,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "38201.93200.020222.2.2.04-6129",
+            "valorPedido": 36515.11,
+            "dataTransmissao": "02/02/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "28828.12446.020222.2.2.04-0465",
+            "valorPedido": 3022.98,
+            "dataTransmissao": "02/02/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "05679.16438.030226.2.2.04-5236",
+            "valorPedido": 6632.84,
+            "dataTransmissao": "03/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "63039877615",
@@ -19902,7 +20899,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "04392.89656.231024.2.2.04-7640",
+            "valorPedido": 2597.72,
+            "dataTransmissao": "23/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "09478.64660.231024.2.2.04-8455",
+            "valorPedido": 1407.11,
+            "dataTransmissao": "23/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "05449.78196.241024.2.2.04-6390",
+            "valorPedido": 4684.8,
+            "dataTransmissao": "24/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "?": [
+          {
+            "numero": "15981.40732.251125.2.2.04-9929",
+            "valorPedido": 105.15,
+            "dataTransmissao": "25/11/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "02582557650",
@@ -20369,7 +21407,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2025": [
+          {
+            "numero": "37656.94757.040226.2.2.04-0307",
+            "valorPedido": 9642.19,
+            "dataTransmissao": "04/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "55077013853",
@@ -20783,7 +21832,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "06306.09886.240925.2.2.04-2064",
+            "valorPedido": 1066.69,
+            "dataTransmissao": "24/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "33983.68302.040226.2.2.04-0798",
+            "valorPedido": 8423.65,
+            "dataTransmissao": "04/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "37113429653",
@@ -21661,7 +22731,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "40574.74690.200825.2.2.04-2503",
+            "valorPedido": 9265.01,
+            "dataTransmissao": "20/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "34548.75408.200825.2.2.04-7947",
+            "valorPedido": 16740.98,
+            "dataTransmissao": "20/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "01506.05205.200825.2.2.04-3438",
+            "valorPedido": 18212.58,
+            "dataTransmissao": "20/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "22654.67179.200825.2.2.04-0072",
+            "valorPedido": 18980.54,
+            "dataTransmissao": "20/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "26822.38765.200825.2.2.04-0638",
+            "valorPedido": 20486.91,
+            "dataTransmissao": "20/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "31207235687",
@@ -21814,7 +22935,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "34256.61673.160725.2.2.04-3717",
+            "valorPedido": 3386.23,
+            "dataTransmissao": "16/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "22885.35165.160725.2.2.04-0177",
+            "valorPedido": 4918.9,
+            "dataTransmissao": "16/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "11235.06256.040226.2.2.04-0000",
+            "valorPedido": 2453.68,
+            "dataTransmissao": "04/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "20260610682",
@@ -22360,6 +23512,58 @@
           "feito": true,
           "data": ""
         }
+      },
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "16117.10999.240125.2.2.04-7801",
+            "valorPedido": 302.64,
+            "dataTransmissao": "24/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "01623.21486.240125.2.2.04-2901",
+            "valorPedido": 703.76,
+            "dataTransmissao": "24/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "41381.53040.240125.2.2.04-6708",
+            "valorPedido": 1348.83,
+            "dataTransmissao": "24/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "09118.45820.240125.2.2.04-8208",
+            "valorPedido": 11154.31,
+            "dataTransmissao": "24/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "05816.93499.240125.2.2.04-1520",
+            "valorPedido": 5359.24,
+            "dataTransmissao": "24/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
       }
     },
     {
@@ -23872,7 +25076,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "13574.28545.180424.2.2.04-1035",
+            "valorPedido": 1843.51,
+            "dataTransmissao": "18/04/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -24651,7 +25866,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "24568.11798.121124.2.2.04-5474",
+            "valorPedido": 1244.11,
+            "dataTransmissao": "12/11/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "39505.01524.121124.2.2.04-5037",
+            "valorPedido": 1922.19,
+            "dataTransmissao": "12/11/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "14587.73826.121124.2.2.04-7288",
+            "valorPedido": 4015.87,
+            "dataTransmissao": "12/11/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "03134.58929.230125.2.2.04-9845",
+            "valorPedido": 6280.36,
+            "dataTransmissao": "23/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "40921.11242.090226.2.2.04-0096",
+            "valorPedido": 6573.36,
+            "dataTransmissao": "09/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -25097,7 +26363,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "34947.89373.230924.2.2.04-0120",
+            "valorPedido": 6331.05,
+            "dataTransmissao": "23/09/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "27082.18722.230125.2.2.04-7798",
+            "valorPedido": 2310.2,
+            "dataTransmissao": "23/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "25661.08217.090226.2.2.04-0771",
+            "valorPedido": 427.35,
+            "dataTransmissao": "09/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -25203,7 +26500,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "12025.14858.130825.2.2.04-0034",
+            "valorPedido": 8013.16,
+            "dataTransmissao": "13/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "37448.45126.300126.2.2.04-5866",
+            "valorPedido": 2821.79,
+            "dataTransmissao": "30/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -25612,7 +26930,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "24242.97229.140825.2.2.04-9671",
+            "valorPedido": 7298.45,
+            "dataTransmissao": "14/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "30372.19499.090226.2.2.04-1760",
+            "valorPedido": 5967.96,
+            "dataTransmissao": "09/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -25695,7 +27034,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "20836.40161.161225.2.2.04-7701",
+            "valorPedido": 11429.17,
+            "dataTransmissao": "16/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "40962.69513.161225.2.2.04-0855",
+            "valorPedido": 9636.85,
+            "dataTransmissao": "16/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "09524.43959.161225.2.2.04-6960",
+            "valorPedido": 10022.3,
+            "dataTransmissao": "16/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "32940.58433.161225.2.2.04-5767",
+            "valorPedido": 12588.74,
+            "dataTransmissao": "16/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -25773,7 +27153,39 @@
         "2025": "58.657,11 EM 31/07/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "22934.39474.090625.2.2.04-5104",
+            "valorPedido": 2182.91,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "23461.73040.090625.2.2.04-7962",
+            "valorPedido": 17749.79,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "?": [
+          {
+            "numero": "25169.43414.140825.2.2.04-0494",
+            "valorPedido": 274.7,
+            "dataTransmissao": "14/08/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "16381734604",
@@ -25815,7 +27227,7 @@
       "dataAposentadoria": "",
       "diagnostico": "",
       "observacoes": "CERTIFICADO FLÁVIO: PROCURAÇÃO EXPIROU EM 27/02/2025 - PER 2021 A 2023 FEITOS EM 08/03/2024 - RECEBEU 2 EM 20/09/2024 - FALTA 1 - ISENTA NA FONTE A PARTIR DO CALENDÁRIO 2023",
-      "temPer": false,
+      "temPer": true,
       "temRRA": false,
       "exercicios": {
         "2021": "PROCESSADA",
@@ -25849,7 +27261,38 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "03368.25076.080324.2.2.04-4144",
+            "valorPedido": 1287.89,
+            "dataTransmissao": "08/03/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "18791.90270.080324.2.2.04-0001",
+            "valorPedido": 9241.21,
+            "dataTransmissao": "08/03/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "04966.50611.080324.2.2.04-6517",
+            "valorPedido": 13955.84,
+            "dataTransmissao": "08/03/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -26352,7 +27795,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "16461.02126.171225.2.2.04-6140",
+            "valorPedido": 6097.92,
+            "dataTransmissao": "17/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "12897.74813.171225.2.2.04-6136",
+            "valorPedido": 5689.79,
+            "dataTransmissao": "17/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "20863.55829.171225.2.2.04-7215",
+            "valorPedido": 10303.59,
+            "dataTransmissao": "17/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "07463.60814.171225.2.2.04-1745",
+            "valorPedido": 11232.02,
+            "dataTransmissao": "17/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "38628.47525.300126.2.2.04-8565",
+            "valorPedido": 2502.34,
+            "dataTransmissao": "30/01/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -26727,7 +28221,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "06698.65798.111224.2.2.04-4030",
+            "valorPedido": 898.64,
+            "dataTransmissao": "11/12/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "22104.63940.111224.2.2.04-8050",
+            "valorPedido": 720.9,
+            "dataTransmissao": "11/12/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "18180.34477.080125.2.2.04-6170",
+            "valorPedido": 1879.24,
+            "dataTransmissao": "08/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "?": [
+          {
+            "numero": "18771.26248.080125.2.2.04-8008",
+            "valorPedido": 432.46,
+            "dataTransmissao": "08/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -26825,7 +28360,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "23521.63600.031024.2.2.04-6307",
+            "valorPedido": 20879.68,
+            "dataTransmissao": "03/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "22682.88472.031024.2.2.04-0706",
+            "valorPedido": 25416.58,
+            "dataTransmissao": "03/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "24804.10941.031024.2.2.04-2403",
+            "valorPedido": 38612.42,
+            "dataTransmissao": "03/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "21976.39711.041024.2.2.04-0075",
+            "valorPedido": 44096.43,
+            "dataTransmissao": "04/10/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -27052,7 +28628,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2025": [
+          {
+            "numero": "14846.46663.090226.2.2.04-5539",
+            "valorPedido": 64.14,
+            "dataTransmissao": "09/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -27121,7 +28708,49 @@
         "2025": "201,23 EM 30/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "00031.84145.250925.2.2.04-0058",
+            "valorPedido": 981.87,
+            "dataTransmissao": "25/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "32827.13063.250925.2.2.04-6651",
+            "valorPedido": 1443.05,
+            "dataTransmissao": "25/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "33667.32267.250925.2.2.04-0859",
+            "valorPedido": 241.14,
+            "dataTransmissao": "25/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "32071.86485.181225.2.2.04-8846",
+            "valorPedido": 411.27,
+            "dataTransmissao": "18/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "32678924815",
@@ -27404,7 +29033,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "09169.63571.260424.2.2.04-5114",
+            "valorPedido": 10702.97,
+            "dataTransmissao": "26/04/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "21754.97511.260424.2.2.04-6956",
+            "valorPedido": 10569.72,
+            "dataTransmissao": "26/04/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "12920.88088.260424.2.2.04-5059",
+            "valorPedido": 10631.42,
+            "dataTransmissao": "26/04/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "39182.66753.260424.2.2.04-8606",
+            "valorPedido": 10839.28,
+            "dataTransmissao": "26/04/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "03660.17979.270125.2.2.04-2044",
+            "valorPedido": 5297.13,
+            "dataTransmissao": "27/01/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exProcessos": {}
     },
     {
@@ -28149,7 +29829,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "15760.85245.090725.2.2.04-2094",
+            "valorPedido": 9320.31,
+            "dataTransmissao": "09/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "08021.02859.090725.2.2.04-5448",
+            "valorPedido": 10668.75,
+            "dataTransmissao": "09/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "15594.50226.090725.2.2.04-4800",
+            "valorPedido": 14665.49,
+            "dataTransmissao": "09/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {
         "2025": true
       },
@@ -28227,7 +29938,19 @@
         "2025": "23.609,61 EM 30/01/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "26108.84402.110925.2.2.04-1116",
+            "valorPedido": 4656.87,
+            "dataTransmissao": "11/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "27000877634",
@@ -28388,7 +30111,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "33943.75023.060624.2.2.04-8862",
+            "valorPedido": 5461.28,
+            "dataTransmissao": "06/06/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {
         "2025": true
       },
@@ -28423,7 +30157,7 @@
       "dataAposentadoria": "",
       "diagnostico": "",
       "observacoes": "",
-      "temPer": false,
+      "temPer": true,
       "temRRA": false,
       "exercicios": {
         "2023": "EM MALHA",
@@ -28478,7 +30212,7 @@
       "exPerdcomps": {
         "2023": [
           {
-            "numero": "",
+            "numero": "25391.98944.160326.2.2.04-7400",
             "valorPedido": 0,
             "dataTransmissao": "16/03/2026",
             "obs": "",
@@ -28488,7 +30222,7 @@
         ],
         "2024": [
           {
-            "numero": "",
+            "numero": "40536.11400.160326.2.2.04-8550",
             "valorPedido": 0,
             "dataTransmissao": "16/03/2026",
             "obs": "",
@@ -28498,7 +30232,7 @@
         ],
         "2025": [
           {
-            "numero": "",
+            "numero": "24910.75844.160326.2.2.04-2150",
             "valorPedido": 0,
             "dataTransmissao": "16/03/2026",
             "obs": "",
@@ -28732,7 +30466,59 @@
         "2025": "5.119,83 EM 30/09/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "02037.70236.160425.2.2.04-3084",
+            "valorPedido": 1750.09,
+            "dataTransmissao": "16/04/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "37022.52986.160425.2.2.04-8261",
+            "valorPedido": 2122.66,
+            "dataTransmissao": "16/04/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "19641.57001.160425.2.2.04-3063",
+            "valorPedido": 2522.9,
+            "dataTransmissao": "16/04/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "12023.26500.160425.2.2.04-1014",
+            "valorPedido": 3890.17,
+            "dataTransmissao": "16/04/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "21284.54228.160425.2.2.04-8207",
+            "valorPedido": 108.46,
+            "dataTransmissao": "16/04/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "69826552615",
@@ -29225,7 +31011,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "38151.47870.100622.2.2.04-4500",
+            "valorPedido": 17484.03,
+            "dataTransmissao": "10/06/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "18586.43407.100622.2.2.04-2467",
+            "valorPedido": 16031.19,
+            "dataTransmissao": "10/06/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "17580.40127.310123.2.2.04-1510",
+            "valorPedido": 1932.65,
+            "dataTransmissao": "31/01/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "22351.86069.310124.2.2.04-0419",
+            "valorPedido": 8202.58,
+            "dataTransmissao": "31/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -29726,7 +31553,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "32084.08805.260625.2.2.04-6350",
+            "valorPedido": 7822.24,
+            "dataTransmissao": "26/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "20654.80754.260625.2.2.04-0930",
+            "valorPedido": 9489.31,
+            "dataTransmissao": "26/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "00491.41491.260625.2.2.04-4903",
+            "valorPedido": 10750.85,
+            "dataTransmissao": "26/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "41102.58813.260625.2.2.04-1098",
+            "valorPedido": 5546.79,
+            "dataTransmissao": "26/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "42131.55302.100226.2.2.04-0740",
+            "valorPedido": 3199.71,
+            "dataTransmissao": "10/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -31684,7 +33562,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "14076.85981.040225.2.2.04-8703",
+            "valorPedido": 10040.4,
+            "dataTransmissao": "04/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -32642,7 +34531,39 @@
         "2025": "4.811,08 EM 30/12/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "30145.31262.071223.2.2.04-4536",
+            "valorPedido": 11741.85,
+            "dataTransmissao": "07/12/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "09315.82225.071223.2.2.04-5038",
+            "valorPedido": 11989.77,
+            "dataTransmissao": "07/12/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "10692.83536.071223.2.2.04-5699",
+            "valorPedido": 13218.23,
+            "dataTransmissao": "07/12/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "00689513615",
@@ -32660,7 +34581,29 @@
         "2025": "88.444,73 EM 27/02/2026"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "17947.85999.160725.2.2.04-3570",
+            "valorPedido": 646.44,
+            "dataTransmissao": "16/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "01440.30062.160725.2.2.04-6014",
+            "valorPedido": 1167.84,
+            "dataTransmissao": "16/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "02622809654",
@@ -32967,7 +34910,28 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "29655.24864.250226.2.2.04-0140",
+            "valorPedido": 8166.29,
+            "dataTransmissao": "25/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "38618.68617.250226.2.2.04-5403",
+            "valorPedido": 10651.69,
+            "dataTransmissao": "25/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -33467,7 +35431,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "23400.82666.090625.2.2.04-9173",
+            "valorPedido": 9038.23,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "19309.39733.090625.2.2.04-7753",
+            "valorPedido": 10827.01,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "13376.66813.090625.2.2.04-5115",
+            "valorPedido": 17000.11,
+            "dataTransmissao": "09/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "23158.57105.100625.2.2.04-6204",
+            "valorPedido": 26893.79,
+            "dataTransmissao": "10/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -33680,7 +35685,48 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "26026.22637.061124.2.2.04-2484",
+            "valorPedido": 241.04,
+            "dataTransmissao": "06/11/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "05128.55686.061124.2.2.04-7898",
+            "valorPedido": 1101.42,
+            "dataTransmissao": "06/11/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "21666.10688.040225.2.2.04-2022",
+            "valorPedido": 3193.51,
+            "dataTransmissao": "04/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "04758.79378.110226.2.2.04-9902",
+            "valorPedido": 1399.97,
+            "dataTransmissao": "11/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -33744,7 +35790,58 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "18438.94275.270625.2.2.04-5204",
+            "valorPedido": 10270.36,
+            "dataTransmissao": "27/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "03022.92152.270625.2.2.04-9245",
+            "valorPedido": 19347.83,
+            "dataTransmissao": "27/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "18388.05531.270625.2.2.04-9035",
+            "valorPedido": 20399.18,
+            "dataTransmissao": "27/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "15164.47708.270625.2.2.04-8535",
+            "valorPedido": 21597.1,
+            "dataTransmissao": "27/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "09652.83949.270625.2.2.04-9001",
+            "valorPedido": 35129.06,
+            "dataTransmissao": "27/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {
         "2025": true
       },
@@ -33926,7 +36023,29 @@
         "2025": "1.154,68 EM 31/10/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "23346.81659.100725.2.2.04-4277",
+            "valorPedido": 4634.22,
+            "dataTransmissao": "10/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "35022.95644.100725.2.2.04-0050",
+            "valorPedido": 5675.48,
+            "dataTransmissao": "10/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "67099947672",
@@ -34107,6 +36226,16 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "37669.61694.230625.2.2.04-8550",
+            "valorPedido": 8590.85,
+            "dataTransmissao": "23/06/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
         "2021": [
           {
             "numero": "40497.78646.230625.2.2.04-8283",
@@ -34135,6 +36264,16 @@
             "obs": "",
             "dataRec": "20/03/2026",
             "valorRec": 22630.52
+          }
+        ],
+        "2025": [
+          {
+            "numero": "29645.25692.110226.2.2.04-4573",
+            "valorPedido": 1119.67,
+            "dataTransmissao": "11/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
           }
         ]
       },
@@ -34316,7 +36455,39 @@
         "2025": "PROCESSADA"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "36369.47630.130624.2.2.04-0010",
+            "valorPedido": 1284.59,
+            "dataTransmissao": "13/06/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "12083.95499.130624.2.2.04-7044",
+            "valorPedido": 10057.33,
+            "dataTransmissao": "13/06/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "32488.40084.130624.2.2.04-3111",
+            "valorPedido": 7211,
+            "dataTransmissao": "13/06/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "35522526653",
@@ -34839,7 +37010,49 @@
         "2025": "ISENTA NA FONTE"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2019": [
+          {
+            "numero": "29421.59294.140423.2.2.04-3709",
+            "valorPedido": 29228.66,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2020": [
+          {
+            "numero": "12735.98979.140423.2.2.04-5500",
+            "valorPedido": 29073.11,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2021": [
+          {
+            "numero": "10396.69067.140423.2.2.04-2024",
+            "valorPedido": 32045.8,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "10819.59021.140423.2.2.04-8128",
+            "valorPedido": 25032.08,
+            "dataTransmissao": "14/04/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "14078716687",
@@ -34917,7 +37130,38 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "02498.96059.160124.2.2.04-2541",
+            "valorPedido": 10445.72,
+            "dataTransmissao": "16/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2023": [
+          {
+            "numero": "08337.87865.160124.2.2.04-6182",
+            "valorPedido": 14456.92,
+            "dataTransmissao": "16/01/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2024": [
+          {
+            "numero": "22294.56345.050225.2.2.04-0092",
+            "valorPedido": 4341.81,
+            "dataTransmissao": "05/02/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
@@ -35170,7 +37414,39 @@
         "2025": "4.592,39  EM 31/10/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "40121.59933.230925.2.2.04-0263",
+            "valorPedido": 989.36,
+            "dataTransmissao": "23/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2022": [
+          {
+            "numero": "09599.61454.230925.2.2.04-1856",
+            "valorPedido": 2552.93,
+            "dataTransmissao": "23/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ],
+        "2025": [
+          {
+            "numero": "37405.44880.230925.2.2.04-8209",
+            "valorPedido": 286.84,
+            "dataTransmissao": "23/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": ""
+          }
+        ]
+      }
     },
     {
       "id": "32575050600",
