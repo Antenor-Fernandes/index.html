@@ -31823,18 +31823,9 @@
         "2022": "60.766,22 EM 30/04/2024",
         "2023": "5.933,54 EM 31/05/2023",
         "2024": "7.918,47 EM 31/05/2024",
-        "2025": "9.695,89 EM 30/05/2025",
-        "2026": "TRANSMITIDA"
+        "2025": "9.695,89 EM 30/05/2025"
       },
-      "historico": [
-        {
-          "ts": "2026-03-23T12:28:12.402Z",
-          "exercicio": "2026",
-          "de": "",
-          "para": "TRANSMITIDA",
-          "usuario": "Admin"
-        }
-      ],
+      "historico": [],
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
@@ -33301,9 +33292,31 @@
         "2022": "R$ 1.656,89 29/07/2022",
         "2023": "268,12 EM 31/07/2023",
         "2024": "3.197,87 EM 31/05/2024",
-        "2025": "3.052,80 EM 30/05/2025"
+        "2025": "PROCESSADA — 3.052,80 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-23T13:18:57.408Z",
+          "exercicio": "2025",
+          "de": "3.052,80 EM 30/05/2025",
+          "para": "PROCESSADA — 3.052,80 EM 30/05/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 3052.8
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "11526834626",
@@ -41751,6 +41764,15 @@
           "porExercicio": {
             "2025": 13139.05
           }
+        },
+        {
+          "clienteId": "75830426668",
+          "cpfCnpj": "758.304.266-68",
+          "nome": "ROCIVAL LYRIO DE ARAÚJO JÚNIOR",
+          "porExercicio": {
+            "2025": 3052.8
+          },
+          "total": 3052.8
         }
       ]
     },
