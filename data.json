@@ -12498,10 +12498,32 @@
         "2022": "29.784,67 EM 31/07/2023",
         "2023": "13454,28 EM 31/07/2023",
         "2024": "15.443,99 EM 31/10/2025",
-        "2025": "13.783,38 EM 31/10/2025"
+        "2025": "PROCESSADA — 13.783,38 EM 31/10/2025"
       },
       "temPer": true,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-23T18:37:32.277Z",
+          "exercicio": "2025",
+          "de": "13.783,38 EM 31/10/2025",
+          "para": "PROCESSADA — 13.783,38 EM 31/10/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/10/2025",
+          "valor": 13783.38
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "54020174687",
