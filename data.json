@@ -33292,10 +33292,18 @@
         "2022": "PROCESSADA — R$ 1.656,89 29/07/2022",
         "2023": "PROCESSADA — 268,12 EM 31/07/2023",
         "2024": "PROCESSADA — 3.197,87 EM 31/05/2024",
-        "2025": "PROCESSADA — 3.052,80 EM 30/05/2025"
+        "2025": "PROCESSADA — 3.052,80 EM 30/05/2025",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-23T13:20:24.068Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T13:20:02.109Z",
           "exercicio": "2020",
