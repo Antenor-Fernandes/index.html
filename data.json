@@ -35127,9 +35127,31 @@
       "exercicios": {
         "2023": "11.515,53 EM 31/05/2023",
         "2024": "14.156,47 EM 31/05/2024",
-        "2025": "13.139,05 EM 30/05/2025"
+        "2025": "PROCESSADA — 13.139,05 EM 30/05/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-23T11:44:04.533Z",
+          "exercicio": "2025",
+          "de": "13.139,05 EM 30/05/2025",
+          "para": "PROCESSADA — 13.139,05 EM 30/05/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 13139.05
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "55478980668",
