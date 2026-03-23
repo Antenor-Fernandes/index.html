@@ -37091,8 +37091,7 @@
         "2021": "25.189,82 EM 30/06/2023",
         "2022": "20.981,24 EM 30/06/2023",
         "2023": "CLIENTE Q FEZ",
-        "2024": "CLIENTE Q FEZ",
-        "2025": "ISENTA NA FONTE"
+        "2024": "CLIENTE Q FEZ"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -37137,7 +37136,16 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-23T13:25:46.845Z",
+          "exercicio": "2025",
+          "de": "ISENTA NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "14078716687",
