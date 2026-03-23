@@ -12504,6 +12504,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T19:05:53.610Z",
+          "exercicio": "2019",
+          "de": "PROCESSADA — 12.229,33 EM 31/07/2023",
+          "para": "PROCESSADA — 12.229,33 EM 31/07/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:05:28.615Z",
           "exercicio": "2021",
           "de": "PROCESSADA — 13.918,06 EM 31/07/2023",
@@ -12664,8 +12671,8 @@
             "valorPedido": 15273.48,
             "dataTransmissao": "23/06/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "22/04/2024",
+            "valorRec": 20867.7
           }
         ],
         "2020": [
@@ -46906,9 +46913,10 @@
           "nome": "FERNANDO DE ANDRADE LANZA",
           "porExercicio": {
             "EXPERDCOMP-2020-0": 11392.31,
-            "EXPERDCOMP-2021-0": 14904.72
+            "EXPERDCOMP-2021-0": 14904.72,
+            "EXPERDCOMP-2019-0": 20867.7
           },
-          "total": 26297.03
+          "total": 47164.729999999996
         }
       ]
     },
