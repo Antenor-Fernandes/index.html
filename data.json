@@ -7904,9 +7904,33 @@
       "cpfCnpj": "373.570.776-91",
       "tipo": "PF",
       "nome": "DALVA RESENDE",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "PER 2020 A 2024 FEITOS EM 24/02/2025 RECEBIDOS EM 21/11/2025 - PER 2025 FEITO EM 27/01/2026 - aguardando ordem bancária processo final 2025-41, pedido de prioridade no chat feito em 19/11. ultimo andamento em 16/11 foi para a equipe de execução de direito creditório",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "aguardando ordem bancária processo final 2025-41, pedido de prioridade no chat feito em 19/11. ultimo andamento em 16/11 foi para a equipe de execução de direito creditório",
+      "atencao": true,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2019": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 24/02/2025 - TEVE NL REDUZINDO DE 14 PARA 9MIL",
         "2020": "PROCESSADA — 1.542,12 EM 31/03/2025",
@@ -7916,8 +7940,6 @@
         "2024": "PROCESSADA — 816,96 EM 30/04/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-16T18:20:08.938Z",
@@ -7997,6 +8019,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -8050,7 +8073,9 @@
             "valorRec": 4129.19
           }
         ]
-      }
+      },
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "08930833640",
