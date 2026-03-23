@@ -8686,16 +8686,38 @@
       "cpfCnpj": "377.452.986-87",
       "tipo": "PF",
       "nome": "DOMINGOS SÁVIO HORTA CARNEIRO",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "JÁ TEM LAUDO - PER 2024 FEITO EM 09/12/2025 - PER 2025 FEITO EM 23/01/2026. PEDIR RESTITUIÇÃO DAS GUIAS DO PARCELAMENTO",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "JÁ TEM LAUDO - PEDIR RESTITUIÇÃO DAS GUIAS DO PARCELAMENTO",
+      "atencao": true,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 09/12/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 09/12/2025",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 23/01/2026"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-16T18:23:52.840Z",
@@ -8732,6 +8754,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -8745,7 +8768,9 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "04186567620",
