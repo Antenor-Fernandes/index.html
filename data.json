@@ -13878,6 +13878,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-23T19:17:35.028Z",
+          "exercicio": "2018",
+          "de": "PROCESSADA — MALHA DG - DDA EM 05/10/2022",
+          "para": "PROCESSADA — MALHA DG - DDA EM 05/10/2022",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T13:07:06.266Z",
           "exercicio": "2017",
           "de": "651,65 EM 29/12/2022",
@@ -13973,7 +13980,20 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2018": [
+          {
+            "numero": "09154.81938.051022.2.2.04-0076",
+            "valorPedido": 7034.89,
+            "dataTransmissao": "05/10/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "00994022620",
