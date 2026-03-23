@@ -9093,6 +9093,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T18:10:27.191Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025 - PROCESSO DE RESTITUIÇÃO DO IR EXCLUSIVO DE FONTE DA DIRPF 2024 FEITO EM 07/02/2025 - 22/08/25 no valor de R$  35.608,87 referente a declaração de 2024 - processo 10600.720782/2025-58",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T18:38:17.828Z",
           "exercicio": "2017",
           "de": "FIZEMOS PER WEB RECEBEU EM 20/04/2022",
@@ -9187,6 +9194,19 @@
             "obs": "",
             "dataRec": "",
             "valorRec": ""
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {
+        "2024": [
+          {
+            "numero": "10600.720782/2025-58",
+            "valorPedido": 0,
+            "dataProtocolo": "",
+            "obs": "",
+            "dataRec": "22/08/2025",
+            "valorRec": 35608.87
           }
         ]
       }
@@ -41025,6 +41045,21 @@
           "porExercicio": {
             "2025": 15057.79
           }
+        }
+      ]
+    },
+    {
+      "data": "22/08/2025",
+      "descricao": "Lote 22/08/2025",
+      "pagamentos": [
+        {
+          "clienteId": "13288245604",
+          "cpfCnpj": "132.882.456-04",
+          "nome": "EDISON HERCULANO LUIZ",
+          "porExercicio": {
+            "EXPROCESSO-2024-0": 35608.87
+          },
+          "total": 35608.87
         }
       ]
     },
