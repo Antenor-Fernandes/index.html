@@ -9750,7 +9750,7 @@
         "2022": "4.303,45 EM 31/10/2025",
         "2023": "6.606,75 EM 31/10/2025",
         "2024": "5.803,77 EM 31/10/2025",
-        "2025": "5.613,02 EM 31/10/2025"
+        "2025": "PROCESSADA — 5.613,02 EM 31/10/2025"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -9795,7 +9795,28 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-23T18:21:16.141Z",
+          "exercicio": "2025",
+          "de": "5.613,02 EM 31/10/2025",
+          "para": "PROCESSADA — 5.613,02 EM 31/10/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/10/2025",
+          "valor": 5613.02
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "04982076685",
@@ -40645,7 +40666,7 @@
           "id": "13176269668",
           "cpfCnpj": "131.762.696-68",
           "nome": "EDUARDO MORAIS DE ANDRADE RESENDE",
-          "total": 26542.96,
+          "total": 26542.960000000003,
           "porExercicio": {
             "2021": 4215.97,
             "2022": 4303.45,
