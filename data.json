@@ -28908,6 +28908,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-23T17:09:35.147Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 19.087,63 EM 31/10/2025",
+          "para": "PROCESSADA — 19.087,63 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T17:09:03.060Z",
           "exercicio": "2021",
           "de": "PROCESSADA — 20.012,93 EM 31/10/2025",
@@ -29098,8 +29105,8 @@
             "valorPedido": 1928.01,
             "dataTransmissao": "17/01/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "22/12/2025",
+            "valorRec": 2764.57
           }
         ],
         "2023": [
@@ -39482,9 +39489,10 @@
           "porExercicio": {
             "EXPERDCOMP-2020-0": 264.29,
             "EXPERDCOMP-2023-0": 2084.71,
-            "EXPERDCOMP-2021-0": 3503.42
+            "EXPERDCOMP-2021-0": 3503.42,
+            "EXPERDCOMP-2022-0": 2764.57
           },
-          "total": 5852.42
+          "total": 8616.99
         }
       ]
     },
