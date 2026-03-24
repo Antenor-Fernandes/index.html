@@ -10897,11 +10897,18 @@
       "temPer": true,
       "temRRA": false,
       "exercicios": {
-        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-24T13:38:58.155Z",
+          "exercicio": "2023",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 30/04/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T11:04:27.379Z",
           "exercicio": "2023",
@@ -10962,7 +10969,12 @@
           "para": "EM MALHA — MALHA DG - DDA FEITO EM 27/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 3727.07
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "perdcomps": [],
@@ -40568,6 +40580,15 @@
             "2024": 62359.08
           },
           "total": 62359.08
+        },
+        {
+          "clienteId": "08507120172",
+          "cpfCnpj": "085.071.201-72",
+          "nome": "EMANUEL HÉLIO MOREIRA SARMENTO",
+          "porExercicio": {
+            "2023": 3727.07
+          },
+          "total": 3727.07
         }
       ]
     },
