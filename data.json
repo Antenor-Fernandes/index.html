@@ -2388,9 +2388,24 @@
       "atencao": false,
       "temPer": false,
       "temRRA": false,
-      "exercicios": {},
-      "historico": [],
-      "recebimentos": {},
+      "exercicios": {
+        "2026": "PROCESSADA"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-24T18:53:34.497Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2026": {
+          "data": "30/06/2025",
+          "valor": 15174.67
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "perdcomps": [],
@@ -44434,9 +44449,10 @@
           "id": "76011763634",
           "cpfCnpj": "760.117.636-34",
           "nome": "ALEXANDRE KALIL HANNA",
-          "total": 15174.67,
+          "total": 30349.34,
           "porExercicio": {
-            "2025": 15174.67
+            "2025": 15174.67,
+            "2026": 15174.67
           }
         },
         {
