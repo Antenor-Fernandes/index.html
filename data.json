@@ -4759,11 +4759,17 @@
       "exercicios": {
         "2022": "8.994,49 EM 31/05/2024",
         "2023": "28,80 EM 31/05/2024",
-        "2024": "CLIENTE Q VAI FAZER",
         "2025": "PROCESSADA — 81,59 EM 30/05/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T19:09:50.032Z",
+          "exercicio": "2024",
+          "de": "CLIENTE Q VAI FAZER",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T19:08:36.216Z",
           "exercicio": "2025",
