@@ -24482,10 +24482,17 @@
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
         "2024": "PROCESSADA",
-        "2025": "EM FILA DE RESTITUIÇÃO"
+        "2025": "PROCESSADA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T13:56:25.983Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:17:22.908Z",
           "exercicio": "2025",
@@ -24493,8 +24500,19 @@
           "para": "EM FILA DE RESTITUIÇÃO"
         }
       ],
-      "recebimentos": {},
-      "dda": {}
+      "recebimentos": {
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 180.29
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "26502585604",
@@ -41044,6 +41062,15 @@
             "2025": 20103.17
           },
           "total": 56595.33
+        },
+        {
+          "clienteId": "44852150672",
+          "cpfCnpj": "448.521.506-72",
+          "nome": "MÁRCIA MARIA DA SILVA RODRIGUES",
+          "porExercicio": {
+            "2025": 180.29
+          },
+          "total": 180.29
         }
       ]
     },
