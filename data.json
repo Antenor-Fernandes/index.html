@@ -39709,12 +39709,19 @@
         "2021": "PROCESSADA — 5.316,35 EM 28/02/2023",
         "2022": "PROCESSADA — 6.005,99 EM 28/02/2023",
         "2023": "PROCESSADA — 7.753,52 EM 30/04/2024",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 05/02/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 05/02/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:09:47.867Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 05/02/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 05/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:40:04.779Z",
           "exercicio": "2018",
@@ -39806,9 +39813,19 @@
         "2023": {
           "data": "30/04/2024",
           "valor": 7753.52
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 954.35
         }
       },
-      "dda": {}
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "46845631700",
@@ -41485,6 +41502,15 @@
             "2022": 102042.66
           },
           "total": 200791.04
+        },
+        {
+          "clienteId": "27908089615",
+          "cpfCnpj": "279.080.896-15",
+          "nome": "VERA LÚCIA PEREIRA DE OLIVEIRA",
+          "porExercicio": {
+            "2024": 954.35
+          },
+          "total": 954.35
         }
       ]
     },
