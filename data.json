@@ -622,7 +622,7 @@
       "exercicios": {
         "2021": "PROCESSADA — 29.631,89 EM 28/11/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 23/10/2025 - TEVE NL:  pensão alimentícia ao maior de 2024 ( não tem o que impugnar Súmula CARF nº 214 ) e em relação ao menor se ele apresentar os comprovantes a gente impugna mês que vem ( ciência em 17/03 )",
-        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 23/10/2025",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
         "2025": "PROCESSADA"
       },
@@ -647,6 +647,13 @@
         }
       ],
       "historico": [
+        {
+          "ts": "2026-03-24T13:27:32.355Z",
+          "exercicio": "2023",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/10/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 23/10/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:27:09.480Z",
           "exercicio": "2022",
@@ -797,6 +804,10 @@
         "2022": {
           "data": "31/03/2026",
           "valor": 113588.85
+        },
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 20125.18
         },
         "2025": {
           "data": "31/10/2025",
@@ -40346,9 +40357,10 @@
           "cpfCnpj": "305.151.067-04",
           "nome": "ADOLFO PAULO BICALHO DE LANA",
           "porExercicio": {
-            "2022": 113588.85
+            "2022": 113588.85,
+            "2023": 20125.18
           },
-          "total": 113588.85
+          "total": 133714.03
         }
       ]
     },
