@@ -3129,12 +3129,19 @@
       "temPer": false,
       "exercicios": {
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 10/03/2026",
-        "2022": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
+        "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 10/03/2026",
         "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
         "2025": "EM FILA DE RESTITUIÇÃO — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-24T13:30:56.567Z",
+          "exercicio": "2022",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/03/2026",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 10/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:30:16.533Z",
           "exercicio": "2021",
@@ -3190,6 +3197,10 @@
         "2021": {
           "data": "31/03/2026",
           "valor": 1441.14
+        },
+        "2022": {
+          "data": "31/03/2026",
+          "valor": 1696.17
         }
       },
       "dda": {},
@@ -40419,9 +40430,10 @@
           "cpfCnpj": "111.098.666-15",
           "nome": "ÂNGELA MARIA BICALHO COELHO MENDES",
           "porExercicio": {
-            "2021": 1441.14
+            "2021": 1441.14,
+            "2022": 1696.17
           },
-          "total": 1441.14
+          "total": 3137.3100000000004
         }
       ]
     },
