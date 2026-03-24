@@ -3353,11 +3353,18 @@
         "2022": "PROCESSADA — 31.941,75 EM 31/10/2022",
         "2023": "PROCESSADA — 40.257,41 EM 31/10/2024",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 10/01/2025 - 38.500,80",
-        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA E PEDIDO DE PRIORIDE FEITOS EM 21/01/2026"
+        "2025": "PROCESSADA — MALHA DG - DDA E PEDIDO DE PRIORIDE FEITOS EM 21/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:34:00.023Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA E PEDIDO DE PRIORIDE FEITOS EM 21/01/2026",
+          "para": "PROCESSADA — MALHA DG - DDA E PEDIDO DE PRIORIDE FEITOS EM 21/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:33:33.319Z",
           "exercicio": "2024",
@@ -3461,6 +3468,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 45856.66
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 44986.29
         }
       },
       "dda": {},
@@ -40499,9 +40510,10 @@
           "cpfCnpj": "279.653.686-68",
           "nome": "ÂNGELA MOREIRA DE PAULA NOGUEIRA",
           "porExercicio": {
-            "2024": 45856.66
+            "2024": 45856.66,
+            "2025": 44986.29
           },
-          "total": 45856.66
+          "total": 90842.95000000001
         }
       ]
     },
