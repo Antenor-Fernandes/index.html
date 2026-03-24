@@ -2972,13 +2972,20 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "R$ 2.851,97 29/07/2022",
+        "2022": "PROCESSADA — R$ 2.851,97 29/07/2022",
         "2023": "PROCESSADA — 3.262,66 EM 31/08/2023",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 4.661,65 EM 31/07/2025"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T18:59:29.490Z",
+          "exercicio": "2022",
+          "de": "R$ 2.851,97 29/07/2022",
+          "para": "PROCESSADA — R$ 2.851,97 29/07/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T18:59:18.444Z",
           "exercicio": "2023",
@@ -2995,6 +3002,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "29/07/2022",
+          "valor": 2851.97
+        },
         "2023": {
           "data": "31/08/2023",
           "valor": 3262.66
