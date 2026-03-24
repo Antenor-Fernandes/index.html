@@ -28287,12 +28287,19 @@
         "2021": "PROCESSADA — 2.712,06 EM 31/03/2023",
         "2022": "PROCESSADA — 2.452,75 EM 31/03/2023",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2024",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 06/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:03:31.388Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T14:03:01.743Z",
           "exercicio": "2023",
@@ -28427,6 +28434,10 @@
         "2023": {
           "data": "31/03/2026",
           "valor": 5683.62
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 7049.58
         }
       },
       "dda": {},
@@ -41302,9 +41313,10 @@
           "cpfCnpj": "316.350.756-53",
           "nome": "MARIA HELENA LOPES TOMICH",
           "porExercicio": {
-            "2023": 5683.62
+            "2023": 5683.62,
+            "2024": 7049.58
           },
-          "total": 5683.62
+          "total": 12733.2
         }
       ]
     },
