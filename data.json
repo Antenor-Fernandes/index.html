@@ -28745,12 +28745,19 @@
       "exercicios": {
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 23/09/2024",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 23/09/2024",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2025",
         "2025": "PROCESSADA — 66.775,55 EM 27/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:05:21.320Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T14:05:02.100Z",
           "exercicio": "2023",
@@ -28803,6 +28810,10 @@
           "data": "31/03/2026",
           "valor": 55200.94
         },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 68672.26
+        },
         "2025": {
           "data": "27/02/2026",
           "valor": 66775.55
@@ -28830,7 +28841,7 @@
             "dataTransmissao": "23/01/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2025": [
@@ -41359,9 +41370,10 @@
           "nome": "MARIA JOSÉ CARVALHO CHAVES BRANDÃO",
           "porExercicio": {
             "2022": 7845.78,
-            "2023": 55200.94
+            "2023": 55200.94,
+            "2024": 68672.26
           },
-          "total": 63046.72
+          "total": 131718.97999999998
         }
       ]
     },
