@@ -20913,13 +20913,20 @@
         "2020": "PROCESSADA — 14.595,33 EM 31/05/2023",
         "2021": "PROCESSADA — 15.374,17 EM 31/05/2023",
         "2022": "PROCESSADA — 13.634,68 EM 31/05/2023",
-        "2023": "EM MALHA — MALHA DG - DDA FEITO EM 25/01/2024 - PEDIDO DE PRIORIDADE NO CHAT EM 05/02/2025",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 25/01/2024 - PEDIDO DE PRIORIDADE NO CHAT EM 05/02/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 03/02/2026 -"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:55:17.028Z",
+          "exercicio": "2023",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 25/01/2024 - PEDIDO DE PRIORIDADE NO CHAT EM 05/02/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 25/01/2024 - PEDIDO DE PRIORIDADE NO CHAT EM 05/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T18:42:54.426Z",
           "exercicio": "2019",
@@ -20982,13 +20989,13 @@
         "2022": {
           "data": "31/05/2023",
           "valor": 13634.68
+        },
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 17151.91
         }
       },
       "dda": {
-        "2023": {
-          "feito": true,
-          "data": "05/02/2025"
-        },
         "2024": {
           "feito": true,
           "data": "05/02/2025"
@@ -21001,7 +21008,9 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "20149760663",
@@ -41011,6 +41020,15 @@
             "2025": 6610.68
           },
           "total": 23083.22
+        },
+        {
+          "clienteId": "33170258672",
+          "cpfCnpj": "331.702.586-72",
+          "nome": "JOSÉ VICENTINO HELENO",
+          "porExercicio": {
+            "2023": 17151.91
+          },
+          "total": 17151.91
         }
       ]
     },
