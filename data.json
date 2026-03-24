@@ -3043,7 +3043,7 @@
       "senhaGov": "",
       "observacoes": "PER 2019 A 2022 FEITOS EM 09/08/2023 -PER 2023 FEITO EM 20/02/2024 - RECEBEU TODOS",
       "exercicios": {
-        "2019": "2.215,93 EM 31/08/2023",
+        "2019": "PROCESSADA — 2.215,93 EM 31/08/2023",
         "2020": "PROCESSADA — 2.054,24 EM 31/08/2023",
         "2021": "PROCESSADA — 7.208,38 EM 30/09/2024",
         "2022": "PROCESSADA — 13.272,51 EM 30/09/2024",
@@ -3054,6 +3054,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T19:01:24.587Z",
+          "exercicio": "2019",
+          "de": "2.215,93 EM 31/08/2023",
+          "para": "PROCESSADA — 2.215,93 EM 31/08/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T19:01:10.199Z",
           "exercicio": "2020",
@@ -3098,6 +3105,10 @@
         }
       ],
       "recebimentos": {
+        "2019": {
+          "data": "31/08/2023",
+          "valor": 2215.93
+        },
         "2020": {
           "data": "31/08/2023",
           "valor": 2054.24
