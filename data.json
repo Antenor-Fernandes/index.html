@@ -5342,13 +5342,20 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "5.064,74 EM 31/10/2023",
+        "2023": "PROCESSADA — 5.064,74 EM 31/10/2023",
         "2024": "PROCESSADA — 7.290,18 EM 31/05/2024",
         "2025": "PROCESSADA — 7.660,27 EM 31/05/2025",
         "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T17:55:25.028Z",
+          "exercicio": "2023",
+          "de": "5.064,74 EM 31/10/2023",
+          "para": "PROCESSADA — 5.064,74 EM 31/10/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T17:55:11.348Z",
           "exercicio": "2024",
@@ -5372,6 +5379,10 @@
         }
       ],
       "recebimentos": {
+        "2023": {
+          "data": "31/10/2023",
+          "valor": 5064.74
+        },
         "2024": {
           "data": "31/05/2024",
           "valor": 7290.18
