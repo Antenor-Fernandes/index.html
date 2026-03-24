@@ -16024,12 +16024,19 @@
         "2021": "IMPUGNAÇÃO — 8.380,01 EM 27/02/2026 - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2022": "IMPUGNAÇÃO — 9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2023": "IMPUGNAÇÃO — 6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+        "2024": "PROCESSADA — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:46:02.196Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "para": "PROCESSADA — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T11:24:17.654Z",
           "exercicio": "2024",
@@ -16128,6 +16135,10 @@
         "2023": {
           "data": "27/02/2026",
           "valor": 6909.2
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 5125.65
         }
       },
       "dda": {},
@@ -16182,7 +16193,7 @@
             "dataTransmissao": "28/01/2026",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2025": [
@@ -16195,7 +16206,9 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "97346896734",
@@ -40716,6 +40729,15 @@
             "2024": 14715.16
           },
           "total": 26633.52
+        },
+        {
+          "clienteId": "37447610615",
+          "cpfCnpj": "374.476.106-15",
+          "nome": "HENRY LAVIOLA VAGLIANO",
+          "porExercicio": {
+            "2024": 5125.65
+          },
+          "total": 5125.65
         }
       ]
     },
