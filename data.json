@@ -12066,13 +12066,20 @@
         "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 16/02/2022 - COMPENSAÇÃO DE OFÍCIO EM 09/08/2023 - JÁ ACERTOU OS HONORÁRIOS",
         "2021": "PROCESSADA — 5.580,04 EM 31/10/2023",
         "2022": "PROCESSADA — 2.940,45 EM 31/10/2023",
-        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2024",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2024",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 06/01/2025",
         "2025": "PROCESSADA — 3.256,14 EM 30/06/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:40:45.595Z",
+          "exercicio": "2023",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2024",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T12:43:59.578Z",
           "exercicio": "2023",
@@ -12157,6 +12164,10 @@
           "data": "31/10/2023",
           "valor": 2940.45
         },
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 8853.03
+        },
         "2025": {
           "data": "30/06/2025",
           "valor": 3256.14
@@ -12167,7 +12178,8 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "16737520634",
@@ -40613,6 +40625,15 @@
             "2025": 10775.4
           },
           "total": 25746.18
+        },
+        {
+          "clienteId": "33871434604",
+          "cpfCnpj": "338.714.346-04",
+          "nome": "FÁTIMA ELEONORA SOARES DE ANDRADE AQUINO",
+          "porExercicio": {
+            "2023": 8853.03
+          },
+          "total": 8853.03
         }
       ]
     },
