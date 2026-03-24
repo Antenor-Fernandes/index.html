@@ -13680,12 +13680,19 @@
         "2021": "PROCESSADA — 2.815,22 EM 28/02/2023",
         "2022": "PROCESSADA — 3.253,24 EM 28/02/2023",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 23/01/2024",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 17/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 17/01/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 28/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:43:20.495Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 17/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 17/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:42:50.292Z",
           "exercicio": "2023",
@@ -13806,6 +13813,10 @@
         "2023": {
           "data": "31/03/2026",
           "valor": 13563.45
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 7045.47
         }
       },
       "dda": {},
@@ -40664,9 +40675,10 @@
           "cpfCnpj": "316.787.856-87",
           "nome": "GERALDO DA SILVA LEITE",
           "porExercicio": {
-            "2023": 13563.45
+            "2023": 13563.45,
+            "2024": 7045.47
           },
-          "total": 13563.45
+          "total": 20608.920000000002
         }
       ]
     },
