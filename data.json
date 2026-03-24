@@ -18694,12 +18694,19 @@
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
         "2022": "PROCESSADA",
-        "2023": "TRANSMITIDA",
+        "2023": "PROCESSADA",
         "2024": "TRANSMITIDA",
         "2025": "TRANSMITIDA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T13:50:40.590Z",
+          "exercicio": "2023",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:50:25.865Z",
           "exercicio": "2022",
@@ -18712,6 +18719,10 @@
         "2022": {
           "data": "31/03/2026",
           "valor": 123.62
+        },
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 628.9
         }
       },
       "dda": {},
@@ -40900,9 +40911,10 @@
           "cpfCnpj": "408.185.436-04",
           "nome": "JOÃO SANTIAGO DOS SANTOS FILHO",
           "porExercicio": {
-            "2022": 123.62
+            "2022": 123.62,
+            "2023": 628.9
           },
-          "total": 123.62
+          "total": 752.52
         }
       ]
     },
