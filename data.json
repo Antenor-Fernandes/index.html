@@ -1938,9 +1938,31 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2025": "3.366,78 EM 31/07/2025"
+        "2025": "PROCESSADA — 3.366,78 EM 31/07/2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-24T18:52:30.147Z",
+          "exercicio": "2025",
+          "de": "3.366,78 EM 31/07/2025",
+          "para": "PROCESSADA — 3.366,78 EM 31/07/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/07/2025",
+          "valor": 3366.78
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "16447272859",
