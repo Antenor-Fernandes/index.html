@@ -5344,11 +5344,18 @@
       "exercicios": {
         "2023": "5.064,74 EM 31/10/2023",
         "2024": "7.290,18 EM 31/05/2024",
-        "2025": "7.660,27 EM 31/05/2025",
+        "2025": "PROCESSADA — 7.660,27 EM 31/05/2025",
         "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T17:55:01.612Z",
+          "exercicio": "2025",
+          "de": "7.660,27 EM 31/05/2025",
+          "para": "PROCESSADA — 7.660,27 EM 31/05/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T17:54:31.273Z",
           "exercicio": "2026",
@@ -5357,7 +5364,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2025": {
+          "data": "31/05/2025",
+          "valor": 7660.27
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "exRRA": {},
@@ -44631,6 +44643,15 @@
             "2024": 954.5
           },
           "total": 954.5
+        },
+        {
+          "clienteId": "31546919600",
+          "cpfCnpj": "315.469.196-00",
+          "nome": "AROLDO PENIDO DE ANDRADE",
+          "porExercicio": {
+            "2025": 7660.27
+          },
+          "total": 7660.27
         }
       ]
     },
