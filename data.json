@@ -28294,6 +28294,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-24T14:01:40.000Z",
+          "exercicio": "2017",
+          "de": "PROCESSADA — R$ 689,00 - 31/08/2020 - PER/DCOMP",
+          "para": "PROCESSADA — R$ 689,00 - 31/08/2020 - PER/DCOMP",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-24T14:01:25.870Z",
           "exercicio": "2016",
           "de": "PROCESSADA — 5,33 -30/06/2020 - PER/DCOMP",
@@ -28372,6 +28379,10 @@
         "2016": {
           "data": "30/06/2020",
           "valor": 5.33
+        },
+        "2017": {
+          "data": "31/08/2020",
+          "valor": 689
         }
       },
       "dda": {},
@@ -57046,6 +57057,15 @@
             "2020": 12542.56
           },
           "total": 52834.61
+        },
+        {
+          "clienteId": "31635075653",
+          "cpfCnpj": "316.350.756-53",
+          "nome": "MARIA HELENA LOPES TOMICH",
+          "porExercicio": {
+            "2017": 689
+          },
+          "total": 689
         }
       ]
     },
