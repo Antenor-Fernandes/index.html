@@ -16953,10 +16953,17 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2025": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE"
+        "2025": "PROCESSADA — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T13:47:13.321Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE",
+          "para": "PROCESSADA — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:13:35.081Z",
           "exercicio": "2025",
@@ -16964,8 +16971,19 @@
           "para": "EM FILA DE RESTITUIÇÃO — RETIFICAMOS - ACOMPANHAR PROCESSO DE MALHA ABERTO PELO CLIENTE"
         }
       ],
-      "recebimentos": {},
-      "dda": {}
+      "recebimentos": {
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 15762.12
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "12247243649",
@@ -40750,6 +40768,15 @@
             "2025": 4231.43
           },
           "total": 9357.08
+        },
+        {
+          "clienteId": "17816254687",
+          "cpfCnpj": "178.162.546-87",
+          "nome": "IVAN SILVA CHAVES",
+          "porExercicio": {
+            "2025": 15762.12
+          },
+          "total": 15762.12
         }
       ]
     },
