@@ -17890,13 +17890,20 @@
         "2020": "PROCESSADA — 3966,52 EM 31/03/21",
         "2021": "PROCESSADA — 2.199,17 EM 31/10/2022",
         "2022": "PROCESSADA — 3.212,34 EM 31/10/2022",
-        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 25/01/2024",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 25/01/2024",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 03/02/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 29/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:47:50.482Z",
+          "exercicio": "2023",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 25/01/2024",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 25/01/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T19:39:38.640Z",
           "exercicio": "2023",
@@ -17973,6 +17980,10 @@
         "2022": {
           "data": "31/10/2022",
           "valor": 3212.34
+        },
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 4769.27
         }
       },
       "dda": {},
@@ -40777,6 +40788,15 @@
             "2025": 15762.12
           },
           "total": 15762.12
+        },
+        {
+          "clienteId": "42122708620",
+          "cpfCnpj": "421.227.086-20",
+          "nome": "JOÃO BATISTA CRISPIM VELOSO",
+          "porExercicio": {
+            "2023": 4769.27
+          },
+          "total": 4769.27
         }
       ]
     },
