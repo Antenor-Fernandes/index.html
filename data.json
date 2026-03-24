@@ -393,10 +393,17 @@
         "2021": "PROCESSADA — 18.114,75 VIA PROCESSO EM 12/12/2022",
         "2022": "PROCESSADA — PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 30/09/2022 - RECEBEU E ACERTOU OS HONORÁRIOS",
         "2023": "EM MALHA — MALHA DG",
-        "2024": "EM MALHA — MALHA DG",
+        "2024": "EM MALHA — FEITO PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 09/01/2025 - 11.854,90 - RECEBEU 15.828,78 EM 16/03/2026",
         "2025": "EM MALHA — MALHA DG"
       },
       "historico": [
+        {
+          "ts": "2026-03-24T14:29:00.760Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG",
+          "para": "EM MALHA — FEITO PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 09/01/2025 - 11.854,90 - RECEBEU 15.828,78 EM 16/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T18:04:10.682Z",
           "exercicio": "2017",
@@ -502,7 +509,18 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exProcessos": {},
+      "exProcessos": {
+        "2024": [
+          {
+            "numero": "10600.720108/2025-73",
+            "valorPedido": 11854.9,
+            "dataProtocolo": "09/01/2025",
+            "obs": "APOSENTADORIA COMPLEMENTAR SISTEMA REGRESSIVO",
+            "dataRec": "16/03/2026",
+            "valorRec": 15828.78
+          }
+        ]
+      },
       "exAtencao": {}
     },
     {
@@ -41629,6 +41647,21 @@
             "EXPERDCOMP-2021-0": 17142.16
           },
           "total": 60399.57000000001
+        }
+      ]
+    },
+    {
+      "data": "16/03/2026",
+      "descricao": "Lote 16/03/2026",
+      "pagamentos": [
+        {
+          "clienteId": "54579970659",
+          "cpfCnpj": "545.799.706-59",
+          "nome": "ADELSO DE ALMEIDA NOGUEIRA",
+          "porExercicio": {
+            "EXPROCESSO-2024-0": 15828.78
+          },
+          "total": 15828.78
         }
       ]
     },
