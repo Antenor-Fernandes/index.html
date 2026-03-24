@@ -16025,11 +16025,18 @@
         "2022": "IMPUGNAÇÃO — 9.079,76 EM 27/02/2026  - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2023": "IMPUGNAÇÃO — 6.909,20 EM 27/02/2026 - - IMPUGNAÇÃO FEITA EM 06/03/2026",
         "2024": "PROCESSADA — MALHA DG E PENSÃO - DDA FEITO EM 27/10/2025 - IMPUGNAÇÃO FEITA EM 06/03/2026",
-        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO"
+        "2025": "PROCESSADA — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:46:39.485Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO",
+          "para": "PROCESSADA — MALHA DG E PENSÃO - DDA FEITO EM 28/01/2026 - EM PROCESSAMENTO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:46:02.196Z",
           "exercicio": "2024",
@@ -16139,6 +16146,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 5125.65
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 4231.43
         }
       },
       "dda": {},
@@ -16203,7 +16214,7 @@
             "dataTransmissao": "28/01/2026",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ]
       },
@@ -40735,9 +40746,10 @@
           "cpfCnpj": "374.476.106-15",
           "nome": "HENRY LAVIOLA VAGLIANO",
           "porExercicio": {
-            "2024": 5125.65
+            "2024": 5125.65,
+            "2025": 4231.43
           },
-          "total": 5125.65
+          "total": 9357.08
         }
       ]
     },
