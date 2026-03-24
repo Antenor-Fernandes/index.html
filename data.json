@@ -28279,7 +28279,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2016": "5,33 -30/06/2020 - PER/DCOMP",
+        "2016": "PROCESSADA — 5,33 -30/06/2020 - PER/DCOMP",
         "2017": "R$ 689,00 - 31/08/2020 - PER/DCOMP",
         "2018": "R$ 1.575,08 - 31/08/2020 - PER/DCOMP",
         "2019": "R$ 5.151,21 - 31/08/2020 - PER/DCOMP",
@@ -28293,6 +28293,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:00:36.242Z",
+          "exercicio": "2016",
+          "de": "5,33 -30/06/2020 - PER/DCOMP",
+          "para": "PROCESSADA — 5,33 -30/06/2020 - PER/DCOMP",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:30:30.857Z",
           "exercicio": "2023",
@@ -28313,7 +28320,13 @@
         }
       ],
       "recebimentos": {},
-      "dda": {}
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "42104335604",
