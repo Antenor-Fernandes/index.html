@@ -1172,7 +1172,7 @@
         "2021": "PROCESSADA — 3.495,01 EM 31/05/2023",
         "2022": "PROCESSADA — 4.471,36 EM 31/05/2023",
         "2023": "EM MALHA — MALHA DG - DDA FEITO EM 04/03/2024",
-        "2024": "PROCESSADA — CLIENTE RETIFICOU A ORIGINAL QUE NÓS FIZEMOS"
+        "2024": "OUTRO — CLIENTE RETIFICOU A ORIGINAL QUE NÓS FIZEMOS"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -9095,11 +9095,19 @@
         "2022": "PROCESSADA — 1.935,95 EM 30/01/2026",
         "2023": "PROCESSADA — 2.895,14 EM 30/01/2026",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 19/12/2025",
-        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/01/2026",
+        "2026": "TRANSMITIDA"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T19:29:48.301Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T18:17:55.053Z",
           "exercicio": "2021",
@@ -9209,7 +9217,9 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "05544831734",
