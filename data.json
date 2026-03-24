@@ -28744,13 +28744,20 @@
       "observacoes": "PER 2023 FEITO EM 23/09/2024 - PER 2024 FEITO EM 23/01/2025 - PER 2025 FEITO EM 09/02/2026",
       "exercicios": {
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 23/09/2024",
-        "2023": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/09/2024",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 23/09/2024",
         "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/01/2025",
         "2025": "PROCESSADA — 66.775,55 EM 27/02/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:05:02.100Z",
+          "exercicio": "2023",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 23/09/2024",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 23/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T14:04:44.739Z",
           "exercicio": "2022",
@@ -28792,6 +28799,10 @@
           "data": "31/03/2026",
           "valor": 7845.78
         },
+        "2023": {
+          "data": "31/03/2026",
+          "valor": 55200.94
+        },
         "2025": {
           "data": "27/02/2026",
           "valor": 66775.55
@@ -28809,7 +28820,7 @@
             "dataTransmissao": "23/09/2024",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2024": [
@@ -41347,9 +41358,10 @@
           "cpfCnpj": "441.485.856-91",
           "nome": "MARIA JOSÉ CARVALHO CHAVES BRANDÃO",
           "porExercicio": {
-            "2022": 7845.78
+            "2022": 7845.78,
+            "2023": 55200.94
           },
-          "total": 7845.78
+          "total": 63046.72
         }
       ]
     },
