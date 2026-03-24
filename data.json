@@ -3155,7 +3155,7 @@
         "2022": "645,47 EM 31/10/2025",
         "2023": "1.112,72 EM 31/10/2025",
         "2024": "929,56 EM 31/10/2025",
-        "2025": "498,12 EM 31/10/2025"
+        "2025": "PROCESSADA — 498,12 EM 31/10/2025"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -3214,10 +3214,31 @@
             "dataTransmissao": "09/10/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ]
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-24T19:03:54.427Z",
+          "exercicio": "2025",
+          "de": "498,12 EM 31/10/2025",
+          "para": "PROCESSADA — 498,12 EM 31/10/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2025": {
+          "data": "31/10/2025",
+          "valor": 498.12
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "10506844609",
