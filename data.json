@@ -10367,12 +10367,19 @@
         "2021": "IMPUGNAÇÃO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2022": "TRABALHO MANUAL RFB — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2023": "TRABALHO MANUAL RFB — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "PROCESSADA — 21,62 EM 30/05/2025"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:37:31.819Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 16/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T10:39:24.798Z",
           "exercicio": "2022",
@@ -10476,6 +10483,10 @@
           "data": "20/05/2025",
           "valor": 65029.27
         },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 62359.08
+        },
         "2025": {
           "data": "30/05/2025",
           "valor": 21.62
@@ -10503,7 +10514,9 @@
             "valorRec": 6147.23
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "49092278653",
@@ -40546,6 +40559,15 @@
             "2025": 9695.7
           },
           "total": 19981.77
+        },
+        {
+          "clienteId": "11280697172",
+          "cpfCnpj": "112.806.971-72",
+          "nome": "ELIANE MARIA DE CASTRO ROCHA",
+          "porExercicio": {
+            "2024": 62359.08
+          },
+          "total": 62359.08
         }
       ]
     },
