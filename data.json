@@ -3029,11 +3029,18 @@
         "2021": "PROCESSADA — 41.885,94 EM 31/10/2023",
         "2022": "PROCESSADA — 43.026,04 EM 31/10/2023",
         "2023": "PROCESSADA — 44.857,33 EM 31/10/2023",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025"
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 20/01/2025"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:29:27.115Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 20/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 20/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T17:29:42.902Z",
           "exercicio": "2019",
@@ -3097,13 +3104,19 @@
         "2023": {
           "data": "31/10/2023",
           "valor": 44857.33
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 39417.85
         }
       },
       "dda": {},
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "11109866615",
@@ -40373,6 +40386,15 @@
             "2024": 20791.55
           },
           "total": 154505.58
+        },
+        {
+          "clienteId": "27433200606",
+          "cpfCnpj": "274.332.006-06",
+          "nome": "ÂNGELA MARIA BAIA BHERING",
+          "porExercicio": {
+            "2024": 39417.85
+          },
+          "total": 39417.85
         }
       ]
     },
