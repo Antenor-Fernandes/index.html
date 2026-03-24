@@ -24742,12 +24742,19 @@
         "2021": "PROCESSADA — 17.357,19 - 29/12/2022",
         "2022": "PROCESSADA — 20.862,76 EM 28/03/2024",
         "2023": "PROCESSADA — 22.784,88 EM 28/03/2024",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 04/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:56:56.140Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 16/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 16/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-12T17:18:52.871Z",
           "exercicio": "2021",
@@ -24791,9 +24798,19 @@
         "2023": {
           "data": "28/03/2024",
           "valor": 22784.88
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 28929.49
         }
       },
-      "dda": {}
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "23206640687",
@@ -41071,6 +41088,15 @@
             "2025": 180.29
           },
           "total": 180.29
+        },
+        {
+          "clienteId": "14392984672",
+          "cpfCnpj": "143.929.846-72",
+          "nome": "MARCO AURÉLIO RAPOSO",
+          "porExercicio": {
+            "2024": 28929.49
+          },
+          "total": 28929.49
         }
       ]
     },
