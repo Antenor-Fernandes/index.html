@@ -1748,10 +1748,25 @@
       "atencao": false,
       "temPer": false,
       "temRRA": false,
-      "exercicios": {},
-      "historico": [],
+      "exercicios": {
+        "2024": "EM MALHA — ATENDEMOS INTIMAÇÃO EM 24/03/2026"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-24T14:32:47.639Z",
+          "exercicio": "2024",
+          "de": "",
+          "para": "EM MALHA — ATENDEMOS INTIMAÇÃO EM 24/03/2026",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2024": {
+          "feito": true,
+          "data": "24/03/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
