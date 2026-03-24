@@ -35376,12 +35376,19 @@
         "2022": "5.999,17 EM 31/05/2024",
         "2023": "7.050,76 EM 31/05/2024",
         "2024": "7.220,22 EM 31/05/2024",
-        "2025": "7.213,93 EM 30/05/2025",
+        "2025": "PROCESSADA — 7.213,93 EM 30/05/2025",
         "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T17:59:08.676Z",
+          "exercicio": "2025",
+          "de": "7.213,93 EM 30/05/2025",
+          "para": "PROCESSADA — 7.213,93 EM 30/05/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T17:58:52.613Z",
           "exercicio": "2026",
@@ -35390,7 +35397,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2025": {
+          "data": "30/05/2025",
+          "valor": 7213.93
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "exRRA": {},
