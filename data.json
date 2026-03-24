@@ -18372,12 +18372,19 @@
         "2021": "PROCESSADA — 2.229,34 EM 31/01/2023",
         "2022": "PROCESSADA — 2.679,63 EM 31/01/2023",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 25/01/2024 - PEDIMOS PRIORIDADE NO CHAT",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 21/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 21/01/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 29/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:49:23.281Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 21/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 21/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:49:06.616Z",
           "exercicio": "2023",
@@ -18520,6 +18527,10 @@
         "2023": {
           "data": "31/03/2026",
           "valor": 5298.31
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 4879.29
         }
       },
       "dda": {},
@@ -40845,9 +40856,10 @@
           "cpfCnpj": "385.566.186-34",
           "nome": "JOÃO LÚCIO MOREIRA DA COSTA",
           "porExercicio": {
-            "2023": 5298.31
+            "2023": 5298.31,
+            "2024": 4879.29
           },
-          "total": 5298.31
+          "total": 10177.6
         }
       ]
     },
