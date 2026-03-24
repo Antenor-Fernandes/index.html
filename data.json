@@ -6930,12 +6930,19 @@
         "2021": "PROCESSADA — 6.752,66 EM 29/09/2023",
         "2022": "PROCESSADA — 7.206,71 EM 29/09/2023",
         "2023": "PROCESSADA — 8.299,74 EM 29/09/2023",
-        "2024": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 14/02/2025 - PEDIDO DE PRIORIDADE FEITO EM 14/02/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 14/02/2025 - PEDIDO DE PRIORIDADE FEITO EM 14/02/2025",
         "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 26/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:35:06.341Z",
+          "exercicio": "2024",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 14/02/2025 - PEDIDO DE PRIORIDADE FEITO EM 14/02/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 14/02/2025 - PEDIDO DE PRIORIDADE FEITO EM 14/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T17:58:20.461Z",
           "exercicio": "2023",
@@ -7074,6 +7081,10 @@
         "2023": {
           "data": "29/09/2023",
           "valor": 8299.74
+        },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 10286.07
         }
       },
       "dda": {},
@@ -7135,7 +7146,7 @@
             "dataTransmissao": "14/02/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2025": [
@@ -40514,6 +40525,15 @@
             "2025": 44986.29
           },
           "total": 90842.95000000001
+        },
+        {
+          "clienteId": "30025958615",
+          "cpfCnpj": "300.259.586-15",
+          "nome": "CÉSAR AUGUSTO DIAS MACHADO",
+          "porExercicio": {
+            "2024": 10286.07
+          },
+          "total": 10286.07
         }
       ]
     },
