@@ -37804,11 +37804,18 @@
         "2022": "PROCESSADA — 7.441,51 EM 31/05/2024",
         "2023": "PROCESSADA — MALHA DG E DESP MÉDI - DDA FEITO EM 01/02/2024 - ATENDEMOS INTIMAÇÃO JUNTANDO DOC DENOVO EM 17/02/2025 - PEDIDO DE PRIORIDADE FEITO NO CHAT EM 17/02/2025",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 17/02/2025",
-        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026"
+        "2025": "PROCESSADA — MALHA DG - DDA FEITO EM 11/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:06:22.434Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 11/02/2026",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 11/02/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T14:06:09.798Z",
           "exercicio": "2024",
@@ -37886,6 +37893,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 3371.61
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 6043.02
         }
       },
       "dda": {},
@@ -41404,9 +41415,10 @@
           "nome": "SUZANA LUÍZA DE ABREU CUNHA",
           "porExercicio": {
             "2023": 12264.89,
-            "2024": 3371.61
+            "2024": 3371.61,
+            "2025": 6043.02
           },
-          "total": 15636.5
+          "total": 21679.52
         }
       ]
     },
