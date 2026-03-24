@@ -9095,19 +9095,11 @@
         "2022": "PROCESSADA — 1.935,95 EM 30/01/2026",
         "2023": "PROCESSADA — 2.895,14 EM 30/01/2026",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 19/12/2025",
-        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/01/2026",
-        "2026": "TRANSMITIDA"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
-        {
-          "ts": "2026-03-24T19:29:48.301Z",
-          "exercicio": "2026",
-          "de": "",
-          "para": "TRANSMITIDA",
-          "usuario": "Admin"
-        },
         {
           "ts": "2026-03-16T18:17:55.053Z",
           "exercicio": "2021",
@@ -9217,9 +9209,7 @@
             "valorRec": ""
           }
         ]
-      },
-      "exAtencao": {},
-      "exProcessos": {}
+      }
     },
     {
       "id": "05544831734",
@@ -14324,7 +14314,7 @@
         "2019": "26.444,44 EM 31/10/2022",
         "2020": "18.902,63 EM 31/10/2022",
         "2021": "20.763,00 EM 31/10/2022",
-        "2022": "17.418,30 EM 31/10/2022",
+        "2022": "PROCESSADA — 17.418,30 EM 31/10/2022",
         "2023": "PROCESSADA — 24.552,52 EM 31/10/2024",
         "2024": "PROCESSADA — 21.772,29 EM 31/10/2024",
         "2025": "TRANSMITIDA"
@@ -14385,6 +14375,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-24T19:36:59.502Z",
+          "exercicio": "2022",
+          "de": "17.418,30 EM 31/10/2022",
+          "para": "PROCESSADA — 17.418,30 EM 31/10/2022",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T19:10:58.836Z",
           "exercicio": "2024",
           "de": "21.772,29 EM 31/10/2024",
@@ -14400,6 +14397,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2022",
+          "valor": 17418.3
+        },
         "2023": {
           "data": "31/10/2024",
           "valor": 24552.52
@@ -54214,6 +54215,21 @@
             "2020": 64547.72
           },
           "total": 64547.72
+        }
+      ]
+    },
+    {
+      "data": "20/01/2023",
+      "descricao": "Lote 20/01/2023",
+      "pagamentos": [
+        {
+          "clienteId": "00104540630",
+          "cpfCnpj": "001.045.406-30",
+          "nome": "FERNANDO MORAES",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 12410.3
+          },
+          "total": 12410.3
         }
       ]
     },
