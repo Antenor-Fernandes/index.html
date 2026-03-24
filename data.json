@@ -38188,7 +38188,7 @@
       "senhaGov": "",
       "observacoes": "PER 2021 A 2024 FEITOS EM 10/06/2025 - RECEBEU 3 FALTA 1 - INÍCIO DA MOLÉSTIA 01/2020, POSSUI PARCELAMENTO ATIVO, DÉBITO DE PERÍODO ANTERIOR AO LAUDO",
       "exercicios": {
-        "2021": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/06/2025 - em processamento",
+        "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 10/06/2025 - em processamento",
         "2022": "PROCESSADA — 3.247,44 EM 31/10/2025",
         "2023": "PROCESSADA — 1.742,11 EM 31/10/2025",
         "2024": "PROCESSADA — 3.286,06 EM 31/10/2025",
@@ -38197,6 +38197,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T14:07:15.875Z",
+          "exercicio": "2021",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 10/06/2025 - em processamento",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 10/06/2025 - em processamento",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-20T09:48:52.737Z",
           "exercicio": "2019",
@@ -38257,6 +38264,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/03/2026",
+          "valor": 2707.61
+        },
         "2022": {
           "data": "31/10/2025",
           "valor": 3247.44
@@ -38286,7 +38297,7 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2022": [
@@ -41419,6 +41430,15 @@
             "2025": 6043.02
           },
           "total": 21679.52
+        },
+        {
+          "clienteId": "91916682634",
+          "cpfCnpj": "919.166.826-34",
+          "nome": "TEREZINHA SENA DE LIMA",
+          "porExercicio": {
+            "2021": 2707.61
+          },
+          "total": 2707.61
         }
       ]
     },
