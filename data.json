@@ -20768,6 +20768,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-24T13:54:21.817Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — MALHA DG - DDA FEITO EM 21/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 21/01/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-24T13:53:44.026Z",
           "exercicio": "2025",
           "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 02/02/2026",
@@ -20855,6 +20862,10 @@
           "data": "30/12/2024",
           "valor": 20448.52
         },
+        "2024": {
+          "data": "31/03/2026",
+          "valor": 16472.54
+        },
         "2025": {
           "data": "31/03/2026",
           "valor": 6610.68
@@ -20881,8 +20892,8 @@
             "valorPedido": 1171.43,
             "dataTransmissao": "21/01/2025",
             "obs": "",
-            "dataRec": "31/03/2026",
-            "valorRec": 16472.54
+            "dataRec": "",
+            "valorRec": 0
           }
         ]
       },
@@ -40996,8 +41007,8 @@
           "cpfCnpj": "317.581.506-53",
           "nome": "JOSÉ UBALDO COSSENZO DE CASTRO",
           "porExercicio": {
-            "2025": 6610.68,
-            "EXPERDCOMP-2024-0": 16472.54
+            "2024": 16472.54,
+            "2025": 6610.68
           },
           "total": 23083.22
         }
