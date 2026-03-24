@@ -18693,12 +18693,34 @@
       "senhaGov": "",
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
-        "2022": "TRANSMITIDA",
+        "2022": "PROCESSADA",
         "2023": "TRANSMITIDA",
         "2024": "TRANSMITIDA",
         "2025": "TRANSMITIDA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-24T13:50:25.865Z",
+          "exercicio": "2022",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "31/03/2026",
+          "valor": 123.62
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "22838953672",
@@ -40872,6 +40894,15 @@
             "2025": 4262.37
           },
           "total": 14439.970000000001
+        },
+        {
+          "clienteId": "40818543604",
+          "cpfCnpj": "408.185.436-04",
+          "nome": "JOÃO SANTIAGO DOS SANTOS FILHO",
+          "porExercicio": {
+            "2022": 123.62
+          },
+          "total": 123.62
         }
       ]
     },
