@@ -10899,9 +10899,16 @@
       "exercicios": {
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2025",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2025",
-        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026"
+        "2025": "PROCESSADA — MALHA DG - DDA FEITO EM 27/01/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-24T13:39:46.771Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 27/01/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:39:22.253Z",
           "exercicio": "2024",
@@ -10984,6 +10991,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 11243.71
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 10775.4
         }
       },
       "dda": {},
@@ -40598,9 +40609,10 @@
           "nome": "EMANUEL HÉLIO MOREIRA SARMENTO",
           "porExercicio": {
             "2023": 3727.07,
-            "2024": 11243.71
+            "2024": 11243.71,
+            "2025": 10775.4
           },
-          "total": 14970.779999999999
+          "total": 25746.18
         }
       ]
     },
