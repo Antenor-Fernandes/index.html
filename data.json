@@ -18695,11 +18695,18 @@
       "exercicios": {
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
-        "2024": "TRANSMITIDA",
+        "2024": "PROCESSADA",
         "2025": "TRANSMITIDA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T13:50:59.194Z",
+          "exercicio": "2024",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:50:40.590Z",
           "exercicio": "2023",
@@ -18723,6 +18730,10 @@
         "2023": {
           "data": "31/03/2026",
           "valor": 628.9
+        },
+        "2024": {
+          "data": "31/02/2026",
+          "valor": 290.55
         }
       },
       "dda": {},
@@ -40984,6 +40995,21 @@
             "EXPERDCOMP-2021-0": 17142.16
           },
           "total": 60399.57000000001
+        }
+      ]
+    },
+    {
+      "data": "31/02/2026",
+      "descricao": "Lote 31/02/2026",
+      "pagamentos": [
+        {
+          "clienteId": "40818543604",
+          "cpfCnpj": "408.185.436-04",
+          "nome": "JOÃO SANTIAGO DOS SANTOS FILHO",
+          "porExercicio": {
+            "2024": 290.55
+          },
+          "total": 290.55
         }
       ]
     },
