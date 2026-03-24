@@ -3151,7 +3151,7 @@
       "senhaGov": "",
       "observacoes": "PER 2021 A 2024 FEITOS EM 17/09/2025 - PER 2025 FEITO EM 09/10/2025",
       "exercicios": {
-        "2021": "363,92 EM 31/10/2025",
+        "2021": "PROCESSADA — 363,92 EM 31/10/2025",
         "2022": "PROCESSADA — 645,47 EM 31/10/2025",
         "2023": "PROCESSADA — 1.112,72 EM 31/10/2025",
         "2024": "PROCESSADA — 929,56 EM 31/10/2025",
@@ -3174,7 +3174,7 @@
             "dataTransmissao": "17/09/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0
           }
         ],
         "2022": [
@@ -3220,6 +3220,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-24T19:04:44.687Z",
+          "exercicio": "2021",
+          "de": "363,92 EM 31/10/2025",
+          "para": "PROCESSADA — 363,92 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-24T19:04:32.886Z",
           "exercicio": "2022",
           "de": "645,47 EM 31/10/2025",
@@ -3249,6 +3256,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "31/10/2025",
+          "valor": 363.92
+        },
         "2022": {
           "data": "31/10/2025",
           "valor": 645.47
