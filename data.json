@@ -15718,12 +15718,19 @@
         "2021": "PROCESSADA — 2.472,28 EM 28/02/2023",
         "2022": "PROCESSADA — 2.138,13 EM 28/02/2023",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 24/01/2024",
-        "2024": "EM MALHA — MALHA DG - DDA FEITO EM 20/01/2025",
+        "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 20/01/2025",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:45:19.237Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 20/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 20/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:44:31.953Z",
           "exercicio": "2023",
@@ -15830,14 +15837,13 @@
         "2023": {
           "data": "31/03/2026",
           "valor": 11918.36
-        }
-      },
-      "dda": {
+        },
         "2024": {
-          "feito": true,
-          "data": "20/01/2025"
+          "data": "31/03/2026",
+          "valor": 14715.16
         }
       },
+      "dda": {},
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
@@ -40706,9 +40712,10 @@
           "cpfCnpj": "296.620.796-53",
           "nome": "HELOIZA HELENA DA SILVA",
           "porExercicio": {
-            "2023": 11918.36
+            "2023": 11918.36,
+            "2024": 14715.16
           },
-          "total": 11918.36
+          "total": 26633.52
         }
       ]
     },
