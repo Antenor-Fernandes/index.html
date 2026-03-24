@@ -37821,8 +37821,17 @@
       "atencao": true,
       "temPer": false,
       "temRRA": true,
-      "exercicios": {},
+      "exercicios": {
+        "2025": "EM MALHA"
+      },
       "historico": [
+        {
+          "ts": "2026-03-24T19:45:08.233Z",
+          "exercicio": "2025",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T19:24:40.565Z",
           "exercicio": "2025",
@@ -37838,7 +37847,12 @@
         }
       ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "24/03/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
