@@ -24743,11 +24743,18 @@
         "2022": "PROCESSADA — 20.862,76 EM 28/03/2024",
         "2023": "PROCESSADA — 22.784,88 EM 28/03/2024",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 16/01/2025",
-        "2025": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 04/02/2026"
+        "2025": "PROCESSADA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 04/02/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-24T13:57:09.464Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 04/02/2026",
+          "para": "PROCESSADA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 04/02/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:56:56.140Z",
           "exercicio": "2024",
@@ -24802,6 +24809,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 28929.49
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 28321.76
         }
       },
       "dda": {},
@@ -41094,9 +41105,10 @@
           "cpfCnpj": "143.929.846-72",
           "nome": "MARCO AURÉLIO RAPOSO",
           "porExercicio": {
-            "2024": 28929.49
+            "2024": 28929.49,
+            "2025": 28321.76
           },
-          "total": 28929.49
+          "total": 57251.25
         }
       ]
     },
