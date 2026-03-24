@@ -3132,9 +3132,16 @@
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 10/03/2026",
         "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 10/03/2026",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 10/03/2026",
-        "2025": "EM FILA DE RESTITUIÇÃO — DDA FEITO EM 11/03/2026"
+        "2025": "PROCESSADA — DDA FEITO EM 11/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-24T13:32:06.715Z",
+          "exercicio": "2025",
+          "de": "EM FILA DE RESTITUIÇÃO — DDA FEITO EM 11/03/2026",
+          "para": "PROCESSADA — DDA FEITO EM 11/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:31:45.213Z",
           "exercicio": "2024",
@@ -3223,6 +3230,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 3609.33
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 6839.53
         }
       },
       "dda": {},
@@ -40455,9 +40466,10 @@
             "2021": 1441.14,
             "2022": 1696.17,
             "2023": 2372.39,
-            "2024": 3609.33
+            "2024": 3609.33,
+            "2025": 6839.53
           },
-          "total": 9119.03
+          "total": 15958.560000000001
         }
       ]
     },
