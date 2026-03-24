@@ -18696,10 +18696,17 @@
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-24T13:52:00.726Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T13:51:34.490Z",
           "exercicio": "2024",
@@ -18741,6 +18748,10 @@
         "2024": {
           "data": "31/03/2026",
           "valor": 290.55
+        },
+        "2025": {
+          "data": "31/03/2026",
+          "valor": 29
         }
       },
       "dda": {},
@@ -40931,9 +40942,10 @@
           "porExercicio": {
             "2022": 123.62,
             "2023": 628.9,
-            "2024": 290.55
+            "2024": 290.55,
+            "2025": 29
           },
-          "total": 1043.07
+          "total": 1072.07
         }
       ]
     },
