@@ -7021,7 +7021,7 @@
       "senhaGov": "",
       "observacoes": "TEVE COMPENSAÇÃO DE OFÍCIO NO EXERCÍCIO 2023",
       "exercicios": {
-        "2020": "R$ 4.830,68 - 30/05/2021",
+        "2020": "EM PROCESSAMENTO — R$ 4.830,68 - 30/05/2021",
         "2021": "PROCESSADA — 11.196,20 EM 31/03/2023",
         "2022": "PROCESSADA — 14.315,91 EM 31/03/2023",
         "2023": "PROCESSADA — 4.996,60 EM 30/12/2025",
@@ -7031,6 +7031,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2020": {
+          "data": "30/05/2021",
+          "valor": 4830.68
+        },
         "2021": {
           "data": "31/03/2023",
           "valor": 11196.2
@@ -7047,7 +7051,23 @@
           "data": "30/12/2025",
           "valor": 22514.87
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T19:39:53.921Z",
+          "exercicio": "2020",
+          "de": "R$ 4.830,68 - 30/05/2021",
+          "para": "EM PROCESSAMENTO — R$ 4.830,68 - 30/05/2021",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "25157957653",
