@@ -701,7 +701,7 @@ body.exercicios-level .full-edit-only{display:none!important}
 </div>
 
 <!-- MODAL EXERCÍCIO -->
-<div class="modal-overlay" id="modal-ex" style="display:none" onclick="if(event.target===this)this.style.display='none'">
+<div class="modal-overlay" id="modal-ex" style="display:none">
 <div class="modal modal-sm">
   <div class="modal-head">
     <span class="modal-title" id="ex-modal-title">Atualizar Exercício</span>
@@ -3130,10 +3130,13 @@ function addExPerEntry(pre){
       <div class="ex-per-field"><label style="color:var(--green)">💰 Valor Recebido (R$)</label>
         <input type="text" id="ex-per-vrec-${idx}" value="${pre?.valorRec?BRL(pre.valorRec):''}" placeholder="0,00" oninput="maskBRL(this)"></div>
     </div>
-    <label style="display:flex;align-items:center;gap:7px;margin-top:8px;cursor:pointer;font-size:12px;font-weight:600;color:#ef4444;user-select:none">
-      <input type="checkbox" id="ex-per-indf-${idx}" ${pre?.indeferido?'checked':''} style="accent-color:#ef4444;width:14px;height:14px">
-      Indeferido
-    </label>`;
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-top:8px">
+      <label style="display:flex;align-items:center;gap:7px;cursor:pointer;font-size:12px;font-weight:600;color:#ef4444;user-select:none">
+        <input type="checkbox" id="ex-per-indf-${idx}" ${pre?.indeferido?'checked':''} style="accent-color:#ef4444;width:14px;height:14px">
+        Indeferido
+      </label>
+      <button class="btn btn-primary btn-sm" onclick="saveExModal()" style="font-size:11px;padding:4px 10px">💾 Salvar</button>
+    </div>`;
   document.getElementById('ex-per-list').appendChild(div);
 }
 function collectExPerEntries(){
