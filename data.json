@@ -4757,7 +4757,7 @@
       "senhaGov": "Aa123456*",
       "observacoes": "1 PER EM 21/10/2024) - SENHA GOV.BR Aa123456*",
       "exercicios": {
-        "2016": "189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
+        "2016": "PROCESSADA — 189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
         "2017": "PROCESSADA — 858,89 EM 31/03/21 - TEM PERDCOMP",
         "2018": "PROCESSADA — 1799,94 EM 31/03/21 - TEM PERDCOMP",
         "2019": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP",
@@ -4809,6 +4809,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:24:39.038Z",
+          "exercicio": "2016",
+          "de": "189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
+          "para": "PROCESSADA — 189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:24:28.971Z",
           "exercicio": "2017",
