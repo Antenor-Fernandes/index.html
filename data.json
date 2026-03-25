@@ -7989,7 +7989,7 @@
       "temPer": true,
       "temRRA": false,
       "exercicios": {
-        "2018": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
+        "2018": "PROCESSADA — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
         "2019": "PROCESSADA — R$49.999,54 EM 29/01/2021 JÁ RECEBEU PER",
         "2020": "PROCESSADA — R$38.257,87 EM 29/01/2021 - JÁ RECEBEU PER",
         "2021": "PROCESSADA — 36.096,64 EM 31/01/2023",
@@ -7999,6 +7999,13 @@
         "2025": "PROCESSADA"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:27:44.525Z",
+          "exercicio": "2018",
+          "de": "EM PROCESSAMENTO — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
+          "para": "PROCESSADA — R$41.710,99 EM 29/01/2021 JÁ RECEBEU PER",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T17:38:27.036Z",
           "exercicio": "2023",
