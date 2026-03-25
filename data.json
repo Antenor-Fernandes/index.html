@@ -7182,6 +7182,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:44:26.680Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAR — PROCESSO ABERTO PARA RETIFICAÇÃO DA DIRPF PROTOCOLADO EM 21/08/2024. IMPROCEDENTE - LANÇAMENTO MANTIDO - IMPUGNAR?",
+          "para": "IMPUGNAR — PROCESSO ABERTO PARA RETIFICAÇÃO DA DIRPF PROTOCOLADO EM 21/08/2024. IMPROCEDENTE - LANÇAMENTO MANTIDO - IMPUGNAR?",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T18:05:49.739Z",
           "exercicio": "2020",
           "de": "PROCESSO ABERTO PARA RETIFICAÇÃO DA DIRPF PROTOCOLADO EM 21/08/2024",
@@ -7234,7 +7241,9 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "35903490697",
