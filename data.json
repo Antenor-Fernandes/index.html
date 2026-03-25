@@ -8734,7 +8734,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "IMPUGNAMOS DDA 14/07/2022 - RECEBEU EM DEZEMBRO - JÁ PAGOU HONORÁRIOS",
+        "2019": "PROCESSADA — IMPUGNAMOS DDA 14/07/2022 - RECEBEU EM DEZEMBRO - JÁ PAGOU HONORÁRIOS",
         "2020": "PROCESSADA — 119.244,12 EM 31/07/2023",
         "2021": "PROCESSADA — 125.162,08 EM 31/07/2023",
         "2022": "PROCESSADA — 119.556,67 EM 31/07/2023",
@@ -8769,7 +8769,23 @@
           "data": "30/05/2025",
           "valor": 7094.82
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T11:12:17.688Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAMOS DDA 14/07/2022 - RECEBEU EM DEZEMBRO - JÁ PAGOU HONORÁRIOS",
+          "para": "PROCESSADA — IMPUGNAMOS DDA 14/07/2022 - RECEBEU EM DEZEMBRO - JÁ PAGOU HONORÁRIOS",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "05615488620",
