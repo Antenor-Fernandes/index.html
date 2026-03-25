@@ -35735,7 +35735,7 @@
             "numero": "31166.45429.090625.2.2.04-2122",
             "valorPedido": 259.27,
             "dataTransmissao": "09/06/2025",
-            "obs": "",
+            "obs": "DESPACHO DECISÓRIO - CRÉDITO RECEBIDO NO PER 29418.81703.140825.2.2.04-1241",
             "dataRec": "",
             "valorRec": 0
           },
@@ -35816,6 +35816,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T15:58:09.350Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T15:41:14.867Z",
           "exercicio": "2022",
