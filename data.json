@@ -40260,6 +40260,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:22:13.150Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — 10.765,90 EM 31/10/2025",
+          "para": "PROCESSADA — 10.765,90 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:21:41.640Z",
           "exercicio": "2023",
           "de": "PROCESSADA — 6.794,01 EM 31/10/2025",
@@ -40360,8 +40367,8 @@
             "valorPedido": 8382,
             "dataTransmissao": "24/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0,
+            "dataRec": "20/01/2026",
+            "valorRec": 10102.82,
             "indeferido": false
           }
         ],
@@ -51180,9 +51187,10 @@
           "nome": "ORLANDO GERALDO RESENDE",
           "porExercicio": {
             "EXPERDCOMP-2022-0": 8903.69,
-            "EXPERDCOMP-2021-0": 7770.37
+            "EXPERDCOMP-2021-0": 7770.37,
+            "EXPERDCOMP-2024-0": 10102.82
           },
-          "total": 16674.06
+          "total": 26776.88
         }
       ]
     },
