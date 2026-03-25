@@ -35588,64 +35588,64 @@
           },
           {
             "numero": "15433.54706.140825.2.2.04-6206",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 277.28,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "18005.63631.140825.2.2.04-6881",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 797.46,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
-            "numero": "",
-            "valorPedido": 0,
-            "dataTransmissao": "",
-            "obs": "20575.67897.140825.2.2.04-3601",
+            "numero": "20575.67897.140825.2.2.04-3601",
+            "valorPedido": 261.29,
+            "dataTransmissao": "14/08/2025",
+            "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "25169.43414.140825.2.2.04-0494",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 274.7,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "29418.81703.140825.2.2.04-1241",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 259.27,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "29517.27524.140825.2.2.04-5548",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 254.62,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "31218.66959.140825.2.2.04-6715",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 12755.38,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "32822.43461.140825.2.2.04-0028",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 274.7,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
@@ -35695,6 +35695,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T14:52:34.699Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T14:48:40.248Z",
           "exercicio": "2022",
