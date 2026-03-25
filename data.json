@@ -28439,7 +28439,7 @@
       "observacoes": "TEM PER 2018 A 2022  -RECEBEU EM 20/01/2023 -PER 2023 FEITO EM 29/01/2024 RECEBIDO EM 22/07/2024 - PER 2024 FEITO EM 22/01/2025 E RECEBIDO EM 22/09/2025",
       "exercicios": {
         "2017": "IMPUGNAÇÃO EM 06/09/2022 - ORDEM BANCÁRIA PAGA EM 22/07/2024 - JÁ PAGOU OS HONORÁRIOS",
-        "2018": "3.401,01 30/09/2022",
+        "2018": "PROCESSADA — 3.401,01 30/09/2022",
         "2019": "PROCESSADA — 4.775,55 30/09/2022",
         "2020": "PROCESSADA — 11.363,36 30/09/2022",
         "2021": "PROCESSADA — 17.114,71 30/09/2022",
@@ -28451,6 +28451,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2018": {
+          "data": "30/09/2022",
+          "valor": 3401.01
+        },
         "2019": {
           "data": "30/06/2022",
           "valor": 4775.55
@@ -28481,6 +28485,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:33:42.167Z",
+          "exercicio": "2018",
+          "de": "3.401,01 30/09/2022",
+          "para": "PROCESSADA — 3.401,01 30/09/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:33:32.092Z",
           "exercicio": "2019",
