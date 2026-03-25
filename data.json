@@ -40727,6 +40727,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:37:13.693Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — 29.947,40 EM 30/09/2025",
+          "para": "PROCESSADA — 29.947,40 EM 30/09/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:35:57.122Z",
           "exercicio": "2025",
           "de": "PROCESSADA — 2.360,34 EM 30/09/2025",
@@ -40865,7 +40872,7 @@
             "dataTransmissao": "07/08/2025",
             "obs": "",
             "dataRec": "20/01/2026",
-            "valorRec": 0,
+            "valorRec": 4496.02,
             "indeferido": false
           }
         ],
@@ -51249,6 +51256,15 @@
             "EXPERDCOMP-2023-0": 10761.09
           },
           "total": 37537.97
+        },
+        {
+          "clienteId": "00815241615",
+          "cpfCnpj": "008.152.416-15",
+          "nome": "OTÁVIO LUIZ LACOMBE",
+          "porExercicio": {
+            "EXPERDCOMP-2021-0": 4496.02
+          },
+          "total": 4496.02
         }
       ]
     },
