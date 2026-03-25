@@ -47035,11 +47035,18 @@
       "exercicios": {
         "2020": "6076.71",
         "2021": "R$ 7.388,55 31/08/2022",
-        "2022": "R$ 6.761,58 31/08/2022",
+        "2022": "EM PROCESSAMENTO — R$ 6.761,58 31/08/2022",
         "2023": "PROCESSADA — JUNTAMOS APOSENTADORIA NO DDA - NÃO COBRAR HONORÁRIOS - 13.411,63 EM 28/02/2025",
         "2024": "PROCESSADA — 11.994,42 EM 28/02/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:51:16.402Z",
+          "exercicio": "2022",
+          "de": "R$ 6.761,58 31/08/2022",
+          "para": "EM PROCESSAMENTO — R$ 6.761,58 31/08/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:51:04.727Z",
           "exercicio": "2023",
@@ -47056,6 +47063,10 @@
         }
       ],
       "recebimentos": {
+        "2022": {
+          "data": "31/08/2022",
+          "valor": 6761.58
+        },
         "2024": {
           "data": "28/02/2025",
           "valor": 11994.42
