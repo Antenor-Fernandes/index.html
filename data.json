@@ -6838,8 +6838,7 @@
       "observacoes": "FAZER 2025 - SENHA GOV Govbr@2020",
       "exercicios": {
         "2023": "PROCESSADA — 9.795,37 EM 30/06/2025",
-        "2024": "PROCESSADA — 8.415,34 EM 30/06/2025",
-        "2025": "ENTROU COMO DEPENDENTE DE MARIA HELENA BRANT GARCEZ"
+        "2024": "PROCESSADA — 8.415,34 EM 30/06/2025"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -6852,7 +6851,16 @@
           "data": "30/06/2025",
           "valor": 8415.34
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T19:39:41.002Z",
+          "exercicio": "2025",
+          "de": "ENTROU COMO DEPENDENTE DE MARIA HELENA BRANT GARCEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "31546919600",
