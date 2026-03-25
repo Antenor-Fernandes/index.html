@@ -17734,7 +17734,7 @@
         "2022": "R$ 712,95 29/07/2022",
         "2023": "PROCESSADA — 1.182,79 EM 31/07/2023",
         "2024": "PROCESSADA — 1.297,81 EM 28/06/2024",
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
       "temPer": false,
       "recebimentos": {
@@ -17746,7 +17746,23 @@
           "data": "28/06/2024",
           "valor": 1297.81
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T10:26:13.971Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "11042150710",
