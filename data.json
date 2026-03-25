@@ -24595,6 +24595,16 @@
             "dataRec": "20/06/2024",
             "valorRec": 22563.5
           }
+        ],
+        "2022": [
+          {
+            "numero": "22039.15698.180123.2.2.04-1776",
+            "valorPedido": 44364.51,
+            "dataTransmissao": "18/01/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
         ]
       },
       "recebimentos": {
@@ -24620,6 +24630,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T12:45:28.669Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 95.806,57 EM 30/09/2024",
+          "para": "PROCESSADA — 95.806,57 EM 30/09/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T12:44:33.515Z",
           "exercicio": "2020",
