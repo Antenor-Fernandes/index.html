@@ -40134,11 +40134,18 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 03/02/2025",
+        "2024": "EM MALHA — MALHA RRA - DDA FEITO EM 03/02/2025",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-25T10:33:25.474Z",
+          "exercicio": "2024",
+          "de": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 03/02/2025",
+          "para": "EM MALHA — MALHA RRA - DDA FEITO EM 03/02/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T16:14:14.705Z",
           "exercicio": "2024",
@@ -40146,13 +40153,13 @@
           "para": "EM PROCESSAMENTO — MALHA RRA - DDA FEITO EM 03/02/2025"
         }
       ],
-      "recebimentos": {
+      "recebimentos": {},
+      "dda": {
         "2024": {
-          "data": "03/02/2025",
-          "valor": 0
+          "feito": true,
+          "data": "03/02/2025"
         }
       },
-      "dda": {},
       "impugnacoes": {},
       "exRRA": {
         "2024": {
@@ -40161,7 +40168,9 @@
         }
       },
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "07962649615",
