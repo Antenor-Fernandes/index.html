@@ -35124,6 +35124,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T13:53:29.633Z",
+          "exercicio": "2022",
+          "de": "EM MALHA",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-19T14:49:26.971Z",
           "exercicio": "2025",
           "de": "",
@@ -35178,8 +35185,8 @@
       "exPerdcomps": {
         "2022": [
           {
-            "numero": "",
-            "valorPedido": 0,
+            "numero": "13928.51745.190326.2.2.04-3913",
+            "valorPedido": 9552.54,
             "dataTransmissao": "19/03/2026",
             "obs": "",
             "dataRec": "",
@@ -35217,7 +35224,8 @@
           }
         ]
       },
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "02811860657",
