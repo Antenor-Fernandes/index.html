@@ -4758,7 +4758,7 @@
       "observacoes": "1 PER EM 21/10/2024) - SENHA GOV.BR Aa123456*",
       "exercicios": {
         "2016": "189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
-        "2017": "858,89 EM 31/03/21 - TEM PERDCOMP",
+        "2017": "PROCESSADA — 858,89 EM 31/03/21 - TEM PERDCOMP",
         "2018": "PROCESSADA — 1799,94 EM 31/03/21 - TEM PERDCOMP",
         "2019": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP",
         "2020": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP",
@@ -4771,6 +4771,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2017": {
+          "data": "31/03/2021",
+          "valor": 858.89
+        },
         "2018": {
           "data": "31/03/2021",
           "valor": 1799.94
@@ -4805,6 +4809,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:24:28.971Z",
+          "exercicio": "2017",
+          "de": "858,89 EM 31/03/21 - TEM PERDCOMP",
+          "para": "PROCESSADA — 858,89 EM 31/03/21 - TEM PERDCOMP",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:24:15.207Z",
           "exercicio": "2018",
