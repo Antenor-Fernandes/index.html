@@ -40489,7 +40489,17 @@
             "dataTransmissao": "16/04/2025",
             "obs": "",
             "dataRec": "21/11/2025",
-            "valorRec": 128.26
+            "valorRec": 128.26,
+            "indeferido": false
+          },
+          {
+            "numero": "39664.47683.070525.2.2.04-2063",
+            "valorPedido": 6408.65,
+            "dataTransmissao": "07/05/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
           }
         ]
       },
@@ -40518,7 +40528,22 @@
           "data": "30/09/2025",
           "valor": 5119.83
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T17:30:56.724Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — 6.792,63 EM 30/09/2025",
+          "para": "PROCESSADA — 6.792,63 EM 30/09/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "69826552615",
@@ -51715,6 +51740,15 @@
             "EXPERDCOMP-2023-0": 9998.01
           },
           "total": 9998.01
+        },
+        {
+          "clienteId": "13849832600",
+          "cpfCnpj": "138.498.326-00",
+          "nome": "OSCAR MATOS DE LEÃO",
+          "porExercicio": {
+            "EXPERDCOMP-2024-0": 128.26
+          },
+          "total": 128.26
         }
       ]
     },
