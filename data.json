@@ -28628,14 +28628,37 @@
       "cpfCnpj": "110.720.406-20",
       "tipo": "PF",
       "nome": "LUZIA ROSA DE OLIVEIRA",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": false,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "PER 2024 FEITO EM 24/09/2025 - PER 2025 FEITO EM 04/02/2026 - AVISAR A FILHA DA CLIENTE, JULIANA, TUDO O QUE FOR FEITO NA RECEITA.",
+      "atencao": true,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2024": "PROCESSADA — 3.388,47 EM 31/10/2025",
         "2025": "EM MALHA — MALHA DG - DDA 2025 FEITO EM 04/02/2026"
       },
-      "temPer": true,
       "historico": [
         {
           "ts": "2026-03-17T19:15:12.875Z",
@@ -28665,6 +28688,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -28688,7 +28712,9 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "37113429653",
