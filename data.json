@@ -35548,40 +35548,40 @@
         "2022": [
           {
             "numero": "03963.12808.140825.2.2.04-3005",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 270.33,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "09760.53112.140825.2.2.04-5953",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 274.7,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 272.34,
+            "dataTransmissao": "14/08/2025",
             "obs": "11598.32050.140825.2.2.04-2750",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "12125.64175.140825.2.2.04-0946",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 277.28,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "13797.92642.140825.2.2.04-3683",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 267.96,
+            "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
@@ -35695,6 +35695,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T14:48:40.248Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T14:46:45.612Z",
           "exercicio": "2022",
