@@ -46510,12 +46510,19 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2023": "IMPUGNAMOS EM 13/03/2025 - DEFERIMENTO PARCIAL",
+        "2023": "PROCESSADA — IMPUGNAMOS EM 13/03/2025 - DEFERIMENTO PARCIAL",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — ACEITAMOS A COMPENSAÇÃO DE OFÍCIO - DÉBITO NA PGFN DE 2017"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-25T10:00:10.512Z",
+          "exercicio": "2023",
+          "de": "IMPUGNAMOS EM 13/03/2025 - DEFERIMENTO PARCIAL",
+          "para": "PROCESSADA — IMPUGNAMOS EM 13/03/2025 - DEFERIMENTO PARCIAL",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T09:59:43.986Z",
           "exercicio": "2025",
