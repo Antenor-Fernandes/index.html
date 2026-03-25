@@ -27956,14 +27956,36 @@
       "cpfCnpj": "673.388.288-49",
       "tipo": "PF",
       "nome": "LUIZ CARLOS MORETTI",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "Cobrar proveito econômico original a pagar R$11.154,08 fazer per/dcomp proporcional - Per/dcomp proporcional no valor de R$ 4.028,60 feito em 03/02/2026, cobrar proveito economico )",
+      "atencao": true,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 03/02/2026"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-25T13:07:30.314Z",
@@ -27988,6 +28010,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -28002,8 +28025,8 @@
           }
         ]
       },
-      "exAtencao": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "27986160691",
