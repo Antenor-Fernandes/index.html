@@ -35731,7 +35731,7 @@
             "obs": "",
             "dataRec": "",
             "valorRec": 0,
-            "indeferido": false
+            "indeferido": true
           },
           {
             "numero": "22738.26266.090625.2.2.04-1317",
@@ -35868,6 +35868,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T16:56:43.409Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T16:55:45.693Z",
           "exercicio": "2022",
