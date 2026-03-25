@@ -47187,6 +47187,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T17:51:52.501Z",
+          "exercicio": "2023",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 06/02/2024 - PEDIDO DE PRIORIDADE NO CHAT FEITO EM 04/02/2025",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 06/02/2024 - PEDIDO DE PRIORIDADE NO CHAT FEITO EM 04/02/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:51:00.366Z",
           "exercicio": "2022",
           "de": "PROCESSADA — 25.610,66 EM 31/08/2023",
@@ -47337,6 +47344,17 @@
           {
             "numero": "11356.12801.140723.2.2.04-1407",
             "valorPedido": 41334.91,
+            "dataTransmissao": "14/07/2023",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ],
+        "2023": [
+          {
+            "numero": "33044.95947.140723.2.2.04-4129",
+            "valorPedido": 7439.71,
             "dataTransmissao": "14/07/2023",
             "obs": "",
             "dataRec": "",
