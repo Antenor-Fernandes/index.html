@@ -28352,7 +28352,15 @@
       "exercicios": {
         "2021": "PROCESSADA — 1.130,56 EM 27/02/2026"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-25T13:09:24.716Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — 1.130,56 EM 27/02/2026",
+          "para": "PROCESSADA — 1.130,56 EM 27/02/2026",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {
         "2021": {
           "data": "27/02/2026",
@@ -28364,7 +28372,18 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "19/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
       "exProcessos": {},
       "exAtencao": {}
     },
