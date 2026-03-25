@@ -39919,6 +39919,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:12:33.125Z",
+          "exercicio": "2025",
+          "de": "EM MALHA",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T18:30:09.680Z",
           "exercicio": "2023",
           "de": "EM MALHA",
@@ -39986,14 +39993,17 @@
         "2025": [
           {
             "numero": "24910.75844.160326.2.2.04-2150",
-            "valorPedido": 0,
+            "valorPedido": 986.44,
             "dataTransmissao": "16/03/2026",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "03983658814",
