@@ -312,12 +312,19 @@
       "temPer": false,
       "exercicios": {
         "2021": "PROCESSADA",
-        "2022": "EM PROCESSAMENTO — R$ 2.457,74 31/08/2022",
+        "2022": "PROCESSADA — R$ 2.457,74 31/08/2022",
         "2023": "PROCESSADA — 3.419,72 EM 31/07/2023",
         "2024": "PROCESSADA — 4.439,67 EM 31/07/2024",
         "2025": "PROCESSADA — 4.707,12 EM 30/09/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:37:24.172Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — R$ 2.457,74 31/08/2022",
+          "para": "PROCESSADA — R$ 2.457,74 31/08/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:17:26.155Z",
           "exercicio": "2022",
