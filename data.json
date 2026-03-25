@@ -35124,6 +35124,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T13:53:59.501Z",
+          "exercicio": "2023",
+          "de": "EM MALHA",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T13:53:29.633Z",
           "exercicio": "2022",
           "de": "EM MALHA",
@@ -35195,8 +35202,8 @@
         ],
         "2023": [
           {
-            "numero": "",
-            "valorPedido": 0,
+            "numero": "37113.91355.190326.2.2.04-5585",
+            "valorPedido": 9191.19,
             "dataTransmissao": "19/03/2026",
             "obs": "",
             "dataRec": "",
