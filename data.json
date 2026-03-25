@@ -25992,6 +25992,16 @@
             "dataRec": "20/02/2026",
             "valorRec": 15282.38
           }
+        ],
+        "2025": [
+          {
+            "numero": "17003.99922.181225.2.2.04-7093",
+            "valorPedido": 23048.46,
+            "dataTransmissao": "18/12/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
         ]
       },
       "recebimentos": {
@@ -26011,7 +26021,22 @@
           "data": "30/12/2025",
           "valor": 13498.87
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T12:51:51.285Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA — 13.498,87 EM 30/12/2025",
+          "para": "PROCESSADA — 13.498,87 EM 30/12/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "11633239772",
@@ -50133,7 +50158,7 @@
           "id": "06456890845",
           "cpfCnpj": "064.568.908-45",
           "nome": "KIKUE FUKUDA EGOSHI",
-          "total": 55611.28,
+          "total": 55611.280000000006,
           "porExercicio": {
             "2022": 16640.61,
             "2023": 12859.93,
