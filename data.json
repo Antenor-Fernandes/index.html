@@ -38364,7 +38364,35 @@
           "data": "31/10/2025",
           "valor": 4232.99
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T17:06:29.775Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — 1.294,27 EM 31/10/2025",
+          "para": "PROCESSADA — 1.294,27 EM 31/10/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "17451.36582.050925.2.2.04-0762",
+            "valorPedido": 5369.76,
+            "dataTransmissao": "05/09/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "37182820625",
