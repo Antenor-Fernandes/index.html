@@ -40260,6 +40260,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:17:35.464Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 5.133,34 EM 31/10/2025",
+          "para": "PROCESSADA — 5.133,34 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:16:53.570Z",
           "exercicio": "2021",
           "de": "PROCESSADA — 7.009,85 EM 31/10/2025",
@@ -40276,6 +40283,17 @@
           {
             "numero": "31174.67330.240725.2.2.04-7850",
             "valorPedido": 5102.69,
+            "dataTransmissao": "24/07/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ],
+        "2022": [
+          {
+            "numero": "16259.71144.240725.2.2.04-7087",
+            "valorPedido": 6157.04,
             "dataTransmissao": "24/07/2025",
             "obs": "",
             "dataRec": "",
