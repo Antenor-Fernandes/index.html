@@ -35644,8 +35644,8 @@
           },
           {
             "numero": "32822.43461.140825.2.2.04-0028",
-            "valorPedido": 270.33,
-            "dataTransmissao": "14/08/2025",
+            "valorPedido": 0,
+            "dataTransmissao": "",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
@@ -35695,6 +35695,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T14:46:45.612Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T14:46:24.598Z",
           "exercicio": "2022",
