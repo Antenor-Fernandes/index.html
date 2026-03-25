@@ -20251,6 +20251,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:45:22.701Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAR — 14.525,41 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
+          "para": "IMPUGNAR — 14.525,41 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T11:45:16.695Z",
           "exercicio": "2023",
           "de": "IMPUGNAR — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
@@ -20389,6 +20396,7 @@
         ]
       },
       "exAtencao": {
+        "2022": true,
         "2023": true
       },
       "exProcessos": {}
@@ -52734,6 +52742,15 @@
             "2023": 65029.27
           },
           "total": 127428.42
+        },
+        {
+          "clienteId": "02107437785",
+          "cpfCnpj": "021.074.377-85",
+          "nome": "JACINTA MARIA LÚCIO SARMENTO",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 317.38
+          },
+          "total": 317.38
         }
       ]
     },
