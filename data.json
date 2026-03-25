@@ -47768,7 +47768,7 @@
       "senhaGov": "Wlarutier2511@",
       "observacoes": "SENHA GOV Wlarutier2511@",
       "exercicios": {
-        "2021": "EM PROCESSAMENTO — IMPUGNAMOS EM 24/06/2025 - Impugnação 2021 foi pra DRJ ainda aguardando",
+        "2021": "IMPUGNAÇÃO — IMPUGNAMOS EM 24/06/2025 - Impugnação 2021 foi pra DRJ ainda aguardando",
         "2022": "PROCESSADA — IMPUGNAMOS EM 24/06/2025 - PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 16/09/2025 - DEFERIDO - IMPUGNAÇÃO DEFERIDA - ACOMPANHAR ORDEM BANCÁRIA  \"O valor da restituição, recalculado pela malha para R$ 0,00, passe a ser de R$ 24.313,80\"",
         "2023": "TRABALHO MANUAL RFB — MALHA DG - DDA FEITO EM 24/06/2025",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 24/06/2025",
@@ -47777,6 +47777,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T10:38:46.547Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — IMPUGNAMOS EM 24/06/2025 - Impugnação 2021 foi pra DRJ ainda aguardando",
+          "para": "IMPUGNAÇÃO — IMPUGNAMOS EM 24/06/2025 - Impugnação 2021 foi pra DRJ ainda aguardando",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:37:51.612Z",
           "exercicio": "2022",
@@ -47836,7 +47843,11 @@
           "data": "11/02/2026"
         }
       },
-      "impugnacoes": {},
+      "impugnacoes": {
+        "2021": {
+          "data": "24/06/2025"
+        }
+      },
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
