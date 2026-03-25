@@ -35545,6 +35545,16 @@
             "valorRec": 3349.45
           }
         ],
+        "2022": [
+          {
+            "numero": "03963.12808.140825.2.2.04-3005",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
         "2024": [
           {
             "numero": "23461.73040.090625.2.2.04-7962",
@@ -35587,7 +35597,22 @@
           "data": "31/07/2025",
           "valor": 58657.11
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T14:42:34.150Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "16381734604",
