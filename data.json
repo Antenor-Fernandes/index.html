@@ -20251,6 +20251,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:45:30.691Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBLVGBL",
+          "para": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBLVGBL",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T11:45:26.116Z",
           "exercicio": "2021",
           "de": "IMPUGNAR — 3.231,84 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
@@ -20403,6 +20410,7 @@
         ]
       },
       "exAtencao": {
+        "2020": true,
         "2021": true,
         "2022": true,
         "2023": true
