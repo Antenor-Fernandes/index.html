@@ -47187,6 +47187,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T17:54:05.563Z",
+          "exercicio": "2019",
+          "de": "PROCESSADA — 31.841,07 EM 31/08/2023",
+          "para": "PROCESSADA — 31.841,07 EM 31/08/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:53:38.181Z",
           "exercicio": "2020",
           "de": "PROCESSADA — 24.189,00 EM 31/08/2023",
@@ -47320,8 +47327,8 @@
             "valorPedido": 25150.4,
             "dataTransmissao": "14/07/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0,
+            "dataRec": "20/02/2024",
+            "valorRec": 33969.3,
             "indeferido": false
           }
         ],
@@ -58323,9 +58330,10 @@
           "cpfCnpj": "134.013.606-63",
           "nome": "THELMA MARIA MAGALHÃES PEREIRA -PER 2019 A 2023 FEITOS EM 14/07/2023",
           "porExercicio": {
-            "EXPERDCOMP-2020-0": 25536.44
+            "EXPERDCOMP-2020-0": 25536.44,
+            "EXPERDCOMP-2019-0": 33969.3
           },
-          "total": 25536.44
+          "total": 59505.740000000005
         }
       ]
     },
