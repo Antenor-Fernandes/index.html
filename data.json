@@ -51054,14 +51054,31 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "17.325,35 + 6.566,02 PERDCOMP 25/04/2020",
+        "2019": "PROCESSADA — 17.325,35 + 6.566,02 PERDCOMP 25/04/2020",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T19:46:05.405Z",
+          "exercicio": "2019",
+          "de": "17.325,35 + 6.566,02 PERDCOMP 25/04/2020",
+          "para": "PROCESSADA — 17.325,35 + 6.566,02 PERDCOMP 25/04/2020",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "63490030630",
