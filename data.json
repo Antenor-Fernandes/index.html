@@ -9091,8 +9091,7 @@
         "2021": "PROCESSADA — 30.179,44 EM 30/11/2023",
         "2022": "16.342,05 EM 30/09/2023 E 15.117,92 EM 30/11/2023",
         "2023": "PROCESSADA — 42.402,05 EM 31/10/2025",
-        "2024": "PROCESSADA — 30.556,57 EM 30/09/2025",
-        "2025": "CLIENTE TRANSMITIU"
+        "2024": "PROCESSADA — 30.556,57 EM 30/09/2025"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -9111,6 +9110,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:16:38.806Z",
+          "exercicio": "2025",
+          "de": "CLIENTE TRANSMITIU",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:16:31.996Z",
           "exercicio": "2018",
