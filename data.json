@@ -26398,6 +26398,13 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-25T12:54:34.381Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:52:17.563Z",
           "exercicio": "2025",
           "de": "MALHA ALUGUEL - DDA FEITO EM 02/02/2026",
@@ -26415,7 +26422,20 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2024": [
+          {
+            "numero": "32143.67496.170624.2.6.04-2040",
+            "valorPedido": 2051.39,
+            "dataTransmissao": "17/06/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "27803244653",
