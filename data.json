@@ -24566,7 +24566,7 @@
       "senhaGov": "Jose1949*",
       "observacoes": "TEM PER 2020 A 2022 FEITOS EM 18/01/2023 RECEBEU 2 EM 20/06/2024 - FALTA 1 - SENHA GOV Jose1949*",
       "exercicios": {
-        "2020": "NOTIFICAÇÃO DE LANÇAMENTO AUMENTANDO O IMPOSTO A PAGAR DE 1607,50 PARA 2284,93",
+        "2020": "PROCESSADA — NOTIFICAÇÃO DE LANÇAMENTO AUMENTANDO O IMPOSTO A PAGAR DE 1607,50 PARA 2284,93",
         "2021": "PROCESSADA — 37.249,26 em 30/04/2024",
         "2022": "PROCESSADA — 95.806,57 EM 30/09/2024",
         "2023": "PROCESSADA — 44.779,50 EM 30/09/2024",
@@ -24618,7 +24618,22 @@
           "data": "30/05/2025",
           "valor": 14319.94
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T12:44:33.515Z",
+          "exercicio": "2020",
+          "de": "NOTIFICAÇÃO DE LANÇAMENTO AUMENTANDO O IMPOSTO A PAGAR DE 1607,50 PARA 2284,93",
+          "para": "PROCESSADA — NOTIFICAÇÃO DE LANÇAMENTO AUMENTANDO O IMPOSTO A PAGAR DE 1607,50 PARA 2284,93",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "22192646615",
@@ -55285,6 +55300,21 @@
           "porExercicio": {
             "2024": 1924.44
           }
+        }
+      ]
+    },
+    {
+      "data": "20/06/2024",
+      "descricao": "Lote 20/06/2024",
+      "pagamentos": [
+        {
+          "clienteId": "22764887604",
+          "cpfCnpj": "227.648.876-04",
+          "nome": "JOSÉ OTÁVIO ESTEVES BECHO",
+          "porExercicio": {
+            "EXPERDCOMP-2020-0": 27778.96
+          },
+          "total": 27778.96
         }
       ]
     },
