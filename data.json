@@ -35794,7 +35794,7 @@
             "obs": "DESPACHO DECISÓRIO - CRÉDITO PAGO NO PER 29517.27524.140825.2.2.04-5548",
             "dataRec": "",
             "valorRec": 0,
-            "indeferido": false
+            "indeferido": true
           },
           {
             "numero": "31364.80072.090625.2.2.04-3159",
@@ -35868,6 +35868,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T16:55:15.121Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T16:54:16.449Z",
           "exercicio": "2022",
