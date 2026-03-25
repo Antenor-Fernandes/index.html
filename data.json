@@ -35904,9 +35904,28 @@
       "senhaGov": "",
       "observacoes": "AGUARDANDO NOMEAÇÃO DO INVENTARIANTE PARA CADASTRAR PROCURAÇÃO E RETIFICAR 2025",
       "exercicios": {
-        "2025": "TRANSMITIDA - RETIFICAR DEPOIS DA PROCURAÇÃO"
+        "2025": "TRANSMITIDA — RETIFICAR DEPOIS DA PROCURAÇÃO - AGUARDANDO NOMEAÇÃO DO INVENTARIANTE PARA CADASTRAR PROCURAÇÃO E RETIFICAR 2025"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T10:21:35.151Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA - RETIFICAR DEPOIS DA PROCURAÇÃO",
+          "para": "TRANSMITIDA — RETIFICAR DEPOIS DA PROCURAÇÃO - AGUARDANDO NOMEAÇÃO DO INVENTARIANTE PARA CADASTRAR PROCURAÇÃO E RETIFICAR 2025",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2025": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "34457917672",
