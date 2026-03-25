@@ -47005,23 +47005,39 @@
       "cpfCnpj": "529.156.036-34",
       "tipo": "PF",
       "nome": "SÔNIA MARIA SILVA ROSA",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "Sonia123* - RESCINDIU O CONTRATO EM DEZEMBRO DE 2024",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2020": "6076.71",
         "2021": "R$ 7.388,55 31/08/2022",
         "2022": "R$ 6.761,58 31/08/2022",
         "2023": "JUNTAMOS APOSENTADORIA NO DDA - NÃO COBRAR HONORÁRIOS - 13.411,63 EM 28/02/2025",
         "2024": "PROCESSADA — 11.994,42 EM 28/02/2025"
-      },
-      "temPer": false,
-      "doencaGrave": true,
-      "recebimentos": {
-        "2024": {
-          "data": "28/02/2025",
-          "valor": 11994.42
-        }
       },
       "historico": [
         {
@@ -47031,7 +47047,21 @@
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "recebimentos": {
+        "2024": {
+          "data": "28/02/2025",
+          "valor": 11994.42
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": [],
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "31239765649",
