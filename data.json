@@ -41616,9 +41616,26 @@
       "senhaGov": "",
       "observacoes": "FINAL DE ESPÓLIO",
       "exercicios": {
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T10:23:35.516Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "74330500604",
