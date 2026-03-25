@@ -45128,7 +45128,7 @@
         "2022": "2.195,16 31/05/2022",
         "2023": "PROCESSADA — 3.017,98 EM 31/05/2023",
         "2024": "PROCESSADA",
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
       "temPer": false,
       "recebimentos": {
@@ -45138,6 +45138,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:24:46.098Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:24:39.390Z",
           "exercicio": "2024",
