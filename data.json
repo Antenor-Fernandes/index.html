@@ -34289,7 +34289,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "IMPUGNAMOS EM 13/06/2023 - PEDIDO DE RECONSIDERAÇÃO EM 08/08/2023 - IMPUGNAÇÃO REFEITA EM 21/08/2023 - RESTITUIÇÃO RECEBIDA EM 05/10/2023",
+        "2019": "PROCESSADA — IMPUGNAMOS EM 13/06/2023 - PEDIDO DE RECONSIDERAÇÃO EM 08/08/2023 - IMPUGNAÇÃO REFEITA EM 21/08/2023 - RESTITUIÇÃO RECEBIDA EM 05/10/2023",
         "2020": "PROCESSADA — 40.210,96 EM 30/04/2024",
         "2021": "PROCESSADA — 42.585,81 EM 30/04/2024",
         "2022": "PROCESSADA — 37.653,61 EM 30/04/2024",
@@ -34320,7 +34320,23 @@
           "data": "31/07/2024",
           "valor": 18696.14
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T11:38:01.157Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAMOS EM 13/06/2023 - PEDIDO DE RECONSIDERAÇÃO EM 08/08/2023 - IMPUGNAÇÃO REFEITA EM 21/08/2023 - RESTITUIÇÃO RECEBIDA EM 05/10/2023",
+          "para": "PROCESSADA — IMPUGNAMOS EM 13/06/2023 - PEDIDO DE RECONSIDERAÇÃO EM 08/08/2023 - IMPUGNAÇÃO REFEITA EM 21/08/2023 - RESTITUIÇÃO RECEBIDA EM 05/10/2023",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "12836940697",
