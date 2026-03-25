@@ -9908,11 +9908,19 @@
         "2022": "PROCESSADA — 1.935,95 EM 30/01/2026",
         "2023": "PROCESSADA — 2.895,14 EM 30/01/2026",
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 19/12/2025",
-        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA FEITO EM 26/01/2026",
+        "2026": "TRANSMITIDA"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T11:50:37.649Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T18:17:55.053Z",
           "exercicio": "2021",
@@ -10022,7 +10030,9 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "05544831734",
