@@ -13198,9 +13198,28 @@
       "senhaGov": "",
       "observacoes": "PEDIDO DE REVISÃO DE DÉBITO 2017",
       "exercicios": {
-        "2017": "PEDIDO DE REVISÃO DE DÉBITO E REVISÃO DE PARCELAMENTO FEITO S EM 29/10/2024"
+        "2017": "PROCESSADA — PEDIDO DE REVISÃO DE DÉBITO E REVISÃO DE PARCELAMENTO FEITO EM 29/10/2024"
       },
-      "temPer": true
+      "temPer": true,
+      "historico": [
+        {
+          "ts": "2026-03-25T12:00:29.459Z",
+          "exercicio": "2017",
+          "de": "PEDIDO DE REVISÃO DE DÉBITO E REVISÃO DE PARCELAMENTO FEITO S EM 29/10/2024",
+          "para": "PROCESSADA — PEDIDO DE REVISÃO DE DÉBITO E REVISÃO DE PARCELAMENTO FEITO EM 29/10/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2017": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "51425319653",
