@@ -17729,7 +17729,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "R$ 505,92 - 31/08/2020",
+        "2020": "PROCESSADA — R$ 505,92 - 31/08/2020",
         "2021": "PROCESSADA — R$ 681,69 - 30/06/2021",
         "2022": "PROCESSADA — R$ 712,95 29/07/2022",
         "2023": "PROCESSADA — 1.182,79 EM 31/07/2023",
@@ -17738,6 +17738,10 @@
       },
       "temPer": false,
       "recebimentos": {
+        "2020": {
+          "data": "31/08/2020",
+          "valor": 505.92
+        },
         "2021": {
           "data": "30/06/2021",
           "valor": 681.69
@@ -17756,6 +17760,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:26:51.005Z",
+          "exercicio": "2020",
+          "de": "R$ 505,92 - 31/08/2020",
+          "para": "PROCESSADA — R$ 505,92 - 31/08/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:26:41.377Z",
           "exercicio": "2021",
@@ -64229,6 +64240,15 @@
             "2020": 1705.02
           },
           "total": 1705.02
+        },
+        {
+          "clienteId": "11696913667",
+          "cpfCnpj": "116.969.136-67",
+          "nome": "GUILHERME PINHEIRO SOARES VACCARI",
+          "porExercicio": {
+            "2020": 505.92
+          },
+          "total": 505.92
         }
       ]
     },
