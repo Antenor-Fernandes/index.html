@@ -25797,8 +25797,7 @@
         "2021": "PROCESSADA — 14.169,46 - 25/02/2022",
         "2022": "PROCESSADA — 14.060,11 EM 30/04/2024",
         "2023": "PROCESSADA — CLIENTE QUE FEZ - VAMOS FAZER O PROCESSO DE ISENÇÃO (15% DE HONORÁRIOS) - DDA FEITO EM 05/02/2024 - 15.831,14 EM 30/04/2024",
-        "2024": "PROCESSADA — 14.520,67 EM 31/05/2024",
-        "2025": "CLIENTE FEZ E RECUPEROU O IR RETIDO"
+        "2024": "PROCESSADA — 14.520,67 EM 31/05/2024"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -25837,6 +25836,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:05:11.412Z",
+          "exercicio": "2025",
+          "de": "CLIENTE FEZ E RECUPEROU O IR RETIDO",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:05:02.713Z",
           "exercicio": "2023",
