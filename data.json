@@ -25796,7 +25796,7 @@
         "2020": "PROCESSADA — 14.322,94 - 25/02/2022",
         "2021": "PROCESSADA — 14.169,46 - 25/02/2022",
         "2022": "PROCESSADA — 14.060,11 EM 30/04/2024",
-        "2023": "CLIENTE QUE FEZ - VAMOS FAZER O PROCESSO DE ISENÇÃO (15% DE HONORÁRIOS) - DDA FEITO EM 05/02/2024 - 15.831,14 EM 30/04/2024",
+        "2023": "PROCESSADA — CLIENTE QUE FEZ - VAMOS FAZER O PROCESSO DE ISENÇÃO (15% DE HONORÁRIOS) - DDA FEITO EM 05/02/2024 - 15.831,14 EM 30/04/2024",
         "2024": "PROCESSADA — 14.520,67 EM 31/05/2024",
         "2025": "CLIENTE FEZ E RECUPEROU O IR RETIDO"
       },
@@ -25827,11 +25827,31 @@
           "data": "30/04/2024",
           "valor": 14060.11
         },
+        "2023": {
+          "data": "30/04/2024",
+          "valor": 15831.14
+        },
         "2024": {
           "data": "31/05/2024",
           "valor": 14520.67
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T19:05:02.713Z",
+          "exercicio": "2023",
+          "de": "CLIENTE QUE FEZ - VAMOS FAZER O PROCESSO DE ISENÇÃO (15% DE HONORÁRIOS) - DDA FEITO EM 05/02/2024 - 15.831,14 EM 30/04/2024",
+          "para": "PROCESSADA — CLIENTE QUE FEZ - VAMOS FAZER O PROCESSO DE ISENÇÃO (15% DE HONORÁRIOS) - DDA FEITO EM 05/02/2024 - 15.831,14 EM 30/04/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "37931962672",
