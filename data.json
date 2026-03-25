@@ -19901,16 +19901,39 @@
       "cpfCnpj": "709.765.206-30",
       "tipo": "PF",
       "nome": "ISMAEL ACÁCIO FILHO",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "PEDIR REVISÃO DE DÉBITO APÓS RESULTADO DAS IMPUGNAÇÕES",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": false,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2018": "IMPUGNAÇÃO — FEITA EM 07/10/2025",
         "2019": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
         "2020": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
         "2021": "IMPUGNAÇÃO — FEITA EM 06/10/2025"
       },
-      "temPer": false,
       "historico": [
         {
           "ts": "2026-03-17T17:54:53.942Z",
@@ -19964,9 +19987,12 @@
           "data": "06/10/2025"
         }
       },
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "72841907600",
