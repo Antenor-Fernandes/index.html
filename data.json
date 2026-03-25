@@ -19932,9 +19932,16 @@
         "2018": "IMPUGNAÇÃO — FEITA EM 07/10/2025",
         "2019": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
         "2020": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
-        "2021": "IMPUGNAÇÃO — FEITA EM 06/10/2025"
+        "2021": "IMPUGNAÇÃO — FEITA EM 06/10/2025 - PARCIALMENTE PROCEDENTE: ERA R$5.079,86, FOI PARA R$1.795,22"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:26:59.726Z",
+          "exercicio": "2021",
+          "de": "IMPUGNAÇÃO — FEITA EM 06/10/2025",
+          "para": "IMPUGNAÇÃO — FEITA EM 06/10/2025 - PARCIALMENTE PROCEDENTE: ERA R$5.079,86, FOI PARA R$1.795,22",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T17:54:53.942Z",
           "exercicio": "2018",
