@@ -9087,7 +9087,7 @@
       "exercicios": {
         "2018": "PEDIDO PGFN EM 05/07/2023",
         "2019": "PEDIDO PGFN EM 05/07/2023",
-        "2020": "IMPUGNAMOS EM 09/08/2022 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 18/09/2025",
+        "2020": "IMPUGNAÇÃO — IMPUGNAMOS EM 09/08/2022 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 18/09/2025 E RECEBIDO COMO RECURSO VOLUNTÁRO AO CARF",
         "2021": "PROCESSADA — 30.179,44 EM 30/11/2023",
         "2022": "16.342,05 EM 30/09/2023 E 15.117,92 EM 30/11/2023",
         "2023": "PROCESSADA — 42.402,05 EM 31/10/2025",
@@ -9109,6 +9109,39 @@
           "data": "30/09/2025",
           "valor": 30556.57
         }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T11:15:44.151Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAMOS EM 09/08/2022 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 18/09/2025",
+          "para": "IMPUGNAÇÃO — IMPUGNAMOS EM 09/08/2022 - PEDIDO DE RECONSIDERAÇÃO FEITO EM 18/09/2025 E RECEBIDO COMO RECURSO VOLUNTÁRO AO CARF",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {
+        "2020": {
+          "data": "09/08/2022"
+        }
+      },
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2020": true
+      },
+      "exProcessos": {
+        "2020": [
+          {
+            "numero": "12154.731533/2021-03",
+            "valorPedido": 0,
+            "dataProtocolo": "18/09/2025",
+            "obs": "PEDIDO DE RECONSIDERAÇÃO FEITO EM 18/09/2025 E RECEBIDO COMO RECURSO VOLUNTÁRO AO CARF",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
       }
     },
     {
