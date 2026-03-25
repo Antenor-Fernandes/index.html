@@ -24631,6 +24631,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T12:47:11.643Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 95.806,57 EM 30/09/2024",
+          "para": "PROCESSADA — 95.806,57 EM 30/09/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T12:45:28.669Z",
           "exercicio": "2022",
           "de": "PROCESSADA — 95.806,57 EM 30/09/2024",
