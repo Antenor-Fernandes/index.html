@@ -42794,7 +42794,7 @@
         "2018": "EM PROCESSAMENTO - TRANSMITIDAS DA RFB",
         "2019": "PROCESSADA — 1.171,20 EM 31/08/2023",
         "2020": "PROCESSADA — 593,40 EM 31/08/2023",
-        "2021": "R$ 786,68 - 30/06/2021",
+        "2021": "PROCESSADA — R$ 786,68 - 30/06/2021",
         "2022": "PROCESSADA TEVE COMP DE OFÍCIO PEDIR REVISÃO",
         "2023": "PROCESSADA — 1.493,71 EM 31/08/2023",
         "2024": "PROCESSADA — 2.352,90 31/05/2024",
@@ -42810,6 +42810,10 @@
           "data": "31/08/2023",
           "valor": 593.4
         },
+        "2021": {
+          "data": "30/06/2021",
+          "valor": 786.68
+        },
         "2023": {
           "data": "31/08/2023",
           "valor": 1493.71
@@ -42824,6 +42828,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:34:25.583Z",
+          "exercicio": "2021",
+          "de": "R$ 786,68 - 30/06/2021",
+          "para": "PROCESSADA — R$ 786,68 - 30/06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:34:10.413Z",
           "exercicio": "2024",
