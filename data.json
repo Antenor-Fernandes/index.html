@@ -12570,7 +12570,7 @@
       "exercicios": {
         "2020": "IMPUGNAÇÃO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024 - IMPUGNAMOS EM 16/01/2025",
         "2021": "IMPUGNAÇÃO — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
-        "2022": "TRABALHO MANUAL RFB — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+        "2022": "PROCESSADA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2023": "PROCESSADA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
         "2024": "PROCESSADA — MALHA DG - DDA FEITO EM 16/01/2025",
         "2025": "PROCESSADA — 21,62 EM 30/05/2025"
@@ -12578,6 +12578,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T10:41:49.434Z",
+          "exercicio": "2022",
+          "de": "TRABALHO MANUAL RFB — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+          "para": "PROCESSADA — MALHA DG - RESPOSTA À INTIMAÇÃO EM 19/11/2024- IMPUGNAMOS EM 16/01/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:41:45.132Z",
           "exercicio": "2023",
