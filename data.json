@@ -41625,9 +41625,26 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "IMPUGNAÇÃO - FIZEMOS DDA EM 13/12/2021 - IMPROCEDENTE - NÃO TEM O QUE FAZER MAIS"
+        "2020": "PROCESSADA — FIZEMOS DDA EM 13/12/2021 - IMPROCEDENTE - NÃO TEM O QUE FAZER MAIS"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T11:39:15.775Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAÇÃO - FIZEMOS DDA EM 13/12/2021 - IMPROCEDENTE - NÃO TEM O QUE FAZER MAIS",
+          "para": "PROCESSADA — FIZEMOS DDA EM 13/12/2021 - IMPROCEDENTE - NÃO TEM O QUE FAZER MAIS",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "15447146615",
