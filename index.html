@@ -386,7 +386,7 @@ body.exercicios-level .full-edit-only{display:none!important}
       </div>
       <table>
         <thead><tr>
-          <th>Tipo</th><th>CPF / CNPJ</th><th>Nome</th><th>Acesso e-CAC</th><th>Últ. Exercício</th><th>Status</th><th></th>
+          <th>Tipo</th><th>CPF / CNPJ</th><th>Nome</th><th>Acesso e-CAC</th><th>Exercícios</th><th></th>
         </tr></thead>
         <tbody id="clients-tbody"></tbody>
       </table>
@@ -2054,17 +2054,17 @@ function renderTable(list){
   tbody.innerHTML=list.map(c=>{
     try{
     if(!c||!c.id||!c.nome)return'';
-    const le=getLastEx(c);
-    const cat=le?classifyStatus(le.status):null;
-    const qeBtn=(canEditExercicios()&&le)?`<span class="badge badge-${cat.cls}" style="cursor:pointer" onclick="event.stopPropagation();openQE('${c.id}','${le.year}',event)" title="Editar status rapidamente">${cat.label}</span>`
-      :(cat?`<span class="badge badge-${cat.cls}">${cat.label}</span>`:'<span style="color:var(--text3)">—</span>');
+    const exKeys=c.exercicios?Object.keys(c.exercicios).sort((a,b)=>b-a):[];
+    const exBadges=exKeys.length?exKeys.map(yr=>{
+      const cat=classifyStatus(c.exercicios[yr]);
+      return`<span class="badge badge-${cat.cls}" style="cursor:pointer;font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.3px;margin:1px 2px" onclick="event.stopPropagation();openExModal('${c.id}','${yr}')" title="${esc(c.exercicios[yr])}">${yr}</span>`;
+    }).join(''):'<span style="color:var(--text3);font-size:11px">—</span>';
     return`<tr onclick="openDetail('${c.id}')">
       <td><span class="badge badge-${(c.tipo||'').toLowerCase()}">${esc(c.tipo)}</span></td>
       <td class="td-doc">${esc(c.cpfCnpj)}</td>
       <td class="td-name">${statusDots(c)}${esc(c.nome)}${c.doencaGrave?'<br><span class="tag-doenca">🩺 Doença Grave</span>':''}${clientHasAtencao(c)?'<span style="margin-left:6px;font-size:10.5px;font-weight:700;color:#d97706;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.3);border-radius:4px;padding:1px 5px">⚠️ ATENÇÃO</span>':''}</td>
       <td>${c.acessoEcac?`<span class="acesso-tag">${esc(c.acessoEcac)}</span>`:'<span style="color:var(--text3)">—</span>'}</td>
-      <td style="font-family:'DM Mono',monospace;font-size:11.5px;color:var(--text2)">${le?le.year:'—'}</td>
-      <td>${qeBtn}</td>
+      <td style="white-space:normal;max-width:320px">${exBadges}</td>
       <td class="edit-only full-edit-only"><button class="btn btn-ghost btn-sm" onclick="event.stopPropagation();openEdit('${c.id}')">✏️</button></td>
     </tr>`;}catch(e){console.error('renderTable row error:',e);return'';}
   }).join('');
@@ -2905,8 +2905,14 @@ function openDetail(id){
             const clickAttr=`style="display:flex;align-items:center;margin-top:4px;font-size:11.5px;font-weight:600;cursor:pointer" onclick="event.stopPropagation();openExModal('${c.id}','${yr}',${i})"`;
             if(p.indeferido)
               return`<div ${clickAttr.replace('font-weight:600','font-weight:600;color:#ef4444;opacity:.75')}>${_perTag()}<span style="text-decoration:line-through">Indeferido${p.valorPedido?` ${fmtBRL(p.valorPedido)}`:''}</span>${numSpan}</div>`;
-            if(p.valorRec>0&&p.dataRec)
+            if(p.valorRec>0&&p.dataRec){
+              const parcial=p.valorPedido>0&&p.valorRec<(p.valorPedido-0.01);
+              if(parcial){
+                const diff=fmtBRL(p.valorPedido-p.valorRec);
+                return`<div ${clickAttr.replace('font-weight:600','font-weight:600;color:#f59e0b')}>${_perTag()}<span title="Pedido: ${fmtBRL(p.valorPedido)} — Diferença não creditada: ${diff}">⚠️ Def. parcial — ${fmtBRL(p.valorRec)} em ${p.dataRec}</span>${numSpan}</div>`;
+              }
               return`<div ${clickAttr.replace('font-weight:600','font-weight:600;color:var(--green)')}>${_perTag()}${fmtBRL(p.valorRec)} recebido em ${p.dataRec}${numSpan}</div>`;
+            }
             if(p.valorPedido>0||p.dataTransmissao)
               return`<div ${clickAttr.replace('font-weight:600','font-weight:600;color:var(--yellow)')}>${_perTag()}A receber${p.valorPedido?` ${fmtBRL(p.valorPedido)}`:''}${p.dataTransmissao?` — transm. ${p.dataTransmissao}`:''}${numSpan}</div>`;
             return`<div ${clickAttr.replace('font-weight:600','font-weight:600;color:var(--yellow)')}>${_perTag()}Sem dados${numSpan}</div>`;
@@ -3747,13 +3753,15 @@ function renderSidebarStats(){
   const gcapCount=allClients.filter(clientHasGCAP).length;
   const perCount=allClients.filter(clientHasPer).length;
   // Totais financeiros dos PERDCOMPs
-  let finAReceber=0,finRecebido=0,finIndeferido=0;
+  let finAReceber=0,finRecebido=0,finIndeferido=0,finParcialDiff=0;
   allClients.forEach(c=>{
     Object.values(c.exPerdcomps||{}).forEach(arr=>{
       if(!Array.isArray(arr))return;
       arr.forEach(p=>{
-        if(p.valorRec>0&&p.dataRec){finRecebido+=p.valorRec;}
-        else if(p.indeferido){finIndeferido+=p.valorPedido||0;}
+        if(p.valorRec>0&&p.dataRec){
+          finRecebido+=p.valorRec;
+          if(p.valorPedido>0&&p.valorRec<(p.valorPedido-0.01))finParcialDiff+=(p.valorPedido-p.valorRec);
+        }else if(p.indeferido){finIndeferido+=p.valorPedido||0;}
         else if(p.valorPedido>0){finAReceber+=p.valorPedido;}
       });
     });
@@ -3775,6 +3783,7 @@ function renderSidebarStats(){
     <div style="font-size:9.5px;font-weight:700;letter-spacing:.7px;color:rgba(255,255,255,.3);text-transform:uppercase;padding:2px 4px 3px">Financeiro PER</div>
     <div class="stat-row" title="Total de PERDCOMPs pendentes (transmitidos, sem recebimento)"><span class="stat-label" style="color:var(--yellow)">A receber</span><span class="stat-val" style="color:var(--yellow);font-size:10px">${fmtM(finAReceber)}</span></div>
     <div class="stat-row" title="Total já creditado via PERDCOMP"><span class="stat-label" style="color:var(--green)">Recebido</span><span class="stat-val" style="color:var(--green);font-size:10px">${fmtM(finRecebido)}</span></div>
+    ${finParcialDiff>0?`<div class="stat-row" title="Diferença não creditada em deferimentos parciais"><span class="stat-label" style="color:#f59e0b">Def. parcial</span><span class="stat-val" style="color:#f59e0b;font-size:10px">${fmtM(finParcialDiff)}</span></div>`:''}
     ${finIndeferido>0?`<div class="stat-row" title="Total de PERDCOMPs indeferidos pela RFB"><span class="stat-label" style="color:#ef4444">Indeferido</span><span class="stat-val" style="color:#ef4444;font-size:10px">${fmtM(finIndeferido)}</span></div>`:''}
     `;
 }
