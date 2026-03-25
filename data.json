@@ -3526,12 +3526,19 @@
         "2021": "PROCESSADA — 5.548,52 EM 31/10/2025",
         "2022": "PROCESSADA — 4.328,45 EM 31/10/2025",
         "2023": "PROCESSADA — 5.336,54 EM 31/10/2025",
-        "2024": "IMPUGNAÇÃO — IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE IMPUGNAÇÃO FEITA EM 02/03/2026",
+        "2024": "IMPUGNAÇÃO — IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE IMPUGNAÇÃO FEITA EM 02/03/2026 - PROCEDENTE - DESPACHO DECISÓRIO NO PROCESSO 10600.720961/2026-76",
         "2025": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2026"
       },
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T11:08:50.999Z",
+          "exercicio": "2024",
+          "de": "IMPUGNAÇÃO — IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE IMPUGNAÇÃO FEITA EM 02/03/2026",
+          "para": "IMPUGNAÇÃO — IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE IMPUGNAÇÃO FEITA EM 02/03/2026 - PROCEDENTE - DESPACHO DECISÓRIO NO PROCESSO 10600.720961/2026-76",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:04:30.221Z",
           "exercicio": "2024",
@@ -3683,14 +3690,16 @@
       "uf": "MG",
       "cep": "30320-330",
       "dataContrato": "10/05/2023",
-      "exAtencao": {},
+      "exAtencao": {
+        "2024": true
+      },
       "exProcessos": {
         "2024": [
           {
             "numero": "10600.720961/2026-76",
             "valorPedido": 7087.63,
             "dataProtocolo": "03/03/2026",
-            "obs": "Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+            "obs": "Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026 - LANÇAMENTO IMPROCEDENTE / RETIFICADORA  ACEITA",
             "dataRec": "",
             "valorRec": 0
           }
