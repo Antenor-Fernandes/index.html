@@ -584,13 +584,20 @@
       "temPer": false,
       "exercicios": {
         "2020": "R$ 170,82 - 31/07/2020",
-        "2021": "R$ 170,82 - 30/06/2021",
+        "2021": "PROCESSADA — R$ 170,82 - 30/06/2021",
         "2022": "PROCESSADA — 85,43 EM 31/05/2024",
         "2023": "PROCESSADA — 652,69 EM 31/05/2024",
         "2024": "PROCESSADA — 1.262,37  EM 28/06/2024",
         "2025": "PROCESSADA — 1.396,48 EM 30/09/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:17:40.170Z",
+          "exercicio": "2021",
+          "de": "R$ 170,82 - 30/06/2021",
+          "para": "PROCESSADA — R$ 170,82 - 30/06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-11T17:36:58.343Z",
           "exercicio": "2025",
@@ -600,6 +607,10 @@
       ],
       "doencaGrave": true,
       "recebimentos": {
+        "2021": {
+          "data": "30/06/2021",
+          "valor": 170.82
+        },
         "2022": {
           "data": "31/05/2024",
           "valor": 85.43
@@ -612,7 +623,14 @@
           "data": "28/06/2024",
           "valor": 1262.37
         }
-      }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "04471326872",
