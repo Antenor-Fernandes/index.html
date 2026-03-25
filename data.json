@@ -37125,6 +37125,13 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:38:15.703Z",
+          "exercicio": "2024",
+          "de": "IMPUGNAÇÃO — RECURSO AO CARF FEITO EM 04/09/2024",
+          "para": "IMPUGNAÇÃO — RECURSO AO CARF FEITO EM 04/09/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T10:32:36.943Z",
           "exercicio": "2024",
           "de": "EM PROCESSAMENTO — RECURSO AO CARF FEITO EM 04/09/2024",
@@ -37157,7 +37164,9 @@
           }
         ]
       },
-      "exAtencao": {}
+      "exAtencao": {
+        "2024": true
+      }
     },
     {
       "id": "20108672620",
