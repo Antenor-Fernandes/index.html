@@ -47449,7 +47449,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "EM PROCESSAMENTO — R$ 715,08 - 31/08/2020",
+        "2020": "PROCESSADA — R$ 715,08 - 31/08/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
@@ -47458,6 +47458,13 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-25T19:50:04.220Z",
+          "exercicio": "2020",
+          "de": "EM PROCESSAMENTO — R$ 715,08 - 31/08/2020",
+          "para": "PROCESSADA — R$ 715,08 - 31/08/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:49:58.900Z",
           "exercicio": "2020",
