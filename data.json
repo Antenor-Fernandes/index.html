@@ -33436,6 +33436,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T13:22:00.685Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 17.621,95 EM 30/09/2024",
+          "para": "PROCESSADA — 17.621,95 EM 30/09/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T13:20:47.779Z",
           "exercicio": "2025",
           "de": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
@@ -33601,8 +33608,8 @@
             "valorPedido": 16631.99,
             "dataTransmissao": "29/09/2023",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/01/2025",
+            "valorRec": 21810.96
           }
         ],
         "2023": [
@@ -53830,6 +53837,21 @@
           "porExercicio": {
             "2020": 657.09
           }
+        }
+      ]
+    },
+    {
+      "data": "20/01/2025",
+      "descricao": "Lote 20/01/2025",
+      "pagamentos": [
+        {
+          "clienteId": "59218363620",
+          "cpfCnpj": "592.183.636-20",
+          "nome": "MARIA ELLENA CYRINO FRATEZZI",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 21810.96
+          },
+          "total": 21810.96
         }
       ]
     },
