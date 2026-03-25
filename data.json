@@ -26230,7 +26230,7 @@
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "TRANSMITIDA",
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
       "temPer": false,
       "recebimentos": {
@@ -26238,7 +26238,23 @@
           "data": "31/05/2021",
           "valor": 1957.37
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T10:18:01.187Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "56982666620",
