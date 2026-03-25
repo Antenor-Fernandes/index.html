@@ -41259,7 +41259,7 @@
       "senhaGov": "",
       "observacoes": "42 PER DO PARCELAMENTO REVISTO FEITOS EM 25/11/2025 - RECEBIDOS EM 20/02/2026",
       "exercicios": {
-        "2019": "IMPUGNAÇÃO INTEMPESTIVA - RRA - EXCLUSÃO DOS JUROS - PROCEDENTE",
+        "2019": "PROCESSADA — INTEMPESTIVA - RRA - EXCLUSÃO DOS JUROS - PROCEDENTE",
         "2022": "PROCESSADA — 513,48 31/05/2022",
         "2023": "PROCESSADA — 992,85 EM 31/05/2023",
         "2024": "PROCESSADA — 921,09 EM 28/06/2024",
@@ -41285,6 +41285,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:39:02.277Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAÇÃO INTEMPESTIVA - RRA - EXCLUSÃO DOS JUROS - PROCEDENTE",
+          "para": "PROCESSADA — INTEMPESTIVA - RRA - EXCLUSÃO DOS JUROS - PROCEDENTE",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:38:55.438Z",
           "exercicio": "2022",
