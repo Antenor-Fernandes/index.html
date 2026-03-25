@@ -7007,7 +7007,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "IMPUGNAÇÃO - FIZEMOS DDA EM 27/04/2022 - PROCEDENTE - PAGOU HONORÁRIOS EM 29/10/2024",
+        "2020": "PROCESSADA — FIZEMOS DDA EM 27/04/2022 - PROCEDENTE - PAGOU HONORÁRIOS EM 29/10/2024",
         "2021": "PROCESSADA — 1.487,14 EM 31/07/2023",
         "2022": "PROCESSADA — 624,74 EM 29/12/2022",
         "2023": "PROCESSADA — 338,49 EM 31/08/2023",
@@ -7028,7 +7028,23 @@
           "data": "31/08/2023",
           "valor": 338.49
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T11:11:05.247Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAÇÃO - FIZEMOS DDA EM 27/04/2022 - PROCEDENTE - PAGOU HONORÁRIOS EM 29/10/2024",
+          "para": "PROCESSADA — FIZEMOS DDA EM 27/04/2022 - PROCEDENTE - PAGOU HONORÁRIOS EM 29/10/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "04973100668",
