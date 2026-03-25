@@ -35652,96 +35652,96 @@
           },
           {
             "numero": "02420.57766.090625.2.2.04-0799",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 277.27,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "18284.82302.090625.2.2.04-9504",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 261.29,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "22738.26266.090625.2.2.04-1317",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 12755.38,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "26117.49700.090625.2.2.04-9903",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 274.69,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "27257.15793.090625.2.2.04-4007",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 272.34,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "28554.73099.090625.2.2.04-8538",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 797.46,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "30760.99984.090625.2.2.04-2264",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 270.33,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "31166.45429.090625.2.2.04-2122",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 259.27,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "31257.70270.090625.2.2.04-1600",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 254.62,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "31364.80072.090625.2.2.04-3159",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 267.96,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "32813.53736.090625.2.2.04-4009",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 277.28,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
           },
           {
             "numero": "40181.93355.090625.2.2.04-3200",
-            "valorPedido": 0,
-            "dataTransmissao": "",
+            "valorPedido": 274.7,
+            "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
@@ -35791,6 +35791,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T15:08:08.820Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T15:04:33.792Z",
           "exercicio": "2022",
