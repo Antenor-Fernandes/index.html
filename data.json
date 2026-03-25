@@ -35615,8 +35615,8 @@
             "valorPedido": 274.7,
             "dataTransmissao": "14/08/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 314.8
           },
           {
             "numero": "29418.81703.140825.2.2.04-1241",
@@ -35687,8 +35687,8 @@
             "valorPedido": 272.34,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 314.78
           },
           {
             "numero": "28554.73099.090625.2.2.04-8538",
@@ -35791,6 +35791,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T15:19:37.411Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T15:17:34.664Z",
           "exercicio": "2022",
@@ -50494,9 +50501,11 @@
           "nome": "MARIA LÚCIA MENDES LOUREIRO",
           "porExercicio": {
             "EXPERDCOMP-2022-13": 314.99,
-            "EXPERDCOMP-2022-15": 14493.87
+            "EXPERDCOMP-2022-15": 14493.87,
+            "EXPERDCOMP-2022-8": 314.8,
+            "EXPERDCOMP-2022-17": 314.78
           },
-          "total": 14808.86
+          "total": 15438.44
         }
       ]
     },
