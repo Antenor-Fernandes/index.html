@@ -29514,7 +29514,7 @@
       "senhaGov": "",
       "observacoes": "53 PER FEITOS EM 28/01/2025",
       "exercicios": {
-        "2019": "EM PROCESSAMENTO",
+        "2019": "PROCESSADA",
         "2020": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 29.043,35 EM 31/01/2025",
         "2021": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 36.977,29 EM 31/01/2025",
         "2022": "PROCESSADA — MALHA DG - DDA FEITO EM 28/11/2024 - 34.625,22 EM 31/01/2025",
@@ -29525,6 +29525,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T10:30:35.387Z",
+          "exercicio": "2019",
+          "de": "EM PROCESSAMENTO",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T14:17:12.756Z",
           "exercicio": "2019",
@@ -29624,7 +29631,8 @@
           }
         ]
       },
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "42120306672",
