@@ -20841,6 +20841,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T12:30:20.573Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 12.926,18 EM 27/02/2026",
+          "para": "PROCESSADA — 12.926,18 EM 27/02/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T12:30:03.013Z",
           "exercicio": "2022",
           "de": "PROCESSADA — 16.822,38 EM 27/02/2026",
@@ -20886,7 +20893,7 @@
         ],
         "2023": [
           {
-            "numero": "",
+            "numero": "37676.67095.261125.2.2.04-2778",
             "valorPedido": 0,
             "dataTransmissao": "26/11/2025",
             "obs": "",
