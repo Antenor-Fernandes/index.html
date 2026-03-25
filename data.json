@@ -30025,7 +30025,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "IMPUGNAMOS EM 27/06/2023",
+        "2019": "PROCESSADA — IMPUGNAMOS EM 27/06/2023",
         "2021": "PROCESSADA — IMPUGNAMOS EM 27/06/2023",
         "2022": "PROCESSADA — IMPUGNAMOS EM 27/06/2023 - RESTITUIÇÃO DE 2.093,55 EM 21/12/2024",
         "2023": "PROCESSADA - DEVOLUÇÃO DE RESTITUIÇÃO INDEVIDA",
@@ -30034,6 +30034,13 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-25T11:36:04.761Z",
+          "exercicio": "2019",
+          "de": "IMPUGNAMOS EM 27/06/2023",
+          "para": "PROCESSADA — IMPUGNAMOS EM 27/06/2023",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:36:00.055Z",
           "exercicio": "2021",
