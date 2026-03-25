@@ -1612,6 +1612,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T10:53:09.812Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAÇÃO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
+          "para": "IMPUGNAÇÃO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T17:04:29.068Z",
           "exercicio": "2021",
           "de": "2.203,33 EM 30/12/2025",
@@ -1668,7 +1675,20 @@
       },
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {
+        "2022": [
+          {
+            "numero": "10600.726456/2025-54",
+            "valorPedido": 6040.36,
+            "dataProtocolo": "30/12/2025",
+            "obs": "RETIFICAÇÃO DE OFÍCIO PARA ISENÇÃO DA DG",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "10421564687",
