@@ -7021,7 +7021,7 @@
       "senhaGov": "",
       "observacoes": "TEVE COMPENSAÇÃO DE OFÍCIO NO EXERCÍCIO 2023",
       "exercicios": {
-        "2020": "EM PROCESSAMENTO — R$ 4.830,68 - 30/05/2021",
+        "2020": "PROCESSADA — R$ 4.830,68 - 30/05/2021",
         "2021": "PROCESSADA — 11.196,20 EM 31/03/2023",
         "2022": "PROCESSADA — 14.315,91 EM 31/03/2023",
         "2023": "PROCESSADA — 4.996,60 EM 30/12/2025",
@@ -7053,6 +7053,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:39:59.067Z",
+          "exercicio": "2020",
+          "de": "EM PROCESSAMENTO — R$ 4.830,68 - 30/05/2021",
+          "para": "PROCESSADA — R$ 4.830,68 - 30/05/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:39:53.921Z",
           "exercicio": "2020",
