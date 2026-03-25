@@ -17596,9 +17596,26 @@
       "senhaGov": "",
       "observacoes": "FINAL DE ESPÓLIO",
       "exercicios": {
-        "2025": "TRANSMITIDA - DDA FEITO EM 28/01/2026"
+        "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T10:14:57.843Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA - DDA FEITO EM 28/01/2026",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "06169513616",
