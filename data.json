@@ -40260,6 +40260,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:20:37.471Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 5.133,34 EM 31/10/2025",
+          "para": "PROCESSADA — 5.133,34 EM 31/10/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:19:50.552Z",
           "exercicio": "2025",
           "de": "PROCESSADA — 9.000,39 EM 31/10/2025",
@@ -40317,8 +40324,8 @@
             "valorPedido": 6157.04,
             "dataTransmissao": "24/07/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0,
+            "dataRec": "20/01/2026",
+            "valorRec": 8903.69,
             "indeferido": false
           }
         ],
@@ -51143,6 +51150,15 @@
             "EXPERDCOMP-2024-0": 13053.76
           },
           "total": 13053.76
+        },
+        {
+          "clienteId": "03834760625",
+          "cpfCnpj": "038.347.606-25",
+          "nome": "ORLANDO GERALDO RESENDE",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 8903.69
+          },
+          "total": 8903.69
         }
       ]
     },
