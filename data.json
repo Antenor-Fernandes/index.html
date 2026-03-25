@@ -40777,8 +40777,7 @@
         "2021": "6.716,93 - 29/12/2022",
         "2022": "PROCESSADA — 159.112,45 EM 30/04/2024",
         "2023": "PROCESSADA — 13.162,59 EM 30/04/2024",
-        "2024": "PROCESSADA — 11.603,52 EM 31/05/2024",
-        "2025": "CLIENTE TRANSMITIU E JÁ RECUPEROU O IR RETIDO"
+        "2024": "PROCESSADA — 11.603,52 EM 31/05/2024"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -40795,7 +40794,16 @@
           "data": "31/05/2024",
           "valor": 11603.52
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T09:44:02.537Z",
+          "exercicio": "2025",
+          "de": "CLIENTE TRANSMITIU E JÁ RECUPEROU O IR RETIDO",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "16044592634",
