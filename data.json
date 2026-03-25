@@ -47640,7 +47640,7 @@
       "exercicios": {
         "2020": "PROCESSADA — 465,02 - 29/05/2020",
         "2021": "PROCESSADA — 238,02 - 31/05/2021",
-        "2022": "EM PROCESSAMENTO — 118,79 31/05/2022",
+        "2022": "PROCESSADA — 118,79 31/05/2022",
         "2023": "PROCESSADA — 116,63 EM 31/05/2023",
         "2024": "PROCESSADA — 159,28 EM 31/05/2024",
         "2025": "PROCESSADA"
@@ -47669,6 +47669,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:49:40.128Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — 118,79 31/05/2022",
+          "para": "PROCESSADA — 118,79 31/05/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:48:57.696Z",
           "exercicio": "2022",
