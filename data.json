@@ -30027,12 +30027,29 @@
       "exercicios": {
         "2019": "IMPUGNAMOS EM 27/06/2023",
         "2021": "IMPUGNAMOS EM 27/06/2023",
-        "2022": "IMPUGNAMOS EM 27/06/2023 - RESTITUIÇÃO DE 2.093,55 EM 21/12/2024",
+        "2022": "PROCESSADA — IMPUGNAMOS EM 27/06/2023 - RESTITUIÇÃO DE 2.093,55 EM 21/12/2024",
         "2023": "PROCESSADA - DEVOLUÇÃO DE RESTITUIÇÃO INDEVIDA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T11:35:53.900Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAMOS EM 27/06/2023 - RESTITUIÇÃO DE 2.093,55 EM 21/12/2024",
+          "para": "PROCESSADA — IMPUGNAMOS EM 27/06/2023 - RESTITUIÇÃO DE 2.093,55 EM 21/12/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "06949144873",
