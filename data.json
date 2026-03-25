@@ -31252,7 +31252,7 @@
         "2018": "PROCESSADA — 7.475,01 31/03/2022",
         "2019": "PROCESSADA — 6.573,74 31/03/2022",
         "2020": "PROCESSADA — FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
-        "2021": "EM PROCESSAMENTO — 3.016,28 31/03/2022",
+        "2021": "PROCESSADA — 3.016,28 31/03/2022",
         "2022": "PROCESSADA — 7.493,79 EM 31/05/2024",
         "2023": "PROCESSADA — 7.629,75 EM 31/05/2024",
         "2024": "PROCESSADA — 9.609,59 EM 31/05/2024",
@@ -31295,6 +31295,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:37:41.489Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — 3.016,28 31/03/2022",
+          "para": "PROCESSADA — 3.016,28 31/03/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:37:31.625Z",
           "exercicio": "2017",
