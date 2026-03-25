@@ -20841,13 +20841,38 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T12:29:10.681Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — 12.926,18 EM 27/02/2026",
+          "para": "PROCESSADA — 12.926,18 EM 27/02/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T12:27:20.461Z",
           "exercicio": "2021",
           "de": "JÁ INFORMOU ISENÇÃO NA ORIGINAL",
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {
+        "2023": [
+          {
+            "numero": "29271.49269.261125.2.2.04-1344",
+            "valorPedido": 0,
+            "dataTransmissao": "26/11/2025",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "43855172668",
