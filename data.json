@@ -20240,7 +20240,7 @@
       "senhaGov": "Camocic2402$$",
       "observacoes": "SENHA GOV Camocic2402$$ - PER 2022 E 2024 FEITOS EM 20/01/2025 - PER 2021 DE 234,82 DEFERIDO (VER SE RECEBEU PQ NÃO VEIO MSG NA CAIXA POSTAL). 2024 EM ANÁLISE EM 19/02/2026",
       "exercicios": {
-        "2020": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBLVGBL",
+        "2020": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
         "2021": "IMPUGNAR — 3.231,84 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
         "2022": "IMPUGNAR — 14.525,41 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
         "2023": "IMPUGNAR — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
@@ -20250,6 +20250,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T11:45:38.850Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBLVGBL",
+          "para": "IMPUGNAR — 20.883,43 EM 29/11/2024 - TEVE NL - IMPUGNAÇÃO FEITA EM 20/01/2025 - INDEFERIDA - VGBL",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:45:30.691Z",
           "exercicio": "2020",
