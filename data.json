@@ -48627,7 +48627,7 @@
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
         "2020": "PROCESSADA — 1.109,15 - 30/06/2020",
-        "2021": "R$ 632,42 - 30/06/2021",
+        "2021": "EM PROCESSAMENTO — R$ 632,42 - 30/06/2021",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
@@ -48638,8 +48638,28 @@
         "2020": {
           "data": "30/06/2020",
           "valor": 1109.15
+        },
+        "2021": {
+          "data": "30/06/2021",
+          "valor": 632.42
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T19:48:36.290Z",
+          "exercicio": "2021",
+          "de": "R$ 632,42 - 30/06/2021",
+          "para": "EM PROCESSAMENTO — R$ 632,42 - 30/06/2021",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "03980092607",
