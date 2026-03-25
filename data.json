@@ -4759,7 +4759,7 @@
       "exercicios": {
         "2016": "189,97 - TEVE COMPENSAÇÃO - RETIFICAMOS -FIZEMOS DDA PARA CANCELAR A COMPENSAÇÃO - TEM PERDCOMP",
         "2017": "858,89 EM 31/03/21 - TEM PERDCOMP",
-        "2018": "1799,94 EM 31/03/21 - TEM PERDCOMP",
+        "2018": "PROCESSADA — 1799,94 EM 31/03/21 - TEM PERDCOMP",
         "2019": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP",
         "2020": "PROCESSADA — 2356,91 EM 31/03/21 - TEM PERDCOMP",
         "2021": "PROCESSADA — 2.447,02 30/09/2022",
@@ -4771,6 +4771,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2018": {
+          "data": "31/03/2021",
+          "valor": 1799.94
+        },
         "2019": {
           "data": "31/03/2021",
           "valor": 2356.91
@@ -4801,6 +4805,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T19:24:15.207Z",
+          "exercicio": "2018",
+          "de": "1799,94 EM 31/03/21 - TEM PERDCOMP",
+          "para": "PROCESSADA — 1799,94 EM 31/03/21 - TEM PERDCOMP",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:24:02.278Z",
           "exercicio": "2019",
