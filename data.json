@@ -3533,6 +3533,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:01:24.926Z",
+          "exercicio": "2024",
+          "de": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+          "para": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T10:59:01.664Z",
           "exercicio": "2024",
           "de": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
@@ -3670,7 +3677,7 @@
         "2024": [
           {
             "numero": "10600.720961/2026-76",
-            "valorPedido": 3561.5,
+            "valorPedido": 7087.63,
             "dataProtocolo": "03/03/2026",
             "obs": "Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
             "dataRec": "",
