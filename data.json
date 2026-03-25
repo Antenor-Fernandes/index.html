@@ -33436,6 +33436,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T13:15:27.350Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — 13.152,22 - 31/08/2021 - TEM PER WEB - RECEBEU PER EM 22/11/2021 - 11.319,53",
+          "para": "PROCESSADA — 13.152,22 - 31/08/2021 - TEM PER WEB - RECEBEU PER EM 22/11/2021 - 11.319,53",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T10:30:49.053Z",
           "exercicio": "2017",
           "de": "EM PROCESSAMENTO — 11918,53 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
@@ -33549,7 +33556,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2021": [
+          {
+            "numero": "07170.67974.110621.2.2.04-5830",
+            "valorPedido": 11019.8,
+            "dataTransmissao": "11/06/2021",
+            "obs": "",
+            "dataRec": "22/11/2021",
+            "valorRec": 11319.53
+          }
+        ]
+      },
       "exProcessos": {},
       "exAtencao": {}
     },
@@ -63621,6 +63639,21 @@
           "porExercicio": {
             "2021": 8091
           }
+        }
+      ]
+    },
+    {
+      "data": "22/11/2021",
+      "descricao": "Lote 22/11/2021",
+      "pagamentos": [
+        {
+          "clienteId": "59218363620",
+          "cpfCnpj": "592.183.636-20",
+          "nome": "MARIA ELLENA CYRINO FRATEZZI",
+          "porExercicio": {
+            "EXPERDCOMP-2021-0": 11319.53
+          },
+          "total": 11319.53
         }
       ]
     },
