@@ -12783,10 +12783,17 @@
       "senhaGov": "",
       "observacoes": "PEDIDO DE REVISÃO DE DÉBITO DIRPF 2017",
       "exercicios": {
-        "2017": "TRABALHO MANUAL RFB"
+        "2017": "TRABALHO MANUAL RFB — PEDIDO DE REVISÃO DE DÉBITO DIRPF 2017"
       },
       "temPer": true,
       "historico": [
+        {
+          "ts": "2026-03-25T10:45:04.223Z",
+          "exercicio": "2017",
+          "de": "TRABALHO MANUAL RFB",
+          "para": "TRABALHO MANUAL RFB — PEDIDO DE REVISÃO DE DÉBITO DIRPF 2017",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-18T10:58:46.110Z",
           "exercicio": "2017",
@@ -12874,7 +12881,9 @@
             "valorRec": 38.45
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "30116538600",
