@@ -7496,13 +7496,17 @@
       "exercicios": {
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
-        "2022": "R$ 5.633,64 31/08/2022",
+        "2022": "EM PROCESSAMENTO — R$ 5.633,64 31/08/2022",
         "2023": "PROCESSADA — 1.954,32 EM 31/08/2023",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 2.542,21 EM 30/06/2025"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "31/08/2022",
+          "valor": 5633.64
+        },
         "2023": {
           "data": "31/08/2023",
           "valor": 1954.32
@@ -7513,6 +7517,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:11:25.430Z",
+          "exercicio": "2022",
+          "de": "R$ 5.633,64 31/08/2022",
+          "para": "EM PROCESSAMENTO — R$ 5.633,64 31/08/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:11:12.523Z",
           "exercicio": "2024",
