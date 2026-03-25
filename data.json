@@ -40727,6 +40727,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:33:31.563Z",
+          "exercicio": "2020",
+          "de": "PROCESSADA — MALHA RRA - DDA FEITO EM 21/10/2022",
+          "para": "PROCESSADA — MALHA RRA - DDA FEITO EM 21/10/2022",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T16:13:34.870Z",
           "exercicio": "2025",
           "de": "PROCESSADA — 2.360,34 EM 30/09/2025",
@@ -40821,12 +40828,13 @@
       "exPerdcomps": {
         "2020": [
           {
-            "numero": "",
-            "valorPedido": 0,
+            "numero": "15249.93977.031224.2.2.04-9984",
+            "valorPedido": 5525.49,
             "dataTransmissao": "03/12/2024",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           }
         ],
         "2021": [
@@ -40859,7 +40867,9 @@
             "valorRec": 0
           }
         ]
-      }
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "91491860782",
