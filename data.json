@@ -25928,8 +25928,7 @@
         "2021": "PROCESSADA — 1.528,61 EM 31/10/2024",
         "2022": "PROCESSADA — 10.919,94 EM 29/11/2024",
         "2023": "PROCESSADA — 5.954,83 EM 29/11/2024",
-        "2024": "PROCESSADA — 3.186,56 EM 29/11/2024",
-        "2025": "CLIENTE QUE FEZ"
+        "2024": "PROCESSADA — 3.186,56 EM 29/11/2024"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -25950,7 +25949,16 @@
           "data": "29/11/2024",
           "valor": 3186.56
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T19:05:24.670Z",
+          "exercicio": "2025",
+          "de": "CLIENTE QUE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "24716162672",
