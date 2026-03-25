@@ -47013,8 +47013,7 @@
         "2021": "R$ 7.388,55 31/08/2022",
         "2022": "R$ 6.761,58 31/08/2022",
         "2023": "JUNTAMOS APOSENTADORIA NO DDA - NÃO COBRAR HONORÁRIOS - 13.411,63 EM 28/02/2025",
-        "2024": "PROCESSADA — 11.994,42 EM 28/02/2025",
-        "2025": "NÃO FAZER"
+        "2024": "PROCESSADA — 11.994,42 EM 28/02/2025"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -47023,7 +47022,16 @@
           "data": "28/02/2025",
           "valor": 11994.42
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T19:50:25.526Z",
+          "exercicio": "2025",
+          "de": "NÃO FAZER",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "31239765649",
