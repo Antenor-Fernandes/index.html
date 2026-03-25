@@ -31252,7 +31252,7 @@
         "2018": "7.475,01 31/03/2022",
         "2019": "6.573,74 31/03/2022",
         "2020": "IMPUGNAÇÃO FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
-        "2021": "3.016,28 31/03/2022",
+        "2021": "EM PROCESSAMENTO — 3.016,28 31/03/2022",
         "2022": "PROCESSADA — 7.493,79 EM 31/05/2024",
         "2023": "PROCESSADA — 7.629,75 EM 31/05/2024",
         "2024": "PROCESSADA — 9.609,59 EM 31/05/2024",
@@ -31261,6 +31261,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2021": {
+          "data": "31/03/2022",
+          "valor": 3016.28
+        },
         "2022": {
           "data": "31/05/2024",
           "valor": 7493.79
@@ -31277,7 +31281,23 @@
           "data": "30/05/2025",
           "valor": 10721.44
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T11:36:51.313Z",
+          "exercicio": "2021",
+          "de": "3.016,28 31/03/2022",
+          "para": "EM PROCESSAMENTO — 3.016,28 31/03/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "26429381668",
