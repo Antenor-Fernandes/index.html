@@ -1603,7 +1603,7 @@
       "observacoes": "",
       "exercicios": {
         "2021": "PROCESSADA — 2.203,33 EM 30/12/2025",
-        "2022": "IMPUGNAÇÃO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
+        "2022": "EM PROCESSAMENTO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
         "2023": "PROCESSADA — 2.903,44 EM 30/12/2025",
         "2024": "PROCESSADA — 3.169,23 EM 30/12/2025",
         "2025": "PROCESSADA — 6.140,85 EM 30/12/2025"
@@ -1611,6 +1611,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T10:53:31.338Z",
+          "exercicio": "2022",
+          "de": "IMPUGNAÇÃO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
+          "para": "EM PROCESSAMENTO — PROCESSO DE RETIFICAÇÃO DE OFÍCIO ABERTO EM 04/12/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:53:09.812Z",
           "exercicio": "2022",
@@ -1668,11 +1675,7 @@
         }
       },
       "dda": {},
-      "impugnacoes": {
-        "2022": {
-          "data": "01/12/2025"
-        }
-      },
+      "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
