@@ -31345,11 +31345,19 @@
         "2022": "PROCESSADA — 18.829,10 EM 31/10/2024",
         "2023": "PROCESSADA — 18.921,39 EM 31/10/2024",
         "2024": "PROCESSADA — 19.049,04 EM 31/10/2024",
-        "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE VIA CHAT FEITOS EM 19/01/2026"
+        "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE VIA CHAT FEITOS EM 19/01/2026",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T18:14:47.226Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T15:44:13.150Z",
           "exercicio": "2022",
@@ -31417,7 +31425,8 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "37168100610",
