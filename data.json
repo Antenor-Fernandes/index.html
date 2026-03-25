@@ -24263,7 +24263,8 @@
         "2022": "PROCESSADA — 3.123,90 EM 28/03/2024",
         "2023": "PROCESSADA — 2.472,72 EM 28/03/2024",
         "2024": "PROCESSADA — 690,07 EM 31/07/2024",
-        "2025": "PROCESSADA — 931,36  EM 30/05/2025"
+        "2025": "PROCESSADA — 931,36  EM 30/05/2025",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -24292,7 +24293,23 @@
           "data": "30/05/2025",
           "valor": 931.36
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T16:44:09.071Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "00666556687",
