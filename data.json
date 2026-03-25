@@ -20244,7 +20244,8 @@
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
         "2024": "PROCESSADA — 10,74 EM 28/06/2024",
-        "2025": "PROCESSADA — 238,63 EM 30/05/2025"
+        "2025": "PROCESSADA — 238,63 EM 30/05/2025",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "recebimentos": {
@@ -20256,7 +20257,23 @@
           "data": "30/05/2025",
           "valor": 238.63
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T15:51:14.207Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "17816254687",
