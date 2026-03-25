@@ -46512,9 +46512,26 @@
       "exercicios": {
         "2023": "IMPUGNAMOS EM 13/03/2025 - DEFERIMENTO PARCIAL",
         "2024": "PROCESSADA",
-        "2025": "ACEITAMOS A COMPENSAÇÃO DE OFÍCIO - DÉBITO NA PGFN DE 2017"
+        "2025": "PROCESSADA — ACEITAMOS A COMPENSAÇÃO DE OFÍCIO - DÉBITO NA PGFN DE 2017"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T09:59:43.986Z",
+          "exercicio": "2025",
+          "de": "ACEITAMOS A COMPENSAÇÃO DE OFÍCIO - DÉBITO NA PGFN DE 2017",
+          "para": "PROCESSADA — ACEITAMOS A COMPENSAÇÃO DE OFÍCIO - DÉBITO NA PGFN DE 2017",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "30885434820",
