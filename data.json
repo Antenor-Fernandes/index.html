@@ -22234,6 +22234,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:30:40.003Z",
+          "exercicio": "2025",
+          "de": "PROCESSADA — ISENTO NA FONTE - RESGATE DE VGBL - PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 28/10/2025 - acompanhar processo 10600.725755/2025-71",
+          "para": "PROCESSADA — ISENTO NA FONTE - RESGATE DE VGBL - PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 28/10/2025 - acompanhar processo 10600.725755/2025-71",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-18T11:37:01.126Z",
           "exercicio": "2025",
           "de": "IMPUGNAÇÃO — ISENTO NA FONTE - RESGATE DE VGBL - PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 28/10/2025 - acompanhar processo 10600.725755/2025-71",
@@ -22279,6 +22286,9 @@
             "valorRec": 0
           }
         ]
+      },
+      "exAtencao": {
+        "2025": true
       }
     },
     {
