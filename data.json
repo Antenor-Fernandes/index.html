@@ -20814,7 +20814,6 @@
       "senhaGov": "",
       "observacoes": "PER 2022 A 2024 FEITOS EM 26/11/2025",
       "exercicios": {
-        "2021": "JÁ INFORMOU ISENÇÃO NA ORIGINAL",
         "2022": "PROCESSADA — 16.822,38 EM 27/02/2026",
         "2023": "PROCESSADA — 12.926,18 EM 27/02/2026",
         "2024": "PROCESSADA — 12.106,88 EM 27/02/2026",
@@ -20839,7 +20838,16 @@
           "data": "27/02/2026",
           "valor": 3662.64
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T12:27:20.461Z",
+          "exercicio": "2021",
+          "de": "JÁ INFORMOU ISENÇÃO NA ORIGINAL",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "43855172668",
