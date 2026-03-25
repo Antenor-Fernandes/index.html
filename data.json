@@ -44687,9 +44687,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2025": "PROCESSADA"
+        "2025": "PROCESSADA",
+        "2026": "TRANSMITIDA"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T15:52:55.594Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T17:27:13.856Z",
           "exercicio": "2025",
@@ -44704,7 +44712,9 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "03598298641",
