@@ -18915,7 +18915,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2024": "TRANSMITIDA",
+        "2024": "PROCESSADA",
         "2025": "PROCESSADA — 61,44 EM 30/06/2025"
       },
       "temPer": false,
@@ -18924,7 +18924,23 @@
           "data": "30/06/2025",
           "valor": 61.44
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T10:15:52.758Z",
+          "exercicio": "2024",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "00668036672",
