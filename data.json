@@ -35695,24 +35695,24 @@
             "valorPedido": 797.46,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 528.72
           },
           {
             "numero": "30760.99984.090625.2.2.04-2264",
             "valorPedido": 270.33,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 315.02
           },
           {
             "numero": "31166.45429.090625.2.2.04-2122",
             "valorPedido": 259.27,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 314.39
           },
           {
             "numero": "31257.70270.090625.2.2.04-1600",
@@ -35735,16 +35735,16 @@
             "valorPedido": 277.28,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 315
           },
           {
             "numero": "40181.93355.090625.2.2.04-3200",
             "valorPedido": 274.7,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/02/2026",
+            "valorRec": 314.8
           }
         ],
         "2024": [
@@ -35791,6 +35791,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T15:23:46.377Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T15:19:37.411Z",
           "exercicio": "2022",
@@ -50503,9 +50510,14 @@
             "EXPERDCOMP-2022-13": 314.99,
             "EXPERDCOMP-2022-15": 14493.87,
             "EXPERDCOMP-2022-8": 314.8,
-            "EXPERDCOMP-2022-17": 314.78
+            "EXPERDCOMP-2022-17": 314.78,
+            "EXPERDCOMP-2022-18": 528.72,
+            "EXPERDCOMP-2022-19": 315.02,
+            "EXPERDCOMP-2022-20": 314.39,
+            "EXPERDCOMP-2022-23": 315,
+            "EXPERDCOMP-2022-24": 314.8
           },
-          "total": 15438.44
+          "total": 17226.37
         }
       ]
     },
