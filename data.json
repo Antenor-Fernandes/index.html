@@ -2469,9 +2469,16 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:09:47.009Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-24T18:54:20.905Z",
           "exercicio": "2025",
