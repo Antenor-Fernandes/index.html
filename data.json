@@ -22752,6 +22752,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T12:36:35.984Z",
+          "exercicio": "2018",
+          "de": "EM PROCESSAMENTO — RETIFICAMOS PARA NÃO PRESCREVER - FALTA LAUDO",
+          "para": "EM PROCESSAMENTO — RETIFICAMOS PARA NÃO PRESCREVER - FALTA LAUDO",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:26:04.178Z",
           "exercicio": "2017",
           "de": "R$7,42 31/01/2022 - FIZEMOS PERWEB EM 17/12/2021",
@@ -22843,7 +22850,20 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {
+        "2018": [
+          {
+            "numero": "23922.61145.201222.2.2.04-3814",
+            "valorPedido": 756.47,
+            "dataTransmissao": "20/12/2022",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "00973076615",
