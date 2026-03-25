@@ -33436,6 +33436,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T13:22:37.029Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — 19.345,04 EM 30/09/2024",
+          "para": "PROCESSADA — 19.345,04 EM 30/09/2024",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T13:22:17.876Z",
           "exercicio": "2023",
           "de": "PROCESSADA — 17.268,93 EM 30/09/2024",
@@ -33635,8 +33642,8 @@
             "valorPedido": 19028.11,
             "dataTransmissao": "16/09/2024",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/01/2025",
+            "valorRec": 20371.49
           }
         ],
         "2025": [
@@ -53857,9 +53864,10 @@
           "nome": "MARIA ELLENA CYRINO FRATEZZI",
           "porExercicio": {
             "EXPERDCOMP-2022-0": 21810.96,
-            "EXPERDCOMP-2023-0": 22838.98
+            "EXPERDCOMP-2023-0": 22838.98,
+            "EXPERDCOMP-2024-0": 20371.49
           },
-          "total": 44649.94
+          "total": 65021.43000000001
         }
       ]
     },
