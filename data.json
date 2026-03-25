@@ -40727,6 +40727,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T17:34:55.360Z",
+          "exercicio": "2022",
+          "de": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023",
+          "para": "EM MALHA — MALHA RRA  - DDA FEITO EM 10/01/2023",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:34:06.634Z",
           "exercicio": "2021",
           "de": "PROCESSADA — 29.947,40 EM 30/09/2025",
@@ -40857,12 +40864,13 @@
         ],
         "2022": [
           {
-            "numero": "",
-            "valorPedido": 0,
+            "numero": "18155.53625.100925.2.2.04-0214",
+            "valorPedido": 4922.77,
             "dataTransmissao": "10/09/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           }
         ],
         "2025": [
