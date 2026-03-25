@@ -4723,7 +4723,8 @@
         "2022": "PROCESSADA — 65.984,19 EM 28/11/2025",
         "2023": "PROCESSADA — 60.737,27 EM 28/11/2025",
         "2024": "PROCESSADA — 59.709,82 EM 28/11/2025",
-        "2025": "PROCESSADA — 56.143,68 EM 28/11/2025"
+        "2025": "PROCESSADA — 56.143,68 EM 28/11/2025",
+        "2026": "TRANSMITIDA"
       },
       "temPer": true,
       "doencaGrave": true,
@@ -4790,6 +4791,13 @@
         ]
       },
       "historico": [
+        {
+          "ts": "2026-03-25T18:00:53.400Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-23T17:23:47.916Z",
           "exercicio": "2021",
