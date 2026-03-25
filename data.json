@@ -27613,17 +27613,39 @@
       "cpfCnpj": "550.770.138-53",
       "tipo": "PF",
       "nome": "LUIZ FERNANDO TOSCANO",
-      "acessoEcac": "",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "SEM ACESSO",
       "senhaGov": "",
-      "observacoes": "IMPUGNAMOS 2021 E 2022 EM 01/03/2023",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "SEM ACESSO AO E-CAC - IMPUGNAMOS 2021 E 2022 EM 01/03/2023",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2019": "PROCESSADA — 7.212,88 30/11/2022",
         "2020": "PROCESSADA — 3.614,31 30/11/2022",
         "2021": "IMPUGNAÇÃO — 3.537,37 EM 24/03/2023 - IMPUGNAMOS EM 01/03/2023 - RECURSO VOLUNTÁRIO AO CARF FEITO EM 15/10/2024",
         "2022": "IMPUGNAÇÃO — 3.036,98 EM 31/03/2023 - IMPUGNAMOS EM 01/03/2023 - ATENDIMENTO À INTIMAÇÃO COMPLEMENTAR EM 26/03/2024"
       },
-      "temPer": false,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-17T19:09:51.087Z",
@@ -27694,9 +27716,12 @@
           "data": "01/03/2023"
         }
       },
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "68575220659",
