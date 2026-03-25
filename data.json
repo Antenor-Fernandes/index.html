@@ -28144,7 +28144,8 @@
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
-        "2025": "PROCESSADA"
+        "2025": "PROCESSADA",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -28153,7 +28154,23 @@
           "data": "30/12/2020",
           "valor": 5023.21
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T17:03:10.435Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "88022099791",
