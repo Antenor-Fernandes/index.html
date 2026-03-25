@@ -17231,8 +17231,8 @@
             "valorPedido": 7034.89,
             "dataTransmissao": "05/10/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/05/2025",
+            "valorRec": 10513.71
           }
         ],
         "2019": [
@@ -17333,8 +17333,8 @@
             "valorPedido": 2771.56,
             "dataTransmissao": "05/10/2022",
             "obs": "",
-            "dataRec": "",
-            "valorRec": 0
+            "dataRec": "20/05/2025",
+            "valorRec": 3933.45
           }
         ],
         "2022": [
@@ -35604,7 +35604,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "09760.53112.140825.2.2.04-5953",
@@ -35612,7 +35613,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "11598.32050.140825.2.2.04-2750",
@@ -35620,7 +35622,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "12125.64175.140825.2.2.04-0946",
@@ -35628,7 +35631,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "13797.92642.140825.2.2.04-3683",
@@ -35636,7 +35640,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "15433.54706.140825.2.2.04-6206",
@@ -35644,7 +35649,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "18005.63631.140825.2.2.04-6881",
@@ -35652,7 +35658,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "20575.67897.140825.2.2.04-3601",
@@ -35660,7 +35667,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "25169.43414.140825.2.2.04-0494",
@@ -35668,7 +35676,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 314.8
+            "valorRec": 314.8,
+            "indeferido": false
           },
           {
             "numero": "29418.81703.140825.2.2.04-1241",
@@ -35676,7 +35685,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "29517.27524.140825.2.2.04-5548",
@@ -35684,7 +35694,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": true
           },
           {
             "numero": "31218.66959.140825.2.2.04-6715",
@@ -35692,7 +35703,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "32822.43461.140825.2.2.04-0028",
@@ -35700,7 +35712,8 @@
             "dataTransmissao": "14/08/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "02420.57766.090625.2.2.04-0799",
@@ -35708,7 +35721,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 314.99
+            "valorRec": 314.99,
+            "indeferido": false
           },
           {
             "numero": "18284.82302.090625.2.2.04-9504",
@@ -35716,7 +35730,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "22738.26266.090625.2.2.04-1317",
@@ -35724,7 +35739,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 14493.87
+            "valorRec": 14493.87,
+            "indeferido": false
           },
           {
             "numero": "26117.49700.090625.2.2.04-9903",
@@ -35732,7 +35748,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 314.78
+            "valorRec": 314.78,
+            "indeferido": false
           },
           {
             "numero": "27257.15793.090625.2.2.04-4007",
@@ -35740,7 +35757,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 314.85
+            "valorRec": 314.85,
+            "indeferido": false
           },
           {
             "numero": "28554.73099.090625.2.2.04-8538",
@@ -35748,7 +35766,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 528.72
+            "valorRec": 528.72,
+            "indeferido": false
           },
           {
             "numero": "30760.99984.090625.2.2.04-2264",
@@ -35756,7 +35775,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 315.02
+            "valorRec": 315.02,
+            "indeferido": false
           },
           {
             "numero": "31166.45429.090625.2.2.04-2122",
@@ -35764,7 +35784,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "DESPACHO DECISÓRIO - CRÉDITO RECEBIDO NO PER 29418.81703.140825.2.2.04-1241",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "31257.70270.090625.2.2.04-1600",
@@ -35772,7 +35793,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "DESPACHO DECISÓRIO - CRÉDITO PAGO NO PER 29517.27524.140825.2.2.04-5548",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           },
           {
             "numero": "31364.80072.090625.2.2.04-3159",
@@ -35780,7 +35802,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 314.39
+            "valorRec": 314.39,
+            "indeferido": false
           },
           {
             "numero": "32813.53736.090625.2.2.04-4009",
@@ -35788,7 +35811,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 315
+            "valorRec": 315,
+            "indeferido": false
           },
           {
             "numero": "40181.93355.090625.2.2.04-3200",
@@ -35796,7 +35820,8 @@
             "dataTransmissao": "09/06/2025",
             "obs": "",
             "dataRec": "20/02/2026",
-            "valorRec": 314.8
+            "valorRec": 314.8,
+            "indeferido": false
           }
         ],
         "2024": [
@@ -35843,6 +35868,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T16:50:06.125Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T15:58:09.350Z",
           "exercicio": "2022",
