@@ -35711,8 +35711,8 @@
             "valorPedido": 259.27,
             "dataTransmissao": "09/06/2025",
             "obs": "",
-            "dataRec": "20/02/2026",
-            "valorRec": 314.39
+            "dataRec": "",
+            "valorRec": 0
           },
           {
             "numero": "31257.70270.090625.2.2.04-1600",
@@ -35791,6 +35791,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T15:37:19.763Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T15:32:19.394Z",
           "exercicio": "2022",
@@ -50541,13 +50548,12 @@
             "EXPERDCOMP-2022-17": 314.85,
             "EXPERDCOMP-2022-18": 528.72,
             "EXPERDCOMP-2022-19": 315.02,
-            "EXPERDCOMP-2022-20": 314.39,
             "EXPERDCOMP-2022-23": 315,
             "EXPERDCOMP-2022-24": 314.8,
             "EXPERDCOMP-2022-16": 314.78,
             "EXPERDCOMP-2022-22": 314.39
           },
-          "total": 17855.609999999997
+          "total": 17541.219999999998
         }
       ]
     },
