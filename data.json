@@ -47449,14 +47449,36 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "R$ 715,08 - 31/08/2020",
+        "2020": "EM PROCESSAMENTO — R$ 715,08 - 31/08/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-25T19:49:58.900Z",
+          "exercicio": "2020",
+          "de": "R$ 715,08 - 31/08/2020",
+          "para": "EM PROCESSAMENTO — R$ 715,08 - 31/08/2020",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2020": {
+          "data": "31/08/2020",
+          "valor": 715.08
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "00882440675",
@@ -67740,6 +67762,15 @@
             "2020": 3379.27
           },
           "total": 3379.27
+        },
+        {
+          "clienteId": "07519315606",
+          "cpfCnpj": "075.193.156-06",
+          "nome": "TÁSSIO BAETA ZILLE GONTIJO",
+          "porExercicio": {
+            "2020": 715.08
+          },
+          "total": 715.08
         }
       ]
     },
