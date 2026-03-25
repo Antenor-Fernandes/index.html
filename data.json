@@ -27457,13 +27457,17 @@
       "exercicios": {
         "2020": "1.617,79 - 30/06/2020",
         "2021": "R$ 2.131,72 - 30/06/2021",
-        "2022": "R$ 3.544,54 30/06/2022",
+        "2022": "PROCESSADA — R$ 3.544,54 30/06/2022",
         "2023": "PROCESSADA — 3.956,81 em 30/06/2023",
         "2024": "PROCESSADA — 11.560,89 EM 28/06/2024",
         "2025": "PROCESSADA — 8.443,06 EM 30/06/2025"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "30/06/2022",
+          "valor": 3544.54
+        },
         "2023": {
           "data": "30/06/2023",
           "valor": 3956.81
@@ -27476,7 +27480,23 @@
           "data": "30/06/2025",
           "valor": 8443.06
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T09:36:18.693Z",
+          "exercicio": "2022",
+          "de": "R$ 3.544,54 30/06/2022",
+          "para": "PROCESSADA — R$ 3.544,54 30/06/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "27621456604",
@@ -60199,6 +60219,15 @@
           "porExercicio": {
             "2022": 1009.31
           }
+        },
+        {
+          "clienteId": "05787180658",
+          "cpfCnpj": "057.871.806-58",
+          "nome": "MARCELA MARCHI DE SOUZA GODOY",
+          "porExercicio": {
+            "2022": 3544.54
+          },
+          "total": 3544.54
         }
       ]
     },
