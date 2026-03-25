@@ -28438,7 +28438,7 @@
       "senhaGov": "",
       "observacoes": "TEM PER 2018 A 2022  -RECEBEU EM 20/01/2023 -PER 2023 FEITO EM 29/01/2024 RECEBIDO EM 22/07/2024 - PER 2024 FEITO EM 22/01/2025 E RECEBIDO EM 22/09/2025",
       "exercicios": {
-        "2017": "IMPUGNAÇÃO EM 06/09/2022 - ORDEM BANCÁRIA PAGA EM 22/07/2024 - JÁ PAGOU OS HONORÁRIOS",
+        "2017": "PROCESSADA — EM 06/09/2022 - ORDEM BANCÁRIA PAGA EM 22/07/2024 - JÁ PAGOU OS HONORÁRIOS",
         "2018": "PROCESSADA — 3.401,01 30/09/2022",
         "2019": "PROCESSADA — 4.775,55 30/09/2022",
         "2020": "PROCESSADA — 11.363,36 30/09/2022",
@@ -28485,6 +28485,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:34:09.775Z",
+          "exercicio": "2017",
+          "de": "IMPUGNAÇÃO EM 06/09/2022 - ORDEM BANCÁRIA PAGA EM 22/07/2024 - JÁ PAGOU OS HONORÁRIOS",
+          "para": "PROCESSADA — EM 06/09/2022 - ORDEM BANCÁRIA PAGA EM 22/07/2024 - JÁ PAGOU OS HONORÁRIOS",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:33:42.167Z",
           "exercicio": "2018",
