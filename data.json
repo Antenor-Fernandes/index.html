@@ -38822,19 +38822,30 @@
       "exercicios": {
         "2020": "R$ 1.705,02 - 31/08/2020",
         "2021": "R$ 2.345,55 31/08/2021",
-        "2022": "R$ 3.091,08 25/07/2022",
+        "2022": "PROCESSADA — R$ 3.091,08 25/07/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA — 901,86 EM 31/07/2024",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "25/07/2022",
+          "valor": 3091.08
+        },
         "2024": {
           "data": "31/07/2024",
           "valor": 901.86
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:22:06.974Z",
+          "exercicio": "2022",
+          "de": "R$ 3.091,08 25/07/2022",
+          "para": "PROCESSADA — R$ 3.091,08 25/07/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:21:50.240Z",
           "exercicio": "2025",
@@ -60672,6 +60683,21 @@
           "porExercicio": {
             "2022": 5331.41
           }
+        }
+      ]
+    },
+    {
+      "data": "25/07/2022",
+      "descricao": "Lote 25/07/2022",
+      "pagamentos": [
+        {
+          "clienteId": "10852199686",
+          "cpfCnpj": "108.521.996-86",
+          "nome": "PAULA MARRARA POLASTRI",
+          "porExercicio": {
+            "2022": 3091.08
+          },
+          "total": 3091.08
         }
       ]
     },
