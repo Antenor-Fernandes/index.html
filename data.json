@@ -31248,7 +31248,7 @@
       "senhaGov": "",
       "observacoes": "ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR?",
       "exercicios": {
-        "2017": "7.349,22 31/03/2022",
+        "2017": "PROCESSADA — 7.349,22 31/03/2022",
         "2018": "PROCESSADA — 7.475,01 31/03/2022",
         "2019": "PROCESSADA — 6.573,74 31/03/2022",
         "2020": "PROCESSADA — FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
@@ -31261,6 +31261,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2017": {
+          "data": "31/03/2022",
+          "valor": 7349.22
+        },
         "2018": {
           "data": "31/03/2022",
           "valor": 7475.01
@@ -31291,6 +31295,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:37:31.625Z",
+          "exercicio": "2017",
+          "de": "7.349,22 31/03/2022",
+          "para": "PROCESSADA — 7.349,22 31/03/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:37:18.737Z",
           "exercicio": "2018",
