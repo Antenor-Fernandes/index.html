@@ -42791,7 +42791,7 @@
       "observacoes": "VER PROCESSO REV. DE OFÍCIO - 2017 E 2018 - PER DO PARCELAMENTO FEITOS EM 06/09/2024 E RECEBIDOS EM 20/01/2025 E 20/03/2025 - PEDIDO DE RESTITUIÇÃO VIA PROCESSO EM 09/09/2024 - Indeferido - prescirção",
       "exercicios": {
         "2017": "EM PROCESSAMENTO - TRANSMITIDAS DA RFB",
-        "2018": "EM PROCESSAMENTO - TRANSMITIDAS DA RFB",
+        "2018": "PROCESSADA — TRANSMITIDAS DA RFB",
         "2019": "PROCESSADA — 1.171,20 EM 31/08/2023",
         "2020": "PROCESSADA — 593,40 EM 31/08/2023",
         "2021": "PROCESSADA — R$ 786,68 - 30/06/2021",
@@ -42828,6 +42828,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T10:34:30.913Z",
+          "exercicio": "2018",
+          "de": "EM PROCESSAMENTO - TRANSMITIDAS DA RFB",
+          "para": "PROCESSADA — TRANSMITIDAS DA RFB",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T10:34:25.583Z",
           "exercicio": "2021",
