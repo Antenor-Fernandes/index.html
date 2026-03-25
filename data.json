@@ -44082,7 +44082,7 @@
       "observacoes": "RECEBEU 1 FALTA 1",
       "exercicios": {
         "2017": "PROCESSADA — IMPUGNAMOS - FIZEMOS DDA - RECEBEU PER EM 20/04/2022",
-        "2018": "FIZEMOS PER WEB EM 28/09/2021",
+        "2018": "PROCESSADA — FIZEMOS PER WEB EM 28/09/2021",
         "2019": "PROCESSADA — 8779,22 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
         "2020": "EM PROCESSAMENTO — 10462,85 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
         "2021": "PROCESSADA — 15.900,46 - 30/12/2021",
@@ -44125,6 +44125,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T11:43:04.118Z",
+          "exercicio": "2018",
+          "de": "FIZEMOS PER WEB EM 28/09/2021",
+          "para": "PROCESSADA — FIZEMOS PER WEB EM 28/09/2021",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T11:40:58.997Z",
           "exercicio": "2017",
           "de": "IMPUGNAMOS - FIZEMOS DDA - RECEBEU PER EM 20/04/2022",
@@ -44150,7 +44157,18 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2018": [
+          {
+            "numero": "32893.19987.280921.2.2.04-7400",
+            "valorPedido": 8063.61,
+            "dataTransmissao": "28/09/2021",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      },
       "exAtencao": {},
       "exProcessos": {}
     },
