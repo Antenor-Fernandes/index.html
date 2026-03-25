@@ -2028,7 +2028,7 @@
       "observacoes": "",
       "exercicios": {
         "2020": "PROCESSADA",
-        "2021": "EM PROCESSAMENTO — 2.671,72 30/07/2021",
+        "2021": "PROCESSADA — 2.671,72 30/07/2021",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
@@ -2037,6 +2037,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T19:39:23.459Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — 2.671,72 30/07/2021",
+          "para": "PROCESSADA — 2.671,72 30/07/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T19:21:26.524Z",
           "exercicio": "2021",
