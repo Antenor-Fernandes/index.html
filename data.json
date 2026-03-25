@@ -44083,7 +44083,7 @@
       "exercicios": {
         "2017": "IMPUGNAMOS - FIZEMOS DDA - RECEBEU PER EM 20/04/2022",
         "2018": "FIZEMOS PER WEB EM 28/09/2021",
-        "2019": "8779,22 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
+        "2019": "PROCESSADA — 8779,22 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
         "2020": "EM PROCESSAMENTO — 10462,85 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
         "2021": "PROCESSADA — 15.900,46 - 30/12/2021",
         "2022": "PROCESSADA — 26.486,69 EM 28/03/2024",
@@ -44094,6 +44094,10 @@
       "temPer": true,
       "doencaGrave": true,
       "recebimentos": {
+        "2019": {
+          "data": "31/03/2021",
+          "valor": 8779.22
+        },
         "2020": {
           "data": "31/03/2021",
           "valor": 10432.85
@@ -44120,6 +44124,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:40:10.100Z",
+          "exercicio": "2019",
+          "de": "8779,22 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
+          "para": "PROCESSADA — 8779,22 EM 31/03/21 - TEM PERDCOMP - JÁ RECEBEU PER EM 06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:39:57.211Z",
           "exercicio": "2020",
