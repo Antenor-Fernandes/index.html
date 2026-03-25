@@ -3746,6 +3746,23 @@ function renderSidebarStats(){
   const rraCount=allClients.filter(clientHasRRA).length;
   const gcapCount=allClients.filter(clientHasGCAP).length;
   const perCount=allClients.filter(clientHasPer).length;
+  // Totais financeiros dos PERDCOMPs
+  let finAReceber=0,finRecebido=0,finIndeferido=0;
+  allClients.forEach(c=>{
+    Object.values(c.exPerdcomps||{}).forEach(arr=>{
+      if(!Array.isArray(arr))return;
+      arr.forEach(p=>{
+        if(p.valorRec>0&&p.dataRec){finRecebido+=p.valorRec;}
+        else if(p.indeferido){finIndeferido+=p.valorPedido||0;}
+        else if(p.valorPedido>0){finAReceber+=p.valorPedido;}
+      });
+    });
+  });
+  const fmtM=v=>{
+    if(v>=1000000)return'R$ '+(v/1000000).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})+' M';
+    if(v>=1000)return'R$ '+(v/1000).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1})+' k';
+    return'R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  };
   document.getElementById('sidebar-stats').innerHTML=`
     <div class="stat-row"><span class="stat-label">Total</span><span class="stat-val">${allClients.length}</span></div>
     <div class="stat-row"><span class="stat-label">PF / PJ</span><span class="stat-val">${pf} / ${pj}</span></div>
@@ -3753,7 +3770,13 @@ function renderSidebarStats(){
     <div class="stat-row"><span class="stat-label" style="color:var(--yellow)">PERDCOMP</span><span class="stat-val" style="color:var(--yellow)">${perCount}</span></div>
     <div class="stat-row"><span class="stat-label" style="color:#dc2626">Doença Grave</span><span class="stat-val" style="color:#dc2626">${dg}</span></div>
     <div class="stat-row"><span class="stat-label" style="color:var(--orange)">RRA</span><span class="stat-val" style="color:var(--orange)">${rraCount}</span></div>
-    <div class="stat-row"><span class="stat-label" style="color:var(--accent2)">GCAP</span><span class="stat-val" style="color:var(--accent2)">${gcapCount}</span></div>`;
+    <div class="stat-row"><span class="stat-label" style="color:var(--accent2)">GCAP</span><span class="stat-val" style="color:var(--accent2)">${gcapCount}</span></div>
+    <div style="border-top:1px solid rgba(255,255,255,.1);margin:5px 4px 3px;"></div>
+    <div style="font-size:9.5px;font-weight:700;letter-spacing:.7px;color:rgba(255,255,255,.3);text-transform:uppercase;padding:2px 4px 3px">Financeiro PER</div>
+    <div class="stat-row" title="Total de PERDCOMPs pendentes (transmitidos, sem recebimento)"><span class="stat-label" style="color:var(--yellow)">A receber</span><span class="stat-val" style="color:var(--yellow);font-size:10px">${fmtM(finAReceber)}</span></div>
+    <div class="stat-row" title="Total já creditado via PERDCOMP"><span class="stat-label" style="color:var(--green)">Recebido</span><span class="stat-val" style="color:var(--green);font-size:10px">${fmtM(finRecebido)}</span></div>
+    ${finIndeferido>0?`<div class="stat-row" title="Total de PERDCOMPs indeferidos pela RFB"><span class="stat-label" style="color:#ef4444">Indeferido</span><span class="stat-val" style="color:#ef4444;font-size:10px">${fmtM(finIndeferido)}</span></div>`:''}
+    `;
 }
 
 // ── IMPORT/EXPORT ─────────────────────────────────────────────────────────────
