@@ -31251,7 +31251,7 @@
         "2017": "7.349,22 31/03/2022",
         "2018": "7.475,01 31/03/2022",
         "2019": "6.573,74 31/03/2022",
-        "2020": "IMPUGNAÇÃO FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
+        "2020": "PROCESSADA — FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
         "2021": "EM PROCESSAMENTO — 3.016,28 31/03/2022",
         "2022": "PROCESSADA — 7.493,79 EM 31/05/2024",
         "2023": "PROCESSADA — 7.629,75 EM 31/05/2024",
@@ -31283,6 +31283,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T11:36:58.415Z",
+          "exercicio": "2020",
+          "de": "IMPUGNAÇÃO FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
+          "para": "PROCESSADA — FEITA EM 19/01/2022 VIA DDA - ORDEM BANCÁRIA 11/11/2022 R$5.275,17 - FALTA ACERTAR",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T11:36:51.313Z",
           "exercicio": "2021",
