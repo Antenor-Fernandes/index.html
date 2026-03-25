@@ -9201,9 +9201,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2025": "TRANSMITIDA"
+        "2025": "PROCESSADA"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-25T10:11:43.620Z",
+          "exercicio": "2025",
+          "de": "TRANSMITIDA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
