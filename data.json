@@ -45497,6 +45497,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T17:43:08.728Z",
+          "exercicio": "2023",
+          "de": "PROCESSADA — EM 03/06/2025 - FAZER PER SE DEFERIDA - PEDIDO DE RECONSIDERAÇÃO FEITO EM 26/08/2025 - JUNTADO NOVO LAUDO EM 29/09/2025 - DEFERIDO - 11.937,32 EM 20/01/2026",
+          "para": "PROCESSADA — EM 03/06/2025 - FAZER PER SE DEFERIDA - PEDIDO DE RECONSIDERAÇÃO FEITO EM 26/08/2025 - JUNTADO NOVO LAUDO EM 29/09/2025 - DEFERIDO - 11.937,32 EM 20/01/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T17:42:33.690Z",
           "exercicio": "2022",
           "de": "PROCESSADA — EM 03/06/2025 - FAZER PER SE DEFERIDA - PEDIDO DE RECONSIDERAÇÃO FEITO EM 26/08/2025 - JUNTADO NOVO LAUDO EM 29/09/2025 - DEFERIDO - 18.941,39 EM 20/01/2026",
@@ -45619,6 +45626,17 @@
           {
             "numero": "16973.91309.030226.2.2.04-2116",
             "valorPedido": 7925.06,
+            "dataTransmissao": "03/02/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ],
+        "2023": [
+          {
+            "numero": "11995.73080.030226.2.2.04-1757",
+            "valorPedido": 15182.67,
             "dataTransmissao": "03/02/2026",
             "obs": "",
             "dataRec": "",
