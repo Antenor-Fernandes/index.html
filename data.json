@@ -42797,7 +42797,7 @@
         "2021": "R$ 786,68 - 30/06/2021",
         "2022": "PROCESSADA TEVE COMP DE OFÍCIO PEDIR REVISÃO",
         "2023": "PROCESSADA — 1.493,71 EM 31/08/2023",
-        "2024": "2.352,90 31/05/2024",
+        "2024": "PROCESSADA — 2.352,90 31/05/2024",
         "2025": "PROCESSADA — 1.788,22 EM 30/06/2025"
       },
       "temPer": false,
@@ -42814,11 +42814,31 @@
           "data": "31/08/2023",
           "valor": 1493.71
         },
+        "2024": {
+          "data": "31/05/2024",
+          "valor": 2352.9
+        },
         "2025": {
           "data": "30/06/2025",
           "valor": 1788.22
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-25T10:34:10.413Z",
+          "exercicio": "2024",
+          "de": "2.352,90 31/05/2024",
+          "para": "PROCESSADA — 2.352,90 31/05/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "30056500653",
