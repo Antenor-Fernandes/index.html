@@ -26398,6 +26398,13 @@
       "temPer": true,
       "historico": [
         {
+          "ts": "2026-03-25T12:55:19.009Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T12:54:34.381Z",
           "exercicio": "2024",
           "de": "PROCESSADA",
@@ -26428,7 +26435,7 @@
             "numero": "32143.67496.170624.2.6.04-2040",
             "valorPedido": 2051.39,
             "dataTransmissao": "17/06/2024",
-            "obs": "",
+            "obs": "PER DEFERIDO, MAS SEM INFORMAÇÕES",
             "dataRec": "",
             "valorRec": 0
           }
