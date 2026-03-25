@@ -32322,7 +32322,7 @@
       "senhaGov": "Maria@1944",
       "observacoes": "SENHA GOV Maria@1944 - PER  2022 FEITO EM 29/09/2023 - 2023 FEITO EM 19/06/2024 - PER 2024 FEITO EM 16/09/2024 - RECEBIDOS EM 20/01/2025 - PER 2025 FEITO EM 09/02/2026",
       "exercicios": {
-        "2017": "EM PROCESSAMENTO — 11918,53 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
+        "2017": "PROCESSADA — 11918,53 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
         "2018": "PROCESSADA — 12011,76 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
         "2019": "PROCESSADA — 12.069,67  EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
         "2020": "PROCESSADA — R$ 12.172,74 31/08/2021 TEM PERDCOMP WEB - RECEBEU PER EM 20/09/2021 - 12.376,76",
@@ -32335,6 +32335,13 @@
       "temPer": true,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-25T10:30:49.053Z",
+          "exercicio": "2017",
+          "de": "EM PROCESSAMENTO — 11918,53 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
+          "para": "PROCESSADA — 11918,53 EM 31/03/21 - JÁ RECEBEU E PAGOU PERDCOMP WEB",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T16:17:55.993Z",
           "exercicio": "2017",
@@ -32443,7 +32450,8 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "14548143653",
