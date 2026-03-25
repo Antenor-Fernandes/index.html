@@ -33436,6 +33436,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T13:20:47.779Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
+          "para": "EM MALHA — MALHA DG - DDA FEITO EM 05/02/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T13:19:52.533Z",
           "exercicio": "2024",
           "de": "PROCESSADA — 19.345,04 EM 30/09/2024",
@@ -33613,6 +33620,16 @@
             "numero": "06269.64484.160924.2.2.04-8178",
             "valorPedido": 19028.11,
             "dataTransmissao": "16/09/2024",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ],
+        "2025": [
+          {
+            "numero": "18535.71700.090226.2.2.04-0159",
+            "valorPedido": 20480.75,
+            "dataTransmissao": "09/02/2026",
             "obs": "",
             "dataRec": "",
             "valorRec": 0
