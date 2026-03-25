@@ -20251,6 +20251,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:45:16.695Z",
+          "exercicio": "2023",
+          "de": "IMPUGNAR — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
+          "para": "IMPUGNAR — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-17T18:00:11.504Z",
           "exercicio": "2023",
           "de": "PROCESSADA — 15.461,32 EM 29/11/2024 - IMPUGNAÇÃO FEITA EM 20/01/2025 - VGBL",
@@ -20380,7 +20387,11 @@
             "valorRec": ""
           }
         ]
-      }
+      },
+      "exAtencao": {
+        "2023": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "82773076672",
