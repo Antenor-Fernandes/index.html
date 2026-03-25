@@ -35553,6 +35553,102 @@
             "obs": "",
             "dataRec": "",
             "valorRec": 0
+          },
+          {
+            "numero": "09760.53112.140825.2.2.04-5953",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "11598.32050.140825.2.2.04-2750",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "12125.64175.140825.2.2.04-0946",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "13797.92642.140825.2.2.04-3683",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "15433.54706.140825.2.2.04-6206",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "18005.63631.140825.2.2.04-6881",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "20575.67897.140825.2.2.04-3601",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "25169.43414.140825.2.2.04-0494",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "29418.81703.140825.2.2.04-1241",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "29517.27524.140825.2.2.04-5548",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "31218.66959.140825.2.2.04-6715",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
+          },
+          {
+            "numero": "32822.43461.140825.2.2.04-0028",
+            "valorPedido": 0,
+            "dataTransmissao": "",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0
           }
         ],
         "2024": [
@@ -35599,6 +35695,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-25T14:45:52.450Z",
+          "exercicio": "2022",
+          "de": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "para": "PROCESSADA — 165.782,47 EM 30/09/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-25T14:42:34.150Z",
           "exercicio": "2022",
