@@ -3533,6 +3533,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T10:59:01.664Z",
+          "exercicio": "2024",
+          "de": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+          "para": "IMPUGNAÇÃO — 11.411,04 EM 28/11/2025 - FAZER IMPUGNAÇÃO INTEMPESTIVA DA GLOSA DA ESCOLA DO DEPENDENTE -  IMPUGNAÇÃO FEITA EM 02/03/2026 - Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-16T17:25:17.224Z",
           "exercicio": "2020",
           "de": "MALHA DG - FALTA LAUDO - VAI TER NL - DG EM SET 2019 - DDA FEITO EM 29/07/2025 - DEFERIDO PARCIALMENTE - Restituição que era de R$ 2.710,51 passou para R$ 217,97 ( laudo obtido após a retificação da  declaração, ai teve diferença de data do inicio da isenção )",
@@ -3657,7 +3664,20 @@
       "cidade": "Belo Horizonte",
       "uf": "MG",
       "cep": "30320-330",
-      "dataContrato": "10/05/2023"
+      "dataContrato": "10/05/2023",
+      "exAtencao": {},
+      "exProcessos": {
+        "2024": [
+          {
+            "numero": "10600.720961/2026-76",
+            "valorPedido": 3561.5,
+            "dataProtocolo": "03/03/2026",
+            "obs": "Pedido de retificação de oficio da DIRPF 2024 para informar VGBL no campo isento feito em 03/03/2026",
+            "dataRec": "",
+            "valorRec": 0
+          }
+        ]
+      }
     },
     {
       "id": "18821467864",
@@ -49037,6 +49057,15 @@
             "2022": 82413.84
           },
           "total": 82413.84
+        },
+        {
+          "clienteId": "69855196600",
+          "cpfCnpj": "698.551.966-00",
+          "nome": "ANA CRISTINA NOVATO SOUZA BARROS",
+          "porExercicio": {
+            "EXPERDCOMP-2024-0": 13053.76
+          },
+          "total": 13053.76
         }
       ]
     },
