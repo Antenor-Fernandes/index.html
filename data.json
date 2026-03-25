@@ -22361,6 +22361,13 @@
       "doencaGrave": true,
       "historico": [
         {
+          "ts": "2026-03-25T11:46:11.444Z",
+          "exercicio": "2021",
+          "de": "IMPUGNAR — MALHA DG - DDA FEITO EM 11/02/2025 - teve compensação - PEDIR DESFAZIMENTO",
+          "para": "IMPUGNAR — MALHA DG - DDA FEITO EM 11/02/2025 - teve compensação - PEDIR DESFAZIMENTO",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-25T11:46:06.014Z",
           "exercicio": "2022",
           "de": "IMPUGNAR — 3.997,61  EM 30/06/2025 - TEVE COMPENSAÇÃO PEDIR DESFAZIMENTO",
@@ -22428,6 +22435,7 @@
       "exGCAP": {},
       "exPerdcomps": {},
       "exAtencao": {
+        "2021": true,
         "2022": true
       },
       "exProcessos": {}
