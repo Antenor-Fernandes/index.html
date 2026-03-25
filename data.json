@@ -13426,6 +13426,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-25T12:03:29.468Z",
+          "exercicio": "2024",
+          "de": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 30/04/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-24T13:39:46.771Z",
           "exercicio": "2025",
           "de": "EM FILA DE RESTITUIÇÃO — MALHA DG - DDA FEITO EM 27/01/2026",
@@ -13539,7 +13546,7 @@
         "2024": [
           {
             "numero": "07969.05958.300425.2.2.04-7535",
-            "valorPedido": 0,
+            "valorPedido": 11834.4,
             "dataTransmissao": "30/04/2025",
             "obs": "",
             "dataRec": "",
