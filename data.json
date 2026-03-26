@@ -43139,7 +43139,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2017": "APRESENTAMOS IMPUGNAÇÃO - VIA PROCESSO - AGUARDAR RESULTADO",
+        "2017": "PROCESSADA — APRESENTAMOS IMPUGNAÇÃO - VIA PROCESSO - AGUARDAR RESULTADO",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
@@ -43147,7 +43147,24 @@
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:39:08.456Z",
+          "exercicio": "2017",
+          "de": "APRESENTAMOS IMPUGNAÇÃO - VIA PROCESSO - AGUARDAR RESULTADO",
+          "para": "PROCESSADA — APRESENTAMOS IMPUGNAÇÃO - VIA PROCESSO - AGUARDAR RESULTADO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "32019459604",
