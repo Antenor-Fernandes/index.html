@@ -26377,7 +26377,7 @@
       "senhaGov": "",
       "observacoes": "ISENTO NA FONTE",
       "exercicios": {
-        "2020": "R$ 180,04 - 31/07/2020",
+        "2020": "PROCESSADA — R$ 180,04 - 31/07/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
@@ -26385,7 +26385,29 @@
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:16:15.071Z",
+          "exercicio": "2020",
+          "de": "R$ 180,04 - 31/07/2020",
+          "para": "PROCESSADA — R$ 180,04 - 31/07/2020",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2020": {
+          "data": "31/07/2020",
+          "valor": 180.04
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "12886106615",
@@ -69460,6 +69482,15 @@
             "2020": 63.97
           },
           "total": 63.97
+        },
+        {
+          "clienteId": "09236716687",
+          "cpfCnpj": "092.367.166-87",
+          "nome": "JOSÉ MODESTO VACCARI",
+          "porExercicio": {
+            "2020": 180.04
+          },
+          "total": 180.04
         }
       ]
     },
