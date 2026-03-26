@@ -1546,10 +1546,17 @@
       "senhaGov": "@Jc362718",
       "observacoes": "SENHA GOV @Jc362718",
       "exercicios": {
-        "2024": "EM MALHA — MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE VAI TRAZER DOCUMENTOS"
+        "2024": "EM MALHA — MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE FICOU DE TRAZER DOCUMENTOS MAS NÃO RESPONDEU AOS MUITOS CONTATOS DO ESCRITÓRIO"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-26T14:16:47.152Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE VAI TRAZER DOCUMENTOS",
+          "para": "EM MALHA — MALHA PENSÃO E DESPESAS MÉDICAS DO ALIMENTANDO - CLIENTE FICOU DE TRAZER DOCUMENTOS MAS NÃO RESPONDEU AOS MUITOS CONTATOS DO ESCRITÓRIO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T17:03:07.421Z",
           "exercicio": "2024",
@@ -1562,7 +1569,9 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "48684066634",
@@ -34363,50 +34372,6 @@
       "exGCAP": {},
       "exPerdcomps": {},
       "exProcessos": {}
-    },
-    {
-      "id": "11813456771",
-      "cpfCnpj": "118.134.567-71",
-      "tipo": "PF",
-      "nome": "MARIA CLARA DE LISIEUX KALIL",
-      "rg": "",
-      "nacionalidade": "",
-      "profissao": "",
-      "estadoCivil": "",
-      "telefone": "",
-      "email": "",
-      "logradouro": "",
-      "numeroEnd": "",
-      "complemento": "",
-      "bairro": "",
-      "cidade": "",
-      "uf": "",
-      "cep": "",
-      "acessoEcac": "",
-      "senhaGov": "",
-      "procurador": "",
-      "dataContrato": "",
-      "honorarios": "",
-      "objeto": "",
-      "doencaGrave": false,
-      "laudo": false,
-      "dataAposentadoria": "",
-      "diagnostico": "",
-      "observacoes": "",
-      "atencao": false,
-      "temPer": false,
-      "temRRA": false,
-      "exercicios": {},
-      "historico": [],
-      "recebimentos": {},
-      "dda": {},
-      "impugnacoes": {},
-      "perdcomps": [],
-      "exRRA": {},
-      "exGCAP": {},
-      "exPerdcomps": {},
-      "exProcessos": {},
-      "exAtencao": {}
     },
     {
       "id": "13845586672",
