@@ -29352,13 +29352,20 @@
       "senhaGov": "",
       "observacoes": "RRA 2025 30% DO PROVEITO ECONÔMICO",
       "exercicios": {
-        "2022": "R$ 6.109,52 31/08/2022",
+        "2022": "PROCESSADA — R$ 6.109,52 31/08/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "EM MALHA — DDA FEITO EM 22/01/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-26T10:20:49.667Z",
+          "exercicio": "2022",
+          "de": "R$ 6.109,52 31/08/2022",
+          "para": "PROCESSADA — R$ 6.109,52 31/08/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T15:45:12.340Z",
           "exercicio": "2025",
@@ -29372,7 +29379,12 @@
           "para": "EM MALHA — DDA FEITO EM 22/01/2026"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2022": {
+          "data": "31/08/2022",
+          "valor": 6109.52
+        }
+      },
       "dda": {
         "2025": {
           "feito": true,
@@ -29387,7 +29399,9 @@
         }
       },
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "20313284687",
