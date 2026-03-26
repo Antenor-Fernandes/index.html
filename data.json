@@ -2246,10 +2246,17 @@
       "temRRA": false,
       "exercicios": {
         "2024": "EM MALHA — ATENDEMOS INTIMAÇÃO EM 24/03/2026",
-        "2025": "EM MALHA",
+        "2025": "EM MALHA — RETIFICAMOS - MALHA PENSÃO - DDA FEITO EM 24/03/2026",
         "2026": "EM MALHA — RETIFICAMOS - MALHA PENSÃO - DDA FEITO EM 24/03/2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-26T16:46:00.553Z",
+          "exercicio": "2025",
+          "de": "EM MALHA",
+          "para": "EM MALHA — RETIFICAMOS - MALHA PENSÃO - DDA FEITO EM 24/03/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T16:45:47.103Z",
           "exercicio": "2025",
