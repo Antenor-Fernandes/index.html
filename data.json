@@ -31994,10 +31994,17 @@
       "acessoEcac": "CERT DIG TGC",
       "senhaGov": "",
       "observacoes": "",
-      "exercicios": {
-        "2023": "DEPENDENTE DE MARIA DE LOURDES LIMA ULHOA"
-      },
-      "temPer": false
+      "exercicios": {},
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:24:38.969Z",
+          "exercicio": "2023",
+          "de": "DEPENDENTE DE MARIA DE LOURDES LIMA ULHOA",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "97175749600",
