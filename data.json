@@ -24827,12 +24827,16 @@
       "senhaGov": "",
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
-        "2022": "R$ 4.131,18 31/08/2022",
+        "2022": "EM PROCESSAMENTO — R$ 4.131,18 31/08/2022",
         "2023": "PROCESSADA — 5.041,72 EM 31/08/2023",
         "2024": "PROCESSADA — 2.579,75 EM 28/06/2024"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "31/08/2022",
+          "valor": 4131.18
+        },
         "2023": {
           "data": "31/08/2023",
           "valor": 5041.72
@@ -24841,7 +24845,23 @@
           "data": "28/06/2024",
           "valor": 2579.75
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:14:07.724Z",
+          "exercicio": "2022",
+          "de": "R$ 4.131,18 31/08/2022",
+          "para": "EM PROCESSAMENTO — R$ 4.131,18 31/08/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "13212125691",
