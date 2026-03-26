@@ -7592,6 +7592,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-26T12:38:51.951Z",
+          "exercicio": "2022",
+          "de": "EM MALHA — MALHA DG",
+          "para": "EM MALHA — MALHA DG",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-23T17:30:41.666Z",
           "exercicio": "2022",
           "de": "EM MALHA — MALHA DG",
@@ -7661,7 +7668,8 @@
             "dataTransmissao": "16/03/2026",
             "obs": "",
             "dataRec": "",
-            "valorRec": 0
+            "valorRec": 0,
+            "indeferido": false
           }
         ]
       },
