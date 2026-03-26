@@ -48389,8 +48389,7 @@
       "exercicios": {
         "2022": "PROCESSADA — 10.739,91 EM 30/08/2024",
         "2023": "PROCESSADA — 11.977,17 EM 30/08/2024",
-        "2024": "PROCESSADA — 14.025,89 EM 30/08/2024",
-        "2025": "ISENTO NA FONTE"
+        "2024": "PROCESSADA — 14.025,89 EM 30/08/2024"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -48407,7 +48406,16 @@
           "data": "30/08/2024",
           "valor": 14025.89
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:52:31.434Z",
+          "exercicio": "2025",
+          "de": "ISENTO NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "18680267600",
