@@ -32099,7 +32099,8 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2025": "PROCESSADA — 3.326,47 EM 30/05/2025"
+        "2025": "PROCESSADA — 3.326,47 EM 30/05/2025",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "recebimentos": {
@@ -32107,7 +32108,23 @@
           "data": "30/05/2025",
           "valor": 3326.47
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T17:15:04.956Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "59622814620",
