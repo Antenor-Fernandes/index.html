@@ -49779,13 +49779,17 @@
       "observacoes": "",
       "exercicios": {
         "2018": "PROCESSADA",
-        "2022": "R$ 2.310,48 30/06/2022",
+        "2022": "PROCESSADA — R$ 2.310,48 30/06/2022",
         "2023": "PROCESSADA — 1.248,67 EM 30/06/2023",
         "2024": "PROCESSADA — 528,98 EM 28/06/2024",
         "2025": "PROCESSADA — 283,67 EM 30/06/2025"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "30/06/2022",
+          "valor": 2310.48
+        },
         "2023": {
           "data": "30/06/2023",
           "valor": 1248.67
@@ -49798,7 +49802,23 @@
           "data": "30/06/2025",
           "valor": 283.67
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:57:35.022Z",
+          "exercicio": "2022",
+          "de": "R$ 2.310,48 30/06/2022",
+          "para": "PROCESSADA — R$ 2.310,48 30/06/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "18646107604",
