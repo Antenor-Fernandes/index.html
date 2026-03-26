@@ -24827,7 +24827,7 @@
       "senhaGov": "",
       "observacoes": "VOLUNTÁRIO",
       "exercicios": {
-        "2022": "EM PROCESSAMENTO — R$ 4.131,18 31/08/2022",
+        "2022": "PROCESSADA — R$ 4.131,18 31/08/2022",
         "2023": "PROCESSADA — 5.041,72 EM 31/08/2023",
         "2024": "PROCESSADA — 2.579,75 EM 28/06/2024"
       },
@@ -24847,6 +24847,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:14:13.742Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — R$ 4.131,18 31/08/2022",
+          "para": "PROCESSADA — R$ 4.131,18 31/08/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:14:07.724Z",
           "exercicio": "2022",
