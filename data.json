@@ -26055,7 +26055,7 @@
       "exercicios": {
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
-        "2022": "73,39 31/05/2022",
+        "2022": "PROCESSADA — 73,39 31/05/2022",
         "2023": "PROCESSADA — 321,07 EM 31/05/2023",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 313,89 EM 30/06/2025"
@@ -26063,6 +26063,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2022": {
+          "data": "31/05/2022",
+          "valor": 73.39
+        },
         "2023": {
           "data": "31/05/2023",
           "valor": 321.07
@@ -26071,7 +26075,23 @@
           "data": "30/06/2025",
           "valor": 313.89
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:16:00.591Z",
+          "exercicio": "2022",
+          "de": "73,39 31/05/2022",
+          "para": "PROCESSADA — 73,39 31/05/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "39010759687",
