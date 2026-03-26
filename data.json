@@ -48984,7 +48984,7 @@
       "observacoes": "259665&Rosa",
       "exercicios": {
         "2019": "R$ 2.500, 40 EM ABRIL -PERDCOMP",
-        "2020": "R$ 414,96 - 31/07/2020",
+        "2020": "PROCESSADA — R$ 414,96 - 31/07/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
@@ -48994,11 +48994,31 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2020": {
+          "data": "31/07/2020",
+          "valor": 414.96
+        },
         "2024": {
           "data": "28/06/2024",
           "valor": 44.27
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:55:35.584Z",
+          "exercicio": "2020",
+          "de": "R$ 414,96 - 31/07/2020",
+          "para": "PROCESSADA — R$ 414,96 - 31/07/2020",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "49421867653",
@@ -71736,6 +71756,15 @@
             "2020": 2311.02
           },
           "total": 2311.02
+        },
+        {
+          "clienteId": "30056500653",
+          "cpfCnpj": "300.565.006-53",
+          "nome": "ROSÂNGELA MOREIRA DE SOUZA",
+          "porExercicio": {
+            "2020": 414.96
+          },
+          "total": 414.96
         }
       ]
     },
