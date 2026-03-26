@@ -25370,7 +25370,7 @@
         "2020": "PROCESSADA — 28.073,47 - 29/12/2022",
         "2021": "PROCESSADA — 30.485,21 - 29/12/2022",
         "2022": "RECEBEU EM 30/04/2024",
-        "2023": "RECEBEU EM 30/04/2024",
+        "2023": "PROCESSADA — RECEBEU EM 30/04/2024",
         "2024": "PROCESSADA — 30.847,70 EM 31/05/2024",
         "2025": "PROCESSADA — 11.801,38  EM 30/05/2025"
       },
@@ -25393,6 +25393,10 @@
           "data": "29/12/2022",
           "valor": 30485.21
         },
+        "2023": {
+          "data": "30/04/2024",
+          "valor": 0
+        },
         "2024": {
           "data": "31/05/2024",
           "valor": 30847.7
@@ -25401,7 +25405,23 @@
           "data": "30/05/2025",
           "valor": 11801.38
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:14:32.450Z",
+          "exercicio": "2023",
+          "de": "RECEBEU EM 30/04/2024",
+          "para": "PROCESSADA — RECEBEU EM 30/04/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "73701920672",
