@@ -48426,8 +48426,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "PROCESSADA — 6.781,34 EM 30/04/2024",
-        "2023": "ISENTO NA FONTE"
+        "2022": "PROCESSADA — 6.781,34 EM 30/04/2024"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -48438,6 +48437,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:52:38.826Z",
+          "exercicio": "2023",
+          "de": "ISENTO NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:52:35.938Z",
           "exercicio": "2024",
