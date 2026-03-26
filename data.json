@@ -32045,7 +32045,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2018": "17.124,85 EM 31/03/21 (PREVIDÊNCIA PRIVADA)",
+        "2018": "PROCESSADA — 17.124,85 EM 31/03/21 (PREVIDÊNCIA PRIVADA)",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
@@ -32054,7 +32054,29 @@
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:24:55.048Z",
+          "exercicio": "2018",
+          "de": "17.124,85 EM 31/03/21 (PREVIDÊNCIA PRIVADA)",
+          "para": "PROCESSADA — 17.124,85 EM 31/03/21 (PREVIDÊNCIA PRIVADA)",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2018": {
+          "data": "31/03/2021",
+          "valor": 17124.85
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "32548974634",
