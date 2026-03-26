@@ -48983,7 +48983,7 @@
       "senhaGov": "",
       "observacoes": "259665&Rosa",
       "exercicios": {
-        "2019": "R$ 2.500, 40 EM ABRIL -PERDCOMP",
+        "2019": "PROCESSADA — R$ 2.500, 40 EM ABRIL -PERDCOMP",
         "2020": "PROCESSADA — R$ 414,96 - 31/07/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
@@ -49004,6 +49004,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:55:46.836Z",
+          "exercicio": "2019",
+          "de": "R$ 2.500, 40 EM ABRIL -PERDCOMP",
+          "para": "PROCESSADA — R$ 2.500, 40 EM ABRIL -PERDCOMP",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:55:35.584Z",
           "exercicio": "2020",
