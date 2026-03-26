@@ -35449,7 +35449,7 @@
       "senhaGov": "74101940Bb!",
       "observacoes": "SENHA GOV 74101940Bb!",
       "exercicios": {
-        "2022": "EM PROCESSAMENTO — 68.734,59 EM 30/12/2025 - TEVE NL - RRA NÃO COMPROVADO LANÇADO NO TRIBUTÁVEL",
+        "2022": "PROCESSADA — 68.734,59 EM 30/12/2025 - TEVE NL - RRA NÃO COMPROVADO LANÇADO NO TRIBUTÁVEL",
         "2023": "PROCESSADA — 80.800,24 EM 30/12/2025",
         "2024": "PROCESSADA — 82.046,05 EM 30/12/2025",
         "2025": "PROCESSADA — 79.542,24 EM 27/02/2026"
@@ -35475,6 +35475,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:31:39.691Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — 68.734,59 EM 30/12/2025 - TEVE NL - RRA NÃO COMPROVADO LANÇADO NO TRIBUTÁVEL",
+          "para": "PROCESSADA — 68.734,59 EM 30/12/2025 - TEVE NL - RRA NÃO COMPROVADO LANÇADO NO TRIBUTÁVEL",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:31:27.747Z",
           "exercicio": "2022",
