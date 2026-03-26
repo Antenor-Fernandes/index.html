@@ -10887,13 +10887,36 @@
       "cpfCnpj": "008.491.036-49",
       "tipo": "PF",
       "nome": "DALMIR DE JESUS",
-      "acessoEcac": "Dal@0828",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "NÃO É CLIENTE - COISAS DE TT - MS AJUIZADO EM MARÇO DE 2026",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": false,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "NÃO É CLIENTE - COISAS DE TT - MS AJUIZADO EM MARÇO DE 2026 - IMPUGNAR INTEMPESTIVAMENTE EXERCÍCIO 2023 EM MAIO 2026",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2026": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026"
       },
-      "temPer": false,
       "historico": [
         {
           "ts": "2026-03-23T12:13:37.776Z",
@@ -10906,13 +10929,14 @@
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
+      "exProcessos": {},
       "exAtencao": {
         "2026": true
-      },
-      "exProcessos": {}
+      }
     },
     {
       "id": "37357077691",
