@@ -717,7 +717,7 @@ body.exercicios-level .full-edit-only{display:none!important}
           <option value="EM MALHA">🔴 Em Malha</option>
           <option value="EM FILA DE RESTITUIÇÃO">🟢 Em Fila de Restituição</option>
           <option value="PROCESSADA">✅ Processada</option>
-          <option value="TRABALHO MANUAL RFB">⚙️ Trabalho Manual pela RFB</option>
+          <option value="TRABALHO MANUAL RFB">⚙️ Em Tratamento Manual</option>
           <option value="IMPUGNAÇÃO">⚖️ Impugnação</option>
           <option value="IMPUGNAR">🟠 Impugnar</option>
         </select></div>
@@ -910,7 +910,7 @@ body.exercicios-level .full-edit-only{display:none!important}
     <option value="EM MALHA">🔴 Em Malha</option>
     <option value="EM FILA DE RESTITUIÇÃO">🟢 Em Fila de Restituição</option>
     <option value="PROCESSADA">✅ Processada</option>
-    <option value="TRABALHO MANUAL RFB">⚙️ Trabalho Manual pela RFB</option>
+    <option value="TRABALHO MANUAL RFB">⚙️ Em Tratamento Manual</option>
   </select>
   <textarea id="qe-detalhe" placeholder="Detalhes / observação (opcional)…"></textarea>
   <div style="display:flex;justify-content:flex-end;gap:7px;margin-top:10px">
@@ -1904,7 +1904,7 @@ function classifyStatus(s){
   if(!s)return{cls:'outro',label:'—'};
   const u=s.toUpperCase();
   // IMPORTANTE: usa startsWith para não capturar palavras no campo Detalhes
-  if(u.startsWith('TRABALHO MANUAL'))return{cls:'tmanual',label:'Trab. Manual RFB'};
+  if(u.startsWith('TRABALHO MANUAL'))return{cls:'tmanual',label:'Trat. Manual'};
   if(u.startsWith('EM PROCESSAMENTO'))return{cls:'processamento',label:'Em Processamento'};
   if(u.startsWith('PROCESSADA'))return{cls:'processada',label:'Processada'};
   if(u.startsWith('EM MALHA'))return{cls:'malha',label:'Em Malha'};
@@ -1951,7 +1951,7 @@ function fmtBRL(v){
   return'R$ '+Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
 }
 function initials(nome){return nome.split(' ').slice(0,2).map(w=>w[0]).join('')}
-const STATUS_LABELS={processada:'Processada',processamento:'Em Processamento',tmanual:'Trab. Manual RFB',malha:'Em Malha',per:'PERDCOMP',transmitida:'Transmitida',fila:'Em Fila de Restituição',impugnacao:'Impugnação',impugnar:'Impugnar',dda:'DDA Aberto',outro:'Outro'};
+const STATUS_LABELS={processada:'Processada',processamento:'Em Processamento',tmanual:'Em Tratamento Manual',malha:'Em Malha',per:'PERDCOMP',transmitida:'Transmitida',fila:'Em Fila de Restituição',impugnacao:'Impugnação',impugnar:'Impugnar',dda:'DDA Aberto',outro:'Outro'};
 function statusDots(c){
   // Ponto vermelho apenas se houver exercício em malha SEM c.dda[yr].feito=true
   if(!c.exercicios)return'';
@@ -1969,7 +1969,7 @@ const DECL_INFO={
   processamento:{label:'Em Processamento',dot:'processamento',cls:'processamento'},
   malha:{label:'Em Malha',dot:'malha',cls:'malha'},
   fila:{label:'Em Fila de Restituição',dot:'fila',cls:'fila'},
-  tmanual:{label:'Retirada p/ Trabalho Manual',dot:'tmanual',cls:'tmanual'},
+  tmanual:{label:'Em Tratamento Manual',dot:'tmanual',cls:'tmanual'},
   impugnacao:{label:'Impugnação',dot:'impugnacao',cls:'impugnacao'},
   impugnar:{label:'Impugnar',dot:'impugnar',cls:'impugnar'},
   processada:{label:'Processada',dot:'processada',cls:'processada'},
@@ -2998,7 +2998,7 @@ function openExModal(clientId,year,focusPerIdx){
   const st=c?.exercicios?.[year]||'';
   document.getElementById('ex-year-disp').disabled=true;
   document.getElementById('ex-year-disp').value=year;
-  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','PERDCOMP','AGUARDANDO','NÃO DECLARADA','OUTRO'];
+  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','AGUARDANDO','NÃO DECLARADA','OUTRO','PERDCOMP'];
   const catMatch=cats.find(c2=>st.toUpperCase().startsWith(c2))||'EM PROCESSAMENTO';
   const sel=document.getElementById('ex-cat');
   if(!Array.from(sel.options).find(o=>o.value===catMatch)){
@@ -3858,7 +3858,7 @@ function openQE(clientId, year, evt){
   document.getElementById('qe-title').textContent=`${c.nome} · ${year}`;
   const dot=document.getElementById('qe-dot');
   dot.className=`status-dot dot-${cat.cls}`;
-  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','PERDCOMP','AGUARDANDO','NÃO DECLARADA','OUTRO'];
+  const cats=['EM PROCESSAMENTO','TRANSMITIDA','EM MALHA','EM FILA DE RESTITUIÇÃO','PROCESSADA','TRABALHO MANUAL RFB','IMPUGNAÇÃO','IMPUGNAR','AGUARDANDO','NÃO DECLARADA','OUTRO','PERDCOMP'];
   const qeCatMatch=cats.find(c2=>st.toUpperCase().startsWith(c2))||'EM PROCESSAMENTO';
   // garante que a opção existe no select (compatibilidade com valores legados)
   const qeSel=document.getElementById('qe-cat');
