@@ -18734,7 +18734,7 @@
       "observacoes": "SENHA GOV.BR Silvan@73 - PER 2022 FEITO EM 12/12/2023  E 2023 EM 23/01/2024 - RECEBEU 1 EM 20/06/2024 e 1 em 20/01/2026 -PER 2020 e 2021 FEITOS EM  27/08/2024 - NÃO TEM PER 2024  - teve despacho decisório per 2019 e 2020 - PEDIDO DE REVISÃO DE OFÍCIO DO INDEFERIMENTO DA MANIFESTAÇÃO DE INCONFORMIDADE FEITO EM 18/11/2025 -  10600.726137/2025-49",
       "exercicios": {
         "2019": "RECEBEU 10.902,41 EM 31/01/2024",
-        "2020": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
+        "2020": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
         "2021": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
         "2022": "PROCESSADA — RECEBEU 18.347,11 EM 31/01/2024",
         "2023": "PROCESSADA — 25.269,75 EM 31/10/2025",
@@ -18751,7 +18751,8 @@
             "dataTransmissao": "27/08/2024",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0,
+            "indeferido": false
           }
         ],
         "2021": [
@@ -18788,6 +18789,10 @@
         ]
       },
       "recebimentos": {
+        "2020": {
+          "data": "21/11/2025",
+          "valor": 19739.42
+        },
         "2021": {
           "data": "21/11/2025",
           "valor": 18103.9
@@ -18811,6 +18816,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-26T09:51:08.866Z",
+          "exercicio": "2020",
+          "de": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
+          "para": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-26T09:49:50.960Z",
           "exercicio": "2021",
           "de": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
@@ -18829,7 +18841,9 @@
       "impugnacoes": {},
       "exRRA": {},
       "exGCAP": {},
-      "exAtencao": {},
+      "exAtencao": {
+        "2020": true
+      },
       "exProcessos": {}
     },
     {
@@ -53629,9 +53643,10 @@
           "cpfCnpj": "092.227.666-87",
           "nome": "GILBERTO DE OLIVEIRA LOVALHO",
           "porExercicio": {
+            "2020": 19739.42,
             "2021": 18103.9
           },
-          "total": 18103.9
+          "total": 37843.32
         }
       ]
     },
