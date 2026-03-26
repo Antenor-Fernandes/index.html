@@ -25454,7 +25454,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2017": "TRABALHADA PELA MALHA - 19582,84",
+        "2017": "PROCESSADA — TRABALHADA PELA MALHA - 19582,84",
         "2018": "PROCESSADA — 19783,73 - EM 29/01/2021",
         "2019": "PROCESSADA — 18138,16 - EM 29/01/2021",
         "2020": "PROCESSADA — 18109,31 - EM 29/01/2021",
@@ -25493,6 +25493,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:15:44.478Z",
+          "exercicio": "2017",
+          "de": "TRABALHADA PELA MALHA - 19582,84",
+          "para": "PROCESSADA — TRABALHADA PELA MALHA - 19582,84",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:15:33.904Z",
           "exercicio": "2018",
