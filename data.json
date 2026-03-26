@@ -47099,13 +47099,20 @@
       "observacoes": "",
       "exercicios": {
         "2020": "R$ 1.469,41 USADO PARA COMPENSAÇÃO",
-        "2021": "R$ 1.061,72 - 30/06/2021",
+        "2021": "PROCESSADA — R$ 1.061,72 - 30/06/2021",
         "2022": "PROCESSADA — R$ 670,49 30/06/2022",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-26T10:50:24.929Z",
+          "exercicio": "2021",
+          "de": "R$ 1.061,72 - 30/06/2021",
+          "para": "PROCESSADA — R$ 1.061,72 - 30/06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:50:14.297Z",
           "exercicio": "2022",
@@ -47115,6 +47122,10 @@
         }
       ],
       "recebimentos": {
+        "2021": {
+          "data": "30/06/2021",
+          "valor": 1061.72
+        },
         "2022": {
           "data": "30/06/2022",
           "valor": 670.49
