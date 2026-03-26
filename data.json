@@ -10411,7 +10411,6 @@
       "exercicios": {
         "2021": "PROCESSADA — 6.353,53 EM 30/06/2023",
         "2022": "PROCESSADA — 6.094,52 EM 30/06/2023",
-        "2023": "CLIENTE QUE FEZ",
         "2025": "PROCESSADA"
       },
       "temPer": false,
@@ -10427,6 +10426,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:29:42.672Z",
+          "exercicio": "2023",
+          "de": "CLIENTE QUE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:29:39.077Z",
           "exercicio": "2024",
