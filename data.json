@@ -30353,7 +30353,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2016": "10153,98 em 30/12/2020  - RECEBEU PER EM 21/03/2022",
+        "2016": "PROCESSADA — 10153,98 em 30/12/2020  - RECEBEU PER EM 21/03/2022",
         "2017": "PROCESSADA — 11614,16 em 30/12/2020 - RECEBEU PER EM 21/03/2022",
         "2018": "PROCESSADA — 13194,08 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
         "2019": "PROCESSADA — 13023,52 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
@@ -30368,6 +30368,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2016": {
+          "data": "30/12/2020",
+          "valor": 10153.98
+        },
         "2017": {
           "data": "30/12/2020",
           "valor": 11614.16
@@ -30386,6 +30390,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:23:07.399Z",
+          "exercicio": "2016",
+          "de": "10153,98 em 30/12/2020  - RECEBEU PER EM 21/03/2022",
+          "para": "PROCESSADA — 10153,98 em 30/12/2020  - RECEBEU PER EM 21/03/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:22:50.151Z",
           "exercicio": "2017",
@@ -69388,11 +69399,12 @@
           "cpfCnpj": "009.821.306-78",
           "nome": "LUIZ FERNANDO MAIA",
           "porExercicio": {
+            "2016": 10153.98,
             "2017": 11614.16,
             "2018": 13194.08,
             "2019": 13023.52
           },
-          "total": 37831.759999999995
+          "total": 47985.740000000005
         }
       ]
     },
