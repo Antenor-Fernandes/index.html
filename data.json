@@ -42662,7 +42662,6 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2021": "DEPENDENTE DE JOSÉ OSWALDO  SOARES MATIAS DE OLIVEIRA",
         "2024": "PROCESSADA — 12.719,84 EM 31/05/2024",
         "2025": "PROCESSADA — 17.718,78 EM 30/05/2025"
       },
@@ -42677,7 +42676,16 @@
           "data": "30/05/2025",
           "valor": 17718.78
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:37:54.878Z",
+          "exercicio": "2021",
+          "de": "DEPENDENTE DE JOSÉ OSWALDO  SOARES MATIAS DE OLIVEIRA",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "85766860668",
