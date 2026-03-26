@@ -6689,9 +6689,33 @@
       "cpfCnpj": "101.321.477-34",
       "tipo": "PF",
       "nome": "ARMINDA VILLELA DOS SANTOS",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "(21) 2264-2636 / (21) 99495-2774",
+      "email": "",
+      "logradouro": "Rua Benjamim Franklin",
+      "numeroEnd": "11",
+      "complemento": "Apto 601",
+      "bairro": "Tijuca",
+      "cidade": "Rio de Janeiro",
+      "uf": "RJ",
+      "cep": "20540-096",
+      "acessoEcac": "",
       "senhaGov": "Nina2020!",
-      "observacoes": "SENHA GOV Nina2020! - PER 2022 E 2023 RECEBIDOS EM 21/11/2024- PER 2024 FEITO EM 17/02/2025",
+      "procurador": "",
+      "dataContrato": "10/07/2024",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "FALECIDA EM 2025",
+      "atencao": false,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2020": "PROCESSADA — 8.622,02 EM 30/09/2024",
         "2021": "PROCESSADA — 8.234,11 EM 30/09/2024",
@@ -6700,8 +6724,6 @@
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 13/01/2025",
         "2025": "PROCESSADA — 31.444,26  EM 30/05/2025"
       },
-      "temPer": true,
-      "doencaGrave": true,
       "historico": [
         {
           "ts": "2026-03-23T17:26:57.474Z",
@@ -6782,6 +6804,7 @@
         }
       },
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {
@@ -6816,17 +6839,8 @@
           }
         ]
       },
-      "telefone": "(21) 2264-2636 / (21) 99495-2774",
-      "logradouro": "Rua Benjamim Franklin",
-      "numeroEnd": "11",
-      "complemento": "Apto 601",
-      "bairro": "Tijuca",
-      "cidade": "Rio de Janeiro",
-      "uf": "RJ",
-      "cep": "20540-096",
-      "dataContrato": "10/07/2024",
-      "exAtencao": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "25088173687",
