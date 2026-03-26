@@ -44040,7 +44040,7 @@
         "2019": "PROCESSADA — 21.402,90 EM 31/01/2023",
         "2020": "PROCESSADA — 40.136,54 EM 06/12/2022 VIA PROCESSO",
         "2021": "PROCESSADA — 40.825,34 EM 31/01/2023",
-        "2022": "EM PROCESSAMENTO — RECEBEU EM 30/04/2024",
+        "2022": "PROCESSADA — RECEBEU EM 30/04/2024",
         "2023": "PROCESSADA — RECEBEU EM 30/04/2024",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 5,31 EM 27/02/2026"
@@ -44074,6 +44074,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:40:20.609Z",
+          "exercicio": "2022",
+          "de": "EM PROCESSAMENTO — RECEBEU EM 30/04/2024",
+          "para": "PROCESSADA — RECEBEU EM 30/04/2024",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:40:10.183Z",
           "exercicio": "2020",
