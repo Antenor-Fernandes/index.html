@@ -47355,18 +47355,38 @@
       "observacoes": "",
       "exercicios": {
         "2020": "R$ 5.255,84 - 31/07/2020",
-        "2021": "R$ 5.845,60 - 30/06/2021",
+        "2021": "PROCESSADA — R$ 5.845,60 - 30/06/2021",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 2.722,46 EM 30/06/2025"
       },
       "temPer": false,
       "recebimentos": {
+        "2021": {
+          "data": "30/06/2021",
+          "valor": 5845.6
+        },
         "2025": {
           "data": "30/06/2025",
           "valor": 2722.46
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:51:03.100Z",
+          "exercicio": "2021",
+          "de": "R$ 5.845,60 - 30/06/2021",
+          "para": "PROCESSADA — R$ 5.845,60 - 30/06/2021",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "55656242668",
