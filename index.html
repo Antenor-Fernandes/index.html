@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CadastroIR – Gestão de Clientes</title>
+<title>TGC – Gestão de Clientes</title>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#f0f4f9;--surface:#ffffff;--surface2:#eef2f7;--border:#d4dce9;--accent:#2d6be4;--accent2:#6c48d6;--green:#16a34a;--yellow:#d97706;--red:#dc2626;--orange:#ea580c;--cyan:#0891b2;--text:#1a2540;--text2:#4a5980;--text3:#8a97b4;--radius:10px;--shadow:0 2px 16px rgba(45,107,228,.10)}
@@ -327,7 +327,7 @@ body.exercicios-level .full-edit-only{display:none!important}
 <!-- SIDEBAR -->
 <aside class="sidebar">
   <div class="logo">
-    <div class="logo-title">CadastroIR</div>
+    <div class="logo-title">TGC</div>
     <div class="logo-sub">Gestão de Clientes</div>
   </div>
   <div class="nav-section-label">Declarações</div>
@@ -426,7 +426,7 @@ body.exercicios-level .full-edit-only{display:none!important}
       </div>
     </div>
     <div class="print-header" id="lotes-print-header">
-      <div class="print-header-title">CadastroIR — Lotes de Restituição</div>
+      <div class="print-header-title">TGC — Lotes de Restituição</div>
       <div class="print-header-sub" id="lotes-print-sub"></div>
     </div>
     <div id="lotes-list"></div>
@@ -434,7 +434,7 @@ body.exercicios-level .full-edit-only{display:none!important}
   <!-- VIEW RELATÓRIOS -->
   <div class="content" id="view-relatorio" style="display:none">
     <div class="print-header">
-      <div class="print-header-title">CadastroIR — Relatório de Clientes</div>
+      <div class="print-header-title">TGC — Relatório de Clientes</div>
       <div class="print-header-sub" id="print-header-sub"></div>
     </div>
     <div class="rel-layout">
@@ -961,7 +961,7 @@ body.exercicios-level .full-edit-only{display:none!important}
 <!-- MODAL LOGIN -->
 <div class="login-overlay" id="modal-login" style="display:none">
 <div class="login-box">
-  <div class="login-logo">CadastroIR</div>
+  <div class="login-logo">TGC</div>
   <div class="login-sub">Identifique-se para continuar</div>
   <label style="font-size:11px;font-weight:700;color:var(--text2);text-transform:uppercase;letter-spacing:.6px;display:block;margin-bottom:7px">Código de acesso pessoal</label>
   <input type="password" id="login-code" class="login-code-inp" placeholder="••••••••"
@@ -4220,7 +4220,7 @@ function imprimirLoteUnico(idx){
     tfoot td{padding:8px 10px;font-weight:700;border-top:2px solid #d4dce9}
     .rodape{margin-top:20px;font-size:8pt;color:#aaa;text-align:center}
   </style></head><body>
-  <h1>CadastroIR — Lote de Restituição</h1>
+  <h1>TGC — Lote de Restituição</h1>
   <div class="sub">Gerado em ${dataGer} · ${l.pagamentos.length} cliente${l.pagamentos.length!==1?'s':''}</div>
   <div class="lote-info">
     <span class="lote-data">📅 ${l.data}</span>
@@ -4232,7 +4232,7 @@ function imprimirLoteUnico(idx){
     <tbody>${linhas}</tbody>
     <tfoot><tr><td colspan="3">TOTAL GERAL</td><td style="text-align:right;font-family:monospace;color:#16a34a">${fmtBRL(totalGeral)}</td></tr></tfoot>
   </table>
-  <div class="rodape">CadastroIR · Gestão de Clientes</div>
+  <div class="rodape">TGC · Gestão de Clientes</div>
   <script>window.onload=()=>{window.print();window.onafterprint=()=>window.close();}<\/script>
   </body></html>`;
   // Usa Blob URL para evitar erro de segurança file:// no Chrome
