@@ -21327,7 +21327,6 @@
         "2020": "PROCESSADA — 101.266,70 EM 30/04/2024",
         "2021": "PROCESSADA — 105.194,59 EM 30/04/2024",
         "2022": "ISENTA NA FONTE",
-        "2023": "ISENTA NA FONTE",
         "2024": "PROCESSADA"
       },
       "temPer": false,
@@ -21343,6 +21342,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:05:27.229Z",
+          "exercicio": "2023",
+          "de": "ISENTA NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:05:18.504Z",
           "exercicio": "2025",
