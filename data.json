@@ -10152,7 +10152,7 @@
       "observacoes": "",
       "exercicios": {
         "2020": "R$ 14.091,56 - 31/08/2020",
-        "2021": "EM PROCESSAMENTO — R$ 15.897 - 30/06/2021",
+        "2021": "PROCESSADA — R$ 15.897 - 30/06/2021",
         "2022": "PROCESSADA — 17901,51 30/06/2022",
         "2023": "PROCESSADA — 17.055,91 EM 30/06/2023",
         "2024": "PROCESSADA",
@@ -10178,6 +10178,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:29:17.744Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — R$ 15.897 - 30/06/2021",
+          "para": "PROCESSADA — R$ 15.897 - 30/06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:29:11.720Z",
           "exercicio": "2021",
