@@ -48517,8 +48517,7 @@
         "2021": "PROCESSADA — 74.798,57 EM 31/05/2023",
         "2022": "PROCESSADA — 74.417,73 EM 31/05/2023",
         "2023": "PROCESSADA — 73.527,93 EM 31/05/2023",
-        "2024": "PROCESSADA — 20.546,62 EM 28/06/2024",
-        "2025": "DISTRATO - ISENTO NA FONTE - NÃO É PRA FAZER"
+        "2024": "PROCESSADA — 20.546,62 EM 28/06/2024"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -48547,7 +48546,16 @@
           "data": "28/06/2024",
           "valor": 20546.62
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:52:44.163Z",
+          "exercicio": "2025",
+          "de": "DISTRATO - ISENTO NA FONTE - NÃO É PRA FAZER",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "10557754631",
