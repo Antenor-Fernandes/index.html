@@ -48508,9 +48508,33 @@
       "cpfCnpj": "000.384.586-91",
       "tipo": "PF",
       "nome": "RONALDO FURTADO CIRUFFO",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "PER 2019 a 2021 FEITOS EM 20/04/2023. PER 2022 FEITO EM 24/04/2023 - RECEBIDOS EM 20/02/2024",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "DISTRATO - NÃO É PARA FAZER MAIS",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2019": "PROCESSADA — 73.055,17 EM 31/05/2023",
         "2020": "PROCESSADA — 70.984,45 EM 31/05/2023",
@@ -48519,8 +48543,15 @@
         "2023": "PROCESSADA — 73.527,93 EM 31/05/2023",
         "2024": "PROCESSADA — 20.546,62 EM 28/06/2024"
       },
-      "temPer": false,
-      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:52:44.163Z",
+          "exercicio": "2025",
+          "de": "DISTRATO - ISENTO NA FONTE - NÃO É PRA FAZER",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {
         "2019": {
           "data": "31/05/2023",
@@ -48547,15 +48578,14 @@
           "valor": 20546.62
         }
       },
-      "historico": [
-        {
-          "ts": "2026-03-26T10:52:44.163Z",
-          "exercicio": "2025",
-          "de": "DISTRATO - ISENTO NA FONTE - NÃO É PRA FAZER",
-          "para": "(removido)",
-          "usuario": "Admin"
-        }
-      ]
+      "dda": {},
+      "impugnacoes": {},
+      "perdcomps": [],
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "10557754631",
