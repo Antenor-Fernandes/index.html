@@ -49216,11 +49216,28 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2021": "REDARF - DDA EM 06/10/2022 - CHAT 07/10/2022 - RESOLVIDO",
+        "2021": "PROCESSADA — REDARF - DDA EM 06/10/2022 - CHAT 07/10/2022 - RESOLVIDO",
         "2022": "PROCESSADA",
         "2024": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:56:22.392Z",
+          "exercicio": "2021",
+          "de": "REDARF - DDA EM 06/10/2022 - CHAT 07/10/2022 - RESOLVIDO",
+          "para": "PROCESSADA — REDARF - DDA EM 06/10/2022 - CHAT 07/10/2022 - RESOLVIDO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "71215468687",
