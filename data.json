@@ -47997,13 +47997,17 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2022": "R$ 1.005,32 31/08/2022",
+        "2022": "PROCESSADA — R$ 1.005,32 31/08/2022",
         "2023": "PROCESSADA — 1.222,95 EM 31/08/2023",
         "2024": "PROCESSADA — 1.576,44 EM 30/08/2024",
         "2025": "PROCESSADA — 1.991,72 EM 31/07/2025"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "31/08/2022",
+          "valor": 1005.32
+        },
         "2023": {
           "data": "31/08/2023",
           "valor": 1222.95
@@ -48016,7 +48020,23 @@
           "data": "31/07/2025",
           "valor": 1991.72
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:51:56.667Z",
+          "exercicio": "2022",
+          "de": "R$ 1.005,32 31/08/2022",
+          "para": "PROCESSADA — R$ 1.005,32 31/08/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "08105358662",
