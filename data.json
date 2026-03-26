@@ -18735,7 +18735,7 @@
       "exercicios": {
         "2019": "RECEBEU 10.902,41 EM 31/01/2024",
         "2020": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
-        "2021": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
+        "2021": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
         "2022": "PROCESSADA — RECEBEU 18.347,11 EM 31/01/2024",
         "2023": "PROCESSADA — 25.269,75 EM 31/10/2025",
         "2024": "PROCESSADA — 36.033,73 EM 31/10/2025",
@@ -18761,7 +18761,8 @@
             "dataTransmissao": "27/08/2024",
             "obs": "",
             "dataRec": "",
-            "valorRec": ""
+            "valorRec": 0,
+            "indeferido": false
           }
         ],
         "2022": [
@@ -18787,6 +18788,10 @@
         ]
       },
       "recebimentos": {
+        "2021": {
+          "data": "21/11/2025",
+          "valor": 18103.9
+        },
         "2022": {
           "data": "31/01/2024",
           "valor": 18347.11
@@ -18805,6 +18810,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:49:50.960Z",
+          "exercicio": "2021",
+          "de": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
+          "para": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:48:55.275Z",
           "exercicio": "2022",
@@ -53611,6 +53623,15 @@
             "EXPERDCOMP-2024-0": 128.26
           },
           "total": 128.26
+        },
+        {
+          "clienteId": "09222766687",
+          "cpfCnpj": "092.227.666-87",
+          "nome": "GILBERTO DE OLIVEIRA LOVALHO",
+          "porExercicio": {
+            "2021": 18103.9
+          },
+          "total": 18103.9
         }
       ]
     },
