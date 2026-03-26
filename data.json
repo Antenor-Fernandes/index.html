@@ -18760,7 +18760,7 @@
             "numero": "31367.51651.270824.2.2.04-3378",
             "valorPedido": 4869.74,
             "dataTransmissao": "27/08/2024",
-            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025",
+            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025, PROCESSO 10600.726137/2025-49",
             "dataRec": "",
             "valorRec": 0,
             "indeferido": false
@@ -18819,6 +18819,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:01:17.467Z",
+          "exercicio": "2021",
+          "de": "TRABALHO MANUAL RFB — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE: RECEBEU 18.103,09 EM 21/11/2025",
+          "para": "TRABALHO MANUAL RFB — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE: RECEBEU 18.103,09 EM 21/11/2025",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:59:58.442Z",
           "exercicio": "2020",
