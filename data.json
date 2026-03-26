@@ -46022,7 +46022,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "SENHA: JoAqui46",
+        "2019": "PROCESSADA",
         "2020": "PROCESSADA — 9.629,66 - 30/06/2020",
         "2021": "PROCESSADA — R$ 764,06 - 30/06/2021",
         "2022": "PROCESSADA — R$ 1.799,45 30/06/2022",
@@ -46058,6 +46058,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:46:15.446Z",
+          "exercicio": "2019",
+          "de": "SENHA: JoAqui46",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:46:02.774Z",
           "exercicio": "2021",
