@@ -15350,36 +15350,6 @@
       "exPerdcomps": {}
     },
     {
-      "id": "19868553687",
-      "cpfCnpj": "198.685.536-87",
-      "tipo": "PF",
-      "nome": "EUSTÁQUIO ARAÚJO COSTA",
-      "acessoEcac": "Mlgc@1301",
-      "senhaGov": "",
-      "observacoes": "",
-      "exercicios": {
-        "2021": "PROCESSADA — RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO"
-      },
-      "temPer": false,
-      "historico": [
-        {
-          "ts": "2026-03-26T09:39:52.201Z",
-          "exercicio": "2021",
-          "de": "RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO",
-          "para": "PROCESSADA — RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO",
-          "usuario": "Admin"
-        }
-      ],
-      "recebimentos": {},
-      "dda": {},
-      "impugnacoes": {},
-      "exRRA": {},
-      "exGCAP": {},
-      "exPerdcomps": {},
-      "exAtencao": {},
-      "exProcessos": {}
-    },
-    {
       "id": "27599507604",
       "cpfCnpj": "275.995.076-04",
       "tipo": "PF",
