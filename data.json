@@ -15484,13 +15484,19 @@
         "2020": "NÃO TEM O Q RECUPERAR",
         "2021": "PROCESSADA — 3.453,44 EM 28/02/2025",
         "2022": "NÃO TEM O Q RECUPERAR",
-        "2023": "NÃO TEM O Q RECUPERAR",
         "2024": "PROCESSADA — 46.308,58 EM 28/02/2025",
         "2025": "EM MALHA — MALHA DG - DDA E PEDIDO DE PRIORIDADE FEITOS EM 27/01/2026"
       },
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-26T09:41:24.160Z",
+          "exercicio": "2023",
+          "de": "NÃO TEM O Q RECUPERAR",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T19:06:05.486Z",
           "exercicio": "2021",
