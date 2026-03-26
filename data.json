@@ -42853,7 +42853,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2016": "R$ 6.130,34 EM 29/01/2021",
+        "2016": "PROCESSADA — R$ 6.130,34 EM 29/01/2021",
         "2017": "PROCESSADA — R$0 - JÁ RECEBEU PERDCOMP",
         "2018": "PROCESSADA — R$0 - JÁ RECEBEU PERDCOMP",
         "2019": "PROCESSADA — R$0 - JÁ RECEBEU PERDCOMP",
@@ -42867,6 +42867,13 @@
       "temPer": false,
       "doencaGrave": true,
       "historico": [
+        {
+          "ts": "2026-03-26T10:38:35.664Z",
+          "exercicio": "2016",
+          "de": "R$ 6.130,34 EM 29/01/2021",
+          "para": "PROCESSADA — R$ 6.130,34 EM 29/01/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:38:20.364Z",
           "exercicio": "2017",
@@ -42896,7 +42903,12 @@
           "usuario": "Admin"
         }
       ],
-      "recebimentos": {},
+      "recebimentos": {
+        "2016": {
+          "data": "29/01/2021",
+          "valor": 6130.34
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "exRRA": {},
@@ -70135,6 +70147,15 @@
             "2020": 18109.31
           },
           "total": 56031.2
+        },
+        {
+          "clienteId": "01223811654",
+          "cpfCnpj": "012.238.116-54",
+          "nome": "NILZA CORRÊA DA SILVA BLESER",
+          "porExercicio": {
+            "2016": 6130.34
+          },
+          "total": 6130.34
         }
       ]
     },
