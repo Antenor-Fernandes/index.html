@@ -46361,7 +46361,7 @@
       "senhaGov": "",
       "observacoes": "cobrar proveito econômico de 2025 no valor de 34.420,37",
       "exercicios": {
-        "2016": "FIZEMOS DDA E PER 2017 A 2021 RECEBEU PER",
+        "2016": "PROCESSADA — FIZEMOS DDA E PER 2017 A 2021 RECEBEU PER",
         "2017": "PROCESSADA — 948,51 30/07/2021",
         "2018": "PROCESSADA — 1.310,20 30/07/2021",
         "2019": "PROCESSADA — 1.412,57 30/07/2021",
@@ -46413,6 +46413,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:48:02.398Z",
+          "exercicio": "2016",
+          "de": "FIZEMOS DDA E PER 2017 A 2021 RECEBEU PER",
+          "para": "PROCESSADA — FIZEMOS DDA E PER 2017 A 2021 RECEBEU PER",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:47:52.459Z",
           "exercicio": "2017",
