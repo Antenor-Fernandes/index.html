@@ -10915,10 +10915,16 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2023": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026",
-        "2026": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026"
+        "2023": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026"
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:32:50.497Z",
+          "exercicio": "2026",
+          "de": "IMPUGNAR — IMPUGNAR INTEMPESTIVAMENTE EM MAIO DE 2026",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:32:47.333Z",
           "exercicio": "2023",
@@ -10943,8 +10949,7 @@
       "exPerdcomps": {},
       "exProcessos": {},
       "exAtencao": {
-        "2023": true,
-        "2026": true
+        "2023": true
       }
     },
     {
