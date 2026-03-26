@@ -30356,7 +30356,7 @@
         "2016": "10153,98 em 30/12/2020  - RECEBEU PER EM 21/03/2022",
         "2017": "11614,16 em 30/12/2020 - RECEBEU PER EM 21/03/2022",
         "2018": "13194,08 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
-        "2019": "EM PROCESSAMENTO — 13023,52 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
+        "2019": "PROCESSADA — 13023,52 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
         "2020": "PROCESSADA — 5023,21 EM 30/12/2020",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
@@ -30378,6 +30378,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:22:19.856Z",
+          "exercicio": "2019",
+          "de": "EM PROCESSAMENTO — 13023,52 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
+          "para": "PROCESSADA — 13023,52 EM 30/12/2020 - RECEBEU PER EM 21/03/2022",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:22:14.140Z",
           "exercicio": "2019",
