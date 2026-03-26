@@ -26667,9 +26667,17 @@
       "temRRA": false,
       "exercicios": {
         "2023": "PROCESSADA",
-        "2024": "PROCESSADA"
+        "2024": "PROCESSADA",
+        "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO. SÓ ATENDEMOS A MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-26T15:08:38.412Z",
+          "exercicio": "2025",
+          "de": "",
+          "para": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO. SÓ ATENDEMOS A MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T15:07:38.601Z",
           "exercicio": "2024",
@@ -26695,7 +26703,12 @@
           "valor": 5464.19
         }
       },
-      "dda": {},
+      "dda": {
+        "2025": {
+          "feito": true,
+          "data": "26/03/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
