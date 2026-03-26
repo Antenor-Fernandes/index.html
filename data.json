@@ -19088,10 +19088,34 @@
       "id": "78564905787",
       "cpfCnpj": "785.649.057-87",
       "tipo": "PF",
-      "nome": "GIOVANI DO NASCIMENTO SOUTO (FRANCO 99197-2284)",
-      "acessoEcac": "CERT DIG TGC",
+      "nome": "GIOVANI DO NASCIMENTO SOUTO",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": false,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "CONTATO: FRANCO 99197-2284",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
@@ -19099,17 +19123,6 @@
         "2023": "PROCESSADA — 133,96 EM 30/06/2023",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
-      },
-      "temPer": false,
-      "recebimentos": {
-        "2022": {
-          "data": "30/06/2022",
-          "valor": 493.75
-        },
-        "2023": {
-          "data": "30/06/2023",
-          "valor": 133.96
-        }
       },
       "historico": [
         {
@@ -19120,13 +19133,24 @@
           "usuario": "Admin"
         }
       ],
+      "recebimentos": {
+        "2022": {
+          "data": "30/06/2022",
+          "valor": 493.75
+        },
+        "2023": {
+          "data": "30/06/2023",
+          "valor": 133.96
+        }
+      },
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exAtencao": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "05836779678",
