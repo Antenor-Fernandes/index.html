@@ -31548,8 +31548,7 @@
         "2020": "PROCESSADA — 2.506,02 EM 30/11/2023",
         "2021": "PROCESSADA — 5.194,97 EM 30/11/2023",
         "2022": "PROCESSADA — 5.254,11 EM 30/11/2023",
-        "2023": "PROCESSADA — 6.597,68 EM 30/11/2023",
-        "2024": "CLIENTE QUE FEZ"
+        "2023": "PROCESSADA — 6.597,68 EM 30/11/2023"
       },
       "temPer": false,
       "recebimentos": {
@@ -31573,7 +31572,16 @@
           "data": "30/11/2023",
           "valor": 6597.68
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:23:37.296Z",
+          "exercicio": "2024",
+          "de": "CLIENTE QUE FEZ",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "55994890600",
