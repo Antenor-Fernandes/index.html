@@ -49463,7 +49463,6 @@
         "2018": "R$ 102.069,09 29/07/2022",
         "2019": "PROCESSADA — 93.379,41 - 29/12/2022",
         "2020": "JÁ É ISENTO - NÃO RETIFICAMOS",
-        "2021": "JÁ É ISENTO - NÃO RETIFICAMOS",
         "2022": "PROCESSADA — 1.634,38 31/05/2022",
         "2023": "PROCESSADA — 2.611,94 EM 31/05/2023",
         "2024": "PROCESSADA — 2.633,21 EM 31/05/2024",
@@ -49494,6 +49493,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:56:47.495Z",
+          "exercicio": "2021",
+          "de": "JÁ É ISENTO - NÃO RETIFICAMOS",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:56:38.261Z",
           "exercicio": "2022",
