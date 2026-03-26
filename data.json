@@ -18816,6 +18816,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-26T09:51:22.135Z",
+          "exercicio": "2021",
+          "de": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
+          "para": "PROCESSADA — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-26T09:51:08.866Z",
           "exercicio": "2020",
           "de": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
@@ -18842,7 +18849,8 @@
       "exRRA": {},
       "exGCAP": {},
       "exAtencao": {
-        "2020": true
+        "2020": true,
+        "2021": true
       },
       "exProcessos": {}
     },
