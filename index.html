@@ -30,7 +30,8 @@ body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min
 .stat-val{font-family:'DM Mono',monospace;font-weight:500;color:rgba(255,255,255,.72);font-size:10.5px}
 /* MAIN */
 .main{flex:1;display:flex;flex-direction:column;overflow:hidden}
-.topbar{padding:13px 20px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:10px;background:var(--surface);flex-shrink:0;flex-wrap:wrap}
+.topbar{padding:10px 20px;border-bottom:1px solid var(--border);display:flex;flex-direction:column;gap:8px;background:var(--surface);flex-shrink:0}
+.topbar-sep{width:1px;height:18px;background:var(--border);flex-shrink:0;align-self:center;margin:0 2px}
 .search-wrap{position:relative;width:320px}
 .search-wrap input{width:100%;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:8px 33px 8px 12px;font-size:13px;color:var(--text);font-family:'DM Sans',sans-serif;outline:none;transition:border .15s}
 .search-wrap input:focus{border-color:var(--accent)}
@@ -355,26 +356,29 @@ body.exercicios-level .full-edit-only{display:none!important}
 </aside>
 <!-- MAIN -->
 <div class="main">
-  <div class="topbar" id="topbar" style="flex-direction:column;align-items:stretch;gap:8px">
-    <!-- Linha 1: busca (só em lista/detalhe) -->
-    <div id="topbar-linha1" style="display:flex;align-items:center;gap:10px">
-      <div class="search-wrap">
+  <div class="topbar" id="topbar">
+    <!-- Linha 1: busca + ações -->
+    <div id="topbar-linha1" style="display:flex;align-items:center;gap:8px">
+      <div class="search-wrap" style="flex:1">
         <span class="search-icon">🔍</span>
         <input type="text" id="search-input" placeholder="Nome, CPF/CNPJ, email, telefone, cidade…" oninput="filterClients();if(currentView==='decl')renderDecl()">
       </div>
-    </div>
-    <!-- Linha 2: Novo Cliente + filtros + badges + Lotes + config (sempre visível) -->
-    <div id="topbar-linha2" style="display:flex;align-items:center;gap:6px">
-      <button class="btn btn-primary btn-sm edit-only full-edit-only" onclick="openNewClientModal()" style="flex-shrink:0;white-space:nowrap">＋ Novo Cliente</button>
-      <div class="filter-row" id="filter-chips" style="flex:1"></div>
       <span id="gh-status-badge" class="gh-status" style="display:none"></span>
       <span id="save-indicator" style="display:none;font-size:11.5px;padding:2px 8px;border-radius:10px;font-weight:500"></span>
       <span id="readonly-badge" class="readonly-badge" style="display:none">🔒 Modo Consulta</span>
-      <button class="btn btn-ghost btn-sm" onclick="showView('lotes')" id="btn-lotes" style="flex-shrink:0;white-space:nowrap">📋 Lotes de Restituição</button>
+      <div class="topbar-sep"></div>
+      <button class="btn btn-ghost btn-sm" onclick="showView('lotes')" id="btn-lotes" style="flex-shrink:0;white-space:nowrap">📋 Lotes</button>
       <button class="btn btn-ghost btn-sm" onclick="showRelatorio()" id="btn-relatorio" style="flex-shrink:0;white-space:nowrap">📊 Relatórios</button>
+      <div class="topbar-sep"></div>
       <span id="user-badge" class="user-badge" style="display:none" onclick="openUserOptions()"></span>
       <button class="btn btn-ghost btn-sm" id="btn-equipe" onclick="openUserManager()" title="Gerenciar Equipe" style="display:none">👥</button>
       <button class="btn btn-ghost btn-sm" onclick="openGHConfig()" id="gh-config-btn" title="Configurar GitHub">⚙️</button>
+    </div>
+    <!-- Linha 2: Novo Cliente + filtros agrupados -->
+    <div id="topbar-linha2" style="display:flex;align-items:center;gap:6px;flex-wrap:nowrap">
+      <button class="btn btn-primary btn-sm edit-only full-edit-only" onclick="openNewClientModal()" style="flex-shrink:0;white-space:nowrap">＋ Novo Cliente</button>
+      <div class="topbar-sep"></div>
+      <div class="filter-row" id="filter-chips" style="flex:1;flex-wrap:wrap"></div>
     </div>
   </div>
   <!-- VIEWS -->
@@ -2073,22 +2077,25 @@ function renderTable(list){
 
 // ── FILTER ────────────────────────────────────────────────────────────────────
 function renderFilterChips(){
-  const chips=[
-    {key:'TODOS',  label:'Todos',         cls:'',          icon:''},
-    {key:'PF',     label:'PF',            cls:'',          icon:''},
-    {key:'PJ',     label:'PJ',            cls:'',          icon:''},
-    {key:'DOENCA', label:'Doença Grave',  cls:'dg-chip',   icon:'🩺'},
-    {key:'RRA',    label:'RRA',           cls:'rra-chip',  icon:'📄'},
-    {key:'GCAP',   label:'GCAP',          cls:'',          icon:'📈'},
-    {key:'PER',    label:'PERDCOMP',      cls:'per-chip',  icon:'💰'},
+  const grupo1=[
+    {key:'TODOS',  label:'Todos',  cls:'', icon:''},
+    {key:'PF',     label:'PF',     cls:'', icon:''},
+    {key:'PJ',     label:'PJ',     cls:'', icon:''},
+  ];
+  const grupo2=[
+    {key:'DOENCA', label:'Doença Grave',  cls:'dg-chip',      icon:'🩺'},
+    {key:'RRA',    label:'RRA',           cls:'rra-chip',     icon:'📄'},
+    {key:'GCAP',   label:'GCAP',          cls:'gcap-chip',    icon:'📈'},
+    {key:'PER',    label:'PERDCOMP',      cls:'per-chip',     icon:'💰'},
     {key:'PROC',   label:'PROCESSO',      cls:'proc-chip',    icon:'⚖️'},
     {key:'ATENCAO',label:'ATENÇÃO',       cls:'atencao-chip', icon:'⚠️'},
     {key:'PERR',   label:'<span style="font-size:10px;font-weight:800;letter-spacing:.6px;background:rgba(217,119,6,.15);color:#d97706;border:1px solid rgba(217,119,6,.35);border-radius:4px;padding:1px 5px;margin-right:3px">PER</span>A Receber',cls:'perr-chip',icon:''},
     {key:'MALHA_SEM_DDA', label:'Malha s/ DDA', cls:'malha-chip', icon:'🔴'},
   ];
-  document.getElementById('filter-chips').innerHTML=chips.map(c=>
-    `<div class="filter-chip ${c.cls} ${currentFilter===c.key?'active':''}" onclick="setFilter('${c.key}')" style="display:inline-flex;align-items:center;gap:5px">${c.icon?`<span style="font-size:11px">${c.icon}</span>`:''} ${c.label}</div>`
-  ).join('');
+  const chip=c=>`<div class="filter-chip ${c.cls} ${currentFilter===c.key?'active':''}" onclick="setFilter('${c.key}')" style="display:inline-flex;align-items:center;gap:5px">${c.icon?`<span style="font-size:11px">${c.icon}</span>`:''} ${c.label}</div>`;
+  const sep='<div class="topbar-sep" style="height:16px;margin:0 3px"></div>';
+  document.getElementById('filter-chips').innerHTML=
+    grupo1.map(chip).join('')+sep+grupo2.map(chip).join('');
 }
 function setFilter(k){currentFilter=k;renderFilterChips();filterClients();if(currentView==='decl')renderDecl();}
 // Atualiza a view ativa após qualquer alteração de dados
@@ -3753,24 +3760,6 @@ function renderSidebarStats(){
   const gcapCount=allClients.filter(clientHasGCAP).length;
   const perCount=allClients.filter(clientHasPer).length;
   // Totais financeiros dos PERDCOMPs
-  let finAReceber=0,finRecebido=0,finIndeferido=0,finParcialDiff=0;
-  allClients.forEach(c=>{
-    Object.values(c.exPerdcomps||{}).forEach(arr=>{
-      if(!Array.isArray(arr))return;
-      arr.forEach(p=>{
-        if(p.valorRec>0&&p.dataRec){
-          finRecebido+=p.valorRec;
-          if(p.valorPedido>0&&p.valorRec<(p.valorPedido-0.01))finParcialDiff+=(p.valorPedido-p.valorRec);
-        }else if(p.indeferido){finIndeferido+=p.valorPedido||0;}
-        else if(p.valorPedido>0){finAReceber+=p.valorPedido;}
-      });
-    });
-  });
-  const fmtM=v=>{
-    if(v>=1000000)return'R$ '+(v/1000000).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})+' M';
-    if(v>=1000)return'R$ '+(v/1000).toLocaleString('pt-BR',{minimumFractionDigits:1,maximumFractionDigits:1})+' k';
-    return'R$ '+v.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
-  };
   document.getElementById('sidebar-stats').innerHTML=`
     <div class="stat-row"><span class="stat-label">Total</span><span class="stat-val">${allClients.length}</span></div>
     <div class="stat-row"><span class="stat-label">PF / PJ</span><span class="stat-val">${pf} / ${pj}</span></div>
@@ -3779,12 +3768,6 @@ function renderSidebarStats(){
     <div class="stat-row"><span class="stat-label" style="color:#dc2626">Doença Grave</span><span class="stat-val" style="color:#dc2626">${dg}</span></div>
     <div class="stat-row"><span class="stat-label" style="color:var(--orange)">RRA</span><span class="stat-val" style="color:var(--orange)">${rraCount}</span></div>
     <div class="stat-row"><span class="stat-label" style="color:var(--accent2)">GCAP</span><span class="stat-val" style="color:var(--accent2)">${gcapCount}</span></div>
-    <div style="border-top:1px solid rgba(255,255,255,.1);margin:5px 4px 3px;"></div>
-    <div style="font-size:9.5px;font-weight:700;letter-spacing:.7px;color:rgba(255,255,255,.3);text-transform:uppercase;padding:2px 4px 3px">Financeiro PER</div>
-    <div class="stat-row" title="Total de PERDCOMPs pendentes (transmitidos, sem recebimento)"><span class="stat-label" style="color:var(--yellow)">A receber</span><span class="stat-val" style="color:var(--yellow);font-size:10px">${fmtM(finAReceber)}</span></div>
-    <div class="stat-row" title="Total já creditado via PERDCOMP"><span class="stat-label" style="color:var(--green)">Recebido</span><span class="stat-val" style="color:var(--green);font-size:10px">${fmtM(finRecebido)}</span></div>
-    ${finParcialDiff>0?`<div class="stat-row" title="Diferença não creditada em deferimentos parciais"><span class="stat-label" style="color:#f59e0b">Def. parcial</span><span class="stat-val" style="color:#f59e0b;font-size:10px">${fmtM(finParcialDiff)}</span></div>`:''}
-    ${finIndeferido>0?`<div class="stat-row" title="Total de PERDCOMPs indeferidos pela RFB"><span class="stat-label" style="color:#ef4444">Indeferido</span><span class="stat-val" style="color:#ef4444;font-size:10px">${fmtM(finIndeferido)}</span></div>`:''}
     `;
 }
 
