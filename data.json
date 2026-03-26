@@ -12226,9 +12226,17 @@
       "temPer": false,
       "temRRA": false,
       "exercicios": {
-        "2020": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO - PROCESSADA - JÁ TINHA RECEBIDO A RESTITUIÇÃO NA DECLARAÇÃO ORIGINAL"
+        "2020": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO - PROCESSADA - JÁ TINHA RECEBIDO A RESTITUIÇÃO NA DECLARAÇÃO ORIGINAL"
       },
-      "historico": [],
+      "historico": [
+        {
+          "ts": "2026-03-26T09:35:34.317Z",
+          "exercicio": "2020",
+          "de": "RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO - PROCESSADA - JÁ TINHA RECEBIDO A RESTITUIÇÃO NA DECLARAÇÃO ORIGINAL",
+          "para": "PROCESSADA — RETIFICAMOS PARA NÃO PRESCREVER- FALTA LAUDO - PROCESSADA - JÁ TINHA RECEBIDO A RESTITUIÇÃO NA DECLARAÇÃO ORIGINAL",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {},
       "dda": {},
       "impugnacoes": {},
@@ -12237,7 +12245,9 @@
       "exGCAP": {},
       "exPerdcomps": {},
       "exProcessos": {},
-      "exAtencao": {}
+      "exAtencao": {
+        "2020": true
+      }
     },
     {
       "id": "48804665653",
