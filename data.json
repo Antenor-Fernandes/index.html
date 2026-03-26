@@ -15358,9 +15358,26 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2021": "RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO"
+        "2021": "PROCESSADA — RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T09:39:52.201Z",
+          "exercicio": "2021",
+          "de": "RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO",
+          "para": "PROCESSADA — RETIFICAMOS EM 28/03/2024 - ACOMPANHAR PGTO IMPOSTO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "27599507604",
