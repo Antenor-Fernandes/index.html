@@ -18736,7 +18736,7 @@
         "2019": "RECEBEU 10.902,41 EM 31/01/2024",
         "2020": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 19.739,42 EM 21/11/2025",
         "2021": "JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE - ACOMPANHAR PAGAMENTO - MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025 - 18.103,09 EM 21/11/2025",
-        "2022": "RECEBEU 18.347,11 EM 31/01/2024",
+        "2022": "PROCESSADA — RECEBEU 18.347,11 EM 31/01/2024",
         "2023": "PROCESSADA — 25.269,75 EM 31/10/2025",
         "2024": "PROCESSADA — 36.033,73 EM 31/10/2025",
         "2025": "PROCESSADA — 26.326,27 EM 31/10/2025"
@@ -18771,7 +18771,8 @@
             "dataTransmissao": "12/12/2023",
             "obs": "",
             "dataRec": "20/06/2024",
-            "valorRec": 5662.96
+            "valorRec": 5662.96,
+            "indeferido": false
           }
         ],
         "2023": [
@@ -18786,6 +18787,10 @@
         ]
       },
       "recebimentos": {
+        "2022": {
+          "data": "31/01/2024",
+          "valor": 18347.11
+        },
         "2023": {
           "data": "31/10/2025",
           "valor": 25269.75
@@ -18798,7 +18803,22 @@
           "data": "31/10/2025",
           "valor": 26326.27
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T09:48:55.275Z",
+          "exercicio": "2022",
+          "de": "RECEBEU 18.347,11 EM 31/01/2024",
+          "para": "PROCESSADA — RECEBEU 18.347,11 EM 31/01/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "12845639600",
@@ -58400,6 +58420,15 @@
             "EXPERDCOMP-2020-0": 27778.96
           },
           "total": 27778.96
+        },
+        {
+          "clienteId": "09222766687",
+          "cpfCnpj": "092.227.666-87",
+          "nome": "GILBERTO DE OLIVEIRA LOVALHO",
+          "porExercicio": {
+            "EXPERDCOMP-2022-0": 5662.96
+          },
+          "total": 5662.96
         }
       ]
     },
