@@ -18729,9 +18729,33 @@
       "cpfCnpj": "092.227.666-87",
       "tipo": "PF",
       "nome": "GILBERTO DE OLIVEIRA LOVALHO",
-      "acessoEcac": "CERT DIG TGC",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "Silvan@73",
-      "observacoes": "SENHA GOV.BR Silvan@73 - PER 2022 FEITO EM 12/12/2023  E 2023 EM 23/01/2024 - RECEBEU 1 EM 20/06/2024 e 1 em 20/01/2026 -PER 2020 e 2021 FEITOS EM  27/08/2024 - NÃO TEM PER 2024  - teve despacho decisório per 2019 e 2020 - PEDIDO DE REVISÃO DE OFÍCIO DO INDEFERIMENTO DA MANIFESTAÇÃO DE INCONFORMIDADE FEITO EM 18/11/2025 -  10600.726137/2025-49",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "PER 2022 FEITO EM 12/12/2023  E 2023 EM 23/01/2024 - RECEBEU 1 EM 20/06/2024 e 1 em 20/01/2026 -PER 2020 e 2021 FEITOS EM  27/08/2024 - NÃO TEM PER 2024  - teve despacho decisório per 2019 e 2020 - PEDIDO DE REVISÃO DE OFÍCIO DO INDEFERIMENTO DA MANIFESTAÇÃO DE INCONFORMIDADE FEITO EM 18/11/2025 -  PROCESSO 10600.726137/2025-49",
+      "atencao": true,
+      "temPer": true,
+      "temRRA": false,
       "exercicios": {
         "2019": "PROCESSADA — RECEBEU 10.902,41 EM 31/01/2024",
         "2020": "TRABALHO MANUAL RFB — JÁ TINHA IMPUGNAÇÃO - JUNTAMOS O LAUDO - PROCEDENTE: RECEBEU 19.739,42 EM 21/11/2025",
@@ -18740,83 +18764,6 @@
         "2023": "PROCESSADA — 25.269,75 EM 31/10/2025",
         "2024": "PROCESSADA — 36.033,73 EM 31/10/2025",
         "2025": "PROCESSADA — 26.326,27 EM 31/10/2025"
-      },
-      "temPer": true,
-      "doencaGrave": true,
-      "exPerdcomps": {
-        "2020": [
-          {
-            "numero": "03679.54584.270824.2.2.04-0541",
-            "valorPedido": 4321.34,
-            "dataTransmissao": "27/08/2024",
-            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025, PROCESSO 10600.726137/2025-49",
-            "dataRec": "",
-            "valorRec": 0,
-            "indeferido": false
-          }
-        ],
-        "2021": [
-          {
-            "numero": "31367.51651.270824.2.2.04-3378",
-            "valorPedido": 4869.74,
-            "dataTransmissao": "27/08/2024",
-            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025, PROCESSO 10600.726137/2025-49",
-            "dataRec": "",
-            "valorRec": 0,
-            "indeferido": false
-          }
-        ],
-        "2022": [
-          {
-            "numero": "11633.29684.121223.2.2.04-8610",
-            "valorPedido": 4628.68,
-            "dataTransmissao": "12/12/2023",
-            "obs": "",
-            "dataRec": "20/06/2024",
-            "valorRec": 5662.96,
-            "indeferido": false
-          }
-        ],
-        "2023": [
-          {
-            "numero": "31834.59481.230124.2.2.04-6088",
-            "valorPedido": 4463.45,
-            "dataTransmissao": "23/01/2024",
-            "obs": "",
-            "dataRec": "20/01/2026",
-            "valorRec": 5744.52
-          }
-        ]
-      },
-      "recebimentos": {
-        "2019": {
-          "data": "31/01/2024",
-          "valor": 10902.41
-        },
-        "2020": {
-          "data": "21/11/2025",
-          "valor": 19739.42
-        },
-        "2021": {
-          "data": "21/11/2025",
-          "valor": 18103.9
-        },
-        "2022": {
-          "data": "31/01/2024",
-          "valor": 18347.11
-        },
-        "2023": {
-          "data": "31/10/2025",
-          "valor": 25269.75
-        },
-        "2024": {
-          "data": "31/10/2025",
-          "valor": 36033.73
-        },
-        "2025": {
-          "data": "31/10/2025",
-          "valor": 26326.27
-        }
       },
       "historico": [
         {
@@ -18904,15 +18851,91 @@
           "usuario": "Admin"
         }
       ],
+      "recebimentos": {
+        "2019": {
+          "data": "31/01/2024",
+          "valor": 10902.41
+        },
+        "2020": {
+          "data": "21/11/2025",
+          "valor": 19739.42
+        },
+        "2021": {
+          "data": "21/11/2025",
+          "valor": 18103.9
+        },
+        "2022": {
+          "data": "31/01/2024",
+          "valor": 18347.11
+        },
+        "2023": {
+          "data": "31/10/2025",
+          "valor": 25269.75
+        },
+        "2024": {
+          "data": "31/10/2025",
+          "valor": 36033.73
+        },
+        "2025": {
+          "data": "31/10/2025",
+          "valor": 26326.27
+        }
+      },
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
+      "exPerdcomps": {
+        "2020": [
+          {
+            "numero": "03679.54584.270824.2.2.04-0541",
+            "valorPedido": 4321.34,
+            "dataTransmissao": "27/08/2024",
+            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025, PROCESSO 10600.726137/2025-49",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ],
+        "2021": [
+          {
+            "numero": "31367.51651.270824.2.2.04-3378",
+            "valorPedido": 4869.74,
+            "dataTransmissao": "27/08/2024",
+            "obs": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA  EM 30/04/2025, PROCESSO 10600.726137/2025-49",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ],
+        "2022": [
+          {
+            "numero": "11633.29684.121223.2.2.04-8610",
+            "valorPedido": 4628.68,
+            "dataTransmissao": "12/12/2023",
+            "obs": "",
+            "dataRec": "20/06/2024",
+            "valorRec": 5662.96,
+            "indeferido": false
+          }
+        ],
+        "2023": [
+          {
+            "numero": "31834.59481.230124.2.2.04-6088",
+            "valorPedido": 4463.45,
+            "dataTransmissao": "23/01/2024",
+            "obs": "",
+            "dataRec": "20/01/2026",
+            "valorRec": 5744.52
+          }
+        ]
+      },
+      "exProcessos": {},
       "exAtencao": {
         "2020": true,
         "2021": true
-      },
-      "exProcessos": {}
+      }
     },
     {
       "id": "12845639600",
