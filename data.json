@@ -34663,7 +34663,7 @@
       "exercicios": {
         "2020": "PROCESSADA — 234,36 - 30/06/2020",
         "2021": "PROCESSADA — 234,36 - 31/05/2021",
-        "2022": "105,37 31/05/2022",
+        "2022": "PROCESSADA — 105,37 31/05/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
@@ -34677,8 +34677,28 @@
         "2021": {
           "data": "31/05/2021",
           "valor": 234.36
+        },
+        "2022": {
+          "data": "31/05/2022",
+          "valor": 105.37
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:29:33.819Z",
+          "exercicio": "2022",
+          "de": "105,37 31/05/2022",
+          "para": "PROCESSADA — 105,37 31/05/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "15487105634",
