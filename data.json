@@ -33626,12 +33626,34 @@
         "2019": "59,92 30/11/2022",
         "2020": "46,27 30/11/2022",
         "2021": "221,83 30/11/2022",
-        "2022": "100,97 30/11/2022",
+        "2022": "PROCESSADA — 100,97 30/11/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:27:44.049Z",
+          "exercicio": "2022",
+          "de": "100,97 30/11/2022",
+          "para": "PROCESSADA — 100,97 30/11/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "30/11/2022",
+          "valor": 100.97
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "27507041620",
