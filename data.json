@@ -13611,18 +13611,38 @@
       "observacoes": "",
       "exercicios": {
         "2022": "MALHA DG - DDA FEITO EM 10/11/2023 - 23.478,02EM 31/01/2025",
-        "2023": "MALHA DG - DDA FEITO EM 22/01/2024 - 29.178,85 EM 31/01/2025",
+        "2023": "PROCESSADA — MALHA DG - DDA FEITO EM 22/01/2024 - 29.178,85 EM 31/01/2025",
         "2024": "PROCESSADA — 9.891,50 EM 31/05/2024",
         "2025": "PROCESSADA"
       },
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2023": {
+          "data": "31/01/2025",
+          "valor": 29178.85
+        },
         "2024": {
           "data": "31/05/2024",
           "valor": 9891.5
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T11:02:29.572Z",
+          "exercicio": "2023",
+          "de": "MALHA DG - DDA FEITO EM 22/01/2024 - 29.178,85 EM 31/01/2025",
+          "para": "PROCESSADA — MALHA DG - DDA FEITO EM 22/01/2024 - 29.178,85 EM 31/01/2025",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "97028061604",
@@ -59419,7 +59439,7 @@
           "id": "00124177697",
           "cpfCnpj": "001.241.776-97",
           "nome": "ELIANA ALVES PEREIRA DE LACERDA",
-          "total": 52656.87,
+          "total": 52656.869999999995,
           "porExercicio": {
             "2022": 23478.02,
             "2023": 29178.85
