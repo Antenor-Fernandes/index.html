@@ -32874,7 +32874,7 @@
       "senhaGov": "Mvrm1937*",
       "observacoes": "SENHA GOV.BR Mvrm1937*",
       "exercicios": {
-        "2019": "PERDCOMP 15/04/2020 - 7.930,91",
+        "2019": "PROCESSADA — 15/04/2020 - 7.930,91",
         "2020": "PROCESSADA — R$ 269,18 EM 30/12/2020",
         "2021": "PROCESSADA — 420,30 - 30/12/2021",
         "2022": "PROCESSADA — 69,95 EM 31/05/2024",
@@ -32910,6 +32910,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:26:12.566Z",
+          "exercicio": "2019",
+          "de": "PERDCOMP 15/04/2020 - 7.930,91",
+          "para": "PROCESSADA — 15/04/2020 - 7.930,91",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:25:34.926Z",
           "exercicio": "2020",
