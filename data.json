@@ -47098,7 +47098,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "R$ 1.469,41 USADO PARA COMPENSAÇÃO",
+        "2020": "PROCESSADA — R$ 1.469,41 USADO PARA COMPENSAÇÃO",
         "2021": "PROCESSADA — R$ 1.061,72 - 30/06/2021",
         "2022": "PROCESSADA — R$ 670,49 30/06/2022",
         "2024": "PROCESSADA",
@@ -47106,6 +47106,13 @@
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-26T10:50:31.019Z",
+          "exercicio": "2020",
+          "de": "R$ 1.469,41 USADO PARA COMPENSAÇÃO",
+          "para": "PROCESSADA — R$ 1.469,41 USADO PARA COMPENSAÇÃO",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:50:24.929Z",
           "exercicio": "2021",
