@@ -19086,10 +19086,17 @@
       "doencaGrave": false,
       "temRRA": false,
       "exercicios": {
-        "2024": "EM MALHA — ATENDER A MALHA",
+        "2024": "EM MALHA — ATENDEMOS A INTIMAÇÃO EM 17/03/2026.  JÁ TINHA UM PROCESSO DE MALHA ABERTO E JUNTAMOS OS DOCUMENTOS NELE",
         "2025": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-26T13:25:35.231Z",
+          "exercicio": "2024",
+          "de": "EM MALHA — ATENDER A MALHA",
+          "para": "EM MALHA — ATENDEMOS A INTIMAÇÃO EM 17/03/2026.  JÁ TINHA UM PROCESSO DE MALHA ABERTO E JUNTAMOS OS DOCUMENTOS NELE",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-17T13:11:43.808Z",
           "exercicio": "2024",
@@ -19128,7 +19135,9 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "04497183602",
