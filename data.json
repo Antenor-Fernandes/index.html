@@ -17256,7 +17256,7 @@
       "senhaGov": "",
       "observacoes": "PER 2022 E 2023 FEITOS EM 11/12/2025 E RECEBIDOS EM 20/02/2026",
       "exercicios": {
-        "2020": "RETIFICADA EM 2024 PELA TT Q NÃO ME PASSOU PARA INFORMAR NA PLANILHA - JÁ RECEBEU A RESTITUIÇÃO DE 754,94 EM 31/01/2025 - COBRAR HONORÁRIOS QUANDO RECEBER AS DEMAIS",
+        "2020": "EM PROCESSAMENTO — RETIFICADA EM 2024 PELA TT Q NÃO ME PASSOU PARA INFORMAR NA PLANILHA - JÁ RECEBEU A RESTITUIÇÃO DE 754,94 EM 31/01/2025 - COBRAR HONORÁRIOS QUANDO RECEBER AS DEMAIS",
         "2021": "PROCESSADA — 969,00  EM 30/12/2025",
         "2022": "PROCESSADA — 2.560,60 EM 30/12/2025",
         "2023": "PROCESSADA — 3.512,05 EM 30/12/2025",
@@ -17266,6 +17266,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2020": {
+          "data": "31/01/2025",
+          "valor": 754.94
+        },
         "2021": {
           "data": "30/12/2025",
           "valor": 969
@@ -17286,7 +17290,25 @@
           "data": "30/12/2025",
           "valor": 1394.73
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T09:45:25.553Z",
+          "exercicio": "2020",
+          "de": "RETIFICADA EM 2024 PELA TT Q NÃO ME PASSOU PARA INFORMAR NA PLANILHA - JÁ RECEBEU A RESTITUIÇÃO DE 754,94 EM 31/01/2025 - COBRAR HONORÁRIOS QUANDO RECEBER AS DEMAIS",
+          "para": "EM PROCESSAMENTO — RETIFICADA EM 2024 PELA TT Q NÃO ME PASSOU PARA INFORMAR NA PLANILHA - JÁ RECEBEU A RESTITUIÇÃO DE 754,94 EM 31/01/2025 - COBRAR HONORÁRIOS QUANDO RECEBER AS DEMAIS",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {
+        "2020": true
+      },
+      "exProcessos": {}
     },
     {
       "id": "38801671687",
@@ -56473,6 +56495,15 @@
           "porExercicio": {
             "2020": 657.09
           }
+        },
+        {
+          "clienteId": "38888262687",
+          "cpfCnpj": "388.882.626-87",
+          "nome": "FLORA LÚCIA FERRÃO",
+          "porExercicio": {
+            "2020": 754.94
+          },
+          "total": 754.94
         }
       ]
     },
