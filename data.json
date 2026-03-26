@@ -26665,9 +26665,24 @@
       "atencao": false,
       "temPer": false,
       "temRRA": false,
-      "exercicios": {},
-      "historico": [],
-      "recebimentos": {},
+      "exercicios": {
+        "2023": "PROCESSADA"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T15:07:03.830Z",
+          "exercicio": "2023",
+          "de": "",
+          "para": "PROCESSADA",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2023": {
+          "data": "28/03/2024",
+          "valor": 48250.24
+        }
+      },
       "dda": {},
       "impugnacoes": {},
       "perdcomps": [],
@@ -63029,10 +63044,10 @@
           "id": "01306413672",
           "cpfCnpj": "013.064.136-72",
           "nome": "JOSÉ NUNES PINTO",
-          "total": 53714.43,
+          "total": 96500.48,
           "porExercicio": {
             "2022": 48250.24,
-            "2023": 5464.19
+            "2023": 48250.24
           }
         },
         {
