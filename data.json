@@ -2251,6 +2251,13 @@
       },
       "historico": [
         {
+          "ts": "2026-03-26T16:46:17.425Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — RETIFICAMOS - MALHA PENSÃO - DDA FEITO EM 24/03/2026",
+          "para": "EM MALHA — RETIFICAMOS - MALHA PENSÃO - DDA FEITO EM 24/03/2026",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-26T16:46:00.553Z",
           "exercicio": "2025",
           "de": "EM MALHA",
@@ -2282,6 +2289,10 @@
       "recebimentos": {},
       "dda": {
         "2024": {
+          "feito": true,
+          "data": "24/03/2026"
+        },
+        "2025": {
           "feito": true,
           "data": "24/03/2026"
         },
