@@ -32875,7 +32875,7 @@
       "observacoes": "SENHA GOV.BR Mvrm1937*",
       "exercicios": {
         "2019": "PERDCOMP 15/04/2020 - 7.930,91",
-        "2020": "R$ 269,18 EM 30/12/2020",
+        "2020": "PROCESSADA — R$ 269,18 EM 30/12/2020",
         "2021": "PROCESSADA — 420,30 - 30/12/2021",
         "2022": "PROCESSADA — 69,95 EM 31/05/2024",
         "2023": "PROCESSADA — 2.241,32 EM 31/05/2024",
@@ -32884,6 +32884,10 @@
       },
       "temPer": false,
       "recebimentos": {
+        "2020": {
+          "data": "30/12/2020",
+          "valor": 269.18
+        },
         "2021": {
           "data": "30/12/2021",
           "valor": 420.3
@@ -32904,7 +32908,23 @@
           "data": "30/06/2025",
           "valor": 1994.95
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:25:34.926Z",
+          "exercicio": "2020",
+          "de": "R$ 269,18 EM 30/12/2020",
+          "para": "PROCESSADA — R$ 269,18 EM 30/12/2020",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "50086910663",
