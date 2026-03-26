@@ -19461,7 +19461,7 @@
       "exercicios": {
         "2019": "PROCESSADA DG JÁ RECEBEU PERDCOMP",
         "2020": "R$ 4.278,93 EM 30/12/2020",
-        "2021": "EM PROCESSAMENTO — R$ 304,45 - 30/06/2021",
+        "2021": "PROCESSADA — R$ 304,45 - 30/06/2021",
         "2022": "PROCESSADA — 33.716,92 EM 28/03/2024",
         "2023": "PROCESSADA — 182.310,70 EM 28/03/2024",
         "2024": "PROCESSADA — 1.312,49 EM 31/05/2024",
@@ -19492,6 +19492,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:04:01.958Z",
+          "exercicio": "2021",
+          "de": "EM PROCESSAMENTO — R$ 304,45 - 30/06/2021",
+          "para": "PROCESSADA — R$ 304,45 - 30/06/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:03:54.719Z",
           "exercicio": "2021",
