@@ -46477,8 +46477,7 @@
         "2021": "PROCESSADA — 135.147,47 EM 28/11/2025",
         "2022": "PROCESSADA — 121.771,82 EM 28/11/2025",
         "2023": "PROCESSADA — 103.839,20 EM 28/11/2025",
-        "2024": "PROCESSADA — 102.633,99 EM 28/11/2025",
-        "2025": "ISENTO NA FONTE - CLIENTE QUE VAI FAZER"
+        "2024": "PROCESSADA — 102.633,99 EM 28/11/2025"
       },
       "temPer": false,
       "doencaGrave": true,
@@ -46499,7 +46498,16 @@
           "data": "28/11/2025",
           "valor": 102633.99
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:48:07.780Z",
+          "exercicio": "2025",
+          "de": "ISENTO NA FONTE - CLIENTE QUE VAI FAZER",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "06548383648",
