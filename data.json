@@ -17326,7 +17326,7 @@
       "exercicios": {
         "2020": "R$ 5.364,71 - 31/08/2020",
         "2021": "6.061,55 30/07/2021",
-        "2022": "7.495,71 EM 31/101/2023",
+        "2022": "PROCESSADA — 7.495,71 EM 31/101/2023",
         "2023": "PROCESSADA — 9.979,71 EM 31/10/2023",
         "2024": "PROCESSADA — 8.566,11 EM 28/06/2024",
         "2025": "PROCESSADA — 3.793,98 EM 31/07/2025"
@@ -17334,6 +17334,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2022": {
+          "data": "31/10/2023",
+          "valor": 7495.71
+        },
         "2023": {
           "data": "31/10/2023",
           "valor": 9979.71
@@ -17346,7 +17350,23 @@
           "data": "31/07/2025",
           "valor": 3793.98
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T09:47:03.682Z",
+          "exercicio": "2022",
+          "de": "7.495,71 EM 31/101/2023",
+          "para": "PROCESSADA — 7.495,71 EM 31/101/2023",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "31977901620",
@@ -60245,8 +60265,9 @@
           "id": "38801671687",
           "cpfCnpj": "388.016.716-87",
           "nome": "FRANCISCO DE ASSIS DOS SANTOS",
-          "total": 9979.71,
+          "total": 17475.42,
           "porExercicio": {
+            "2022": 7495.71,
             "2023": 9979.71
           }
         },
