@@ -44662,7 +44662,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "R$ 636,15 EM 29/01/2021 + 416,28 QUE FOI COMPENSADO",
+        "2020": "PROCESSADA — R$ 636,15 EM 29/01/2021 + 416,28 QUE FOI COMPENSADO",
         "2021": "PROCESSADA — 11.355,64 EM 28/04/2023",
         "2022": "PROCESSADA — 11.275,51 EM 28/04/2023",
         "2023": "PROCESSADA — 17.343,90 EM 30/12/2024",
@@ -44672,6 +44672,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2020": {
+          "data": "29/01/2021",
+          "valor": 636.15
+        },
         "2021": {
           "data": "28/04/2023",
           "valor": 11355.64
@@ -44692,7 +44696,23 @@
           "data": "30/06/2025",
           "valor": 18027.24
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:42:56.807Z",
+          "exercicio": "2020",
+          "de": "R$ 636,15 EM 29/01/2021 + 416,28 QUE FOI COMPENSADO",
+          "para": "PROCESSADA — R$ 636,15 EM 29/01/2021 + 416,28 QUE FOI COMPENSADO",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "10857443615",
@@ -70334,6 +70354,15 @@
             "2016": 6130.34
           },
           "total": 6130.34
+        },
+        {
+          "clienteId": "00782602649",
+          "cpfCnpj": "007.826.026-49",
+          "nome": "PAULO DE TARSO BATISTA LOPES",
+          "porExercicio": {
+            "2020": 636.15
+          },
+          "total": 636.15
         }
       ]
     },
