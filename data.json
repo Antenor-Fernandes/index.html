@@ -12703,7 +12703,7 @@
       "temRRA": false,
       "exercicios": {
         "2018": "PROCESSADA — R$ 3.453,15 - 26/02/2021",
-        "2019": "R$ 10.968,45 - 26/02/2021",
+        "2019": "PROCESSADA — R$ 10.968,45 - 26/02/2021",
         "2020": "PROCESSADA - IMPOSTO A PAGAR",
         "2021": "PROCESSADA — 140,24 EM 31/03/2023",
         "2022": "PROCESSADA — 2.214,68 EM 31/03/2023",
@@ -12711,6 +12711,13 @@
         "2024": "EM MALHA — MALHA DG - DDA FEITO EM 21/01/2025"
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:36:39.140Z",
+          "exercicio": "2019",
+          "de": "R$ 10.968,45 - 26/02/2021",
+          "para": "PROCESSADA — R$ 10.968,45 - 26/02/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-16T18:40:18.983Z",
           "exercicio": "2018",
@@ -12753,6 +12760,10 @@
           "data": "26/02/2021",
           "valor": 3453.15
         },
+        "2019": {
+          "data": "26/02/2021",
+          "valor": 10968.45
+        },
         "2021": {
           "data": "31/03/2023",
           "valor": 140.24
@@ -12776,7 +12787,9 @@
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {}
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "00637750691",
@@ -67865,9 +67878,10 @@
           "cpfCnpj": "465.009.106-30",
           "nome": "EDSON FERREIRA MORATO",
           "porExercicio": {
-            "2018": 3453.15
+            "2018": 3453.15,
+            "2019": 10968.45
           },
-          "total": 3453.15
+          "total": 14421.6
         },
         {
           "clienteId": "75830426668",
