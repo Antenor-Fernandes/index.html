@@ -45323,7 +45323,7 @@
         "2019": "NOTIFICAÇÃO DE LANÇAMENTO -IMPUGNAMOS 22/07/2021 - ARQUIVADA - IMPUGNAMOS 30/08/2021 - FIZEMOS PER EM 20/01/2022",
         "2020": "PROCESSADA — 492,62 - 31/01/2022",
         "2021": "PROCESSADA — 131,53 - 31/01/2022",
-        "2022": "592,22 31/05/2022",
+        "2022": "PROCESSADA — 592,22 31/05/2022",
         "2023": "PROCESSADA — 943,36 EM 31/05/2023",
         "2024": "PROCESSADA — 653,87 EM 31/05/2024",
         "2025": "PROCESSADA"
@@ -45339,6 +45339,10 @@
           "data": "31/01/2022",
           "valor": 131.53
         },
+        "2022": {
+          "data": "31/05/2022",
+          "valor": 592.22
+        },
         "2023": {
           "data": "31/05/2023",
           "valor": 943.36
@@ -45347,7 +45351,23 @@
           "data": "31/05/2024",
           "valor": 653.87
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:43:14.476Z",
+          "exercicio": "2022",
+          "de": "592,22 31/05/2022",
+          "para": "PROCESSADA — 592,22 31/05/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "03704149691",
