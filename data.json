@@ -46366,7 +46366,7 @@
         "2018": "1.310,20 30/07/2021",
         "2019": "1.412,57 30/07/2021",
         "2020": "1.382,89 30/07/2021",
-        "2021": "2.379,88 30/07/2021 - fizemos PER",
+        "2021": "PROCESSADA — 2.379,88 30/07/2021 - fizemos PER",
         "2022": "PROCESSADA — 3.066,04 EM 31/10/2024",
         "2023": "PROCESSADA — 3.769,62 EM 31/10/2024",
         "2024": "PROCESSADA — 376,11 EM 30/09/2024",
@@ -46375,6 +46375,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2021": {
+          "data": "30/07/2021",
+          "valor": 2379.88
+        },
         "2022": {
           "data": "31/10/2024",
           "valor": 3066.04
@@ -46391,7 +46395,23 @@
           "data": "27/02/2026",
           "valor": 7348.26
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:46:42.136Z",
+          "exercicio": "2021",
+          "de": "2.379,88 30/07/2021 - fizemos PER",
+          "para": "PROCESSADA — 2.379,88 30/07/2021 - fizemos PER",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "59527005787",
