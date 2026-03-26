@@ -44032,10 +44032,34 @@
       "id": "91491860782",
       "cpfCnpj": "914.918.607-82",
       "tipo": "PF",
-      "nome": "OTTIZA DRUMMOND MAGALHÃES (RECEBEU 61.848,72 DE 2022 E 2023 EM 30/04/2024)",
-      "acessoEcac": "CERT DIG TGC",
+      "nome": "OTTIZA DRUMMOND MAGALHÃES",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
       "observacoes": "FALECIDA EM 2024",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2019": "PROCESSADA — 21.402,90 EM 31/01/2023",
         "2020": "PROCESSADA — 40.136,54 EM 06/12/2022 VIA PROCESSO",
@@ -44044,34 +44068,6 @@
         "2023": "PROCESSADA — RECEBEU EM 30/04/2024",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA — 5,31 EM 27/02/2026"
-      },
-      "temPer": false,
-      "doencaGrave": true,
-      "recebimentos": {
-        "2019": {
-          "data": "31/01/2023",
-          "valor": 21402.9
-        },
-        "2020": {
-          "data": "06/12/2022",
-          "valor": 40136.54
-        },
-        "2021": {
-          "data": "31/01/2023",
-          "valor": 40825.34
-        },
-        "2022": {
-          "data": "30/04/2024",
-          "valor": 0
-        },
-        "2023": {
-          "data": "30/04/2024",
-          "valor": 0
-        },
-        "2025": {
-          "data": "27/02/2026",
-          "valor": 5.31
-        }
       },
       "historico": [
         {
@@ -44103,13 +44099,40 @@
           "usuario": "Admin"
         }
       ],
+      "recebimentos": {
+        "2019": {
+          "data": "31/01/2023",
+          "valor": 21402.9
+        },
+        "2020": {
+          "data": "06/12/2022",
+          "valor": 40136.54
+        },
+        "2021": {
+          "data": "31/01/2023",
+          "valor": 40825.34
+        },
+        "2022": {
+          "data": "30/04/2024",
+          "valor": 0
+        },
+        "2023": {
+          "data": "30/04/2024",
+          "valor": 0
+        },
+        "2025": {
+          "data": "27/02/2026",
+          "valor": 5.31
+        }
+      },
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exAtencao": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "25090534691",
