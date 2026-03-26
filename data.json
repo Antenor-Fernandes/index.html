@@ -45646,12 +45646,34 @@
       "observacoes": "",
       "exercicios": {
         "2021": "PROCESSADA",
-        "2022": "109,59 31/05/2022",
+        "2022": "PROCESSADA — 109,59 31/05/2022",
         "2023": "PROCESSADA",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:45:20.567Z",
+          "exercicio": "2022",
+          "de": "109,59 31/05/2022",
+          "para": "PROCESSADA — 109,59 31/05/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {
+        "2022": {
+          "data": "31/05/2022",
+          "valor": 109.59
+        }
+      },
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "04043583656",
