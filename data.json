@@ -42857,7 +42857,7 @@
         "2017": "R$0 - JÁ RECEBEU PERDCOMP",
         "2018": "R$0 - JÁ RECEBEU PERDCOMP",
         "2019": "R$0 - JÁ RECEBEU PERDCOMP",
-        "2020": "R$0 - JÁ RECEBEU PERDCOMP",
+        "2020": "PROCESSADA — R$0 - JÁ RECEBEU PERDCOMP",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
         "2023": "PROCESSADA",
@@ -42865,7 +42865,24 @@
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:38:03.961Z",
+          "exercicio": "2020",
+          "de": "R$0 - JÁ RECEBEU PERDCOMP",
+          "para": "PROCESSADA — R$0 - JÁ RECEBEU PERDCOMP",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "91458706672",
