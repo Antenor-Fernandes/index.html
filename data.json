@@ -36017,7 +36017,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2016": "R$ 29.119,45 - 30/11/2020 -JÁ RECEBEU PERDCOMP",
+        "2016": "PROCESSADA — R$ 29.119,45 - 30/11/2020 -JÁ RECEBEU PERDCOMP",
         "2017": "PROCESSADA — R$ 30.317,49 - 30/11/2020 -JÁ RECEBEU PERDCOMP",
         "2018": "PROCESSADA — R$ 31.798,31 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
         "2019": "PROCESSADA — R$ 31.993,98 - 30/11/2020 - JÁ RECEBEU PERDCOMP",
@@ -36031,6 +36031,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2016": {
+          "data": "30/11/2020",
+          "valor": 29119.45
+        },
         "2017": {
           "data": "30/11/2020",
           "valor": 31317.49
@@ -36069,6 +36073,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:33:03.209Z",
+          "exercicio": "2016",
+          "de": "R$ 29.119,45 - 30/11/2020 -JÁ RECEBEU PERDCOMP",
+          "para": "PROCESSADA — R$ 29.119,45 - 30/11/2020 -JÁ RECEBEU PERDCOMP",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:32:51.273Z",
           "exercicio": "2017",
@@ -69943,12 +69954,13 @@
           "cpfCnpj": "008.203.006-59",
           "nome": "MARIA ELEONORA DA CUNHA PEREIRA SAAVEDRA",
           "porExercicio": {
+            "2016": 29119.45,
             "2017": 31317.49,
             "2018": 31798.31,
             "2019": 31993.98,
             "2020": 35310.45
           },
-          "total": 130420.23
+          "total": 159539.68
         }
       ]
     },
