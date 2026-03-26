@@ -23171,13 +23171,17 @@
         "2019": "PROCESSADA",
         "2020": "R$ 39,17 31/08/2021",
         "2021": "R$ 163,24 31/08/2021",
-        "2022": "R$ 222,00 30/06/2022",
+        "2022": "EM PROCESSAMENTO — R$ 222,00 30/06/2022",
         "2023": "PROCESSADA — 277,70 EM 31/07/2023",
         "2024": "PROCESSADA — 314,50 EM 30/08/2024",
         "2025": "PROCESSADA — 236,65 EM 30/06/2025"
       },
       "temPer": false,
       "recebimentos": {
+        "2022": {
+          "data": "30/06/2022",
+          "valor": 222
+        },
         "2023": {
           "data": "31/07/2023",
           "valor": 277.7
@@ -23190,7 +23194,23 @@
           "data": "30/06/2025",
           "valor": 236.65
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:12:14.864Z",
+          "exercicio": "2022",
+          "de": "R$ 222,00 30/06/2022",
+          "para": "EM PROCESSAMENTO — R$ 222,00 30/06/2022",
+          "usuario": "Admin"
+        }
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "01661371620",
