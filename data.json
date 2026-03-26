@@ -11581,7 +11581,8 @@
         "2022": "PROCESSADA — 7.757,39 31/05/2022",
         "2023": "PROCESSADA — 9.794,18 EM 30/06/2023",
         "2024": "PROCESSADA — 14.199,17 EM 28/06/2024",
-        "2025": "PROCESSADA — 15.090,10 EM 30/06/2025"
+        "2025": "PROCESSADA — 15.090,10 EM 30/06/2025",
+        "2026": "TRANSMITIDA"
       },
       "temPer": false,
       "recebimentos": {
@@ -11611,6 +11612,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T17:56:26.149Z",
+          "exercicio": "2026",
+          "de": "",
+          "para": "TRANSMITIDA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:33:54.338Z",
           "exercicio": "2022",
