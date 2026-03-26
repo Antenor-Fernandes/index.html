@@ -13145,7 +13145,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "R$ 1.427,12 - 30/09/2020",
+        "2020": "EM PROCESSAMENTO — R$ 1.427,12 - 30/09/2020",
         "2021": "PROCESSADA — R$ 1.847,62 31/08/2021",
         "2022": "PROCESSADA — R$ 4.470,35 29/07/2022",
         "2023": "PROCESSADA — 5.772,82 EM 31/08/2023",
@@ -13154,6 +13154,10 @@
       },
       "temPer": false,
       "recebimentos": {
+        "2020": {
+          "data": "30/09/2020",
+          "valor": 1427.12
+        },
         "2021": {
           "data": "31/08/2021",
           "valor": 1847.62
@@ -13176,6 +13180,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:37:36.973Z",
+          "exercicio": "2020",
+          "de": "R$ 1.427,12 - 30/09/2020",
+          "para": "EM PROCESSAMENTO — R$ 1.427,12 - 30/09/2020",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:37:22.258Z",
           "exercicio": "2021",
@@ -68118,7 +68129,7 @@
           "id": "03198007682",
           "cpfCnpj": "031.980.076-82",
           "nome": "EDUARDO JOSÉ DA SILVA",
-          "total": null,
+          "total": 1427.12,
           "porExercicio": {
             "2020": 1427.12
           }
