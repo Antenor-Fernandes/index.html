@@ -46473,7 +46473,7 @@
       "senhaGov": "",
       "observacoes": "CONTRATO 15%",
       "exercicios": {
-        "2020": "NL - IMPUGNAR INTEMPESTIVAMENTE APÓS 22/02/2025 - IMPUGNAMOS EM 25/02/2025 - 104244,93 EM 20/08/2025",
+        "2020": "PROCESSADA — NL - IMPUGNAR INTEMPESTIVAMENTE APÓS 22/02/2025 - IMPUGNAMOS EM 25/02/2025 - 104244,93 EM 20/08/2025",
         "2021": "PROCESSADA — 135.147,47 EM 28/11/2025",
         "2022": "PROCESSADA — 121.771,82 EM 28/11/2025",
         "2023": "PROCESSADA — 103.839,20 EM 28/11/2025",
@@ -46482,6 +46482,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2020": {
+          "data": "20/08/2025",
+          "valor": 104244.93
+        },
         "2021": {
           "data": "28/11/2025",
           "valor": 135147.47
@@ -46501,13 +46505,27 @@
       },
       "historico": [
         {
+          "ts": "2026-03-26T10:48:29.596Z",
+          "exercicio": "2020",
+          "de": "NL - IMPUGNAR INTEMPESTIVAMENTE APÓS 22/02/2025 - IMPUGNAMOS EM 25/02/2025 - 104244,93 EM 20/08/2025",
+          "para": "PROCESSADA — NL - IMPUGNAR INTEMPESTIVAMENTE APÓS 22/02/2025 - IMPUGNAMOS EM 25/02/2025 - 104244,93 EM 20/08/2025",
+          "usuario": "Admin"
+        },
+        {
           "ts": "2026-03-26T10:48:07.780Z",
           "exercicio": "2025",
           "de": "ISENTO NA FONTE - CLIENTE QUE VAI FAZER",
           "para": "(removido)",
           "usuario": "Admin"
         }
-      ]
+      ],
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "06548383648",
@@ -56565,6 +56583,21 @@
             "EXPROCESSO-2023-0": 37234.8
           },
           "total": 72843.67000000001
+        }
+      ]
+    },
+    {
+      "data": "20/08/2025",
+      "descricao": "Lote 20/08/2025",
+      "pagamentos": [
+        {
+          "clienteId": "59527005787",
+          "cpfCnpj": "595.270.057-87",
+          "nome": "RAPHAEL BARRETO COUTO",
+          "porExercicio": {
+            "2020": 104244.93
+          },
+          "total": 104244.93
         }
       ]
     },
