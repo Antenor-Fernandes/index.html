@@ -10724,7 +10724,6 @@
       "observacoes": "",
       "exercicios": {
         "2017": "NÃO RETIFICAMOS - NÃO TEVE IMPOSTO RETIDO NEM A PAGAR",
-        "2018": "NÃO RETIFICAMOS - NÃO TEVE IMPOSTO RETIDO NEM A PAGAR",
         "2019": "PROCESSADA — R$ 9.139,89 31/08/2021",
         "2020": "PROCESSADA — R$ 23.953,61 31/08/2021",
         "2021": "PROCESSADA — R$ 26.273,81 31/08/2021",
@@ -10766,6 +10765,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T09:30:48.077Z",
+          "exercicio": "2018",
+          "de": "NÃO RETIFICAMOS - NÃO TEVE IMPOSTO RETIDO NEM A PAGAR",
+          "para": "(removido)",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T09:30:37.717Z",
           "exercicio": "2019",
