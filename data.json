@@ -35260,7 +35260,6 @@
       "exercicios": {
         "2016": "PROCESSADA",
         "2017": "PROCESSADA",
-        "2019": "ISENTA NA FONTE",
         "2020": "PROCESSADA — 2.963,16 EM 30/04/2024",
         "2021": "PROCESSADA — 5.206,18 EM 30/04/2024",
         "2022": "PROCESSADA — 4.730,30 EM 30/04/2024",
@@ -35295,7 +35294,16 @@
           "data": "30/05/2025",
           "valor": 3856.76
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:31:06.236Z",
+          "exercicio": "2019",
+          "de": "ISENTA NA FONTE",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "69283141687",
