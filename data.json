@@ -41699,7 +41699,6 @@
       "senhaGov": "",
       "observacoes": "PER 2021 E 2022 FEITOS EM 31/10/2023 RECEBIDOS EM 20/08/2024",
       "exercicios": {
-        "2019": "sem irrf",
         "2020": "PROCESSADA — 3.147,97 EM 30/04/2024",
         "2021": "PROCESSADA — 7.920,93 EM 30/04/2024",
         "2022": "PROCESSADA — 8.953,66 EM 30/04/2024",
@@ -41734,7 +41733,16 @@
           "data": "30/05/2025",
           "valor": 415.09
         }
-      }
+      },
+      "historico": [
+        {
+          "ts": "2026-03-26T10:36:53.484Z",
+          "exercicio": "2019",
+          "de": "sem irrf",
+          "para": "(removido)",
+          "usuario": "Admin"
+        }
+      ]
     },
     {
       "id": "24183202604",
