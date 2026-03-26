@@ -25456,7 +25456,7 @@
       "exercicios": {
         "2017": "TRABALHADA PELA MALHA - 19582,84",
         "2018": "19783,73 - EM 29/01/2021",
-        "2019": "EM PROCESSAMENTO — 18138,16 - EM 29/01/2021",
+        "2019": "PROCESSADA — 18138,16 - EM 29/01/2021",
         "2020": "PROCESSADA — 18109,31 - EM 29/01/2021",
         "2021": "PROCESSADA — 27.926,99 EM 28/02/2023",
         "2022": "PROCESSADA — 26.161,99 EM 28/02/2023",
@@ -25489,6 +25489,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:15:18.238Z",
+          "exercicio": "2019",
+          "de": "EM PROCESSAMENTO — 18138,16 - EM 29/01/2021",
+          "para": "PROCESSADA — 18138,16 - EM 29/01/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:15:12.986Z",
           "exercicio": "2019",
