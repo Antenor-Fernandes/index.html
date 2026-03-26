@@ -39534,11 +39534,28 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2020": "PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 10/12/2024 - DEFERIDO",
+        "2020": "PROCESSADA — PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 10/12/2024 - DEFERIDO",
         "2024": "PROCESSADA",
         "2025": "PROCESSADA"
       },
-      "temPer": false
+      "temPer": false,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:34:10.679Z",
+          "exercicio": "2020",
+          "de": "PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 10/12/2024 - DEFERIDO",
+          "para": "PROCESSADA — PEDIDO DE REVISÃO DE DÉBITO NA PGFN FEITO EM 10/12/2024 - DEFERIDO",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "10255336667",
