@@ -45312,10 +45312,34 @@
       "id": "55612440600",
       "cpfCnpj": "556.124.406-00",
       "tipo": "PF",
-      "nome": "PEDRO BATISTA AVELINO (MAIS 12 PER DE PARCELAMENTO)",
-      "acessoEcac": "CERT DIG TGC",
+      "nome": "PEDRO BATISTA AVELINO",
+      "rg": "",
+      "nacionalidade": "",
+      "profissao": "",
+      "estadoCivil": "",
+      "telefone": "",
+      "email": "",
+      "logradouro": "",
+      "numeroEnd": "",
+      "complemento": "",
+      "bairro": "",
+      "cidade": "",
+      "uf": "",
+      "cep": "",
+      "acessoEcac": "",
       "senhaGov": "",
-      "observacoes": "VER INDEFERIMENTO DOS PER",
+      "procurador": "",
+      "dataContrato": "",
+      "honorarios": "",
+      "objeto": "",
+      "doencaGrave": true,
+      "laudo": false,
+      "dataAposentadoria": "",
+      "diagnostico": "",
+      "observacoes": "",
+      "atencao": false,
+      "temPer": false,
+      "temRRA": false,
       "exercicios": {
         "2016": "PEDIDO DE REVISÃO DE DÉBITO - PGFN 22/07/2021 - FIZEMOS NOVAMENTE EM 24/11/2021 - DÉBITO CANCELADO",
         "2017": "REVISÃO DE OFÍCIO - DEFERIDA RESTITUIÇÃO DE R$3.166,56 E CANCELAMENTO DO DÉBITO - FIZEMOS PER EM 20/01/2022",
@@ -45328,8 +45352,22 @@
         "2024": "PROCESSADA — 653,87 EM 31/05/2024",
         "2025": "PROCESSADA"
       },
-      "temPer": false,
-      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:43:23.712Z",
+          "exercicio": "2019",
+          "de": "NOTIFICAÇÃO DE LANÇAMENTO -IMPUGNAMOS 22/07/2021 - ARQUIVADA - IMPUGNAMOS 30/08/2021 - FIZEMOS PER EM 20/01/2022",
+          "para": "PROCESSADA — NOTIFICAÇÃO DE LANÇAMENTO -IMPUGNAMOS 22/07/2021 - ARQUIVADA - IMPUGNAMOS 30/08/2021 - FIZEMOS PER EM 20/01/2022",
+          "usuario": "Admin"
+        },
+        {
+          "ts": "2026-03-26T10:43:14.476Z",
+          "exercicio": "2022",
+          "de": "592,22 31/05/2022",
+          "para": "PROCESSADA — 592,22 31/05/2022",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {
         "2020": {
           "data": "31/01/2022",
@@ -45352,29 +45390,14 @@
           "valor": 653.87
         }
       },
-      "historico": [
-        {
-          "ts": "2026-03-26T10:43:23.712Z",
-          "exercicio": "2019",
-          "de": "NOTIFICAÇÃO DE LANÇAMENTO -IMPUGNAMOS 22/07/2021 - ARQUIVADA - IMPUGNAMOS 30/08/2021 - FIZEMOS PER EM 20/01/2022",
-          "para": "PROCESSADA — NOTIFICAÇÃO DE LANÇAMENTO -IMPUGNAMOS 22/07/2021 - ARQUIVADA - IMPUGNAMOS 30/08/2021 - FIZEMOS PER EM 20/01/2022",
-          "usuario": "Admin"
-        },
-        {
-          "ts": "2026-03-26T10:43:14.476Z",
-          "exercicio": "2022",
-          "de": "592,22 31/05/2022",
-          "para": "PROCESSADA — 592,22 31/05/2022",
-          "usuario": "Admin"
-        }
-      ],
       "dda": {},
       "impugnacoes": {},
+      "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exAtencao": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "03704149691",
