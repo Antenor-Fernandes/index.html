@@ -30126,7 +30126,7 @@
       "senhaGov": "",
       "observacoes": "",
       "exercicios": {
-        "2019": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA PELA CX CORPORATIVA EM 24/11/2021 - 15504.722135/2020-88 - PER PAGO EM 22/01/2024",
+        "2019": "PROCESSADA — MANIFESTAÇÃO DE INCONFORMIDADE FEITA PELA CX CORPORATIVA EM 24/11/2021 - 15504.722135/2020-88 - PER PAGO EM 22/01/2024",
         "2020": "PROCESSADA",
         "2021": "PROCESSADA",
         "2022": "PROCESSADA",
@@ -30135,7 +30135,24 @@
         "2025": "PROCESSADA"
       },
       "temPer": false,
-      "doencaGrave": true
+      "doencaGrave": true,
+      "historico": [
+        {
+          "ts": "2026-03-26T10:21:52.870Z",
+          "exercicio": "2019",
+          "de": "MANIFESTAÇÃO DE INCONFORMIDADE FEITA PELA CX CORPORATIVA EM 24/11/2021 - 15504.722135/2020-88 - PER PAGO EM 22/01/2024",
+          "para": "PROCESSADA — MANIFESTAÇÃO DE INCONFORMIDADE FEITA PELA CX CORPORATIVA EM 24/11/2021 - 15504.722135/2020-88 - PER PAGO EM 22/01/2024",
+          "usuario": "Admin"
+        }
+      ],
+      "recebimentos": {},
+      "dda": {},
+      "impugnacoes": {},
+      "exRRA": {},
+      "exGCAP": {},
+      "exPerdcomps": {},
+      "exAtencao": {},
+      "exProcessos": {}
     },
     {
       "id": "01315854287",
