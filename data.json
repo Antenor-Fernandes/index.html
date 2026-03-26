@@ -46362,7 +46362,7 @@
       "observacoes": "cobrar proveito econômico de 2025 no valor de 34.420,37",
       "exercicios": {
         "2016": "FIZEMOS DDA E PER 2017 A 2021 RECEBEU PER",
-        "2017": "948,51 30/07/2021",
+        "2017": "PROCESSADA — 948,51 30/07/2021",
         "2018": "PROCESSADA — 1.310,20 30/07/2021",
         "2019": "PROCESSADA — 1.412,57 30/07/2021",
         "2020": "PROCESSADA — 1.382,89 30/07/2021",
@@ -46375,6 +46375,10 @@
       "temPer": false,
       "doencaGrave": true,
       "recebimentos": {
+        "2017": {
+          "data": "30/07/2021",
+          "valor": 948.51
+        },
         "2018": {
           "data": "30/07/2021",
           "valor": 1310.2
@@ -46409,6 +46413,13 @@
         }
       },
       "historico": [
+        {
+          "ts": "2026-03-26T10:47:52.459Z",
+          "exercicio": "2017",
+          "de": "948,51 30/07/2021",
+          "para": "PROCESSADA — 948,51 30/07/2021",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-26T10:47:34.255Z",
           "exercicio": "2018",
