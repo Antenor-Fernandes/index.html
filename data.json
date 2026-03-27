@@ -52927,7 +52927,7 @@
       "dataContrato": "",
       "honorarios": "",
       "objeto": "",
-      "doencaGrave": false,
+      "doencaGrave": true,
       "laudo": false,
       "dataAposentadoria": "",
       "diagnostico": "",
