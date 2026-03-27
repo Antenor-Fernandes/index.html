@@ -38779,10 +38779,17 @@
       "observacoes": "",
       "exercicios": {
         "2024": "EM MALHA — ATENDEMOS INTIMAÇÃO EM 01/09/2025",
-        "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026"
+        "2025": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FIZEMOS A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026"
       },
       "temPer": false,
       "historico": [
+        {
+          "ts": "2026-03-27T13:48:22.456Z",
+          "exercicio": "2025",
+          "de": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FAZER A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026",
+          "para": "EM MALHA — NÃO FOMOS NÓS QUE FIZEMOS A DECLARAÇÃO - FIZEMOS A ANTECIPAÇÃO DA MALHA - DDA FEITO EM 25/02/2026",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-19T17:05:17.134Z",
           "exercicio": "2024",
@@ -38813,7 +38820,8 @@
       "exRRA": {},
       "exGCAP": {},
       "exPerdcomps": {},
-      "exProcessos": {}
+      "exProcessos": {},
+      "exAtencao": {}
     },
     {
       "id": "68392478649",
