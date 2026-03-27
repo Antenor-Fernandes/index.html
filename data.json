@@ -52937,9 +52937,17 @@
       "temRRA": false,
       "exercicios": {
         "2022": "EM MALHA",
-        "2023": "EM MALHA"
+        "2023": "EM MALHA",
+        "2024": "EM MALHA"
       },
       "historico": [
+        {
+          "ts": "2026-03-27T12:48:39.879Z",
+          "exercicio": "2024",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        },
         {
           "ts": "2026-03-27T12:47:32.185Z",
           "exercicio": "2023",
@@ -52964,6 +52972,10 @@
         "2023": {
           "feito": true,
           "data": "27/03/2026"
+        },
+        "2024": {
+          "feito": true,
+          "data": "27/03/2026"
         }
       },
       "impugnacoes": {},
@@ -52986,6 +52998,17 @@
           {
             "numero": "33490.29694.270326.2.2.04-1207",
             "valorPedido": 12702.44,
+            "dataTransmissao": "27/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ],
+        "2024": [
+          {
+            "numero": "04958.64855.270326.2.2.04-8823",
+            "valorPedido": 15293.04,
             "dataTransmissao": "27/03/2026",
             "obs": "",
             "dataRec": "",
