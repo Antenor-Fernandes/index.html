@@ -52935,15 +52935,42 @@
       "atencao": false,
       "temPer": false,
       "temRRA": false,
-      "exercicios": {},
-      "historico": [],
+      "exercicios": {
+        "2022": "EM MALHA"
+      },
+      "historico": [
+        {
+          "ts": "2026-03-27T12:46:12.934Z",
+          "exercicio": "2022",
+          "de": "",
+          "para": "EM MALHA",
+          "usuario": "Admin"
+        }
+      ],
       "recebimentos": {},
-      "dda": {},
+      "dda": {
+        "2022": {
+          "feito": true,
+          "data": "27/03/2026"
+        }
+      },
       "impugnacoes": {},
       "perdcomps": [],
       "exRRA": {},
       "exGCAP": {},
-      "exPerdcomps": {},
+      "exPerdcomps": {
+        "2022": [
+          {
+            "numero": "11136.92751.270326.2.2.04-7763",
+            "valorPedido": 10551.04,
+            "dataTransmissao": "27/03/2026",
+            "obs": "",
+            "dataRec": "",
+            "valorRec": 0,
+            "indeferido": false
+          }
+        ]
+      },
       "exProcessos": {},
       "exAtencao": {}
     },
